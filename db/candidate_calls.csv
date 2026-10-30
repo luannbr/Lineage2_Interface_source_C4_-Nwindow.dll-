@@ -1,0 +1,6 @@
+# Methods whose CALL SHAPE changed in this client although the function is the same one: a category D function (db/fmap.csv)
+# whose base body calls one of them is copied anyway (tools/port/gen.py, "candidate") against the new declaration, and kept only
+# if the judges find nothing (tools/port/demote_data.py demotes a candidate for any difference, notes do not apply).
+method,reason
+SetPosition,"NCWnd::SetPosition became a virtual (slot 40) with three more arguments (bPin, PinX, PinY: 0, 0, 3 by default): 238 base functions (216 KB) are category D only for the pushes and the indirect call"
+FindTexture,"NCObject::FindTexture takes a second argument (bFallback = 1) in C4: its callers have one more push; 295 base functions (212 KB) are category D partly for it"

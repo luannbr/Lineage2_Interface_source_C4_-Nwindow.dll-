@@ -1,0 +1,6 @@
+# Stock functions no path of the game reaches in hook mode: every caller is ours (or an EH
+# funclet of ours) and the vtables that list them are the original's, which no object uses any
+# more. tools/build_db.py gives them status morto with this reason, and warns (keeping them
+# todo) when a caller in the original shows up. See docs/notas/Restante.md. (C2 addresses; the
+# C1 list is db/c1/morto.csv.)
+va,reason

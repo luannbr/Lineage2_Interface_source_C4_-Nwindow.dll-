@@ -1,0 +1,36 @@
+# The flags of tools/port/check_literals.py that were read against the stock function and are not bugs (wave C, audit lane).
+# One line per flag: file|va name|the literal(s) the stock function does not use|reason. A changed literal set is a new line (look at it again).
+# `python tools/port/check_literals.py --update --reason WORD` rewrites the list from the tree (existing reasons are kept); read the stock first.
+#
+# reasons
+#   table    a global table or structure the stock reads from a field of it, not from its base: the literal is the base the header names and the
+#            stock's address is base + the offset of the element it reads
+#              GChatPrefix 0x1023DBB8, pairs of 8 bytes (BrowseTellNames reads 0x1023DBC8 = pair 2, SAY2_Tell; OnTabClick / OnEditCommand pairs 3 .. 9)
+#              GCoolTimeTextures 0x102C1FC4 / GCoolTimeEndTextures 0x102C1FD0, TArray<UTexture*>: the stock reads Num at +4 (0x102C1FC8 / 0x102C1FD4)
+#              GDebugCategories 0x10244660 (0x48 bytes each): LoadCategories keeps 0x102446A0 = base + 0x40 in ebp and uses `lea ecx, [ebp - 0x40]`
+#              GHtmlTagInfo 0x10234020 (12 bytes each): FindAttr reads +4 (Attrs) and +8 (NumAttrs) of the tag's entry
+#   inlined  our body (or a helper of ours it calls) repeats the body of a function that the stock calls, and the stock function is hooked itself
+#              NChatUser::GetDecodedName = NMsnFriend::GetDisplayName 0x101510D0 (Nick +0x2C, NickDecoded +0x38, a 0x208-byte buffer, the URL decode
+#              0x10168CC0 (source, destination)): each of the eight units below calls 0x101510D0 in the stock
+#              NCQuestGaraTreeWnd::ClearMark = the body of 0x100EC100 (GConsole+0x3BF4, +0x170, +0xE8, +0x1B4 cleared, this+0xFC / +0xFD cleared), which
+#              OnMarkCheckBox tail-calls in the stock
+#              NCAbnormalStatusWndExt::AddStatus2 / SetExtraStatus (NConsoleWndMisc.cpp) = NCAbnormalStatusWnd::AddStatus2 0x10115CB0 / SetExtraStatus
+#              0x10117A70, read instruction by instruction (the 0x1C58 record, +0x1B24 level, +0x1C48 time, +0x1B20 id, +0x1B40, +0x14 name, +0x914
+#              description, the tool tip fill 0x10030770, +0x214 the enchant name of SetExtraStatus): the stock calls the hooked originals
+src/nwindow/ChatBox.cpp|10141220 ChatBox::AddMessage|10168cc0|inlined
+src/nwindow/ChatWnd.cpp|1013e4d0 ChatWnd::GetWarningMsg|10168cc0|inlined
+src/nwindow/ChatWnd.cpp|101413c0 ChatWnd::OnPaint|10168cc0|inlined
+src/nwindow/ChatWnd.cpp|10141880 ChatWnd::RefreshRoster|10168cc0|inlined
+src/nwindow/FriendBox.cpp|10140180 FriendBox::AddUser|10168cc0|inlined
+src/nwindow/InviteWnd.cpp|10143960 InviteWnd::FillFriends|10168cc0|inlined
+src/nwindow/NCChatWnd.cpp|10054380 NCChatWnd::BrowseTellNames|1023dbb8|table
+src/nwindow/NCChatWnd.cpp|10056ec0 NCChatWnd::OnTabClick|1023dbb8|table
+src/nwindow/NCChatWnd.cpp|1005a350 NCChatWnd::OnEditCommand|1023dbb8|table
+src/nwindow/NCCoolTimeIcon.cpp|1001eba0 NCCoolTimeIcon::SetTime|102c1fc4|table
+src/nwindow/NCCoolTimeIcon.cpp|1001ece0 NCCoolTimeIcon::StartFlash|102c1fd0|table
+src/nwindow/NCDebugWnd.cpp|10084850 NCDebugWnd::LoadCategories|10244660|table
+src/nwindow/NCQuestGaraTreeWnd.cpp|100ec5e0 NCQuestGaraTreeWnd::OnMarkCheckBox|102c39f4|inlined
+src/nwindow/NCTaiwanIME.cpp|1001b2b0 NCTaiwanIME::ReadCandList|10004020|callee
+src/nwindow/NHtmlParser.cpp|1003ab00 NHtmlTagTable::FindAttr|10234020|table
+src/nwindow/SwitchboardSession.cpp|101408f0 NMsnChatOps::ShowJoinNotice|10168cc0|inlined
+src/nwindow/SwitchboardSession.cpp|10140a30 NMsnChatOps::ShowLeaveNotice|10168cc0|inlined

@@ -1,0 +1,5 @@
+# Exact text of a generated file this client needs another way (tools/port/gen.py applies them after rendering).
+# file,old,new,note   ("\n" in old/new is a line break)
+file,old,new,note
+NL2Font.h,"    TArray<UObject**> GlobalObjects;    // +0x28","    TArray<UObject**> GlobalObjects;    // +0x34 (C3 +0x28: UObject grew by 0xC)","UObject is 0x34 in the C4 Engine (docs/notas/C4_Fundacao_Engine.md); the stock AddGlobalObject reads this+0x34"
+NL2Font.h,"NW_ASSERT_OFFSET(UGlobalTempObjects, GlobalObjects, 0x28);","NW_ASSERT_OFFSET(UGlobalTempObjects, GlobalObjects, 0x34);","see above"

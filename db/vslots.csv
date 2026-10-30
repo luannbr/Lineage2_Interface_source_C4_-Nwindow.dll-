@@ -1,0 +1,4 @@
+# Hand-named virtual slots of the C3 vtables (class,slot,name): named once, inherited by every
+# override in the subclasses (tools/build_db.py). Remapped from the C2 list (db/c2/vslots.csv) with
+# the C2 -> C3 slot map (tools/port/vslots.py); add C3-only names here by hand.
+class,slot,name

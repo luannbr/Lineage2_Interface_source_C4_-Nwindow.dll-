@@ -1,0 +1,10 @@
+# Phase 6 (docs/notas/Fase6.md of the C1 project): the classes only the NWindowL2 build registers, on top of the
+# stock ones - declared with NW_DECLARE_L2_CLASS / NW_DECLARE_L2_ABSTRACT_CLASS in include/features, registered with
+# NW_IMPLEMENT_L2_CLASS (include/features/NwL2Class.h), each exporting its autoclass<class> after the stock ordinals.
+# tools/verify_standalone.py (--l2, and its "source" check always) and tools/smoke_standalone.py --l2 accept exactly
+# these; the faithful NWindowStandalone has none. class_flags: the IMPLEMENT's (1 = CLASS_Abstract).
+#
+# C2: empty. The eight NCRecipe*Wnd classes this list held in the C1 project (the "craft" feature) are STOCK classes of
+# the C2 image (analysis/classes.json, 225 of them), declared with NW_DECLARE_CLASS and registered like any other;
+# phase 6 is out of scope here (docs/PLANO_C2.md, item 8: no src/features, no NWindowL2 target).
+class,super,class_flags,feature

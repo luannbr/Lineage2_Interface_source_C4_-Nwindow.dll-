@@ -1,0 +1,19 @@
+# Class|slot reason hash: a slot of the compiled vtable of a class whose constructor is hooked that reaches a compiled
+# function the judges cannot tie to the stock one (tools/port/vt_slots.py); each was read against the C4 stock function.
+# The hash is that of the compiled code that was read: a body edited since is a candidate again.
+# `python tools/port/vt_slots.py --update --reason WORD` rewrites the list from the tree (reasons of existing entries are kept): read first.
+#
+# reasons
+#   dtorbody    slot 3, the compiler's deleting destructor of a class whose destructor body the stock calls from its deleting destructor and we hook
+#               under another name (NCHtmlButton::DestroyBody 0x1004AC80, NCHtmlPushButton::DestroyBody 0x1004AD80: the vtable store,
+#               ConditionalDestroy, NCButton's / NCPushButton's destructor): ours is the same three steps, the base destructors being hooked too
+#               (0x10003140 / 0x100038F0), then the delete
+#   dtorinline  slot 3, the compiler's deleting destructor of a window whose stock destructor (0x100F3600 / 0x100F6870 / 0x100F7030, 96 bytes, not
+#               hooked) stores the vtable, runs ConditionalDestroy, destroys the NItemEntry member's tool tip (lea ecx,[esi+0xF0|0x100]+0x1BC0 =
+#               0x1CB0 | 0x1CC0, NToolTipInfo::~NToolTipInfo) and calls ~NCWnd: ours does the same (~NItemEntry is `add ecx, 0x1BC0; jmp
+#               ~NToolTipInfo` at the member's offset, hooked as 0x10050030) and the delete of the same size (0x1D7C / ...)
+NCHtmlButton|3 dtorbody 64e7df7b
+NCHtmlPushButton|3 dtorbody 5dfe1558
+NCRecipeBuyManufactureWnd|3 dtorinline ad7ee11b
+NCRecipeGaraTreeWnd|3 dtorinline beb3b247
+NCRecipeManufactureWnd|3 dtorinline aab582d1

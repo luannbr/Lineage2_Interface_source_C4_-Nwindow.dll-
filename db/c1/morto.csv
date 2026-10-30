@@ -1,0 +1,12 @@
+# Stock functions no path of the game reaches in hook mode: every caller is ours (or an EH
+# funclet of ours) and the vtables that list them are the original's, which no object uses any
+# more. tools/build_db.py gives them status morto with this reason, and warns (keeping them
+# todo) when a caller in the original shows up. See docs/notas/Restante.md.
+va,reason
+100427d0,"recebe o caractere em AX (convenção própria do LTCG): sem gancho; os 3 chamadores são nossos, e o nosso é o HasNoFinalConsonant do NConsoleWnd.h"
+10001700,"corpo vazio (ret 4) de muitos slots e classes (ICF): sem gancho; chamadores e vtables nossos"
+10045870,"corpo vazio (ret) de muitos slots e classes (ICF), também destrutor vazio: sem gancho; chamadores, funclets e vtables nossos"
+10045c50,"corpo vazio (ret 8) do slot 222 do console (PrivateStoreMsg): a nossa vtable tem o nosso"
+1000e320,"os 43 pontos de chamada estão em funções nossas (o nosso é o memcpy inline do UE2Core.h)"
+10046f40,"chamadores (NString::Insert/Empty) e vtable nossos"
+10028aa0,"construtor da base abstrata NHtmlObject (o NW_HOOK_CTOR instancia a classe): os construtores de NHtmlBlock e NHtmlItem são nossos e rodam o nosso"

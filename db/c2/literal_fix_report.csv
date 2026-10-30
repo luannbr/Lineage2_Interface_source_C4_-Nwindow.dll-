@@ -1,0 +1,77 @@
+file,line,c1_literal,c2_address,text
+include/nwindow/NCAutoLogWnd.h,14,1012b858,101af808,#define GAutoLogID       (reinterpret_cast<TCHAR*>(::nw::Addr(0x1012b858)))   // TCHAR[64]
+include/nwindow/NCAutoLogWnd.h,15,1012b7d8,101af788,#define GAutoLogPassword (reinterpret_cast<TCHAR*>(::nw::Addr(0x1012b7d8)))   // TCHAR[64]
+include/nwindow/NCAutoLogWnd.h,16,1012b8d8,101af888,"#define GAutoLogSlot     NW_GLOBAL(INT, 0x1012b8d8)"
+include/nwindow/NCAutoLogWnd.h,17,1010ced0,10166010,#define GAutoLogMessages (reinterpret_cast<const TCHAR* const*>(::nw::Addr(0x1010ced0)))
+include/nwindow/NCChatWnd.h,56,1010cee0,,#define GChatPrefix (reinterpret_cast<const TCHAR* const (*)[2]>(::nw::Addr(0x1010cee0)))
+include/nwindow/NCChineseIME.h,19,1011e9f4,1019fd9c,"#define GChineseGetReadingString NW_GLOBAL(NGetReadingString, 0x1011e9f4)"
+include/nwindow/NCChineseIME.h,20,101208f0,101a21b8,"#define GChineseOSVersion NW_GLOBAL(OSVERSIONINFOA, 0x101208f0)"
+include/nwindow/NCChineseIME.h,21,10120984,101a224c,"#define GChineseOSVersionRead NW_GLOBAL(bool, 0x10120984)"
+include/nwindow/NCChineseIME.h,22,10120985,101a224d,"#define GChineseNT NW_GLOBAL(bool, 0x10120985)"
+include/nwindow/NCChineseIME.h,23,10120986,101a224e,"#define GChineseNTChecked NW_GLOBAL(bool, 0x10120986)"
+include/nwindow/NCCoolTimeIcon.h,13,101213d4,101a2c9c,"#define GCoolTimeTextures    NW_GLOBAL(TArray<UTexture*>, 0x101213d4)"
+include/nwindow/NCCoolTimeIcon.h,14,101213e0,101a2ca8,"#define GCoolTimeEndTextures NW_GLOBAL(TArray<UTexture*>, 0x101213e0)"
+include/nwindow/NCDebugWnd.h,19,1010f4f8,1016bc90,#define GDebugCategories (reinterpret_cast<NDebugCategory*>(::nw::Addr(0x1010f4f8)))
+include/nwindow/NCDebugWnd.h,20,1012dcf0,101b21d0,"#define GNumDebugCategories NW_GLOBAL(INT, 0x1012dcf0)"
+include/nwindow/NCDialogBox.h,34,10107d40,,"#define GKeypadTextures (reinterpret_cast<const TCHAR* const (*)[2]>(::nw::Addr(0x10107d40)))  // ""sek.cbui100"
+include/nwindow/NCIME.h,125,1011e9f8,1019fda0,"#define GImmLockIMC NW_GLOBAL(NImmLockIMC, 0x1011e9f8)"
+include/nwindow/NCIME.h,126,1011e9fc,1019fda4,"#define GImmUnlockIMC NW_GLOBAL(NImmUnlockIMC, 0x1011e9fc)"
+include/nwindow/NCIME.h,127,1011ea00,1019fda8,"#define GImmLockIMCC NW_GLOBAL(NImmLockIMCC, 0x1011ea00)"
+include/nwindow/NCIME.h,128,1011ea04,1019fdac,"#define GImmUnlockIMCC NW_GLOBAL(NImmUnlockIMCC, 0x1011ea04)"
+include/nwindow/NCIME.h,144,101208ec,101a21b4,"#define GIMEOSChecked NW_GLOBAL(UBOOL, 0x101208ec)"
+include/nwindow/NCIME.h,145,101208e8,101a21b0,"#define GIMEUnicodeOS NW_GLOBAL(UBOOL, 0x101208e8)"
+include/nwindow/NCommandParser.h,11,1010c8f0,10162b38,"#define GCommandSeparators (reinterpret_cast<TCHAR*>(::nw::Addr(0x1010c8f0)))   // L"" ,\t\n"""
+include/nwindow/NCommandParser.h,33,10000000,,"NCMD_Builder = 0x10000000,                  // ""//..."": a builder command for the server"
+include/nwindow/NCommandParser.h,34,10000001,,"NCMD_Exec = 0x10000001,                     // ""///..."": a console command run here"
+include/nwindow/NCTabControl.h,12,1010a6a8,101587a8,"#define GNextTabGroupID NW_GLOBAL(INT, 0x1010a6a8)   // starts at 0xFA0000 (name ours)"
+include/nwindow/NCTaiwanIME.h,14,1011e9f0,1019fd98,"#define GTaiwanGetReadingString NW_GLOBAL(NGetReadingString, 0x1011e9f0)"
+include/nwindow/NHtmlLayout.h,103,10126a9c,101a9ffc,"#define GHtmlAlignStack  NW_GLOBAL(TArray<INT>, 0x10126a9c)"
+include/nwindow/NHtmlLayout.h,104,101255f8,101a8b58,"#define GHtmlVAlignStack NW_GLOBAL(TArray<INT>, 0x101255f8)   // only ever holds its 0"
+include/nwindow/NHtmlLayout.h,105,101251f8,101a8758,#define GHtmlLinkTarget  (reinterpret_cast<TCHAR*>(::nw::Addr(0x101251f8)))
+include/nwindow/NHtmlLayout.h,106,101253f8,101a8958,#define GHtmlLinkMsg     (reinterpret_cast<TCHAR*>(::nw::Addr(0x101253f8)))
+include/nwindow/NHtmlLayout.h,160,1010ba90,1015f3a8,#define GHtmlTagInfo (reinterpret_cast<const NHtmlTagInfo*>(::nw::Addr(0x1010ba90)))
+include/nwindow/NHtmlLayout.h,161,1010c1c8,10160550,#define GHtmlTagIds  (reinterpret_cast<const INT*>(::nw::Addr(0x1010c1c8)))
+include/nwindow/NL2Font.h,36,1012f190,101b3b98,"#define GFontBytesRead NW_GLOBAL(INT, 0x1012f190)   // items fread by the font loader (name ours)"
+include/nwindow/NStdLib.h,76,100f0dc0,10129378,#define GStdLogicErrorVtbl ((const void*)::nw::Addr(0x100f0dc0))
+include/nwindow/NStdLib.h,77,100f0dcc,10129384,#define GStdLengthErrorVtbl ((const void*)::nw::Addr(0x100f0dcc))
+include/nwindow/NStdLib.h,78,100f6a54,1012f99c,#define GStdLengthErrorThrowInfo ((void*)::nw::Addr(0x100f6a54))
+include/nwindow/NStdLib.h,87,100be11d,100e7e33,"NStdException() { ::nw::StockCall<void>(0x100be11d, this); }"
+include/nwindow/NStdLib.h,88,100be12e,100e7e44,"NStdException(const NStdException& Other) { ::nw::StockCall<void>(0x100be12e, this, &Other); }"
+include/nwindow/NStdLib.h,89,100be178,100e7e8e,"~NStdException() { ::nw::StockCall<void>(0x100be178, this); }"
+include/nwindow/NWindow.h,137,10122894,101a415c,"#define GConsole         NW_GLOBAL(NConsoleWnd*, 0x10122894)   // set by the console init (1004d6c0)"
+include/nwindow/NWindow.h,138,10122898,101a4160,"#define GCanvas          NW_GLOBAL(UCanvas*, 0x10122898)       // viewport canvas, set with GConsole"
+include/nwindow/NWindow.h,139,101228a4,,"#define GTextAlignParser NW_GLOBAL(FL2TextAlignParser*, 0x101228a4)"
+include/nwindow/NWindow.h,140,10122888,101a4150,"#define GNWindowDebug    NW_GLOBAL(INT, 0x10122888)            // NCObject::Debugf target: 0 off, 1 debug wind"
+include/nwindow/NWindow.h,141,10122890,101a4158,"#define GViewportHWnd    NW_GLOBAL(HWND, 0x10122890)           // game window: IME and ClientToScreen"
+include/nwindow/NWindow.h,142,10124284,101a77e4,"#define GNWindowInstance NW_GLOBAL(HINSTANCE, 0x10124284)      // this package's module (DllMain), for resourc"
+src/nwindow/NCBoardPage.cpp,25,1010bfe8,10160358,#define GBoardMarks (reinterpret_cast<const TCHAR* const*>(::nw::Addr(0x1010bfe8)))
+src/nwindow/NCConsole.cpp,54,10123d58,101a72b8,"#define GNextWndNumber NW_GLOBAL(INT, 0x10123d58)"
+src/nwindow/NCDetailStatusWnd.cpp,18,100eed2c,10125f44,#define GExpTable (reinterpret_cast<const INT*>(::nw::Addr(0x100eed2c)))
+src/nwindow/NCDetailStatusWnd.cpp,19,100e3a48,,#define GGMExpTable (reinterpret_cast<const INT*>(::nw::Addr(0x100e3a48)))
+src/nwindow/NCMatchWnd.cpp,22,10111890,10177bc0,"#define GTellPrefix NW_GLOBAL(const TCHAR*, 0x10111890)  // L""\"""", the tell marker of the chat line"
+src/nwindow/NCMatchWnd.cpp,23,10111b68,,#define GClassMagicType (reinterpret_cast<const INT*>(::nw::Addr(0x10111b68)))  // per class
+src/nwindow/NCMSViewrWnd.cpp,55,101114c0,10175348,#define GMSViewCharacters (reinterpret_cast<NMSViewCharacter*>(::nw::Addr(0x101114c0)))
+src/nwindow/NConsoleWndData.cpp,14,1010f1f4,1016a214,"#define GGradeNames (&NW_GLOBAL(const TCHAR*, 0x1010f1f4))"
+src/nwindow/NConsoleWndInput.cpp,34,1012d7bc,101b176c,"#define GCursorLocked NW_GLOBAL(UBOOL, 0x1012d7bc)"
+src/nwindow/NConsoleWndWindows.cpp,79,1012d7b8,101b1768,"#define GL2DebugLog     NW_GLOBAL(UBOOL, 0x1012d7b8)"
+src/nwindow/NConsoleWndWindows.cpp,80,1012d7c0,101b1770,"#define GIsL2AutoLogOn  NW_GLOBAL(UBOOL, 0x1012d7c0)"
+src/nwindow/NCPawnCreateWnd.cpp,58,101130a8,1017e620,"#define GRaceEventNames (reinterpret_cast<const TCHAR* const*>(::nw::Addr(0x101130a8)))      // ""HUMAN"" .. ""DW"
+src/nwindow/NCPawnCreateWnd.cpp,59,101130bc,1017e634,"#define GClassTypeEventNames (reinterpret_cast<const TCHAR* const*>(::nw::Addr(0x101130bc))) // ""KNIGHT"", ""WIZ"
+src/nwindow/NCPawnCreateWnd.cpp,60,101130c4,1017e63c,"#define GSexEventNames (reinterpret_cast<const TCHAR* const*>(::nw::Addr(0x101130c4)))       // ""MAN"", ""WOMAN"""
+src/nwindow/NCPawnSelectWnd.cpp,34,100e593c,10118f5c,#define GLobbyExpTable (reinterpret_cast<const INT*>(::nw::Addr(0x100e593c)))
+src/nwindow/NCPawnViewr_Simulator.cpp,30,101133b8,1017f378,#define GDefaultCharacters (reinterpret_cast<const NDefaultCharacter*>(::nw::Addr(0x101133b8)))
+src/nwindow/NCPawnViewrWnd.cpp,81,101133b8,1017f378,#define GDefaultCharacters (reinterpret_cast<const NDefaultCharacter*>(::nw::Addr(0x101133b8)))
+src/nwindow/NCServerSelectWnd.cpp,47,101148e4,,#define GServerNames (reinterpret_cast<const TCHAR* const*>(::nw::Addr(0x101148e4)))
+src/nwindow/NCStatusWnd.cpp,17,100eed2c,10125f44,#define GExpTable (reinterpret_cast<const INT*>(::nw::Addr(0x100eed2c)))
+src/nwindow/NHtmlLayout.cpp,17,1010bfd0,10160340,#define GHtmlAlignNames (reinterpret_cast<const TCHAR* const*>(::nw::Addr(0x1010bfd0)))
+src/nwindow/NHtmlParser.cpp,28,1010c290,1016061c,#define GHtmlEntityNames  (reinterpret_cast<const TCHAR* const*>(::nw::Addr(0x1010c290)))
+src/nwindow/NHtmlParser.cpp,29,1010c2b0,1016063c,#define GHtmlEntityValues (reinterpret_cast<const TCHAR* const*>(::nw::Addr(0x1010c2b0)))
+src/nwindow/NHtmlParser.cpp,30,1010c2cc,10160658,"#define GHtmlSysStringMark    NW_GLOBAL(const TCHAR*, 0x1010c2cc)"
+src/nwindow/NHtmlParser.cpp,31,1010c2d0,1016065c,"#define GHtmlCastleNameMark   NW_GLOBAL(const TCHAR*, 0x1010c2d0)"
+src/nwindow/NHtmlParser.cpp,32,1010c2d4,10160660,"#define GHtmlCastleLocMark    NW_GLOBAL(const TCHAR*, 0x1010c2d4)"
+src/nwindow/NHtmlParser.cpp,33,1010c2d8,10160664,"#define GHtmlCastleDescMark   NW_GLOBAL(const TCHAR*, 0x1010c2d8)"
+src/nwindow/NStdLib.cpp,20,100bda6f,100e7792,NW_STOCK(0x100bda6f)
+src/nwindow/NStdLib.cpp,21,100bd553,100e72b9,NW_NAKED void NStdStringXlen() NW_STOCK(0x100bd553)
+src/nwindow/NStdLib.cpp,22,100bd4fb,100e7261,NW_NAKED void NStdStringXran() NW_STOCK(0x100bd4fb)
+src/nwindow/NStl.cpp,30,100bd4fb,100e7261,NW_NAKED void NStlWString::Xran() const NW_STOCK(0x100bd4fb)
+src/nwindow/NStl.cpp,31,100bd553,100e72b9,NW_NAKED void NStlWString::Xlen() const NW_STOCK(0x100bd553)

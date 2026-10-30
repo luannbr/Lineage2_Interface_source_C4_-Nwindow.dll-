@@ -1,0 +1,8 @@
+# class `*` = every class that overrides the virtual (a different signature would be a NEW virtual and shift the
+# slots of the class).
+# Method declarations this client's code needs that differ from the base header's (argument types that changed with
+# the layout). class,method,declaration: the whole declaration line (no indent, no comment); tools/port/gen.py puts
+# it in the generated header (keeping the slot/address comment) and uses it for the stubs of that method.
+class,method,declaration
+*,PtInRect,"virtual UBOOL PtInRect(INT X, INT Y, INT RectX, INT RectY, FLOAT RectW, FLOAT RectH);"
+*,SetSize,"virtual void SetSize(FLOAT W, FLOAT H);"

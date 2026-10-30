@@ -1,0 +1,4 @@
+# Reimplemented functions tested in the game (status "verified" in db/functions.csv).
+# Add a line after checking the function in game with its hook enabled. (C2 addresses; the C1
+# list is db/c1/verified.csv.)
+va,date,how

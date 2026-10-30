@@ -1,0 +1,96 @@
+== GetCharSize
+0041 -> 5 x 12
+0020 -> 7 x 12
+007c -> -1 x -1
+007e -> 3 x 12
+ac00 -> 12 x 12
+d7a3 -> 12 x 12
+d7a4 -> -1 x -1
+3131 -> 10 x 11
+00e9 -> -1 x -1
+007f -> -1 x -1
+001f -> -1 x -1
+== wrap
+"Hello world, this is a test of the wrap." font 0 width 0:
+"Hello world, this is a test of the wrap." font 0 width 1:
+"Hello world, this is a test of the wrap." font 0 width 10: "H" "e" "l" "l" "o" " w" "o" "r" "l" "d," " " "t" "h" "is" " i" "s" " " "a" " " "t" "e" "s" "t" " " "o" "f" " " "t" "h" "e" " w" "r" "a" "p."
+"Hello world, this is a test of the wrap." font 0 width 30: "Hell" "o wo" "rld, " "this" " is " "a te" "st o" "f th" "e wra" "p."
+"Hello world, this is a test of the wrap." font 0 width 60: "Hello wor" "ld, this i" "s a test" " of the " "wrap."
+"Hello world, this is a test of the wrap." font 0 width 100: "Hello world, thi" "s is a test of" " the wrap."
+"Hello world, this is a test of the wrap." font 0 width 1000: "Hello world, this is a test of the wrap."
+"Hello world, this is a test of the wrap." font 1 width 30: "Hello world, this is a test of the wrap."
+"Hello world, this is a test of the wrap." font 2 width 30:
+"" font 0 width 0:
+"" font 0 width 1:
+"" font 0 width 10:
+"" font 0 width 30:
+"" font 0 width 60:
+"" font 0 width 100:
+"" font 0 width 1000:
+"" font 1 width 30:
+"" font 2 width 30:
+"a\x0ab\x0d\x0ac\x09d" font 0 width 0:
+"a\x0ab\x0d\x0ac\x09d" font 0 width 1:
+"a\x0ab\x0d\x0ac\x09d" font 0 width 10: "a" "bc" "d"
+"a\x0ab\x0d\x0ac\x09d" font 0 width 30: "abcd"
+"a\x0ab\x0d\x0ac\x09d" font 0 width 60: "abcd"
+"a\x0ab\x0d\x0ac\x09d" font 0 width 100: "abcd"
+"a\x0ab\x0d\x0ac\x09d" font 0 width 1000: "abcd"
+"a\x0ab\x0d\x0ac\x09d" font 1 width 30: "abcd"
+"a\x0ab\x0d\x0ac\x09d" font 2 width 30:
+"averyveryverylongwordwithoutanyspacesatallinsideofit" font 0 width 0:
+"averyveryverylongwordwithoutanyspacesatallinsideofit" font 0 width 1:
+"averyveryverylongwordwithoutanyspacesatallinsideofit" font 0 width 10: "a" "v" "e" "ry" "v" "e" "ry" "v" "e" "ry" "l" "o" "n" "g" "w" "o" "rd" "wi" "t" "h" "o" "u" "t" "a" "n" "y" "sp" "a" "ce" "s" "a" "t" "a" "l" "li" "n" "si" "d" "e" "o" "fi" "t"
+"averyveryverylongwordwithoutanyspacesatallinsideofit" font 0 width 30: "aver" "yvery" "very" "lon" "gword" "with" "out" "anys" "paces" "ata" "llins" "ideof" "it"
+"averyveryverylongwordwithoutanyspacesatallinsideofit" font 0 width 60: "averyvery" "verylongw" "ordwithou" "tanyspace" "satallins" "ideofit"
+"averyveryverylongwordwithoutanyspacesatallinsideofit" font 0 width 100: "averyveryverylo" "ngwordwithouta" "nyspacesatallin" "sideofit"
+"averyveryverylongwordwithoutanyspacesatallinsideofit" font 0 width 1000: "averyveryverylongwordwithoutanyspacesatallinsideofit"
+"averyveryverylongwordwithoutanyspacesatallinsideofit" font 1 width 30: "averyveryverylongwordwithoutanyspacesatallinsideofit"
+"averyveryverylongwordwithoutanyspacesatallinsideofit" font 2 width 30:
+"\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84" font 0 width 0:
+"\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84" font 0 width 1:
+"\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84" font 0 width 10:
+"\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84" font 0 width 30: "\uc548\ub155" "\ud558\uc138" "\uc694 " "\ubc18\uac11" "\uc2b5\ub2c8" "\ub2e4 " "\uc5ec\ub7ec" "\ubd84"
+"\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84" font 0 width 60: "\uc548\ub155\ud558\uc138\uc694" " \ubc18\uac11\uc2b5\ub2c8" "\ub2e4 \uc5ec\ub7ec\ubd84"
+"\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84" font 0 width 100: "\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11" "\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84"
+"\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84" font 0 width 1000: "\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84"
+"\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84" font 1 width 30: "\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84"
+"\uc548\ub155\ud558\uc138\uc694 \ubc18\uac11\uc2b5\ub2c8\ub2e4 \uc5ec\ub7ec\ubd84" font 2 width 30:
+"caf\xe9 \xfc\xff missing glyphs \x7f\x80" font 0 width 0:
+"caf\xe9 \xfc\xff missing glyphs \x7f\x80" font 0 width 1:
+"caf\xe9 \xfc\xff missing glyphs \x7f\x80" font 0 width 10: "c" "a" "f\xe9" " \xfc\xff" " " "mi" "s" "si" "n" "g" " " "g" "l" "yp" "h" "s" " \x7f\x80"
+"caf\xe9 \xfc\xff missing glyphs \x7f\x80" font 0 width 30: "caf\xe9 \xfc\xff" " miss" "ing " "glyp" "hs \x7f\x80"
+"caf\xe9 \xfc\xff missing glyphs \x7f\x80" font 0 width 60: "caf\xe9 \xfc\xff missi" "ng glyphs" " \x7f\x80"
+"caf\xe9 \xfc\xff missing glyphs \x7f\x80" font 0 width 100: "caf\xe9 \xfc\xff missing gl" "yphs \x7f\x80"
+"caf\xe9 \xfc\xff missing glyphs \x7f\x80" font 0 width 1000: "caf\xe9 \xfc\xff missing glyphs \x7f\x80"
+"caf\xe9 \xfc\xff missing glyphs \x7f\x80" font 1 width 30: "caf\xe9 \xfc\xff missing glyphs \x7f\x80"
+"caf\xe9 \xfc\xff missing glyphs \x7f\x80" font 2 width 30:
+"|||| no width ||||" font 0 width 0: "||||"
+"|||| no width ||||" font 0 width 1: "||||"
+"|||| no width ||||" font 0 width 10: "|||| " "n" "o" " w" "id" "t" "h" " ||||"
+"|||| no width ||||" font 0 width 30: "|||| no" " widt" "h ||||"
+"|||| no width ||||" font 0 width 60: "|||| no width" " ||||"
+"|||| no width ||||" font 0 width 100: "|||| no width ||||"
+"|||| no width ||||" font 0 width 1000: "|||| no width ||||"
+"|||| no width ||||" font 1 width 30: "|||| no width ||||"
+"|||| no width ||||" font 2 width 30:
+"\u3131\u3134\u3137 jamo 12345" font 0 width 0:
+"\u3131\u3134\u3137 jamo 12345" font 0 width 1:
+"\u3131\u3134\u3137 jamo 12345" font 0 width 10: "\u3131" "\u3134" "\u3137" " " "j" "a" "m" "o" " 1" "23" "4" "5"
+"\u3131\u3134\u3137 jamo 12345" font 0 width 30: "\u3131\u3134\u3137" " jam" "o 123" "45"
+"\u3131\u3134\u3137 jamo 12345" font 0 width 60: "\u3131\u3134\u3137 jam" "o 12345"
+"\u3131\u3134\u3137 jamo 12345" font 0 width 100: "\u3131\u3134\u3137 jamo 12345"
+"\u3131\u3134\u3137 jamo 12345" font 0 width 1000: "\u3131\u3134\u3137 jamo 12345"
+"\u3131\u3134\u3137 jamo 12345" font 1 width 30: "\u3131\u3134\u3137 jamo 12" "34" "5"
+"\u3131\u3134\u3137 jamo 12345" font 2 width 30:
+"   leading spaces and trailing   " font 0 width 0:
+"   leading spaces and trailing   " font 0 width 1:
+"   leading spaces and trailing   " font 0 width 10: " " " " " " "l" "e" "a" "di" "n" "g" " " "sp" "a" "ce" "s" " " "a" "n" "d" " " "t" "r" "a" "il" "i" "n" "g" " " " " " "
+"   leading spaces and trailing   " font 0 width 30: "   l" "eadi" "ng s" "paces" " and" " tra" "iling" "   "
+"   leading spaces and trailing   " font 0 width 60: "   leadin" "g spaces " "and trail" "ing   "
+"   leading spaces and trailing   " font 0 width 100: "   leading spac" "es and trailing" "   "
+"   leading spaces and trailing   " font 0 width 1000: "   leading spaces and trailing   "
+"   leading spaces and trailing   " font 1 width 30: "   leading spaces and trailing   "
+"   leading spaces and trailing   " font 2 width 30:
+next after the end: NULL
+no canvas: first NULL next NULL

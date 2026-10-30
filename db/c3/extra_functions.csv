@@ -1,0 +1,5 @@
+# Function entries Ghidra's analysis missed (for example code it filed under an EH funclet's
+# range). tools/build_db.py adds them to db/functions.csv; the verifier and regcheck take their
+# extent from here. size = bytes of the function body. (C3 addresses; the C2 list is
+# db/c2/extra_functions.csv, the C1 one db/c1/extra_functions.csv.)
+va,size,reason

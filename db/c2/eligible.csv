@@ -1,0 +1,1955 @@
+c1_va,c2_va,cat,ok,reason,class,name,size1,unverified
+10001070,10001060,B,1,,NCButton,NCButton::OnLButtonUp,79,0
+100010c0,100010b0,B,1,,NCButton,NCButton::OnMouseMove,131,0
+100011b0,10001220,B,1,insn 6 other+2e810->4b4e8,NCButton,NCButton::SetTextID,45,1
+10001210,10001280,B,1,,NCButton,NCButton::SetNormalTex,75,0
+10001260,100012d0,B,1,,NCButton,NCButton::SetPushedTex,69,0
+100012f0,10001390,B,1,,NCExButton,NCExButton::OnLButtonDown,56,0
+10001330,100013d0,B,1,,NCExButton,NCExButton::OnLButtonUp,25,0
+100013d0,100014b0,B,1,,NCPushButton,NCPushButton::OnLButtonUp,59,0
+10001410,100014f0,B,1,,NCPushButton,NCPushButton::OnMouseMove,102,0
+10001480,10001560,B,1,,NCPushButton,NCPushButton::OnTimer,35,0
+100015c0,10001750,B,1,,NCRadioButton,NCRadioButton::OnCreate,33,0
+100015f0,10001780,A,1,,NCPushButton,NCPushButton::OnDestroy,11,0
+10001600,100019d0,A,1,,NCObject,NCObject::~NCObject,81,0
+10001660,10001a30,A,1,,NCObject,NCObject::`scalar deleting destructor',33,0
+10001690,10001a60,A,1,,NCCmdTarget,NCCmdTarget::~NCCmdTarget,80,0
+100016e0,10001ab0,A,1,,NCWnd,NCWnd::vfn032,3,0
+100016f0,10001ac0,A,1,,NCWnd,NCWnd::OnChar,5,0
+10001700,10001ad0,A,1,,NConsoleWnd,NConsoleWnd::vfn074,3,0
+10001710,10001ae0,A,1,,NCWnd,NCWnd::OnTimer,5,0
+10001720,10001af0,A,1,,NCCmdTarget,NCCmdTarget::`scalar deleting destructor',33,0
+10001750,10001b20,A,1,,NCWnd,NCWnd::~NCWnd,80,0
+100017a0,10001b70,A,1,,NCWnd,NCWnd::IsEnabled,4,0
+100017b0,10001b80,A,1,,NCWnd,NCWnd::IsFocused,4,0
+100017c0,10001b90,A,1,,NCWnd,NCWnd::SetStyle,10,0
+100017d0,10001ba0,A,1,,NCWnd,NCWnd::GetStyle,4,0
+100017e0,10001bb0,C,1,,NCWnd,NCWnd::`scalar deleting destructor',36,0
+10001810,10001be0,A,1,,NControl,NControl::~NControl,80,0
+10001860,10001c30,B,1,,NControl,NControl::NControl,49,0
+100018a0,10001c70,C,1,,NControl,NControl::`scalar deleting destructor',36,0
+100020e0,10002830,A,1,,NCExButton,NCExButton::NCExButton,18,0
+10002100,10002850,C,1,,NCExButton,NCExButton::`scalar deleting destructor',36,0
+10002130,10002880,A,1,,NCExButton,NCExButton::~NCExButton,80,0
+10002180,100028d0,A,0,"insn 9 calls 10001a20, C2 calls 10002440 (not the same function)",NCExButton,NCExButton::NCExButton,37,0
+100021b0,100029d0,B,1,,NCPushButton,NCPushButton::NCPushButton,48,0
+100021e0,10002a00,C,1,,NCPushButton,NCPushButton::`scalar deleting destructor',36,0
+10002210,10002a30,A,1,,NCPushButton,NCPushButton::~NCPushButton,80,0
+10002260,10002a80,B,1,,NCPushButton,NCPushButton::NCPushButton,96,0
+100022c0,10002ae0,B,1,,NCRadioButton,NCRadioButton::NCRadioButton,52,0
+10002300,10002b20,C,1,,NCRadioButton,NCRadioButton::`scalar deleting destructor',36,0
+10002330,10002b50,A,1,,NCRadioButton,NCRadioButton::~NCRadioButton,80,0
+10002380,10002ba0,B,0,"insn 16 calls 10001a20, C2 calls 10002440 (not the same function)",NCRadioButton,NCRadioButton::NCRadioButton,130,0
+10002690,10002d50,B,1,,NCCandidateBox,NCCandidateBox::SelectPrev,66,0
+100026e0,10002da0,B,1,,NCCandidateBox,NCCandidateBox::SelectNext,45,0
+10002710,10002dd0,B,1,,NCCandidateBox,NCCandidateBox::OnKeyDown,134,0
+100027c0,10002e80,B,1,insn 1 other+cc->d0;insn 2 other+f4->f8,NCCandidateBox,NCCandidateBox::OnUpButton,29,2
+100027e0,10002ea0,B,1,insn 1 other+cc->d0;insn 2 other+f4->f8,NCCandidateBox,NCCandidateBox::OnDownButton,29,2
+10002800,10002ec0,B,1,,NCCandidateBox,NCCandidateBox::OnLButtonUp,34,0
+10002830,100ab570,A,1,,NCScrollWnd,NCScrollWnd::OnPaint,8,0
+10002840,10002ef0,A,1,,NCCandidateBox,NCCandidateBox::PtInRect,57,0
+10002880,10002f30,B,1,,NCCandidateBox,NCCandidateBox::SetSize,161,0
+10002930,10002fe0,B,1,,NCCandidateBox,NCCandidateBox::SetScroll,41,0
+10002960,10003010,B,1,,NCCandidateBox,NCCandidateBox::SetMode,56,0
+100029a0,10003050,B,1,,NCCandidateBox,NCCandidateBox::ShowWindow,51,0
+100029e0,10003090,B,1,,NCCompositeBox,NCCompositeBox::OnCreate,45,0
+10002a10,100030c0,B,1,,NCCompositeBox,NCCompositeBox::CaretLeft,38,0
+10002a40,100030f0,C,1,,NCCompositeBox,NCCompositeBox::GetText,36,0
+10002a70,10003120,B,1,,NCCompositeBox,NCCompositeBox::SetShowCaret,13,0
+10002a80,100031b0,B,1,,NCWnd,NCWnd::AttachEntry,55,0
+10002ac0,100031f0,B,1,insn 11 other+98->9c;insn 15 other+9c->a0;insn 19 other+a0->a4;insn 23 other+a4->a8,NCCandidateBox,NCCandidateBox::OnCreate,719,28
+10003270,100039b0,B,1,,NCCandidateBox,NCCandidateBox::OnLButtonDown,254,0
+10003380,10003ac0,B,1,,NCCompositeBox,NCCompositeBox::NCCompositeBox,102,0
+100033f0,10003b30,C,1,,NCCompositeBox,NCCompositeBox::`scalar deleting destructor',36,0
+10003420,10003b60,B,1,,NCCompositeBox,NCCompositeBox::~NCCompositeBox,97,0
+10003490,10003bd0,B,1,,NCCompositeBox,NCCompositeBox::NCCompositeBox,142,0
+100039f0,10004140,A,1,,TImeTextArray,TImeTextArray::Empty,28,0
+10003a10,10004160,A,1,,TImeTextArray,TImeTextArray::AddItem,45,0
+10003a40,10004190,A,1,,NCCompositeBox,NCCompositeBox::InternalConstructor,14,0
+10003a50,100041a0,B,1,,NCCandidateBox,NCCandidateBox::AddItem,119,0
+10003ad0,10004220,B,1,,NCCandidateBox,NCCandidateBox::Clear,46,0
+10003bb0,10004370,A,1,,TImeTextArray,TImeTextArray::~TImeTextArray,147,0
+10003c50,10004410,B,1,,NCCandidateBox,NCCandidateBox::NCCandidateBox,100,0
+10003cc0,10004480,C,1,,NCCandidateBox,NCCandidateBox::`scalar deleting destructor',36,0
+10003cf0,100044b0,B,1,,NCCandidateBox,NCCandidateBox::~NCCandidateBox,96,0
+10003d50,10004510,A,1,,NCCandidateBox,NCCandidateBox::InternalConstructor,18,0
+10003d70,10004530,B,1,,NCCheckBox,NCCheckBox::OnCreate,80,0
+10003dc0,10004600,B,1,,NCCheckBox,NCCheckBox::OnLButtonDown,43,0
+10003e80,10004700,C,1,,NCCheckBox,NCCheckBox::`scalar deleting destructor',36,0
+10004250,10004b90,A,1,,NCCheckBox,NCCheckBox::InternalConstructor,23,0
+100042f0,10004c10,A,1,,NCObject,NCObject::InternalConstructor,14,0
+100043e0,10004d10,B,1,,NCComboBox,NCComboBox::OnLButtonDown,101,0
+10004450,10004d80,B,1,,NCComboBox,NCComboBox::KillFocus,55,0
+10004490,10004dc0,B,1,,NCComboBox,NCComboBox::SetSelected,13,0
+100044a0,10004dd0,B,1,,NCComboBox,NCComboBox::UpdateSize,96,0
+10004a20,10005350,B,1,,NCComboBox,NCComboBox::GetItemText,43,0
+10004a50,10005380,B,1,,NCComboBox,NCComboBox::DropDown,46,0
+10004b20,100054b0,B,1,,NCComboBox,NCComboBox::ClearItems,109,0
+10004b90,10005520,B,1,insn 13 other+2e810->4b4e8;insn 29 other+2e810->4b4e8,NCComboBox,NCComboBox::AddItem,178,2
+10004c50,100055e0,B,1,,NCComboBox,NCComboBox::AddItem,132,0
+10004ce0,10005670,A,1,,TStringPtrArray,TStringPtrArray::~TStringPtrArray,144,0
+10004d70,10005700,B,1,,NCComboBox,NCComboBox::NCComboBox,116,0
+10004df0,10005780,C,1,,NCComboBox,NCComboBox::`scalar deleting destructor',36,0
+10004e20,100057b0,B,1,,NCComboBox,NCComboBox::~NCComboBox,96,0
+10004e80,10005810,A,1,,NCComboBox,NCComboBox::InternalConstructor,14,0
+10004ed0,10005820,B,1,,NControl,NControl::NotifyParent,56,0
+10004f10,10005860,B,1,,NControl,NControl::ReleaseFocus,35,0
+10004f40,10005890,B,1,,NControl,NControl::HideParent,38,0
+10004f70,100058c0,B,1,,NControl,NControl::SendTo,49,0
+10004fb0,10005900,B,1,,NControl,NControl::SendToParent,52,0
+10004ff0,10005940,B,1,,NControl,NControl::OnCreate,43,0
+10005050,100059f0,C,1,,NControl,NControl::SetCaption,27,0
+10005070,10005a10,B,1,,NControl,NControl::GetCaption,19,0
+10005090,10005a30,A,1,,NControl,NControl::InternalConstructor,14,0
+10005130,10005ac0,B,1,,NCCountSpin,NCCountSpin::OnUp,90,0
+10005190,10005b20,B,1,,NCCountSpin,NCCountSpin::OnDown,90,0
+10005230,10005b80,A,1,,NCProgressCtrl,NCProgressCtrl::OnCreate,6,0
+10005240,10005b90,B,1,,NCProgressCtrl,NCProgressCtrl::SetRemaining,19,0
+10005260,10005bb0,B,1,,NCProgressCtrl,NCProgressCtrl::SetMax,13,0
+10005270,10005bc0,B,1,,NCProgressCtrl,NCProgressCtrl::Reset,21,0
+10005290,10005be0,B,1,,NCProgressCtrl,NCProgressCtrl::Stop,11,0
+100052a0,10005bf0,B,1,,NCProgressCtrl,NCProgressCtrl::Start,11,0
+10005380,10005cf0,C,1,,NCCountSpin,NCCountSpin::`scalar deleting destructor',36,0
+10005520,10005ec0,B,1,insn 35 other+94->98;insn 68 other+220->268;insn 92 other+94->98;insn 130 other+220->268,NCCountSpin,NCCountSpin::OnCreate,414,4
+10005730,10006130,B,1,,NCProgressCtrl,NCProgressCtrl::NCProgressCtrl,180,0
+100057f0,100061f0,C,1,,NCProgressCtrl,NCProgressCtrl::`scalar deleting destructor',36,0
+10005820,10006220,A,1,,NCProgressCtrl,NCProgressCtrl::~NCProgressCtrl,80,0
+10005870,10006270,B,1,,NCProgressCtrl,NCProgressCtrl::NCProgressCtrl,237,0
+10005960,10006360,B,1,,NCProgressCtrl,NCProgressCtrl::OnPaint,286,0
+10005a80,10006480,A,1,,NCCountSpin,NCCountSpin::InternalConstructor,20,0
+10005bd0,100065a0,B,0,insn 2 this+161c -> 58 (layout says ?),NDialogInfo,NDialogInfo::SetParams,23,0
+100061a0,10006c50,B,0,insn 2 this+1ac -> 1b0 (layout says ?),NCDialogBox,NCDialogBox::SetButtonTexts,112,0
+10006210,10006cf0,B,0,insn 0 this+1f0 -> 1fc (layout says ?),NCDialogBox,NCDialogBox::GetOwner,7,0
+10006310,10006f60,C,1,,NCDialogBox,NCDialogBox::`scalar deleting destructor',36,0
+10006a70,10007860,C,0,insn 19 this+1ac -> 1b0 (layout says ?),NCDialogBox,NCDialogBox::UpdateLayout,397,0
+10008be0,1000a060,C,1,,NCEditBox,NCEditBox::SetText,12,0
+10009100,1000a5e0,B,1,,NCEditBox,NCEditBox::OnTimer,37,0
+10009130,1000a610,B,0,insn 1 this+1bc -> 1c4 (layout says 1c0),NCEditBox,NCEditBox::SetType,13,0
+10009140,1000a620,B,1,,NCEditBox,NCEditBox::SetFocus,23,0
+1000bbb0,1000e780,B,1,,NCFrameCtrl,NCFrameCtrl::OnMinimize,23,0
+1000bbd0,1000e7a0,A,1,,NCFrameCtrl,NCFrameCtrl::SetSize,5,0
+1000bbe0,1000e7b0,B,1,,NCFrameCtrl,NCFrameCtrl::OnMouseMove,103,0
+1000bc50,1000e820,B,1,,NCFrameCtrl,NCFrameCtrl::OnLButtonDown,86,0
+1000bcb0,1000e880,A,1,,NCFrameCtrl,NCFrameCtrl::OnLButtonUp,24,0
+1000bd80,1000e930,B,1,,NCResizeFrame,NCResizeFrame::OnLButtonDown,101,0
+1000bdf0,1000e9a0,B,1,,NCResizeFrame,NCResizeFrame::OnLButtonUp,22,0
+1000be10,1000e9c0,B,1,,NCResizeFrame,NCResizeFrame::KillFocus,24,0
+1000be80,1000ea50,C,1,,NCFrameCtrl,NCFrameCtrl::`scalar deleting destructor',36,0
+1000c180,1000ed90,C,0,"insn 37 calls 10001a20, C2 calls 10002440 (not the same function)",NCFrameCtrl,NCFrameCtrl::OnCreate,414,1
+1000c4f0,1000f170,B,1,,NCResizeFrame,NCResizeFrame::NCResizeFrame,56,0
+1000c530,1000f1b0,C,1,,NCResizeFrame,NCResizeFrame::`scalar deleting destructor',36,0
+1000c560,1000f1e0,A,1,,NCResizeFrame,NCResizeFrame::~NCResizeFrame,80,0
+1000c5b0,1000f230,B,1,,NCResizeFrame,NCResizeFrame::OnMouseMove,298,0
+1000ca10,1000f410,A,1,,NCGDevice,NCGDevice::SetCanvas,15,0
+1000ca20,1000f420,A,1,,NCGDevice,NCGDevice::ClearCanvas,8,0
+1000cbd0,1000f5f0,B,1,,NCGDevice,NCGDevice::DrawRect,97,0
+1000cc40,1000f660,B,1,,NCGDevice,NCGDevice::DrawStretchedTex,104,0
+1000ccb0,1000f6d0,B,1,,NCGDevice,NCGDevice::DrawStretchedTex,124,0
+1000cd30,1000f750,B,1,,NCGDevice,NCGDevice::DrawTexture,138,0
+1000cdc0,1000f7e0,B,1,,NCGDevice,NCGDevice::DrawBrightenTexture,147,0
+1000ce60,1000f880,A,1,,NCGDevice,NCGDevice::DrawMinimapLoc,33,0
+1000ce90,1000f8b0,A,1,,NCGDevice,NCGDevice::DrawRadar,9,0
+1000cea0,1000f8c0,A,1,,NCGDevice,NCGDevice::DrawRadarTarget,9,0
+1000ceb0,1000f8d0,C,1,,NCGDevice,NCGDevice::DrawLine,113,0
+1000cf30,1000f950,B,1,,NCGDevice,NCGDevice::Draw3DCoordText,118,0
+1000cfe0,1000fa00,B,1,,NCGDevice,NCGDevice::DrawPledgeCrest,140,0
+1000d070,1000fa90,B,1,,NCGDevice,NCGDevice::DrawAllyCrest,140,0
+1000d100,1000fb20,B,1,,NCGDevice,NCGDevice::SetClip,11,0
+1000d110,1000fb30,B,1,,NCGDevice,NCGDevice::ReleaseClip,11,0
+1000d120,1000fb40,C,1,,NCGDevice,NCGDevice::DrawSpecialDigit,94,0
+1000d260,1000fcf0,A,1,,NPointDeque,NPointDeque::Tidy,100,0
+1000d2d0,1000fd60,A,1,,NStdString,NStdString::Copy,93,0
+1000d410,10010640,A,1,,NStdString,NStdString::~NStdString,43,0
+1000d440,10010670,A,1,,NStdString,NStdString::Grow,198,0
+1000d520,10010740,A,1,,NStdLogicError,NStdLogicError::~NStdLogicError,115,0
+1000d5a0,100107c0,A,1,,NStdLogicError,NStdLogicError::What,14,0
+1000d5b0,100107d0,A,1,,NStdLogicError,NStdLogicError::`scalar deleting destructor',34,0
+1000d5e0,10010800,A,1,,NStdString,NStdString::Erase,181,0
+1000d720,10010950,C,1,,NCGDevice,NCGDevice::`scalar deleting destructor',33,0
+1000d7b0,100109f0,A,1,,NCGDevice,NCGDevice::PopOrigin,87,0
+1000d810,10010a50,A,1,,NStdString,NStdString::Assign,166,0
+1000d8c0,10010b00,A,1,,NStdString,NStdString::Assign,159,0
+1000d960,10010ba0,A,1,,NCGDevice,NCGDevice::InternalConstructor,14,0
+1000d970,10010bb0,A,1,,NStdLogicError,NStdLogicError::NStdLogicError,95,0
+1000d9d0,10010c50,A,1,,NStdString,NStdString::NStdString,57,0
+1000da50,10010c90,A,1,,NPointDeque,NPointDeque::Xlen,122,0
+1000dad0,10010d10,A,1,,NStdLogicError,NStdLogicError::NStdLogicError,101,0
+1000db40,10010d80,A,1,,NStdLengthError,NStdLengthError::NStdLengthError,25,0
+1000db60,10010da0,A,1,,NPointDeque,NPointDeque::GrowMap,307,0
+1000dca0,10010ee0,A,1,,NPointDeque,NPointDeque::PushBack,136,0
+1000dd30,10010f70,A,1,,NCGDevice,NCGDevice::PushOrigin,44,0
+1000de00,100112a0,A,1,,NCIMEManager,NCIMEManager::OnComposition,28,0
+1000de20,100112c0,A,1,,NCIMEManager,NCIMEManager::OnResult,28,0
+1000de40,100112e0,A,1,,NCIMEManager,NCIMEManager::OnAttribute,28,0
+1000de60,10011300,A,1,,NCIMEManager,NCIMEManager::OnReading,28,0
+1000de80,10011320,A,1,,NCIMEManager,NCIMEManager::OnGetCaret,28,0
+1000dea0,10011340,A,1,,NCIMEManager,NCIMEManager::OnEndComposition,28,0
+1000dec0,10011360,A,1,,NCIMEManager,NCIMEManager::OnCursorPos,28,0
+1000e050,100114e0,B,1,,NCIME,NCIME::OnCreate,50,0
+1000e090,10011520,B,1,,NCIME,NCIME::OnImeStartComposition,18,0
+1000e0b0,10011540,B,1,,NCIME,NCIME::OnImeEndComposition,14,0
+1000e0c0,10011550,B,1,,NCIME,NCIME::OnInputLangChange,25,0
+1000e0e0,10011570,B,0,"insn 13 calls 10020db0, C2 calls 10025240 (not the same function)",NCIME,NCIME::OnImeSetContext,59,0
+1000e120,100115b0,B,1,,NCIME,NCIME::GetResultStr,7,0
+1000e130,100115c0,B,1,,NCIME,NCIME::GetCompStr,7,0
+1000e140,100115d0,B,1,,NCIME,NCIME::GetReadingStr,7,0
+1000e180,10011640,B,1,,NCIME,NCIME::IsNotComposing,7,0
+1000e190,10011650,A,1,,NCIME,NCIME::IsUnicodeOS,89,0
+1000e1f0,100116b0,B,1,,NCIME,NCIME::UpdateCodePage,64,0
+1000e520,10011820,A,1,,StockOperatorDelete,StockOperatorDelete,18,0
+1000e660,10011960,A,1,,NCJapaneseIME,NCJapaneseIME::IsJapaneseLayout,22,0
+1000e680,10011f10,B,1,,NCJapaneseIME,NCJapaneseIME::ShowWindow,23,0
+1000e6d0,10011980,B,1,,NCJapaneseIME,NCJapaneseIME::OnImeEndComposition,32,0
+1000e7e0,10011a80,A,1,,NCTaiwanIME,NCTaiwanIME::LoadReadingString,83,0
+1000e890,10011ae0,A,1,,NCTaiwanIME,NCTaiwanIME::GetImeId,355,0
+1000ea00,10011c50,C,1,insn 105 other+1cc->1d0;insn 133 other+1a0->1a4,NCTaiwanIME,NCTaiwanIME::ReadReadingString,539,2
+1000ec20,10011e70,A,1,,NCTaiwanIME,NCTaiwanIME::IsTaiwanIME,152,0
+1000ecc0,10011f30,B,1,,NCTaiwanIME,NCTaiwanIME::OnImeSetContext,157,0
+1000ef80,100121f0,A,1,,NCChineseIME,NCChineseIME::LoadReadingString,83,0
+1000efe0,100122a0,A,1,,NCChineseIME,NCChineseIME::IsChineseIME,168,0
+1000f090,10012350,B,1,,NCChineseIME,NCChineseIME::ShowWindow,37,0
+1000f0c0,10012380,A,1,,NCChineseIME,NCChineseIME::GetImeId,296,0
+1000f1f0,100124e0,B,1,,NCChineseIME,NCChineseIME::OnImeEndComposition,190,0
+1000f2b0,10012780,A,1,,NCIME,NCIME::~NCIME,80,0
+1000f300,100127d0,C,1,,NCIME,NCIME::`scalar deleting destructor',36,0
+1000f330,10012800,A,1,,NewTaiwanIME,NewTaiwanIME,44,0
+1000f360,10012830,A,1,,NewChineseIME,NewChineseIME,44,0
+1000f390,10012860,A,1,,NCChineseIME,NCChineseIME::IsNT,108,0
+1000f460,10012960,C,1,,NCIMEManager,NCIMEManager::`scalar deleting destructor',36,0
+1000f490,10012990,A,1,,NCIMEManager,NCIMEManager::~NCIMEManager,80,0
+1000f5f0,10012b70,B,1,insn 1 other+1a0->1a4;insn 4 other+1a4->1a8;insn 7 other+1a8->1ac;insn 10 other+1ac->1b0,NCIMEManager,NCIMEManager::GetCompStr,52,4
+1000f630,10012bb0,B,1,insn 1 other+1a0->1a4;insn 4 other+1a4->1a8;insn 7 other+1a8->1ac;insn 10 other+1ac->1b0,NCIMEManager,NCIMEManager::GetResultStr,52,4
+1000f670,10012bf0,B,1,insn 1 other+1a0->1a4;insn 4 other+1a4->1a8;insn 7 other+1a8->1ac;insn 10 other+1ac->1b0,NCIMEManager,NCIMEManager::GetReadingStr,52,4
+1000f6f0,10012c70,B,1,,NCIME,NCIME::NCIME,107,0
+1000f760,10012ce0,B,1,,NCJapaneseIME,NCJapaneseIME::OnCreate,179,0
+1000f820,10012da0,B,1,,NCJapaneseIME,NCJapaneseIME::OnCaret,109,0
+1000f890,10012e10,B,1,,NCTaiwanIME,NCTaiwanIME::OnCreate,196,0
+1000fad0,10013050,B,1,insn 34 other+94->98;insn 70 other+94->98,NCTaiwanIME,NCTaiwanIME::OnCaret,285,2
+1000fbf0,10013170,B,1,,NCChineseIME,NCChineseIME::OnCreate,362,0
+1000fd60,100132e0,C,1,insn 120 other+1a0->1a4;insn 141 other+1cc->1d0,NCChineseIME,NCChineseIME::ReadReadingString,572,2
+10010130,100136b0,B,1,insn 37 other+94->98;insn 44 other+94->98,NCChineseIME,NCChineseIME::OnCaret,215,2
+10010210,10013830,A,1,,NCIME,NCIME::InternalConstructor,16,0
+10010230,10013860,B,0,"insn 21 calls 10020db0, C2 calls 10025240 (not the same function)",NCKoreanIME,NCKoreanIME::OnImeComposition,3283,0
+100111a0,10014840,B,1,,NCJapaneseIME,NCJapaneseIME::ReadCandList,201,0
+10011270,10014910,B,0,"insn 21 calls 10020db0, C2 calls 10025240 (not the same function)",NCJapaneseIME,NCJapaneseIME::OnImeComposition,3459,0
+10012310,10015aa0,B,0,"insn 21 calls 10020db0, C2 calls 10025240 (not the same function)",NCTaiwanIME,NCTaiwanIME::OnImeComposition,3303,0
+10013210,100169a0,B,1,,NCTaiwanIME,NCTaiwanIME::ReadCandList,234,0
+100133b0,10016bb0,B,1,,NCChineseIME,NCChineseIME::ReadCandList,271,0
+100134c0,10016cc0,B,0,"insn 21 calls 10020db0, C2 calls 10025240 (not the same function)",NCChineseIME,NCChineseIME::OnImeComposition,3672,0
+10014640,10017ee0,B,1,,NCKoreanIME,NCKoreanIME::NCKoreanIME,62,0
+10014680,10017f20,C,1,,NCKoreanIME,NCKoreanIME::`scalar deleting destructor',36,0
+100146b0,10017f50,B,1,,NCKoreanIME,NCKoreanIME::~NCKoreanIME,96,0
+10014710,10017fb0,B,1,,NCJapaneseIME,NCJapaneseIME::NCJapaneseIME,62,0
+10014750,10017ff0,C,1,,NCJapaneseIME,NCJapaneseIME::`scalar deleting destructor',36,0
+10014780,10018020,B,1,,NCJapaneseIME,NCJapaneseIME::~NCJapaneseIME,96,0
+10014860,10018120,B,1,,NCTaiwanIME,NCTaiwanIME::NCTaiwanIME,62,0
+100148a0,10018160,C,1,,NCTaiwanIME,NCTaiwanIME::`scalar deleting destructor',36,0
+100148d0,10018190,B,1,,NCTaiwanIME,NCTaiwanIME::~NCTaiwanIME,96,0
+10014b60,10018480,B,1,,NCChineseIME,NCChineseIME::NCChineseIME,114,0
+10014be0,10018500,C,1,,NCChineseIME,NCChineseIME::`scalar deleting destructor',36,0
+10014c10,10018530,B,1,,NCChineseIME,NCChineseIME::~NCChineseIME,113,0
+100155d0,10018f50,B,1,,NCIcon,NCIcon::OnMouseMove,165,0
+10015680,10019000,B,1,,NCIcon,NCIcon::OnLButtonDown,58,0
+100157c0,10019150,C,1,,NCIcon,NCIcon::`scalar deleting destructor',36,0
+10015840,100191f0,B,1,insn 34 other+1a0->1a4,NCIcon,NCIcon::OnPaint,157,1
+10015f30,10019580,C,0,insn 0 this+c4c -> c (layout says ?),NItemEntry,NItemEntry::GetToolTipName,19,0
+10015f50,10019630,B,0,insn 0 this+144c -> 20c (layout says ?),NItemEntry,NItemEntry::GetToolTipText,19,0
+10015f70,10019650,B,0,insn 0 this+40c -> 70c (layout says ?),NItemEntry,NItemEntry::GetDescription,19,0
+10015f90,10019670,B,0,insn 0 this+c20 -> 1924 (layout says ?),NItemEntry,NItemEntry::GetUnknownC20,7,0
+10015fa0,10019680,B,0,insn 0 this+c34 -> 1938 (layout says ?),NItemEntry,NItemEntry::GetUnknownC34,7,0
+10015fb0,10019690,B,0,insn 1 this+c34 -> 1938 (layout says ?),NItemEntry,NItemEntry::SetUnknownC34,13,0
+10016230,100196a0,B,0,insn 0 this+1c54 -> 1950 (layout says ?),NItemEntry,NItemEntry::Select,11,0
+10016240,100196b0,B,0,insn 0 this+1c54 -> 1950 (layout says ?),NItemEntry,NItemEntry::IsSelected,7,0
+10016250,100196c0,B,0,insn 0 this+1c54 -> 1950 (layout says ?),NItemEntry,NItemEntry::Unselect,11,0
+10016260,100196d0,B,0,insn 0 this+c40 -> 1944 (layout says ?),NItemEntry,NItemEntry::IsStackable,7,0
+10016390,100198b0,B,1,,NCItemWnd,NCItemWnd::HitTest,120,0
+10016410,10019930,B,1,,NCItemWnd,NCItemWnd::GetSelected,22,0
+10016430,10019950,B,1,,NCItemWnd,NCItemWnd::GetItemCount,7,0
+10016440,10019960,B,1,,NCItemWnd,NCItemWnd::OnMouseWheel,165,0
+100164f0,10019a60,B,1,insn 3 other+36dc->3540;insn 4 other+14c->18c;insn 9 other+36dc->3540;insn 10 other+14c->18c,NCItemWnd,NCItemWnd::HideWindow,117,8
+10016570,10019ae0,B,1,,NCItemWnd,NCItemWnd::InitScrollBar,58,0
+100165b0,10019b20,B,1,,NCItemWnd,NCItemWnd::UpdateScrollRange,110,0
+10016670,10019b90,B,1,,NCItemWnd,NCItemWnd::OnScrollBar,18,0
+10016690,10019bb0,B,1,,NCItemWnd,NCItemWnd::ScrollUp,56,0
+100166d0,10019bf0,B,1,,NCItemWnd,NCItemWnd::ScrollDown,67,0
+10016720,10019c40,A,1,,NCItemWnd,NCItemWnd::DrawItemToolTip,3,0
+10016730,10019c50,A,0,insn 3 this+38 -> 38 (layout says ?),NCCoolTimeIcon,NCCoolTimeIcon::SetTime,204,0
+10016800,10019d20,A,0,insn 12 this+3c -> 3c (layout says ?),NCCoolTimeIcon,NCCoolTimeIcon::Start,48,0
+10016830,10019d50,A,0,insn 0 this+3c -> 3c (layout says ?),NCCoolTimeIcon,NCCoolTimeIcon::Stop,8,0
+10016840,10019d60,A,0,insn 0 this+3c -> 3c (layout says ?),NCCoolTimeIcon,NCCoolTimeIcon::IsIdle,11,0
+10016850,10019d70,A,1,,NCCoolTimeIcon,NCCoolTimeIcon::StartFlash,139,0
+100168e0,10019e10,A,1,,NCScrollWnd,NCScrollWnd::~NCScrollWnd,80,0
+10016930,10019e60,C,1,,NCScrollWnd,NCScrollWnd::`scalar deleting destructor',36,0
+100169f0,10019ee0,B,1,,NCItemWnd,NCItemWnd::OnPaint,371,0
+10017010,1001a1a0,B,1,,NCItemWnd,NCItemWnd::OnMouseMove,152,0
+100170b0,1001a240,B,1,insn 1 other+e8->e0;insn 6 other+e4->dc;insn 9 other+e8->e0,NCItemWnd,NCItemWnd::UnselectAll,42,3
+100170e0,1001a270,A,0,insn 2 this+34 -> 34 (layout says ?),NCCoolTimeIcon,NCCoolTimeIcon::EndCoolTime,34,0
+10017110,1001a2a0,A,0,insn 54 this+3c -> 3c (layout says ?),NCCoolTimeIcon,NCCoolTimeIcon::PreSetMaterial,343,0
+100172a0,1001a430,A,1,,NCCoolTimeIcon,NCCoolTimeIcon::GetFlashTexture,172,0
+100173c0,1001a4e0,A,1,,NCCoolTimeIcon,NCCoolTimeIcon::NCCoolTimeIcon,386,0
+10017550,1001a670,A,1,,NCCoolTimeIcon,NCCoolTimeIcon::GetTexture,202,0
+10017620,1001a740,A,1,,TArray<NItemEntry*>,TArray<NItemEntry*>::~TArray,144,0
+10017750,1001ade0,C,1,,NCItemWnd,NCItemWnd::`scalar deleting destructor',36,0
+10017780,1001ae10,B,1,,NCItemWnd,NCItemWnd::~NCItemWnd,96,0
+10017880,1001af80,A,1,,NCItemWnd,NCItemWnd::InternalConstructor,14,0
+10017980,1001b510,B,1,,NCListBox,NCListBox::HitTest,195,0
+10017a50,1001b5e0,B,1,,NCListBox,NCListBox::OnLButtonDown,62,0
+10017a90,1001b620,B,1,,NCListBox,NCListBox::OnMouseWheel,165,0
+10017b40,1001b6d0,B,1,,NCListBox,NCListBox::ScrollUp,56,0
+10017b80,1001b710,B,1,,NCListBox,NCListBox::ScrollDown,67,0
+10017bd0,1001b760,B,1,,NCListBox,NCListBox::SetTopIndex,18,0
+10017bf0,1001b780,B,1,,NCListBox,NCListBox::UpdateScrollBar,54,0
+10017e20,1001b9b0,B,1,insn 7 other+220->268;insn 9 other+220->268,NCListBox,NCListBox::SetRepeatDelay,45,2
+10017e50,1001b9e0,B,1,,NCListBox,NCListBox::InitScrollBar,58,0
+10017e90,1001ba20,B,1,,NCListBox,NCListBox::GetItemParam,31,0
+10017eb0,1001ba40,A,1,,TListItemArray,TListItemArray::Remove,118,0
+10017f30,1001bac0,B,1,insn 41 other+94->98;insn 93 other+94->98;insn 150 other+94->98,NCListBox,NCListBox::OnCreate,568,3
+10018270,1001be60,B,1,,NCListBox,NCListBox::Clear,139,0
+10018310,1001bf00,B,1,,NCListBox,NCListBox::AddString,335,0
+10018460,1001c050,A,1,,TListItemArray,TListItemArray::~TListItemArray,144,0
+100184f0,1001c0e0,B,1,,NCListBox,NCListBox::NCListBox,168,0
+100185a0,1001c190,C,1,,NCListBox,NCListBox::`scalar deleting destructor',36,0
+100185d0,1001c1c0,B,1,,NCListBox,NCListBox::~NCListBox,96,0
+10018630,1001c220,B,1,,NCListBox,NCListBox::NCListBox,170,0
+100186e0,1001c2d0,A,1,,NCListBox,NCListBox::InternalConstructor,14,0
+100186f0,1001c2e0,A,1,,NListCell,NListCell::SetText,36,0
+10018720,1001c310,A,1,,NListCell,NListCell::SetNumber,23,0
+10018740,1001c330,B,0,insn 4 this+800 -> 1000 (layout says ?),NListCell,NListCell::SetIcon,37,0
+10018770,1001c360,C,1,insn 11 other+808->1008,NListCell,NListCell::SetText2,46,1
+100187c0,1001c3c0,B,0,insn 1 this+804 -> 1004 (layout says ?),NListCell,NListCell::SetColor,13,0
+100187d0,1001c3d0,B,1,insn 7 other+2e810->4b4e8;insn 12 other+2e810->4b4e8,NListColumnInfo,NListColumnInfo::SetTitleID,85,2
+10018830,1001c430,A,1,,NListColumnInfo,NListColumnInfo::SetTitle,40,0
+10018860,1001c460,A,1,,NListColumnInfo,NListColumnInfo::SetNormalTex,46,0
+10018890,1001c490,A,1,,NListColumnInfo,NListColumnInfo::SetPushedTex,46,0
+100188c0,1001c4c0,A,1,,NListRow,NListRow::SetText,40,0
+10018990,1001c580,B,1,,NCHeaderCtrl,NCHeaderCtrl::OnLButtonUp,72,0
+100189f0,1001c650,B,1,,NCHeaderCtrl,NCHeaderCtrl::SetColumnInfo,174,0
+10018b90,1001c7e0,B,1,,NCListCtrl,NCListCtrl::OnCreate,105,0
+10018c00,1001c850,B,1,,NCListCtrl,NCListCtrl::HitTest,217,0
+10018ce0,1001c930,B,1,,NCListCtrl,NCListCtrl::OnLButtonDown,55,0
+10018d20,1001c970,B,1,,NCListCtrl,NCListCtrl::OnMouseMove,39,0
+10018d50,1001c9a0,B,1,,NCListCtrl,NCListCtrl::OnLButtonDblClick,65,0
+10018da0,1001c9f0,B,1,,NCListCtrl,NCListCtrl::OnMouseWheel,165,0
+10018e50,1001caa0,B,1,,NCListCtrl,NCListCtrl::ScrollUp,56,0
+10018e90,1001cae0,B,1,,NCListCtrl,NCListCtrl::ScrollDown,67,0
+10018ee0,1001cb30,B,1,,NCListCtrl,NCListCtrl::SetTopRow,18,0
+10018f00,1001cb50,B,1,,NCListCtrl,NCListCtrl::GetRows,7,0
+10018f10,1001cb60,B,1,,NCListCtrl,NCListCtrl::GetRowCount,7,0
+10018f20,1001cb70,B,1,,NCListCtrl,NCListCtrl::SetSelected,25,0
+10018f40,1001cb90,B,1,,NCListCtrl,NCListCtrl::SetTextOffset,23,0
+10018f60,1001cbb0,B,1,,NCListCtrl,NCListCtrl::UpdateScrollRange,54,0
+10019060,1001cbf0,B,1,,NCHeaderCtrl,NCHeaderCtrl::NCHeaderCtrl,102,0
+100190d0,1001cc60,C,1,,NCHeaderCtrl,NCHeaderCtrl::`scalar deleting destructor',36,0
+10019100,1001cc90,A,1,,NCHeaderCtrl,NCHeaderCtrl::~NCHeaderCtrl,80,0
+100197f0,1001d120,B,1,,NCListCtrl,NCListCtrl::GetSelectedRow,31,0
+10019810,1001d140,B,1,insn 7 other+220->268;insn 9 other+220->268,NCListCtrl,NCListCtrl::SetRepeatDelay,45,2
+10019880,1001d1b0,A,1,,TArray<ptr>,TArray<ptr>::Remove,118,0
+10019900,1001d230,A,1,,NCHeaderCtrl,NCHeaderCtrl::InternalConstructor,14,0
+10019a70,1001d240,C,1,insn 46 other+9b0->9b4;insn 49 other+9b4->9b8;insn 79 other+9b4->9b8;insn 115 other+9b4->9b8,NCListCtrl,NCListCtrl::SortByColumn,477,5
+10019c50,1001d420,B,1,,NCListCtrl,NCListCtrl::AddRow,74,0
+10019f40,1001dc30,B,0,"insn 15 calls 10019040, C2 calls 1001d7f0 (not the same function)",NCListCtrl,NCListCtrl::Clear,205,0
+1001a010,1001d690,A,1,,TArray<ptr>,TArray<ptr>::~TArray,144,0
+1001a0a0,1001d820,B,1,,NCListCtrl,NCListCtrl::NCListCtrl,224,0
+1001a180,1001d900,C,1,,NCListCtrl,NCListCtrl::`scalar deleting destructor',36,0
+1001a1b0,1001d930,B,1,,NCListCtrl,NCListCtrl::~NCListCtrl,112,0
+1001a220,1001d9a0,B,1,,NCListCtrl,NCListCtrl::NCListCtrl,226,0
+1001a310,1001da90,B,1,insn 39 other+94->98;insn 47 other+9b8->9bc;insn 80 other+9c->a0,NCListCtrl,NCListCtrl::AddColumn,288,3
+1001a430,1001dd00,A,1,,NCListCtrl,NCListCtrl::InternalConstructor,14,0
+1001a5a0,1001e130,B,1,,NCMultiEdit,NCMultiEdit::ScrollToCaret,52,0
+1001a5e0,1001e170,B,1,,NCMultiEdit,NCMultiEdit::KillFocus,25,0
+1001a600,1001e190,B,1,,NCMultiEdit,NCMultiEdit::OnTimer,27,0
+1001b2c0,1001ef10,B,1,,NCMultiEdit,NCMultiEdit::OnGetCaret,41,0
+1001b2f0,1001ef40,B,1,,NCMultiEdit,NCMultiEdit::OnReading,72,0
+1001b340,1001ef90,C,1,,NCMultiEdit,NCMultiEdit::OnAttribute,30,0
+1001b360,1001efb0,B,1,,NCMultiEdit,NCMultiEdit::OnScrollBar,18,0
+1001b380,1001efd0,A,1,,FString,FString::Len,12,0
+1001b390,1001efe0,A,1,,NLineNode,NLineNode::NLineNode,73,0
+1001b3e0,1001f030,A,1,,NLineNode,NLineNode::~NLineNode,79,0
+1001ba00,1001f700,B,1,,NCMultiEdit,NCMultiEdit::OnMouseWheel,194,0
+1001bad0,1001f7d0,B,1,insn 1 other+1b8->1bc;insn 3 other+1f8->208;insn 5 other+1fc->20c;insn 7 other+1fc->20c,NCMultiEdit,NCMultiEdit::OnScrollUp,63,6
+1001bb10,1001f810,B,1,insn 2 other+1f8->208;insn 3 other+1b8->1bc;insn 7 other+1fc->20c;insn 10 other+1fc->20c,NCMultiEdit,NCMultiEdit::OnScrollDown,90,7
+1001bb70,1001f870,B,1,insn 7 other+220->268;insn 9 other+220->268,NCMultiEdit,NCMultiEdit::SetRepeatDelay,45,2
+1001bba0,1001f8a0,B,1,,NCMultiEdit,NCMultiEdit::InitScrollBar,58,0
+1001bbe0,1001f8e0,B,1,,NCMultiEdit,NCMultiEdit::UpdateScrollBar,53,0
+1001bc20,1001f920,A,1,,NLineList,NLineList::NLineList,117,0
+1001bca0,1001f9a0,A,1,,NLineList,NLineList::TotalLength,102,0
+1001dbd0,100218f0,B,1,,NCMultiEdit,NCMultiEdit::OnResult,80,0
+1001dc20,10021940,C,1,insn 8 other+23c->248;insn 9 other+238->244;insn 11 other+1a0->1a4;insn 20 other+1d0->1e0,NCMultiEdit,NCMultiEdit::OnComposition,319,7
+1001dd60,10021a80,C,1,,NCMultiEdit,NCMultiEdit::GetText,242,0
+1001de60,10021b80,A,1,,NLineList,NLineList::Insert,413,0
+1001e000,10021d20,A,1,,NLineList,NLineList::RemoveAt,185,0
+1001e500,10022230,B,1,,NCMultiEdit,NCMultiEdit::SetText,66,0
+1001e670,10022400,B,1,,NCMultiEdit,NCMultiEdit::Clear,134,0
+10020a20,10023d80,A,1,,NLineList,NLineList::~NLineList,50,0
+10020a60,10023dc0,C,1,,NCMultiEdit,NCMultiEdit::`scalar deleting destructor',36,0
+10020ca0,10025130,A,1,,NCObject,NCObject::NCObject,26,0
+10020cc0,10025150,A,1,,NCObject,NCObject::Destroy,13,0
+10020cd0,10025160,B,1,insn 20 other+36e0->3544;insn 31 other+36e0->3544,NCObject,NCObject::Debugf,132,2
+10020d60,100251f0,A,1,,NCObject,NCObject::ImeGetProperty,22,0
+10020d80,10025210,A,1,,NCObject,NCObject::ImeGetContext,12,0
+10020d90,10025220,A,1,,NCObject,NCObject::ImeReleaseContext,20,0
+10020dd0,10025260,A,1,,NCObject,NCObject::SetTimer,15,0
+10020de0,10025270,A,1,,NCObject,NCObject::KillTimer,20,0
+10020e00,10025290,A,1,,NCObject,NCObject::FindTexture,111,0
+10020f00,10025390,B,1,insn 1 other+370c->3578,NCObject,NCObject::GetDeltaTime,12,1
+10020f10,100253a0,A,1,,NCObject,NCObject::SetCursor,11,0
+10020f20,100253b0,A,1,,NCObject,NCObject::LockCursor,11,0
+10020f30,100253c0,A,1,,NCObject,NCObject::UnlockCursor,11,0
+10020ff0,10025470,B,1,,NCScrollWnd,NCScrollWnd::SetSize,87,0
+10021050,10025540,B,1,insn 15 other+ac->b0;insn 16 other+c0->c4,NCScrollWnd,NCScrollWnd::SetContentHeight,66,2
+100210a0,10025590,B,1,,NCScrollWnd,NCScrollWnd::NCScrollWnd,74,0
+100210f0,100255e0,B,1,insn 7 other+220->268;insn 9 other+220->268,NCScrollWnd,NCScrollWnd::SetRepeatDelay,45,2
+10021120,10025610,B,1,insn 31 other+b8->bc;insn 35 other+b8->bc;insn 37 other+b0->b4;insn 39 other+94->98,NCScrollWnd,NCScrollWnd::OnCreate,594,21
+10021420,10025970,B,1,,NCScrollWnd,NCScrollWnd::OnKeyDown,284,0
+10021560,10025ab0,B,1,,NCScrollWnd,NCScrollWnd::ScrollUp,143,0
+100215f0,10025b40,B,1,,NCScrollWnd,NCScrollWnd::ScrollDown,155,0
+10021690,100bf190,B,1,,NCScrollWnd,NCScrollWnd::OnMouseWheel,246,0
+10021790,10025be0,A,1,,NCScrollWnd,NCScrollWnd::InternalConstructor,14,0
+100217a0,10025bf0,B,1,,NCSliderBar,NCSliderBar::SetRange,90,0
+10021800,10025c50,B,1,,NCSliderBar,NCSliderBar::SetValue,97,0
+10021870,10025cc0,B,1,,NCSliderBar,NCSliderBar::OnLButtonDown,77,0
+100218c0,10025d10,B,1,,NCSliderBar,NCSliderBar::OnLButtonUp,23,0
+100218e0,10025d30,B,1,,NCSliderBar,NCSliderBar::OnMouseMove,204,0
+100219b0,10025e00,B,1,,NCSliderBar,NCSliderBar::Reset,21,0
+100219d0,10025e20,B,1,,NCSliderBar,NCSliderBar::NCSliderBar,97,0
+10021a40,10025e90,C,1,,NCSliderBar,NCSliderBar::`scalar deleting destructor',36,0
+10021a70,10025ec0,A,1,,NCSliderBar,NCSliderBar::~NCSliderBar,80,0
+10021ac0,10025f10,B,1,,NCSliderBar,NCSliderBar::NCSliderBar,179,0
+10021b80,10025fd0,B,1,,NCSliderBar,NCSliderBar::OnPaint,271,0
+10021cc0,10026110,A,1,,NCSliderBar,NCSliderBar::SetScrollRange,5,0
+10021cd0,10026120,A,1,,NCSliderBar,NCSliderBar::SetScrollPos,5,0
+10021ce0,10026130,A,1,,NCSliderBar,NCSliderBar::InternalConstructor,14,0
+10021cf0,100264f0,A,1,,NString,NString::NString,19,0
+10021d10,10026510,A,1,,NString,NString::GetAt,23,0
+10021d30,10026530,A,1,,NString,NString::AllocBuffer,26,0
+10021d50,10026560,A,1,,NString,NString::Insert,294,0
+10021e80,10026690,A,1,,NString,NString::Append,19,0
+10021ea0,100266b0,A,1,,NString,NString::Empty,32,0
+10021ec0,100266d0,A,1,,NString,NString::NString,36,0
+10021ef0,10026700,A,1,,NString,NString::~NString,5,0
+10021f70,10026780,A,0,"insn 0 calls 10021f00, C2 calls 10026710 (not the same function)",NStringArray,NStringArray::~NStringArray,5,0
+10021f80,10026790,A,1,,NStringArray,NStringArray::InsertAt,417,0
+10022130,10026940,A,1,,NStringArray,NStringArray::NStringArray,24,0
+100221c0,100269c0,B,1,,NCTabControl,NCTabControl::OnCreate,32,0
+100221e0,100269e0,B,1,,NCTabControl,NCTabControl::ShowCurrentPage,69,0
+10022330,10026b20,B,1,insn 44 other+1a0->1a4;insn 51 other+1a0->1a4,NCTabControl,NCTabControl::SetTab,202,2
+10022400,10026bf0,A,1,,TRadioButtonArray,TRadioButtonArray::TRadioButtonArray,134,0
+10022980,100271e0,A,1,,TRadioButtonArray,TRadioButtonArray::~TRadioButtonArray,144,0
+10022a10,10027270,B,1,,NCTabControl,NCTabControl::NCTabControl,97,0
+10022a80,100272e0,C,1,,NCTabControl,NCTabControl::`scalar deleting destructor',36,0
+10022ab0,10027310,B,1,,NCTabControl,NCTabControl::~NCTabControl,112,0
+10022b20,10027380,C,1,,NCTabControl,NCTabControl::GetTabs,35,0
+10022b50,100273b0,A,1,,NCTabControl,NCTabControl::InternalConstructor,14,0
+10022d30,1002b6c0,B,1,,NCWnd,NCWnd::SetTabOrder,25,0
+10022d50,1002b6e0,B,1,,NCWnd,NCWnd::EnableWindow,42,0
+10022d80,1002b710,B,1,insn 5 other+90->94,NCWnd,NCWnd::ShowWindow,58,1
+10022dc0,1002b750,B,1,,NCWnd,NCWnd::HideWindow,39,0
+10022df0,1002b780,A,1,,NCWnd,NCWnd::IsShowWindow,13,0
+10022e00,1002b790,A,1,,NCWnd,NCWnd::BringChildToTop,108,0
+10022e70,1002b800,B,1,,NCWnd,NCWnd::SetFocus,72,0
+10022ec0,1002b850,A,1,,NCWnd,NCWnd::KillFocus,29,0
+10022ee0,1002b870,A,1,,NCWnd,NCWnd::OffsetScreen,63,0
+10022f20,1002b8b0,A,1,,NCWnd,NCWnd::PtInRect,57,0
+10022f60,1002b8f0,B,1,,NCWnd,NCWnd::IsInWindow,68,0
+10022fb0,1002b940,B,1,,NCWnd,NCWnd::FindWindowAt,11,0
+10022fc0,1002b950,B,1,,NCWnd,NCWnd::OnMove,35,0
+10022ff0,1002b980,B,1,,NCWnd,NCWnd::OnKeyDown,122,0
+10023070,1002ba00,B,1,,NCWnd,NCWnd::OnKeyUp,34,0
+100230a0,1002ba30,A,1,,NCWnd,NCWnd::SetTitle,33,0
+100230d0,1002bae0,A,1,,NCWnd,NCWnd::FormatNumber,131,0
+10023160,1002bc10,B,1,,NCWnd,NCWnd::NCWnd,102,0
+100231d0,1002bc80,A,1,,NCWnd,NCWnd::AddChildNode,93,0
+10023230,1002bce0,A,1,,NCWnd,NCWnd::RemoveChildNode,97,0
+100239d0,1002c4e0,B,1,,NCWnd,NCWnd::SetScreenPos,111,0
+10023a40,1002c560,C,1,,NCWnd,NCWnd::SetSize,103,0
+10023ab0,1002c5d0,C,1,,NCWnd,NCWnd::CenterInParent,96,0
+10023ca0,1002c820,B,1,,NCWnd,NCWnd::AddChildWindow,57,0
+10023ce0,1002c860,B,1,,NCWnd,NCWnd::RemoveChildWindow,58,0
+10023d20,1002c8a0,A,1,,NCWnd,NCWnd::InternalConstructor,14,0
+10023d30,1002c8b0,A,1,,NCWnd,NCWnd::MoveWindow,95,0
+10023d90,1002c910,C,1,,NCWnd,NCWnd::SetWindowRect,190,0
+10024080,1002ce00,A,1,,DllMain,DllMain,17,0
+100240a0,1002ce40,A,1,,NHtmlAnalyzer,NHtmlAnalyzer::OnPaint,73,0
+10024120,1002ced0,B,1,,NHtmlAnalyzer,NHtmlAnalyzer::NHtmlAnalyzer,156,0
+100241c0,1002cf70,C,1,,NHtmlAnalyzer,NHtmlAnalyzer::`scalar deleting destructor',36,0
+100241f0,1002cfa0,B,1,,NHtmlAnalyzer,NHtmlAnalyzer::~NHtmlAnalyzer,144,0
+10024280,1002d030,A,1,,NHtmlAnalyzer,NHtmlAnalyzer::InternalConstructor,14,0
+10024290,1002d040,A,1,,NCVirtualWndMain,NCVirtualWndMain::IsDispatchedMsg,43,0
+100242c0,1002d070,A,1,,NCVirtualWndMain,NCVirtualWndMain::SetGDevice,71,0
+10024340,1002d0f0,A,1,,NCVirtualWndMain,NCVirtualWndMain::ReleaseGDevice,65,0
+10024400,1002d170,B,1,,NCVirtualWndMain,NCVirtualWndMain::SendToFocused,364,0
+10024570,1002d2e0,B,1,,NCVirtualWndMain,NCVirtualWndMain::PaintChildren,62,0
+100245b0,1002d320,B,1,,NCVirtualWndMain,NCVirtualWndMain::LoadCursors,127,0
+10024630,1002d3a0,C,1,,NCVirtualWndMain,NCVirtualWndMain::DestroyCursors,63,0
+10024670,1002d3f0,A,1,,NCVirtualWndMain,NCVirtualWndMain::DeleteGDevice,26,0
+10024690,1002d460,A,1,,NCAbstractMain,NCAbstractMain::~NCAbstractMain,80,0
+100246e0,1002d4b0,A,1,,NCAbstractMain,NCAbstractMain::`scalar deleting destructor',33,0
+10024980,1002d860,B,1,,NCVirtualWndMain,NCVirtualWndMain::HitTest,133,0
+10025180,1002ddb0,B,1,,NCVirtualWndMain,NCVirtualWndMain::ClearFocus,112,0
+10025220,1002de50,C,1,,NCVirtualWndMain,NCVirtualWndMain::FindChildWindowAt,127,0
+10025720,1002e3e0,C,1,,NCVirtualWndMain,NCVirtualWndMain::IsOverWindow,118,0
+100257a0,1002e4a0,A,1,,NCVirtualWndMain,NCVirtualWndMain::AddTopLevel,38,0
+100257d0,1002e4d0,C,1,insn 63 other+48->54,NCVirtualWndMain,NCVirtualWndMain::RegisterNWindow,261,1
+100259f0,1002eff0,A,1,,TWndEntryArray,TWndEntryArray::~TWndEntryArray,144,0
+10025b80,1002f190,C,1,,NCVirtualWndMain,NCVirtualWndMain::`scalar deleting destructor',36,0
+10025c30,1002f250,A,1,,NCVirtualWndMain,NCVirtualWndMain::InternalConstructor,14,0
+10025c40,1002f260,A,1,,NHtmlTagTable,NHtmlTagTable::NHtmlTagTable,9,0
+10025c50,1002f270,A,1,,NHtmlTagTable,NHtmlTagTable::~NHtmlTagTable,7,0
+10025c60,1002f280,C,1,,NHtmlTagTable,NHtmlTagTable::FindTag,85,0
+10025cc0,1002f2e0,B,1,,NHtmlTagTable,NHtmlTagTable::FindAttr,116,0
+10025d40,1002f360,A,1,,NHtmlTagTable,NHtmlTagTable::`scalar deleting destructor',34,0
+10025d70,1002f390,A,0,insn 0 this+28 -> 28 (layout says ?),NHtmlTag,NHtmlTag::GetAttr,81,0
+10025dd0,1002f3f0,A,0,insn 0 this+28 -> 28 (layout says ?),NHtmlTag,NHtmlTag::HasAttr,42,0
+10025e00,1002f420,A,1,,NHtmlObject,NHtmlObject::~NHtmlObject,7,0
+10025e90,1002f470,A,1,,NHtmlItem,NHtmlItem::ParseEditType,136,0
+10025f20,1002f500,B,0,insn 0 this+38 -> 58 (layout says ?),NHtmlBlock,NHtmlBlock::GetPercentWidth,42,0
+10026070,1002f630,B,1,,NCHtmlViewer,NCHtmlViewer::OnCreate,33,0
+100260a0,1002f660,B,1,,NCHtmlViewer,NCHtmlViewer::SetBackTexture,50,0
+100260e0,1002f6a0,B,1,,NCHtmlViewer,NCHtmlViewer::SetOwner,13,0
+100260f0,1002f6b0,A,1,,NCHtmlViewer,NCHtmlViewer::FindPageTexture,25,0
+10026190,1002f750,B,1,,NCHtmlViewer,NCHtmlViewer::OnButton,101,0
+10026200,1002f7c0,B,1,,NCHtmlViewer,NCHtmlViewer::OnEdit,183,0
+100262c0,1002f880,B,1,,NCHtmlViewer,NCHtmlViewer::OnMultiEdit,177,0
+10026380,1002f940,B,1,,NCHtmlViewer,NCHtmlViewer::OnComboBox,73,0
+10026410,1002faf0,A,1,,NCTutorialHtmlViewer,NCTutorialHtmlViewer::OnCreate,11,0
+10026490,1002fb60,B,0,insn 3 string/constant differs at 100de348,NCBBSHtmlViewer,NCBBSHtmlViewer::OnCreate,33,0
+100264c0,1002fb90,A,1,,NextBoardField,NextBoardField,75,0
+100267c0,1002ff00,B,1,,NCBoardWnd,NCBoardWnd::OnButton1,78,0
+10026810,1002ff50,B,1,,NCBoardWnd,NCBoardWnd::OnButton2,78,0
+10026860,1002ffa0,B,1,,NCBoardWnd,NCBoardWnd::OnButton3,78,0
+100268b0,1002fff0,B,1,,NCBoardWnd,NCBoardWnd::OnButton4,71,0
+10026900,10030040,B,1,,NCBoardWnd,NCBoardWnd::OnButton5,78,0
+10026950,10030090,B,1,,NCBoardWnd,NCBoardWnd::OnButton6,78,0
+100269a0,100300e0,B,1,,NCBoardWnd,NCBoardWnd::SetCommands,387,0
+10026b30,10030270,A,1,,NCNPCHtmlViewer,NCNPCHtmlViewer::~NCNPCHtmlViewer,80,0
+10026b80,100302c0,C,1,,NCNPCHtmlViewer,NCNPCHtmlViewer::`scalar deleting destructor',36,0
+10026bb0,100302f0,B,0,insn 10 this+10 -> 8 (layout says 10),NHtmlObject,NHtmlObject::GetAbsPos,76,0
+10026c00,10030340,A,1,,HtmlParseColor,HtmlParseColor,136,0
+10027100,10030a00,B,1,,NCHtmlViewer,NCHtmlViewer::ScrollControls,113,0
+10027180,10030a80,B,1,,NCHtmlViewer,NCHtmlViewer::ScrollUp,31,0
+100271a0,10030aa0,B,1,,NCHtmlViewer,NCHtmlViewer::ScrollDown,31,0
+100271c0,10030ac0,B,1,,NCHtmlViewer,NCHtmlViewer::OnScrollBar,38,0
+100271f0,10030af0,B,1,,NCHtmlViewer,NCHtmlViewer::OnMouseWheel,45,0
+10027220,10030b20,B,0,"insn 117 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NCHtmlViewer,NCHtmlViewer::GetControlValue,417,0
+100273d0,10030cd0,B,1,,NCHtmlViewer,NCHtmlViewer::ShowWindow,97,0
+10027440,10030d40,B,0,insn 0 this+40 -> 60 (layout says ?),NHtmlBlock,NHtmlBlock::GetContentHeight,29,0
+10027460,10030d60,B,1,,NCBBSHtmlViewer,NCBBSHtmlViewer::OnPaint,250,0
+10027560,10030e60,A,1,,NCBBSHtmlViewer,NCBBSHtmlViewer::ShowWindow,5,0
+100276e0,10031020,B,1,,NCNPCHtmlViewer,NCNPCHtmlViewer::NCNPCHtmlViewer,28,0
+10027700,100310f0,B,1,,NCNPCHtmlViewer,NCNPCHtmlViewer::OnPaint,171,0
+100277e0,100311d0,A,1,,NCTestHtmlViewer,NCTestHtmlViewer::NCTestHtmlViewer,18,0
+10027800,100311f0,C,1,,NCTestHtmlViewer,NCTestHtmlViewer::`scalar deleting destructor',36,0
+10027830,10031220,A,1,,NCTestHtmlViewer,NCTestHtmlViewer::~NCTestHtmlViewer,80,0
+10027880,10031270,B,1,,NCBoardWnd,NCBoardWnd::NCBoardWnd,28,0
+100278a0,10031290,C,1,,NCBoardWnd,NCBoardWnd::`scalar deleting destructor',36,0
+100278d0,100312c0,A,1,,NCBoardWnd,NCBoardWnd::~NCBoardWnd,80,0
+10027ad0,10031520,B,1,insn 34 other+98->9c,NCBoardWnd,NCBoardWnd::OnPaint,164,1
+10027bb0,10031600,A,1,,NStlWString,NStlWString::Find,221,0
+10027c90,100316e0,A,1,,NStlCharAllocator,NStlCharAllocator::Allocate,29,0
+10027cb0,10031700,A,1,,NCBoardWnd,NCBoardWnd::InternalConstructor,14,0
+10027e00,10031840,B,1,insn 4 other+40->60;insn 9 other+3c->5c;insn 13 other+3c->5c;insn 27 other+3c->5c,NHtmlBlock,NHtmlBlock::Release,92,4
+10028380,10032040,B,1,insn 40 other+94->98,NCHtmlViewer,NCHtmlViewer::AddButton,343,1
+100284e0,100321a0,C,1,insn 24 other+e4->e8;insn 29 other+94->98,NCHtmlViewer,NCHtmlViewer::AddMultiEdit,234,2
+100286d0,100323a0,A,1,,NStlWString,NStlWString::~NStlWString,44,0
+10028700,100323d0,A,1,,TControlArray,TControlArray::~TControlArray,144,0
+10028820,10032460,A,1,,NStlWString,NStlWString::Copy,95,0
+10028960,100325a0,A,1,,NCHtmlComboBox,NCHtmlComboBox::NCHtmlComboBox,18,0
+10028980,100325c0,C,1,,NCHtmlComboBox,NCHtmlComboBox::`scalar deleting destructor',36,0
+100289b0,100325f0,A,1,,NCHtmlComboBox,NCHtmlComboBox::~NCHtmlComboBox,80,0
+10028a00,10032640,B,1,,NCHtmlViewer,NCHtmlViewer::~NCHtmlViewer,96,0
+10028a60,100326a0,C,1,,NCHtmlViewer,NCHtmlViewer::`scalar deleting destructor',36,0
+10028a90,100326d0,A,1,,TIntArray,TIntArray::~TIntArray,5,0
+10028b40,100327a0,B,0,insn 0 this+38 -> 58 (layout says ?),NHtmlBlock,NHtmlBlock::IsPercentWidth,4,0
+10028b90,10032800,B,0,insn 11 this+40 -> 60 (layout says ?),NHtmlBlock,NHtmlBlock::~NHtmlBlock,155,0
+10028c30,100328a0,B,0,insn 74 this+c -> 38 (layout says c),NHtmlBlock,NHtmlBlock::ParseCellAttrs,451,0
+10029400,100332d0,C,1,insn 59 other+e8->ec;insn 63 other+94->98,NCHtmlViewer,NCHtmlViewer::AddComboBox,261,2
+10029610,100334f0,A,1,,NCTutorialHtmlViewer,NCTutorialHtmlViewer::NCTutorialHtmlViewer,18,0
+10029630,10033510,C,1,,NCTutorialHtmlViewer,NCTutorialHtmlViewer::`scalar deleting destructor',36,0
+10029660,10033540,A,1,,NCTutorialHtmlViewer,NCTutorialHtmlViewer::~NCTutorialHtmlViewer,80,0
+100296b0,10033590,B,1,,NCBBSHtmlViewer,NCBBSHtmlViewer::NCBBSHtmlViewer,50,0
+100296f0,100335d0,C,1,,NCBBSHtmlViewer,NCBBSHtmlViewer::`scalar deleting destructor',36,0
+10029720,10033600,A,1,,NCBBSHtmlViewer,NCBBSHtmlViewer::~NCBBSHtmlViewer,80,0
+10029770,10033650,B,1,insn 35 other+94->98,NCNPCHtmlViewer,NCNPCHtmlViewer::OnCreate,349,1
+10029a40,10033920,C,0,"insn 142 calls 10001a20, C2 calls 10002440 (not the same function)",NCBoardWnd,NCBoardWnd::OnCreate,1405,1
+10029fc0,10033ea0,A,1,,TIntArray,TIntArray::Pop,60,0
+1002a000,10033ee0,A,1,,NStlWString,NStlWString::Grow,205,0
+1002a0d0,10033fb0,A,1,,NStlWString,NStlWString::Replace,959,0
+1002a490,10034370,A,1,,NCHtmlViewer,NCHtmlViewer::InternalConstructor,14,0
+1002a8a0,10034940,A,1,,NStlWString,NStlWString::Erase,194,0
+1002a970,10034a10,A,1,,NStlWString,NStlWString::Erase,99,0
+1002a9e0,10034a80,A,1,,NStlWString,NStlWString::Replace,496,0
+1002abd0,10034c70,A,1,,NStlWString,NStlWString::Assign,187,0
+1002ac90,10034d30,A,1,,NStlWString,NStlWString::Assign,169,0
+1002ad40,10034f90,A,1,,NStlWString,NStlWString::Assign,31,0
+1002bc70,10036040,B,0,"insn 40 calls 1002cb00, C2 calls 10037660 (not the same function)",NCHtmlViewer,NCHtmlViewer::LoadHtmlFile,231,0
+1002bd60,10036130,B,0,"insn 33 calls 1002cb00, C2 calls 10037660 (not the same function)",NCHtmlViewer,NCHtmlViewer::LoadHtml,193,0
+1002be30,10036200,A,1,,NCHtmlViewer,NCHtmlViewer::OnFileLink,52,0
+1002be70,10036240,B,1,,NCBBSHtmlViewer,NCBBSHtmlViewer::ShowPage,15,0
+1002be80,10036250,C,1,,NCBBSHtmlViewer,NCBBSHtmlViewer::BuildPostPage,655,0
+1002c110,100364e0,C,1,,NCBBSHtmlViewer,NCBBSHtmlViewer::BuildFormPage,704,0
+1002c3e0,100367b0,B,1,insn 7 other+1812c->18134;insn 12 other+1c12c->1c134;insn 21 other+2012c->20134;insn 22 other+2012c->20134,NCBBSHtmlViewer,NCBBSHtmlViewer::ShowPageParts,141,5
+1002c640,10036a10,B,1,,NCNPCHtmlViewer,NCNPCHtmlViewer::LoadFile,32,0
+1002c660,10036a30,B,1,,NCTestHtmlViewer,NCTestHtmlViewer::OnLoad,85,0
+1002c6c0,10036a90,B,1,,NCBoardWnd,NCBoardWnd::LoadPage,26,0
+1002c6e0,10036ab0,A,1,,NHtmlParser,NHtmlParser::IsAlnum,40,0
+1002c710,10036ae0,A,1,,NHtmlParser,NHtmlParser::ResetError,8,0
+1002c720,10036af0,A,1,,NStlWStringVector,NStlWStringVector::Size,35,0
+1002c750,10036b20,A,1,,NHtmlParserBase,NHtmlParserBase::~NHtmlParserBase,7,0
+1002c760,10036b30,A,1,,NHtmlParserBase,NHtmlParserBase::`scalar deleting destructor',35,0
+1002c790,10036b60,A,1,,NHtmlParser,NHtmlParser::SkipSpaces,39,0
+1002c810,10036b90,A,1,,NHtmlParser,NHtmlParser::SkipName,73,0
+1002c860,10036c30,A,0,insn 2 this+80 -> 80 (layout says ?),NHtmlParser,NHtmlParser::FreeFile,39,0
+1002c890,10036c60,B,0,insn 29 address 100d7cb0,NHtmlParser,NHtmlParser::LoadFile,138,0
+1002c920,10036cf0,A,1,,NStlFill<_WORD>,NStlFill<_WORD>,32,0
+1002c940,10036d10,A,1,,NStlFill<NHtmlTag*>,NStlFill<NHtmlTag*>,30,0
+1002c960,10036d30,A,1,,NStlUninitCopy<_WORD>,NStlUninitCopy<_WORD>,39,0
+1002c990,10036d60,A,1,,NStlUninitCopy<NHtmlTag*>,NStlUninitCopy<NHtmlTag*>,37,0
+1002c9c0,10036d90,A,1,,NStlCopyBackward<_WORD>,NStlCopyBackward<_WORD>,42,0
+1002c9f0,10036dc0,A,1,,NStlCopyBackward<NHtmlTag*>,NStlCopyBackward<NHtmlTag*>,40,0
+1002ca20,10036df0,A,1,,NStlUninitFillN<_WORD>,NStlUninitFillN<_WORD>,37,0
+1002ca80,10036e20,A,0,insn 16 this+28 -> 28 (layout says ?),NHtmlParser,NHtmlParser::NHtmlParser,120,0
+1002cbf0,10036ea0,A,1,,NStlWString,NStlWString::Append,243,0
+1002ccf0,10036fa0,A,1,,NStlWString,NStlWString::Append,285,0
+1002ce10,100370c0,A,1,,NStlWString,NStlWString::Insert,399,0
+1002cfa0,10037250,A,1,,NStlWordVector,NStlWordVector::Ucopy,40,0
+1002cfd0,10037280,A,1,,NHtmlTagList,NHtmlTagList::Ucopy,40,0
+1002d030,100372b0,A,1,,NStlWString,NStlWString::Insert,373,0
+1002d1b0,10037430,A,1,,NStlWString,NStlWString::Insert,283,0
+1002d2d0,10037550,A,1,,NStlWordVector,NStlWordVector::Ufill,39,0
+1002d300,10037580,A,1,,NHtmlTagList,NHtmlTagList::Ufill,39,0
+1002d330,100375b0,A,1,,NStlWStringAllocator,NStlWStringAllocator::Destroy,48,0
+1002d390,10037610,A,1,,NStlDestroyRange<NStlWString>,NStlDestroyRange<NStlWString>,65,0
+1002d3e0,10037860,A,1,,NStlWString,NStlWString::Substr,51,0
+1002d420,100378a0,A,1,,NStlFill<NStlWString>,NStlFill<NStlWString>,42,0
+1002d450,100378d0,A,1,,NStlCopyBackwardOpt<NStlWString>,NStlCopyBackwardOpt<NStlWString>,64,0
+1002d490,10037910,A,1,,NStlUninitCopy<NStlWString>,NStlUninitCopy<NStlWString>,122,0
+1002d530,100379e0,A,0,insn 100 address 100d7cb0,NHtmlParser,NHtmlParser::ReadTagName,565,0
+1002d770,10037c20,A,1,,NHtmlParser,NHtmlParser::ReadSource,197,0
+1002d840,10037cf0,B,1,insn 150 other+2e810->4b4e8,NHtmlParser,NHtmlParser::ReplaceEntities,2019,1
+1002e030,100384e0,A,1,,NStlWStringVector,NStlWStringVector::Destroy,27,0
+1002e050,10038500,A,1,,NStlVectorBase,NStlVectorBase::Xlen,122,0
+1002e0d0,10038580,A,1,,NStlCopyBackward<NStlWString>,NStlCopyBackward<NStlWString>,50,0
+1002e110,100385c0,A,1,,NStlUninitFillN<NStlWString>,NStlUninitFillN<NStlWString>,120,0
+1002e1b0,10038660,A,1,,NHtmlParser,NHtmlParser::ReadText,1530,0
+1002e7b0,10038c60,A,1,,NStlWordVector,NStlWordVector::InsertN,657,0
+1002ea60,10038f10,A,1,,NHtmlTagList,NHtmlTagList::InsertN,668,0
+1002ed20,100391d0,A,1,,NStlWStringVector,NStlWStringVector::Ucopy,40,0
+1002ed50,10039200,A,1,,NStlWStringVector,NStlWStringVector::~NStlWStringVector,70,0
+1002eda0,10039250,A,1,,NStlWStringVector,NStlWStringVector::Ufill,43,0
+1002edd0,10039280,A,1,,NStlWStringVector,NStlWStringVector::InsertN,850,0
+1002f170,10039620,A,0,insn 11 this+5c -> 5c (layout says ?),NHtmlTag,NHtmlTag::~NHtmlTag,235,0
+1002f260,10039710,A,1,,NHtmlTag,NHtmlTag::NHtmlTag,83,0
+1002f2c0,10039770,A,1,,NHtmlParser,NHtmlParser::ReadExtend,428,0
+1002f470,10039920,A,1,,NStlWordVector,NStlWordVector::PushBack,100,0
+1002f4e0,10039990,A,1,,NStlWStringVector,NStlWStringVector::Insert,112,0
+1002f5b0,10039a30,A,1,,NStlWStringVector,NStlWStringVector::PushBack,142,0
+1002f670,10039c20,A,0,"insn 14 calls 1002f640, C2 calls 10039ac0 (not the same function)",NHtmlParser,NHtmlParser::FreeTags,104,0
+1002f6e0,10039c90,A,0,insn 67 address 100d7cb0,NHtmlParser,NHtmlParser::ReadAttrs,1024,0
+1002fd30,1003a2b0,A,1,,NextListToken,NextListToken,75,0
+1002fe50,1003a420,B,1,,NCActionLinker,NCActionLinker::OnConfirm,20,0
+1002fee0,1003a4c0,B,1,,NCHtmlButton,NCHtmlButton::OnLButtonUp,57,0
+1002ff60,1003a520,A,1,,NCHtmlMultiEdit,NCHtmlMultiEdit::GetValue,5,0
+1002ff70,1003a530,B,1,,NCHtmlMultiEdit,NCHtmlMultiEdit::OnMouseWheel,225,0
+10030060,1003a620,B,1,,NCHtmlMultiEdit,NCHtmlMultiEdit::OnScrollUp,65,0
+100300b0,1003a670,B,1,,NCHtmlMultiEdit,NCHtmlMultiEdit::OnScrollDown,108,0
+10030120,1003a6e0,B,1,,NCHtmlMultiEdit,NCHtmlMultiEdit::UpdateScrollBar,53,0
+10030160,1003a720,B,1,,NCHtmlEdit,NCHtmlEdit::OnKeyDown,52,0
+100301e0,1003a780,B,1,,NCHtmlEdit,NCHtmlEdit::GetValue,8,0
+10030230,1003a7b0,B,1,,NCHtmlComboBox,NCHtmlComboBox::GetValue,13,0
+10030620,1003aba0,B,1,,NCFileLinker,NCFileLinker::NCFileLinker,61,0
+10030660,1003abe0,C,1,,NCFileLinker,NCFileLinker::`scalar deleting destructor',36,0
+10030690,1003ac10,A,1,,NCFileLinker,NCFileLinker::~NCFileLinker,80,0
+100306e0,1003ac60,B,1,,NCActionLinker,NCActionLinker::NCActionLinker,61,0
+10030720,1003aca0,C,1,,NCActionLinker,NCActionLinker::`scalar deleting destructor',36,0
+10030750,1003acd0,A,1,,NCActionLinker,NCActionLinker::~NCActionLinker,80,0
+10030890,1003adf0,A,1,,NCHtmlButton,NCHtmlButton::~NCHtmlButton,80,0
+100310a0,1003d790,A,1,,NCHtmlEdit,NCHtmlEdit::OnLButtonDown,24,0
+10032fc0,1003d7b0,A,1,,NCHtmlSliderBar,NCHtmlSliderBar::NCHtmlSliderBar,18,0
+10032fe0,1003d7d0,C,1,,NCHtmlSliderBar,NCHtmlSliderBar::`scalar deleting destructor',36,0
+10033010,1003d800,A,1,,NCHtmlSliderBar,NCHtmlSliderBar::~NCHtmlSliderBar,80,0
+10033060,1003d850,B,1,,NCHtmlSliderBar,NCHtmlSliderBar::NCHtmlSliderBar,122,0
+100330e0,1003d8d0,B,1,,NCHtmlSliderBar,NCHtmlSliderBar::OnPaint,321,0
+10033260,1003da50,A,1,,NCFileLinker,NCFileLinker::InternalConstructor,16,0
+100338e0,1003e840,A,1,,NCommandParser,NCommandParser::NCommandParser,74,0
+10033930,1003e890,A,1,,FParser,FParser::~FParser,6,0
+10033980,1003e8f0,A,1,,FParser,FParser::GetNextToken,6,0
+10033aa0,1003f3b0,C,0,insn 0 this+1a0c -> c0 (layout says ?),NActionItem,NActionItem::Select,11,0
+10033ac0,10040190,B,0,insn 0 this+0 -> 1a28 (layout says 0),NActionItem,NActionItem::GetActionID,3,0
+10033b50,100401e0,B,1,,NCActionItemWnd,NCActionItemWnd::HitTest,114,0
+10034060,10040590,C,0,insn 7 this+dc -> 2a0 (layout says 460),NCPledgeWnd,NCPledgeWnd::SetPledgeInfo,168,1
+10034110,10040650,B,0,insn 2 this+e0 -> 2a4 (layout says 464),NCPledgeWnd,NCPledgeWnd::UpdatePledgeInfo,100,1
+10034180,100406c0,B,0,insn 0 this+9c -> a0 (layout says 420),NCPledgeWnd,NCPledgeWnd::GetPledgeName,19,0
+100341a0,100406e0,B,1,,NCPledgeWnd,NCPledgeWnd::ClearMembers,11,0
+100341b0,100406f0,B,0,insn 1 this+9c -> a0 (layout says 420),NCPledgeWnd,NCPledgeWnd::ClearInfo,84,0
+10034210,10040750,C,0,"insn 35 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NCPledgeWnd,NCPledgeWnd::OnInvite,170,2
+10034d10,10040cd0,B,1,,NCActionItemListWnd,NCActionItemListWnd::NCActionItemListWnd,28,0
+10034d30,10040cf0,C,1,,NCActionItemListWnd,NCActionItemListWnd::`scalar deleting destructor',36,0
+10034d60,10040d20,A,1,,NCActionItemListWnd,NCActionItemListWnd::~NCActionItemListWnd,80,0
+10034f50,10040f70,B,0,insn 7 this+9c -> a0 (layout says 420),NCPledgeWnd,NCPledgeWnd::NCPledgeWnd,119,0
+10034fd0,10040ff0,C,1,,NCPledgeWnd,NCPledgeWnd::`scalar deleting destructor',36,0
+10035000,10041020,A,1,,NCPledgeWnd,NCPledgeWnd::~NCPledgeWnd,80,0
+10035de0,10042020,A,1,,NCPledgeWnd,NCPledgeWnd::Reset,10,0
+100364c0,10042b10,B,1,,NCActionWnd,NCActionWnd::NCActionWnd,28,0
+100364e0,10042b30,C,1,,NCActionWnd,NCActionWnd::`scalar deleting destructor',36,0
+10036510,10042b60,A,1,,NCActionWnd,NCActionWnd::~NCActionWnd,80,0
+10036560,10042bb0,B,1,insn 141 other+94->98,NCActionWnd,NCActionWnd::OnCreate,575,1
+10036880,10042f20,A,1,,NCActionItemListWnd,NCActionItemListWnd::InternalConstructor,14,0
+10036dc0,10043340,B,1,,NCPledgeWnd,NCPledgeWnd::DeleteMember,87,0
+10036e70,100433a0,A,1,,TActionItemArray,TActionItemArray::~TActionItemArray,144,0
+10036f00,10043500,B,1,,NCActionItemWnd,NCActionItemWnd::NCActionItemWnd,204,0
+10036fd0,100435d0,C,1,,NCActionItemWnd,NCActionItemWnd::`scalar deleting destructor',36,0
+10037000,10043600,B,1,,NCActionItemWnd,NCActionItemWnd::~NCActionItemWnd,96,0
+10037250,10043b70,B,1,,NCActionWnd,NCActionWnd::UpdatePledgeTab,181,0
+10037310,10043c30,A,1,,NCActionItemWnd,NCActionItemWnd::InternalConstructor,22,0
+10037360,10043f10,B,1,insn 5 other+94->98;insn 10 other+a4->a8;insn 15 other+a8->ac,NCAutoLogWnd,NCAutoLogWnd::OnCreate,218,3
+10037440,10044070,B,1,,NCAutoLogWnd,NCAutoLogWnd::NCAutoLogWnd,44,0
+10037470,100440a0,C,1,,NCAutoLogWnd,NCAutoLogWnd::`scalar deleting destructor',36,0
+100374a0,100440d0,A,1,,NCAutoLogWnd,NCAutoLogWnd::~NCAutoLogWnd,80,0
+10037620,10044260,A,1,,NCAutoLogWnd,NCAutoLogWnd::InternalConstructor,14,0
+100377c0,10044440,B,1,,NCChatWnd,NCChatWnd::UpdateTextCapture,34,0
+100377f0,10044470,B,1,insn 50 other+160->178;insn 85 other+15c->174;insn 91 other+11c->134;insn 93 other+128->140,NCChatWnd,NCChatWnd::StartTextCapture,357,7
+10037970,100445f0,B,1,,NCChatWnd,NCChatWnd::StopTextCapture,180,0
+10037a40,100446c0,B,1,,NCChatWnd,NCChatWnd::WriteCapture,89,0
+10037aa0,10044720,B,1,,NCChatWnd,NCChatWnd::CaptureMessage,114,0
+10038320,10045050,B,1,,NCChatWnd,NCChatWnd::SetLastTellName,82,0
+10038380,10045220,B,1,,NCChatWnd,NCChatWnd::SetFocus,22,0
+100383a0,10045240,B,1,,NCChatWnd,NCChatWnd::ShowWindow,76,0
+100383f0,10045290,B,1,,NCChatWnd,NCChatWnd::ResizeBy,8,0
+10038400,100452a0,B,1,,NCChatWnd,NCChatWnd::CycleTab,75,0
+10038520,100453a0,B,1,insn 7 other+140->158,NCChatFilterWnd,NCChatFilterWnd::OnCancel,31,1
+10038580,10045460,B,1,,NCChatListBox,NCChatListBox::OnCreate,102,0
+10038a30,100456e0,C,0,"insn 39 calls 10008c40, C2 calls 1000c250 (not the same function)",NCChatWnd,NCChatWnd::BeginTell,149,0
+10038ad0,10045780,B,0,"insn 32 calls 10008c40, C2 calls 1000c250 (not the same function)",NCChatWnd,NCChatWnd::BrowseTellNames,282,0
+10038e20,10045b30,B,1,insn 60 other+1bc->1c0;insn 66 other+1c0->1c4;insn 71 other+1c0->1c4;insn 81 other+1ac->1b0,NCChatWnd,NCChatWnd::OnResize,583,13
+10039080,10045d90,A,1,,NCWnd,NCWnd::OffsetWindow,39,0
+100390b0,10045de0,A,1,,NCChatFilterWnd,NCChatFilterWnd::NCChatFilterWnd,18,0
+100390d0,10045e00,C,1,,NCChatFilterWnd,NCChatFilterWnd::`scalar deleting destructor',36,0
+10039100,10045e30,A,1,,NCChatFilterWnd,NCChatFilterWnd::~NCChatFilterWnd,80,0
+100399a0,100467d0,B,1,,NCChatFilterWnd,NCChatFilterWnd::OnPaint,165,0
+10039d50,10046b60,B,1,insn 3 other+2b0->1c0;insn 9 other+2b4->1c4;insn 11 other+2b4->1c4;insn 13 other+2b4->1c4,NCChatFilterWnd,NCChatFilterWnd::OnChatClicked,292,23
+1003aa70,10047980,A,1,,NCChatFilterWnd,NCChatFilterWnd::InternalConstructor,14,0
+1003aa80,10047b70,B,0,"insn 20 calls 1000c770, C2 calls 1000fed0 (not the same function)",NCChatListBox,NCChatListBox::AddString,606,0
+1003ace0,10048060,B,1,,NCChatWnd,NCChatWnd::AddTellName,475,0
+1003aed0,10048250,C,0,"insn 110 calls 10008d30, C2 calls 1000c470 (not the same function)",NCChatWnd,NCChatWnd::OnTabSelected,1990,0
+1003c9c0,10048a20,C,1,,NCChatWnd,NCChatWnd::OnOptionButton,164,0
+1003ca80,10048ae0,B,1,,NCChatWnd,NCChatWnd::ClearAll,189,0
+1003cb40,10048c80,A,1,,TStringPtrArray,TStringPtrArray::~TStringPtrArray,5,0
+1003cb50,10048cf0,A,1,,NCChatListBox,NCChatListBox::NCChatListBox,18,0
+1003cb70,10048d10,C,1,,NCChatListBox,NCChatListBox::`scalar deleting destructor',36,0
+1003cba0,10048d40,A,1,,NCChatListBox,NCChatListBox::~NCChatListBox,80,0
+1003cbf0,10048d90,A,1,,NCChatListBox,NCChatListBox::NCChatListBox,37,0
+1003d5a0,1004b5a0,B,1,,NCChatWnd,NCChatWnd::EnablePledgeTab,103,0
+1003d610,1004b610,B,1,,NCChatWnd,NCChatWnd::EnableAllyTab,103,0
+1003d680,1004b680,A,1,,NCChatListBox,NCChatListBox::InternalConstructor,14,0
+1003d6a0,1004b6a0,C,1,,NCChatWnd,NCChatWnd::`scalar deleting destructor',36,0
+1003d740,1004b750,A,1,,NCConsole,NCConsole::OnPaint,97,0
+1003d7e0,1004b7f0,B,1,,NCConsole,NCConsole::OnMoveTo,48,0
+1003dab0,1007b470,A,1,,NCChatWnd,NCChatWnd::HideWindow,5,0
+1003dbc0,1004b970,B,1,insn 107 other+36ec->3550;insn 113 other+36ec->3550,NCConsole,NCConsole::CloseWindows,592,2
+1003de10,1004bbc0,B,0,"insn 3 calls 10005d60, C2 calls 10006740 (not the same function)",NCConsole,NCConsole::Reset,126,0
+1003e050,1004bd50,B,1,,NCConsole,NCConsole::ToggleChat,44,0
+1003e0d0,1004bde0,B,1,,NCConsole,NCConsole::TogglePartyMatch,466,0
+1003e320,1004c020,B,1,,NCConsole,NCConsole::ToggleMatchOption,44,0
+1003e410,1004c1c0,B,1,insn 14 other+a0->a4,NCConsole,NCConsole::ToggleGMWnd,62,1
+1003e450,1004c200,B,1,,NCConsole,NCConsole::ToggleGMInventory,84,0
+1003e4b0,1004c260,B,1,,NCConsole,NCConsole::ToggleGMMagicSkill,84,0
+1003e510,1004c2c0,B,1,,NCConsole,NCConsole::ToggleGMDetailStatus,84,0
+1003e570,1004c320,B,1,,NCConsole,NCConsole::ToggleGMQuest,84,0
+1003e5d0,1004c380,B,1,,NCConsole,NCConsole::ToggleGMStore,84,0
+1003e630,1004c3e0,B,1,,NCConsole,NCConsole::ToggleGMAction,84,0
+1003e690,1004c470,C,1,insn 2 other+0->b74e;insn 7 other+1fdac->0;insn 16 other+1fdac->0,NCConsole,NCConsole::AddSystemMessage,81,3
+1003e6f0,1004c4c0,B,1,,NCConsole,NCConsole::AddSystemText,41,0
+1003e790,1004c550,C,1,,NCMainWnd,NCMainWnd::OnTabChanged,104,0
+1003e800,1004c5f0,A,1,,NChatBalloon,NChatBalloon::~NChatBalloon,8,0
+1003e810,1004c600,A,1,,NCGMPetitionWnd,NCGMPetitionWnd::NCGMPetitionWnd,18,0
+1003e830,1004c620,C,1,,NCGMPetitionWnd,NCGMPetitionWnd::`scalar deleting destructor',36,0
+1003e860,1004c650,A,1,,NCGMPetitionWnd,NCGMPetitionWnd::~NCGMPetitionWnd,80,0
+1003e8b0,1004c6a0,A,1,,NCMainWnd,NCMainWnd::NCMainWnd,18,0
+1003e8d0,1004c800,C,1,,NCMainWnd,NCMainWnd::`scalar deleting destructor',36,0
+1003e900,1004c830,A,0,insn 9 address 100e0c00,NCMainWnd,NCMainWnd::~NCMainWnd,80,0
+10040b50,1004fab0,B,1,,NCConsole,NCConsole::OnHtmlCommand,977,0
+10040f30,1004fe90,B,1,insn 33 other+94->98;insn 297 other+94->98,NCMainWnd,NCMainWnd::OnCreate,1089,2
+100415e0,10050590,B,1,,NCMainWnd,NCMainWnd::ShowWindow,120,0
+10041660,10050610,B,1,insn 22 other+a8->ac,NCMainWnd,NCMainWnd::OnPaint,130,1
+100416f0,100506a0,B,0,insn 17 address 100dd480,NCMainWnd,NCMainWnd::Minimize,252,1
+100417f0,100507a0,A,1,,NCMainWnd,NCMainWnd::InternalConstructor,14,0
+10041880,10050820,C,1,insn 32 other+98->a4;insn 40 other+1f8->1e0;insn 76 other+16c->1bc;insn 78 other+160->1b0,NCConsole,NCConsole::Say,668,21
+10041b20,10050ac0,A,1,,TChatBalloonArray,TChatBalloonArray::Remove,151,0
+10042400,100516f0,B,1,insn 30 other+148->140;insn 33 other+142c->1468;insn 34 other+148->140;insn 35 other+5c->40,NCConsole,NCConsole::OnTimer,209,4
+100424e0,100517d0,A,1,,TChatBalloonArray,TChatBalloonArray::~TChatBalloonArray,80,0
+10042630,10051970,C,1,,NCConsole,NCConsole::`scalar deleting destructor',36,0
+10042660,100519a0,B,1,,NCConsole,NCConsole::~NCConsole,96,0
+100427c0,10051b40,A,1,,NCConsole,NCConsole::InternalConstructor,14,0
+100427d0,10051b70,A,1,,HasNoFinalConsonant,HasNoFinalConsonant,54,0
+10042990,10051da0,B,1,,NConsoleWnd,NConsoleWnd::IsOverWindow,20,0
+100429b0,10051dc0,C,1,insn 73 other+98->a4,NConsoleWnd,NConsoleWnd::NpcSay,407,1
+10042b80,10051f90,B,1,insn 12 other+5c->58;insn 20 other+98->a4,NConsoleWnd,NConsoleWnd::SendChatMsgToServer,182,2
+10042c70,10052080,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAuthLogin,90,1
+10042d00,100521a0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestLogout,14,1
+10042d10,100521b0,B,1,insn 12 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGameStart,179,1
+10042e00,100522a0,B,1,insn 12 other+5c->58,NConsoleWnd,NConsoleWnd::RequestCharacterDelete,119,1
+10042eb0,10052350,B,1,insn 12 other+5c->58,NConsoleWnd,NConsoleWnd::RequestCharacterRestore,119,1
+10042f60,10052400,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestNewCharacter,71,1
+10042fe0,10052480,C,0,ret N differs,NConsoleWnd,NConsoleWnd::RequestCharacterCreate,132,1
+100430a0,10052540,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestRestart,14,1
+100430b0,10052550,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestRestartPoint,14,1
+10043180,10052640,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestServerList,71,1
+10043200,100526c0,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestServerLogin,77,1
+10043390,10052870,B,1,insn 10 other+a0->ac,NConsoleWnd,NConsoleWnd::AddServerList,80,1
+10043420,10052900,B,1,insn 9 other+a0->ac,NConsoleWnd,NConsoleWnd::EndServerList,74,1
+100434a0,10052a80,B,1,,NConsoleWnd,NConsoleWnd::ReceiveCharacterInfo,167,0
+10043580,10052b60,C,0,ret N differs,NConsoleWnd,NConsoleWnd::AddCharacterInfo,130,0
+10043640,10053010,B,1,,NConsoleWnd,NConsoleWnd::RestartResetWindows,85,0
+100436a0,10053070,B,1,,NConsoleWnd,NConsoleWnd::RestartToLobby,381,0
+10043820,100531f0,B,1,insn 32 other+5c->58,NConsoleWnd,NConsoleWnd::AnswerReviveRequest,161,1
+100438d0,100532a0,B,1,,NConsoleWnd,NConsoleWnd::TeleportToLocation,14,0
+100438e0,100532b0,B,1,insn 18 other+36d0->3534,NConsoleWnd,NConsoleWnd::AddRecommandedData,87,1
+10043970,10053340,B,1,,NConsoleWnd,NConsoleWnd::EndRecommandedData,68,0
+100439f0,100533c0,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestItemList,71,1
+10043a70,10053440,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestUseItem,77,1
+10043af0,100534c0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestUnEquipItem,14,1
+10043b00,100534d0,B,1,insn 12 other+bc->cc;insn 21 other+bc->cc;insn 25 other+bc->cc,NConsoleWnd,NConsoleWnd::ReceiveItemList,122,3
+10043bb0,10053580,B,1,insn 9 other+bc->cc,NConsoleWnd,NConsoleWnd::ReceiveUpdateItemList,74,1
+10043c50,10053650,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestEnchantItem,77,1
+10043cd0,100536d0,B,1,insn 9 other+bc->cc;insn 11 other+36dc->3540;insn 12 other+bc->cc;insn 14 other+36dc->3540,NConsoleWnd,NConsoleWnd::ReceiveEnchantResult,74,5
+10043d20,10053720,A,1,,NConsoleWnd,NConsoleWnd::UpdateEquipItem,29,0
+10043d40,10053740,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestDestroyItem,90,1
+10043dd0,100537d0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestCrystallizeItem,14,1
+10043de0,100537e0,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestTrade,77,1
+10043e60,10053860,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAddTradeItem,90,1
+10043ef0,100538f0,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestTradeDone,77,1
+10043f70,10053970,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::AnswerTradeRequest,14,1
+10043f80,10053980,B,1,insn 12 other+e0->f4;insn 18 other+e0->f4,NConsoleWnd,NConsoleWnd::ReceiveTradeDoneMsg,98,2
+10044020,10053a20,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestBuyItem,77,1
+100440a0,10053cd0,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSellItem,77,1
+10044120,10053d50,B,1,insn 3 other+9c->a8;insn 7 other+d0->e0;insn 10 other+d0->e0;insn 15 other+d0->e0,NConsoleWnd,NConsoleWnd::StartBuyList,127,6
+100441a0,10053dd0,B,1,insn 3 other+9c->a8;insn 7 other+bc->cc;insn 13 other+bc->cc;insn 17 other+d0->e0,NConsoleWnd,NConsoleWnd::StartSellList,171,8
+10044250,10053e80,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestWarehouseDeposit,14,1
+10044260,10053e90,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestWarehouseWithdraw,14,1
+10044270,10053ea0,B,1,insn 3 other+9c->a8;insn 7 other+bc->cc;insn 13 other+bc->cc;insn 17 other+cc->dc,NConsoleWnd,NConsoleWnd::StartDepositList,149,7
+10044310,10053f40,B,1,insn 3 other+9c->a8;insn 7 other+cc->dc;insn 10 other+cc->dc;insn 15 other+cc->dc,NConsoleWnd,NConsoleWnd::StartWithdrawList,105,5
+10044420,10054050,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestDestroyQuest,77,1
+100444a0,100540d0,B,1,insn 9 other+94->98;insn 10 other+a0->a4,NConsoleWnd,NConsoleWnd::ReceiveQuestList,80,2
+10044530,10054160,A,1,,NConsoleWnd,NConsoleWnd::AddQuestID,53,0
+100446d0,10054300,B,1,insn 3 other+e8->108;insn 6 other+e8->108;insn 10 other+e8->108,NConsoleWnd,NConsoleWnd::ShowTrainListWnd,58,3
+10044710,10054340,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAcquireSkillInfo,14,1
+10044720,10054350,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAcquireSkill,14,1
+10044730,10054360,B,1,insn 1 other+e8->108,NConsoleWnd,NConsoleWnd::HideTrainWnd,20,1
+10044750,10054380,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestMagicSkillUse,14,1
+10044760,10054390,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSkillList,14,1
+10044770,100543c0,A,1,,NConsoleWnd,NConsoleWnd::ReceiveMagicSkillList,13,0
+10044780,100543d0,B,1,insn 1 other+94->98;insn 2 other+9c->a0;insn 3 other+98->9c,NConsoleWnd,NConsoleWnd::ShowSkillWnd,29,3
+100447a0,10054550,B,1,insn 3 other+bc->cc;insn 9 other+bc->cc,NConsoleWnd,NConsoleWnd::ToggleInventory,56,2
+100447e0,10054590,B,1,,NConsoleWnd,NConsoleWnd::ShowCharacterStatus,14,0
+100447f0,100545a0,B,1,insn 4 other+e4->104;insn 9 other+36dc->3540;insn 10 other+e4->104,NConsoleWnd,NConsoleWnd::ChangeShortCutPage,53,3
+10044890,100545e0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestShortCutDel,14,1
+100448a0,100545f0,B,1,insn 1 other+e4->104,NConsoleWnd,NConsoleWnd::ReceiveShortCutList,17,1
+100448c0,10054610,C,0,"insn 4 calls 100a8350, C2 calls 100cc8d0 (not the same function)",NConsoleWnd,NConsoleWnd::UpdateShortCutItem,24,1
+100448e0,10054630,B,0,"insn 4 calls 100a84a0, C2 calls 100ccb30 (not the same function)",NConsoleWnd,NConsoleWnd::UpdatePetShortCutItem,24,1
+10044900,10054650,B,0,"insn 4 calls 100aa0d0, C2 calls 100ccc50 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveShortCutDelete,24,1
+10044920,10054690,B,0,"insn 2 calls 100b34d0, C2 calls 100d8950 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveAbnormalStatus,17,1
+10044940,100546b0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestTargetCancel,14,1
+10044950,100546c0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestActionUse,14,1
+10044960,100546d0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAttackForce,51,1
+100449a0,10054710,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAttackStand,51,1
+100449e0,10054750,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSocialAction,14,1
+100449f0,10054760,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestChangeWaitType,14,1
+10044a00,10054770,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestChangeMoveType,14,1
+10044a10,10054780,C,0,"insn 2 calls 100ae480, C2 calls 1008c450 (not the same function)",NConsoleWnd,NConsoleWnd::MyTargetSelected,17,1
+10044a30,100547e0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPledgeMemberList,14,1
+10044a40,100547f0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestNet103,14,1
+10044a50,10054800,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAnswerJoinPledge,14,1
+10044a60,10054810,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestOustPledgeMember,14,1
+10044a70,10054820,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestNet106,14,1
+10044a80,10054830,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestStartPledgeWar,14,1
+10044a90,10054840,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestReplyStartPledgeWar,14,1
+10044aa0,10054850,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestStopPledgeWar,14,1
+10044ab0,10054860,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestReplyStopPledgeWar,14,1
+10044ac0,10054870,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSurrenderPledgeWar,14,1
+10044ad0,10054880,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSurrenderPersonally,14,1
+10044ae0,10054890,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGiveNickName,14,1
+10044af0,100548a0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestJoinPledge,14,1
+10044b00,100548b0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestWithdrawalPledge,14,1
+10044b10,100548c0,B,1,insn 9 other+94->98;insn 10 other+98->9c;insn 11 other+9c->a0,NConsoleWnd,NConsoleWnd::ReceivePledgeMemberList,86,3
+10044ba0,10054950,B,1,insn 10 other+94->98;insn 16 other+98->9c;insn 17 other+9c->a0,NConsoleWnd,NConsoleWnd::DeletePledgeMember,92,3
+10044c30,100549e0,B,1,insn 12 other+94->98;insn 13 other+98->9c;insn 14 other+9c->a0;insn 20 other+94->98,NConsoleWnd,NConsoleWnd::DeleteAllPledgeMember,140,8
+10044cf0,10054aa0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAllyInvite,14,1
+10044d00,10054ab0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAnswerJoinAlly,14,1
+10044d10,10054ac0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestOustAlly,14,1
+10044d20,10054ad0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAllyInfo,14,1
+10044d30,10054ae0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestWithdrawAlly,14,1
+10044d40,10054af0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestDismissAlly,14,1
+10044d50,10054b00,B,1,,NConsoleWnd,NConsoleWnd::ReceiveWithdrawAlly,56,0
+10044d90,10054b40,B,1,,NConsoleWnd,NConsoleWnd::ReceiveOustAlly,56,0
+10044dd0,10054b80,B,1,,NConsoleWnd,NConsoleWnd::ReceiveDismissAlly,56,0
+10044e10,10054bc0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestStartAllianceWar,14,1
+10044e20,10054bd0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestReplyStartAllianceWar,14,1
+10044e30,10054be0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestStopAllianceWar,14,1
+10044e40,10054bf0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestReplyStopAllianceWar,14,1
+10044e50,10054c00,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSurrenderAllianceWar,14,1
+10044e60,10054c10,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPackageSend,14,1
+10044e70,10054c20,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPackageSendableItemList,14,1
+10044e80,10054c30,C,1,insn 12 other+13c->17c;insn 22 other+13c->17c,NConsoleWnd,NConsoleWnd::AddPackageToList,80,2
+10044ed0,10054c80,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestFriendInvite,14,1
+10044ee0,10054c90,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestFriendDel,14,1
+10044ef0,10054ca0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAnswerFriendInvite,14,1
+10044f00,10054cb0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestFriendList,14,1
+10044f10,10054cc0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestBlock,14,1
+10044f20,10054cd0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::vfn184,14,1
+10044f30,10054ce0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSiegeAttackerList,14,1
+10044f40,10054cf0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSiegeDefenderList,14,1
+10044f50,10054d00,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestJoinSiege,14,1
+10044f60,10054d10,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestConfirmSiegeWaitingList,14,1
+10044f70,10054d20,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSetSiegeTime,14,1
+10044f80,10054d30,B,1,insn 1 other+110->130;insn 2 other+3b4->6b8,NConsoleWnd,NConsoleWnd::ClearAttackerList,23,2
+10044fa0,10054d50,B,1,insn 1 other+110->130;insn 2 other+3b8->6bc,NConsoleWnd,NConsoleWnd::ClearDefenderList,23,2
+10044fc0,10054d70,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPartyInvite,14,1
+10044fd0,10054d80,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAnswerJoinParty,14,1
+10044fe0,10054d90,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPartyLeave,14,1
+10044ff0,10054da0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPartyDismiss,14,1
+10045000,10054db0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPartyMatchConfig,14,1
+10045010,10054dc0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPartyMatchList,14,1
+10045020,10054dd0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPartyMatchDetail,14,1
+10045030,10054de0,B,1,,NConsoleWnd,NConsoleWnd::ReceiveWithdrawalParty,56,0
+10045070,10054e20,B,1,,NConsoleWnd,NConsoleWnd::ReceiveDismissParty,56,0
+100450b0,10054e60,B,1,insn 45 other+b0->c0;insn 49 other+98->a4,NConsoleWnd,NConsoleWnd::PartyAddMember,153,2
+10045150,10054f00,B,1,insn 41 other+b0->c0,NConsoleWnd,NConsoleWnd::PartyUpdateMember,126,1
+100451d0,10054f80,B,1,insn 14 other+b0->c0,NConsoleWnd,NConsoleWnd::PartyDeleteMember,52,1
+10045210,10054fc0,B,1,insn 3 other+b0->c0;insn 6 other+98->a4,NConsoleWnd,NConsoleWnd::PartyDeleteAll,43,2
+10045240,10054ff0,B,1,insn 1 other+ec->10c,NConsoleWnd,NConsoleWnd::ReceivePartyMatchList,17,1
+10045260,10055010,B,0,"insn 2 calls 10075350, C2 calls 10095cb0 (not the same function)",NConsoleWnd,NConsoleWnd::AddPartyMatchMember,17,1
+10045280,10055030,B,1,insn 1 other+ec->10c,NConsoleWnd,NConsoleWnd::ReceivePartyMatchDetail,17,1
+100452a0,10055050,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestLinkHtml,14,1
+100452b0,10055060,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestBypassToServer,14,1
+100452c0,10055070,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestBBSWrite,14,1
+100452d0,10055080,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestShowBoard,14,1
+10045340,10055090,B,1,insn 4 other+fc->11c;insn 8 other+fc->11c,NConsoleWnd,NConsoleWnd::TutorialShowHtml,49,2
+10045380,100550d0,B,1,insn 32 other+f8->118;insn 44 other+f8->118;insn 49 other+f8->118;insn 53 other+f8->118,NConsoleWnd,NConsoleWnd::ShowBoard,181,4
+10045440,10055190,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestTutorialLinkHtml,14,1
+10045450,100551a0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestTutorialPassCmdToServer,14,1
+10045460,100551b0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestTutorialQuestionMark,14,1
+10045470,100551c0,B,1,insn 8 other+5c->58,NConsoleWnd,NConsoleWnd::SendTutorialEvent,44,1
+100454a0,100551f0,B,1,,NConsoleWnd,NConsoleWnd::TutorialEnableClientEvent,13,0
+100454b0,10055200,B,1,insn 1 other+fc->11c,NConsoleWnd,NConsoleWnd::TutorialCloseHtml,20,1
+100454d0,10055220,B,1,insn 4 other+5c->58;insn 17 other+5c->58,NConsoleWnd,NConsoleWnd::PetPickUp,62,2
+10045510,10055260,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPetUseItem,14,1
+10045520,10055270,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGiveItemToPet,14,1
+10045530,10055280,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGetItemFromPet,14,1
+10045540,10055290,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestChangePetName,14,1
+10045640,10055330,B,1,insn 1 other+104->124,NConsoleWnd,NConsoleWnd::ShowPetNameBtn,17,1
+10045660,10055350,B,1,insn 2 other+b4->c4,NConsoleWnd,NConsoleWnd::ReceivePetStatusInfo,25,1
+10045680,10055370,B,1,insn 1 other+104->124,NConsoleWnd,NConsoleWnd::ReceivePetItemList,17,1
+100456a0,10055390,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPetition,14,1
+100456b0,100553a0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPetitionCancel,14,1
+100456c0,100553b0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGMList,14,1
+100456d0,100553c0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGMInventory,24,1
+100456f0,100553e0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGMSkills,24,1
+10045710,10055400,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGMStatus,24,1
+10045730,10055420,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGMQuests,24,1
+10045750,10055440,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGMWarehouse,24,1
+10045770,10055460,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestGMPledge,24,1
+10045790,10055480,C,1,insn 4 other+36dc->3540;insn 9 other+120->160,NConsoleWnd,NConsoleWnd::GMViewCharacterInfo,45,2
+100457c0,100554b0,B,1,insn 9 other+12c->16c;insn 10 other+98->9c,NConsoleWnd,NConsoleWnd::GMViewReceivePledgeMemberList,80,2
+10045850,10055540,B,1,insn 1 other+11c->15c;insn 2 other+94->98,NConsoleWnd,NConsoleWnd::GMViewShowSkillWnd,23,2
+10045870,100ab5e0,A,1,,NConsoleWnd,NConsoleWnd::vfn027,1,0
+10045880,10055560,B,1,insn 9 other+124->164,NConsoleWnd,NConsoleWnd::GMViewReceiveQuestList,74,1
+100459d0,100556b0,B,1,insn 12 other+118->158;insn 21 other+118->158;insn 25 other+118->158,NConsoleWnd,NConsoleWnd::GMViewReceiveItemList,122,3
+10045a80,10055760,B,1,insn 3 other+128->168;insn 6 other+128->168;insn 11 other+128->168;insn 15 other+128->168,NConsoleWnd,NConsoleWnd::GMViewStartWithdrawList,85,4
+10045ae0,100557c0,B,1,insn 4 other+f4->114;insn 8 other+f4->114,NConsoleWnd,NConsoleWnd::ShowMapItem,57,2
+10045b20,10055990,B,0,"insn 13 calls 10079230, C2 calls 1009a4d0 (not the same function)",NConsoleWnd,NConsoleWnd::ShowRadar,65,1
+10045bc0,10055a20,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestVendor,14,1
+10045bd0,10055a30,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSetPrivateStoreListSell,14,1
+10045be0,10055a40,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPrivateStoreManageCancel,14,1
+10045bf0,10055a50,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPrivateStoreQuitSell,14,1
+10045c00,10055a60,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::SetPrivateStoreMsg,14,1
+10045c10,10055a70,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPrivateStoreBuy,14,1
+10045c20,10055a80,B,1,insn 3 other+130->170;insn 6 other+130->170,NConsoleWnd,NConsoleWnd::StartPrivateStoreManageList,41,2
+10045c50,10055ab0,A,1,,NConsoleWnd,NConsoleWnd::vfn222,3,0
+10045c60,10055ac0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestBuy,14,1
+10045c70,10055ad0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestSetPrivateStoreListBuy,14,1
+10045c80,10055ae0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPrivateStoreBuyManageCancel,14,1
+10045c90,10055af0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPrivateStoreQuitBuy,14,1
+10045ca0,10055b00,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::SetPrivateStoreBuyMsg,14,1
+10045cb0,10055b10,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPrivateStoreSell,14,1
+10045cc0,10055b20,B,1,insn 3 other+134->174;insn 6 other+134->174,NConsoleWnd,NConsoleWnd::StartPrivateStoreBuyManageList,41,2
+10045cf0,10055b50,B,1,insn 1 other+d4->e8,NConsoleWnd,NConsoleWnd::SetVIPShopID,17,1
+10045d10,10055b70,B,1,insn 3 other+d4->e8;insn 7 other+d4->e8,NConsoleWnd,NConsoleWnd::VIPItemListEnd,41,2
+10045d40,10055ba0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestBuyVIPItem,14,1
+10045d50,10055bb0,B,1,insn 1 other+98->a4,NConsoleWnd,NConsoleWnd::EnablePartyChat,17,1
+10045d70,10055bd0,B,1,insn 1 other+98->a4,NConsoleWnd,NConsoleWnd::EnablePledgeChat,17,1
+10045d90,10055bf0,B,1,insn 1 other+98->a4,NConsoleWnd,NConsoleWnd::EnableAllyChat,17,1
+10045db0,10055d70,A,1,,NConsoleWnd,NConsoleWnd::MessageBoxf,75,0
+10045e00,10055dc0,B,1,insn 20 other+36e0->3544,NConsoleWnd,NConsoleWnd::DebugLogf,88,1
+10045e70,10055fa0,A,1,,NConsoleWnd,NConsoleWnd::UpdatePlayerInfo,94,0
+10045ed0,10056000,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::RequestDwarvenManufacture,14,1
+10045ee0,10056010,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::BuilderCommand,14,1
+10045ef0,10056030,B,0,"insn 22 calls 10077fe0, C2 calls 100987a0 (not the same function)",NConsoleWnd,NConsoleWnd::ReturnToLogin,123,2
+10045f70,100560b0,B,1,,NConsoleWnd,NConsoleWnd::ReturnToCharacterSelect,57,0
+10045fb0,10056110,B,1,,NConsoleWnd,NConsoleWnd::SetCursor,23,0
+10045fd0,10056140,A,1,,NConsoleWnd,NConsoleWnd::LockCursor,11,0
+10045fe0,10056150,A,1,,NConsoleWnd,NConsoleWnd::UnlockCursor,11,0
+10045ff0,10056160,B,1,,NConsoleWnd,NConsoleWnd::PressCtrl,44,0
+10046020,10056190,B,1,,NConsoleWnd,NConsoleWnd::ReleaseCtrl,41,0
+10046050,100561c0,B,1,,NConsoleWnd,NConsoleWnd::IsCtrlDown,29,0
+10046070,100561e0,B,0,"insn 5 calls 10077fd0, C2 calls 10098790 (not the same function)",NConsoleWnd,NConsoleWnd::ShowMessageWnd,80,0
+10046120,10056230,A,1,,NConsoleWnd,NConsoleWnd::FormatSystemMessage,404,0
+100462c0,100563d0,C,1,insn 8 other+12c->130,NConsoleWnd,NConsoleWnd::HasInvalidChars,83,1
+10046320,10056430,A,1,,NConsoleWnd,NConsoleWnd::HasNoAmpersand,49,0
+10046360,10056470,C,1,insn 5 other+12c->130,NConsoleWnd,NConsoleWnd::RemoveInvalidChars,138,1
+100463f0,100565f0,B,0,"insn 16 calls 100a88e0, C2 calls 100cd250 (not the same function)",NConsoleWnd,NConsoleWnd::ReloadGameTexts,135,5
+10046480,10056680,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::GetServerID,11,1
+10046490,10056690,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::FindItemByID,14,1
+100464a0,100566a0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::GetPetInfo,23,1
+100464c0,100566c0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::FindUserByName,14,1
+100464d0,100566d0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::FindUserByID,14,1
+100464e0,100566e0,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::FindStaticObjectInfo,14,1
+100464f0,100566f0,C,1,insn 16 other+208->21c;insn 36 other+208->21c;insn 38 other+5c->58;insn 39 other+94->54,NConsoleWnd,NConsoleWnd::GetTargetedActor,191,4
+100465e0,100567e0,B,1,insn 3 other+208->21c,NConsoleWnd,NConsoleWnd::GetPickupUnderMouse,57,1
+10046620,10056820,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::GetPledgeInfo,14,1
+10046630,10056830,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::GetPledgeCrestTexture,14,1
+10046640,10056840,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::GetAllyCrestTexture,14,1
+10046650,10056850,B,1,insn 8 other+50->40,NConsoleWnd,NConsoleWnd::GetSkillIconName,43,1
+10046680,10056880,C,0,insn 9 data 100d734c,NConsoleWnd,NConsoleWnd::GetSkillName,43,1
+100466b0,100568b0,C,0,insn 9 data 100d734c,NConsoleWnd,NConsoleWnd::GetSkillDesc,43,1
+100466e0,100568e0,B,1,insn 8 other+14->c,NConsoleWnd,NConsoleWnd::IsToggleSkill,45,1
+10046710,10056910,C,1,insn 8 other+18->10;insn 15 other+14->c,NConsoleWnd,NConsoleWnd::GetSkillTypeText,101,2
+10046780,10056980,B,1,insn 8 other+1c->14,NConsoleWnd,NConsoleWnd::GetSkillMpCost,37,1
+100467b0,100569b0,B,1,insn 8 other+2c->18,NConsoleWnd,NConsoleWnd::GetSkillRange,37,1
+100468b0,10056a40,C,1,,NConsoleWnd,NConsoleWnd::GetWeaponTypeName,194,0
+100469a0,10056b30,C,1,,NConsoleWnd,NConsoleWnd::GetItemSlotText,714,0
+10046c70,10056e00,C,1,,NConsoleWnd,NConsoleWnd::GetAttackSpeedText,113,0
+10046de0,10056f70,A,1,,NConsoleWnd,NConsoleWnd::ConvertNewLines,279,0
+10046f00,10057090,B,1,insn 3 other+2f3a4->4c07c,NConsoleWnd,NConsoleWnd::GetClassNameString,29,1
+10046f50,10057200,B,1,insn 19 other+3734->35ac;insn 21 other+3738->35b0;insn 23 other+3738->35b0;insn 36 other+373c->35b4,NConsoleWnd,NConsoleWnd::PawnViewerFunction,161,5
+10047040,100572f0,A,1,,NConsoleWnd,NConsoleWnd::GetWeaponEnchantSteps,16,0
+10047050,10057300,A,1,,NConsoleWnd,NConsoleWnd::GetArmorEnchantSteps,16,0
+10047060,10057310,B,1,insn 1 other+5c->58,NConsoleWnd,NConsoleWnd::vfn176,14,1
+10047070,10057320,A,1,,NConsoleWnd,NConsoleWnd::IsSiegeNpc,169,0
+10047120,100573d0,A,1,,NConsoleWnd,NConsoleWnd::IsShotItem,66,0
+10047190,10057420,B,1,,NConsoleWnd,NConsoleWnd::DebugCommand,147,0
+10047230,10057b30,A,1,,CastToPawn,CastToPawn,46,0
+10047260,10057b60,B,0,insn 2 this+200 -> 400 (layout says ?),NTrainSkillInfo,NTrainSkillInfo::NTrainSkillInfo,127,0
+100472e0,10057be0,A,1,,NCPetitionWnd,NCPetitionWnd::NCPetitionWnd,18,0
+10047300,10057c00,C,1,,NCPetitionWnd,NCPetitionWnd::`scalar deleting destructor',36,0
+10047330,10057c30,A,1,,NCPetitionWnd,NCPetitionWnd::~NCPetitionWnd,80,0
+10047380,10057d10,A,1,,NSysMsgParam,NSysMsgParam::Set,74,0
+100473d0,10057d60,A,1,,NSysMsgParam,NSysMsgParam::SetNumber,105,0
+10047440,10058020,B,1,,NConsoleWnd,NConsoleWnd::NKillTimer,78,0
+10048200,10058d00,B,1,insn 9 other+5c->58,NConsoleWnd,NConsoleWnd::RequestDropItem,112,1
+10048860,10059a00,C,0,"insn 85 calls 100b33d0, C2 calls 100d8650 (not the same function)",NConsoleWnd,NConsoleWnd::AddAbnormalStatus,331,2
+100489b0,10059b50,C,1,insn 11 other+5dc->394;insn 14 other+5c->58;insn 36 other+5dc->394;insn 37 other+94->54,NConsoleWnd,NConsoleWnd::TargetMyself,134,5
+10048a40,10059be0,C,1,insn 10 other+5dc->394;insn 14 other+5c->58;insn 35 other+5c->58,NConsoleWnd,NConsoleWnd::RequestTarget,115,3
+10048ac0,10059c60,C,1,insn 6 other+5c->58;insn 24 other+5c->58;insn 33 other+5dc->394;insn 43 other+5c->58,NConsoleWnd,NConsoleWnd::RequestPickUp,137,4
+10048b50,10059cf0,C,1,insn 6 other+5c->58;insn 17 other+148->140;insn 23 other+5c->58;insn 33 other+5dc->394,NConsoleWnd,NConsoleWnd::RequestTargetNext,141,5
+10048c70,10059ec0,B,1,insn 3 other+5c->58;insn 24 other+5c->58,NConsoleWnd,NConsoleWnd::RequestAction,82,2
+10048fe0,1005a320,C,1,insn 9 other+84->64;insn 14 other+a0->80;insn 16 other+88->68;insn 19 other+8c->6c,NConsoleWnd,NConsoleWnd::ReceivePledgeInfoUpdate,445,13
+100491f0,1005a530,B,1,insn 49 other+36dc->3540;insn 52 other+94->98;insn 53 other+98->9c;insn 54 other+9c->a0,NConsoleWnd,NConsoleWnd::AddPledgeMember,196,4
+100492f0,1005a630,B,1,insn 49 other+36dc->3540;insn 52 other+94->98;insn 53 other+98->9c;insn 54 other+9c->a0,NConsoleWnd,NConsoleWnd::UpdatePledgeMember,196,4
+100493f0,1005a730,C,1,insn 59 other+110->130;insn 63 other+110->130,NConsoleWnd,NConsoleWnd::ReceiveSiegeInfo,268,2
+10049500,1005a840,C,1,insn 62 other+110->130,NConsoleWnd,NConsoleWnd::ReceiveSiegeAttackerList,239,1
+100495f0,1005a930,C,1,insn 65 other+110->130,NConsoleWnd,NConsoleWnd::ReceiveSiegeDefenderList,250,1
+100496f0,1005aa30,B,1,insn 1 other+110->130;insn 2 other+3bc->6c0,NConsoleWnd,NConsoleWnd::AddSelectableTime,23,2
+10049710,1005aa50,B,1,insn 1 other+110->130;insn 2 other+3b4->6b8,NConsoleWnd,NConsoleWnd::EndSiegeAttackerList,23,2
+10049730,1005aa70,B,1,insn 1 other+110->130;insn 2 other+3b8->6bc,NConsoleWnd,NConsoleWnd::EndSiegeDefenderList,23,2
+10049750,1005aa90,B,1,insn 152 other+36dc->3540,NConsoleWnd,NConsoleWnd::RunHtmlCommand,573,1
+10049990,1005acd0,B,1,insn 1 other+100->120;insn 3 other+9c->a0;insn 5 other+100->120,NConsoleWnd,NConsoleWnd::TutorialShowQuestionMark,45,3
+100499c0,1005ad00,B,1,insn 1 other+b8->c8;insn 2 other+3b4->3b0,NConsoleWnd,NConsoleWnd::SetSummonRemainTime,48,2
+10049b30,1005ad30,C,1,insn 39 other+44->34;insn 47 other+a0->80;insn 48 other+84->64;insn 49 other+88->68,NConsoleWnd,NConsoleWnd::GMViewReceivePledgeInfo,488,12
+10049d60,1005af80,B,1,insn 49 other+36dc->3540;insn 52 other+12c->16c;insn 53 other+98->9c,NConsoleWnd,NConsoleWnd::GMViewAddPledgeMember,190,3
+1004a0b0,1005b2e0,A,1,,NConsoleWnd,NConsoleWnd::ExecCommand,46,0
+1004ce70,10060ac0,C,1,insn 5 other+5dc->394;insn 8 other+94->54,NConsoleWnd,NConsoleWnd::GetMyUser,40,2
+1004cea0,10060b10,C,1,insn 15 other+5dc->394;insn 24 other+1198->11d0;insn 27 other+634->3ec;insn 30 other+94->54,NConsoleWnd,NConsoleWnd::GetSelectedActor,119,4
+1004cf50,10060bc0,B,1,insn 6 other+5dc->394;insn 10 other+1198->11d0;insn 13 other+634->3ec,NConsoleWnd,NConsoleWnd::GetSelectedStaticActor,51,3
+1004cf90,10060c00,B,1,insn 6 other+5dc->394;insn 10 other+1198->11d0;insn 13 other+634->3ec,NConsoleWnd,NConsoleWnd::HasSelectedTarget,57,3
+1004cfd0,10060e30,A,1,,NConsoleWnd,NConsoleWnd::GetEnchantedAttack,43,0
+1004d000,10060e60,A,1,,NConsoleWnd,NConsoleWnd::GetEnchantedDefense,43,0
+1004d190,10061070,B,1,insn 6 other+bc->cc;insn 7 other+c8->cc;insn 8 other+c0->c4;insn 15 other+a0->a4,NConsoleWnd,NConsoleWnd::GetInventoryItemIDs,186,9
+1004d250,10061130,C,1,insn 9 other+5c->58;insn 12 other+5dc->394;insn 21 other+94->54;insn 39 other+94->54,NConsoleWnd,NConsoleWnd::MoveToLocation,144,4
+1004d330,10061210,C,1,insn 18 other+e4->104;insn 24 other+e4->104;insn 25 other+200->1e8;insn 26 other+1fc->1e4,NConsoleWnd,NConsoleWnd::SkillCoolTime,385,24
+1004d6c0,100613a0,C,1,insn 216 other+1e0->1e4;insn 218 other+1d8->1dc;insn 219 other+1dc->1e0;insn 223 other+1e4->1e8,NConsoleWnd,NConsoleWnd::InitializePawnViewer,1572,4
+1004dd20,10061d40,A,1,,TTimerArray,TTimerArray::Remove,118,0
+1004dda0,10061dc0,A,1,,TViewItemMap,TViewItemMap::FindRef,69,0
+1004eee0,10063170,B,1,,NConsoleWnd,NConsoleWnd::Init,121,0
+1004ef90,10063220,B,1,,NConsoleWnd,NConsoleWnd::NSetTimer,129,0
+1004f820,10063bf0,A,1,,NConsoleWnd,NConsoleWnd::AcceptLogOut,15,0
+1004ffb0,10064580,B,1,insn 12 other+bc->cc;insn 21 other+bc->cc;insn 25 other+e0->f4;insn 33 other+e0->f4,NConsoleWnd,NConsoleWnd::ReceiveTradeStart,210,6
+10051820,1006da70,C,0,"insn 149 calls 1004ddf0, C2 calls 1006d940 (not the same function)",NConsoleWnd,NConsoleWnd::ShowTrainInfoWnd,617,5
+10051da0,10067500,C,1,insn 22 other+148->140;insn 25 other+94->54,NConsoleWnd,NConsoleWnd::ReceiveAction,107,2
+10054760,1006a4c0,C,1,insn 45 other+2c->34;insn 76 other+9c->b8;insn 100 other+1f4->210;insn 119 other+d4->e8,NConsoleWnd,NConsoleWnd::AddVIPItemList,517,4
+10054970,1006a6d0,C,1,insn 28 other+2c->34;insn 42 other+d4->e8,NConsoleWnd,NConsoleWnd::AddVIPNeedItemList,189,2
+10054a30,1006a790,C,0,"insn 21 calls 1004a190, C2 calls 1005b430 (not the same function)",NConsoleWnd,NConsoleWnd::Say2,289,0
+10054c20,1006a9d0,C,1,insn 10 other+94->54;insn 19 other+c0->d0;insn 25 other+c0->d0,NConsoleWnd,NConsoleWnd::UpdateTargetWindow,105,3
+10054c90,1006aa90,B,1,insn 23 other+2c->34,NConsoleWnd,NConsoleWnd::GetIconName,121,1
+10054d40,1006ab40,B,1,insn 23 other+38->40,NConsoleWnd,NConsoleWnd::GetItemName,121,1
+10054df0,1006abf0,B,1,insn 7 other+1f4->210,NConsoleWnd,NConsoleWnd::IsMagicArmor,48,1
+100550f0,1006afe0,B,1,,NConsoleWnd,NConsoleWnd::InitForPawnViewer,121,0
+100551a0,1006b090,A,1,,NConsoleWnd,NConsoleWnd::Destroy,17,0
+10055660,1006b540,A,1,,TSysMsgParamArray,TSysMsgParamArray::~TSysMsgParamArray,144,0
+100556f0,1006b5d0,A,1,,TTimerArray,TTimerArray::~TTimerArray,144,0
+10055780,1006b660,A,1,,TViewItemMapIterator,TViewItemMapIterator::~TViewItemMapIterator,50,0
+10055890,1006b790,C,1,,NConsoleWnd,NConsoleWnd::`scalar deleting destructor',36,0
+100558c0,1006b7c0,B,0,insn 16 this+36f0 -> 3558 (layout says 3554),NConsoleWnd,NConsoleWnd::~NConsoleWnd,120,0
+10055e50,1006be70,B,1,,NConsoleWnd,NConsoleWnd::ConsolePostRender,152,0
+10055f20,1006bf40,B,1,,NConsoleWnd,NConsoleWnd::MasterConsoleEventProcess,363,0
+100561c0,1006c1e0,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveWareHouseDone,38,0
+10056720,1006caf0,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveJoinPledge,38,0
+10056750,1006cb20,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveCreatePledge,52,0
+10056790,1006cb60,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveOustPledgeMember,52,0
+100567d0,1006cba0,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveDismissPledge,52,0
+10056810,1006cbe0,C,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveWithdrawalPledge,52,0
+10056850,1006cc20,A,0,"insn 2 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveOustPledgeMessage,18,0
+10056870,1006cc40,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveDismissPledgeMessage,57,0
+100568b0,1006cc80,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveReplyStartPledgeWar,61,0
+100568f0,1006ccc0,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveReplyStopPledgeWar,61,0
+10056930,1006cd00,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveSurrenderPledgeWar,38,0
+10056960,1006cd30,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveSurrenderPersonally,38,0
+10056990,1006cd60,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveJoinAlly,52,0
+100569d0,1006cda0,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveFriendAddRequestResult,52,0
+10056a10,1006cde0,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveJoinParty,38,0
+10056a40,1006ce10,A,0,"insn 9 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveOustPartyMember,38,0
+10056a70,1006ce40,A,0,"insn 2 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveOustPartyMessage,18,0
+10056a90,1006ce60,A,0,"insn 2 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NConsoleWnd,NConsoleWnd::ReceiveDismissPartyMessage,18,0
+10056ab0,1006ce80,B,0,insn 61 this+36f0 -> 3558 (layout says 3554),NConsoleWnd,NConsoleWnd::AddSystemMessageParam,203,0
+10056fa0,1006d3f0,A,0,"insn 17 calls 1004a190, C2 calls 1005b430 (not the same function)",NConsoleWnd,NConsoleWnd::IsValidName,195,0
+10057500,1006d9e0,A,1,,NConsoleWnd,NConsoleWnd::DispatchWndMsg,80,0
+10057710,1006e930,A,1,,NCDebugWnd,NCDebugWnd::OnCreate,11,0
+10057720,1006e940,A,1,,NCDebugWnd,NCDebugWnd::OnPaint,18,0
+10057740,1006e960,B,1,,NCDebugWnd,NCDebugWnd::SetBackTexture,47,0
+10057770,1006e990,B,1,,NCDebugWnd,NCDebugWnd::AddLog,124,0
+100577f0,1006ea10,A,1,,NCDebugWnd,NCDebugWnd::LoadCategories,415,0
+10057a30,1006ecb0,A,1,,NCDebugWnd,NCDebugWnd::NCDebugWnd,24,0
+10057a50,1006ecd0,C,1,,NCDebugWnd,NCDebugWnd::`scalar deleting destructor',36,0
+10057a80,1006ed00,A,1,,NCDebugWnd,NCDebugWnd::~NCDebugWnd,80,0
+10057ad0,1006ed50,A,1,,NCDebugWnd,NCDebugWnd::NCDebugWnd,34,0
+10057b00,1006ed80,A,1,,NCDebugWnd,NCDebugWnd::InternalConstructor,14,0
+10057ba0,1006ee70,B,0,insn 1 this+118 -> b8 (layout says 110),NCTradeItemWnd,NCTradeItemWnd::SetKind,13,0
+10059a20,1006ee80,B,0,insn 1 this+b4 -> c0 (layout says b8),NCDeliverWnd,NCDeliverWnd::SetAdena,13,0
+10059a40,1006ee90,B,1,,NCDeliverWnd,NCDeliverWnd::Clear,56,0
+10059a80,1006eed0,A,1,,NCDeliverWnd,NCDeliverWnd::ShowWindow,16,0
+10059a90,1006eee0,A,1,,NCDeliverWnd,NCDeliverWnd::HideWindow,16,0
+10059aa0,1006ef10,B,1,insn 2 other+e8->e0,NCDeliverWnd,NCDeliverWnd::UpdateFee,35,1
+10059ad0,1006eef0,B,1,,NCDeliverWnd,NCDeliverWnd::OnCancel,25,0
+10059ba0,1006efe0,C,1,insn 8 other+a8->ac;insn 12 other+ac->b0;insn 19 other+ac->b0,NCSelectDeliverWnd,NCSelectDeliverWnd::AddTarget,106,3
+10059c10,1006f050,B,1,,NCSelectDeliverWnd,NCSelectDeliverWnd::Clear,36,0
+10059c40,1006f080,A,1,,NCSelectDeliverWnd,NCSelectDeliverWnd::ShowWindow,16,0
+10059c50,1006f090,A,1,,NCSelectDeliverWnd,NCSelectDeliverWnd::HideWindow,16,0
+10059c60,1006f0a0,C,1,insn 16 other+a8->ac,NCSelectDeliverWnd,NCSelectDeliverWnd::OnOK,155,1
+10059d00,100a0830,B,1,,NCOptionWnd,NCOptionWnd::OnCancel,14,0
+10059d10,1006f140,B,1,,NCSelectDeliverWnd,NCSelectDeliverWnd::OnSelect,18,0
+10059d30,1006f160,B,1,,NCDeliverWnd,NCDeliverWnd::NCDeliverWnd,90,0
+10059d90,1006f1c0,C,1,,NCDeliverWnd,NCDeliverWnd::`scalar deleting destructor',36,0
+10059dc0,1006f1f0,A,1,,NCDeliverWnd,NCDeliverWnd::~NCDeliverWnd,80,0
+1005a110,1006f550,B,1,,NCDeliverWnd,NCDeliverWnd::OnDestroy,327,0
+1005a260,1006f6a0,B,1,insn 11 other+e8->e0;insn 16 other+e4->dc;insn 20 other+c48->194c;insn 43 other+e8->e0,NCDeliverWnd,NCDeliverWnd::OnOK,301,10
+1005a3a0,1006f7e0,B,1,,NCSelectDeliverWnd,NCSelectDeliverWnd::NCSelectDeliverWnd,38,0
+1005a3d0,1006f810,C,1,,NCSelectDeliverWnd,NCSelectDeliverWnd::`scalar deleting destructor',36,0
+1005a400,1006f840,A,1,,NCSelectDeliverWnd,NCSelectDeliverWnd::~NCSelectDeliverWnd,80,0
+1005a450,1006f890,B,0,"insn 134 calls 10001a20, C2 calls 10002440 (not the same function)",NCSelectDeliverWnd,NCSelectDeliverWnd::OnCreate,694,2
+1005a7d0,1006fc10,B,1,,NCSelectDeliverWnd,NCSelectDeliverWnd::OnDestroy,56,0
+1005a810,1006fc50,A,1,,NCSelectDeliverWnd,NCSelectDeliverWnd::InternalConstructor,14,0
+1005ab20,1006ff90,B,1,,NCDeliverWnd,NCDeliverWnd::AddInventoryItem,11,0
+1005ae50,100702e0,B,1,,NCDeliverItemWnd,NCDeliverItemWnd::NCDeliverItemWnd,28,0
+1005ae70,10070300,C,1,,NCDeliverItemWnd,NCDeliverItemWnd::`scalar deleting destructor',36,0
+1005aea0,10070330,A,1,,NCDeliverItemWnd,NCDeliverItemWnd::~NCDeliverItemWnd,80,0
+1005aef0,10070380,B,1,,NCDeliverItemWnd,NCDeliverItemWnd::NCDeliverItemWnd,52,0
+1005b260,10070790,B,1,insn 9 other+c48->194c,NCDeliverItemWnd,NCDeliverItemWnd::OnDialogResult,56,1
+1005b2a0,100707d0,B,0,"insn 205 calls 10001a20, C2 calls 10002440 (not the same function)",NCDeliverWnd,NCDeliverWnd::OnCreate,1213,1
+1005b760,10070c90,A,1,,NCDeliverItemWnd,NCDeliverItemWnd::InternalConstructor,14,0
+1005b770,10072220,C,0,insn 1 this+0 -> 4 (layout says 0),FL2FontPage,FL2FontPage::Find,40,0
+1005b830,10072480,A,1,,NL2Font,NL2Font::InternalConstructor,14,0
+1005b840,10072490,A,0,insn 0 this+2c -> 2c (layout says 34),NL2Font,NL2Font::GetTexture,4,0
+1005b850,100724b0,C,1,,NL2Font,NL2Font::`scalar deleting destructor',33,0
+1005b880,100724e0,A,1,,NL2Font,NL2Font::~NL2Font,88,0
+1005b8e0,10072540,C,0,insn 11 this+0 -> 4 (layout says 0),FL2FontPage,FL2FontPage::Load,125,0
+1005b960,100725c0,B,0,insn 2 this+8 -> c (layout says 8),FL2FontPage,FL2FontPage::Free,33,0
+1005bc80,10072e60,B,1,,NCGMEquipItemWnd,NCGMEquipItemWnd::OnLButtonUp,18,0
+1005bd10,10073000,B,1,,NCGMInventoryWnd,NCGMInventoryWnd::ShowWindow,23,0
+1005bdc0,10072f90,B,1,,NCGMSkillItemWnd,NCGMSkillItemWnd::OnLButtonUp,18,0
+1005bde0,10090b80,B,1,,NCSkillWnd,NCSkillWnd::ShowWindow,23,0
+1005be00,10073080,B,1,insn 1 other+c0c->170c;insn 11 other+1a0->1a4,NCSkillWnd,NCSkillWnd::AddSkill,59,2
+1005be40,100730c0,B,1,,NCGMMagicSkillWnd,NCGMMagicSkillWnd::ClearSkills,11,0
+1005be50,100730d0,C,0,ret N differs,NCGMDetailStatusWnd,NCGMDetailStatusWnd::SetTarget,24,0
+1005bf70,10073130,B,1,,NCGMStoreWnd,NCGMStoreWnd::OnCreate,79,0
+1005c010,10073220,B,1,insn 4 other+190->6d4;insn 9 other+194->6d8;insn 14 other+198->6dc;insn 19 other+19c->6e0,NCGMActionWnd,NCGMActionWnd::ShowWindow,208,9
+1005c210,100734c0,B,0,"insn 20 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NCGMWnd,NCGMWnd::OnInventory,84,1
+1005c270,10073520,B,0,"insn 20 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NCGMWnd,NCGMWnd::OnSkills,84,1
+1005c2d0,10073580,B,0,"insn 20 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NCGMWnd,NCGMWnd::OnStatus,84,1
+1005c330,100735e0,B,0,"insn 20 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NCGMWnd,NCGMWnd::OnQuest,84,1
+1005c390,10073640,B,0,"insn 20 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NCGMWnd,NCGMWnd::OnWarehouse,84,1
+1005c3f0,100736a0,B,0,"insn 20 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NCGMWnd,NCGMWnd::OnClan,84,1
+1005c450,10073700,B,1,insn 3 other+36dc->3540;insn 4 other+118->158;insn 10 other+36dc->3540;insn 11 other+11c->15c,NCGMWnd,NCGMWnd::OnClose,341,24
+1005c5b0,10073b50,A,1,,NCDetailStatusWnd,NCDetailStatusWnd::~NCDetailStatusWnd,80,0
+1005c600,10073ba0,C,1,,NCDetailStatusWnd,NCDetailStatusWnd::`scalar deleting destructor',36,0
+1005c630,10073bd0,A,1,,NCStoreWnd,NCStoreWnd::~NCStoreWnd,80,0
+1005c680,10073c20,C,1,,NCStoreWnd,NCStoreWnd::`scalar deleting destructor',36,0
+1005c6b0,10073c50,A,1,,NCQuestWnd,NCQuestWnd::~NCQuestWnd,80,0
+1005c700,10073ca0,C,1,,NCQuestWnd,NCQuestWnd::`scalar deleting destructor',36,0
+1005c730,100741a0,B,1,,NCGMInventoryWnd,NCGMInventoryWnd::NCGMInventoryWnd,44,0
+1005c760,100741d0,C,1,,NCGMInventoryWnd,NCGMInventoryWnd::`scalar deleting destructor',36,0
+1005c790,10074200,A,1,,NCGMInventoryWnd,NCGMInventoryWnd::~NCGMInventoryWnd,80,0
+1005ca50,10074520,B,1,,NCGMSkillWnd,NCGMSkillWnd::NCGMSkillWnd,55,0
+1005ca90,10074560,C,1,,NCGMSkillWnd,NCGMSkillWnd::`scalar deleting destructor',36,0
+1005cac0,10074590,A,1,,NCGMSkillWnd,NCGMSkillWnd::~NCGMSkillWnd,80,0
+1005cb10,100746e0,A,1,,NCGMMagicSkillWnd,NCGMMagicSkillWnd::NCGMMagicSkillWnd,18,0
+1005cb30,10074700,C,1,,NCGMMagicSkillWnd,NCGMMagicSkillWnd::`scalar deleting destructor',36,0
+1005cb60,10074730,A,1,,NCGMMagicSkillWnd,NCGMMagicSkillWnd::~NCGMMagicSkillWnd,80,0
+1005cbb0,10074780,B,1,insn 33 other+94->98;insn 85 other+94->98,NCGMMagicSkillWnd,NCGMMagicSkillWnd::OnCreate,344,2
+1005cd10,10074990,B,1,insn 23 other+98->9c,NCGMMagicSkillWnd,NCGMMagicSkillWnd::OnPaint,139,1
+1005cda0,10074a20,A,1,,NCGMMagicSkillWnd,NCGMMagicSkillWnd::HideWindow,16,0
+1005cdb0,10074a30,B,1,,NCGMDetailStatusWnd,NCGMDetailStatusWnd::NCGMDetailStatusWnd,78,0
+1005ce00,10074a80,C,1,,NCGMDetailStatusWnd,NCGMDetailStatusWnd::`scalar deleting destructor',36,0
+1005ce30,10074ab0,A,1,,NCGMDetailStatusWnd,NCGMDetailStatusWnd::~NCGMDetailStatusWnd,80,0
+1005ce80,10074b00,B,1,insn 29 other+94->98,NCGMDetailStatusWnd,NCGMDetailStatusWnd::OnCreate,165,1
+1005e310,10076370,A,1,,NCGMQuestWnd,NCGMQuestWnd::NCGMQuestWnd,18,0
+1005e330,10076390,C,1,,NCGMQuestWnd,NCGMQuestWnd::`scalar deleting destructor',36,0
+1005e360,100763c0,A,1,,NCGMQuestWnd,NCGMQuestWnd::~NCGMQuestWnd,80,0
+1005e9b0,10076650,A,1,,NCGMStoreWnd,NCGMStoreWnd::NCGMStoreWnd,18,0
+1005e9d0,10076670,C,1,,NCGMStoreWnd,NCGMStoreWnd::`scalar deleting destructor',36,0
+1005ea00,100766a0,A,1,,NCGMStoreWnd,NCGMStoreWnd::~NCGMStoreWnd,80,0
+1005ea50,100766f0,A,1,,NCGMStoreWnd,NCGMStoreWnd::OnPaint,98,0
+1005eac0,10076760,A,1,,NCGMPledgeWnd,NCGMPledgeWnd::NCGMPledgeWnd,18,0
+1005eae0,10076780,C,1,,NCGMPledgeWnd,NCGMPledgeWnd::`scalar deleting destructor',36,0
+1005eb10,100767b0,A,1,,NCGMPledgeWnd,NCGMPledgeWnd::~NCGMPledgeWnd,80,0
+1005ef40,10076bd0,B,1,,NCGMActionWnd,NCGMActionWnd::NCGMActionWnd,28,0
+1005ef60,10076bf0,C,1,,NCGMActionWnd,NCGMActionWnd::`scalar deleting destructor',36,0
+1005ef90,10076c20,A,1,,NCGMActionWnd,NCGMActionWnd::~NCGMActionWnd,80,0
+1005f200,10076ed0,A,1,,NCActionWnd,NCActionWnd::OnPaint,80,0
+1005f250,10076fd0,B,1,,NCGMWnd,NCGMWnd::NCGMWnd,80,0
+1005f2a0,10077020,C,1,,NCGMWnd,NCGMWnd::`scalar deleting destructor',36,0
+1005f2d0,10077050,A,1,,NCGMWnd,NCGMWnd::~NCGMWnd,80,0
+1005fc50,10077ec0,A,1,,NCGMInventoryWnd,NCGMInventoryWnd::InternalConstructor,14,0
+1005fce0,100781b0,A,1,,TCoolTimeArray,TCoolTimeArray::~TCoolTimeArray,144,0
+1005fdd0,100782b0,C,1,,NCEquipItemWnd,NCEquipItemWnd::`scalar deleting destructor',36,0
+1005fe00,100782e0,A,1,,NCInvenItemWnd,NCInvenItemWnd::~NCInvenItemWnd,80,0
+1005fe50,10078330,C,1,,NCInvenItemWnd,NCInvenItemWnd::`scalar deleting destructor',36,0
+1005fe80,10078360,B,1,,NCSkillItemWnd,NCSkillItemWnd::~NCSkillItemWnd,96,0
+1005fee0,100783c0,C,1,,NCSkillItemWnd,NCSkillItemWnd::`scalar deleting destructor',36,0
+1005ff30,10078420,A,1,,NCGMEquipItemWnd,NCGMEquipItemWnd::`scalar deleting destructor',36,0
+1005ff60,10078450,A,1,,NCGMEquipItemWnd,NCGMEquipItemWnd::~NCGMEquipItemWnd,80,0
+1005ffb0,100784a0,A,1,,NCGMInvenItemWnd,NCGMInvenItemWnd::NCGMInvenItemWnd,18,0
+1005ffd0,100784c0,C,1,,NCGMInvenItemWnd,NCGMInvenItemWnd::`scalar deleting destructor',36,0
+10060000,100784f0,A,1,,NCGMInvenItemWnd,NCGMInvenItemWnd::~NCGMInvenItemWnd,80,0
+10060050,10078540,A,1,,NCGMInvenItemWnd,NCGMInvenItemWnd::NCGMInvenItemWnd,42,0
+10060080,10078570,B,1,insn 41 other+94->98;insn 255 other+94->98,NCGMInventoryWnd,NCGMInventoryWnd::OnCreate,882,2
+10060400,100788f0,A,1,,NCGMSkillItemWnd,NCGMSkillItemWnd::NCGMSkillItemWnd,18,0
+10060420,10078910,C,1,,NCGMSkillItemWnd,NCGMSkillItemWnd::`scalar deleting destructor',36,0
+10060450,10078940,A,1,,NCGMSkillItemWnd,NCGMSkillItemWnd::~NCGMSkillItemWnd,80,0
+100604a0,10078990,A,1,,NCGMSkillItemWnd,NCGMSkillItemWnd::NCGMSkillItemWnd,42,0
+100604d0,100789c0,B,1,insn 142 other+94->98,NCGMSkillWnd,NCGMSkillWnd::OnCreate,553,1
+10060700,10079020,A,1,,NCGMEquipItemWnd,NCGMEquipItemWnd::InternalConstructor,16,0
+10060840,1007b480,B,0,insn 1 this+134 -> 12c (layout says 13c),NCEquipItemWnd,NCEquipItemWnd::SetEnchantMode,13,0
+100641f0,1007b500,B,1,,NCInventoryWnd,NCInventoryWnd::IsInTrash,74,0
+10064240,1007b550,B,1,,NCInventoryWnd,NCInventoryWnd::IsInCrystallize,74,0
+10064b40,1007baa0,B,1,,NCEquipItemWnd,NCEquipItemWnd::UnselectAll,44,0
+10064fc0,1007bd60,B,1,insn 10 other+c10->1914,NCEquipItemWnd,NCEquipItemWnd::HasItem,61,1
+10065010,1007bdb0,B,1,insn 10 other+c10->1914,NCEquipItemWnd,NCEquipItemWnd::FindItem,67,1
+100655c0,1007c440,B,1,insn 9 other+c14->1918;insn 11 other+c1c->1920,NCInvenItemWnd,NCInvenItemWnd::GetAdena,48,2
+100655f0,1007c470,B,1,,NCInvenItemWnd,NCInvenItemWnd::OnPaint,382,0
+100657b0,1007c630,B,1,insn 60 other+d8->dc;insn 61 other+dc->e0;insn 66 other+e0->e4;insn 70 other+e4->e8,NCInvenItemWnd,NCInvenItemWnd::OnMouseMove,356,10
+10065f10,1007ce40,B,1,insn 14 other+110->108;insn 17 other+e8->e0;insn 19 other+e4->dc,NCInventoryWnd,NCInventoryWnd::SetEnchantMode,120,3
+10066120,1007d050,B,1,insn 5 other+c8->cc;insn 13 other+9c->a0;insn 20 other+c0->c4;insn 28 other+e4->dc,NCInventoryWnd,NCInventoryWnd::FindItem,101,4
+100681d0,1007f5c0,B,1,insn 2 other+c0c->170c;insn 7 other+c8c->1794;insn 16 other+c0->c4,NCInventoryWnd,NCInventoryWnd::AddItem,79,3
+100688f0,10080460,A,1,,NCEquipItemWnd,NCEquipItemWnd::InternalConstructor,16,0
+10068910,100807b0,B,1,,NCLoadingWnd,NCLoadingWnd::SetLoadingTexture,258,0
+10068a20,100808c0,B,1,,NCLoadingWnd,NCLoadingWnd::NCLoadingWnd,28,0
+10068a40,100808e0,C,1,,NCLoadingWnd,NCLoadingWnd::`scalar deleting destructor',36,0
+10068a70,10080910,A,1,,NCLoadingWnd,NCLoadingWnd::~NCLoadingWnd,80,0
+10068ac0,10080960,B,1,,NCLoadingWnd,NCLoadingWnd::OnPaint,134,0
+10068b50,100809f0,A,1,,NCLoadingWnd,NCLoadingWnd::InternalConstructor,14,0
+10068c00,10080a80,C,0,ret N differs,NCPawnSelectWnd,NCPawnSelectWnd::AddCharacter,282,0
+10068d50,10080bf0,B,1,,NCPawnSelectWnd,NCPawnSelectWnd::GetSelected,7,0
+10068d60,10080c00,C,1,insn 2 other+ac->b0,NCPawnSelectWnd,NCPawnSelectWnd::GetCharacterName,26,1
+10068d80,10080c20,C,0,insn 8 this+1f4 -> 1f0 (layout says 1f8),NCPawnSelectWnd,NCPawnSelectWnd::ClearCharacters,121,0
+10068e00,10080ca0,B,1,insn 20 other+36cc->3530;insn 21 other+a4->a8;insn 26 other+36cc->3530;insn 27 other+a8->ac,NCPawnSelectWnd,NCPawnSelectWnd::OnRestoreAnswer,165,6
+10068fc0,10080e50,C,0,ret N differs,NCLobbyWnd,NCLobbyWnd::AddCharacter,72,0
+10069010,10080ea0,B,1,,NCLobbyWnd,NCLobbyWnd::ClearCharacters,26,0
+100690c0,10080f90,A,1,,NCLobbyWnd,NCLobbyWnd::OnPrevious,17,0
+10069130,10081000,B,1,,NCLobbyWnd,NCLobbyWnd::OnDeleteAnswer,35,0
+10069160,10081030,B,1,,NCLobbyWnd,NCLobbyWnd::ShowWindow,55,0
+100691a0,10081070,C,1,,NCPawnSelectWnd,NCPawnSelectWnd::NCPawnSelectWnd,150,0
+10069240,10081110,C,1,,NCPawnSelectWnd,NCPawnSelectWnd::`scalar deleting destructor',36,0
+10069270,10081140,A,1,,NCPawnSelectWnd,NCPawnSelectWnd::~NCPawnSelectWnd,80,0
+100692c0,10081190,C,1,insn 35 other+94->98;insn 68 other+94->98;insn 72 other+98->9c;insn 76 other+9c->a0,NCPawnSelectWnd,NCPawnSelectWnd::OnCreate,427,11
+10069e20,10081e00,B,1,,NCLobbyWnd,NCLobbyWnd::NCLobbyWnd,50,0
+10069e60,10081e40,C,1,,NCLobbyWnd,NCLobbyWnd::`scalar deleting destructor',36,0
+10069e90,10081e70,A,1,,NCLobbyWnd,NCLobbyWnd::~NCLobbyWnd,80,0
+10069ee0,10081ec0,C,1,insn 41 other+25f8->24d8;insn 48 other+4b4->2e8;insn 49 other+2c8->1b0,NCLobbyWnd,NCLobbyWnd::OnPaint,314,3
+1006a7e0,100828b0,B,1,,NCAuthWnd,NCAuthWnd::ClearPassword,14,0
+1006a940,10082a70,B,1,,NCAuthWnd,NCAuthWnd::OnTimer,28,0
+1006aaa0,10083080,C,1,,NCAuthWnd,NCAuthWnd::`scalar deleting destructor',36,0
+1006aad0,100830b0,A,1,,NCAuthWnd,NCAuthWnd::~NCAuthWnd,80,0
+1006b160,100838c0,B,0,insn 4 this+a4 -> b4 (layout says a8),NCLoginWnd,NCLoginWnd::NCLoginWnd,28,0
+1006b180,100838e0,C,1,,NCLoginWnd,NCLoginWnd::`scalar deleting destructor',36,0
+1006b1b0,10083910,A,1,,NCLoginWnd,NCLoginWnd::~NCLoginWnd,80,0
+1006b9a0,10084550,C,0,insn 34 this+a8 -> b8 (layout says ac),NCLoginWnd,NCLoginWnd::OnPaint,219,0
+1006bab0,10084660,A,0,"insn 3 calls 1006aa60, C2 calls 10082ce0 (not the same function)",NCAuthWnd,NCAuthWnd::InternalConstructor,14,0
+1006bad0,10079050,B,1,,NCTrainListBox,NCTrainListBox::OnLButtonDown,62,0
+1006d2e0,10086110,C,1,,NCVIPShopItemInfoWnd,NCVIPShopItemInfoWnd::Clear,11,0
+1006d610,10086540,A,1,,NCVIPShopItemListWnd,NCVIPShopItemListWnd::NCVIPShopItemListWnd,18,0
+1006d630,10086560,C,1,,NCVIPShopItemListWnd,NCVIPShopItemListWnd::`scalar deleting destructor',36,0
+1006d660,10086590,A,1,,NCVIPShopItemListWnd,NCVIPShopItemListWnd::~NCVIPShopItemListWnd,80,0
+1006da50,10086920,B,0,insn 30 this+cc -> d0 (layout says dd4),NCVIPShopItemInfoWnd,NCVIPShopItemInfoWnd::OnPaint,145,0
+1006dce0,10086c10,B,1,,NCVIPShopWnd,NCVIPShopWnd::OnOK,150,0
+1006dd80,10086cb0,A,1,,NCVIPShopItemListWnd,NCVIPShopItemListWnd::InternalConstructor,14,0
+1006df20,10086eb0,B,1,,NCVIPShopItemListWnd,NCVIPShopItemListWnd::AddEntry,11,0
+1006dfa0,10086f90,C,1,insn 14 other+10c->20c;insn 15 other+104->204;insn 16 other+108->208;insn 27 other+108->208,NCVIPShopNeededItemWnd,NCVIPShopNeededItemWnd::AddItem,137,7
+1006e030,10087020,B,1,,NCVIPShopNeededItemWnd,NCVIPShopNeededItemWnd::Clear,93,0
+1006e090,10087080,C,0,insn 8 this+cc -> d0 (layout says dd4),NCVIPShopItemInfoWnd,NCVIPShopItemInfoWnd::SetItem,572,0
+1006e2d0,100872d0,C,1,,NCVIPShopWnd,NCVIPShopWnd::ShowList,199,0
+1006e5a0,100873a0,B,1,,NCVIPShopWnd,NCVIPShopWnd::Reset,75,0
+1006e5f0,100873f0,C,1,insn 27 other+10c->20c;insn 28 other+104->204;insn 29 other+108->208;insn 39 other+104->204,NCVIPShopWnd,NCVIPShopWnd::AddNeededItem,215,7
+1006e6d0,100874d0,A,1,,NCVIPShopWnd,NCVIPShopWnd::OnCancel,11,0
+1006e6e0,100874e0,B,1,,NCVIPShopWnd,NCVIPShopWnd::Open,22,0
+1006e700,10087500,A,1,,TVIPNeededItemArray,TVIPNeededItemArray::~TVIPNeededItemArray,144,0
+1006e790,10087590,B,0,insn 9 this+318 -> 518 (layout says ?),NVIPShopRecord,NVIPShopRecord::NVIPShopRecord,128,0
+1006e810,10087610,B,1,,NCVIPShopItemListBox,NCVIPShopItemListBox::NCVIPShopItemListBox,48,0
+1006e840,10087640,C,1,,NCVIPShopItemListBox,NCVIPShopItemListBox::`scalar deleting destructor',36,0
+1006e870,10087670,B,1,,NCVIPShopItemListBox,NCVIPShopItemListBox::~NCVIPShopItemListBox,96,0
+1006e8d0,100876d0,B,1,,NCVIPShopItemListBox,NCVIPShopItemListBox::NCVIPShopItemListBox,67,0
+1006e920,10087720,B,1,insn 7 other+98->9c;insn 33 other+94->98;insn 35 other+94->98;insn 36 other+94->98,NCVIPShopItemListWnd,NCVIPShopItemListWnd::OnCreate,202,6
+1006ea20,100877f0,B,1,,NCVIPShopNeededItemWnd,NCVIPShopNeededItemWnd::NCVIPShopNeededItemWnd,38,0
+1006ea50,10087820,C,1,,NCVIPShopNeededItemWnd,NCVIPShopNeededItemWnd::`scalar deleting destructor',36,0
+1006ea80,10087850,B,1,,NCVIPShopNeededItemWnd,NCVIPShopNeededItemWnd::~NCVIPShopNeededItemWnd,96,0
+1006eae0,10087990,B,1,,NCVIPShopWnd,NCVIPShopWnd::NCVIPShopWnd,38,0
+1006eb10,100879c0,C,1,,NCVIPShopWnd,NCVIPShopWnd::`scalar deleting destructor',36,0
+1006eb40,100879f0,B,1,,NCVIPShopWnd,NCVIPShopWnd::~NCVIPShopWnd,96,0
+1006eba0,10087a50,C,0,"insn 241 calls 10001a20, C2 calls 10002440 (not the same function)",NCVIPShopWnd,NCVIPShopWnd::OnCreate,994,1
+1006ef90,10088090,A,1,,NCVIPShopWnd,NCVIPShopWnd::HideWindow,16,0
+1006efa0,100880a0,C,1,insn 29 other+310->510;insn 30 other+310->510;insn 40 other+20c->40c;insn 44 other+208->408,NCVIPShopWnd,NCVIPShopWnd::AddRecord,232,10
+1006f090,10088190,A,1,,NCVIPShopItemListBox,NCVIPShopItemListBox::InternalConstructor,14,0
+1006f0c0,10088290,B,1,,NCMSView_InvenItemWnd,NCMSView_InvenItemWnd::OnLButtonDblClick,130,0
+1006f210,10088410,C,1,insn 23 other+d0->d4;insn 28 other+12c->120;insn 30 other+130->124;insn 32 other+134->128,NCMSViewrWnd,NCMSViewrWnd::AddAllCharacter,2036,40
+1006fa40,10088c80,B,1,,NCMSViewrWnd,NCMSViewrWnd::HideWindow,84,0
+1006fad0,10088d10,B,1,,NCMSViewrWnd,NCMSViewrWnd::ShowWindow,98,0
+1006fb70,10088db0,B,1,insn 9 other+c8c->1794,NCMSViewrWnd,NCMSViewrWnd::AddItem,106,1
+1006fca0,10088ed0,C,1,,NCMSViewrWnd,NCMSViewrWnd::NCMSViewrWnd,148,0
+1006fd40,10088f70,C,1,,NCMSViewrWnd,NCMSViewrWnd::`scalar deleting destructor',36,0
+1006fd70,10088fa0,A,1,,NCMSViewrWnd,NCMSViewrWnd::~NCMSViewrWnd,80,0
+1006ff70,100891a0,B,1,,NCMSViewrWnd,NCMSViewrWnd::OnDestroy,339,0
+10070100,10089330,B,1,,NCMSView_CharacterSelectWnd,NCMSView_CharacterSelectWnd::NCMSView_CharacterSelectWnd,66,0
+10070150,10089380,C,1,,NCMSView_CharacterSelectWnd,NCMSView_CharacterSelectWnd::`scalar deleting destructor',36,0
+10070180,100893b0,A,1,,NCMSView_CharacterSelectWnd,NCMSView_CharacterSelectWnd::~NCMSView_CharacterSelectWnd,80,0
+100701d0,10089400,B,1,insn 40 other+94->98;insn 74 other+9c->a0;insn 78 other+a0->a4;insn 82 other+a4->a8,NCMSView_CharacterSelectWnd,NCMSView_CharacterSelectWnd::OnCreate,608,16
+100706a0,100899b0,C,1,insn 25 other+164->174;insn 85 other+373c->35b4;insn 86 other+d0->d4;insn 104 other+714->4cc,NCMSView_CharacterSelectWnd,NCMSView_CharacterSelectWnd::OnNameComboBox,877,22
+10070a40,10089d50,B,1,insn 9 other+1ac->1b0;insn 18 other+1a8->1ac;insn 28 other+5dc->394;insn 29 other+65c->558,NCMSView_CharacterSelectWnd,NCMSView_CharacterSelectWnd::OnAniNameComboBox,193,7
+10070b40,10089e50,A,1,,TActorArray,TActorArray::AddItem,28,0
+10070b60,10089e70,A,1,,NCMSView_CharacterSelectWnd,NCMSView_CharacterSelectWnd::InternalConstructor,14,0
+10070d10,1008a040,C,1,,NCMSView_InvenItemWnd,NCMSView_InvenItemWnd::`scalar deleting destructor',36,0
+10070d40,1008a070,A,1,,NCMSView_InvenItemWnd,NCMSView_InvenItemWnd::~NCMSView_InvenItemWnd,80,0
+10072000,10090b30,B,1,,NCSkillItemWnd,NCSkillItemWnd::OnLButtonDown,35,0
+100729a0,10090ba0,B,1,,NCMagicSkillWnd,NCMagicSkillWnd::ClearSkills,11,0
+10073190,10091460,B,1,,NCSkillWnd,NCSkillWnd::NCSkillWnd,55,0
+100731d0,100914a0,C,1,,NCSkillWnd,NCSkillWnd::`scalar deleting destructor',36,0
+10073200,100914d0,A,1,,NCSkillWnd,NCSkillWnd::~NCSkillWnd,80,0
+100732f0,10091620,A,1,,NCMagicSkillWnd,NCMagicSkillWnd::NCMagicSkillWnd,18,0
+10073310,10091640,C,1,,NCMagicSkillWnd,NCMagicSkillWnd::`scalar deleting destructor',36,0
+10073340,10091670,A,1,,NCMagicSkillWnd,NCMagicSkillWnd::~NCMagicSkillWnd,80,0
+10073390,100916c0,B,1,insn 7 other+94->98;insn 30 other+98->9c;insn 32 other+94->98;insn 33 other+98->9c,NCMagicSkillWnd,NCMagicSkillWnd::OnCreate,196,6
+10073460,10091840,B,1,insn 23 other+94->98,NCMagicSkillWnd,NCMagicSkillWnd::OnPaint,137,1
+100734f0,100918d0,B,1,,NCMagicSkillWnd,NCMagicSkillWnd::ShowWindow,123,0
+10073570,10091950,A,1,,NCMagicSkillWnd,NCMagicSkillWnd::HideWindow,16,0
+10073750,10091b30,A,1,,NCSkillWnd,NCSkillWnd::InternalConstructor,14,0
+100739a0,10091d40,B,1,,NCSkillItemWnd,NCSkillItemWnd::NCSkillItemWnd,147,0
+10073a40,10091de0,B,1,,NCSkillItemWnd,NCSkillItemWnd::NCSkillItemWnd,171,0
+10073af0,10091f40,B,1,insn 142 other+94->98,NCSkillWnd,NCSkillWnd::OnCreate,553,1
+10073d20,10092170,A,1,,NCSkillItemWnd,NCSkillItemWnd::InternalConstructor,14,0
+100745c0,10094770,B,1,insn 1 other+36dc->3540,NCMatchWnd,NCMatchWnd::OnOptions,22,1
+100745e0,10094790,A,1,,operator new(size_t TArray<ptr>&),operator new(size_t TArray<ptr>&),24,0
+10074600,100947b0,B,1,,NCMatchOptionWnd,NCMatchOptionWnd::NCMatchOptionWnd,50,0
+10074640,100947f0,C,1,,NCMatchOptionWnd,NCMatchOptionWnd::`scalar deleting destructor',36,0
+10074670,10094820,A,1,,NCMatchOptionWnd,NCMatchOptionWnd::~NCMatchOptionWnd,80,0
+100746c0,10094870,B,0,"insn 249 calls 10001a20, C2 calls 10002440 (not the same function)",NCMatchOptionWnd,NCMatchOptionWnd::OnCreate,1029,4
+10075000,10095210,B,1,insn 10 other+1e40->4848,NCMatchListCtrl,NCMatchListCtrl::GetRowPlayerID,47,1
+10075030,10095240,B,1,insn 10 other+1e40->4848,NCMatchListCtrl,NCMatchListCtrl::GetSelectedPlayerID,47,1
+10075060,10095270,C,1,,NCMatchListCtrl,NCMatchListCtrl::GetSelectedName,51,0
+10075110,10095310,B,1,,NCMatchWnd,NCMatchWnd::NCMatchWnd,50,0
+10075150,10095350,C,1,,NCMatchWnd,NCMatchWnd::`scalar deleting destructor',36,0
+10075180,10095380,A,1,,NCMatchWnd,NCMatchWnd::~NCMatchWnd,80,0
+100752c0,10095520,B,1,insn 22 other+98->9c,NCMatchWnd,NCMatchWnd::OnPaint,136,1
+100757b0,100955b0,B,1,,NCMatchWnd,NCMatchWnd::ClearList,32,0
+10075870,10095680,C,0,"insn 44 calls 10008c40, C2 calls 1000c250 (not the same function)",NCMatchWnd,NCMatchWnd::OnWhisper,273,10
+10075990,100957a0,B,0,"insn 11 calls 10054b60, C2 calls 1006a8c0 (not the same function)",NCMatchWnd,NCMatchWnd::OnTargeting,54,0
+100759d0,100957e0,A,1,,NCTestUIWnd,NCTestUIWnd::NCTestUIWnd,18,0
+100759f0,10095800,C,1,,NCTestUIWnd,NCTestUIWnd::`scalar deleting destructor',36,0
+10075a20,10095830,A,1,,NCTestUIWnd,NCTestUIWnd::~NCTestUIWnd,80,0
+10075a70,10095880,B,1,insn 29 other+94->98,NCTestUIWnd,NCTestUIWnd::OnCreate,183,1
+10075b30,10095940,B,1,insn 22 other+cc->d0,NCTestUIWnd,NCTestUIWnd::OnPaint,130,1
+10075bc0,100959d0,A,1,,TArray<ptr>,TArray<ptr>::TArray(const TArray&),134,0
+10075c50,10095a60,A,1,,NCMatchOptionWnd,NCMatchOptionWnd::InternalConstructor,14,0
+10075c80,10095a90,A,1,,NCMatchOptionWnd,NCMatchOptionWnd::ShowWindow,16,0
+10075c90,10095aa0,C,1,insn 49 other+9b4->9b8;insn 78 other+800->1000;insn 84 other+800->1000;insn 91 other+9b4->9b8,NCMatchListCtrl,NCMatchListCtrl::SortByColumn,522,5
+10075ea0,100960d0,A,1,,NCMatchListCtrl,NCMatchListCtrl::NCMatchListCtrl,18,0
+10075ec0,100960f0,C,1,,NCMatchListCtrl,NCMatchListCtrl::`scalar deleting destructor',36,0
+10075ef0,10096120,A,1,,NCMatchListCtrl,NCMatchListCtrl::~NCMatchListCtrl,80,0
+10075f40,10096170,A,1,,NCMatchListCtrl,NCMatchListCtrl::NCMatchListCtrl,42,0
+10075f70,100961a0,C,0,"insn 245 calls 10001a20, C2 calls 10002440 (not the same function)",NCMatchWnd,NCMatchWnd::OnCreate,1660,11
+100767b0,10096970,A,1,,NCMatchListCtrl,NCMatchListCtrl::InternalConstructor,14,0
+100768b0,10096a60,B,1,,NCRestartMenuWnd,NCRestartMenuWnd::HideUnavailable,126,0
+10076930,10096ae0,B,1,,NCRestartMenuWnd,NCRestartMenuWnd::SetRestartPoints,53,0
+10076970,10096b20,B,1,,NCRestartMenuWnd,NCRestartMenuWnd::OnVillage,124,0
+100769f0,10096ba0,B,1,,NCRestartMenuWnd,NCRestartMenuWnd::OnHideaway,124,0
+10076a70,10096c20,B,1,,NCRestartMenuWnd,NCRestartMenuWnd::OnCastle,124,0
+10076af0,10096ca0,B,1,,NCRestartMenuWnd,NCRestartMenuWnd::OnSiegeHQ,124,0
+10076b70,10096d20,B,1,,NCRestartMenuWnd,NCRestartMenuWnd::OnFixed,124,0
+10076ce0,10096ee0,B,0,"insn 2 calls 1003e080, C2 calls 1004c100 (not the same function)",NCSystemMenuWnd,NCSystemMenuWnd::OnHelp,22,1
+10076d00,10082c50,A,0,"insn 1 calls 100460c0, C2 calls 1006aa40 (not the same function)",NCSystemMenuWnd,NCSystemMenuWnd::OnOptions,17,0
+10076e80,100970a0,B,1,insn 1 other+36dc->3540,NCMenuWnd,NCMenuWnd::OnSystem,22,1
+10076ea0,100970c0,B,1,insn 1 other+36dc->3540,NCMenuWnd,NCMenuWnd::OnCharacter,24,1
+10076ec0,100970e0,B,1,insn 1 other+36dc->3540,NCMenuWnd,NCMenuWnd::OnInventory,22,1
+10076ee0,10097100,B,1,insn 1 other+36dc->3540,NCMenuWnd,NCMenuWnd::OnCommunity,22,1
+10076f00,10097120,B,1,,NCRestartMenuWnd,NCRestartMenuWnd::NCRestartMenuWnd,85,0
+10076f60,10097180,C,1,,NCRestartMenuWnd,NCRestartMenuWnd::`scalar deleting destructor',36,0
+10076f90,100971b0,A,1,,NCRestartMenuWnd,NCRestartMenuWnd::~NCRestartMenuWnd,80,0
+10076fe0,10097200,B,0,"insn 32 calls 10001a20, C2 calls 10002440 (not the same function)",NCRestartMenuWnd,NCRestartMenuWnd::OnCreate,921,0
+10077380,100975a0,B,1,insn 22 other+94->98,NCRestartMenuWnd,NCRestartMenuWnd::OnPaint,136,1
+10077410,10097780,A,1,,NCRestartMenuWnd,NCRestartMenuWnd::ShowWindow,16,0
+10077460,100977d0,C,1,,NCSystemMenuWnd,NCSystemMenuWnd::`scalar deleting destructor',36,0
+10077490,10097800,A,1,,NCSystemMenuWnd,NCSystemMenuWnd::~NCSystemMenuWnd,80,0
+10077870,10097d40,C,1,insn 22 other+94->98,NCSystemMenuWnd,NCSystemMenuWnd::OnPaint,130,1
+10077ab0,100980c0,B,1,,NCMenuWnd,NCMenuWnd::NCMenuWnd,50,0
+10077af0,10098100,C,1,,NCMenuWnd,NCMenuWnd::`scalar deleting destructor',36,0
+10077b20,10098130,A,1,,NCMenuWnd,NCMenuWnd::~NCMenuWnd,80,0
+10077b70,10098180,B,1,insn 22 other+94->98,NCMenuWnd,NCMenuWnd::OnPaint,126,1
+10077bf0,10098200,B,0,"insn 85 calls 10001a20, C2 calls 10002440 (not the same function)",NCMenuWnd,NCMenuWnd::OnCreate,888,1
+10077f70,100986b0,A,1,,NCRestartMenuWnd,NCRestartMenuWnd::InternalConstructor,14,0
+10077fa0,100986e0,B,1,,NCMessageWnd,NCMessageWnd::OnCreate,33,0
+10078030,10098820,C,1,,NCMessageWnd,NCMessageWnd::`scalar deleting destructor',36,0
+10078250,10098a80,B,1,,NCMinimapWnd,NCMinimapWnd::OnLButtonDown,119,0
+100782d0,10098b00,B,1,,NCMinimapWnd,NCMinimapWnd::OnMouseMove,416,0
+10078470,10098ca0,B,1,,NCMinimapWnd,NCMinimapWnd::OnLButtonUp,44,0
+100784a0,100991a0,A,1,,NCMinimapWnd,NCMinimapWnd::KillFocus,16,0
+100784b0,10098cd0,B,1,,NCMinimapWnd,NCMinimapWnd::WorldToMap,409,0
+10078650,10098e70,B,1,,NCMinimapWnd,NCMinimapWnd::SetMapID,13,0
+10078660,10099300,B,0,insn 103 string/constant differs at 100e823c,NCMinimapWnd,NCMinimapWnd::OnCreate,678,4
+10078950,1008c9c0,B,1,,NCSystemMenuWnd,NCSystemMenuWnd::ShowWindow,77,0
+10078bb0,10099e20,A,1,,TArray<FMinimapTarget>,TArray<FMinimapTarget>::Remove,118,0
+10079130,1009a3d0,B,1,,NCMinimapWnd,NCMinimapWnd::CenterOnPlayer,246,0
+10079270,1009a4d0,C,1,,NCMinimapWnd,NCMinimapWnd::RemoveTarget,95,0
+100792d0,1009a530,A,1,,NCMinimapWnd,NCMinimapWnd::OnInitPos,11,0
+100792e0,1009a560,A,1,,TArray<FMinimapTarget>,TArray<FMinimapTarget>::~TArray,144,0
+10079370,1009a5f0,B,1,,NCMinimapWnd,NCMinimapWnd::NCMinimapWnd,98,0
+100793e0,1009a660,C,1,,NCMinimapWnd,NCMinimapWnd::`scalar deleting destructor',36,0
+10079410,1009a690,B,1,,NCMinimapWnd,NCMinimapWnd::~NCMinimapWnd,96,0
+10079470,1009a6f0,A,1,,NCMinimapWnd,NCMinimapWnd::InternalConstructor,14,0
+10079480,1002ce20,A,1,,NCNoticeInfoWnd,NCNoticeInfoWnd::OnCreate,11,0
+100794a0,1009a780,C,1,,NCNoticeInfoWnd,NCNoticeInfoWnd::SetText,33,0
+100794d0,1009a7b0,B,1,,NCNoticeInfoWnd,NCNoticeInfoWnd::ClearText,10,0
+100795f0,1009a820,A,0,insn 5 this+a0 -> a0 (layout says a4),NCWarningWnd,NCWarningWnd::SetText,32,0
+10079610,1009a840,A,0,insn 0 this+a0 -> a0 (layout says a4),NCWarningWnd,NCWarningWnd::ClearText,11,0
+10079620,1009a8e0,B,1,,NCWarningWnd,NCWarningWnd::OnOK,20,0
+10079690,1009a940,B,1,,NCWarningWnd,NCWarningWnd::ShowWindow,45,0
+100796c0,1009a970,B,1,,NCWarningWnd,NCWarningWnd::HideWindow,32,0
+100796e0,1009ab10,B,1,,NCNoticeInfoWnd,NCNoticeInfoWnd::NCNoticeInfoWnd,37,0
+10079710,1009ab40,C,1,,NCNoticeInfoWnd,NCNoticeInfoWnd::`scalar deleting destructor',36,0
+10079740,1009ab70,A,1,,NCNoticeInfoWnd,NCNoticeInfoWnd::~NCNoticeInfoWnd,80,0
+100798c0,1009acf0,B,1,,NCNoticeWnd,NCNoticeWnd::NCNoticeWnd,32,0
+100798e0,1009ad10,C,1,,NCNoticeWnd,NCNoticeWnd::`scalar deleting destructor',36,0
+10079910,1009ad40,A,1,,NCNoticeWnd,NCNoticeWnd::~NCNoticeWnd,80,0
+10079960,1009ad90,B,0,"insn 138 calls 10001a20, C2 calls 10002440 (not the same function)",NCNoticeWnd,NCNoticeWnd::OnCreate,514,1
+10079be0,1009b070,B,1,insn 34 other+98->9c,NCNoticeWnd,NCNoticeWnd::OnPaint,160,1
+10079cc0,1009b150,B,1,,NCNoticeWnd,NCNoticeWnd::OnOK,59,0
+10079d70,1009b1f0,B,1,,NCWarningWnd,NCWarningWnd::NCWarningWnd,32,0
+10079d90,1009b210,C,1,,NCWarningWnd,NCWarningWnd::`scalar deleting destructor',36,0
+10079dc0,1009b240,A,1,,NCWarningWnd,NCWarningWnd::~NCWarningWnd,80,0
+10079e10,1009b290,B,0,"insn 138 calls 10001a20, C2 calls 10002440 (not the same function)",NCWarningWnd,NCWarningWnd::OnCreate,514,1
+1007a090,1009b570,B,1,insn 34 other+9c->a0,NCWarningWnd,NCWarningWnd::OnPaint,160,1
+1007a170,1009c3a0,A,1,,NCNoticeInfoWnd,NCNoticeInfoWnd::InternalConstructor,14,0
+1007a340,1009c770,B,1,,NCNpcViewrWnd,NCNpcViewrWnd::HideWindow,84,0
+1007a3d0,1009c800,B,1,,NCNpcViewrWnd,NCNpcViewrWnd::ShowWindow,98,0
+1007a470,1009c8a0,B,1,,NCNpcViewrWnd,NCNpcViewrWnd::AddItem,96,0
+1007a570,1009c960,A,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::OnCreate,67,0
+1007a5f0,1009c9e0,A,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::OnPaint,73,0
+1007a670,1009ca60,A,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::OnDestroy,67,0
+1007a6f0,1009cae0,A,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::ScrollUp,11,0
+1007a700,1009caf0,A,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::ScrollDown,11,0
+1007a710,1009cb00,A,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::SetTopIndex,18,0
+1007a730,1009cb20,A,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::OnMouseWheel,23,0
+1007a750,1009cb40,B,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::SetScrollRange,11,0
+1007a9a0,1009cd10,C,1,,NCNpcViewrWnd,NCNpcViewrWnd::NCNpcViewrWnd,136,0
+1007aa30,1009cda0,C,1,,NCNpcViewrWnd,NCNpcViewrWnd::`scalar deleting destructor',36,0
+1007aa60,1009cdd0,A,1,,NCNpcViewrWnd,NCNpcViewrWnd::~NCNpcViewrWnd,80,0
+1007aab0,1009ce20,B,1,insn 34 other+ac->b0;insn 48 other+b0->b4,NCNpcViewrWnd,NCNpcViewrWnd::OnPaint,214,2
+1007abc0,1009cf30,B,1,,NCNpcViewrWnd,NCNpcViewrWnd::OnDestroy,251,0
+1007b240,1009d710,B,1,,NCNpcView_CharacterSelectWnd,NCNpcView_CharacterSelectWnd::NCNpcView_CharacterSelectWnd,28,0
+1007b260,1009d730,C,1,,NCNpcView_CharacterSelectWnd,NCNpcView_CharacterSelectWnd::`scalar deleting destructor',36,0
+1007b290,1009d760,A,1,,NCNpcView_CharacterSelectWnd,NCNpcView_CharacterSelectWnd::~NCNpcView_CharacterSelectWnd,80,0
+1007b2e0,1009d7b0,B,1,insn 14 other+1ac->1b0;insn 19 other+1a8->1ac;insn 29 other+5dc->394;insn 30 other+13d4->1410,NCNpcView_CharacterSelectWnd,NCNpcView_CharacterSelectWnd::OnAniNameCombo,197,7
+1007b3e0,1009d8b0,B,1,,NCNpcView_CharacterSelectWnd,NCNpcView_CharacterSelectWnd::OnDestroy,555,0
+1007b800,1009dcd0,B,1,insn 20 other+3738->35b0;insn 21 other+1fc->1f8;insn 22 other+698->594;insn 24 other+3738->35b0,NCNpcView_CharacterSelectWnd,NCNpcView_CharacterSelectWnd::OnApply,275,10
+1007b920,1009ddf0,B,1,insn 1 other+2b0->1c0,NCNpcView_CharacterSelectWnd,NCNpcView_CharacterSelectWnd::OnToggleNames,30,1
+1007b940,1009de10,C,1,insn 14 other+5dc->394;insn 17 other+118->d8;insn 21 other+1d0->1d4;insn 29 other+5dc->394,NCNpcView_CharacterSelectWnd,NCNpcView_CharacterSelectWnd::OnSummon,1041,25
+1007beb0,1009e7b0,C,1,,NCNpcView_InvenItemWnd,NCNpcView_InvenItemWnd::`scalar deleting destructor',36,0
+1007bee0,1009e7e0,A,1,,NCNpcView_InvenItemWnd,NCNpcView_InvenItemWnd::~NCNpcView_InvenItemWnd,80,0
+1007c5d0,1009edf0,A,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::NCNpcView_CharacterSelect_List,18,0
+1007c5f0,1009ee10,C,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::`scalar deleting destructor',36,0
+1007c620,1009ee40,A,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::~NCNpcView_CharacterSelect_List,80,0
+1007c670,1009ee90,B,1,,NCNpcView_CharacterSelect_List,NCNpcView_CharacterSelect_List::NCNpcView_CharacterSelect_List,40,0
+1007d210,1009fb20,B,1,insn 4 other+3738->35b0,NCNpcView_CharacterSelectWnd,NCNpcView_CharacterSelectWnd::OnReset,37,1
+1007d890,100a01a0,B,1,insn 6 other+94->98;insn 8 other+98->9c;insn 38 other+94->98;insn 55 other+94->98,NCVideoOptionWnd,NCVideoOptionWnd::InitModes,360,6
+1007da00,100a0330,B,1,,NCAudioOptionWnd,NCAudioOptionWnd::SelectVolumes,671,0
+1007dca0,100a05d0,B,1,,NCAudioOptionWnd,NCAudioOptionWnd::InitVolumes,203,0
+1007de00,100a0720,A,1,,NCGameOptionWnd,NCGameOptionWnd::OnReset,17,0
+1007de20,100a0740,B,1,insn 7 other+188->180,NCGameOptionWnd,NCGameOptionWnd::ShowWindow,69,1
+1007df40,100a0840,B,1,,NCVideoOptionWnd,NCVideoOptionWnd::NCVideoOptionWnd,38,0
+1007df70,100a0870,C,1,,NCVideoOptionWnd,NCVideoOptionWnd::`scalar deleting destructor',36,0
+1007dfa0,100a08a0,A,1,,NCVideoOptionWnd,NCVideoOptionWnd::~NCVideoOptionWnd,80,0
+1007eac0,100a1480,C,1,insn 30 other+1f0->1f4,NCVideoOptionWnd,NCVideoOptionWnd::OnResolutionChanged,326,1
+100800c0,100a2990,B,1,insn 3 other+2b0->1c0;insn 19 other+2b4->1c4;insn 21 other+2b4->1c4;insn 52 other+2b4->1c4,NCVideoOptionWnd,NCVideoOptionWnd::OnLowerDetailClicked,329,5
+10080210,100a2ae0,B,1,,NCAudioOptionWnd,NCAudioOptionWnd::NCAudioOptionWnd,38,0
+10080240,100a2b10,C,1,,NCAudioOptionWnd,NCAudioOptionWnd::`scalar deleting destructor',36,0
+10080270,100a2b40,A,1,,NCAudioOptionWnd,NCAudioOptionWnd::~NCAudioOptionWnd,80,0
+100802c0,100a2b90,B,1,insn 32 other+94->98;insn 84 other+94->98,NCAudioOptionWnd,NCAudioOptionWnd::OnCreate,334,2
+100806a0,100a2fa0,C,1,insn 10 other+94->98;insn 11 other+1f0->1f4;insn 71 other+98->9c;insn 73 other+1f0->1f4,NCAudioOptionWnd,NCAudioOptionWnd::Apply,672,6
+10080970,100a3280,B,1,,NCGameOptionWnd,NCGameOptionWnd::NCGameOptionWnd,44,0
+100809a0,100a32b0,C,1,,NCGameOptionWnd,NCGameOptionWnd::`scalar deleting destructor',36,0
+100809d0,100a32e0,A,1,,NCGameOptionWnd,NCGameOptionWnd::~NCGameOptionWnd,80,0
+10081750,100a4360,B,1,insn 2 other+2b0->1c0;insn 8 other+2b4->1c4;insn 10 other+2b4->1c4;insn 12 other+2b4->1c4,NCGameOptionWnd,NCGameOptionWnd::OnOtherPCClicked,98,9
+100817c0,100a43d0,B,1,,NCOptionWnd,NCOptionWnd::NCOptionWnd,28,0
+100817e0,100a43f0,C,1,,NCOptionWnd,NCOptionWnd::`scalar deleting destructor',36,0
+10081810,100a4420,A,1,,NCOptionWnd,NCOptionWnd::~NCOptionWnd,80,0
+10081860,100a4470,C,0,"insn 325 calls 10001a20, C2 calls 10002440 (not the same function)",NCOptionWnd,NCOptionWnd::OnCreate,1419,2
+10081df0,100a4a00,B,1,insn 34 other+94->98,NCOptionWnd,NCOptionWnd::OnPaint,170,1
+10082050,100a4cc0,B,1,,NCOptionWnd,NCOptionWnd::OnOK,85,0
+100820b0,100a4d20,B,1,,NCOptionWnd,NCOptionWnd::OnApply,75,0
+10082100,100a4d70,A,1,,NCVideoOptionWnd,NCVideoOptionWnd::InternalConstructor,14,0
+10082140,100a4db0,B,1,,NCVideoOptionWnd,NCVideoOptionWnd::InitItems,742,0
+100825b0,100a5300,C,1,insn 32 other+94->98;insn 84 other+94->98;insn 136 other+94->98;insn 188 other+94->98,NCVideoOptionWnd,NCVideoOptionWnd::OnCreate,2394,15
+10083880,100a6670,B,1,,NCSelectCtrl,NCSelectCtrl::SelectPrev,79,0
+100838d0,100a66c0,B,1,,NCSelectCtrl,NCSelectCtrl::SelectNext,83,0
+10083940,100a67b0,C,1,,NCPawnInfoWnd,NCPawnInfoWnd::SetText,34,0
+10083a90,100a68e0,B,1,,NCPawnSetupWnd,NCPawnSetupWnd::ShowWindow,20,0
+10083ab0,100a6900,B,1,,NCPawnSetupWnd,NCPawnSetupWnd::GetCharacterType,25,0
+10083ad0,100a6920,C,1,,NCPawnSetupWnd,NCPawnSetupWnd::ResetPreviews,112,0
+10083b50,100a69a0,B,1,insn 13 other+bc->c0;insn 22 other+bc->c0;insn 31 other+bc->c0,NCPawnSetupWnd,NCPawnSetupWnd::GetClassID,133,3
+10083bf0,100a6a40,B,1,,NCPawnSetupWnd,NCPawnSetupWnd::SetMakingRace,11,0
+10083d00,100a6b30,B,1,,NCPawnCreateWnd,NCPawnCreateWnd::SetRecommendedData,24,0
+10083d20,100a6b50,A,1,,NCPawnCreateWnd,NCPawnCreateWnd::OnPrevious,17,0
+10083d40,100a6b70,B,1,,NCPawnCreateWnd,NCPawnCreateWnd::HideWindow,20,0
+10083d60,100a6b90,B,1,,NCPawnCreateWnd,NCPawnCreateWnd::ShowViewButtons,197,0
+10083e30,100a6c60,A,1,,NCPawnCreateWnd,NCPawnCreateWnd::ShowWindow,19,0
+10083e50,100a6c80,B,1,,NCPawnCreateWnd,NCPawnCreateWnd::OnTurnLeft,62,0
+10083e90,100a6cc0,B,1,,NCPawnCreateWnd,NCPawnCreateWnd::OnTurnRight,62,0
+10083ed0,100a6d00,B,1,insn 32 other+1a0->1a4;insn 34 other+94->98;insn 35 other+1a0->1a4;insn 38 other+1a0->1a4,NCSelectCtrl,NCSelectCtrl::OnCreate,352,10
+100840d0,100a6f00,B,1,,NCPawnInfoWnd,NCPawnInfoWnd::NCPawnInfoWnd,33,0
+10084100,100a6f30,C,1,,NCPawnInfoWnd,NCPawnInfoWnd::`scalar deleting destructor',36,0
+10084130,100a6f60,A,1,,NCPawnInfoWnd,NCPawnInfoWnd::~NCPawnInfoWnd,80,0
+10084180,100a6fb0,C,1,,NCPawnInfoWnd,NCPawnInfoWnd::OnCreate,59,0
+100842c0,100a70f0,B,1,,NCPawnSetupWnd,NCPawnSetupWnd::NCPawnSetupWnd,101,0
+10084330,100a7160,C,1,,NCPawnSetupWnd,NCPawnSetupWnd::`scalar deleting destructor',36,0
+10084360,100a7190,A,1,,NCPawnSetupWnd,NCPawnSetupWnd::~NCPawnSetupWnd,80,0
+10084760,100a7600,B,1,insn 14 other+1b0->1b4;insn 16 other+1a8->1ac;insn 17 other+1a8->1ac;insn 19 other+1b0->1b4,NCPawnSetupWnd,NCPawnSetupWnd::Reset,240,18
+10085310,100a8280,B,1,insn 11 other+d0->d4;insn 15 other+98->9c;insn 16 other+94->98;insn 17 other+1a8->1ac,NCPawnSetupWnd,NCPawnSetupWnd::ExecCameraEvent,1061,24
+10085740,100a86b0,B,1,,NCPawnCreateWnd,NCPawnCreateWnd::NCPawnCreateWnd,38,0
+10085770,100a86e0,C,1,,NCPawnCreateWnd,NCPawnCreateWnd::`scalar deleting destructor',36,0
+100857a0,100a8710,A,1,,NCPawnCreateWnd,NCPawnCreateWnd::~NCPawnCreateWnd,80,0
+100857f0,100a8760,C,0,"insn 135 calls 10001a20, C2 calls 10002440 (not the same function)",NCPawnCreateWnd,NCPawnCreateWnd::OnCreate,1462,9
+10085db0,100a8d20,A,1,,NCPawnCreateWnd,NCPawnCreateWnd::OnPaint,127,0
+10085fe0,100a8fb0,B,1,,NCPawnCreateWnd,NCPawnCreateWnd::Reset,26,0
+10086130,100a9100,B,1,insn 10 other+104->108;insn 15 other+104->108;insn 16 other+94->98;insn 17 other+94->98,NCPawnCreateWnd,NCPawnCreateWnd::OnZoom,416,13
+100862d0,100a92a0,B,1,,NCSelectCtrl,NCSelectCtrl::ClearItems,104,0
+10086340,100a9310,A,1,,NCPawnInfoWnd,NCPawnInfoWnd::InternalConstructor,14,0
+100863f0,100a9420,B,1,insn 25 other+2e810->4b4e8,NCSelectCtrl,NCSelectCtrl::AddItem,157,1
+10086630,100a96a0,B,1,insn 29 other+1b0->1b4;insn 31 other+1a8->1ac;insn 34 other+1a8->1ac;insn 37 other+1b0->1b4,NCPawnSetupWnd,NCPawnSetupWnd::OnRace,465,17
+10086df0,100a9e20,B,1,,NCSelectCtrl,NCSelectCtrl::NCSelectCtrl,131,0
+10086e80,100a9eb0,C,1,,NCSelectCtrl,NCSelectCtrl::`scalar deleting destructor',36,0
+10086eb0,100a9ee0,B,1,,NCSelectCtrl,NCSelectCtrl::~NCSelectCtrl,96,0
+10087410,100aa440,A,1,,NCSelectCtrl,NCSelectCtrl::InternalConstructor,14,0
+100875f0,100aa6e0,C,1,insn 12 other+94->98,NCPawnViewrWnd,NCPawnViewrWnd::HidePages,62,1
+10087630,100aa720,C,1,insn 23 other+108->120;insn 28 other+164->16c;insn 30 other+168->170;insn 32 other+16c->174,NCPawnViewrWnd,NCPawnViewrWnd::AddAllCharacter,2036,40
+10087f10,100ab260,B,1,,NCPawnViewrWnd,NCPawnViewrWnd::Clear,143,0
+10087fd0,100ab320,B,1,,NCPawnViewrWnd,NCPawnViewrWnd::HideWindow,84,0
+10088060,100ab3b0,C,0,"insn 37 calls 10015cb0, C2 calls 1001a9a0 (not the same function)",NCPawnViewrWnd,NCPawnViewrWnd::AddItem,171,0
+10088330,100ab6a0,B,0,"insn 22 calls 10008c40, C2 calls 1000c250 (not the same function)",NCPawnViewr_MixAnimWnd,NCPawnViewr_MixAnimWnd::OnTake1,91,5
+10088390,100ab700,B,0,"insn 22 calls 10008c40, C2 calls 1000c250 (not the same function)",NCPawnViewr_MixAnimWnd,NCPawnViewr_MixAnimWnd::OnTake2,91,5
+100883f0,100ab760,B,0,"insn 22 calls 10008c40, C2 calls 1000c250 (not the same function)",NCPawnViewr_MixAnimWnd,NCPawnViewr_MixAnimWnd::OnTake3,91,5
+10088450,100ab7c0,A,1,,NCPawnView_CharacterSelect_List,NCPawnView_CharacterSelect_List::OnCreate,67,0
+100884d0,100ab840,A,1,,NCPawnView_CharacterSelect_List,NCPawnView_CharacterSelect_List::OnPaint,73,0
+10088550,100ab8c0,A,1,,NCPawnView_CharacterSelect_List,NCPawnView_CharacterSelect_List::OnDestroy,67,0
+100887e0,100abb00,A,1,,TNameArray,TNameArray::Empty,28,0
+10088830,100abb20,A,1,,NCPawnView_InvenTextWnd,NCPawnView_InvenTextWnd::NCPawnView_InvenTextWnd,18,0
+10088850,100abb40,C,1,,NCPawnView_InvenTextWnd,NCPawnView_InvenTextWnd::`scalar deleting destructor',36,0
+10088880,100abb70,A,1,,NCPawnView_InvenTextWnd,NCPawnView_InvenTextWnd::~NCPawnView_InvenTextWnd,80,0
+100888d0,100abe60,C,1,insn 25 other+110->108;insn 27 other+e8->e0;insn 30 other+3734->35ac;insn 31 other+d4->d8,NCPawnView_InvenItemWnd,NCPawnView_InvenItemWnd::OnRButtonDown,332,22
+10088a50,100abfe0,C,0,insn 16 this+e4 -> e8 (layout says 114),NCPawnViewrWnd,NCPawnViewrWnd::NCPawnViewrWnd,158,0
+10088af0,100ac080,C,1,,NCPawnViewrWnd,NCPawnViewrWnd::`scalar deleting destructor',36,0
+10088b20,100ac0b0,A,1,,NCPawnViewrWnd,NCPawnViewrWnd::~NCPawnViewrWnd,80,0
+10088d60,100ac940,B,1,insn 4 other+2b0->1c0;insn 16 other+94->98,NCPawnViewrWnd,NCPawnViewrWnd::OnGUICheck,107,2
+10088dd0,100ac9b0,B,0,insn 126 this+f8 -> fc (layout says 128),NCPawnViewrWnd,NCPawnViewrWnd::OnDestroy,549,0
+10089030,100acc10,B,1,insn 30 other+2b0->1c0;insn 39 other+2b0->1c0,NCPawnViewrWnd,NCPawnViewrWnd::ShowWindow,211,2
+10089140,100acd20,B,1,,NCPawnView_CharacterSelectWnd,NCPawnView_CharacterSelectWnd::NCPawnView_CharacterSelectWnd,66,0
+10089190,100acd70,C,1,,NCPawnView_CharacterSelectWnd,NCPawnView_CharacterSelectWnd::`scalar deleting destructor',36,0
+100891c0,100acda0,A,1,,NCPawnView_CharacterSelectWnd,NCPawnView_CharacterSelectWnd::~NCPawnView_CharacterSelectWnd,80,0
+10089210,100acdf0,B,1,insn 34 other+a4->a8;insn 47 other+a0->a4,NCPawnView_CharacterSelectWnd,NCPawnView_CharacterSelectWnd::OnPaint,194,2
+10089310,100acef0,B,1,,NCTrainWnd,NCTrainWnd::OnDestroy,111,0
+10089380,100acf60,C,1,insn 9 other+3734->35ac;insn 10 other+27a4->268c;insn 12 other+b4->b8;insn 13 other+94->98,NCPawnView_InvenTextWnd,NCPawnView_InvenTextWnd::OnInvenItemList,296,21
+100894e0,100ad0c0,B,1,insn 41 other+94->98;insn 72 other+1d8->1dc;insn 73 other+1dc->1e0;insn 75 other+1e0->1e4,NCPawnView_InvenTextWnd,NCPawnView_InvenTextWnd::OnCreate,265,4
+10089620,100ad200,B,1,,NCPawnViewr_MixAnimWnd,NCPawnViewr_MixAnimWnd::NCPawnViewr_MixAnimWnd,44,0
+10089650,100ad230,C,1,,NCPawnViewr_MixAnimWnd,NCPawnViewr_MixAnimWnd::`scalar deleting destructor',36,0
+10089680,100ad260,A,1,,NCPawnViewr_MixAnimWnd,NCPawnViewr_MixAnimWnd::~NCPawnViewr_MixAnimWnd,80,0
+10089b10,100ad700,B,1,insn 3 other+ac->b0;insn 8 other+ac->b0;insn 14 other+a0->a4;insn 20 other+a4->a8,NCPawnViewr_MixAnimWnd,NCPawnViewr_MixAnimWnd::OnStart,414,16
+10089dc0,100ad9b0,B,1,,NCPawnViewr_MixAnimWnd,NCPawnViewr_MixAnimWnd::OnDestroy,327,0
+1008a0f0,100add00,C,1,,NCPawnViewr_HairChangeWnd,NCPawnViewr_HairChangeWnd::`scalar deleting destructor',36,0
+1008a120,100add30,A,1,,NCPawnViewr_HairChangeWnd,NCPawnViewr_HairChangeWnd::~NCPawnViewr_HairChangeWnd,80,0
+1008bb20,100af150,B,0,insn 59 this+500 -> b0 (layout says ac),NCPawnViewr_HairChangeWnd,NCPawnViewr_HairChangeWnd::OnDestroy,239,0
+1008bf30,100af570,C,1,insn 23 other+c0->c4;insn 56 other+164->174;insn 59 other+5dc->394;insn 156 other+714->4cc,NCPawnViewr_Simulator,NCPawnViewr_Simulator::SpawnPawn,848,16
+1008c280,100af9e0,A,1,,NCPawnView_CharacterSelectWnd,NCPawnView_CharacterSelectWnd::InternalConstructor,14,0
+1008c2d0,100afa30,C,1,insn 4 other+1f0->1f4;insn 5 other+b8->bc;insn 17 other+108->120;insn 27 other+50->6c,NCPawnViewrWnd,NCPawnViewrWnd::OnUseWeapon,233,16
+1008c3c0,100afb20,C,1,insn 19 other+5dc->394;insn 25 other+138->f8;insn 53 other+2b0->1c0,NCPawnView_CharacterSelectWnd,NCPawnView_CharacterSelectWnd::UpdateAnimList,853,3
+1008c720,100affb0,A,1,,NSimPawnVector,NSimPawnVector::UninitializedCopy,43,0
+1008c770,100b0000,C,1,,NCPawnView_InvenItemWnd,NCPawnView_InvenItemWnd::`scalar deleting destructor',36,0
+1008c7a0,100b0030,A,1,,NCPawnView_InvenItemWnd,NCPawnView_InvenItemWnd::~NCPawnView_InvenItemWnd,80,0
+1008cc90,100b03b0,B,1,insn 4 other+94->98;insn 8 other+94->98;insn 12 other+94->98;insn 16 other+94->98,NCPawnViewrWnd,NCPawnViewrWnd::OnViewList,142,6
+1008d060,100b07a0,A,1,,NCPawnView_CharacterSelectWnd,NCPawnView_CharacterSelectWnd::OnByActionCheck,11,0
+1008d070,100b07b0,A,1,,NCPawnView_CharacterSelect_List,NCPawnView_CharacterSelect_List::NCPawnView_CharacterSelect_List,18,0
+1008d090,100b07d0,C,1,,NCPawnView_CharacterSelect_List,NCPawnView_CharacterSelect_List::`scalar deleting destructor',36,0
+1008d0c0,100b0800,A,1,,NCPawnView_CharacterSelect_List,NCPawnView_CharacterSelect_List::~NCPawnView_CharacterSelect_List,80,0
+1008d110,100b0850,B,1,,NCPawnView_CharacterSelect_List,NCPawnView_CharacterSelect_List::NCPawnView_CharacterSelect_List,50,0
+1008d590,100b0ce0,C,1,insn 16 other+b4->b8;insn 17 other+cc->d0;insn 23 other+d8->dc;insn 29 other+624->520,NCPawnViewr_Simulator,NCPawnViewr_Simulator::TryAction,655,24
+1008d830,100b0f80,B,1,,NCPawnViewr_Simulator,NCPawnViewr_Simulator::TryCancel,70,0
+1008d880,100b0fd0,C,1,insn 22 other+1198->11d0;insn 30 other+98->58;insn 34 other+164->174,NCPawnViewr_Simulator,NCPawnViewr_Simulator::TryReplace,184,3
+1008dcb0,100b1420,A,1,,NSimPawnVector,NSimPawnVector::Xlen,122,0
+1008dd30,100b14a0,A,1,,NSimPawnVector,NSimPawnVector::Reserve,240,0
+1008de40,100b15b0,B,1,insn 105 other+164->174,NCPawnViewr_Simulator,NCPawnViewr_Simulator::OnStart,669,1
+1008e0f0,100b1860,B,1,,NCPawnViewr_Simulator,NCPawnViewr_Simulator::NCPawnViewr_Simulator,103,0
+1008e160,100b18d0,C,1,,NCPawnViewr_Simulator,NCPawnViewr_Simulator::`scalar deleting destructor',36,0
+1008e190,100b1900,B,1,,NCPawnViewr_Simulator,NCPawnViewr_Simulator::~NCPawnViewr_Simulator,130,0
+1008e220,100b1990,A,1,,NCPawnViewr_Simulator,NCPawnViewr_Simulator::InternalConstructor,14,0
+1008ee70,100b2ab0,B,1,,NCPetDetailStatusWnd,NCPetDetailStatusWnd::OnCreate,33,0
+1008ef30,100b2b60,B,1,,NCPetInvenItemWnd,NCPetInvenItemWnd::OnCreate,33,0
+10090e80,100b2c00,B,1,,NCPetWnd,NCPetWnd::SetCanName,31,0
+10090ea0,100b2c20,B,1,,NCPetWnd,NCPetWnd::ClearInventory,11,0
+10090eb0,100b2c30,B,1,,NCSummonedDetailStatusWnd,NCSummonedDetailStatusWnd::OnCreate,33,0
+10090f10,100b2d40,C,1,,NCPetDetailStatusWnd,NCPetDetailStatusWnd::`scalar deleting destructor',36,0
+10090f40,100b2d70,A,1,,NCPetDetailStatusWnd,NCPetDetailStatusWnd::~NCPetDetailStatusWnd,80,0
+100915e0,100b2dc0,A,1,,NCPetActionWnd,NCPetActionWnd::NCPetActionWnd,18,0
+10091600,100b2de0,C,1,,NCPetActionWnd,NCPetActionWnd::`scalar deleting destructor',36,0
+10091630,100b2e10,A,1,,NCPetActionWnd,NCPetActionWnd::~NCPetActionWnd,80,0
+10091830,100b3180,B,1,insn 68 other+c44->1948,NCPetInvenItemWnd,NCPetInvenItemWnd::OnPaint,416,1
+10091a80,100b33c0,B,1,insn 19 other+c10->1914,NCPetInvenItemWnd,NCPetInvenItemWnd::OnLButtonDblClick,138,1
+10091b10,100b3450,B,1,insn 17 other+c10->1914,NCPetInvenItemWnd,NCPetInvenItemWnd::OnRButtonDown,88,1
+10091c70,100b35b0,B,1,insn 10 other+c10->1914,NCPetInvenItemWnd,NCPetInvenItemWnd::HasItem,61,1
+10091cc0,100b3600,B,1,insn 10 other+c10->1914,NCPetInvenItemWnd,NCPetInvenItemWnd::FindItem,67,1
+10091ed0,100b3650,A,1,,NCPetInventoryWnd,NCPetInventoryWnd::NCPetInventoryWnd,18,0
+10091ef0,100b3670,C,1,,NCPetInventoryWnd,NCPetInventoryWnd::`scalar deleting destructor',36,0
+10091f20,100b36a0,A,1,,NCPetInventoryWnd,NCPetInventoryWnd::~NCPetInventoryWnd,80,0
+10091f70,100b37a0,B,1,insn 10 other+e4->dc,NCPetInventoryWnd,NCPetInventoryWnd::GetItem,51,1
+10092000,100b3840,C,1,,NCPetWnd,NCPetWnd::`scalar deleting destructor',36,0
+10092030,100b3870,A,1,,NCPetWnd,NCPetWnd::~NCPetWnd,80,0
+10092080,100b38c0,B,0,"insn 355 calls 10001a20, C2 calls 10002440 (not the same function)",NCPetWnd,NCPetWnd::OnCreate,1193,2
+10092e30,100b4740,C,1,,NCSummonedDetailStatusWnd,NCSummonedDetailStatusWnd::`scalar deleting destructor',36,0
+10092e60,100b4770,A,1,,NCSummonedDetailStatusWnd,NCSummonedDetailStatusWnd::~NCSummonedDetailStatusWnd,80,0
+10092eb0,100b4e40,A,1,,NCSummonedActionWnd,NCSummonedActionWnd::NCSummonedActionWnd,18,0
+10092ed0,100b4e60,C,1,,NCSummonedActionWnd,NCSummonedActionWnd::`scalar deleting destructor',36,0
+10092f00,100b4e90,A,1,,NCSummonedActionWnd,NCSummonedActionWnd::~NCSummonedActionWnd,80,0
+10093140,100b5370,C,1,insn 33 other+94->98;insn 199 other+94->98,NCSummonedWnd,NCSummonedWnd::OnCreate,759,2
+100941c0,100b61b0,B,1,,NCPetInvenItemWnd,NCPetInvenItemWnd::NCPetInvenItemWnd,38,0
+100941f0,100b61e0,C,1,,NCPetInvenItemWnd,NCPetInvenItemWnd::`scalar deleting destructor',36,0
+10094220,100b6210,A,1,,NCPetInvenItemWnd,NCPetInvenItemWnd::~NCPetInvenItemWnd,80,0
+10094270,100b6260,B,1,,NCPetInvenItemWnd,NCPetInvenItemWnd::NCPetInvenItemWnd,62,0
+100942b0,100b6300,B,1,insn 7 other+94->98;insn 37 other+98->9c;insn 39 other+98->9c;insn 44 other+98->9c,NCPetInventoryWnd,NCPetInventoryWnd::OnCreate,190,4
+10094370,100b6460,A,1,,NCPetInvenItemWnd,NCPetInvenItemWnd::InternalConstructor,14,0
+10094480,100b6740,B,1,,NCPetitionWnd,NCPetitionWnd::AddMessage,56,0
+100944c0,100b6780,B,1,,NCPetitionWnd,NCPetitionWnd::Clear,32,0
+100946e0,100b67a0,B,1,,NCGMPetitionWnd,NCGMPetitionWnd::OnStart,116,0
+10094760,100b6820,B,1,,NCGMPetitionWnd,NCGMPetitionWnd::OnEnd,116,0
+100947e0,100b6c10,B,1,,NCPetitionListBox,NCPetitionListBox::OnCreate,117,0
+10094a60,100b71d0,B,1,,NCPetitionWnd,NCPetitionWnd::OnPaint,132,0
+10094bc0,100b7f60,A,1,,NCPetitionWnd,NCPetitionWnd::InternalConstructor,14,0
+10094be0,100b7fb0,B,0,"insn 20 calls 1000c770, C2 calls 1000fed0 (not the same function)",NCPetitionListBox,NCPetitionListBox::AddString,606,0
+10094e40,100b8210,A,1,,NCPetitionListBox,NCPetitionListBox::NCPetitionListBox,18,0
+10094e60,100b8230,C,1,,NCPetitionListBox,NCPetitionListBox::`scalar deleting destructor',36,0
+10094e90,100b8260,A,1,,NCPetitionListBox,NCPetitionListBox::~NCPetitionListBox,80,0
+10094ee0,100b82b0,A,1,,NCPetitionListBox,NCPetitionListBox::NCPetitionListBox,37,0
+10095590,100b9040,A,1,,NCPetitionListBox,NCPetitionListBox::InternalConstructor,14,0
+10095690,100b9130,B,1,,NCPrivateBuyItemWnd,NCPrivateBuyItemWnd::SetSide,13,0
+100982c0,100b92b0,B,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::ShowWindow,115,0
+10098340,100b9330,B,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::OnClose,47,0
+10098370,100b9360,B,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::OnAbort,38,0
+100983a0,100b9390,B,1,insn 91 other+c1c->1920,NCPrivateBuyItemWnd,NCPrivateBuyItemWnd::OnPaint,653,1
+100988c0,100b9940,B,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::NCPrivateBuyWnd,102,0
+10098930,100b99b0,C,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::`scalar deleting destructor',36,0
+10098960,100b99e0,A,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::~NCPrivateBuyWnd,80,0
+10098e10,100bc8a0,B,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::OnDestroy,371,0
+10099360,100ba340,B,1,insn 11 other+e8->e0;insn 14 other+e4->dc;insn 19 other+c48->194c;insn 27 other+e8->e0,NCPrivateBuyWnd,NCPrivateBuyWnd::UpdateTotal,229,8
+100994c0,100ba520,B,1,insn 12 other+e8->e0;insn 19 other+e4->dc;insn 22 other+c48->194c;insn 45 other+e8->e0,NCPrivateBuyWnd,NCPrivateBuyWnd::OnSellConfirmed,406,16
+10099bf0,100bad60,B,1,insn 2 other+98->9c;insn 4 other+c0->c4;insn 6 other+c0->c4;insn 7 other+94->98,NCPrivateBuyWnd,NCPrivateBuyWnd::SetMode,52,4
+10099c30,100bada0,B,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::AddStoreItem,39,0
+10099c60,100badd0,B,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::AddPlayerItem,11,0
+1009a090,100bb2a0,B,1,,NCPrivateBuyItemWnd,NCPrivateBuyItemWnd::NCPrivateBuyItemWnd,104,0
+1009a100,100bb310,C,1,,NCPrivateBuyItemWnd,NCPrivateBuyItemWnd::`scalar deleting destructor',36,0
+1009a130,100bb340,A,1,,NCPrivateBuyItemWnd,NCPrivateBuyItemWnd::~NCPrivateBuyItemWnd,80,0
+1009a180,100bb390,B,1,,NCPrivateBuyItemWnd,NCPrivateBuyItemWnd::NCPrivateBuyItemWnd,128,0
+1009a7f0,100bbb20,C,0,"insn 211 calls 10001a20, C2 calls 10002440 (not the same function)",NCPrivateBuyWnd,NCPrivateBuyWnd::OnCreate,1410,1
+1009ad80,100bc0b0,A,1,,NCPrivateBuyItemWnd,NCPrivateBuyItemWnd::InternalConstructor,14,0
+1009d960,100bc2c0,A,1,,NCPrivateBuyWnd,NCPrivateBuyWnd::HideWindow,16,0
+1009d970,100bc2d0,B,1,,NCPrivateShopWnd,NCPrivateShopWnd::OnClose,47,0
+1009d9a0,100bc300,B,1,,NCPrivateShopWnd,NCPrivateShopWnd::OnAbort,38,0
+1009da40,100bc3b0,C,1,,NCPrivateShopWnd,NCPrivateShopWnd::`scalar deleting destructor',36,0
+1009da70,100bc3e0,A,1,,NCPrivateShopWnd,NCPrivateShopWnd::~NCPrivateShopWnd,80,0
+1009e3f0,100bcf00,B,1,insn 12 other+e8->e0;insn 19 other+e4->dc;insn 22 other+c48->194c;insn 45 other+e8->e0,NCPrivateShopWnd,NCPrivateShopWnd::OnBuyConfirmed,341,12
+1009ea30,100bd6b0,B,1,insn 2 other+98->9c;insn 4 other+c0->c4;insn 6 other+c0->c4;insn 7 other+94->98,NCPrivateShopWnd,NCPrivateShopWnd::SetMode,52,4
+1009ea70,100bd6f0,B,1,,NCPrivateShopWnd,NCPrivateShopWnd::AddStoreItem,39,0
+1009eaa0,100bd720,B,1,,NCPrivateShopWnd,NCPrivateShopWnd::AddPlayerItem,11,0
+1009eeb0,100bdbd0,B,1,,NCPrivateShopItemWnd,NCPrivateShopItemWnd::NCPrivateShopItemWnd,32,0
+1009eed0,100bdbf0,C,1,,NCPrivateShopItemWnd,NCPrivateShopItemWnd::`scalar deleting destructor',36,0
+1009ef00,100bdc20,A,1,,NCPrivateShopItemWnd,NCPrivateShopItemWnd::~NCPrivateShopItemWnd,80,0
+1009ef50,100bdc70,B,1,,NCPrivateShopItemWnd,NCPrivateShopItemWnd::NCPrivateShopItemWnd,56,0
+1009f840,100be6b0,C,0,"insn 211 calls 10001a20, C2 calls 10002440 (not the same function)",NCPrivateShopWnd,NCPrivateShopWnd::OnCreate,1410,1
+1009fdd0,100bec40,A,1,,NCPrivateShopItemWnd,NCPrivateShopItemWnd::InternalConstructor,14,0
+1009fee0,100c46e0,A,1,,NCQuestItemWnd,NCQuestItemWnd::OnCreate,11,0
+100a04a0,100bee50,B,1,,NCQuestWnd,NCQuestWnd::IsInDropZone,74,0
+100a07d0,100bf000,B,1,,NCQuestInfoWnd,NCQuestInfoWnd::ScrollUp,140,0
+100a0860,100bf090,B,1,,NCQuestInfoWnd,NCQuestInfoWnd::ScrollDown,146,0
+100a0900,100bf130,B,1,,NCScrollWnd,NCScrollWnd::OnScrollBar,86,0
+100a0b40,100bf450,B,1,,NCQuestItemWnd,NCQuestItemWnd::OnPaint,382,0
+100a0f10,100bf870,B,1,insn 22 other+c10->1914,NCQuestItemWnd,NCQuestItemWnd::OnDialogResult,181,1
+100a0fd0,100bf930,B,1,,NCQuestWnd,NCQuestWnd::NCQuestWnd,111,0
+100a12e0,100bfd40,B,1,insn 1 other+1d0->1d4,NCQuestWnd,NCQuestWnd::OnDialogResult,41,1
+100a1640,100bfe70,A,0,insn 1 this+ac -> ac (layout says b0),NCQuestWnd,NCQuestWnd::AddQuestItem,24,0
+100a1660,100c0200,C,1,,TArray<NQuestEntry>,TArray<NQuestEntry>::~TArray,144,0
+100a1730,100c0300,C,1,,NCQuestInfoWnd,NCQuestInfoWnd::`scalar deleting destructor',36,0
+100a17c0,100c03b0,A,1,,NCQuestItemWnd,NCQuestItemWnd::NCQuestItemWnd,18,0
+100a17e0,100c03d0,C,1,,NCQuestItemWnd,NCQuestItemWnd::`scalar deleting destructor',36,0
+100a1810,100c0400,A,1,,NCQuestItemWnd,NCQuestItemWnd::~NCQuestItemWnd,80,0
+100a1860,100c0450,A,1,,NCQuestItemWnd,NCQuestItemWnd::NCQuestItemWnd,42,0
+100a1c70,100c0a00,A,1,,NCQuestInfoWnd,NCQuestInfoWnd::InternalConstructor,14,0
+100a1c90,100c0be0,A,1,,NCRadarWnd,NCRadarWnd::OnCreate,11,0
+100a1ca0,100c0bf0,B,1,,NCRadarWnd,NCRadarWnd::OnPaint,153,0
+100a1d90,100c0d70,B,1,,NCRadarWnd,NCRadarWnd::NCRadarWnd,38,0
+100a1dc0,100c0da0,C,1,,NCRadarWnd,NCRadarWnd::`scalar deleting destructor',36,0
+100a1df0,100c0dd0,B,1,,NCRadarWnd,NCRadarWnd::~NCRadarWnd,96,0
+100a1e50,100c0e30,A,1,,NCRadarWnd,NCRadarWnd::InternalConstructor,14,0
+100a1fa0,100c81a0,B,1,,NCServerSelectWnd,NCServerSelectWnd::SetLastServerID,13,0
+100a2010,100c8380,B,1,,NCServerSelectWnd,NCServerSelectWnd::ClearServers,40,0
+100a2040,100c83b0,B,1,,NCServerSelectWnd,NCServerSelectWnd::OnListNotify,16,0
+100a2050,100c83c0,B,1,,NCServerSelectWnd,NCServerSelectWnd::OnKeyDown,44,0
+100a2080,100c83f0,B,1,,NCServerSelectWnd,NCServerSelectWnd::OnTimer,28,0
+100a20a0,100c8410,A,1,,NCServerSelectWnd,NCServerSelectWnd::IsLeapYear,59,0
+100a20e0,100c8450,A,1,,NCServerSelectWnd,NCServerSelectWnd::DaysInYears,56,0
+100a2120,100c8490,A,1,,NCServerSelectWnd,NCServerSelectWnd::DaysInMonths,99,0
+100a2190,100c8500,A,1,,NCServerSelectWnd,NCServerSelectWnd::HoursInDays,36,0
+100a21c0,100c8530,A,1,,NCServerSelectWnd,NCServerSelectWnd::GetTimeStamp,89,0
+100a2220,100c8590,A,1,,NCServerSelectWnd,NCServerSelectWnd::IsPingCacheOld,67,0
+100a2270,100c85e0,A,1,,NCServerSelectWnd,NCServerSelectWnd::HasNoPing,93,0
+100a22d0,100c8640,B,1,,NCServerSelectWnd,NCServerSelectWnd::SavePing,80,0
+100a2320,100c8690,B,1,,NCServerSelectWnd,NCServerSelectWnd::SavePingTime,59,0
+100a2360,100c86d0,B,1,,NCServerSelectWnd,NCServerSelectWnd::NCServerSelectWnd,54,0
+100a23a0,100c8710,C,1,,NCServerSelectWnd,NCServerSelectWnd::`scalar deleting destructor',36,0
+100a23d0,100c8740,A,1,,NCServerSelectWnd,NCServerSelectWnd::~NCServerSelectWnd,80,0
+100a2420,100c88c0,B,1,insn 34 other+94->98,NCServerSelectWnd,NCServerSelectWnd::OnPaint,170,1
+100a2a50,100c8e90,C,1,insn 6 other+1bc->1c0;insn 16 other+1b8->1bc;insn 55 other+1bc->1c0,NCServerSelectWnd,NCServerSelectWnd::SetPing,219,3
+100a3320,100c97f0,A,1,,NCServerSelectListCtrl,NCServerSelectListCtrl::NCServerSelectListCtrl,18,0
+100a3340,100c9810,C,1,,NCServerSelectListCtrl,NCServerSelectListCtrl::`scalar deleting destructor',36,0
+100a3370,100c9840,A,1,,NCServerSelectListCtrl,NCServerSelectListCtrl::~NCServerSelectListCtrl,80,0
+100a33c0,100c9890,A,1,,NCServerSelectListCtrl,NCServerSelectListCtrl::NCServerSelectListCtrl,42,0
+100a39e0,100c46f0,A,1,,NCShopItemWnd,NCShopItemWnd::OnDestroy,11,0
+100a5d20,100c9f60,B,1,,NCShopWnd,NCShopWnd::SetAdena,13,0
+100a5d30,100c9f70,B,1,,NCShopWnd,NCShopWnd::Clear,62,0
+100a5d70,1007b460,A,1,,NCEditBox,NCEditBox::ShowWindow,5,0
+100a5d80,100c9fb0,A,1,,NCShopWnd,NCShopWnd::HideWindow,16,0
+100a5d90,100c9fc0,B,1,,NCShopWnd,NCShopWnd::OnCancel,25,0
+100a5db0,100c9fe0,B,1,,NCShopWnd,NCShopWnd::NCShopWnd,108,0
+100a6300,100ca4c0,B,1,,NCShopWnd,NCShopWnd::OnDestroy,327,0
+100a6450,100ca610,B,1,,NCShopWnd,NCShopWnd::UpdateLayout,247,0
+100a6550,100ca710,B,1,insn 15 other+e8->e0;insn 20 other+e4->dc;insn 23 other+c48->194c;insn 45 other+e8->e0,NCShopWnd,NCShopWnd::OnOK,564,22
+100a67a0,100ca960,B,1,insn 11 other+e8->e0;insn 14 other+e4->dc;insn 19 other+c48->194c;insn 27 other+e8->e0,NCShopWnd,NCShopWnd::UpdateTotalPrice,229,8
+100a69a0,100cac20,A,1,,NCShopWnd,NCShopWnd::InternalConstructor,14,0
+100a6e70,100cb3c0,B,1,insn 2 other+98->9c;insn 4 other+bc->c0;insn 6 other+bc->c0;insn 7 other+94->98,NCShopWnd,NCShopWnd::SetMode,52,4
+100a6eb0,100cb400,B,1,,NCShopWnd,NCShopWnd::AddShopItem,11,0
+100a6ec0,100cb410,B,1,,NCShopWnd,NCShopWnd::AddPlayerItem,11,0
+100a7480,100cba90,B,1,,NCShopItemWnd,NCShopItemWnd::NCShopItemWnd,28,0
+100a74a0,100cbab0,C,1,,NCShopItemWnd,NCShopItemWnd::`scalar deleting destructor',36,0
+100a74d0,100cbae0,A,1,,NCShopItemWnd,NCShopItemWnd::~NCShopItemWnd,80,0
+100a7520,100cbb30,B,1,,NCShopItemWnd,NCShopItemWnd::NCShopItemWnd,52,0
+100a7ab0,100cc1c0,B,1,insn 11 other+c48->194c,NCShopItemWnd,NCShopItemWnd::OnDialogResult,65,1
+100a7b00,100cc210,C,0,"insn 211 calls 10001a20, C2 calls 10002440 (not the same function)",NCShopWnd,NCShopWnd::OnCreate,1239,1
+100a7fe0,100cc6f0,A,1,,NCShopItemWnd,NCShopItemWnd::InternalConstructor,14,0
+100a85f0,100ccd50,B,1,,NCShortCutWnd,NCShortCutWnd::SlotAt,234,0
+100a8ae0,100ccf10,B,1,,NCShortCutWnd,NCShortCutWnd::PageSlot,35,0
+100aa0d0,100cee40,C,0,insn 12 this+1a4 -> 1ac (layout says ?),NCShortCutWnd,NCShortCutWnd::DeleteShortCut,95,0
+100aa130,100ceea0,B,0,insn 19 this+1a0 -> 1a8 (layout says ?),NCShortCutWnd,NCShortCutWnd::SetPage,99,0
+100aa1a0,100cef10,C,0,insn 16 this+1a0 -> 1a8 (layout says ?),NCShortCutWnd,NCShortCutWnd::Tick,183,0
+100aa260,100cefd0,B,0,insn 38 this+1a0 -> 1a8 (layout says ?),NCShortCutWnd,NCShortCutWnd::OnShortCutKeyUp,166,0
+100aa9a0,100cf380,C,0,insn 19 this+1a4 -> 1ac (layout says ?),NCShortCutWnd,NCShortCutWnd::NextPage,105,0
+100aaa10,100cf3f0,C,0,insn 17 this+1a4 -> 1ac (layout says ?),NCShortCutWnd,NCShortCutWnd::PrevPage,97,0
+100aaa80,100cf460,B,1,,NCShortCutWnd,NCShortCutWnd::OnNextClicked,21,0
+100aaaa0,100cf480,B,1,,NCShortCutWnd,NCShortCutWnd::OnPrevClicked,21,0
+100aaac0,100cf4a0,B,1,,NCShortCutWnd,NCShortCutWnd::ClearShortCuts,52,0
+100ab380,100cf4e0,A,1,,NCShortCutWnd,NCShortCutWnd::InternalConstructor,20,0
+100ab750,100d0290,B,0,insn 8 this+200 -> 400 (layout says ?),NSiegeCastleInfo,NSiegeCastleInfo::operator=,134,1
+100ab7e0,100d0320,B,0,insn 13 this+104 -> 204 (layout says ?),NSiegeClanInfo,NSiegeClanInfo::NSiegeClanInfo,136,1
+100ab870,100d03b0,B,1,,NCSiegeInfoListCtrl,NCSiegeInfoListCtrl::GetSelectedPledgeID,41,0
+100ab8a0,100d03e0,C,1,,NCSiegeInfoListCtrl,NCSiegeInfoListCtrl::GetSelectedStatus,157,0
+100abdc0,100d0920,B,1,insn 11 other+9c->a0;insn 28 other+98->9c;insn 31 other+9c->a0;insn 62 other+98->9c,NCSiegePartInfoWnd,NCSiegePartInfoWnd::SetSide,341,4
+100ac240,100d0e90,B,1,insn 23 other+39c->6a0;insn 54 other+39c->6a0,NCSiegePartInfoWnd,NCSiegePartInfoWnd::UpdateButtons,309,2
+100ac380,100d0fd0,B,1,insn 25 other+a4->a8;insn 27 other+94->98;insn 28 other+a4->a8;insn 31 other+a4->a8,NCSiegeDateInfoWnd,NCSiegeDateInfoWnd::OnCreate,167,5
+100ac630,100d1300,C,1,,NCSiegeDateInfoWnd,NCSiegeDateInfoWnd::Reset,106,0
+100ac730,100d1440,B,1,,NCSiegeDateInfoWnd,NCSiegeDateInfoWnd::OnConfirmTime,159,0
+100ac7d0,100d14e0,B,1,insn 9 other+39c->6a0;insn 19 other+a4->a8,NCSiegeDateInfoWnd,NCSiegeDateInfoWnd::SetTimes,88,2
+100ac830,100d1540,B,0,insn 21 this+98 -> 9c (layout says 39c),NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::NCSiegeInfoMainWnd,139,0
+100ac8c0,100d15d0,C,1,,NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::`scalar deleting destructor',36,0
+100ac8f0,100d1600,A,1,,NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::~NCSiegeInfoMainWnd,80,0
+100accd0,100d1a50,B,1,insn 16 other+cc->d0;insn 48 other+cc->d0,NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::OnTab,437,2
+100acfe0,100d1dc0,B,1,,NCSiegePartInfoWnd,NCSiegePartInfoWnd::Reset,122,0
+100ad060,100d1e40,B,1,,NCSiegePartInfoWnd,NCSiegePartInfoWnd::ClearList,58,0
+100ad2d0,100d20c0,B,1,,NCSiegeDateInfoWnd,NCSiegeDateInfoWnd::NCSiegeDateInfoWnd,105,0
+100ad340,100d2130,C,1,,NCSiegeDateInfoWnd,NCSiegeDateInfoWnd::`scalar deleting destructor',36,0
+100ad370,100d2160,B,1,,NCSiegeDateInfoWnd,NCSiegeDateInfoWnd::~NCSiegeDateInfoWnd,96,0
+100ad3d0,100d21c0,C,1,insn 12 other+a4->a8,NCSiegeDateInfoWnd,NCSiegeDateInfoWnd::AddTime,84,1
+100ad430,100d2220,B,0,insn 9 this+98 -> 9c (layout says 39c),NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::Reset,96,0
+100ad490,100d2280,B,0,insn 6 this+98 -> 9c (layout says 39c),NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::SetCastleInfo,97,0
+100ad500,100d22f0,B,1,,NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::AddAttacker,11,0
+100ad510,100d2300,B,1,,NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::AddDefender,11,0
+100ad520,100d2310,A,1,,NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::HideWindow,16,0
+100ad570,100d2350,A,1,,TSiegeClanArray,TSiegeClanArray::~TSiegeClanArray,144,0
+100ad600,100d23e0,A,1,,NCSiegeDateInfoWnd,NCSiegeDateInfoWnd::InternalConstructor,14,0
+100ad610,100d23f0,A,1,,NCSiegeInfoListCtrl,NCSiegeInfoListCtrl::NCSiegeInfoListCtrl,18,0
+100ad630,100d2410,C,1,,NCSiegeInfoListCtrl,NCSiegeInfoListCtrl::`scalar deleting destructor',36,0
+100ad660,100d2440,A,1,,NCSiegeInfoListCtrl,NCSiegeInfoListCtrl::~NCSiegeInfoListCtrl,80,0
+100ad6b0,100d2490,A,1,,NCSiegeInfoListCtrl,NCSiegeInfoListCtrl::NCSiegeInfoListCtrl,42,0
+100ad6e0,100d24c0,B,1,,NCSiegePartInfoWnd,NCSiegePartInfoWnd::NCSiegePartInfoWnd,117,0
+100ad760,100d2540,C,1,,NCSiegePartInfoWnd,NCSiegePartInfoWnd::`scalar deleting destructor',36,0
+100ad790,100d2570,B,1,,NCSiegePartInfoWnd,NCSiegePartInfoWnd::~NCSiegePartInfoWnd,96,0
+100ad7f0,100d25d0,C,0,"insn 86 calls 10001a20, C2 calls 10002440 (not the same function)",NCSiegePartInfoWnd,NCSiegePartInfoWnd::OnCreate,910,0
+100adb80,100d2960,B,1,insn 34 other+94->98;insn 251 other+94->98,NCSiegeInfoMainWnd,NCSiegeInfoMainWnd::OnCreate,925,2
+100adf40,100d2d20,B,1,,NCAbnormalStatusWnd,NCAbnormalStatusWnd::HitTest,78,0
+100adf90,100d2d70,B,1,,NCAbnormalStatusWnd,NCAbnormalStatusWnd::UpdateSize,126,0
+100ae300,100d2e80,B,1,,NCStatusWnd,NCStatusWnd::IsName,47,0
+100ae330,100d2eb0,B,1,,NCStatusWnd,NCStatusWnd::Clear,34,0
+100ae480,100d2ff0,B,1,,NCTargetStatusWnd,NCTargetStatusWnd::SetLevelDiff,13,0
+100ae490,100d3000,B,1,,NCTargetStatusWnd,NCTargetStatusWnd::OnToggle,145,0
+100ae620,100d3170,B,1,,NCPlayerStatusWnd,NCPlayerStatusWnd::Resize,8,0
+100ae630,100d3180,A,1,,NCPlayerStatusWnd,NCPlayerStatusWnd::OnLButtonDown,19,0
+100ae650,100d31a0,B,1,,NCPetStatusWnd,NCPetStatusWnd::SetInfo,125,0
+100ae6d0,100d3220,C,1,insn 11 other+148->140,NCPetStatusWnd,NCPetStatusWnd::OnLButtonDown,93,1
+100ae770,100d32c0,B,1,,NCSummonedStatusWnd,NCSummonedStatusWnd::SetRemaining,11,0
+100ae780,100d32d0,C,1,insn 11 other+148->140,NCSummonedStatusWnd,NCSummonedStatusWnd::OnLButtonDown,93,1
+100ae8b0,100d3400,C,1,insn 30 other+148->140,NCPartyStatusWnd,NCPartyStatusWnd::OnRButtonUp,141,1
+100ae940,100d3490,B,1,,NCPartyStatusWnd,NCPartyStatusWnd::SetInfo,81,0
+100ae9a0,100d34f0,B,1,,NCStatusWnd,NCStatusWnd::IsEmpty,13,0
+100aea90,100d35e0,B,1,,NCDetailStatusWnd,NCDetailStatusWnd::OnCreate,213,0
+100aeb70,100d3740,A,1,,NCStatusWnd,NCStatusWnd::~NCStatusWnd,80,0
+100aebc0,100d3790,C,1,,NCStatusWnd,NCStatusWnd::`scalar deleting destructor',36,0
+100af200,100d3b60,B,1,,NCAbnormalStatusWnd,NCAbnormalStatusWnd::OnMouseMove,39,0
+100af2b0,100d3c10,B,1,,NCStatusWnd,NCStatusWnd::NCStatusWnd,56,0
+100af2f0,100d3c50,B,1,,NCStatusWnd,NCStatusWnd::OnCreate,40,0
+100af320,100d3c80,A,1,,NCStatusWnd,NCStatusWnd::OnPaint,127,0
+100af3d0,100d3d30,B,1,,NCTargetStatusWnd,NCTargetStatusWnd::NCTargetStatusWnd,39,0
+100af400,100d3d60,C,1,,NCTargetStatusWnd,NCTargetStatusWnd::`scalar deleting destructor',36,0
+100af430,100d3d90,A,1,,NCTargetStatusWnd,NCTargetStatusWnd::~NCTargetStatusWnd,80,0
+100af480,100d3de0,B,0,"insn 142 calls 10001a20, C2 calls 10002440 (not the same function)",NCTargetStatusWnd,NCTargetStatusWnd::OnCreate,761,16
+100aff90,100d4990,B,1,,NCPlayerStatusWnd,NCPlayerStatusWnd::NCPlayerStatusWnd,39,0
+100affc0,100d49c0,C,1,,NCPlayerStatusWnd,NCPlayerStatusWnd::`scalar deleting destructor',36,0
+100afff0,100d49f0,A,1,,NCPlayerStatusWnd,NCPlayerStatusWnd::~NCPlayerStatusWnd,80,0
+100b0040,100d4a40,B,1,insn 34 other+94->98;insn 84 other+94->98,NCPlayerStatusWnd,NCPlayerStatusWnd::OnCreate,443,2
+100b09b0,100d5430,B,1,,NCPlayerStatusWnd,NCPlayerStatusWnd::OnResize,153,0
+100b0a80,100d5510,C,1,,NCPetStatusWnd,NCPetStatusWnd::`scalar deleting destructor',36,0
+100b0ab0,100d5540,A,1,,NCPetStatusWnd,NCPetStatusWnd::~NCPetStatusWnd,80,0
+100b0b00,100d5590,B,1,insn 9 other+a0->a4;insn 13 other+98->9c;insn 17 other+94->98;insn 21 other+d8->dc,NCPetStatusWnd,NCPetStatusWnd::OnCreate,289,8
+100b0ef0,100d5990,C,1,,NCSummonedStatusWnd,NCSummonedStatusWnd::`scalar deleting destructor',36,0
+100b0f20,100d59c0,A,1,,NCSummonedStatusWnd,NCSummonedStatusWnd::~NCSummonedStatusWnd,80,0
+100b0f70,100d5a10,B,1,insn 57 other+94->98;insn 109 other+94->98,NCSummonedStatusWnd,NCSummonedStatusWnd::OnCreate,449,2
+100b1180,100d5c90,B,1,,NCSummonedStatusWnd,NCSummonedStatusWnd::StartTimer,44,0
+100b13e0,100d5ef0,B,1,,NCPartyStatusWnd,NCPartyStatusWnd::NCPartyStatusWnd,35,0
+100b1410,100d5f20,C,1,,NCPartyStatusWnd,NCPartyStatusWnd::`scalar deleting destructor',36,0
+100b1440,100d5f50,A,1,,NCPartyStatusWnd,NCPartyStatusWnd::~NCPartyStatusWnd,80,0
+100b1490,100d5fa0,B,1,,NCPartyStatusWnd,NCPartyStatusWnd::OnCreate,105,0
+100b1720,100d6230,B,1,,NCPartyWnd,NCPartyWnd::NCPartyWnd,32,0
+100b1740,100d6250,C,1,,NCPartyWnd,NCPartyWnd::`scalar deleting destructor',36,0
+100b1770,100d6280,A,1,,NCPartyWnd,NCPartyWnd::~NCPartyWnd,80,0
+100b17c0,100d62d0,B,1,insn 48 other+94->98,NCPartyWnd,NCPartyWnd::OnCreate,375,1
+100b1990,100d6500,B,1,,NCPartyWnd,NCPartyWnd::OnPaint,212,0
+100b1a70,100d65e0,B,1,,NCPartyWnd,NCPartyWnd::UpdateLayout,338,0
+100b1bd0,100d6740,A,1,,NCPartyWnd,NCPartyWnd::ShowWindow,16,0
+100b36a0,100d8470,B,1,insn 7 other+a8->ac,NCPartyWnd,NCPartyWnd::OnToggle,52,1
+100b36e0,100d84b0,C,1,,TArray<FAbnormalStatus>,TArray<FAbnormalStatus>::~TArray,147,0
+100b3780,100d8560,B,1,,NCAbnormalStatusWnd,NCAbnormalStatusWnd::NCAbnormalStatusWnd,90,0
+100b37e0,100d85c0,C,1,,NCAbnormalStatusWnd,NCAbnormalStatusWnd::`scalar deleting destructor',36,0
+100b3810,100d85f0,B,1,,NCAbnormalStatusWnd,NCAbnormalStatusWnd::~NCAbnormalStatusWnd,96,0
+100b3870,100d87f0,A,1,,NCAbnormalStatusWnd,NCAbnormalStatusWnd::InternalConstructor,16,0
+100b3880,100d8aa0,B,0,insn 1 this+11c -> 110 (layout says 114),NCStoreItemWnd,NCStoreItemWnd::SetMode,13,0
+100b3890,100d8ab0,B,1,,NCStoreItemWnd,NCStoreItemWnd::SetSide,13,0
+100b57d0,100d8ac0,B,1,insn 2 other+98->9c;insn 4 other+bc->c0;insn 6 other+bc->c0;insn 7 other+94->98,NCStoreWnd,NCStoreWnd::SetMode,45,4
+100b5800,100d8af0,B,1,,NCStoreWnd,NCStoreWnd::SetAdena,13,0
+100b5810,100d8b00,B,1,,NCStoreWnd,NCStoreWnd::Clear,46,0
+100b5840,100d8b30,A,1,,NCStoreWnd,NCStoreWnd::HideWindow,16,0
+100b5850,100d8b40,B,1,insn 8 other+e8->e0,NCStoreWnd,NCStoreWnd::UpdateFee,45,1
+100b5880,100d8b70,B,1,,NCStoreWnd,NCStoreWnd::GetMode,7,0
+100b5890,100d8b80,B,1,,NCStoreWnd,NCStoreWnd::OnCancel,25,0
+100b58b0,100d8ba0,B,1,,NCStoreWnd,NCStoreWnd::NCStoreWnd,92,0
+100b5c80,100d8f80,B,1,,NCStoreWnd,NCStoreWnd::UpdateLayout,247,0
+100b5d80,100d9080,A,1,,NCStoreWnd,NCStoreWnd::ShowWindow,16,0
+100b60d0,100d93b0,A,1,,NCStoreWnd,NCStoreWnd::InternalConstructor,14,0
+100b63d0,100d96e0,B,1,,NCStoreWnd,NCStoreWnd::AddInventoryItem,11,0
+100b63e0,100d96f0,B,1,,NCStoreWnd,NCStoreWnd::AddStoredItem,11,0
+100b69b0,100d9d60,B,1,,NCStoreItemWnd,NCStoreItemWnd::NCStoreItemWnd,28,0
+100b69d0,100d9d80,C,1,,NCStoreItemWnd,NCStoreItemWnd::`scalar deleting destructor',36,0
+100b6a00,100d9db0,A,1,,NCStoreItemWnd,NCStoreItemWnd::~NCStoreItemWnd,80,0
+100b6a50,100d9e00,B,1,,NCStoreItemWnd,NCStoreItemWnd::NCStoreItemWnd,52,0
+100b6e00,100da250,B,0,"insn 211 calls 10001a20, C2 calls 10002440 (not the same function)",NCStoreWnd,NCStoreWnd::OnCreate,1239,1
+100b72e0,100da730,A,1,,NCStoreItemWnd,NCStoreItemWnd::InternalConstructor,14,0
+100b9260,100da830,B,1,,NCTradeWnd,NCTradeWnd::ShowWindow,42,0
+100b92f0,100da8c0,A,1,,NCTradeWnd,NCTradeWnd::OnOK,19,0
+100b9310,100da8e0,A,1,,NCTradeWnd,NCTradeWnd::OnCancel,19,0
+100b9330,100da900,B,1,,NCTradeItemWnd,NCTradeItemWnd::OnPaint,380,0
+100b94c0,100daa90,B,1,,NCTradeItemWnd,NCTradeItemWnd::OnMouseMove,164,0
+100b9bd0,100db260,C,1,,NCTradeWnd,NCTradeWnd::`scalar deleting destructor',36,0
+100b9d50,100db420,B,1,,NCTradeWnd,NCTradeWnd::OnDestroy,283,0
+100ba1c0,100db8b0,A,1,,NCTradeWnd,NCTradeWnd::InternalConstructor,14,0
+100ba370,100dba20,B,1,,NCTradeWnd,NCTradeWnd::AddInventoryItem,11,0
+100ba380,100dba30,B,1,,NCTradeWnd,NCTradeWnd::AddMyItem,11,0
+100ba390,100dba40,B,1,,NCTradeWnd,NCTradeWnd::AddPartnerItem,11,0
+100ba410,100dba50,A,1,,NCTradeItemWnd,NCTradeItemWnd::NCTradeItemWnd,18,0
+100ba430,100dba70,C,1,,NCTradeItemWnd,NCTradeItemWnd::`scalar deleting destructor',36,0
+100ba460,100dbaa0,A,1,,NCTradeItemWnd,NCTradeItemWnd::~NCTradeItemWnd,80,0
+100ba4b0,100dbaf0,A,1,,NCTradeItemWnd,NCTradeItemWnd::NCTradeItemWnd,42,0
+100ba4e0,100dbc00,C,0,"insn 261 calls 10001a20, C2 calls 10002440 (not the same function)",NCTradeWnd,NCTradeWnd::OnCreate,1196,1
+100ba990,100dc130,A,1,,NCTradeItemWnd,NCTradeItemWnd::InternalConstructor,14,0
+100ba9a0,100dc160,B,1,,NCTrainListBox,NCTrainListBox::OnCreate,33,0
+100ba9d0,10084690,B,1,,NCTrainListBox,NCTrainListBox::HitTest,195,0
+100babf0,100dc260,B,0,insn 8 this+98 -> 9c (layout says 29c),NCTrainInfoWnd,NCTrainInfoWnd::SetInfo,288,0
+100bad10,100dc380,B,0,insn 3 this+98 -> 9c (layout says 29c),NCTrainInfoWnd,NCTrainInfoWnd::Reset,102,0
+100bad80,100dc3f0,B,1,,NCTrainInfoWnd,NCTrainInfoWnd::OnLearn,139,0
+100bae10,100dc480,B,1,insn 5 other+36dc->3540;insn 6 other+e8->108;insn 7 other+94->98,NCTrainInfoWnd,NCTrainInfoWnd::OnList,78,3
+100bae60,100dc4d0,B,1,,NCTrainWnd,NCTrainWnd::ShowList,32,0
+100bae80,100dc4f0,B,1,,NCTrainWnd,NCTrainWnd::ShowInfo,32,0
+100baea0,100dc510,B,1,,NCTrainWnd,NCTrainWnd::SetSkillInfo,11,0
+100baeb0,100dc520,B,1,,NCTrainWnd,NCTrainWnd::Reset,26,0
+100bb3a0,100dca20,B,1,insn 18 other+100->200;insn 24 other+100->200;insn 28 other+200->400;insn 34 other+200->400,NCTrainListBox,NCTrainListBox::GetSelectedEntry,253,18
+100bb4a0,100dcb20,B,1,,NCTrainListWnd,NCTrainListWnd::NCTrainListWnd,32,0
+100bb4c0,100dcb40,C,1,,NCTrainListWnd,NCTrainListWnd::`scalar deleting destructor',36,0
+100bb4f0,100dcb70,A,1,,NCTrainListWnd,NCTrainListWnd::~NCTrainListWnd,80,0
+100bb540,100dcbc0,B,1,,NCPetActionWnd,NCPetActionWnd::OnDestroy,63,0
+100bb810,100dce90,C,0,"insn 30 calls 10015b80, C2 calls 1001a850 (not the same function)",NCTrainInfoWnd,NCTrainInfoWnd::OnCreate,518,0
+100bba20,100dd0a0,B,1,,NCTrainInfoWnd,NCTrainInfoWnd::OnDestroy,111,0
+100bc300,100dd9b0,C,0,"insn 53 calls 10015cb0, C2 calls 1001a9a0 (not the same function)",NCTrainInfoWnd,NCTrainInfoWnd::AddRequiredItem,234,4
+100bc3f0,100ddaa0,B,1,,NCTrainWnd,NCTrainWnd::NCTrainWnd,32,0
+100bc410,100ddac0,C,1,,NCTrainWnd,NCTrainWnd::`scalar deleting destructor',36,0
+100bc440,100ddaf0,A,1,,NCTrainWnd,NCTrainWnd::~NCTrainWnd,80,0
+100bc490,100ddb40,A,1,,NCTrainWnd,NCTrainWnd::OnPaint,125,0
+100bc540,100ddbf0,B,1,,NCTrainWnd,NCTrainWnd::AddRequiredItem,11,0
+100bc550,100ddc00,A,1,,NCTrainListWnd,NCTrainListWnd::InternalConstructor,14,0
+100bc5f0,100ddc90,C,1,insn 15 other+100->200;insn 16 other+200->400;insn 17 other+a00->1400;insn 18 other+a80->1480,NCTrainListBox,NCTrainListBox::AddEntry,432,31
+100bc7a0,100dde40,B,1,,NCTrainListWnd,NCTrainListWnd::AddEntry,11,0
+100bc7b0,100de0e0,B,0,insn 12 this+98 -> 9c (layout says 29c),NCTrainInfoWnd,NCTrainInfoWnd::NCTrainInfoWnd,95,0
+100bc810,100de140,C,1,,NCTrainInfoWnd,NCTrainInfoWnd::`scalar deleting destructor',36,0
+100bc840,100de170,B,0,insn 12 this+98 -> 9c (layout says 29c),NCTrainInfoWnd,NCTrainInfoWnd::~NCTrainInfoWnd,96,0
+100bc8a0,100de1d0,C,1,insn 35 other+94->98;insn 94 other+94->98;insn 96 other+94->98;insn 101 other+94->98,NCTrainWnd,NCTrainWnd::OnCreate,482,7
+100bcb30,100de3c0,A,1,,NCTrainInfoWnd,NCTrainInfoWnd::InternalConstructor,14,0
+100bcc50,100de000,B,1,insn 7 other+94->98;insn 33 other+98->9c;insn 35 other+94->98;insn 36 other+98->9c,NCTrainListWnd,NCTrainListWnd::OnCreate,202,6
+100bcda0,1002fda0,B,1,,NCNPCHtmlViewer,NCNPCHtmlViewer::OnClose,16,0
+100bcdb0,100de3d0,B,1,,NCTutorialViewerWnd,NCTutorialViewerWnd::ShowPage,32,0
+100bcdd0,100de3f0,B,1,,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnCreate,76,0
+100bce20,100de440,B,1,,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnLButtonDown,47,0
+100bce50,100de470,B,1,,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnLButtonUp,71,0
+100bcea0,100de4c0,B,1,,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnTimer,37,0
+100bced0,100de720,B,1,,NCTutorialViewerWnd,NCTutorialViewerWnd::NCTutorialViewerWnd,32,0
+100bcef0,100de740,C,1,,NCTutorialViewerWnd,NCTutorialViewerWnd::`scalar deleting destructor',36,0
+100bcf20,100de770,A,1,,NCTutorialViewerWnd,NCTutorialViewerWnd::~NCTutorialViewerWnd,80,0
+100bcf70,100de7c0,C,0,insn 66 address 100debd4,NCTutorialViewerWnd,NCTutorialViewerWnd::OnCreate,365,1
+100bd120,100de9e0,C,1,insn 34 other+9c->a0,NCTutorialViewerWnd,NCTutorialViewerWnd::OnPaint,170,1
+100bd200,100deac0,B,1,,NCTutorialQuestionWnd,NCTutorialQuestionWnd::NCTutorialQuestionWnd,38,0
+100bd230,100deaf0,C,1,,NCTutorialQuestionWnd,NCTutorialQuestionWnd::`scalar deleting destructor',36,0
+100bd260,100deb20,A,1,,NCTutorialQuestionWnd,NCTutorialQuestionWnd::~NCTutorialQuestionWnd,80,0
+100bd2b0,100deb70,B,1,,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnPaint,140,0
+100bd340,100df110,A,1,,NCTutorialViewerWnd,NCTutorialViewerWnd::InternalConstructor,14,0

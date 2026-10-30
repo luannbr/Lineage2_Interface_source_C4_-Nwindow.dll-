@@ -1,0 +1,113 @@
+== FormatNumber
+"" -> "(untouched)"
+"0" -> "0"
+"7" -> "7"
+"12" -> "12"
+"123" -> "123"
+"1234" -> "1,234"
+"12345" -> "12,345"
+"123456" -> "123,456"
+"1234567" -> "1,234,567"
+"12345678901" -> "12,345,678,901"
+"-1234" -> "-1,234"
+"12a34" -> "12,a34"
+"000001" -> "000,001"
+== FormatSystemMessage
+"$s1 has joined the party." "Bob" "(null)" -> "Bob has joined the party."
+"$s1 attacked $s2." "Bob" "Alice" -> "Bob attacked Alice."
+"$s1 and $s1 again" "one" "two" -> "one and two again"
+"no parameters $s1 here" "(null)" "(null)" -> "no parameters s1 here"
+"third $s1 $s2 $s3 dropped" "A" "B" -> "third A B s3 dropped"
+"trailing $" "X" "(null)" -> "trailing X"
+"$" "X" "Y" -> "X"
+"\uc0ac\uacfc$s1%\uc774 \ucc45$s2%\uc744 \uac00\uc9c0\ub2e4" "\uc0ac\uacfc" "\ucc45" -> "\uc0ac\uacfc\uc0ac\uacfc\uac00 \ucc45\ucc45\uc744 \uac00\uc9c0\ub2e4"
+"$s1%\uc740 $s2%\uc640 $s1%\uc744" "\ucc45" "Bob" -> "\ucc45\uc740 Bob\uc640 s1\ub97c"
+"$s1%\ub294 unknown particle" "\ucc45" "(null)" -> "\ucc45 unknown particle"
+"%\uc774 before any text" "A" "(null)" -> "\uac00 before any text"
+"end with %" "A" "(null)" -> "end with "
+"" "A" "B" -> ""
+== NSysMsgParam
+0 -> "0" 1 [m4]
+-1 -> "-1" 2 [m6]
+7 -> "7" 1 [m4]
+123456789 -> "123456789" 9 [m20]
+-2147483648 -> "-2147483648" 11 [m24]
+NULL -> unset -5 []
+text -> "text param" 10 [m22]
+== ConvertNewLines
+"no newline" -> 11/11"no newline" [r22]
+"a\x5cnb" -> 5/37"a\x0d\x0ab" [r10 r10 r4 r4 r0 r74 r4 r0 r0]
+"\x5cn\x5cn" -> 5/38"\x0d\x0a\x0d\x0a" [r10 r10 r0 r0 r0 r72 r6 r0 r0 r10 r6 r6 r0 r76 r0 r0 r0]
+"end\x5cn" -> 6/40"end\x0d\x0a" [r12 r12 r8 r8 r0 r80 r0 r0 r0]
+"\x5cnstart" -> 8/36"\x0d\x0astart" [r16 r16 r0 r0 r0 r72 r12 r0 r0]
+"x\x5c\x5cny" -> 6/38"x\x5c\x0d\x0ay" [r12 r12 r6 r6 r0 r76 r4 r0 r0]
+"line one\x5cnline two\x5cnline three and more text\x5cn" -> 47/96"line one\x0d\x0aline two\x0d\x0aline three and more text\x0d\x0a" [r94 r94 r18 r18 r0 r94 r74 r0 r0 r94 r38 r38 r0 r120 r54 r0 r0 r94 r90 r90 r0 r192 r0 r0 r0]
+"" -> 0/0"" [r0]
+== HasNoAmpersand
+"" -> 1
+"abc" -> 1
+"a&b" -> 0
+"&" -> 0
+"end&" -> 0
+NULL -> 1
+== HtmlParseColor
+"LEVEL" -> ffffcc00 []
+"FF0000" -> ffff0000 []
+"00ff00" -> ff00ff00 [m22 f]
+"0000FF" -> ff0000ff [m22 f]
+"" -> 000000ff [m22 f]
+"zzzzzz" -> 000000ff [m10 f]
+"123" -> 000ff123 [m22 f]
+"FFFFFFFF" -> ffffffff [m16 f]
+"level" -> 000000ff [m26 f]
+"b09b79" -> ffb09b79 [m20 f]
+"1" -> 00000ff1 [m22 f]
+NULL -> 00000000
+== NextListToken
+"a;b;;c;": @2="a" @4="b" @7="c" @7=unset
+";;x": @3="x" @3=unset
+"": @0=unset
+";": @1=unset @1=unset
+"one": @3="one" @3=unset
+"two;three": @4="two" @9="three" @9=unset
+== ParseEditType
+"normal" -> 0
+"password" -> 2
+"date" -> 4
+"time" -> 5
+"number" -> 3
+"NUMBER" -> 0
+"" -> 0
+"x" -> 0
+== calendar
+leap 0 -> 1
+leap 1 -> 0
+leap 3 -> 0
+leap 4 -> 1
+leap 100 -> 0
+leap 200 -> 0
+leap 400 -> 1
+leap 1900 -> 0
+leap 2000 -> 1
+leap 2003 -> 0
+leap 2004 -> 1
+leap 2100 -> 0
+leap -4 -> 1
+leap -100 -> 0
+days in 0 years -> 0
+days in 1 years -> 365
+days in 4 years -> 1461
+days in 100 years -> 36524
+days in 400 years -> 146097
+days in 2003 years -> 731580
+days in 2004 years -> 731946
+days in -1 years -> 0
+days before month 0..13 of 2003: 0 0 31 59 90 120 151 181 212 243 273 304 334 365
+days before month 0..13 of 2004: 0 0 31 60 91 121 152 182 213 244 274 305 335 366
+days before month 0..13 of 2100: 0 0 31 59 90 120 151 181 212 243 273 304 334 365
+hours 0 0 -> 0
+hours 1 0 -> 0
+hours 1 23 -> 23
+hours 2 5 -> 29
+hours 31 23 -> 743
+hours -3 4 -> 4

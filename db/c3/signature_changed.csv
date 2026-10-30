@@ -1,0 +1,26 @@
+# Methods whose signature (argument types) changed in this client although the name and the slot stayed: a body
+# copied from the base client that calls one of them passes the old argument types. tools/port/gen.py makes such a
+# unit a stub (the stock function runs); a function ported by hand fixes the call and removes the name here.
+# A method with its new declaration in db/decl_manual.csv needs no entry: the copied calls are checked against it.
+method,reason
+SetCommands,"NCBoardWnd::SetCommands: the stock function pops 32 bytes, the stub pushes 24 (tools/port/check_stubs.py)"
+GetText,"NCCompositeBox::GetText: the stock function pops 4 bytes, the stub pushes 0 (tools/port/check_stubs.py)"
+TogglePartyMatch,"NCConsole::TogglePartyMatch: the stock function pops 4 bytes, the stub pushes 0 (tools/port/check_stubs.py)"
+ToggleMinimap,"NCConsole::ToggleMinimap: the stock function pops 4 bytes, the stub pushes 0 (tools/port/check_stubs.py)"
+AddFileLink,"NCHtmlViewer::AddFileLink: the stock function pops 48 bytes, the stub pushes 44 (tools/port/check_stubs.py)"
+SetNormalTex,"NListColumnInfo::SetNormalTex: the stock function pops 8 bytes, the stub pushes 4 (tools/port/check_stubs.py)"
+SetPushedTex,"NListColumnInfo::SetPushedTex: the stock function pops 8 bytes, the stub pushes 4 (tools/port/check_stubs.py)"
+LayoutLines,"NCMacroEditList::LayoutLines: the stock function pops 4 bytes, the stub pushes 0 (tools/port/check_stubs.py)"
+GameGuardQuery,"NConsoleWnd::GameGuardQuery: the stock function pops 20 bytes, the stub pushes 16 (tools/port/check_stubs.py)"
+ReceiveRecipeShopItemInfo,"NConsoleWnd::ReceiveRecipeShopItemInfo: the stock function pops 24 bytes, the stub pushes 20 (tools/port/check_stubs.py)"
+AddVIPItemList,"NConsoleWnd::AddVIPItemList: the stock function pops 24 bytes, the stub pushes 20 (tools/port/check_stubs.py)"
+AddVIPNeedItemList,"NConsoleWnd::AddVIPNeedItemList: the stock function pops 16 bytes, the stub pushes 12 (tools/port/check_stubs.py)"
+ReceiveCharacterInfo,"NConsoleWnd::ReceiveCharacterInfo: the stock function pops 4 bytes, the stub pushes 0 (tools/port/check_stubs.py)"
+GetMyLocation,"NConsoleWnd::GetMyLocation: the stock function pops 4 bytes, the stub pushes 0 (tools/port/check_stubs.py)"
+RequestAttackStand,"NConsoleWnd::RequestAttackStand: the stock function pops 24 bytes, the stub pushes 16 (tools/port/check_stubs.py)"
+UpdateMember,"NCPartyWnd::UpdateMember: the stock function pops 28 bytes, the stub pushes 24 (tools/port/check_stubs.py)"
+AddMember,"NCPartyWnd::AddMember: the stock function pops 36 bytes, the stub pushes 24 (tools/port/check_stubs.py)"
+SpawnPawn,"NCPawnViewr_Simulator::SpawnPawn: the stock function pops 4 bytes, the stub pushes 0 (tools/port/check_stubs.py)"
+SetRecipe,"NCRecipeBuyManufactureWnd::SetRecipe: the stock function pops 8 bytes, the stub pushes 4 (tools/port/check_stubs.py)"
+SetTab,"NCTabControl::SetTab: the stock function pops 8 bytes, the stub pushes 4 (tools/port/check_stubs.py)"
+GetTabs,"NCTabControl::GetTabs: the stock function pops 4 bytes, the stub pushes 0 (tools/port/check_stubs.py)"

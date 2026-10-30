@@ -1,0 +1,29 @@
+# Structs the client grew (name, C3 size, bytes of padding appended, shift of the asserted offsets from `from` on).
+# tools/port/gen.py edits the generated header: NW_ASSERT_SIZE(name, old) becomes the new size, `BYTE _PadC3[pad]`
+# closes the struct (so every offset the ported functions use stays where the judges verified it), every
+# NW_ASSERT_OFFSET(name, f, V) with V >= from becomes V + shift, and a field of that type inside a window takes the new
+# size in the window's layout (SIZE_CHANGED).
+# Evidence: the C3 constructor's stores (tools/port/size_audit.py), the constants the matched functions change
+# (analysis/port/constants.csv: the same push / imul / mov / sub esp with the old size and the new one) and, for a
+# window, its class size from the class table (analysis/classes.json, equal to the header's assert).
+name,c3_size,pad,shift,from,note
+NItemInfo,0x17AC,4,0,0,"ctor 0x10047400 stores [+0x17A8]; the frame of ReceiveSkillList is exactly this (the game run died on the cookie)"
+NItemEntry,0x1A34,8,0,0,"26 constants 0x1A28 -> 0x1A34; 4 of the 0xC are its NToolTipInfo"
+NActionItem,0x1A3C,0,0xC,1,"derives from NItemEntry"
+NAbnormalEntry,0x1A3C,0,0xC,1,"derives from NItemEntry"
+NHennaEntry,0x1A44,0,0xC,1,"derives from NItemEntry"
+NShortCutItem,0x1AB4,0x1C,0xC,1,"22 constants 0x1A7C -> 0x1AB4: 0xC from NItemEntry, 0x10 from its NCCoolTimeIcon, the rest is padding"
+NShortCutItem,,,0x10,0x1A29,"the fields after the NCCoolTimeIcon (at +0x1A28 in C2) move by its growth too"
+NListCell,0x1824,4,0,0,"11 constants 0x1820 -> 0x1824"
+NListRow,0x88C,0,0,0,"0x888 -> 0x88C: its NToolTipInfo (the last member) grew"
+NCCoolTimeIcon,0x58,0x10,0,0,"ctor 0x1001d530 stores up to +0x57"
+NDialogInfo,0xA0,0,4,0x1C,"C3 inserts a dword at +0x1C and adds two FStrings (+0x88, +0x94); the three floats of the drop dialog sit at +0x7C; frame of OnExpel 0x84 -> 0xA0"
+NDropDialogInfo,0xA0,0,0,0,"the C2 FVector at the end is inside NDialogInfo now (NDropDialogInfo.h patch)"
+NPledgeMember,0x248,0x34,0,0,"0x214 -> 0x248"
+NVIPNeededItem,0x318,0xC,0,0,"0x30C -> 0x318"
+NVIPShopEntry,0x520,8,0,0,"0x518 -> 0x520"
+NVIPShopRecord,0x52C,0,8,1,"derives from NVIPShopEntry"
+NMacroEntry,0xAB0,0,0x5C,0x78,"C3 ctor 0x1009f980: NToolTipInfo (0x7C) then an NCCoolTimeIcon at +0x7C, the lines at +0xD4 (C2 +0x78)"
+NToolTipInfo,0x7C,0,0,0,"hand-owned in NCWnd.h; listed so the windows that embed it (NCButton, NItemEntry...) lay it out at the new size"
+NToolTipSkin,0xA0,0,0,0,"hand-owned in NCWnd.h (its NToolTipInfo grew)"
+NToolTipLine,0x418,0,0,0,"hand-owned in NCWnd.h: the stride of the lines array"

@@ -1,0 +1,5187 @@
+[
+ {
+  "name": "Actor",
+  "size": 936,
+  "class_flags": 2048,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 279983048,
+  "initializer": 276258528,
+  "internal_ctor": 271613445,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "AActor"
+ },
+ {
+  "name": "AnimNotify",
+  "size": 56,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281775760,
+  "initializer": 276329840,
+  "internal_ctor": 271656825,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UAnimNotify"
+ },
+ {
+  "name": "Animation",
+  "size": 52,
+  "class_flags": 64,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281771776,
+  "initializer": 276329168,
+  "internal_ctor": 271594185,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UAnimation"
+ },
+ {
+  "name": "AuthSocket",
+  "size": 27008,
+  "class_flags": 0,
+  "super_raw": "&?PrivateStaticClass@UObject@@0VUClass@@A",
+  "package": "Engine",
+  "static_class": 278753096,
+  "initializer": 276250880,
+  "internal_ctor": 271641785,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UAuthSocket"
+ },
+ {
+  "name": "CameraEffect",
+  "size": 60,
+  "class_flags": 1,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280147832,
+  "initializer": 276281696,
+  "internal_ctor": null,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UCameraEffect"
+ },
+ {
+  "name": "Canvas",
+  "size": 464,
+  "class_flags": 8,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280164936,
+  "initializer": 276284784,
+  "internal_ctor": 271624390,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UCanvas"
+ },
+ {
+  "name": "Channel",
+  "size": 112,
+  "class_flags": 9,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 338474600,
+  "initializer": 276339072,
+  "internal_ctor": null,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UChannel"
+ },
+ {
+  "name": "CheatManager",
+  "size": 64,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280167480,
+  "initializer": 276285008,
+  "internal_ctor": 271633480,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UCheatManager"
+ },
+ {
+  "name": "Client",
+  "size": 184,
+  "class_flags": 5,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280143128,
+  "initializer": 276281024,
+  "internal_ctor": null,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UClient"
+ },
+ {
+  "name": "ClientSocket",
+  "size": 22840,
+  "class_flags": 0,
+  "super_raw": "&?PrivateStaticClass@UObject@@0VUClass@@A",
+  "package": "Engine",
+  "static_class": 278754424,
+  "initializer": 276250688,
+  "internal_ctor": 271632790,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UClientSocket"
+ },
+ {
+  "name": "ConvertOggCommandlet",
+  "size": 488,
+  "class_flags": 8,
+  "super_raw": "ret:?StaticClass@UCommandlet@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280179968,
+  "initializer": 276305568,
+  "internal_ctor": 271605500,
+  "super": "Commandlet",
+  "ancestors": [
+   "Commandlet"
+  ],
+  "cpp": "UConvertOggCommandlet"
+ },
+ {
+  "name": "Download",
+  "size": 1120,
+  "class_flags": 13,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 338487384,
+  "initializer": 276340864,
+  "internal_ctor": null,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UDownload"
+ },
+ {
+  "name": "Engine",
+  "size": 400,
+  "class_flags": 13,
+  "super_raw": "ret:?StaticClass@USubsystem@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280172288,
+  "initializer": 276285920,
+  "internal_ctor": null,
+  "super": "Subsystem",
+  "ancestors": [
+   "Subsystem"
+  ],
+  "cpp": "UEngine"
+ },
+ {
+  "name": "ExtraMeshData",
+  "size": 72,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280091944,
+  "initializer": 276276896,
+  "internal_ctor": 271615005,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UExtraMeshData"
+ },
+ {
+  "name": "Font",
+  "size": 104,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280192672,
+  "initializer": 276307184,
+  "internal_ctor": 271616440,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UFont"
+ },
+ {
+  "name": "GlobalTempObjects",
+  "size": 64,
+  "class_flags": 8,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280182624,
+  "initializer": 276306016,
+  "internal_ctor": 271638015,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UGlobalTempObjects"
+ },
+ {
+  "name": "Input",
+  "size": 8124,
+  "class_flags": 12,
+  "super_raw": "ret:?StaticClass@USubsystem@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280285224,
+  "initializer": 276307904,
+  "internal_ctor": 271599605,
+  "super": "Subsystem",
+  "ancestors": [
+   "Subsystem"
+  ],
+  "cpp": "UInput"
+ },
+ {
+  "name": "Interactions",
+  "size": 52,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280291688,
+  "initializer": 276308768,
+  "internal_ctor": 271629910,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UInteractions"
+ },
+ {
+  "name": "KMeshProps",
+  "size": 136,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 278847864,
+  "initializer": 276252784,
+  "internal_ctor": 271657680,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UKMeshProps"
+ },
+ {
+  "name": "KarmaParamsCollision",
+  "size": 84,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 278849192,
+  "initializer": 276253008,
+  "internal_ctor": 271632400,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UKarmaParamsCollision"
+ },
+ {
+  "name": "L2ConsoleWnd",
+  "size": 15272,
+  "class_flags": 13,
+  "super_raw": "ret:?StaticClass@USubsystem@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 278864704,
+  "initializer": 276254576,
+  "internal_ctor": null,
+  "super": "Subsystem",
+  "ancestors": [
+   "Subsystem"
+  ],
+  "cpp": "UL2ConsoleWnd"
+ },
+ {
+  "name": "L2Font",
+  "size": 56,
+  "class_flags": 13,
+  "super_raw": "ret:?StaticClass@USubsystem@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280162256,
+  "initializer": 276283712,
+  "internal_ctor": null,
+  "super": "Subsystem",
+  "ancestors": [
+   "Subsystem"
+  ],
+  "cpp": "UL2Font"
+ },
+ {
+  "name": "L2NEnvManager",
+  "size": 484,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 279739920,
+  "initializer": 276257632,
+  "internal_ctor": 271661625,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UL2NEnvManager"
+ },
+ {
+  "name": "L2NTimeLight",
+  "size": 104,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 279737264,
+  "initializer": 276257184,
+  "internal_ctor": 271631910,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UL2NTimeLight"
+ },
+ {
+  "name": "L2NetHandler",
+  "size": 56,
+  "class_flags": 13,
+  "super_raw": "ret:?StaticClass@USubsystem@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 279722800,
+  "initializer": 276255072,
+  "internal_ctor": null,
+  "super": "Subsystem",
+  "ancestors": [
+   "Subsystem"
+  ],
+  "cpp": "UL2NetHandler"
+ },
+ {
+  "name": "L2TextureFactory",
+  "size": 116,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UFactory@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280160928,
+  "initializer": 276283488,
+  "internal_ctor": 271625555,
+  "super": "Factory",
+  "ancestors": [
+   "Factory"
+  ],
+  "cpp": "UL2TextureFactory"
+ },
+ {
+  "name": "LevelBase",
+  "size": 192,
+  "class_flags": 1,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280294912,
+  "initializer": 276309216,
+  "internal_ctor": null,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "ULevelBase"
+ },
+ {
+  "name": "LevelObject",
+  "size": 104,
+  "class_flags": 2048,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 279980392,
+  "initializer": 276258080,
+  "internal_ctor": 271625040,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "ULevelObject"
+ },
+ {
+  "name": "LevelSummary",
+  "size": 92,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280033512,
+  "initializer": 276267040,
+  "internal_ctor": 271605240,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "ULevelSummary"
+ },
+ {
+  "name": "MasterMD5Commandlet",
+  "size": 504,
+  "class_flags": 8,
+  "super_raw": "ret:?StaticClass@UCommandlet@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280177312,
+  "initializer": 276305120,
+  "internal_ctor": 271617675,
+  "super": "Commandlet",
+  "ancestors": [
+   "Commandlet"
+  ],
+  "cpp": "UMasterMD5Commandlet"
+ },
+ {
+  "name": "MatObject",
+  "size": 52,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281736312,
+  "initializer": 276324096,
+  "internal_ctor": 271652680,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UMatObject"
+ },
+ {
+  "name": "Material",
+  "size": 68,
+  "class_flags": 1,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280301336,
+  "initializer": 276310112,
+  "internal_ctor": null,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UMaterial"
+ },
+ {
+  "name": "MeshAnimation",
+  "size": 124,
+  "class_flags": 64,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281770448,
+  "initializer": 276328944,
+  "internal_ctor": 271588885,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UMeshAnimation"
+ },
+ {
+  "name": "MeshObject",
+  "size": 52,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281737640,
+  "initializer": 276324320,
+  "internal_ctor": 271613075,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UMeshObject"
+ },
+ {
+  "name": "NetDriver",
+  "size": 164,
+  "class_flags": 13,
+  "super_raw": "ret:?StaticClass@USubsystem@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 338491904,
+  "initializer": 276341536,
+  "internal_ctor": null,
+  "super": "Subsystem",
+  "ancestors": [
+   "Subsystem"
+  ],
+  "cpp": "UNetDriver"
+ },
+ {
+  "name": "PackageCheckInfo",
+  "size": 84,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281618728,
+  "initializer": 276318640,
+  "internal_ctor": 271604915,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UPackageCheckInfo"
+ },
+ {
+  "name": "PackageMapLevel",
+  "size": 128,
+  "class_flags": 8,
+  "super_raw": "ret:?StaticClass@UPackageMap@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 338490576,
+  "initializer": 276341312,
+  "internal_ctor": 271592965,
+  "super": "PackageMap",
+  "ancestors": [
+   "PackageMap"
+  ],
+  "cpp": "UPackageMapLevel"
+ },
+ {
+  "name": "Palette",
+  "size": 64,
+  "class_flags": 64,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 298193136,
+  "initializer": 276336576,
+  "internal_ctor": 271651245,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UPalette"
+ },
+ {
+  "name": "ParticleEmitter",
+  "size": 1200,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281620328,
+  "initializer": 276318864,
+  "internal_ctor": 271599340,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UParticleEmitter"
+ },
+ {
+  "name": "PendingLevel",
+  "size": 220,
+  "class_flags": 1,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 338493768,
+  "initializer": 276341760,
+  "internal_ctor": null,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UPendingLevel"
+ },
+ {
+  "name": "PingSocket",
+  "size": 2132,
+  "class_flags": 0,
+  "super_raw": "&?PrivateStaticClass@UObject@@0VUClass@@A",
+  "package": "Engine",
+  "static_class": 278749112,
+  "initializer": 276250496,
+  "internal_ctor": 271634875,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UPingSocket"
+ },
+ {
+  "name": "Player",
+  "size": 116,
+  "class_flags": 13,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281629904,
+  "initializer": 276320208,
+  "internal_ctor": null,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UPlayer"
+ },
+ {
+  "name": "PlayerInput",
+  "size": 140,
+  "class_flags": 12,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280168808,
+  "initializer": 276285232,
+  "internal_ctor": 271649330,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UPlayerInput"
+ },
+ {
+  "name": "Polys",
+  "size": 68,
+  "class_flags": 128,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280186288,
+  "initializer": 276306240,
+  "internal_ctor": 271626960,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UPolys"
+ },
+ {
+  "name": "Primitive",
+  "size": 96,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281631504,
+  "initializer": 276320432,
+  "internal_ctor": 271631375,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UPrimitive"
+ },
+ {
+  "name": "ReachSpec",
+  "size": 88,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 279997656,
+  "initializer": 276260992,
+  "internal_ctor": 271625810,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UReachSpec"
+ },
+ {
+  "name": "RenderDevice",
+  "size": 204,
+  "class_flags": 5,
+  "super_raw": "ret:?StaticClass@USubsystem@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280173616,
+  "initializer": 276286144,
+  "internal_ctor": null,
+  "super": "Subsystem",
+  "ancestors": [
+   "Subsystem"
+  ],
+  "cpp": "URenderDevice"
+ },
+ {
+  "name": "RenderResource",
+  "size": 56,
+  "class_flags": 1,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281685600,
+  "initializer": 276321568,
+  "internal_ctor": null,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "URenderResource"
+ },
+ {
+  "name": "SaveReplayResourceCommandlet",
+  "size": 488,
+  "class_flags": 8,
+  "super_raw": "ret:?StaticClass@UCommandlet@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280181296,
+  "initializer": 276305792,
+  "internal_ctor": 271643290,
+  "super": "Commandlet",
+  "ancestors": [
+   "Commandlet"
+  ],
+  "cpp": "USaveReplayResourceCommandlet"
+ },
+ {
+  "name": "ScriptConvertCommandlet",
+  "size": 488,
+  "class_flags": 8,
+  "super_raw": "ret:?StaticClass@UCommandlet@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280178640,
+  "initializer": 276305344,
+  "internal_ctor": 271640290,
+  "super": "Commandlet",
+  "ancestors": [
+   "Commandlet"
+  ],
+  "cpp": "UScriptConvertCommandlet"
+ },
+ {
+  "name": "ServerCommandlet",
+  "size": 488,
+  "class_flags": 8,
+  "super_raw": "ret:?StaticClass@UCommandlet@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 280175984,
+  "initializer": 276304896,
+  "internal_ctor": 271597935,
+  "super": "Commandlet",
+  "ancestors": [
+   "Commandlet"
+  ],
+  "cpp": "UServerCommandlet"
+ },
+ {
+  "name": "SkillAction",
+  "size": 60,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 279730888,
+  "initializer": 276256288,
+  "internal_ctor": 271618735,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "USkillAction"
+ },
+ {
+  "name": "SkillVisualEffect",
+  "size": 108,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 279734872,
+  "initializer": 276256960,
+  "internal_ctor": 271632795,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "USkillVisualEffect"
+ },
+ {
+  "name": "StaticMeshInstance",
+  "size": 112,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281808456,
+  "initializer": 276334320,
+  "internal_ctor": 271635030,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UStaticMeshInstance"
+ },
+ {
+  "name": "TerrainSector",
+  "size": 364,
+  "class_flags": 0,
+  "super_raw": "ret:?StaticClass@UObject@@SAPAVUClass@@XZ",
+  "package": "Engine",
+  "static_class": 281814720,
+  "initializer": 276335072,
+  "internal_ctor": 271657245,
+  "super": "Object",
+  "ancestors": [
+   "Object"
+  ],
+  "cpp": "UTerrainSector"
+ },
+ {
+  "name": "ActorChannel",
+  "size": 212,
+  "class_flags": 8,
+  "super_raw": "0x142cb668",
+  "package": "Engine",
+  "static_class": 338477256,
+  "initializer": 276339520,
+  "internal_ctor": 271603210,
+  "super": "Channel",
+  "ancestors": [
+   "Channel",
+   "Object"
+  ],
+  "cpp": "UActorChannel"
+ },
+ {
+  "name": "AmbientSoundObject",
+  "size": 128,
+  "class_flags": 0,
+  "super_raw": "0x10b02968",
+  "package": "Engine",
+  "static_class": 279981720,
+  "initializer": 276258304,
+  "internal_ctor": 271629340,
+  "super": "LevelObject",
+  "ancestors": [
+   "LevelObject",
+   "Object"
+  ],
+  "cpp": "UAmbientSoundObject"
+ },
+ {
+  "name": "AnimNotify_AttackItem",
+  "size": 56,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281779744,
+  "initializer": 276330512,
+  "internal_ctor": 271642050,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_AttackItem"
+ },
+ {
+  "name": "AnimNotify_AttackPreShot",
+  "size": 56,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281782400,
+  "initializer": 276330960,
+  "internal_ctor": 271618380,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_AttackPreShot"
+ },
+ {
+  "name": "AnimNotify_AttackShot",
+  "size": 60,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281781072,
+  "initializer": 276330736,
+  "internal_ctor": 271586195,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_AttackShot"
+ },
+ {
+  "name": "AnimNotify_AttackVoice",
+  "size": 68,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281783728,
+  "initializer": 276331184,
+  "internal_ctor": 271625545,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_AttackVoice"
+ },
+ {
+  "name": "AnimNotify_DestroyEffect",
+  "size": 64,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281786384,
+  "initializer": 276331632,
+  "internal_ctor": 271615275,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_DestroyEffect"
+ },
+ {
+  "name": "AnimNotify_Effect",
+  "size": 124,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281785056,
+  "initializer": 276331408,
+  "internal_ctor": 271633085,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_Effect"
+ },
+ {
+  "name": "AnimNotify_IdleSound",
+  "size": 84,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281794352,
+  "initializer": 276332976,
+  "internal_ctor": 271638685,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_IdleSound"
+ },
+ {
+  "name": "AnimNotify_MatSubAction",
+  "size": 60,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281793024,
+  "initializer": 276332752,
+  "internal_ctor": 271650535,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_MatSubAction"
+ },
+ {
+  "name": "AnimNotify_ScreenFade",
+  "size": 72,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281778416,
+  "initializer": 276330288,
+  "internal_ctor": 271599750,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_ScreenFade"
+ },
+ {
+  "name": "AnimNotify_Script",
+  "size": 60,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281790368,
+  "initializer": 276332304,
+  "internal_ctor": 271621650,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_Script"
+ },
+ {
+  "name": "AnimNotify_Scripted",
+  "size": 56,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281791696,
+  "initializer": 276332528,
+  "internal_ctor": 271648105,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_Scripted"
+ },
+ {
+  "name": "AnimNotify_Sound",
+  "size": 168,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281789040,
+  "initializer": 276332080,
+  "internal_ctor": 271658105,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_Sound"
+ },
+ {
+  "name": "AnimNotify_SwimSound",
+  "size": 56,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281787712,
+  "initializer": 276331856,
+  "internal_ctor": 271643700,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_SwimSound"
+ },
+ {
+  "name": "AnimNotify_ViewShake",
+  "size": 84,
+  "class_flags": 0,
+  "super_raw": "0x10cb8e90",
+  "package": "Engine",
+  "static_class": 281777088,
+  "initializer": 276330064,
+  "internal_ctor": 271592985,
+  "super": "AnimNotify",
+  "ancestors": [
+   "AnimNotify",
+   "Object"
+  ],
+  "cpp": "UAnimNotify_ViewShake"
+ },
+ {
+  "name": "AntiPortalActor",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280070696,
+  "initializer": 276273312,
+  "internal_ctor": 271645120,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAntiPortalActor"
+ },
+ {
+  "name": "BeamEmitter",
+  "size": 1468,
+  "class_flags": 0,
+  "super_raw": "0x10c92f68",
+  "package": "Engine",
+  "static_class": 280141528,
+  "initializer": 276280800,
+  "internal_ctor": 271586360,
+  "super": "ParticleEmitter",
+  "ancestors": [
+   "ParticleEmitter",
+   "Object"
+  ],
+  "cpp": "UBeamEmitter"
+ },
+ {
+  "name": "BlackWhite",
+  "size": 60,
+  "class_flags": 0,
+  "super_raw": "0x10b2b778",
+  "package": "Engine",
+  "static_class": 280153144,
+  "initializer": 276282592,
+  "internal_ctor": 271659675,
+  "super": "CameraEffect",
+  "ancestors": [
+   "CameraEffect",
+   "Object"
+  ],
+  "cpp": "UBlackWhite"
+ },
+ {
+  "name": "Brush",
+  "size": 1028,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280052104,
+  "initializer": 276270176,
+  "internal_ctor": 271610645,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ABrush"
+ },
+ {
+  "name": "CameraOverlay",
+  "size": 68,
+  "class_flags": 0,
+  "super_raw": "0x10b2b778",
+  "package": "Engine",
+  "static_class": 280150488,
+  "initializer": 276282144,
+  "internal_ctor": 271659705,
+  "super": "CameraEffect",
+  "ancestors": [
+   "CameraEffect",
+   "Object"
+  ],
+  "cpp": "UCameraOverlay"
+ },
+ {
+  "name": "CarriedObject",
+  "size": 956,
+  "class_flags": 2048,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280077336,
+  "initializer": 276274432,
+  "internal_ctor": 271660580,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ACarriedObject"
+ },
+ {
+  "name": "ChannelDownload",
+  "size": 1124,
+  "class_flags": 12,
+  "super_raw": "0x142ce858",
+  "package": "Engine",
+  "static_class": 338488712,
+  "initializer": 276341088,
+  "internal_ctor": 271656340,
+  "super": "Download",
+  "ancestors": [
+   "Download",
+   "Object"
+  ],
+  "cpp": "UChannelDownload"
+ },
+ {
+  "name": "Combiner",
+  "size": 88,
+  "class_flags": 0,
+  "super_raw": "0x10b50f18",
+  "package": "Engine",
+  "static_class": 280311960,
+  "initializer": 276311904,
+  "internal_ctor": 271620990,
+  "super": "Material",
+  "ancestors": [
+   "Material",
+   "Object"
+  ],
+  "cpp": "UCombiner"
+ },
+ {
+  "name": "ControlChannel",
+  "size": 116,
+  "class_flags": 8,
+  "super_raw": "0x142cb668",
+  "package": "Engine",
+  "static_class": 338475928,
+  "initializer": 276339296,
+  "internal_ctor": 271621950,
+  "super": "Channel",
+  "ancestors": [
+   "Channel",
+   "Object"
+  ],
+  "cpp": "UControlChannel"
+ },
+ {
+  "name": "Controller",
+  "size": 1352,
+  "class_flags": 2052,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280040152,
+  "initializer": 276268160,
+  "internal_ctor": 271613015,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AController"
+ },
+ {
+  "name": "ConvexVolume",
+  "size": 148,
+  "class_flags": 0,
+  "super_raw": "0x10c95b10",
+  "package": "Engine",
+  "static_class": 280170680,
+  "initializer": 276285696,
+  "internal_ctor": 271602090,
+  "super": "Primitive",
+  "ancestors": [
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UConvexVolume"
+ },
+ {
+  "name": "DamageType",
+  "size": 1108,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280050776,
+  "initializer": 276269952,
+  "internal_ctor": 271635685,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ADamageType"
+ },
+ {
+  "name": "DecoVolumeObject",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 298207304,
+  "initializer": 276338800,
+  "internal_ctor": 271610505,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ADecoVolumeObject"
+ },
+ {
+  "name": "Decoration",
+  "size": 992,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280005624,
+  "initializer": 276262336,
+  "internal_ctor": 271591055,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ADecoration"
+ },
+ {
+  "name": "DemoPlayPendingLevel",
+  "size": 220,
+  "class_flags": 8,
+  "super_raw": "0x142d0148",
+  "package": "Engine",
+  "static_class": 338482592,
+  "initializer": 276340192,
+  "internal_ctor": 271658005,
+  "super": "PendingLevel",
+  "ancestors": [
+   "PendingLevel",
+   "Object"
+  ],
+  "cpp": "UDemoPlayPendingLevel"
+ },
+ {
+  "name": "DemoRecDriver",
+  "size": 284,
+  "class_flags": 12,
+  "super_raw": "0x142cfa00",
+  "package": "Engine",
+  "static_class": 338485520,
+  "initializer": 276340640,
+  "internal_ctor": 271619590,
+  "super": "NetDriver",
+  "ancestors": [
+   "NetDriver",
+   "Subsystem"
+  ],
+  "cpp": "UDemoRecDriver"
+ },
+ {
+  "name": "DummySocket",
+  "size": 22840,
+  "class_flags": 0,
+  "super_raw": "0x109d7478",
+  "package": "Engine",
+  "static_class": 278750440,
+  "initializer": 276251072,
+  "internal_ctor": 271622455,
+  "super": "ClientSocket",
+  "ancestors": [
+   "ClientSocket",
+   "Object"
+  ],
+  "cpp": "UDummySocket"
+ },
+ {
+  "name": "Emitter",
+  "size": 1188,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 281621928,
+  "initializer": 276319088,
+  "internal_ctor": 271657845,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AEmitter"
+ },
+ {
+  "name": "FadeBlackWhite",
+  "size": 76,
+  "class_flags": 0,
+  "super_raw": "0x10b2b778",
+  "package": "Engine",
+  "static_class": 280154472,
+  "initializer": 276282816,
+  "internal_ctor": 271624115,
+  "super": "CameraEffect",
+  "ancestors": [
+   "CameraEffect",
+   "Object"
+  ],
+  "cpp": "UFadeBlackWhite"
+ },
+ {
+  "name": "FileChannel",
+  "size": 640,
+  "class_flags": 8,
+  "super_raw": "0x142cb668",
+  "package": "Engine",
+  "static_class": 338478584,
+  "initializer": 276339744,
+  "internal_ctor": 271609815,
+  "super": "Channel",
+  "ancestors": [
+   "Channel",
+   "Object"
+  ],
+  "cpp": "UFileChannel"
+ },
+ {
+  "name": "FluidSurfaceOscillator",
+  "size": 960,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280190544,
+  "initializer": 276306912,
+  "internal_ctor": 271593490,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AFluidSurfaceOscillator"
+ },
+ {
+  "name": "FluidSurfacePrimitive",
+  "size": 100,
+  "class_flags": 0,
+  "super_raw": "0x10c95b10",
+  "package": "Engine",
+  "static_class": 280189216,
+  "initializer": 276306688,
+  "internal_ctor": 271634365,
+  "super": "Primitive",
+  "ancestors": [
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UFluidSurfacePrimitive"
+ },
+ {
+  "name": "GameEngine",
+  "size": 884,
+  "class_flags": 12,
+  "super_raw": "0x10b31700",
+  "package": "Engine",
+  "static_class": 280194320,
+  "initializer": 276307408,
+  "internal_ctor": 271612585,
+  "super": "Engine",
+  "ancestors": [
+   "Engine",
+   "Subsystem"
+  ],
+  "cpp": "UGameEngine"
+ },
+ {
+  "name": "GlowEffect",
+  "size": 120,
+  "class_flags": 0,
+  "super_raw": "0x10b2b778",
+  "package": "Engine",
+  "static_class": 280155800,
+  "initializer": 276283040,
+  "internal_ctor": 271632450,
+  "super": "CameraEffect",
+  "ancestors": [
+   "CameraEffect",
+   "Object"
+  ],
+  "cpp": "UGlowEffect"
+ },
+ {
+  "name": "HDREffect",
+  "size": 120,
+  "class_flags": 0,
+  "super_raw": "0x10b2b778",
+  "package": "Engine",
+  "static_class": 280157128,
+  "initializer": 276283264,
+  "internal_ctor": 271634155,
+  "super": "CameraEffect",
+  "ancestors": [
+   "CameraEffect",
+   "Object"
+  ],
+  "cpp": "UHDREffect"
+ },
+ {
+  "name": "HUD",
+  "size": 1500,
+  "class_flags": 12,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280021560,
+  "initializer": 276265024,
+  "internal_ctor": 271628605,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AHUD"
+ },
+ {
+  "name": "IndexBuffer",
+  "size": 68,
+  "class_flags": 0,
+  "super_raw": "0x10ca2e60",
+  "package": "Engine",
+  "static_class": 281694896,
+  "initializer": 276323136,
+  "internal_ctor": 271588690,
+  "super": "RenderResource",
+  "ancestors": [
+   "RenderResource",
+   "Object"
+  ],
+  "cpp": "UIndexBuffer"
+ },
+ {
+  "name": "Info",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280026872,
+  "initializer": 276265920,
+  "internal_ctor": 271616480,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AInfo"
+ },
+ {
+  "name": "Inspector",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280090616,
+  "initializer": 276276672,
+  "internal_ctor": 271662650,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AInspector"
+ },
+ {
+  "name": "Interaction",
+  "size": 64,
+  "class_flags": 0,
+  "super_raw": "0x10b4e968",
+  "package": "Engine",
+  "static_class": 280286904,
+  "initializer": 276308096,
+  "internal_ctor": 271656955,
+  "super": "Interactions",
+  "ancestors": [
+   "Interactions",
+   "Object"
+  ],
+  "cpp": "UInteraction"
+ },
+ {
+  "name": "InteractionMaster",
+  "size": 80,
+  "class_flags": 8,
+  "super_raw": "0x10b4e968",
+  "package": "Engine",
+  "static_class": 280293016,
+  "initializer": 276308992,
+  "internal_ctor": 271609190,
+  "super": "Interactions",
+  "ancestors": [
+   "Interactions",
+   "Object"
+  ],
+  "cpp": "UInteractionMaster"
+ },
+ {
+  "name": "Inventory",
+  "size": 1012,
+  "class_flags": 2048,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280013592,
+  "initializer": 276263680,
+  "internal_ctor": 271592045,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AInventory"
+ },
+ {
+  "name": "InventoryAttachment",
+  "size": 936,
+  "class_flags": 2048,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280068040,
+  "initializer": 276272864,
+  "internal_ctor": 271643235,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AInventoryAttachment"
+ },
+ {
+  "name": "KActor",
+  "size": 972,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 278854504,
+  "initializer": 276253904,
+  "internal_ctor": 271632810,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AKActor"
+ },
+ {
+  "name": "KarmaParams",
+  "size": 156,
+  "class_flags": 0,
+  "super_raw": "0x109ee6a8",
+  "package": "Engine",
+  "static_class": 278850520,
+  "initializer": 276253232,
+  "internal_ctor": 271596055,
+  "super": "KarmaParamsCollision",
+  "ancestors": [
+   "KarmaParamsCollision",
+   "Object"
+  ],
+  "cpp": "UKarmaParams"
+ },
+ {
+  "name": "Keypoint",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280012264,
+  "initializer": 276263456,
+  "internal_ctor": 271635210,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AKeypoint"
+ },
+ {
+  "name": "L2Alarm",
+  "size": 940,
+  "class_flags": 2048,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280097256,
+  "initializer": 276277792,
+  "internal_ctor": 271599505,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AL2Alarm"
+ },
+ {
+  "name": "L2Dice",
+  "size": 984,
+  "class_flags": 2048,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280089288,
+  "initializer": 276276448,
+  "internal_ctor": 271588975,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AL2Dice"
+ },
+ {
+  "name": "L2Float",
+  "size": 1016,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280103896,
+  "initializer": 276278912,
+  "internal_ctor": 271597095,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AL2Float"
+ },
+ {
+  "name": "L2NEnvLight",
+  "size": 276,
+  "class_flags": 0,
+  "super_raw": "0x10ac73b0",
+  "package": "Engine",
+  "static_class": 279738592,
+  "initializer": 276257408,
+  "internal_ctor": 271646485,
+  "super": "L2NTimeLight",
+  "ancestors": [
+   "L2NTimeLight",
+   "Object"
+  ],
+  "cpp": "UL2NEnvLight"
+ },
+ {
+  "name": "L2NMover",
+  "size": 1012,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 279729288,
+  "initializer": 276256064,
+  "internal_ctor": 271610840,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AL2NMover"
+ },
+ {
+  "name": "L2Pickup",
+  "size": 988,
+  "class_flags": 2048,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280082648,
+  "initializer": 276275328,
+  "internal_ctor": 271650815,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AL2Pickup"
+ },
+ {
+  "name": "L2Radar",
+  "size": 940,
+  "class_flags": 2048,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280163592,
+  "initializer": 276283984,
+  "internal_ctor": 271660630,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AL2Radar"
+ },
+ {
+  "name": "Level",
+  "size": 4584,
+  "class_flags": 0,
+  "super_raw": "0x10b4f600",
+  "package": "Engine",
+  "static_class": 280296240,
+  "initializer": 276309440,
+  "internal_ctor": 271639285,
+  "super": "LevelBase",
+  "ancestors": [
+   "LevelBase",
+   "Object"
+  ],
+  "cpp": "ULevel"
+ },
+ {
+  "name": "Light",
+  "size": 996,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 279984376,
+  "initializer": 276258752,
+  "internal_ctor": 271592160,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALight"
+ },
+ {
+  "name": "MatAction",
+  "size": 148,
+  "class_flags": 0,
+  "super_raw": "0x10caf478",
+  "package": "Engine",
+  "static_class": 281738968,
+  "initializer": 276324544,
+  "internal_ctor": 271647825,
+  "super": "MatObject",
+  "ancestors": [
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "UMatAction"
+ },
+ {
+  "name": "MatDemoActor",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 281744280,
+  "initializer": 276325440,
+  "internal_ctor": 271626665,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AMatDemoActor"
+ },
+ {
+  "name": "MatSubAction",
+  "size": 92,
+  "class_flags": 0,
+  "super_raw": "0x10caf478",
+  "package": "Engine",
+  "static_class": 281745608,
+  "initializer": 276325664,
+  "internal_ctor": 271603975,
+  "super": "MatObject",
+  "ancestors": [
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "UMatSubAction"
+ },
+ {
+  "name": "Mesh",
+  "size": 100,
+  "class_flags": 0,
+  "super_raw": "0x10c95b10",
+  "package": "Engine",
+  "static_class": 280353664,
+  "initializer": 276317504,
+  "internal_ctor": 271650285,
+  "super": "Primitive",
+  "ancestors": [
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UMesh"
+ },
+ {
+  "name": "MeshEmitter",
+  "size": 1220,
+  "class_flags": 0,
+  "super_raw": "0x10c92f68",
+  "package": "Engine",
+  "static_class": 280355536,
+  "initializer": 276317728,
+  "internal_ctor": 271648325,
+  "super": "ParticleEmitter",
+  "ancestors": [
+   "ParticleEmitter",
+   "Object"
+  ],
+  "cpp": "UMeshEmitter"
+ },
+ {
+  "name": "MeshInstance",
+  "size": 96,
+  "class_flags": 0,
+  "super_raw": "0x10c95b10",
+  "package": "Engine",
+  "static_class": 280352336,
+  "initializer": 276317312,
+  "internal_ctor": null,
+  "super": "Primitive",
+  "ancestors": [
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UMeshInstance"
+ },
+ {
+  "name": "Model",
+  "size": 1848,
+  "class_flags": 0,
+  "super_raw": "0x10c95b10",
+  "package": "Engine",
+  "static_class": 280357160,
+  "initializer": 276318000,
+  "internal_ctor": 271637590,
+  "super": "Primitive",
+  "ancestors": [
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UModel"
+ },
+ {
+  "name": "Modifier",
+  "size": 72,
+  "class_flags": 0,
+  "super_raw": "0x10b50f18",
+  "package": "Engine",
+  "static_class": 280317272,
+  "initializer": 276312800,
+  "internal_ctor": 271645275,
+  "super": "Material",
+  "ancestors": [
+   "Material",
+   "Object"
+  ],
+  "cpp": "UModifier"
+ },
+ {
+  "name": "MotionBlur",
+  "size": 76,
+  "class_flags": 0,
+  "super_raw": "0x10b2b778",
+  "package": "Engine",
+  "static_class": 280149160,
+  "initializer": 276281920,
+  "internal_ctor": 271614280,
+  "super": "CameraEffect",
+  "ancestors": [
+   "CameraEffect",
+   "Object"
+  ],
+  "cpp": "UMotionBlur"
+ },
+ {
+  "name": "Mover",
+  "size": 1556,
+  "class_flags": 2048,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 281617080,
+  "initializer": 276318272,
+  "internal_ctor": 271623210,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AMover"
+ },
+ {
+  "name": "NLine",
+  "size": 944,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280102568,
+  "initializer": 276278688,
+  "internal_ctor": 271588570,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANLine"
+ },
+ {
+  "name": "NMoon",
+  "size": 1036,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280094600,
+  "initializer": 276277344,
+  "internal_ctor": 271630410,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANMoon"
+ },
+ {
+  "name": "NSun",
+  "size": 972,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280093272,
+  "initializer": 276277120,
+  "internal_ctor": 271598925,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANSun"
+ },
+ {
+  "name": "NavigationPoint",
+  "size": 1032,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280000312,
+  "initializer": 276261440,
+  "internal_ctor": 271588460,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANavigationPoint"
+ },
+ {
+  "name": "NetConnection",
+  "size": 16156,
+  "class_flags": 13,
+  "super_raw": "0x10c954d0",
+  "package": "Engine",
+  "static_class": 338480992,
+  "initializer": 276339968,
+  "internal_ctor": null,
+  "super": "Player",
+  "ancestors": [
+   "Player",
+   "Object"
+  ],
+  "cpp": "UNetConnection"
+ },
+ {
+  "name": "NetPendingLevel",
+  "size": 220,
+  "class_flags": 8,
+  "super_raw": "0x142d0148",
+  "package": "Engine",
+  "static_class": 338495096,
+  "initializer": 276341984,
+  "internal_ctor": 271593470,
+  "super": "PendingLevel",
+  "ancestors": [
+   "PendingLevel",
+   "Object"
+  ],
+  "cpp": "UNetPendingLevel"
+ },
+ {
+  "name": "NetworkHandler",
+  "size": 424,
+  "class_flags": 4,
+  "super_raw": "0x10ac3b30",
+  "package": "Engine",
+  "static_class": 278751768,
+  "initializer": 276251264,
+  "internal_ctor": 271603205,
+  "super": "L2NetHandler",
+  "ancestors": [
+   "L2NetHandler",
+   "Subsystem"
+  ],
+  "cpp": "UNetworkHandler"
+ },
+ {
+  "name": "Note",
+  "size": 948,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 279989688,
+  "initializer": 276259648,
+  "internal_ctor": 271636390,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANote"
+ },
+ {
+  "name": "NullRenderDevice",
+  "size": 244,
+  "class_flags": 4,
+  "super_raw": "0x10b31c30",
+  "package": "Engine",
+  "static_class": 279742048,
+  "initializer": 276257856,
+  "internal_ctor": 271658975,
+  "super": "RenderDevice",
+  "ancestors": [
+   "RenderDevice",
+   "Subsystem"
+  ],
+  "cpp": "UNullRenderDevice"
+ },
+ {
+  "name": "Pawn",
+  "size": 6000,
+  "class_flags": 2052,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 281628304,
+  "initializer": 276319984,
+  "internal_ctor": 271612575,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APawn"
+ },
+ {
+  "name": "Pickup",
+  "size": 992,
+  "class_flags": 2048,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280036168,
+  "initializer": 276267488,
+  "internal_ctor": 271622785,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APickup"
+ },
+ {
+  "name": "Projectile",
+  "size": 984,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280006952,
+  "initializer": 276262560,
+  "internal_ctor": 271645710,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AProjectile"
+ },
+ {
+  "name": "Projector",
+  "size": 1336,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 281634440,
+  "initializer": 276320880,
+  "internal_ctor": 271664925,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AProjector"
+ },
+ {
+  "name": "ProjectorPrimitive",
+  "size": 96,
+  "class_flags": 0,
+  "super_raw": "0x10c95b10",
+  "package": "Engine",
+  "static_class": 281633112,
+  "initializer": 276320656,
+  "internal_ctor": 271627795,
+  "super": "Primitive",
+  "ancestors": [
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UProjectorPrimitive"
+ },
+ {
+  "name": "RenderedMaterial",
+  "size": 68,
+  "class_flags": 1,
+  "super_raw": "0x10b50f18",
+  "package": "Engine",
+  "static_class": 280305320,
+  "initializer": 276310784,
+  "internal_ctor": null,
+  "super": "Material",
+  "ancestors": [
+   "Material",
+   "Object"
+  ],
+  "cpp": "URenderedMaterial"
+ },
+ {
+  "name": "RibbonEmitter",
+  "size": 1424,
+  "class_flags": 0,
+  "super_raw": "0x10c92f68",
+  "package": "Engine",
+  "static_class": 281733384,
+  "initializer": 276323648,
+  "internal_ctor": 271596330,
+  "super": "ParticleEmitter",
+  "ancestors": [
+   "ParticleEmitter",
+   "Object"
+  ],
+  "cpp": "URibbonEmitter"
+ },
+ {
+  "name": "SkillAction_LocateEffect",
+  "size": 96,
+  "class_flags": 0,
+  "super_raw": "0x10ac5ac8",
+  "package": "Engine",
+  "static_class": 279732216,
+  "initializer": 276256512,
+  "internal_ctor": 271621895,
+  "super": "SkillAction",
+  "ancestors": [
+   "SkillAction",
+   "Object"
+  ],
+  "cpp": "USkillAction_LocateEffect"
+ },
+ {
+  "name": "SkillAction_SwordTrail",
+  "size": 68,
+  "class_flags": 0,
+  "super_raw": "0x10ac5ac8",
+  "package": "Engine",
+  "static_class": 279733544,
+  "initializer": 276256736,
+  "internal_ctor": 271640015,
+  "super": "SkillAction",
+  "ancestors": [
+   "SkillAction",
+   "Object"
+  ],
+  "cpp": "USkillAction_SwordTrail"
+ },
+ {
+  "name": "SkinVertexBuffer",
+  "size": 68,
+  "class_flags": 0,
+  "super_raw": "0x10ca2e60",
+  "package": "Engine",
+  "static_class": 281696224,
+  "initializer": 276323360,
+  "internal_ctor": 271633770,
+  "super": "RenderResource",
+  "ancestors": [
+   "RenderResource",
+   "Object"
+  ],
+  "cpp": "USkinVertexBuffer"
+ },
+ {
+  "name": "SparkEmitter",
+  "size": 1260,
+  "class_flags": 0,
+  "super_raw": "0x10c92f68",
+  "package": "Engine",
+  "static_class": 281803920,
+  "initializer": 276333648,
+  "internal_ctor": 271586890,
+  "super": "ParticleEmitter",
+  "ancestors": [
+   "ParticleEmitter",
+   "Object"
+  ],
+  "cpp": "USparkEmitter"
+ },
+ {
+  "name": "SpriteEmitter",
+  "size": 1240,
+  "class_flags": 0,
+  "super_raw": "0x10c92f68",
+  "package": "Engine",
+  "static_class": 281805520,
+  "initializer": 276333872,
+  "internal_ctor": 271626435,
+  "super": "ParticleEmitter",
+  "ancestors": [
+   "ParticleEmitter",
+   "Object"
+  ],
+  "cpp": "USpriteEmitter"
+ },
+ {
+  "name": "StaticMesh",
+  "size": 452,
+  "class_flags": 8256,
+  "super_raw": "0x10c95b10",
+  "package": "Engine",
+  "static_class": 281807128,
+  "initializer": 276334096,
+  "internal_ctor": 271637020,
+  "super": "Primitive",
+  "ancestors": [
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UStaticMesh"
+ },
+ {
+  "name": "StaticMeshActor",
+  "size": 996,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 281809784,
+  "initializer": 276334544,
+  "internal_ctor": 271590960,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AStaticMeshActor"
+ },
+ {
+  "name": "TerrainPrimitive",
+  "size": 100,
+  "class_flags": 0,
+  "super_raw": "0x10c95b10",
+  "package": "Engine",
+  "static_class": 281816048,
+  "initializer": 276335296,
+  "internal_ctor": 271621245,
+  "super": "Primitive",
+  "ancestors": [
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UTerrainPrimitive"
+ },
+ {
+  "name": "TrailEmitter",
+  "size": 1264,
+  "class_flags": 0,
+  "super_raw": "0x10c92f68",
+  "package": "Engine",
+  "static_class": 298197832,
+  "initializer": 276337024,
+  "internal_ctor": 271653070,
+  "super": "ParticleEmitter",
+  "ancestors": [
+   "ParticleEmitter",
+   "Object"
+  ],
+  "cpp": "UTrailEmitter"
+ },
+ {
+  "name": "Triggers",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280017576,
+  "initializer": 276264352,
+  "internal_ctor": 271645585,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ATriggers"
+ },
+ {
+  "name": "VehiclePart",
+  "size": 940,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 280046792,
+  "initializer": 276269280,
+  "internal_ctor": 271651855,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AVehiclePart"
+ },
+ {
+  "name": "VertMeshEmitter",
+  "size": 1280,
+  "class_flags": 0,
+  "super_raw": "0x10c92f68",
+  "package": "Engine",
+  "static_class": 298202776,
+  "initializer": 276338128,
+  "internal_ctor": 271602505,
+  "super": "ParticleEmitter",
+  "ancestors": [
+   "ParticleEmitter",
+   "Object"
+  ],
+  "cpp": "UVertMeshEmitter"
+ },
+ {
+  "name": "VertexStreamBase",
+  "size": 68,
+  "class_flags": 1,
+  "super_raw": "0x10ca2e60",
+  "package": "Engine",
+  "static_class": 281686928,
+  "initializer": 276321792,
+  "internal_ctor": null,
+  "super": "RenderResource",
+  "ancestors": [
+   "RenderResource",
+   "Object"
+  ],
+  "cpp": "UVertexStreamBase"
+ },
+ {
+  "name": "Viewport",
+  "size": 428,
+  "class_flags": 9,
+  "super_raw": "0x10c954d0",
+  "package": "Engine",
+  "static_class": 280144728,
+  "initializer": 276281248,
+  "internal_ctor": null,
+  "super": "Player",
+  "ancestors": [
+   "Player",
+   "Object"
+  ],
+  "cpp": "UViewport"
+ },
+ {
+  "name": "ViewportWindowController",
+  "size": 1004,
+  "class_flags": 0,
+  "super_raw": "0x10b033c8",
+  "package": "Engine",
+  "static_class": 298204376,
+  "initializer": 276338352,
+  "internal_ctor": 271664465,
+  "super": "Actor",
+  "ancestors": [
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AViewportWindowController"
+ },
+ {
+  "name": "AIController",
+  "size": 1364,
+  "class_flags": 4,
+  "super_raw": "0x10b112d8",
+  "package": "Engine",
+  "static_class": 280041480,
+  "initializer": 276268384,
+  "internal_ctor": 271635150,
+  "super": "Controller",
+  "ancestors": [
+   "Controller",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAIController"
+ },
+ {
+  "name": "AIScript",
+  "size": 948,
+  "class_flags": 0,
+  "super_raw": "0x10b0a5e8",
+  "package": "Engine",
+  "static_class": 280053432,
+  "initializer": 276270400,
+  "internal_ctor": 271659050,
+  "super": "Keypoint",
+  "ancestors": [
+   "Keypoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAIScript"
+ },
+ {
+  "name": "ActionMoveCamera",
+  "size": 152,
+  "class_flags": 4,
+  "super_raw": "0x10cafed8",
+  "package": "Engine",
+  "static_class": 281740296,
+  "initializer": 276324768,
+  "internal_ctor": 271648875,
+  "super": "MatAction",
+  "ancestors": [
+   "MatAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "UActionMoveCamera"
+ },
+ {
+  "name": "ActionPause",
+  "size": 148,
+  "class_flags": 0,
+  "super_raw": "0x10cafed8",
+  "package": "Engine",
+  "static_class": 281741624,
+  "initializer": 276324992,
+  "internal_ctor": 271620465,
+  "super": "MatAction",
+  "ancestors": [
+   "MatAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "UActionPause"
+ },
+ {
+  "name": "ActionWarp",
+  "size": 148,
+  "class_flags": 0,
+  "super_raw": "0x10cafed8",
+  "package": "Engine",
+  "static_class": 281742952,
+  "initializer": 276325216,
+  "internal_ctor": 271615430,
+  "super": "MatAction",
+  "ancestors": [
+   "MatAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "UActionWarp"
+ },
+ {
+  "name": "AirEmitter",
+  "size": 1232,
+  "class_flags": 0,
+  "super_raw": "0x10c935a8",
+  "package": "Engine",
+  "static_class": 281625912,
+  "initializer": 276319760,
+  "internal_ctor": 271624590,
+  "super": "Emitter",
+  "ancestors": [
+   "Emitter",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAirEmitter"
+ },
+ {
+  "name": "AmbientSound",
+  "size": 964,
+  "class_flags": 0,
+  "super_raw": "0x10b0a5e8",
+  "package": "Engine",
+  "static_class": 280087960,
+  "initializer": 276276224,
+  "internal_ctor": 271639870,
+  "super": "Keypoint",
+  "ancestors": [
+   "Keypoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAmbientSound"
+ },
+ {
+  "name": "Ammo",
+  "size": 996,
+  "class_flags": 0,
+  "super_raw": "0x10b10348",
+  "package": "Engine",
+  "static_class": 280034840,
+  "initializer": 276267264,
+  "internal_ctor": 271647005,
+  "super": "Pickup",
+  "ancestors": [
+   "Pickup",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAmmo"
+ },
+ {
+  "name": "Ammunition",
+  "size": 1052,
+  "class_flags": 2048,
+  "super_raw": "0x10b0ab18",
+  "package": "Engine",
+  "static_class": 280038824,
+  "initializer": 276267936,
+  "internal_ctor": 271607075,
+  "super": "Inventory",
+  "ancestors": [
+   "Inventory",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAmmunition"
+ },
+ {
+  "name": "AvoidMarker",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b0baa8",
+  "package": "Engine",
+  "static_class": 280076008,
+  "initializer": 276274208,
+  "internal_ctor": 271642260,
+  "super": "Triggers",
+  "ancestors": [
+   "Triggers",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAvoidMarker"
+ },
+ {
+  "name": "BaseGUIController",
+  "size": 84,
+  "class_flags": 0,
+  "super_raw": "0x10b4d6b8",
+  "package": "Engine",
+  "static_class": 280289560,
+  "initializer": 276308544,
+  "internal_ctor": 271612100,
+  "super": "Interaction",
+  "ancestors": [
+   "Interaction",
+   "Interactions",
+   "Object"
+  ],
+  "cpp": "UBaseGUIController"
+ },
+ {
+  "name": "BitmapMaterial",
+  "size": 96,
+  "class_flags": 1,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 280302664,
+  "initializer": 276310336,
+  "internal_ctor": null,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UBitmapMaterial"
+ },
+ {
+  "name": "BumpShader",
+  "size": 88,
+  "class_flags": 64,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 280338520,
+  "initializer": 276316384,
+  "internal_ctor": 271624855,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UBumpShader"
+ },
+ {
+  "name": "ClipMarker",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b0a5e8",
+  "package": "Engine",
+  "static_class": 279985704,
+  "initializer": 276258976,
+  "internal_ctor": 271630580,
+  "super": "Keypoint",
+  "ancestors": [
+   "Keypoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AClipMarker"
+ },
+ {
+  "name": "ColorModifier",
+  "size": 80,
+  "class_flags": 0,
+  "super_raw": "0x10b54d58",
+  "package": "Engine",
+  "static_class": 280307976,
+  "initializer": 276311232,
+  "internal_ctor": 271630230,
+  "super": "Modifier",
+  "ancestors": [
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UColorModifier"
+ },
+ {
+  "name": "Console",
+  "size": 288,
+  "class_flags": 4,
+  "super_raw": "0x10b4d6b8",
+  "package": "Engine",
+  "static_class": 280288232,
+  "initializer": 276308320,
+  "internal_ctor": 271603935,
+  "super": "Interaction",
+  "ancestors": [
+   "Interaction",
+   "Interactions",
+   "Object"
+  ],
+  "cpp": "UConsole"
+ },
+ {
+  "name": "ConstantMaterial",
+  "size": 68,
+  "class_flags": 0,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 280313288,
+  "initializer": 276312128,
+  "internal_ctor": 271619225,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UConstantMaterial"
+ },
+ {
+  "name": "DecorationList",
+  "size": 948,
+  "class_flags": 0,
+  "super_raw": "0x10b0a5e8",
+  "package": "Engine",
+  "static_class": 298205976,
+  "initializer": 276338576,
+  "internal_ctor": 271651615,
+  "super": "Keypoint",
+  "ancestors": [
+   "Keypoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ADecorationList"
+ },
+ {
+  "name": "DemoRecConnection",
+  "size": 16156,
+  "class_flags": 12,
+  "super_raw": "0x142ccf60",
+  "package": "Engine",
+  "static_class": 338484192,
+  "initializer": 276340416,
+  "internal_ctor": 271606945,
+  "super": "NetConnection",
+  "ancestors": [
+   "NetConnection",
+   "Player",
+   "Object"
+  ],
+  "cpp": "UDemoRecConnection"
+ },
+ {
+  "name": "Door",
+  "size": 1052,
+  "class_flags": 0,
+  "super_raw": "0x10b07738",
+  "package": "Engine",
+  "static_class": 280049448,
+  "initializer": 276269728,
+  "internal_ctor": 271618630,
+  "super": "NavigationPoint",
+  "ancestors": [
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ADoor"
+ },
+ {
+  "name": "EmitterLight",
+  "size": 1000,
+  "class_flags": 0,
+  "super_raw": "0x10b038f8",
+  "package": "Engine",
+  "static_class": 280107880,
+  "initializer": 276279584,
+  "internal_ctor": 271653840,
+  "super": "Light",
+  "ancestors": [
+   "Light",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AEmitterLight"
+ },
+ {
+  "name": "EnvCreatureManagerInfo",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280079992,
+  "initializer": 276274880,
+  "internal_ctor": 271594660,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AEnvCreatureManagerInfo"
+ },
+ {
+  "name": "FileLog",
+  "size": 952,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 278726176,
+  "initializer": 276238336,
+  "internal_ctor": 271615050,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AFileLog"
+ },
+ {
+  "name": "FinalBlend",
+  "size": 88,
+  "class_flags": 0,
+  "super_raw": "0x10b54d58",
+  "package": "Engine",
+  "static_class": 280333208,
+  "initializer": 276315488,
+  "internal_ctor": 271654275,
+  "super": "Modifier",
+  "ancestors": [
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UFinalBlend"
+ },
+ {
+  "name": "FluidSurfaceInfo",
+  "size": 1196,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280187888,
+  "initializer": 276306464,
+  "internal_ctor": 271616845,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AFluidSurfaceInfo"
+ },
+ {
+  "name": "GameInfo",
+  "size": 1476,
+  "class_flags": 4,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 279992344,
+  "initializer": 276260096,
+  "internal_ctor": 271586805,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AGameInfo"
+ },
+ {
+  "name": "GameStats",
+  "size": 948,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 278727776,
+  "initializer": 276238560,
+  "internal_ctor": 271649435,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AGameStats"
+ },
+ {
+  "name": "InternetInfo",
+  "size": 936,
+  "class_flags": 8,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280030856,
+  "initializer": 276266592,
+  "internal_ctor": 271616375,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AInternetInfo"
+ },
+ {
+  "name": "InterpolationPoint",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b0a5e8",
+  "package": "Engine",
+  "static_class": 280004296,
+  "initializer": 276262112,
+  "internal_ctor": 271627535,
+  "super": "Keypoint",
+  "ancestors": [
+   "Keypoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AInterpolationPoint"
+ },
+ {
+  "name": "JumpDest",
+  "size": 1200,
+  "class_flags": 0,
+  "super_raw": "0x10b07738",
+  "package": "Engine",
+  "static_class": 280074680,
+  "initializer": 276273984,
+  "internal_ctor": 271592180,
+  "super": "NavigationPoint",
+  "ancestors": [
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AJumpDest"
+ },
+ {
+  "name": "JumpPad",
+  "size": 1056,
+  "class_flags": 0,
+  "super_raw": "0x10b07738",
+  "package": "Engine",
+  "static_class": 280073352,
+  "initializer": 276273760,
+  "internal_ctor": 271597490,
+  "super": "NavigationPoint",
+  "ancestors": [
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AJumpPad"
+ },
+ {
+  "name": "KConstraint",
+  "size": 1076,
+  "class_flags": 0,
+  "super_raw": "0x109efb68",
+  "package": "Engine",
+  "static_class": 278839896,
+  "initializer": 276251664,
+  "internal_ctor": 271620475,
+  "super": "KActor",
+  "ancestors": [
+   "KActor",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AKConstraint"
+ },
+ {
+  "name": "KTire",
+  "size": 1096,
+  "class_flags": 0,
+  "super_raw": "0x109efb68",
+  "package": "Engine",
+  "static_class": 278855832,
+  "initializer": 276254128,
+  "internal_ctor": 271586340,
+  "super": "KActor",
+  "ancestors": [
+   "KActor",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AKTire"
+ },
+ {
+  "name": "KVehicle",
+  "size": 6132,
+  "class_flags": 4,
+  "super_raw": "0x10c94e90",
+  "package": "Engine",
+  "static_class": 278857160,
+  "initializer": 276254352,
+  "internal_ctor": 271609145,
+  "super": "Pawn",
+  "ancestors": [
+   "Pawn",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AKVehicle"
+ },
+ {
+  "name": "KarmaParamsRBFull",
+  "size": 192,
+  "class_flags": 0,
+  "super_raw": "0x109eebd8",
+  "package": "Engine",
+  "static_class": 278851848,
+  "initializer": 276253456,
+  "internal_ctor": 271605145,
+  "super": "KarmaParams",
+  "ancestors": [
+   "KarmaParams",
+   "KarmaParamsCollision",
+   "Object"
+  ],
+  "cpp": "UKarmaParamsRBFull"
+ },
+ {
+  "name": "KarmaParamsSkel",
+  "size": 212,
+  "class_flags": 0,
+  "super_raw": "0x109eebd8",
+  "package": "Engine",
+  "static_class": 278853176,
+  "initializer": 276253680,
+  "internal_ctor": 271633985,
+  "super": "KarmaParams",
+  "ancestors": [
+   "KarmaParams",
+   "KarmaParamsCollision",
+   "Object"
+  ],
+  "cpp": "UKarmaParamsSkel"
+ },
+ {
+  "name": "L2ColorModifier",
+  "size": 84,
+  "class_flags": 0,
+  "super_raw": "0x10b54d58",
+  "package": "Engine",
+  "static_class": 280309304,
+  "initializer": 276311456,
+  "internal_ctor": 271604715,
+  "super": "Modifier",
+  "ancestors": [
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UL2ColorModifier"
+ },
+ {
+  "name": "L2FogInfo",
+  "size": 1004,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 278867120,
+  "initializer": 276254800,
+  "internal_ctor": 271656090,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AL2FogInfo"
+ },
+ {
+  "name": "L2Indicator",
+  "size": 1192,
+  "class_flags": 2048,
+  "super_raw": "0x10c935a8",
+  "package": "Engine",
+  "static_class": 280099912,
+  "initializer": 276278240,
+  "internal_ctor": 271634290,
+  "super": "Emitter",
+  "ancestors": [
+   "Emitter",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AL2Indicator"
+ },
+ {
+  "name": "L2SeamlessInfo",
+  "size": 952,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280268792,
+  "initializer": 276307680,
+  "internal_ctor": 271649780,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AL2SeamlessInfo"
+ },
+ {
+  "name": "LiftCenter",
+  "size": 1064,
+  "class_flags": 0,
+  "super_raw": "0x10b07738",
+  "package": "Engine",
+  "static_class": 280024216,
+  "initializer": 276265472,
+  "internal_ctor": 271632135,
+  "super": "NavigationPoint",
+  "ancestors": [
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALiftCenter"
+ },
+ {
+  "name": "LiftExit",
+  "size": 1044,
+  "class_flags": 0,
+  "super_raw": "0x10b07738",
+  "package": "Engine",
+  "static_class": 280025544,
+  "initializer": 276265696,
+  "internal_ctor": 271606620,
+  "super": "NavigationPoint",
+  "ancestors": [
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALiftExit"
+ },
+ {
+  "name": "LineOfSightTrigger",
+  "size": 964,
+  "class_flags": 0,
+  "super_raw": "0x10b0baa8",
+  "package": "Engine",
+  "static_class": 280054760,
+  "initializer": 276270624,
+  "internal_ctor": 271647150,
+  "super": "Triggers",
+  "ancestors": [
+   "Triggers",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALineOfSightTrigger"
+ },
+ {
+  "name": "LocationInfo",
+  "size": 940,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280085304,
+  "initializer": 276275776,
+  "internal_ctor": 271636600,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALocationInfo"
+ },
+ {
+  "name": "LodMesh",
+  "size": 328,
+  "class_flags": 64,
+  "super_raw": "0x10b5db80",
+  "package": "Engine",
+  "static_class": 280299464,
+  "initializer": 276309888,
+  "internal_ctor": 271638225,
+  "super": "Mesh",
+  "ancestors": [
+   "Mesh",
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "ULodMesh"
+ },
+ {
+  "name": "LodMeshInstance",
+  "size": 136,
+  "class_flags": 8,
+  "super_raw": "0x10b5d650",
+  "package": "Engine",
+  "static_class": 280298136,
+  "initializer": 276309664,
+  "internal_ctor": 271604555,
+  "super": "MeshInstance",
+  "ancestors": [
+   "MeshInstance",
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "ULodMeshInstance"
+ },
+ {
+  "name": "LookTarget",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b0a5e8",
+  "package": "Engine",
+  "static_class": 281756232,
+  "initializer": 276327456,
+  "internal_ctor": 271635775,
+  "super": "Keypoint",
+  "ancestors": [
+   "Keypoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALookTarget"
+ },
+ {
+  "name": "MarkProjector",
+  "size": 1368,
+  "class_flags": 0,
+  "super_raw": "0x10c96688",
+  "package": "Engine",
+  "static_class": 281766808,
+  "initializer": 276328496,
+  "internal_ctor": 271585535,
+  "super": "Projector",
+  "ancestors": [
+   "Projector",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AMarkProjector"
+ },
+ {
+  "name": "MaterialSequence",
+  "size": 104,
+  "class_flags": 0,
+  "super_raw": "0x10b54d58",
+  "package": "Engine",
+  "static_class": 280335864,
+  "initializer": 276315936,
+  "internal_ctor": 271611190,
+  "super": "Modifier",
+  "ancestors": [
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UMaterialSequence"
+ },
+ {
+  "name": "MaterialSwitch",
+  "size": 88,
+  "class_flags": 0,
+  "super_raw": "0x10b54d58",
+  "package": "Engine",
+  "static_class": 280334536,
+  "initializer": 276315712,
+  "internal_ctor": 271658650,
+  "super": "Modifier",
+  "ancestors": [
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UMaterialSwitch"
+ },
+ {
+  "name": "MovableStaticMeshActor",
+  "size": 1100,
+  "class_flags": 0,
+  "super_raw": "0x10cc1378",
+  "package": "Engine",
+  "static_class": 281811112,
+  "initializer": 276334768,
+  "internal_ctor": 271653435,
+  "super": "StaticMeshActor",
+  "ancestors": [
+   "StaticMeshActor",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AMovableStaticMeshActor"
+ },
+ {
+  "name": "Mutator",
+  "size": 996,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280044136,
+  "initializer": 276268832,
+  "internal_ctor": 271616320,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AMutator"
+ },
+ {
+  "name": "NCubics",
+  "size": 1412,
+  "class_flags": 0,
+  "super_raw": "0x10c935a8",
+  "package": "Engine",
+  "static_class": 279724496,
+  "initializer": 276255392,
+  "internal_ctor": 271647850,
+  "super": "Emitter",
+  "ancestors": [
+   "Emitter",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANCubics"
+ },
+ {
+  "name": "NMovableSunLight",
+  "size": 996,
+  "class_flags": 0,
+  "super_raw": "0x10b038f8",
+  "package": "Engine",
+  "static_class": 280078664,
+  "initializer": 276274656,
+  "internal_ctor": 271592800,
+  "super": "Light",
+  "ancestors": [
+   "Light",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANMovableSunLight"
+ },
+ {
+  "name": "NProjectile",
+  "size": 1460,
+  "class_flags": 0,
+  "super_raw": "0x10c935a8",
+  "package": "Engine",
+  "static_class": 279726096,
+  "initializer": 276255616,
+  "internal_ctor": 271592805,
+  "super": "Emitter",
+  "ancestors": [
+   "Emitter",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANProjectile"
+ },
+ {
+  "name": "NpcPosInfo",
+  "size": 1024,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280086632,
+  "initializer": 276276000,
+  "internal_ctor": 271644900,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANpcPosInfo"
+ },
+ {
+  "name": "OpacityModifier",
+  "size": 80,
+  "class_flags": 0,
+  "super_raw": "0x10b54d58",
+  "package": "Engine",
+  "static_class": 280337192,
+  "initializer": 276316160,
+  "internal_ctor": 271633255,
+  "super": "Modifier",
+  "ancestors": [
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UOpacityModifier"
+ },
+ {
+  "name": "ParticleMaterial",
+  "size": 736,
+  "class_flags": 0,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 281623256,
+  "initializer": 276319312,
+  "internal_ctor": 271653270,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UParticleMaterial"
+ },
+ {
+  "name": "PathNode",
+  "size": 1032,
+  "class_flags": 0,
+  "super_raw": "0x10b07738",
+  "package": "Engine",
+  "static_class": 279998984,
+  "initializer": 276261216,
+  "internal_ctor": 271587240,
+  "super": "NavigationPoint",
+  "ancestors": [
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APathNode"
+ },
+ {
+  "name": "PlayerController",
+  "size": 2108,
+  "class_flags": 2052,
+  "super_raw": "0x10b112d8",
+  "package": "Engine",
+  "static_class": 280042808,
+  "initializer": 276268608,
+  "internal_ctor": 271642195,
+  "super": "Controller",
+  "ancestors": [
+   "Controller",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APlayerController"
+ },
+ {
+  "name": "PolyMarker",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b0a5e8",
+  "package": "Engine",
+  "static_class": 279987032,
+  "initializer": 276259200,
+  "internal_ctor": 271607675,
+  "super": "Keypoint",
+  "ancestors": [
+   "Keypoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APolyMarker"
+ },
+ {
+  "name": "PotentialClimbWatcher",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280061400,
+  "initializer": 276271744,
+  "internal_ctor": 271642520,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APotentialClimbWatcher"
+ },
+ {
+  "name": "Powerups",
+  "size": 1040,
+  "class_flags": 2048,
+  "super_raw": "0x10b0ab18",
+  "package": "Engine",
+  "static_class": 280037496,
+  "initializer": 276267712,
+  "internal_ctor": 271643455,
+  "super": "Inventory",
+  "ancestors": [
+   "Inventory",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APowerups"
+ },
+ {
+  "name": "ProjectorMaterial",
+  "size": 216,
+  "class_flags": 0,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 281635768,
+  "initializer": 276321104,
+  "internal_ctor": 271600965,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UProjectorMaterial"
+ },
+ {
+  "name": "ReplicationInfo",
+  "size": 936,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280028200,
+  "initializer": 276266144,
+  "internal_ctor": 271625145,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AReplicationInfo"
+ },
+ {
+  "name": "SavedMove",
+  "size": 980,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280022888,
+  "initializer": 276265248,
+  "internal_ctor": 271612350,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ASavedMove"
+ },
+ {
+  "name": "SceneManager",
+  "size": 1184,
+  "class_flags": 4,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 281734984,
+  "initializer": 276323872,
+  "internal_ctor": 271625085,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ASceneManager"
+ },
+ {
+  "name": "Scout",
+  "size": 6004,
+  "class_flags": 4,
+  "super_raw": "0x10c94e90",
+  "package": "Engine",
+  "static_class": 280002968,
+  "initializer": 276261888,
+  "internal_ctor": 271635810,
+  "super": "Pawn",
+  "ancestors": [
+   "Pawn",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AScout"
+ },
+ {
+  "name": "Security",
+  "size": 964,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 281763720,
+  "initializer": 276328048,
+  "internal_ctor": 271599575,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ASecurity"
+ },
+ {
+  "name": "ServerPrimitive",
+  "size": 976,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280105224,
+  "initializer": 276279136,
+  "internal_ctor": 271597870,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AServerPrimitive"
+ },
+ {
+  "name": "Shader",
+  "size": 112,
+  "class_flags": 0,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 280310632,
+  "initializer": 276311680,
+  "internal_ctor": 271622475,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UShader"
+ },
+ {
+  "name": "ShadowProjector",
+  "size": 1368,
+  "class_flags": 0,
+  "super_raw": "0x10c96688",
+  "package": "Engine",
+  "static_class": 281765480,
+  "initializer": 276328272,
+  "internal_ctor": 271612450,
+  "super": "Projector",
+  "ancestors": [
+   "Projector",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AShadowProjector"
+ },
+ {
+  "name": "SmallNavigationPoint",
+  "size": 1032,
+  "class_flags": 0,
+  "super_raw": "0x10b07738",
+  "package": "Engine",
+  "static_class": 280001640,
+  "initializer": 276261664,
+  "internal_ctor": 271634860,
+  "super": "NavigationPoint",
+  "ancestors": [
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ASmallNavigationPoint"
+ },
+ {
+  "name": "SpawnableStaticMeshActor",
+  "size": 996,
+  "class_flags": 0,
+  "super_raw": "0x10cc1378",
+  "package": "Engine",
+  "static_class": 280101240,
+  "initializer": 276278464,
+  "internal_ctor": 271590350,
+  "super": "StaticMeshActor",
+  "ancestors": [
+   "StaticMeshActor",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ASpawnableStaticMeshActor"
+ },
+ {
+  "name": "StatLog",
+  "size": 1148,
+  "class_flags": 4,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 278729384,
+  "initializer": 276238784,
+  "internal_ctor": 271591150,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AStatLog"
+ },
+ {
+  "name": "StationaryWeapons",
+  "size": 1012,
+  "class_flags": 2048,
+  "super_raw": "0x10b10348",
+  "package": "Engine",
+  "static_class": 280072024,
+  "initializer": 276273536,
+  "internal_ctor": 271591925,
+  "super": "Pickup",
+  "ancestors": [
+   "Pickup",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AStationaryWeapons"
+ },
+ {
+  "name": "SubActionCameraEffect",
+  "size": 108,
+  "class_flags": 0,
+  "super_raw": "0x10cb18c8",
+  "package": "Engine",
+  "static_class": 280146504,
+  "initializer": 276281472,
+  "internal_ctor": 271625875,
+  "super": "MatSubAction",
+  "ancestors": [
+   "MatSubAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "USubActionCameraEffect"
+ },
+ {
+  "name": "SubActionCameraShake",
+  "size": 116,
+  "class_flags": 0,
+  "super_raw": "0x10cb18c8",
+  "package": "Engine",
+  "static_class": 281750920,
+  "initializer": 276326560,
+  "internal_ctor": 271642065,
+  "super": "MatSubAction",
+  "ancestors": [
+   "MatSubAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "USubActionCameraShake"
+ },
+ {
+  "name": "SubActionFOV",
+  "size": 100,
+  "class_flags": 0,
+  "super_raw": "0x10cb18c8",
+  "package": "Engine",
+  "static_class": 281749592,
+  "initializer": 276326336,
+  "internal_ctor": 271637330,
+  "super": "MatSubAction",
+  "ancestors": [
+   "MatSubAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "USubActionFOV"
+ },
+ {
+  "name": "SubActionFade",
+  "size": 100,
+  "class_flags": 0,
+  "super_raw": "0x10cb18c8",
+  "package": "Engine",
+  "static_class": 281746936,
+  "initializer": 276325888,
+  "internal_ctor": 271658875,
+  "super": "MatSubAction",
+  "ancestors": [
+   "MatSubAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "USubActionFade"
+ },
+ {
+  "name": "SubActionGameSpeed",
+  "size": 100,
+  "class_flags": 0,
+  "super_raw": "0x10cb18c8",
+  "package": "Engine",
+  "static_class": 281753576,
+  "initializer": 276327008,
+  "internal_ctor": 271652015,
+  "super": "MatSubAction",
+  "ancestors": [
+   "MatSubAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "USubActionGameSpeed"
+ },
+ {
+  "name": "SubActionOrientation",
+  "size": 144,
+  "class_flags": 0,
+  "super_raw": "0x10cb18c8",
+  "package": "Engine",
+  "static_class": 281752248,
+  "initializer": 276326784,
+  "internal_ctor": 271641520,
+  "super": "MatSubAction",
+  "ancestors": [
+   "MatSubAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "USubActionOrientation"
+ },
+ {
+  "name": "SubActionSceneSpeed",
+  "size": 100,
+  "class_flags": 0,
+  "super_raw": "0x10cb18c8",
+  "package": "Engine",
+  "static_class": 281754904,
+  "initializer": 276327232,
+  "internal_ctor": 271601710,
+  "super": "MatSubAction",
+  "ancestors": [
+   "MatSubAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "USubActionSceneSpeed"
+ },
+ {
+  "name": "SubActionTrigger",
+  "size": 96,
+  "class_flags": 0,
+  "super_raw": "0x10cb18c8",
+  "package": "Engine",
+  "static_class": 281748264,
+  "initializer": 276326112,
+  "internal_ctor": 271597685,
+  "super": "MatSubAction",
+  "ancestors": [
+   "MatSubAction",
+   "MatObject",
+   "Object"
+  ],
+  "cpp": "USubActionTrigger"
+ },
+ {
+  "name": "SuperPointInfo",
+  "size": 992,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280106552,
+  "initializer": 276279360,
+  "internal_ctor": 271600855,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ASuperPointInfo"
+ },
+ {
+  "name": "TerrainInfo",
+  "size": 8836,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 281817376,
+  "initializer": 276335520,
+  "internal_ctor": 271646050,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ATerrainInfo"
+ },
+ {
+  "name": "TerrainMaterial",
+  "size": 88,
+  "class_flags": 0,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 281818704,
+  "initializer": 276335744,
+  "internal_ctor": 271636405,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTerrainMaterial"
+ },
+ {
+  "name": "TerritoryInfo",
+  "size": 1740,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 280083976,
+  "initializer": 276275552,
+  "internal_ctor": 271642655,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ATerritoryInfo"
+ },
+ {
+  "name": "TexCoordMaterial",
+  "size": 76,
+  "class_flags": 0,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 280306648,
+  "initializer": 276311008,
+  "internal_ctor": 271600740,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexCoordMaterial"
+ },
+ {
+  "name": "TexModifier",
+  "size": 80,
+  "class_flags": 0,
+  "super_raw": "0x10b54d58",
+  "package": "Engine",
+  "static_class": 280318600,
+  "initializer": 276313024,
+  "internal_ctor": 271623435,
+  "super": "Modifier",
+  "ancestors": [
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexModifier"
+ },
+ {
+  "name": "Trigger",
+  "size": 988,
+  "class_flags": 0,
+  "super_raw": "0x10b0baa8",
+  "package": "Engine",
+  "static_class": 280018904,
+  "initializer": 276264576,
+  "internal_ctor": 271624030,
+  "super": "Triggers",
+  "ancestors": [
+   "Triggers",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ATrigger"
+ },
+ {
+  "name": "UnderWaterEffect",
+  "size": 104,
+  "class_flags": 0,
+  "super_raw": "0x10b2bca8",
+  "package": "Engine",
+  "static_class": 280151816,
+  "initializer": 276282368,
+  "internal_ctor": 271620055,
+  "super": "MotionBlur",
+  "ancestors": [
+   "MotionBlur",
+   "CameraEffect",
+   "Object"
+  ],
+  "cpp": "UUnderWaterEffect"
+ },
+ {
+  "name": "UnderWaterMaterial",
+  "size": 76,
+  "class_flags": 0,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 280342504,
+  "initializer": 276317056,
+  "internal_ctor": 271613470,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UUnderWaterMaterial"
+ },
+ {
+  "name": "UnderWaterShader",
+  "size": 88,
+  "class_flags": 64,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 280339848,
+  "initializer": 276316608,
+  "internal_ctor": 271594800,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UUnderWaterShader"
+ },
+ {
+  "name": "Vehicle",
+  "size": 6356,
+  "class_flags": 4,
+  "super_raw": "0x10c94e90",
+  "package": "Engine",
+  "static_class": 280045464,
+  "initializer": 276269056,
+  "internal_ctor": 271599130,
+  "super": "Pawn",
+  "ancestors": [
+   "Pawn",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AVehicle"
+ },
+ {
+  "name": "VertexBuffer",
+  "size": 80,
+  "class_flags": 0,
+  "super_raw": "0x10ca3390",
+  "package": "Engine",
+  "static_class": 281693568,
+  "initializer": 276322912,
+  "internal_ctor": 271646800,
+  "super": "VertexStreamBase",
+  "ancestors": [
+   "VertexStreamBase",
+   "RenderResource",
+   "Object"
+  ],
+  "cpp": "UVertexBuffer"
+ },
+ {
+  "name": "VertexColor",
+  "size": 68,
+  "class_flags": 0,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 280331880,
+  "initializer": 276315264,
+  "internal_ctor": 271618175,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UVertexColor"
+ },
+ {
+  "name": "VertexStreamCOLOR",
+  "size": 80,
+  "class_flags": 0,
+  "super_raw": "0x10ca3390",
+  "package": "Engine",
+  "static_class": 281689584,
+  "initializer": 276322240,
+  "internal_ctor": 271659785,
+  "super": "VertexStreamBase",
+  "ancestors": [
+   "VertexStreamBase",
+   "RenderResource",
+   "Object"
+  ],
+  "cpp": "UVertexStreamCOLOR"
+ },
+ {
+  "name": "VertexStreamPosNormTex",
+  "size": 80,
+  "class_flags": 0,
+  "super_raw": "0x10ca3390",
+  "package": "Engine",
+  "static_class": 281692240,
+  "initializer": 276322688,
+  "internal_ctor": 271609360,
+  "super": "VertexStreamBase",
+  "ancestors": [
+   "VertexStreamBase",
+   "RenderResource",
+   "Object"
+  ],
+  "cpp": "UVertexStreamPosNormTex"
+ },
+ {
+  "name": "VertexStreamUV",
+  "size": 80,
+  "class_flags": 0,
+  "super_raw": "0x10ca3390",
+  "package": "Engine",
+  "static_class": 281690912,
+  "initializer": 276322464,
+  "internal_ctor": 271606020,
+  "super": "VertexStreamBase",
+  "ancestors": [
+   "VertexStreamBase",
+   "RenderResource",
+   "Object"
+  ],
+  "cpp": "UVertexStreamUV"
+ },
+ {
+  "name": "VertexStreamVECTOR",
+  "size": 80,
+  "class_flags": 0,
+  "super_raw": "0x10ca3390",
+  "package": "Engine",
+  "static_class": 281688256,
+  "initializer": 276322016,
+  "internal_ctor": 271647645,
+  "super": "VertexStreamBase",
+  "ancestors": [
+   "VertexStreamBase",
+   "RenderResource",
+   "Object"
+  ],
+  "cpp": "UVertexStreamVECTOR"
+ },
+ {
+  "name": "Volume",
+  "size": 1056,
+  "class_flags": 0,
+  "super_raw": "0x10b14188",
+  "package": "Engine",
+  "static_class": 280056088,
+  "initializer": 276270848,
+  "internal_ctor": 271590530,
+  "super": "Brush",
+  "ancestors": [
+   "Brush",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AVolume"
+ },
+ {
+  "name": "WaterHitEmitter",
+  "size": 1188,
+  "class_flags": 0,
+  "super_raw": "0x10c935a8",
+  "package": "Engine",
+  "static_class": 281624584,
+  "initializer": 276319536,
+  "internal_ctor": 271636855,
+  "super": "Emitter",
+  "ancestors": [
+   "Emitter",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AWaterHitEmitter"
+ },
+ {
+  "name": "WaterMaterial",
+  "size": 100,
+  "class_flags": 0,
+  "super_raw": "0x10b51ea8",
+  "package": "Engine",
+  "static_class": 280341176,
+  "initializer": 276316832,
+  "internal_ctor": 271589905,
+  "super": "RenderedMaterial",
+  "ancestors": [
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UWaterMaterial"
+ },
+ {
+  "name": "Weapon",
+  "size": 1244,
+  "class_flags": 2048,
+  "super_raw": "0x10b0ab18",
+  "package": "Engine",
+  "static_class": 279988360,
+  "initializer": 276259424,
+  "internal_ctor": 271614110,
+  "super": "Inventory",
+  "ancestors": [
+   "Inventory",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AWeapon"
+ },
+ {
+  "name": "WeaponAttachment",
+  "size": 952,
+  "class_flags": 2048,
+  "super_raw": "0x10b17fc8",
+  "package": "Engine",
+  "static_class": 280069368,
+  "initializer": 276273088,
+  "internal_ctor": 271619900,
+  "super": "InventoryAttachment",
+  "ancestors": [
+   "InventoryAttachment",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AWeaponAttachment"
+ },
+ {
+  "name": "ZoneInfo",
+  "size": 1188,
+  "class_flags": 0,
+  "super_raw": "0x10b0def8",
+  "package": "Engine",
+  "static_class": 279995000,
+  "initializer": 276260544,
+  "internal_ctor": 271613460,
+  "super": "Info",
+  "ancestors": [
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AZoneInfo"
+ },
+ {
+  "name": "AIMarker",
+  "size": 1036,
+  "class_flags": 0,
+  "super_raw": "0x10b07c68",
+  "package": "Engine",
+  "static_class": 280016248,
+  "initializer": 276264128,
+  "internal_ctor": 271601880,
+  "super": "SmallNavigationPoint",
+  "ancestors": [
+   "SmallNavigationPoint",
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAIMarker"
+ },
+ {
+  "name": "AirVolume",
+  "size": 1068,
+  "class_flags": 2048,
+  "super_raw": "0x10b15118",
+  "package": "Engine",
+  "static_class": 280098584,
+  "initializer": 276278016,
+  "internal_ctor": 271609930,
+  "super": "Volume",
+  "ancestors": [
+   "Volume",
+   "Brush",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAirVolume"
+ },
+ {
+  "name": "AutoDoor",
+  "size": 1052,
+  "class_flags": 0,
+  "super_raw": "0x10b13728",
+  "package": "Engine",
+  "static_class": 280065384,
+  "initializer": 276272416,
+  "internal_ctor": 271654180,
+  "super": "Door",
+  "ancestors": [
+   "Door",
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAutoDoor"
+ },
+ {
+  "name": "BlockingVolume",
+  "size": 1060,
+  "class_flags": 2048,
+  "super_raw": "0x10b15118",
+  "package": "Engine",
+  "static_class": 280062728,
+  "initializer": 276271968,
+  "internal_ctor": 271637395,
+  "super": "Volume",
+  "ancestors": [
+   "Volume",
+   "Brush",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ABlockingVolume"
+ },
+ {
+  "name": "Camera",
+  "size": 2108,
+  "class_flags": 4,
+  "super_raw": "0x10b11d38",
+  "package": "Engine",
+  "static_class": 279993672,
+  "initializer": 276260320,
+  "internal_ctor": 271598345,
+  "super": "PlayerController",
+  "ancestors": [
+   "PlayerController",
+   "Controller",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ACamera"
+ },
+ {
+  "name": "ConstantColor",
+  "size": 72,
+  "class_flags": 0,
+  "super_raw": "0x10b53dc8",
+  "package": "Engine",
+  "static_class": 280314616,
+  "initializer": 276312352,
+  "internal_ctor": 271653035,
+  "super": "ConstantMaterial",
+  "ancestors": [
+   "ConstantMaterial",
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UConstantColor"
+ },
+ {
+  "name": "FadeColor",
+  "size": 88,
+  "class_flags": 0,
+  "super_raw": "0x10b53dc8",
+  "package": "Engine",
+  "static_class": 280315944,
+  "initializer": 276312576,
+  "internal_ctor": 271621760,
+  "super": "ConstantMaterial",
+  "ancestors": [
+   "ConstantMaterial",
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UFadeColor"
+ },
+ {
+  "name": "GameReplicationInfo",
+  "size": 1136,
+  "class_flags": 2052,
+  "super_raw": "0x10b0e428",
+  "package": "Engine",
+  "static_class": 280032184,
+  "initializer": 276266816,
+  "internal_ctor": 271614345,
+  "super": "ReplicationInfo",
+  "ancestors": [
+   "ReplicationInfo",
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AGameReplicationInfo"
+ },
+ {
+  "name": "InventorySpot",
+  "size": 1036,
+  "class_flags": 0,
+  "super_raw": "0x10b07c68",
+  "package": "Engine",
+  "static_class": 280014920,
+  "initializer": 276263904,
+  "internal_ctor": 271627350,
+  "super": "SmallNavigationPoint",
+  "ancestors": [
+   "SmallNavigationPoint",
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AInventorySpot"
+ },
+ {
+  "name": "KBSJoint",
+  "size": 1076,
+  "class_flags": 0,
+  "super_raw": "0x109ec258",
+  "package": "Engine",
+  "static_class": 278841224,
+  "initializer": 276251888,
+  "internal_ctor": 271623770,
+  "super": "KConstraint",
+  "ancestors": [
+   "KConstraint",
+   "KActor",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AKBSJoint"
+ },
+ {
+  "name": "KCarWheelJoint",
+  "size": 1132,
+  "class_flags": 0,
+  "super_raw": "0x109ec258",
+  "package": "Engine",
+  "static_class": 278845208,
+  "initializer": 276252560,
+  "internal_ctor": 271638195,
+  "super": "KConstraint",
+  "ancestors": [
+   "KConstraint",
+   "KActor",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AKCarWheelJoint"
+ },
+ {
+  "name": "KConeLimit",
+  "size": 1088,
+  "class_flags": 0,
+  "super_raw": "0x109ec258",
+  "package": "Engine",
+  "static_class": 278843880,
+  "initializer": 276252336,
+  "internal_ctor": 271599995,
+  "super": "KConstraint",
+  "ancestors": [
+   "KConstraint",
+   "KActor",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AKConeLimit"
+ },
+ {
+  "name": "KHinge",
+  "size": 1116,
+  "class_flags": 0,
+  "super_raw": "0x109ec258",
+  "package": "Engine",
+  "static_class": 278842552,
+  "initializer": 276252112,
+  "internal_ctor": 271609110,
+  "super": "KConstraint",
+  "ancestors": [
+   "KConstraint",
+   "KActor",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AKHinge"
+ },
+ {
+  "name": "Ladder",
+  "size": 1040,
+  "class_flags": 0,
+  "super_raw": "0x10b07c68",
+  "package": "Engine",
+  "static_class": 280048120,
+  "initializer": 276269504,
+  "internal_ctor": 271642095,
+  "super": "SmallNavigationPoint",
+  "ancestors": [
+   "SmallNavigationPoint",
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALadder"
+ },
+ {
+  "name": "LevelInfo",
+  "size": 1604,
+  "class_flags": 2052,
+  "super_raw": "0x10b06278",
+  "package": "Engine",
+  "static_class": 279991016,
+  "initializer": 276259872,
+  "internal_ctor": 271634335,
+  "super": "ZoneInfo",
+  "ancestors": [
+   "ZoneInfo",
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALevelInfo"
+ },
+ {
+  "name": "LineagePlayerController",
+  "size": 2692,
+  "class_flags": 4,
+  "super_raw": "0x10b11d38",
+  "package": "Engine",
+  "static_class": 280081320,
+  "initializer": 276275104,
+  "internal_ctor": 271601570,
+  "super": "PlayerController",
+  "ancestors": [
+   "PlayerController",
+   "Controller",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALineagePlayerController"
+ },
+ {
+  "name": "MusicVolume",
+  "size": 1064,
+  "class_flags": 2048,
+  "super_raw": "0x10b15118",
+  "package": "Engine",
+  "static_class": 280095928,
+  "initializer": 276277568,
+  "internal_ctor": 271660880,
+  "super": "Volume",
+  "ancestors": [
+   "Volume",
+   "Brush",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AMusicVolume"
+ },
+ {
+  "name": "NSkillProjectile",
+  "size": 1476,
+  "class_flags": 0,
+  "super_raw": "0x10ac4810",
+  "package": "Engine",
+  "static_class": 279727424,
+  "initializer": 276255840,
+  "internal_ctor": 271620875,
+  "super": "NProjectile",
+  "ancestors": [
+   "NProjectile",
+   "Emitter",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ANSkillProjectile"
+ },
+ {
+  "name": "PhysicsVolume",
+  "size": 1204,
+  "class_flags": 2048,
+  "super_raw": "0x10b15118",
+  "package": "Engine",
+  "static_class": 280057416,
+  "initializer": 276271072,
+  "internal_ctor": 271604425,
+  "super": "Volume",
+  "ancestors": [
+   "Volume",
+   "Brush",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APhysicsVolume"
+ },
+ {
+  "name": "PlayerReplicationInfo",
+  "size": 1080,
+  "class_flags": 2048,
+  "super_raw": "0x10b0e428",
+  "package": "Engine",
+  "static_class": 280029528,
+  "initializer": 276266368,
+  "internal_ctor": 271590675,
+  "super": "ReplicationInfo",
+  "ancestors": [
+   "ReplicationInfo",
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APlayerReplicationInfo"
+ },
+ {
+  "name": "PlayerStart",
+  "size": 1044,
+  "class_flags": 0,
+  "super_raw": "0x10b07c68",
+  "package": "Engine",
+  "static_class": 280010936,
+  "initializer": 276263232,
+  "internal_ctor": 271657025,
+  "super": "SmallNavigationPoint",
+  "ancestors": [
+   "SmallNavigationPoint",
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "APlayerStart"
+ },
+ {
+  "name": "ProxyBitmapMaterial",
+  "size": 100,
+  "class_flags": 0,
+  "super_raw": "0x10b51448",
+  "package": "Engine",
+  "static_class": 280303992,
+  "initializer": 276310560,
+  "internal_ctor": 271618790,
+  "super": "BitmapMaterial",
+  "ancestors": [
+   "BitmapMaterial",
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UProxyBitmapMaterial"
+ },
+ {
+  "name": "ScriptedTexture",
+  "size": 116,
+  "class_flags": 0,
+  "super_raw": "0x10b51448",
+  "package": "Engine",
+  "static_class": 281762120,
+  "initializer": 276327824,
+  "internal_ctor": 271620665,
+  "super": "BitmapMaterial",
+  "ancestors": [
+   "BitmapMaterial",
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UScriptedTexture"
+ },
+ {
+  "name": "ShadowBitmapMaterial",
+  "size": 160,
+  "class_flags": 0,
+  "super_raw": "0x10b51448",
+  "package": "Engine",
+  "static_class": 281768136,
+  "initializer": 276328720,
+  "internal_ctor": 271631850,
+  "super": "BitmapMaterial",
+  "ancestors": [
+   "BitmapMaterial",
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UShadowBitmapMaterial"
+ },
+ {
+  "name": "SkeletalMesh",
+  "size": 828,
+  "class_flags": 64,
+  "super_raw": "0x10b507c8",
+  "package": "Engine",
+  "static_class": 281773104,
+  "initializer": 276329392,
+  "internal_ctor": 271602835,
+  "super": "LodMesh",
+  "ancestors": [
+   "LodMesh",
+   "Mesh",
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "USkeletalMesh"
+ },
+ {
+  "name": "SkyZoneInfo",
+  "size": 1188,
+  "class_flags": 0,
+  "super_raw": "0x10b06278",
+  "package": "Engine",
+  "static_class": 279996328,
+  "initializer": 276260768,
+  "internal_ctor": 271650145,
+  "super": "ZoneInfo",
+  "ancestors": [
+   "ZoneInfo",
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ASkyZoneInfo"
+ },
+ {
+  "name": "StatLogFile",
+  "size": 1180,
+  "class_flags": 4,
+  "super_raw": "0x109d12a8",
+  "package": "Engine",
+  "static_class": 278730712,
+  "initializer": 276239008,
+  "internal_ctor": 271587645,
+  "super": "StatLog",
+  "ancestors": [
+   "StatLog",
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AStatLogFile"
+ },
+ {
+  "name": "SubSkeletalMeshInstance",
+  "size": 324,
+  "class_flags": 8,
+  "super_raw": "0x10b50298",
+  "package": "Engine",
+  "static_class": 281795680,
+  "initializer": 276333200,
+  "internal_ctor": 271635335,
+  "super": "LodMeshInstance",
+  "ancestors": [
+   "LodMeshInstance",
+   "MeshInstance",
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "USubSkeletalMeshInstance"
+ },
+ {
+  "name": "TeamInfo",
+  "size": 1028,
+  "class_flags": 2048,
+  "super_raw": "0x10b0e428",
+  "package": "Engine",
+  "static_class": 280066712,
+  "initializer": 276272640,
+  "internal_ctor": 271592120,
+  "super": "ReplicationInfo",
+  "ancestors": [
+   "ReplicationInfo",
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ATeamInfo"
+ },
+ {
+  "name": "Teleporter",
+  "size": 1076,
+  "class_flags": 0,
+  "super_raw": "0x10b07c68",
+  "package": "Engine",
+  "static_class": 280009608,
+  "initializer": 276263008,
+  "internal_ctor": 271585565,
+  "super": "SmallNavigationPoint",
+  "ancestors": [
+   "SmallNavigationPoint",
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ATeleporter"
+ },
+ {
+  "name": "TexCoordSource",
+  "size": 84,
+  "class_flags": 0,
+  "super_raw": "0x10b55288",
+  "package": "Engine",
+  "static_class": 280330552,
+  "initializer": 276315040,
+  "internal_ctor": 271642795,
+  "super": "TexModifier",
+  "ancestors": [
+   "TexModifier",
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexCoordSource"
+ },
+ {
+  "name": "TexEnvMap",
+  "size": 84,
+  "class_flags": 0,
+  "super_raw": "0x10b55288",
+  "package": "Engine",
+  "static_class": 280327896,
+  "initializer": 276314592,
+  "internal_ctor": 271636615,
+  "super": "TexModifier",
+  "ancestors": [
+   "TexModifier",
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexEnvMap"
+ },
+ {
+  "name": "TexMatrix",
+  "size": 144,
+  "class_flags": 0,
+  "super_raw": "0x10b55288",
+  "package": "Engine",
+  "static_class": 280329224,
+  "initializer": 276314816,
+  "internal_ctor": 271640910,
+  "super": "TexModifier",
+  "ancestors": [
+   "TexModifier",
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexMatrix"
+ },
+ {
+  "name": "TexOscillator",
+  "size": 196,
+  "class_flags": 0,
+  "super_raw": "0x10b55288",
+  "package": "Engine",
+  "static_class": 280326568,
+  "initializer": 276314368,
+  "internal_ctor": 271650610,
+  "super": "TexModifier",
+  "ancestors": [
+   "TexModifier",
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexOscillator"
+ },
+ {
+  "name": "TexPanner",
+  "size": 160,
+  "class_flags": 0,
+  "super_raw": "0x10b55288",
+  "package": "Engine",
+  "static_class": 280321256,
+  "initializer": 276313472,
+  "internal_ctor": 271638905,
+  "super": "TexModifier",
+  "ancestors": [
+   "TexModifier",
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexPanner"
+ },
+ {
+  "name": "TexRotator",
+  "size": 208,
+  "class_flags": 0,
+  "super_raw": "0x10b55288",
+  "package": "Engine",
+  "static_class": 280323912,
+  "initializer": 276313920,
+  "internal_ctor": 271655245,
+  "super": "TexModifier",
+  "ancestors": [
+   "TexModifier",
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexRotator"
+ },
+ {
+  "name": "TexScaler",
+  "size": 160,
+  "class_flags": 0,
+  "super_raw": "0x10b55288",
+  "package": "Engine",
+  "static_class": 280322584,
+  "initializer": 276313696,
+  "internal_ctor": 271585725,
+  "super": "TexModifier",
+  "ancestors": [
+   "TexModifier",
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexScaler"
+ },
+ {
+  "name": "Texture",
+  "size": 216,
+  "class_flags": 64,
+  "super_raw": "0x10b51448",
+  "package": "Engine",
+  "static_class": 298191808,
+  "initializer": 276336352,
+  "internal_ctor": 271591060,
+  "super": "BitmapMaterial",
+  "ancestors": [
+   "BitmapMaterial",
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexture"
+ },
+ {
+  "name": "VertMesh",
+  "size": 628,
+  "class_flags": 64,
+  "super_raw": "0x10b507c8",
+  "package": "Engine",
+  "static_class": 298199576,
+  "initializer": 276337680,
+  "internal_ctor": 271586120,
+  "super": "LodMesh",
+  "ancestors": [
+   "LodMesh",
+   "Mesh",
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UVertMesh"
+ },
+ {
+  "name": "VertMeshInstance",
+  "size": 296,
+  "class_flags": 0,
+  "super_raw": "0x10b50298",
+  "package": "Engine",
+  "static_class": 298200904,
+  "initializer": 276337904,
+  "internal_ctor": 271599980,
+  "super": "LodMeshInstance",
+  "ancestors": [
+   "LodMeshInstance",
+   "MeshInstance",
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UVertMeshInstance"
+ },
+ {
+  "name": "WarpZoneInfo",
+  "size": 1368,
+  "class_flags": 0,
+  "super_raw": "0x10b06278",
+  "package": "Engine",
+  "static_class": 280008280,
+  "initializer": 276262784,
+  "internal_ctor": 271605280,
+  "super": "ZoneInfo",
+  "ancestors": [
+   "ZoneInfo",
+   "Info",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AWarpZoneInfo"
+ },
+ {
+  "name": "WarpZoneMarker",
+  "size": 1044,
+  "class_flags": 0,
+  "super_raw": "0x10b07c68",
+  "package": "Engine",
+  "static_class": 280020232,
+  "initializer": 276264800,
+  "internal_ctor": 271658275,
+  "super": "SmallNavigationPoint",
+  "ancestors": [
+   "SmallNavigationPoint",
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AWarpZoneMarker"
+ },
+ {
+  "name": "AutoLadder",
+  "size": 1040,
+  "class_flags": 0,
+  "super_raw": "0x10b131f8",
+  "package": "Engine",
+  "static_class": 280064056,
+  "initializer": 276272192,
+  "internal_ctor": 271643530,
+  "super": "Ladder",
+  "ancestors": [
+   "Ladder",
+   "SmallNavigationPoint",
+   "NavigationPoint",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "AAutoLadder"
+ },
+ {
+  "name": "Cubemap",
+  "size": 244,
+  "class_flags": 64,
+  "super_raw": "0x11c60bc0",
+  "package": "Engine",
+  "static_class": 298194464,
+  "initializer": 276336800,
+  "internal_ctor": 271648440,
+  "super": "Texture",
+  "ancestors": [
+   "Texture",
+   "BitmapMaterial",
+   "RenderedMaterial",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UCubemap"
+ },
+ {
+  "name": "DefaultPhysicsVolume",
+  "size": 1204,
+  "class_flags": 0,
+  "super_raw": "0x10b15648",
+  "package": "Engine",
+  "static_class": 280058744,
+  "initializer": 276271296,
+  "internal_ctor": 271624210,
+  "super": "PhysicsVolume",
+  "ancestors": [
+   "PhysicsVolume",
+   "Volume",
+   "Brush",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ADefaultPhysicsVolume"
+ },
+ {
+  "name": "LadderVolume",
+  "size": 1260,
+  "class_flags": 0,
+  "super_raw": "0x10b15648",
+  "package": "Engine",
+  "static_class": 280060072,
+  "initializer": 276271520,
+  "internal_ctor": 271623560,
+  "super": "PhysicsVolume",
+  "ancestors": [
+   "PhysicsVolume",
+   "Volume",
+   "Brush",
+   "Actor",
+   "Object"
+  ],
+  "cpp": "ALadderVolume"
+ },
+ {
+  "name": "SkeletalMeshInstance",
+  "size": 828,
+  "class_flags": 8,
+  "super_raw": "0x10cbdc60",
+  "package": "Engine",
+  "static_class": 281774432,
+  "initializer": 276329616,
+  "internal_ctor": 271640585,
+  "super": "SubSkeletalMeshInstance",
+  "ancestors": [
+   "SubSkeletalMeshInstance",
+   "LodMeshInstance",
+   "MeshInstance",
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "USkeletalMeshInstance"
+ },
+ {
+  "name": "TexOscillatorTriggered",
+  "size": 212,
+  "class_flags": 0,
+  "super_raw": "0x10b571a8",
+  "package": "Engine",
+  "static_class": 280325240,
+  "initializer": 276314144,
+  "internal_ctor": 271626715,
+  "super": "TexOscillator",
+  "ancestors": [
+   "TexOscillator",
+   "TexModifier",
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexOscillatorTriggered"
+ },
+ {
+  "name": "TexPannerTriggered",
+  "size": 176,
+  "class_flags": 0,
+  "super_raw": "0x10b55ce8",
+  "package": "Engine",
+  "static_class": 280319928,
+  "initializer": 276313280,
+  "internal_ctor": null,
+  "super": "TexPanner",
+  "ancestors": [
+   "TexPanner",
+   "TexModifier",
+   "Modifier",
+   "Material",
+   "Object"
+  ],
+  "cpp": "UTexPannerTriggered"
+ },
+ {
+  "name": "ExtraSkeletalMeshInstance",
+  "size": 840,
+  "class_flags": 8,
+  "super_raw": "0x10cb8960",
+  "package": "Engine",
+  "static_class": 281797008,
+  "initializer": 276333424,
+  "internal_ctor": 271603095,
+  "super": "SkeletalMeshInstance",
+  "ancestors": [
+   "SkeletalMeshInstance",
+   "SubSkeletalMeshInstance",
+   "LodMeshInstance",
+   "MeshInstance",
+   "Primitive",
+   "Object"
+  ],
+  "cpp": "UExtraSkeletalMeshInstance"
+ }
+]

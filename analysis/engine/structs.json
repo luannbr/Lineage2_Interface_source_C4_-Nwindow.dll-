@@ -1,0 +1,3363 @@
+{
+ "NTimeColor": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "B",
+    "type": "byte",
+    "offset": 0,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "G",
+    "type": "byte",
+    "offset": 1,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "R",
+    "type": "byte",
+    "offset": 2,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "Time",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ServerResponseLine": {
+  "size": 96,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ping",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "QueryPort",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ServerID",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "IP",
+    "type": "str",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Port",
+    "type": "int",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ServerName",
+    "type": "str",
+    "offset": 28,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "MapName",
+    "type": "str",
+    "offset": 40,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "GameType",
+    "type": "str",
+    "offset": 52,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "CurrentPlayers",
+    "type": "int",
+    "offset": 64,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MaxPlayers",
+    "type": "int",
+    "offset": 68,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "PlayerInfo",
+    "type": "array",
+    "offset": 72,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "ServerInfo",
+    "type": "array",
+    "offset": 84,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "KRigidBodyState": {
+  "size": 52,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Position",
+    "type": "struct KRBVec",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Quaternion",
+    "type": "struct Quat",
+    "offset": 12,
+    "size": 16,
+    "dim": 1
+   },
+   {
+    "name": "LinVel",
+    "type": "struct KRBVec",
+    "offset": 28,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "AngVel",
+    "type": "struct KRBVec",
+    "offset": 40,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "KRBVec": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "X",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Y",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Z",
+    "type": "float",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "L2RotatorTime": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "PitchTime",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "RollTime",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "YawTime",
+    "type": "float",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NTimeHSV": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Bri",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Sat",
+    "type": "byte",
+    "offset": 4,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "Hue",
+    "type": "byte",
+    "offset": 5,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "Time",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "SkillActionInfo": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "SpecificStage",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Action",
+    "type": "object SkillAction",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NMagicInfo": {
+  "size": 180,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Agent",
+    "type": "object SkillVisualEffect",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "DummyPtr",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MagicID",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "LevelID",
+    "type": "int",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "AniIndex",
+    "type": "int",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "FlexibleAniIndex",
+    "type": "int",
+    "offset": 20,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "StageShot",
+    "type": "int",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "StagePreshot",
+    "type": "int",
+    "offset": 28,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "SkillHitTime",
+    "type": "float",
+    "offset": 32,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ShotTime",
+    "type": "float",
+    "offset": 36,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "TweenTime",
+    "type": "float",
+    "offset": 40,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ActiveTime",
+    "type": "float",
+    "offset": 44,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "TargetPawn",
+    "type": "object Actor",
+    "offset": 48,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MagicSpeed",
+    "type": "float",
+    "offset": 52,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MagicAniStatus",
+    "type": "int",
+    "offset": 56,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MagicType",
+    "type": "int",
+    "offset": 60,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bTargetExcepted",
+    "type": "bool",
+    "offset": 64,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   },
+   {
+    "name": "nSlice",
+    "type": "int",
+    "offset": 68,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "NormalRotationRate",
+    "type": "struct Rotator",
+    "offset": 72,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "SkillRotationRate",
+    "type": "struct Rotator",
+    "offset": 84,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "AssociatedActor",
+    "type": "array",
+    "offset": 96,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "EffectActor",
+    "type": "array",
+    "offset": 108,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "EffectID",
+    "type": "array",
+    "offset": 120,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "LocLIst",
+    "type": "array",
+    "offset": 132,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Anis",
+    "type": "name",
+    "offset": 144,
+    "size": 12,
+    "dim": 3
+   },
+   {
+    "name": "AniDues",
+    "type": "float",
+    "offset": 156,
+    "size": 12,
+    "dim": 3
+   },
+   {
+    "name": "LastShotName",
+    "type": "name",
+    "offset": 168,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "PendingNotify",
+    "type": "int",
+    "offset": 172,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "PendingPreshotNotify",
+    "type": "int",
+    "offset": 176,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "HUDLocalizedMessage": {
+  "size": 64,
+  "align": 4,
+  "fields": [
+   {
+    "name": "StringFont",
+    "type": "object Font",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "YPos",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "YL",
+    "type": "float",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "numLines",
+    "type": "int",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "LifeTime",
+    "type": "float",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Message",
+    "type": "class Class",
+    "offset": 20,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Switch",
+    "type": "int",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "RelatedPRI",
+    "type": "object PlayerReplicationInfo",
+    "offset": 28,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "OptionalObject",
+    "type": "object Object",
+    "offset": 32,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "EndOfLife",
+    "type": "float",
+    "offset": 36,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bDrawing",
+    "type": "bool",
+    "offset": 40,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   },
+   {
+    "name": "StringMessage",
+    "type": "str",
+    "offset": 44,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "DrawColor",
+    "type": "struct Color",
+    "offset": 56,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "XL",
+    "type": "float",
+    "offset": 60,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "WayPoint": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "point",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Delay",
+    "type": "str",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "WhenExtinctionCreate": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "respawn",
+    "type": "str",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Name",
+    "type": "str",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "NpcPrivate": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Name",
+    "type": "name",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ai",
+    "type": "name",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Num",
+    "type": "float",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "KeyValuePair": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Key",
+    "type": "str",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Value",
+    "type": "str",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "ProjectorRenderInfoPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "Orientation": {
+  "size": 52,
+  "align": 4,
+  "fields": [
+   {
+    "name": "StartingRotation",
+    "type": "struct Rotator",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "PctInDuration",
+    "type": "float",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "PctInEnd",
+    "type": "float",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "PctInStart",
+    "type": "float",
+    "offset": 20,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MA",
+    "type": "int",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bReverseRoll",
+    "type": "int",
+    "offset": 28,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bReverseYaw",
+    "type": "int",
+    "offset": 32,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bReversePitch",
+    "type": "int",
+    "offset": 36,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "EaseIntime",
+    "type": "float",
+    "offset": 40,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "LookAt",
+    "type": "object Actor",
+    "offset": 44,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "CamOrientation",
+    "type": "byte",
+    "offset": 48,
+    "size": 1,
+    "dim": 1
+   }
+  ]
+ },
+ "RibbonPoint": {
+  "size": 52,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Width",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MovingDirectionUnder",
+    "type": "struct Vector",
+    "offset": 4,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "MovingDirection",
+    "type": "struct Vector",
+    "offset": 16,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "LocationUnder",
+    "type": "struct Vector",
+    "offset": 28,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Location",
+    "type": "struct Vector",
+    "offset": 40,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleBeamScale": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "RelativeLength",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "FrequencyScale",
+    "type": "struct Vector",
+    "offset": 4,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "NTimeScale": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Scale",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Time",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "PointRegion": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "ZoneNumber",
+    "type": "byte",
+    "offset": 0,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "iLeaf",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Zone",
+    "type": "object ZoneInfo",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "VoiceChatterInfo": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Controller",
+    "type": "object Controller",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "IpAddr",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Handle",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "AnywhereNpcMaker": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Npc",
+    "type": "array",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "maximum_npc",
+    "type": "int",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "inital_spawn",
+    "type": "byte",
+    "offset": 16,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "bGroup",
+    "type": "bool",
+    "offset": 20,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   }
+  ]
+ },
+ "AnywhereNpc": {
+  "size": 88,
+  "align": 4,
+  "fields": [
+   {
+    "name": "WayPoints",
+    "type": "array",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "bWayPointsShow",
+    "type": "bool",
+    "offset": 12,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   },
+   {
+    "name": "when_extinction_create",
+    "type": "struct WhenExtinctionCreate",
+    "offset": 16,
+    "size": 24,
+    "dim": 1
+   },
+   {
+    "name": "Privates",
+    "type": "array",
+    "offset": 40,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "ai",
+    "type": "name",
+    "offset": 52,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "nickname",
+    "type": "str",
+    "offset": 56,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "respawn",
+    "type": "str",
+    "offset": 68,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "total",
+    "type": "int",
+    "offset": 80,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "NpcName",
+    "type": "name",
+    "offset": 84,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "MaterialSequenceItem": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Action",
+    "type": "byte",
+    "offset": 0,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "Time",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Material",
+    "type": "object Material",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleProjectorInfo": {
+  "size": 76,
+  "align": 4,
+  "fields": [
+   {
+    "name": "BlendMode",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Projected",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Matrix",
+    "type": "struct Matrix",
+    "offset": 8,
+    "size": 64,
+    "dim": 1
+   },
+   {
+    "name": "BitmapMaterial",
+    "type": "object BitmapMaterial",
+    "offset": 72,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "TerrainMaterialLayer": {
+  "size": 72,
+  "align": 4,
+  "fields": [
+   {
+    "name": "TextureMatrix",
+    "type": "struct Matrix",
+    "offset": 0,
+    "size": 64,
+    "dim": 1
+   },
+   {
+    "name": "AlphaWeight",
+    "type": "object BitmapMaterial",
+    "offset": 64,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Texture",
+    "type": "object Material",
+    "offset": 68,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NpcPos": {
+  "size": 20,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Percent",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Delta",
+    "type": "struct Vector",
+    "offset": 4,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Yaw",
+    "type": "int",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleBeamEndPoint": {
+  "size": 32,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Weight",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "offset",
+    "type": "struct RangeVector",
+    "offset": 4,
+    "size": 24,
+    "dim": 1
+   },
+   {
+    "name": "ActorTag",
+    "type": "name",
+    "offset": 28,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleBeamData": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "t",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Location",
+    "type": "struct Vector",
+    "offset": 4,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleSparkData": {
+  "size": 32,
+  "align": 4,
+  "fields": [
+   {
+    "name": "StartVelocity",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "StartLocation",
+    "type": "struct Vector",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "TimeBetweenSegments",
+    "type": "float",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "TimeBeforeVisible",
+    "type": "float",
+    "offset": 28,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleTrailInfo": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "PreDestroyTrailNum",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "LastLocation",
+    "type": "struct Vector",
+    "offset": 4,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "NumPoints",
+    "type": "int",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "TrailIndex",
+    "type": "int",
+    "offset": 20,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleTrailData": {
+  "size": 28,
+  "align": 4,
+  "fields": [
+   {
+    "name": "DoubleDummy2",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "DoubleDummy1",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Size",
+    "type": "float",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Color",
+    "type": "struct Color",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Location",
+    "type": "struct Vector",
+    "offset": 16,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleSound": {
+  "size": 40,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Probability",
+    "type": "struct Range",
+    "offset": 0,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "Volume",
+    "type": "struct Range",
+    "offset": 8,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "Weight",
+    "type": "int",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Pitch",
+    "type": "struct Range",
+    "offset": 20,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "Radius",
+    "type": "struct Range",
+    "offset": 28,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "Sound",
+    "type": "object Sound",
+    "offset": 36,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "Particle": {
+  "size": 224,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Acceleration",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Rotation",
+    "type": "struct Rotator",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "BoneIndex",
+    "type": "int",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Subdivision",
+    "type": "int",
+    "offset": 28,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "flags",
+    "type": "int",
+    "offset": 32,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "HitCount",
+    "type": "int",
+    "offset": 36,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Mass",
+    "type": "float",
+    "offset": 40,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MaxLifetime",
+    "type": "float",
+    "offset": 44,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Time",
+    "type": "float",
+    "offset": 48,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Color",
+    "type": "struct Color",
+    "offset": 52,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "OldMeshLocation",
+    "type": "struct Vector",
+    "offset": 56,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "VelocityMultiplier",
+    "type": "struct Vector",
+    "offset": 68,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "ColorMultiplier",
+    "type": "struct Vector",
+    "offset": 80,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "StartLocation",
+    "type": "struct Vector",
+    "offset": 92,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Size",
+    "type": "struct Vector",
+    "offset": 104,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "RevolutionsMultiplier",
+    "type": "struct Vector",
+    "offset": 116,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "RevolutionsPerSecond",
+    "type": "struct Vector",
+    "offset": 128,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "RevolutionCenter",
+    "type": "struct Vector",
+    "offset": 140,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "StartSpin",
+    "type": "struct Vector",
+    "offset": 152,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "SpinsPerSecond",
+    "type": "struct Vector",
+    "offset": 164,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "StartSize",
+    "type": "struct Vector",
+    "offset": 176,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Velocity",
+    "type": "struct Vector",
+    "offset": 188,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "OldLocation",
+    "type": "struct Vector",
+    "offset": 200,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Location",
+    "type": "struct Vector",
+    "offset": 212,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleVelocityScale": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "RelativeVelocity",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "RelativeTime",
+    "type": "float",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleColorScale": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Color",
+    "type": "struct Color",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "RelativeTime",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleRevolutionScale": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "RelativeRevolution",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "RelativeTime",
+    "type": "float",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ParticleTimeScale": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "RelativeSize",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "RelativeTime",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ServerLineStruct": {
+  "size": 52,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Color",
+    "type": "struct Plane",
+    "offset": 0,
+    "size": 16,
+    "dim": 1
+   },
+   {
+    "name": "End",
+    "type": "struct Vector",
+    "offset": 16,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Start",
+    "type": "struct Vector",
+    "offset": 28,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Name",
+    "type": "str",
+    "offset": 40,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "ServerPointStruct": {
+  "size": 40,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Color",
+    "type": "struct Plane",
+    "offset": 0,
+    "size": 16,
+    "dim": 1
+   },
+   {
+    "name": "Name",
+    "type": "str",
+    "offset": 16,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "point",
+    "type": "struct Vector",
+    "offset": 28,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "NMoverTarget": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Target",
+    "type": "object Actor",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Loc",
+    "type": "struct Vector",
+    "offset": 4,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "bOwnedTarget",
+    "type": "int",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bTarget",
+    "type": "int",
+    "offset": 20,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ConsoleMessage": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "PRI",
+    "type": "object PlayerReplicationInfo",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MessageLife",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "TextColor",
+    "type": "struct Color",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Text",
+    "type": "str",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "URL": {
+  "size": 68,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Protocol",
+    "type": "str",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Host",
+    "type": "str",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Port",
+    "type": "int",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Map",
+    "type": "str",
+    "offset": 28,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Op",
+    "type": "array",
+    "offset": 40,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Portal",
+    "type": "str",
+    "offset": 52,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Valid",
+    "type": "int",
+    "offset": 64,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "FWind": {
+  "size": 60,
+  "align": 4,
+  "fields": [
+   {
+    "name": "LifeTime",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Area",
+    "type": "struct Box",
+    "offset": 4,
+    "size": 28,
+    "dim": 1
+   },
+   {
+    "name": "Direction",
+    "type": "struct Vector",
+    "offset": 32,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Force",
+    "type": "float",
+    "offset": 44,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Speed",
+    "type": "float",
+    "offset": 48,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "AccelSpeed",
+    "type": "float",
+    "offset": 52,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "DeltaSeconds",
+    "type": "float",
+    "offset": 56,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "ActorRenderDataPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "LightRenderDataPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "L2Event": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "EventID",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "EventCmd",
+    "type": "byte",
+    "offset": 4,
+    "size": 1,
+    "dim": 1
+   }
+  ]
+ },
+ "L2EnvironmentColorInfo": {
+  "size": 36,
+  "align": 4,
+  "fields": [
+   {
+    "name": "FogColor",
+    "type": "struct Color",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Time",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "SkyColor",
+    "type": "struct Color",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "CloudColor",
+    "type": "array",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "HazeRingColor",
+    "type": "array",
+    "offset": 24,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "NViewShakeMgrPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NViewShakePtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "Interpolator": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "_acceleration",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "_speed",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "_totalTime",
+    "type": "float",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "_remainingTime",
+    "type": "float",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "_value",
+    "type": "float",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bDone",
+    "type": "int",
+    "offset": 20,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "StaticMeshProjectorRenderInfoPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NMoverPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "AnimRep": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "AnimSequence",
+    "type": "name",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bAnimLoop",
+    "type": "bool",
+    "offset": 4,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   },
+   {
+    "name": "AnimFrame",
+    "type": "byte",
+    "offset": 8,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "TweenRate",
+    "type": "byte",
+    "offset": 9,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "AnimRate",
+    "type": "byte",
+    "offset": 10,
+    "size": 1,
+    "dim": 1
+   }
+  ]
+ },
+ "TextureModifyinfo": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "bUseModify",
+    "type": "bool",
+    "offset": 0,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   },
+   {
+    "name": "bTwoSide",
+    "type": "bool",
+    "offset": 0,
+    "size": 4,
+    "dim": 1,
+    "bit": 1
+   },
+   {
+    "name": "bAlphaBlend",
+    "type": "bool",
+    "offset": 0,
+    "size": 4,
+    "dim": 1,
+    "bit": 2
+   },
+   {
+    "name": "bDummy",
+    "type": "bool",
+    "offset": 0,
+    "size": 4,
+    "dim": 1,
+    "bit": 3
+   },
+   {
+    "name": "Color",
+    "type": "struct Color",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "AlphaOp",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ColorOp",
+    "type": "int",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "TerrainIntensityMap": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Intensity",
+    "type": "array",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Time",
+    "type": "float",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "DecorationLayerData": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Sectors",
+    "type": "array",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "DecoSectorInfo": {
+  "size": 32,
+  "align": 4,
+  "fields": [
+   {
+    "name": "bDecoGenerated",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Radius",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Location",
+    "type": "struct Vector",
+    "offset": 8,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "DecoInfo",
+    "type": "array",
+    "offset": 20,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "DecoInfo": {
+  "size": 80,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Accel",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Speed",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "VertexPos",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "OrigRotation",
+    "type": "struct Rotator",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Distance",
+    "type": "int",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Color",
+    "type": "struct Color",
+    "offset": 28,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "TempScale",
+    "type": "struct Vector",
+    "offset": 32,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Scale",
+    "type": "struct Vector",
+    "offset": 44,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Rotation",
+    "type": "struct Rotator",
+    "offset": 56,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Location",
+    "type": "struct Vector",
+    "offset": 68,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "DecorationLayer": {
+  "size": 96,
+  "align": 4,
+  "fields": [
+   {
+    "name": "bForceRender",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "RandomYaw",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "DisregardTerrainLighting",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "LitDirectional",
+    "type": "int",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ShowOnInvisibleTerrain",
+    "type": "int",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "DrawOrder",
+    "type": "byte",
+    "offset": 20,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "AlignToTerrain",
+    "type": "int",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Seed",
+    "type": "int",
+    "offset": 28,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MaxPerQuad",
+    "type": "int",
+    "offset": 32,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "DensityMultiplier",
+    "type": "struct Range",
+    "offset": 36,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "FadeoutRadius",
+    "type": "struct Range",
+    "offset": 44,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "ScaleMultiplier",
+    "type": "struct RangeVector",
+    "offset": 52,
+    "size": 24,
+    "dim": 1
+   },
+   {
+    "name": "StaticMesh",
+    "type": "object StaticMesh",
+    "offset": 76,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ColorMap",
+    "type": "object Texture",
+    "offset": 80,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "DensityMap",
+    "type": "object Texture",
+    "offset": 84,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ScaleMap",
+    "type": "object Texture",
+    "offset": 88,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ShowOnTerrain",
+    "type": "int",
+    "offset": 92,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "STest": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "i",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "b3",
+    "type": "bool",
+    "offset": 4,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   },
+   {
+    "name": "b2",
+    "type": "bool",
+    "offset": 4,
+    "size": 4,
+    "dim": 1,
+    "bit": 1
+   },
+   {
+    "name": "b1",
+    "type": "bool",
+    "offset": 4,
+    "size": 4,
+    "dim": 1,
+    "bit": 2
+   }
+  ]
+ },
+ "TerrainLayer": {
+  "size": 232,
+  "align": 4,
+  "fields": [
+   {
+    "name": "bUseAlpha",
+    "type": "bool",
+    "offset": 0,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   },
+   {
+    "name": "ToMaskmap",
+    "type": "struct Vector",
+    "offset": 4,
+    "size": 48,
+    "dim": 4
+   },
+   {
+    "name": "ToWorld",
+    "type": "struct Vector",
+    "offset": 52,
+    "size": 48,
+    "dim": 4
+   },
+   {
+    "name": "Scale",
+    "type": "struct Vector",
+    "offset": 100,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "LayerWeightMap",
+    "type": "object Texture",
+    "offset": 112,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "KRestitution",
+    "type": "float",
+    "offset": 116,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "KFriction",
+    "type": "float",
+    "offset": 120,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "TerrainMatrix",
+    "type": "struct Matrix",
+    "offset": 124,
+    "size": 64,
+    "dim": 1
+   },
+   {
+    "name": "LayerRotation",
+    "type": "struct Rotator",
+    "offset": 188,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "TextureRotation",
+    "type": "float",
+    "offset": 200,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "TextureMapAxis",
+    "type": "byte",
+    "offset": 204,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "VPan",
+    "type": "float",
+    "offset": 208,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "UPan",
+    "type": "float",
+    "offset": 212,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "VScale",
+    "type": "float",
+    "offset": 216,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "UScale",
+    "type": "float",
+    "offset": 220,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "AlphaMap",
+    "type": "object Texture",
+    "offset": 224,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Texture",
+    "type": "object Material",
+    "offset": 228,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NormalPair": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Normal2",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Normal1",
+    "type": "struct Vector",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "AccessoryType": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Depth",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Mesh",
+    "type": "object StaticMesh",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NActionPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "PlayerResponseLine": {
+  "size": 44,
+  "align": 4,
+  "fields": [
+   {
+    "name": "PlayerInfo",
+    "type": "array",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "StatsID",
+    "type": "int",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "PlayerID",
+    "type": "int",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "PlayerNum",
+    "type": "int",
+    "offset": 20,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "PlayerName",
+    "type": "str",
+    "offset": 24,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Ping",
+    "type": "int",
+    "offset": 36,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Score",
+    "type": "int",
+    "offset": 40,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NAttackActionParam": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Damage",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bMiss",
+    "type": "bool",
+    "offset": 4,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   },
+   {
+    "name": "bCritical",
+    "type": "bool",
+    "offset": 4,
+    "size": 4,
+    "dim": 1,
+    "bit": 1
+   },
+   {
+    "name": "bShieldDefense",
+    "type": "bool",
+    "offset": 4,
+    "size": 4,
+    "dim": 1,
+    "bit": 2
+   },
+   {
+    "name": "bSpirit",
+    "type": "bool",
+    "offset": 4,
+    "size": 4,
+    "dim": 1,
+    "bit": 3
+   },
+   {
+    "name": "SoulshotGrade",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ActionTarget",
+    "type": "object Actor",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NPrimeActionParam": {
+  "size": 40,
+  "align": 4,
+  "fields": [
+   {
+    "name": "ActionID",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Damage",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bMiss",
+    "type": "bool",
+    "offset": 8,
+    "size": 4,
+    "dim": 1,
+    "bit": 0
+   },
+   {
+    "name": "bCritical",
+    "type": "bool",
+    "offset": 8,
+    "size": 4,
+    "dim": 1,
+    "bit": 1
+   },
+   {
+    "name": "bShieldDefense",
+    "type": "bool",
+    "offset": 8,
+    "size": 4,
+    "dim": 1,
+    "bit": 2
+   },
+   {
+    "name": "bSpirit",
+    "type": "bool",
+    "offset": 8,
+    "size": 4,
+    "dim": 1,
+    "bit": 3
+   },
+   {
+    "name": "SoulshotGrade",
+    "type": "int",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "ActionTarget",
+    "type": "object Actor",
+    "offset": 16,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "MaxAtkShotNum",
+    "type": "int",
+    "offset": 20,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "CurAtkShotNum",
+    "type": "int",
+    "offset": 24,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "NAssociatedAttackParam",
+    "type": "array",
+    "offset": 28,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "NAtkConsumeItemParam": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "BowItemID",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "BowUseItemID",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NSilhouetteParam": {
+  "size": 4,
+  "align": 1,
+  "fields": [
+   {
+    "name": "Type",
+    "type": "byte",
+    "offset": 0,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "R",
+    "type": "byte",
+    "offset": 1,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "G",
+    "type": "byte",
+    "offset": 2,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "B",
+    "type": "byte",
+    "offset": 3,
+    "size": 1,
+    "dim": 1
+   }
+  ]
+ },
+ "DecorationType": {
+  "size": 36,
+  "align": 4,
+  "fields": [
+   {
+    "name": "bRandomRoll",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bRandomYaw",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bRandomPitch",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "bAlign",
+    "type": "int",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "DrawScale",
+    "type": "struct Range",
+    "offset": 16,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "Count",
+    "type": "struct Range",
+    "offset": 24,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "StaticMesh",
+    "type": "object StaticMesh",
+    "offset": 32,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NWeaponEffectPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NAppendixEffectPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NAbnormalStatPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "NPawnLightPtr": {
+  "size": 4,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Ptr",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "Vector": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "X",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Y",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Z",
+    "type": "float",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "Rotator": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Pitch",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Yaw",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Roll",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "Quat": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "X",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Y",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Z",
+    "type": "float",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "W",
+    "type": "float",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "Plane": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "W",
+    "type": "float",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "InterpCurve": {
+  "size": 12,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Points",
+    "type": "array",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "Range": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Min",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "Max",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "Box": {
+  "size": 28,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Min",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Max",
+    "type": "struct Vector",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "IsValid",
+    "type": "byte",
+    "offset": 24,
+    "size": 1,
+    "dim": 1
+   }
+  ]
+ },
+ "InterpCurvePoint": {
+  "size": 8,
+  "align": 4,
+  "fields": [
+   {
+    "name": "InVal",
+    "type": "float",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "OutVal",
+    "type": "float",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ },
+ "CompressedPosition": {
+  "size": 36,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Location",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Rotation",
+    "type": "struct Rotator",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "Velocity",
+    "type": "struct Vector",
+    "offset": 24,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "Matrix": {
+  "size": 64,
+  "align": 4,
+  "fields": [
+   {
+    "name": "XPlane",
+    "type": "struct Plane",
+    "offset": 0,
+    "size": 16,
+    "dim": 1
+   },
+   {
+    "name": "YPlane",
+    "type": "struct Plane",
+    "offset": 16,
+    "size": 16,
+    "dim": 1
+   },
+   {
+    "name": "ZPlane",
+    "type": "struct Plane",
+    "offset": 32,
+    "size": 16,
+    "dim": 1
+   },
+   {
+    "name": "WPlane",
+    "type": "struct Plane",
+    "offset": 48,
+    "size": 16,
+    "dim": 1
+   }
+  ]
+ },
+ "BoundingVolume": {
+  "size": 44,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Sphere",
+    "type": "struct Plane",
+    "offset": 28,
+    "size": 16,
+    "dim": 1
+   }
+  ]
+ },
+ "Color": {
+  "size": 4,
+  "align": 1,
+  "fields": [
+   {
+    "name": "B",
+    "type": "byte",
+    "offset": 0,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "G",
+    "type": "byte",
+    "offset": 1,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "R",
+    "type": "byte",
+    "offset": 2,
+    "size": 1,
+    "dim": 1
+   },
+   {
+    "name": "A",
+    "type": "byte",
+    "offset": 3,
+    "size": 1,
+    "dim": 1
+   }
+  ]
+ },
+ "Scale": {
+  "size": 20,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Scale",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "SheerRate",
+    "type": "float",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "SheerAxis",
+    "type": "byte",
+    "offset": 16,
+    "size": 1,
+    "dim": 1
+   }
+  ]
+ },
+ "RangeVector": {
+  "size": 24,
+  "align": 4,
+  "fields": [
+   {
+    "name": "X",
+    "type": "struct Range",
+    "offset": 0,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "Y",
+    "type": "struct Range",
+    "offset": 8,
+    "size": 8,
+    "dim": 1
+   },
+   {
+    "name": "Z",
+    "type": "struct Range",
+    "offset": 16,
+    "size": 8,
+    "dim": 1
+   }
+  ]
+ },
+ "Coords": {
+  "size": 48,
+  "align": 4,
+  "fields": [
+   {
+    "name": "Origin",
+    "type": "struct Vector",
+    "offset": 0,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "XAxis",
+    "type": "struct Vector",
+    "offset": 12,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "YAxis",
+    "type": "struct Vector",
+    "offset": 24,
+    "size": 12,
+    "dim": 1
+   },
+   {
+    "name": "ZAxis",
+    "type": "struct Vector",
+    "offset": 36,
+    "size": 12,
+    "dim": 1
+   }
+  ]
+ },
+ "Guid": {
+  "size": 16,
+  "align": 4,
+  "fields": [
+   {
+    "name": "A",
+    "type": "int",
+    "offset": 0,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "B",
+    "type": "int",
+    "offset": 4,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "C",
+    "type": "int",
+    "offset": 8,
+    "size": 4,
+    "dim": 1
+   },
+   {
+    "name": "D",
+    "type": "int",
+    "offset": 12,
+    "size": 4,
+    "dim": 1
+   }
+  ]
+ }
+}

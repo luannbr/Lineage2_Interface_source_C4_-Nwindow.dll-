@@ -1,0 +1,93 @@
+class,ours,stock,functions,header_field,examples
+NCCandidateBox,c8,f8,1,NCCandidateBox.PageSize,"NCCandidateBox(INT A, INT B)"
+NCChatWnd,b4,b0,1,(other object) NCWnd.AnchorType (INT)|NViewItemData.MAtk (INT),OnTabSelected
+NCEditBox,238,244,1,NCEditBox.Left,KillFocus
+NCGDevice,30,4c,1,NCGDevice.OriginY,DrawLine
+NCInventoryWnd,10c,1798,1,(other object) NCActionItemWnd._Unknown10C (BYTE)|NCCandidateBox.MarginX (INT)|NCChatWnd._Unknown10C (BYTE)|NCConsole.StoreWnd (NCStoreWnd*),UpdateItem
+NCListBox,1f4,1f8,1,NCListBox.ScrollBar,InitScrollBar
+NCMacroArrayWnd,140,130,1,(other object) NCActionItemWnd.IconSize (INT)|NCConsole.TrainWnd (NCTrainWnd*)|NCEquipItemWnd.bHasUnknown1C98 (UBOOL)|NCHtmlViewer.CreateHeight (INT),OnDialogResult
+NCMacroArrayWnd,3968,12c,1,(other object) NConsoleWnd.Desktop (NCWnd*),OnDialogResult
+NCMacroListWnd,cc,e8,1,(other object) L2WordWrapperWnd.ConvertedCount (INT)|NCActionItemListWnd.PartyGrid (NCActionItemWnd*)|NCActionWnd.ActionList (NCActionItemListWnd*)|NCAnnounceWnd.OKButton (NCButton*),OnNew
+NCMacroListWnd,fc,cc,1,(other object) NCAbnormalStatusWnd.HoverIndex (INT)|NCChatFilterWnd.BackTex (UTexture*)|NCChatWnd.IMECn3Tex (UTexture*)|NCConsole.InventoryWnd (NCInventoryWnd*),OnNew
+NCMacroListWnd,3968,130,1,(other object) NConsoleWnd.Desktop (NCWnd*),OnNew
+NCMultiEdit,25c,22c,1,NCMultiEdit.ScrollBar,InitScrollBar
+NCPawnCreateWnd,12c,128,1,NCPawnCreateWnd.ZoomInButton,OnZoom
+NCPawnCreateWnd,130,12c,1,NCPawnCreateWnd.ZoomOutButton,OnZoom
+NCPawnCreateWnd,1e8,c8,1,(other object) NCButton.ToolTipTex (UTexture*)|NCChatWnd.Parser (NCommandParser)|NCComboBox.MidTex (UTexture*)|NCConsole.NewWnd198 (NCWnd*),OnZoom
+NCPawnViewr_HairChangeWnd,70c,708,1,(other object) NItemEntry.Description (TCHAR)|NCPawnViewrWnd.CharSelectWnd (NCPawnView_CharacterSelectWnd*)|NCPledgeWnd.InviteButton (NCButton*),OnFace
+NCPawnViewr_MixAnimWnd,d4,208,1,(other object) L2WordWrapperWnd.Document (NStlWString)|NCAbnormalStatusWnd.TimerID (INT)|NCActionItemListWnd.BackTex (UTexture*)|NCActionItemWnd._UnknownA4 (BYTE),OnTake1
+NCPawnViewr_MixAnimWnd,d8,208,1,(other object) NCAbnormalStatusWnd.BackTex (UTexture*)|NCAuthWnd.BackTex (UTexture*)|NCAutoLogWnd.TextX (INT)|NCCandidateBox.LeftDisable2 (UTexture*),OnTake2
+NCPawnViewr_MixAnimWnd,dc,208,1,(other object) NCAbnormalStatusWnd.Frame1Tex (UTexture*)|NCAudioOptionWnd._UnknownTailDC (BYTE)|NCAuthWnd.AccountEdit (NCEditBox*)|NCAutoLogWnd.TextY (INT),OnTake3
+NCPawnViewr_MixAnimWnd,70c,708,3,(other object) NItemEntry.Description (TCHAR)|NCPawnViewrWnd.CharSelectWnd (NCPawnView_CharacterSelectWnd*)|NCPledgeWnd.InviteButton (NCButton*),"OnTake1,OnTake2,OnTake3"
+NCPetInventoryWnd,cc,1714,1,(other object) L2WordWrapperWnd.ConvertedCount (INT)|NCActionItemListWnd.PartyGrid (NCActionItemWnd*)|NCActionWnd.ActionList (NCActionItemListWnd*)|NCAnnounceWnd.OKButton (NCButton*),UpdateItem
+NCPetInventoryWnd,1714,cc,1,(other object) NItemInfo.ObjectID (INT),UpdateItem
+NCScrollWnd,cc,d0,1,NCScrollWnd.ScrollY,OnScrollBar
+NCSelectDeliverWnd,cc,27c,1,NCSelectDeliverWnd.TargetCombo,AddTarget
+NCStoreWnd,cc,f0,1,(other object) L2WordWrapperWnd.ConvertedCount (INT)|NCActionItemListWnd.PartyGrid (NCActionItemWnd*)|NCActionWnd.ActionList (NCActionItemListWnd*)|NCAnnounceWnd.OKButton (NCButton*),SetMode
+NCTrainInfoWnd,140,13c,1,(other object) NCActionItemWnd.IconSize (INT)|NCConsole.TrainWnd (NCTrainWnd*)|NCEquipItemWnd.bHasUnknown1C98 (UBOOL)|NCHtmlViewer.CreateHeight (INT),OnList
+NCTreeCtrl,c8,cc,1,NCScrollWnd.ScrollX,OnMouseWheel
+NCTreeCtrl,c8,f4,1,NCScrollWnd.ScrollX,OnMouseWheel
+NCTreeCtrl,cc,e0,1,NCScrollWnd.ScrollY,ScrollDown
+NCTreeCtrl,d4,cc,2,NCScrollWnd.DeltaY,"OnMouseWheel,ScrollDown"
+NCTreeCtrl,dc,f4,1,NCScrollWnd.LineStep,ScrollDown
+NCTreeCtrl,dc,cc,1,NCScrollWnd.LineStep,ScrollUp
+NCTreeCtrl,e0,dc,1,NCScrollWnd.MinScrollY,OnMouseWheel
+NCTreeCtrl,e0,cc,1,NCScrollWnd.MinScrollY,ScrollDown
+NCTreeCtrl,f4,cc,1,NCScrollWnd.ScrollBar,ScrollUp
+NCTreeCtrl,100,cc,1,NCTreeCtrl.Tree,ScrollDown
+NCTreeCtrl,100,d0,1,NCTreeCtrl.Tree,ScrollUp
+NCTreeCtrl,1e8,1f0,4,(other object) NCButton.ToolTipTex (UTexture*)|NCChatWnd.Parser (NCommandParser)|NCComboBox.MidTex (UTexture*)|NCConsole.NewWnd198 (NCWnd*),"OnMouseWheel,OnScrollBar,ScrollDown,ScrollUp"
+NCVideoOptionWnd,78,74,1,(other object) NCWnd.Unknown78 (INT)|NDropDialogInfo.Location (FVector)|NMacroEntry.Lines (NMacroLine)|UClient.Gamma (FLOAT),OnResolutionChanged
+NConsoleWnd,28,1808,3,(other object) NChatFilter.bUseItems (UBOOL)|NChatLimiter.Limit28 (INT)|NCCoolTimeIcon.StartTime (DOUBLE)|NCGDevice.Canvas (UCanvas*),"AddRecipeBookItem,AddRecipeShopManageItem,AddRecipeShopRegisterdItem"
+NConsoleWnd,2c,6c,1,(other object) NChatLimiter.Factor2C (FLOAT)|NCGDevice.OriginX (INT)|NCVirtualWndMain.NumWindows (DWORD)|NToolTipInfo.Type (INT),RequestAssist
+NConsoleWnd,2c,3f0,1,(other object) NChatLimiter.Factor2C (FLOAT)|NCGDevice.OriginX (INT)|NCVirtualWndMain.NumWindows (DWORD)|NToolTipInfo.Type (INT),AssistMember
+NConsoleWnd,2c,30,1,(other object) NChatLimiter.Factor2C (FLOAT)|NCGDevice.OriginX (INT)|NCVirtualWndMain.NumWindows (DWORD)|NToolTipInfo.Type (INT),RequestPickUp
+NConsoleWnd,2c,54,1,(other object) NChatLimiter.Factor2C (FLOAT)|NCGDevice.OriginX (INT)|NCVirtualWndMain.NumWindows (DWORD)|NToolTipInfo.Type (INT),TargetMyself
+NConsoleWnd,2c,48,1,(other object) NChatLimiter.Factor2C (FLOAT)|NCGDevice.OriginX (INT)|NCVirtualWndMain.NumWindows (DWORD)|NToolTipInfo.Type (INT),GetMyLocation
+NConsoleWnd,30,4c,1,(other object) NChatLimiter.bLimited (BYTE)|NCCoolTimeIcon.FlashTime (DOUBLE)|NCGDevice.OriginY (INT)|NCVirtualWndMain.Windows (TArray<NWndEntry*>),AssistMember
+NConsoleWnd,30,58,1,(other object) NChatLimiter.bLimited (BYTE)|NCCoolTimeIcon.FlashTime (DOUBLE)|NCGDevice.OriginY (INT)|NCVirtualWndMain.Windows (TArray<NWndEntry*>),TargetMyself
+NConsoleWnd,30,2c,1,(other object) NChatLimiter.bLimited (BYTE)|NCCoolTimeIcon.FlashTime (DOUBLE)|NCGDevice.OriginY (INT)|NCVirtualWndMain.Windows (TArray<NWndEntry*>),GetMyLocation
+NConsoleWnd,40,44,1,(other object) NCCoolTimeIcon.bFlashing (UBOOL)|NDebugCategory.bEnabled (UBOOL)|NCWnd.Width (FLOAT)|NDialogInfo.Button2 (FString),GetSkillIconName
+NConsoleWnd,48,30,1,(other object) NCGDevice.DirtyTop (INT)|NCVirtualWndMain.FocusWindows (TArray<NWndEntry*>)|NCWnd.Style (DWORD)|NViewItemData.Description (FString),TargetMyself
+NConsoleWnd,4c,48,1,(other object) NCGDevice.DirtyBottom (INT)|NCWnd.bMouseDown (UBOOL)|NDialogInfo.ParamText (FString)|NHtmlBlock.Font (INT),AssistMember
+NConsoleWnd,4c,2c,1,(other object) NCGDevice.DirtyBottom (INT)|NCWnd.bMouseDown (UBOOL)|NDialogInfo.ParamText (FString)|NHtmlBlock.Font (INT),RequestPickUp
+NConsoleWnd,4c,398,1,(other object) NCGDevice.DirtyBottom (INT)|NCWnd.bMouseDown (UBOOL)|NDialogInfo.ParamText (FString)|NHtmlBlock.Font (INT),TargetMyself
+NConsoleWnd,54,200,1,(other object) NCGDevice.SmallDigits (UTexture*)|NCVirtualWndMain.TopMost (TArray<NWndEntry*>)|NToolTipInfo.Options (DWORD)|NCWnd.Entry (NWndEntry*),GetHennaSlotCount
+NConsoleWnd,58,48,1,(other object) NCGDevice.LargeDigits (UTexture*)|NToolTipInfo.FullBox (NToolTipRect)|NCWnd.bEnabled (UBOOL)|NDialogInfo.Param1 (INT),AssistMember
+NConsoleWnd,6c,54,1,(other object) NCGDevice._UnknownTail6C (BYTE)|NCWnd.ToolTipSkin (NToolTipSkin*)|NDialogInfo.Unknown1624 (INT)|NViewItemData.BodyPart (INT),AssistMember
+NConsoleWnd,84,8c,4,(other object) NCVirtualWndMain.bCursorEnabled (UBOOL)|NCWnd.StuckWnds (TArray<NWndEntry*>)|NViewItemData.bStackable (UBOOL)|User.MP (INT),"AddAcquireSkillExtendedInfo,ReceiveAddTradeInventoryItem,ReceiveAddTradeOtherItem,ReceiveAddTradeOwnItem"
+NConsoleWnd,8c,84,4,(other object) NCVirtualWndMain.bColorCursor (UBOOL)|NViewItemData.Unknown8C (INT)|NHtmlItem.BackTex (NStlWString)|PetInfo.MAtk (INT),"AddAcquireSkillExtendedInfo,ReceiveAddTradeInventoryItem,ReceiveAddTradeOtherItem,ReceiveAddTradeOwnItem"
+NConsoleWnd,98,c8,2,(other object) NCVirtualWndMain._UnknownTail98 (BYTE)|UCanvas.Viewport (UViewport*)|PetInfo.Speed (INT),"ReceiveHennaInfo,SCCheckStart"
+NConsoleWnd,98,1374,1,(other object) NCVirtualWndMain._UnknownTail98 (BYTE)|UCanvas.Viewport (UViewport*)|PetInfo.Speed (INT),RequestAssist
+NConsoleWnd,98,2c,1,(other object) NCVirtualWndMain._UnknownTail98 (BYTE)|UCanvas.Viewport (UViewport*)|PetInfo.Speed (INT),AssistMember
+NConsoleWnd,98,cc,1,(other object) NCVirtualWndMain._UnknownTail98 (BYTE)|UCanvas.Viewport (UViewport*)|PetInfo.Speed (INT),HasAbnormal
+NConsoleWnd,9c,108,1,(other object) PledgeInfo.AllyName (TCHAR)|PetInfo.CastSpeed (INT),HasAbnormal
+NConsoleWnd,a0,d0,1,(other object) PetInfo.UnknownB0 (INT),PledgePower
+NConsoleWnd,a8,d4,1,(other object) NHtmlItem.Var (NStlWString)|PetInfo.UnknownA8 (INT),GetPartyMemberCount
+NConsoleWnd,c0,f0,1,(other object) NCWnd.ScaleX (FLOAT)|NViewItemData.UnknownA4 (INT),GetPartyMemberCount
+NConsoleWnd,d8,d4,1,(other object) NCAbnormalStatusWnd.BackTex (UTexture*)|NCAuthWnd.BackTex (UTexture*)|NCAutoLogWnd.TextX (INT)|NCCandidateBox.LeftDisable2 (UTexture*),GetPartyMemberName
+NConsoleWnd,e0,48,1,(other object) NCAbnormalStatusWnd.Frame2Tex (UTexture*)|NCAuthWnd.PasswordEdit (NCEditBox*)|NCCandidateBox.Center2 (UTexture*)|NCChatWnd.IMEJpTex (UTexture*),RequestAssist
+NConsoleWnd,e0,1374,1,(other object) NCAbnormalStatusWnd.Frame2Tex (UTexture*)|NCAuthWnd.PasswordEdit (NCEditBox*)|NCCandidateBox.Center2 (UTexture*)|NCChatWnd.IMEJpTex (UTexture*),AssistMember
+NConsoleWnd,e0,4c,1,(other object) NCAbnormalStatusWnd.Frame2Tex (UTexture*)|NCAuthWnd.PasswordEdit (NCEditBox*)|NCCandidateBox.Center2 (UTexture*)|NCChatWnd.IMEJpTex (UTexture*),RequestPickUp
+NConsoleWnd,104,138,1,(other object) NCCandidateBox.PageStart (INT)|NCChatWnd.IMEThTex (UTexture*)|NCConsole.PlayerStatusWnd (NCPlayerStatusWnd*)|NCDetailStatusWnd.UnknownCC (INT),UpdateMacroShortCut
+NConsoleWnd,108,3968,1,(other object) NCCandidateBox.Count (INT)|NCChatWnd.IMETw3Tex (UTexture*)|NCConsole.AbnormalStatusWnd (NCAbnormalStatusWnd*)|NCEmpowerWnd.Power (BYTE),HasAbnormal
+NConsoleWnd,13c,138,9,(other object) NCActionItemWnd.MaxItems (INT)|NCConsole.ShortCutWnd (NCShortCutWnd*)|NCEquipItemWnd.bDragging (UBOOL)|NCHtmlViewer.CreateWidth (INT),"ChangeShortCutPage,ReceiveShortCutDelete,ReceiveShortCutList,ReloadGameTexts"
+NConsoleWnd,140,13c,1,(other object) NCActionItemWnd.IconSize (INT)|NCConsole.TrainWnd (NCTrainWnd*)|NCEquipItemWnd.bHasUnknown1C98 (UBOOL)|NCHtmlViewer.CreateHeight (INT),HideTrainWnd
+NConsoleWnd,150,3f0,1,(other object) NCBBSHtmlViewer.PageKind (INT)|NCConsole.BoardWnd (NCWnd*)|NCEquipItemWnd.Unknown110 (INT)|NCInvenItemWnd.DropLocation (FVector),RequestAssist
+NConsoleWnd,160,19c,1,(other object) NCBBSHtmlViewer.NumPageParts (INT)|NCChatWnd.TellIndex (INT)|NCConsole.SummonedWnd (NCSummonedWnd*)|NCEquipItemWnd.HoverSlot (INT),GMReceiveHennaInfo
+NConsoleWnd,190,1e0,1,(other object) NCChatWnd.ResizeFrame (NCResizeFrame*)|NCConsole.GMWnd (NCGMWnd*)|User.Unknown188 (INT),Snoop
+NConsoleWnd,198,1e8,1,(other object) NCChatWnd.Unknown14C (INT)|NCConsole.GMMagicSkillWnd (NCGMMagicSkillWnd*)|User._Unknown188 (BYTE),ObserverEnd
+NConsoleWnd,19c,1ec,1,(other object) NCChatWnd.Unknown150 (INT)|NCConsole.GMDetailStatusWnd (NCGMDetailStatusWnd*)|NCPetWnd.DetailWnd (NCPetDetailStatusWnd*),ShowXMasSeal
+NConsoleWnd,1b0,58,3,(other object) NCChatWnd.TimerHandle (INT)|NCPetWnd.bCanName (UBOOL)|AActor.Location (FVector),"AssistMember,RequestTarget,TargetMyself"
+NConsoleWnd,1b4,6c,2,(other object) NCChatWnd.Limiter (NChatLimiter),"RequestTarget,TargetMyself"
+NConsoleWnd,1b4,48,1,(other object) NCChatWnd.Limiter (NChatLimiter),RequestPickUp
+NConsoleWnd,1b8,48,1,(other object) ,RequestAssist
+NConsoleWnd,1b8,58,1,(other object) ,RequestPickUp
+NConsoleWnd,334,358,2,(other object) NCPlayerStatusWnd.Player (User*)|NCTargetStatusWnd.CloseButton (NCButton*)|NCPartyStatusWnd.MemberID (INT)|NCPetStatusWnd.FedTex (UTexture*),"HidePetWnd,HideSummonWnd"
+NConsoleWnd,398,2c,1,(other object) AController.Pawn (APawn*),AssistMember
+NConsoleWnd,3f0,6c,1,(other object) AController.Target (AActor*),AssistMember
+NConsoleWnd,9d4,a30,1,(other object) NMacroEntry.bRunning (INT),StartMacro
+NConsoleWnd,9dc,a38,3,(other object) NCHeaderCtrl._Unknown9DC (BYTE)|NMacroEntry.ID (INT),"GetMacroIconType,GetMacroName,StartMacro"
+NConsoleWnd,1374,54,1,(other object) APawn.Controller (AController*),RequestAssist
+NConsoleWnd,1374,58,1,(other object) APawn.Controller (AController*),AssistMember
+NConsoleWnd,3968,16c,1,(other object) NConsoleWnd.Desktop (NCWnd*),AddRecipeBookItem

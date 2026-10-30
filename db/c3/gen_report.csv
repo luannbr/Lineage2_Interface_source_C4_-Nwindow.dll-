@@ -1,0 +1,718 @@
+file,class,name,c1_va,c2_va,action,reason
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::L2WordWrapperWnd,0x1003f470,1003cc80,stub,not in eligible.csv (category D or not a game function)
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::~L2WordWrapperWnd,0x1003f500,,skipped,no C2 counterpart
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::ConnectServer,0x1003f030,,stub,no C2 counterpart
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::SendRequest,0x1003f100,,stub,no C2 counterpart
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::WindowProc,0x10040130,1003dde0,ported,
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::OnDestroy,0x1003f1a0,1003c910,stub,not in eligible.csv (category D or not a game function)
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::OnCreate,0x1003f1e0,1003c9d0,stub,not in eligible.csv (category D or not a game function)
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::OnPaint,0x1003f300,1003c950,stub,not in eligible.csv (category D or not a game function)
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::ClearWrapCursor,0x1003f3b0,,stub,no C2 counterpart
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::WriteOutputFile,0x1003f3c0,,stub,no C2 counterpart
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::WrapText,0x1003f5a0,1003d130,stub,not in eligible.csv (category D or not a game function)
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::ConvertDocument,0x1003f9b0,,stub,no C2 counterpart
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::LoadInputFile,0x1003fe70,,stub,no C2 counterpart
+L2WordWrapperWnd.cpp,L2WordWrapperWnd,L2WordWrapperWnd::OnGenerate,0x1003fff0,1003db80,stub,not in eligible.csv (category D or not a game function)
+NCAnnounceWnd.cpp,NCAnnounceWnd,NCAnnounceWnd::NCAnnounceWnd,0x1009bdd0,100b1d90,stub,not in eligible.csv (category D or not a game function)
+NCAnnounceWnd.cpp,NCAnnounceWnd,NCAnnounceWnd::~NCAnnounceWnd,0x1009be20,,skipped,no C2 counterpart
+NCAnnounceWnd.cpp,NCAnnounceWnd,NCAnnounceWnd::WindowProc,0x1009aab0,100b0d60,ported,
+NCAnnounceWnd.cpp,NCAnnounceWnd,NCAnnounceWnd::OnCreate,0x1009be70,100b16f0,stub,not in eligible.csv (category D or not a game function)
+NCAnnounceWnd.cpp,NCAnnounceWnd,NCAnnounceWnd::OnDestroy,0x1009bff0,100b1490,ported,
+NCAnnounceWnd.cpp,NCAnnounceWnd,NCAnnounceWnd::OnPaint,0x1009c0a0,100b1540,stub,not in eligible.csv (category D or not a game function)
+NCAnnounceWnd.cpp,NCAnnounceWnd,NCAnnounceWnd::OnOK,0x1009c180,100b1640,stub,not in eligible.csv (category D or not a game function)
+NCAnnounceWnd.cpp,NCAnnounceWnd,NCAnnounceWnd::OnKeyDown,0x1009c280,100b1680,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCButton,NCButton::NCButton,0x10002340,10002940,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCButton,NCButton::NCButton,0x10002440,10002a40,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCButton,NCButton::~NCButton,0x10002650,10002890,skipped,does not compile against the C2 headers: check_breakers: reaches a function whose body is NW_UNPORTED()
+NCButton.cpp,NCButton,NCButton::WindowProc,0x10090b60,100127a0,ported,
+NCButton.cpp,NCButton,NCButton::OnDestroy,0x10001140,10001180,ported,
+NCButton.cpp,NCButton,NCButton::OnPaint,0x10001ca0,10001b50,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCButton,NCButton::OnDrawToolTip,0x10002710,10002b70,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCButton,NCButton::OnKeyDown,0x100011d0,10001210,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCButton,NCButton::OnMouseMove,0x100010b0,100010c0,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCButton,NCButton::OnLButtonDown,0x10001000,10001000,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCButton,NCButton::OnLButtonUp,0x10001060,10001070,ported,
+NCButton.cpp,NCButton,NCButton::SetTextID,0x10001220,10001270,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCButton,NCButton::SetText,0x10001250,100012d0,ported,
+NCButton.cpp,NCButton,NCButton::SetNormalTex,0x10001280,10001300,stub,"calls SetNormalTex, whose signature changed (db/signature_changed.csv)"
+NCButton.cpp,NCButton,NCButton::SetPushedTex,0x100012d0,10001350,stub,"calls SetPushedTex, whose signature changed (db/signature_changed.csv)"
+NCButton.cpp,NCButton,NCButton::SetToolTip,0x10001320,100013a0,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {65a8c}
+NCButton.cpp,NCExButton,NCExButton::NCExButton,0x10002830,10002c50,stub,a base class constructor is not ported (NCButton)
+NCButton.cpp,NCExButton,NCExButton::NCExButton,0x100028d0,10002cf0,stub,a base class constructor is not ported (NCButton)
+NCButton.cpp,NCExButton,NCExButton::~NCExButton,0x10002880,10002ca0,skipped,does not compile against the C2 headers: check_breakers: reaches a function whose body is NW_UNPORTED()
+NCButton.cpp,NCExButton,NCExButton::WindowProc,0x1003a790,10041760,ported,
+NCButton.cpp,NCExButton,NCExButton::OnLButtonDown,0x10001390,10001440,ported,
+NCButton.cpp,NCExButton,NCExButton::OnLButtonUp,0x100013d0,10001480,ported,
+NCButton.cpp,NCPushButton,NCPushButton::NCPushButton,0x100029d0,10002df0,stub,a base class constructor is not ported (NCButton)
+NCButton.cpp,NCPushButton,NCPushButton::NCPushButton,0x10002a80,10002ea0,stub,a base class constructor is not ported (NCButton)
+NCButton.cpp,NCPushButton,NCPushButton::~NCPushButton,0x10002a30,10002e50,skipped,does not compile against the C2 headers: check_breakers: reaches a function whose body is NW_UNPORTED()
+NCButton.cpp,NCPushButton,NCPushButton::OnTimer,0x10001560,10001620,ported,
+NCButton.cpp,NCPushButton,NCPushButton::OnDestroy,0x10001590,10001650,stub,does not compile against the C2 headers: verify: imports stock ['?Empty@FString@@QAEXXZ'] ours []
+NCButton.cpp,NCPushButton,NCPushButton::OnMouseMove,0x100014f0,100015b0,ported,
+NCButton.cpp,NCPushButton,NCPushButton::OnLButtonDown,0x10001440,100014f0,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCPushButton,NCPushButton::OnLButtonUp,0x100014b0,10001570,ported,
+NCButton.cpp,NCRadioButton,NCRadioButton::NCRadioButton,0x10002ae0,10002f00,stub,eligible.csv: insn 4 this+26c -> 2a4 (layout says 2a0)
+NCButton.cpp,NCRadioButton,NCRadioButton::NCRadioButton,0x10002ba0,10002fc0,stub,eligible.csv: insn 21 this+264 -> 29c (layout says ?)
+NCButton.cpp,NCRadioButton,NCRadioButton::~NCRadioButton,0x10002b50,10002f70,skipped,does not compile against the C2 headers: check_breakers: reaches a function whose body is NW_UNPORTED()
+NCButton.cpp,NCRadioButton,NCRadioButton::OnCreate,0x10001750,10001990,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCRadioButton,NCRadioButton::OnDestroy,0x10001780,100019c0,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCRadioButton,NCRadioButton::OnDrawToolTip,0x10001f90,100021a0,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCRadioButton,NCRadioButton::OnMouseMove,0x100016f0,10001730,stub,does not compile against the C2 headers: C2660: 'NCWnd::PtInRect': funÃ§Ã£o nÃ£o recebe 6 argumentos
+NCButton.cpp,NCRadioButton,NCRadioButton::OnLButtonDown,0x10001610,100016d0,stub,not in eligible.csv (category D or not a game function)
+NCButton.cpp,NCRadioButton,NCRadioButton::OnLButtonUp,0x100016c0,10001710,stub,not in eligible.csv (category D or not a game function)
+NCChatListBox.cpp,NCChatListBox,NCChatListBox::NCChatListBox,0x10048cf0,10052300,stub,not in eligible.csv (category D or not a game function)
+NCChatListBox.cpp,NCChatListBox,NCChatListBox::NCChatListBox,0x10048d90,,stub,no C2 counterpart
+NCChatListBox.cpp,NCChatListBox,NCChatListBox::~NCChatListBox,0x10048d40,,skipped,no C2 counterpart
+NCChatListBox.cpp,NCChatListBox,NCChatListBox::WindowProc,0x100dc140,101241c0,ported,
+NCChatListBox.cpp,NCChatListBox,NCChatListBox::OnCreate,0x10045460,1004c6b0,stub,not in eligible.csv (category D or not a game function)
+NCChatListBox.cpp,NCChatListBox,NCChatListBox::OnPaint,0x100454d0,1004c730,stub,not in eligible.csv (category D or not a game function)
+NCChatListBox.cpp,NCChatListBox,NCChatListBox::AddString,0x10047b70,1004e940,stub,not in eligible.csv (category D or not a game function)
+NCChatListBox.cpp,NCChatListBox,NCChatListBox::IsChannelShown,0x10044270,1004b550,ported,
+NCCheckBox.cpp,NCCheckBox,NCCheckBox::NCCheckBox,0x10004630,,stub,no C2 counterpart
+NCCheckBox.cpp,NCCheckBox,NCCheckBox::NCCheckBox,0x100047a0,10004b50,stub,not in eligible.csv (category D or not a game function)
+NCCheckBox.cpp,NCCheckBox,NCCheckBox::~NCCheckBox,0x10004730,,skipped,no C2 counterpart
+NCCheckBox.cpp,NCCheckBox,NCCheckBox::OnCreate,0x10004530,10004600,ported,
+NCCheckBox.cpp,NCCheckBox,NCCheckBox::OnDestroy,0x10004580,100046b0,stub,does not compile against the C2 headers: verify: vcalls  stock {+0xc} ours {}
+NCCheckBox.cpp,NCCheckBox,NCCheckBox::OnPaint,0x100048a0,10004760,stub,not in eligible.csv (category D or not a game function)
+NCCheckBox.cpp,NCCheckBox,NCCheckBox::OnLButtonDown,0x10004600,10004730,ported,
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::NCCompositeBox,0x10003ac0,10004430,stub,not in eligible.csv (category D or not a game function)
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::NCCompositeBox,0x10003bd0,,stub,no C2 counterpart
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::~NCCompositeBox,0x10003b60,,skipped,no C2 counterpart
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::OnCreate,0x10003090,10003450,ported,
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::OnDestroy,0x10003130,100034f0,stub,does not compile against the C2 headers: verify: vcalls  stock {+0xc} ours {}
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::OnPaint,0x10003c60,10003bf0,stub,not in eligible.csv (category D or not a game function)
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::CaretLeft,0x100030c0,10003480,ported,
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::CaretRight,0x10003e40,10003df0,stub,constructs NCGDevice (constructor not ported)
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::SetText,0x10003fb0,10003f60,stub,constructs NCGDevice (constructor not ported)
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::GetText,0x100030f0,100034b0,stub,"calls GetText, whose signature changed (db/signature_changed.csv)"
+NCCompositeBox.cpp,NCCompositeBox,NCCompositeBox::SetShowCaret,0x10003120,100034e0,ported,
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::NCCreditWnd,0x1006e070,10079a50,stub,not in eligible.csv (category D or not a game function)
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::~NCCreditWnd,0x1006e100,,skipped,no C2 counterpart
+NCCreditWnd.cpp,NCreditTable,NCreditTable::Find,0x1006e300,10079400,ported,
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::FreeFont,0x1006e020,100791c0,ported,
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::PlaceViewer,0x1006de70,10079010,stub,does not compile against the C2 headers: verify: vcalls  stock {} ours {+0xbc}
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::NextPage,0x1006e360,10079450,stub,not in eligible.csv (category D or not a game function)
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::Tick,0x1006e560,10079660,stub,not in eligible.csv (category D or not a game function)
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::Start,0x1006e650,10079750,stub,not in eligible.csv (category D or not a game function)
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::ShowWindow,0x1006e030,100791d0,stub,not in eligible.csv (category D or not a game function)
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::OnDestroy,0x1006e150,10079240,ported,
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::OnPaint,0x1006e190,10079280,stub,not in eligible.csv (category D or not a game function)
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::OnKeyDown,0x1006e220,10079320,stub,not in eligible.csv (category D or not a game function)
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::OnLButtonDown,0x1006e540,10079640,ported,
+NCCreditWnd.cpp,NCCreditWnd,NCCreditWnd::OnCreate,0x1006e7a0,100798c0,stub,does not compile against the C2 headers: verify_data: consts stock-only {9f6} ours-only {fffffe1c}; globs stock-only {} ours-only {10205c58}
+NCDynamicLinker.cpp,NCDynamicLinker,NCDynamicLinker::NCDynamicLinker,0x1003ad20,10044f50,stub,not in eligible.csv (category D or not a game function)
+NCDynamicLinker.cpp,NCDynamicLinker,NCDynamicLinker::~NCDynamicLinker,0x1003adf0,,skipped,no C2 counterpart
+NCDynamicLinker.cpp,NCDynamicLinker,NCDynamicLinker::NCDynamicLinker,0x1003ae40,10045070,stub,not in eligible.csv (category D or not a game function)
+NCDynamicLinker.cpp,NCDynamicLinker,NCDynamicLinker::WindowProc,0x1003a440,100414c0,ported,
+NCDynamicLinker.cpp,NCDynamicLinker,NCDynamicLinker::OnLink,0x1003a4a0,10041520,ported,
+NCDynamicLinker.cpp,NCDynamicLinker,NCDynamicLinker::OnCreate,0x1003af30,10045170,stub,not in eligible.csv (category D or not a game function)
+NCDynamicLinker.cpp,NCDynamicLinker,NCDynamicLinker::OnDestroy,0x1003b150,10041c60,stub,not in eligible.csv (category D or not a game function)
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::NCEmpowerWnd,0x10070d50,1007d310,stub,not in eligible.csv (category D or not a game function)
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::~NCEmpowerWnd,0x10070e00,,skipped,no C2 counterpart
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::WindowProc,0x10070ca0,1007be30,ported,
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::ClearChecks,0x10071a80,1007c0c0,ported,
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::ShowPower,0x10071ae0,1007c120,ported,
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::CollectPower,0x10071c40,1007c280,stub,"does not compile against the C2 headers: verify_data: consts stock-only {20, 40, 80} ours-only {}; disps stock-only {} ours-only {109, 10c, 110, 114, 118, 11c, 120, 124}"
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::Reset,0x10071f30,1007c570,stub,"does not compile against the C2 headers: verify_data: disps stock-only {cc, d0, d4, d8, dc, e0, e4, e8, ec, f0, f4, f8} ours-only {10c, 110, 114, 118, 11c, 120, 124}"
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::SetPower,0x100721f0,1007d2e0,stub,"does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {20}; disps stock-only {} ours-only {10c, 110, 114, 118, 11c, 120, 124}"
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::OnOK,0x10071d20,1007c360,stub,"does not compile against the C2 headers: verify: vcalls  stock {+0xb4, +0x650} ours {+0xb4, +0x780}"
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::OnHeadA,0x10071d70,1007c3b0,ported,
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::OnHeadB,0x10071e10,1007c450,ported,
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::OnHeadC,0x10071ea0,1007c4e0,ported,
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::ShowWindow,0x10072010,1007c650,stub,"does not compile against the C2 headers: verify_data: disps stock-only {cc, d0, d4, d8, dc, e0, e4, e8, ec, f0, f4, f8} ours-only {}"
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::HideWindow,0x100720d0,1007c710,ported,
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::OnCreate,0x10070e70,1007c8a0,stub,not in eligible.csv (category D or not a game function)
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::OnDestroy,0x100718b0,1007bef0,ported,
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::OnPaint,0x100720e0,1007c720,stub,not in eligible.csv (category D or not a game function)
+NCEmpowerWnd.cpp,NCEmpowerWnd,NCEmpowerWnd::SetMember,0x10040930,10047610,ported,
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::NCEulaWnd,0x1009b650,100b1ac0,stub,not in eligible.csv (category D or not a game function)
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::~NCEulaWnd,0x1009b6a0,,skipped,no C2 counterpart
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::WindowProc,0x1009a990,100b0c00,ported,
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::SetText,0x1009aa10,100b0c80,ported,
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::ClearText,0x1009aa30,100b0ca0,ported,
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::OnDisagree,0x1009aa40,100b0cb0,stub,does not compile against the C2 headers: C2039: ' AuthWnd': nÃ£o Ã© um membro de 'NCLoginWnd'
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::OnCreate,0x1009b6f0,100b1b60,stub,not in eligible.csv (category D or not a game function)
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::OnDestroy,0x1009b9b0,100b1160,ported,
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::OnPaint,0x1009bab0,100b1260,stub,not in eligible.csv (category D or not a game function)
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::OnAgree,0x1009bb90,100b1360,stub,not in eligible.csv (category D or not a game function)
+NCEulaWnd.cpp,NCEulaWnd,NCEulaWnd::OnKeyDown,0x1009bca0,100b0d20,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,NCGDevice,NCGDevice::NCGDevice,0x100108c0,10011ef0,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,NCGDevice,NCGDevice::~NCGDevice,0x10010980,10011f60,skipped,eligible.csv: insn 12 this+60 -> 64 (layout says 60)
+NCGDevice.cpp,NCGDevice,NCGDevice::Destroy,0x1000fca0,10011260,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {6c}
+NCGDevice.cpp,NCGDevice,NCGDevice::Init,0x1000fc00,100111c0,stub,does not compile against the C2 headers: verify_data: consts stock-only {78} ours-only {6c}; strs stock-only {new} ours-only {}
+NCGDevice.cpp,NCGDevice,NCGDevice::SetCanvas,0x1000f410,10010740,ported,
+NCGDevice.cpp,NCGDevice,NCGDevice::ClearCanvas,0x1000f420,10010750,ported,
+NCGDevice.cpp,,NCGDevice::GetCharSize,0x1000f380,100106b0,ported,
+NCGDevice.cpp,,NCGDevice::GetTextExtent,0x1000f3d0,10010700,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawColoredLine,0x1000f430,10010760,ported,
+NCGDevice.cpp,ThaiCharacter,ThaiCharacter::CharCount,0x1000b150,1000bed0,ported,
+NCGDevice.cpp,,NCGDevice::LoadFont,0x1000fba0,10011160,ported,
+NCGDevice.cpp,,NCGDevice::DestroyFont,0x1000fbc0,10011180,ported,
+NCGDevice.cpp,,NCGDevice::MakeThaiCharArray,0x1000fbe0,100111a0,ported,
+NCGDevice.cpp,,NCGDevice::FirstWrappedLine,0x1000fed0,100114c0,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,,NCGDevice::NextWrappedLine,0x100102b0,100118c0,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawText,0x1000f510,10010840,ported,
+NCGDevice.cpp,NCGDevice,NCGDevice::Draw3DCoordText,0x1000f950,10010e40,stub,"does not compile against the C2 headers: verify_data: disps stock-only {28, c4} ours-only {}"
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawSpecialDigit,0x1000fb40,10011100,stub,does not compile against the C2 headers: verify_data: disps stock-only {} ours-only {e8}
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawRect,0x1000f5f0,10010920,ported,
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawStretchedTex,0x1000f660,10010990,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawStretchedTex,0x1000f6d0,10010a50,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawTexture,0x1000f750,10010b30,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawBrightenTexture,0x1000f7e0,10010c30,ported,
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawLine,0x1000f8d0,10010dc0,stub,does not compile against the C2 headers: verify_data: disps stock-only {} ours-only {a0}
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawPledgeCrest,0x1000fa00,10010fa0,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawAllyCrest,0x1000fa90,10011040,stub,not in eligible.csv (category D or not a game function)
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawMinimapLoc,0x1000f880,10010d60,ported,
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawRadar,0x1000f8b0,10010d90,stub,does not compile against the C2 headers: C2039: ' DrawRadar': nÃ£o Ã© um membro de 'UCanvas'
+NCGDevice.cpp,NCGDevice,NCGDevice::DrawRadarTarget,0x1000f8c0,10010da0,stub,does not compile against the C2 headers: verify: imports stock ['?DrawRadarEtc@UCanvas@@QAEXXZ'] ours ['?DrawRadarTarget@UCanvas@@QAEXHH@Z']
+NCGDevice.cpp,NCGDevice,NCGDevice::SetClip,0x1000fb20,100110e0,ported,
+NCGDevice.cpp,NCGDevice,NCGDevice::ReleaseClip,0x1000fb30,100110f0,ported,
+NCGDevice.cpp,NCGDevice,NCGDevice::PushOrigin,0x10010f70,10012550,ported,
+NCGDevice.cpp,NCGDevice,NCGDevice::PopOrigin,0x100109f0,10011fd0,stub,"does not compile against the C2 headers: verify_data: disps stock-only {34} ours-only {38, 3c}"
+NCGMSnoopWnd.cpp,NCGMSnoopWnd,NCGMSnoopWnd::NCGMSnoopWnd,0x100b6b70,100d2b60,stub,not in eligible.csv (category D or not a game function)
+NCGMSnoopWnd.cpp,NCGMSnoopWnd,NCGMSnoopWnd::~NCGMSnoopWnd,0x100b6bc0,,skipped,no C2 counterpart
+NCGMSnoopWnd.cpp,NCGMSnoopWnd,NCGMSnoopWnd::WindowProc,0x100b68a0,100d05d0,ported,
+NCGMSnoopWnd.cpp,NCGMSnoopWnd,NCGMSnoopWnd::Reset,0x100b6900,100d0630,ported,
+NCGMSnoopWnd.cpp,NCGMSnoopWnd,NCGMSnoopWnd::OnClose,0x100b6920,100d0650,stub,"does not compile against the C2 headers: verify: vcalls  stock {+0xb4} ours {+0xb4, +0x400}"
+NCGMSnoopWnd.cpp,NCGMSnoopWnd,NCGMSnoopWnd::AddLine,0x100b7260,100d1080,stub,"does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {d4, d8, dc, e0, e4, e8, ec}; disps stock-only {d4, d8, dc, e0, e4, e8, ec} ours-only {}"
+NCGMSnoopWnd.cpp,NCGMSnoopWnd,NCGMSnoopWnd::OnCreate,0x100b8960,100d3420,stub,not in eligible.csv (category D or not a game function)
+NCGMSnoopWnd.cpp,NCGMSnoopWnd,NCGMSnoopWnd::OnDestroy,0x100b70c0,100d0ed0,ported,
+NCGMSnoopWnd.cpp,NCGMSnoopManager,NCGMSnoopManager::NCGMSnoopManager,0x1004c6a0,10056720,stub,not in eligible.csv (category D or not a game function)
+NCGMSnoopWnd.cpp,NCGMSnoopManager,NCGMSnoopManager::~NCGMSnoopManager,0x1004c6f0,,skipped,no C2 counterpart
+NCGMSnoopWnd.cpp,NCGMSnoopManager,NCGMSnoopManager::ShowWindow,0x100b6950,100d0680,ported,
+NCGMSnoopWnd.cpp,NCGMSnoopManager,NCGMSnoopManager::OnCreate,0x100b7370,100d3b00,stub,constructs NCGMSnoopWnd (constructor not ported)
+NCGMSnoopWnd.cpp,NCGMSnoopManager,NCGMSnoopManager::OnDestroy,0x100b7430,100d1190,ported,
+NCGMSnoopWnd.cpp,NCGMSnoopManager,NCGMSnoopManager::AddLine,0x100b74f0,100d1250,ported,
+NCGMSnoopWnd.cpp,NCGMSnoopManager,NCGMSnoopManager::OpenSnoop,0x100b7550,100d12b0,stub,"does not compile against the C2 headers: verify: imports stock ['??DFString@@QBEPBGXZ', '?appSprintf@@YAHPAGPBGZZ'] ours ['??1FString@@QAE@XZ', '??DFString@@QBEPBGXZ', '?appSprintf@@YAHPAGP"
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::NCHennaInfoWnd,0x1007b230,100885f0,ported,
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::~NCHennaInfoWnd,0x1007b310,100886d0,skipped,eligible.csv: insn 12 this+3478 -> 34bc (layout says 34b4)
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::WindowProc,0x10079170,10086420,ported,
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::OnCreate,0x10079c60,10087ff0,stub,not in eligible.csv (category D or not a game function)
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::OnDestroy,0x1007abb0,10087cb0,ported,
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::ShowWindow,0x100794b0,10086760,stub,"does not compile against the C2 headers: verify_data: consts stock-only {67910, 6791c} ours-only {}"
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::OnOK,0x10079400,100866b0,ported,
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::OnCancel,0x10079460,10086710,ported,
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::ClearParams,0x100791f0,100864a0,ported,
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::SetHenna,0x10079240,100864f0,stub,"does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {44}; disps stock-only {20, 24, 28, 30, 353c, 3540, 3544, 3548, 354c, 3550, 3554, 3558, 355c, 3560, 3564, 38, 3c} ours-only {}"
+NCHennaInfoWnd.cpp,NCHennaInfoWnd,NCHennaInfoWnd::OnPaint,0x10079ea0,10086ec0,stub,not in eligible.csv (category D or not a game function)
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::NCHennaListBox,0x1007af90,100882b0,stub,a base class constructor is not ported (NControl)
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::NCHennaListBox,0x1007b050,10088370,stub,a base class constructor is not ported (NControl)
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::~NCHennaListBox,0x1007aff0,10088310,ported,
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::OnDestroy,0x1007ac90,10087d80,ported,
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::OnPaint,0x10079510,100867c0,stub,not in eligible.csv (category D or not a game function)
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::HitTest,0x100c1040,100deb10,stub,not in eligible.csv (category D or not a game function)
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::Clear,0x100c3310,100e0980,note,"slot says 100963e0, fmap says 100e0980"
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::Clear,0x100c3310,100963e0,stub,not in eligible.csv (category D or not a game function)
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::AddEntry,0x1007ad60,10087e50,stub,"does not compile against the C2 headers: verify_data: disps stock-only {} ours-only {1fe, 3fe}; strs stock-only {new} ours-only {}"
+NCHennaListBox.cpp,NCHennaListBox,NCHennaListBox::GetSelectedEntry,0x100797b0,10086ab0,stub,"does not compile against the C2 headers: verify_data: disps stock-only {} ours-only {1fe, 3fe}"
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::NCHennaListWnd,0x100798a0,100883b0,stub,not in eligible.csv (category D or not a game function)
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::~NCHennaListWnd,0x10079900,,skipped,no C2 counterpart
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::WindowProc,0x10079090,10086340,ported,
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::OnCreate,0x1007b090,10088460,stub,not in eligible.csv (category D or not a game function)
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::OnDestroy,0x10079950,10086ba0,ported,
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::ShowWindow,0x10079110,100863c0,stub,"does not compile against the C2 headers: verify_data: consts stock-only {67910, 6791c} ours-only {}"
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::OnPaint,0x10079a00,10086c50,stub,not in eligible.csv (category D or not a game function)
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::OnSelect,0x10079ba0,10086e00,stub,does not compile against the C2 headers: verify_data: consts stock-only {141c} ours-only {1420}
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::Clear,0x100790f0,100863a0,ported,
+NCHennaListWnd.cpp,NCHennaListWnd,NCHennaListWnd::AddEntry,0x1007aef0,10087fe0,ported,
+NCHtmlSliderBar.cpp,NCHtmlSliderBar,NCHtmlSliderBar::NCHtmlSliderBar,0x1003d7b0,10045a10,stub,not in eligible.csv (category D or not a game function)
+NCHtmlSliderBar.cpp,NCHtmlSliderBar,NCHtmlSliderBar::NCHtmlSliderBar,0x1003d850,10045ab0,stub,not in eligible.csv (category D or not a game function)
+NCHtmlSliderBar.cpp,NCHtmlSliderBar,NCHtmlSliderBar::~NCHtmlSliderBar,0x1003d800,,skipped,no C2 counterpart
+NCHtmlSliderBar.cpp,NCHtmlSliderBar,NCHtmlSliderBar::OnPaint,0x1003d8d0,10044b30,stub,not in eligible.csv (category D or not a game function)
+NCKeyCryptWarningDialogBox.cpp,NCKeyCryptWarningDialogBox,NCKeyCryptWarningDialogBox::NCKeyCryptWarningDialogBox,0x10082ce0,100930e0,stub,not in eligible.csv (category D or not a game function)
+NCKeyCryptWarningDialogBox.cpp,NCKeyCryptWarningDialogBox,NCKeyCryptWarningDialogBox::~NCKeyCryptWarningDialogBox,0x10082d30,,skipped,no C2 counterpart
+NCKeyCryptWarningDialogBox.cpp,NCKeyCryptWarningDialogBox,NCKeyCryptWarningDialogBox::WindowProc,0x100827a0,10091f80,ported,
+NCKeyCryptWarningDialogBox.cpp,NCKeyCryptWarningDialogBox,NCKeyCryptWarningDialogBox::OnOK,0x10082800,10091fe0,ported,
+NCKeyCryptWarningDialogBox.cpp,NCKeyCryptWarningDialogBox,NCKeyCryptWarningDialogBox::OnCreate,0x10082d80,10092c30,stub,not in eligible.csv (category D or not a game function)
+NCKeyCryptWarningDialogBox.cpp,NCKeyCryptWarningDialogBox,NCKeyCryptWarningDialogBox::OnDestroy,0x10082e70,10092400,ported,
+NCKeyCryptWarningDialogBox.cpp,NCKeyCryptWarningDialogBox,NCKeyCryptWarningDialogBox::OnPaint,0x10082f20,100924b0,stub,not in eligible.csv (category D or not a game function)
+NCLoadingWnd.cpp,NCLoadingWnd,NCLoadingWnd::NCLoadingWnd,0x100808c0,1008e620,ported,
+NCLoadingWnd.cpp,NCLoadingWnd,NCLoadingWnd::~NCLoadingWnd,0x10080910,1008e670,ported,
+NCLoadingWnd.cpp,NCLoadingWnd,NCLoadingWnd::OnPaint,0x10080960,1008e580,stub,not in eligible.csv (category D or not a game function)
+NCLoadingWnd.cpp,NCLoadingWnd,NCLoadingWnd::SetLoadingTexture,0x100807b0,1008e3c0,stub,eligible.csv: insn 40 string/constant differs at 10118d7c
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::NCMacroArrayWnd,0x1008fa80,100a00a0,stub,not in eligible.csv (category D or not a game function)
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::NCMacroArrayWnd,0x1008fb40,100a0140,stub,not in eligible.csv (category D or not a game function)
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::~NCMacroArrayWnd,0x1008fae0,,skipped,no C2 counterpart
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::OnDestroy,0x1008b630,1009b360,stub,does not compile against the C2 headers: verify: vcalls  stock {+0x120} ours {}
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::HitCell,0x1008cad0,1009c8a0,stub,not in eligible.csv (category D or not a game function)
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::OnPaint,0x1008cd70,1009cb50,stub,not in eligible.csv (category D or not a game function)
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::OnDrawToolTip,0x10090990,1009faf0,stub,not in eligible.csv (category D or not a game function)
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::OnLButtonDown,0x1008cfc0,1009ced0,stub,does not compile against the C2 headers: verify: vcalls  stock {+0x124} ours {+0x128}
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::OnMouseMove,0x1008d050,1009cf60,stub,not in eligible.csv (category D or not a game function)
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::UnselectAll,0x1008d790,1009d6f0,ported,
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::OnLButtonUp,0x1008d250,1009d1b0,stub,not in eligible.csv (category D or not a game function)
+NCMacroArrayWnd.cpp,NCMacroArrayWnd,NCMacroArrayWnd::OnDialogResult,0x1008d130,1009d090,stub,"does not compile against the C2 headers: verify_data: disps stock-only {12c, 130, 60c0, a38} ours-only {61b8, 9dc, f8, fc}"
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::NCMacroEditList,0x1008fb80,100a0170,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::NCMacroEditList,0x1008fca0,100a0290,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::~NCMacroEditList,0x1008fc30,1009fd40,skipped,not in eligible.csv (category D or not a game function)
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::InitSlider,0x1008b6b0,1009b3e0,ported,
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::UpdateSlider,0x1008b6f0,1009b420,ported,
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::GetFocusLine,0x1008d830,1009d790,ported,
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::LayoutLines,0x1008d870,1009d7d0,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::HitLine,0x1008d7d0,1009d730,ported,
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::OnScrollBar,0x1008d910,1009d910,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::ScrollUp,0x1008d940,,stub,no C2 counterpart
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::ScrollDown,0x1008d990,1009d980,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::OnCreate,0x1008f140,1009ee90,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::OnPaint,0x1008f2c0,1009f020,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::OnDestroy,0x1008f410,1009f180,ported,
+NCMacroEditList.cpp,NCMacroEditList,NCMacroEditList::ValidateLines,0x1008d9f0,1009d9d0,stub,literal address 0x10000001 without a C2 counterpart
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::NCMacroEditWnd,0x1008fd20,100a0310,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::~NCMacroEditWnd,0x1008fd90,,skipped,no C2 counterpart
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::WindowProc,0x1008b750,1009b480,ported,
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::OnPrevIcon,0x1008b840,1009b570,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {ffffffff}
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::OnNextIcon,0x1008b860,1009b590,ported,
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::OnInfo,0x1008b890,,stub,no C2 counterpart
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::OnHelp,0x1008b900,1009b300,ported,
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::HideWindow,0x1008b920,,stub,no C2 counterpart
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::ShowWindow,0x1008e280,,stub,no C2 counterpart
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::ClearMarks,0x1008de20,1009de70,ported,
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::ClearMark,0x1008ded0,1009df20,ported,
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::OnCreate,0x1008fdf0,100a03e0,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::OnDestroy,0x1008e340,1009e480,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::OnPaint,0x1008dbd0,1009dbb0,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::OnSave,0x1008f4f0,1009f260,stub,not in eligible.csv (category D or not a game function)
+NCMacroEditWnd.cpp,NCMacroEditWnd,NCMacroEditWnd::PushLines,0x1008df00,1009df50,stub,literal address 0x10000000 without a C2 counterpart
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::NCMacroInfoWnd,0x1008e540,100a0b40,stub,not in eligible.csv (category D or not a game function)
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::~NCMacroInfoWnd,0x1008e590,,skipped,no C2 counterpart
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::WindowProc,0x1008b940,1009b6f0,ported,
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::SetShortName,0x1008b9c0,1009b5c0,stub,eligible.csv: insn 2 this+9c -> ec (layout says cc)
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::SetDescription,0x1008b9f0,1009b770,stub,eligible.csv: insn 2 this+a0 -> cc (layout says d0)
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::ShowWindow,0x1008ba20,,stub,no C2 counterpart
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::HideWindow,0x1008bac0,,stub,no C2 counterpart
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::OnOK,0x1008baf0,1009b7e0,stub,not in eligible.csv (category D or not a game function)
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::OnCreate,0x1008e5e0,1009f620,stub,not in eligible.csv (category D or not a game function)
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::OnDestroy,0x1008e940,1009e6b0,stub,not in eligible.csv (category D or not a game function)
+NCMacroInfoWnd.cpp,NCMacroInfoWnd,NCMacroInfoWnd::OnPaint,0x1008ea90,1009e7d0,stub,not in eligible.csv (category D or not a game function)
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::NCMacroListWnd,0x1008f990,1009fc60,stub,not in eligible.csv (category D or not a game function)
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::~NCMacroListWnd,0x1008fa20,1009fd40,skipped,not in eligible.csv (category D or not a game function)
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::WindowProc,0x1008b510,1009b050,ported,
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::HitDelete,0x1008b590,,stub,no C2 counterpart
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::HitEdit,0x1008b5e0,,stub,no C2 counterpart
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::OnPickUpDone,0x1008c330,1009c050,stub,"does not compile against the C2 headers: verify_data: consts stock-only {3f800000} ours-only {5bc}; disps stock-only {618, a30, a44, d4, ec, fc} ours-only {78, 90, 9d4, 9e8, a0}"
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::OnTargetDone,0x1008c3c0,1009c0e0,stub,"does not compile against the C2 headers: verify_data: consts stock-only {3a83126f} ours-only {5bc, f:6f12833a}; disps stock-only {618, a30, a44, d4, ec, fc} ours-only {78, 90, 9d4, 9e8, a0}"
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::OnSkillCoolTime,0x1008c450,1009c170,stub,not in eligible.csv (category D or not a game function)
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::SetIcon,0x1008c7a0,1009c4e0,ported,
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::AddMacro,0x1008f0f0,1009ee40,ported,
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::OnCreate,0x10090490,100a0c30,stub,not in eligible.csv (category D or not a game function)
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::OnDestroy,0x10090820,1009fdc0,stub,does not compile against the C2 headers: check_breakers: reaches a function whose body is NW_UNPORTED()
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::OnPaint,0x1008c810,1009c550,stub,not in eligible.csv (category D or not a game function)
+NCMacroListWnd.cpp,NCMacroListWnd,NCMacroListWnd::OnNew,0x1008ca10,1009c7e0,stub,"does not compile against the C2 headers: verify_data: disps stock-only {130, 60c0} ours-only {61b8, fc}"
+NCManorShopItemWnd.cpp,NCManorShopItemWnd,NCManorShopItemWnd::NCManorShopItemWnd,0x10093960,100a4580,ported,
+NCManorShopItemWnd.cpp,NCManorShopItemWnd,NCManorShopItemWnd::NCManorShopItemWnd,0x10093a00,100a4620,stub,not in eligible.csv (category D or not a game function)
+NCManorShopItemWnd.cpp,NCManorShopItemWnd,NCManorShopItemWnd::~NCManorShopItemWnd,0x100939b0,100a45d0,ported,
+NCManorShopItemWnd.cpp,NCManorShopItemWnd,NCManorShopItemWnd::OnLButtonUp,0x10093a40,100a3f40,stub,not in eligible.csv (category D or not a game function)
+NCManorShopItemWnd.cpp,NCManorShopItemWnd,NCManorShopItemWnd::OnLButtonDblClick,0x10093da0,100a4210,stub,not in eligible.csv (category D or not a game function)
+NCManorShopItemWnd.cpp,NCManorShopItemWnd,NCManorShopItemWnd::OnDialogResult,0x10094090,100a4470,stub,not in eligible.csv (category D or not a game function)
+NCManorShopItemWnd.cpp,NCManorShopItemWnd,NCManorShopItemWnd::AddItem,0x10092ea0,100a3560,stub,not in eligible.csv (category D or not a game function)
+NCManorShopItemWnd.cpp,NCManorShopItemWnd,NCManorShopItemWnd::AddCopy,0x10092ff0,100a36b0,stub,not in eligible.csv (category D or not a game function)
+NCManorShopItemWnd.cpp,NCManorShopItemWnd,NCManorShopItemWnd::MoveItem,0x10093110,100a37e0,stub,not in eligible.csv (category D or not a game function)
+NCNoticeWnd.cpp,NCNoticeInfoWnd,NCNoticeInfoWnd::NCNoticeInfoWnd,0x1009ab10,100b17e0,stub,not in eligible.csv (category D or not a game function)
+NCNoticeWnd.cpp,NCNoticeInfoWnd,NCNoticeInfoWnd::~NCNoticeInfoWnd,0x1009ab70,,skipped,no C2 counterpart
+NCNoticeWnd.cpp,NCNoticeInfoWnd,NCNoticeInfoWnd::OnCreate,0x1002ce20,10032b10,note,"slot says 100b09d0, fmap says 10032b10"
+NCNoticeWnd.cpp,NCNoticeInfoWnd,NCNoticeInfoWnd::OnCreate,0x1002ce20,100b09d0,stub,"does not compile against the C2 headers: verify: vcalls  stock {} ours {+0x64}; imports stock [] ours ['?GetTransientPackage@UObject@@SAPAVUPackage@@XZ', '?StaticAllocateObject@UObject@@SAP"
+NCNoticeWnd.cpp,NCNoticeInfoWnd,NCNoticeInfoWnd::OnDestroy,0x1009a700,100b0a00,stub,does not compile against the C2 headers: verify: vcalls  stock {+0xc} ours {}
+NCNoticeWnd.cpp,NCNoticeInfoWnd,NCNoticeInfoWnd::OnPaint,0x1009abc0,100b0dc0,stub,not in eligible.csv (category D or not a game function)
+NCNoticeWnd.cpp,NCNoticeInfoWnd,NCNoticeInfoWnd::SetText,0x1009a780,100b0a80,stub,does not compile against the C2 headers: verify_data: consts stock-only {104} ours-only {}; disps stock-only {} ours-only {fe}
+NCNoticeWnd.cpp,NCNoticeInfoWnd,NCNoticeInfoWnd::ClearText,0x1009a7b0,100b0ab0,stub,eligible.csv: insn 0 this+d0 -> 104 (layout says 100)
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::NCNoticeWnd,0x1009acf0,,skipped,class gone in the new client
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::~NCNoticeWnd,0x1009ad40,,skipped,class gone in the new client
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::WindowProc,0x1009a7c0,,skipped,class gone in the new client
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::OnCreate,0x1009ad90,,skipped,class gone in the new client
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::OnDestroy,0x1009afa0,,skipped,class gone in the new client
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::OnPaint,0x1009b070,,skipped,class gone in the new client
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::OnKeyDown,0x1009b190,,skipped,class gone in the new client
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::OnOK,0x1009b150,,skipped,class gone in the new client
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::SetText,0x1009a820,,skipped,class gone in the new client
+NCNoticeWnd.cpp,NCNoticeWnd,NCNoticeWnd::ClearText,0x1009a840,,skipped,class gone in the new client
+NCObject.cpp,NCObject,NCObject::NCObject,0x10025130,10028810,ported,
+NCObject.cpp,NCObject,NCObject::~NCObject,0x100019d0,10001a10,ported,
+NCObject.cpp,NCObject,NCObject::Destroy,0x10025150,10028830,ported,
+NCObject.cpp,NCObject,NCObject::Debugf,0x10025160,10028840,stub,does not compile against the C2 headers: verify_data: globs stock-only {1026e44c} ours-only {}
+NCObject.cpp,NCObject,NCObject::ImeGetProperty,0x100251f0,100288d0,ported,
+NCObject.cpp,NCObject,NCObject::ImeGetContext,0x10025210,100288f0,ported,
+NCObject.cpp,NCObject,NCObject::ImeReleaseContext,0x10025220,10028900,ported,
+NCObject.cpp,NCObject,NCObject::SetTimer,0x10025260,10028940,stub,does not compile against the C2 headers: verify: imports stock ['?Add@FArray@@QAEHHH@Z'] ours []
+NCObject.cpp,NCObject,NCObject::KillTimer,0x10025270,10028950,ported,
+NCObject.cpp,NCObject,NCObject::FindTexture,0x10025290,10028970,ported,
+NCObject.cpp,NCObject,NCObject::SpawnActor,0x10025300,100289e0,ported,
+NCObject.cpp,NCObject,NCObject::GetDeltaTime,0x10025390,10028a70,ported,
+NCObject.cpp,NCObject,NCObject::SetCursor,0x100253a0,10028a80,ported,
+NCObject.cpp,NCObject,NCObject::LockCursor,0x100253b0,10028a90,ported,
+NCObject.cpp,NCObject,NCObject::UnlockCursor,0x100253c0,10028aa0,ported,
+NCObserverWnd.cpp,NCObserverWnd,NCObserverWnd::NCObserverWnd,0x10099b70,100affc0,ported,
+NCObserverWnd.cpp,NCObserverWnd,NCObserverWnd::~NCObserverWnd,0x10099bc0,100b0010,ported,
+NCObserverWnd.cpp,NCObserverWnd,NCObserverWnd::WindowProc,0x100991b0,100ac530,ported,
+NCObserverWnd.cpp,NCObserverWnd,NCObserverWnd::OnExit,0x10099290,100ac590,stub,does not compile against the C2 headers: verify: vcalls  stock {+0x64c} ours {+0x77c}
+NCObserverWnd.cpp,NCObserverWnd,NCObserverWnd::OnDestroy,0x10099210,100ad6c0,stub,not in eligible.csv (category D or not a game function)
+NCObserverWnd.cpp,NCObserverWnd,NCObserverWnd::OnCreate,0x10099c90,100af700,stub,not in eligible.csv (category D or not a game function)
+NCObserverWnd.cpp,NCObserverWnd,NCObserverWnd::OnPaint,0x10099c10,100ad630,stub,not in eligible.csv (category D or not a game function)
+NCommandParser.cpp,,ExpandSystemMsgCode,0x1003e5b0,10046190,stub,not in eligible.csv (category D or not a game function)
+NCommandParser.cpp,NCommandParser,NCommandParser::NCommandParser,0x1003e840,10046420,ported,
+NCommandParser.cpp,NCommandParser,NCommandParser::GetCommand,0x1003e8a0,10046480,ported,
+NCommandParser.cpp,NCommandParser,NCommandParser::ExpandToken,0x1003e900,100464e0,stub,"does not compile against the C2 headers: verify_data: consts stock-only {2b, fffffff8} ours-only {fffffffd}"
+NConsoleWndResize.cpp,NConsoleWnd,NConsoleWnd::ScaleRect,0x10056500,,stub,no C2 counterpart
+NConsoleWndResize.cpp,NConsoleWnd,NConsoleWnd::ResizeWindows,0x1005ddb0,10069150,stub,not in eligible.csv (category D or not a game function)
+NControl.cpp,NControl,NControl::NControl,0x10001c30,10002820,stub,not in eligible.csv (category D or not a game function)
+NControl.cpp,NControl,NControl::~NControl,0x10001be0,100027d0,skipped,not in eligible.csv (category D or not a game function)
+NControl.cpp,NControl,NControl::WindowProc,0x10043ef0,10119f60,ported,
+NControl.cpp,NControl,NControl::OnCreate,0x10005940,10005d60,ported,
+NControl.cpp,NControl,NControl::OnDestroy,0x10005970,10005d90,stub,does not compile against the C2 headers: verify: vcalls  stock {+0xc} ours {}
+NControl.cpp,NControl,NControl::NotifyParent,0x10005820,10005c40,ported,
+NControl.cpp,NControl,NControl::ReleaseFocus,0x10005860,10005c80,ported,
+NControl.cpp,NControl,NControl::HideParent,0x10005890,10005cb0,ported,
+NControl.cpp,NControl,NControl::SendTo,0x100058c0,10005ce0,ported,
+NControl.cpp,NControl,NControl::SendToParent,0x10005900,10005d20,ported,
+NControl.cpp,NControl,NControl::SetCaption,0x100059f0,10005e10,stub,does not compile against the C2 headers: verify_data: consts stock-only {d4} ours-only {}; disps stock-only {} ours-only {d4}
+NControl.cpp,NControl,NControl::GetCaption,0x10005a10,10005e30,ported,
+NCoreMisc.cpp,,NwAppSeconds,0x10019a10,1001ca80,ported,
+NCoreMisc.cpp,,appMemcpy,0x10001790,10001790,skipped,"eligible.csv: insn 7 calls 10001974, C2 calls 10001974 (not the same function)"
+NCoreMisc.cpp,,NwUfillDword,0x1000fea0,10011490,ported,
+NCoreMisc.cpp,,NwOperatorNew,0x10001990,100019d0,ported,
+NCoreMisc.cpp,FL2SystemMsgData,FL2SystemMsgData::FL2SystemMsgData,0x10055ee0,1005ed40,skipped,not in eligible.csv (category D or not a game function)
+NCoreMisc.cpp,FL2SystemMsgData,FL2SystemMsgData::~FL2SystemMsgData,0x10055f50,1005edc0,skipped,not in eligible.csv (category D or not a game function)
+NCoreMisc.cpp,TTextureArray,TTextureArray::TTextureArray,0x10019e00,,skipped,no C2 counterpart
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::NCPetitionBeginWnd,0x1004c740,100567c0,stub,not in eligible.csv (category D or not a game function)
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::~NCPetitionBeginWnd,0x1004c790,,skipped,no C2 counterpart
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::WindowProc,0x100b6980,100d06b0,stub,"does not compile against the C2 headers: verify: vcalls  stock {+0x110, +0x114, +0x118} ours {+0x110, +0x114}"
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::OnTypeChosen,0x100b6a20,,stub,no C2 counterpart
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::ResetForm,0x100b6b40,100d0750,ported,
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::OnCreate,0x100b7680,100d2760,stub,not in eligible.csv (category D or not a game function)
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::OnDestroy,0x100b7b00,100d2030,stub,not in eligible.csv (category D or not a game function)
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::OnPaint,0x100b7c50,100d13e0,stub,not in eligible.csv (category D or not a game function)
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::OnSend,0x100b7db0,100d1530,stub,"calls GetText, whose signature changed (db/signature_changed.csv)"
+NCPetitionBeginWnd.cpp,NCPetitionBeginWnd,NCPetitionBeginWnd::OnCancel,0x100b7f30,100d16b0,ported,
+NCRecipeBookItemWnd.cpp,NCRecipeBookItemWnd,NCRecipeBookItemWnd::NCRecipeBookItemWnd,0x100c6f40,100e4b20,stub,"does not compile against the C2 headers: verify_data: disps stock-only {110, 114} ours-only {}"
+NCRecipeBookItemWnd.cpp,NCRecipeBookItemWnd,NCRecipeBookItemWnd::NCRecipeBookItemWnd,0x100c6fe0,100e4bc0,stub,not in eligible.csv (category D or not a game function)
+NCRecipeBookItemWnd.cpp,NCRecipeBookItemWnd,NCRecipeBookItemWnd::~NCRecipeBookItemWnd,0x100c6f90,100e4b70,ported,
+NCRecipeBookItemWnd.cpp,NCRecipeBookItemWnd,NCRecipeBookItemWnd::AddItem,0x100c69e0,100e4440,stub,does not compile against the C2 headers: verify_data: strs stock-only {new} ours-only {}
+NCRecipeBookItemWnd.cpp,NCRecipeBookItemWnd,NCRecipeBookItemWnd::OnLButtonDown,0x100c4960,100e27e0,stub,not in eligible.csv (category D or not a game function)
+NCRecipeBookItemWnd.cpp,NCRecipeBookItemWnd,NCRecipeBookItemWnd::OnMouseMove,0x100c49d0,100e2850,stub,not in eligible.csv (category D or not a game function)
+NCRecipeBookItemWnd.cpp,NCRecipeBookItemWnd,NCRecipeBookItemWnd::OnLButtonUp,0x100c4ad0,100e2940,stub,not in eligible.csv (category D or not a game function)
+NCRecipeBookItemWnd.cpp,NCRecipeBookItemWnd,NCRecipeBookItemWnd::OnLButtonDblClick,0x100c4c70,100e2ac0,stub,not in eligible.csv (category D or not a game function)
+NCRecipeConsoleOps.cpp,NRecipeConsoleOps,NRecipeConsoleOps::FormatItemName,0x100570d0,1005ff00,ported,
+NCRecipeConsoleOps.cpp,NRecipeConsoleOps,NRecipeConsoleOps::MakeItemInfo,0x1006ac20,10073aa0,stub,does not compile against the C2 headers: verify_data: consts stock-only {70c} ours-only {44}; disps stock-only {44} ours-only {70c}; strs stock-only {} ours-only {NConsoleWnd::MakeItemInfo}
+NCRecipeListBox.cpp,,NFormatThousands,0x10057150,1005ff80,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {fffffffe}
+NCRecipeListBox.cpp,,NAmountColor,0x1002bb70,100300d0,stub,not in eligible.csv (category D or not a game function)
+NCRecipeListBox.cpp,NCRecipeListBox,NCRecipeListBox::NCRecipeListBox,0x100c41e0,100e1e40,stub,a base class constructor is not ported (NControl)
+NCRecipeListBox.cpp,NCRecipeListBox,NCRecipeListBox::NCRecipeListBox,0x100c42a0,100e1f00,stub,a base class constructor is not ported (NControl)
+NCRecipeListBox.cpp,NCRecipeListBox,NCRecipeListBox::~NCRecipeListBox,0x100c4240,100e1ea0,ported,
+NCRecipeListBox.cpp,NCRecipeListBox,NCRecipeListBox::UpdateEntryScrollBar,0x100c1110,10086300,stub,not in eligible.csv (category D or not a game function)
+NCRecipeListBox.cpp,NCRecipeListBox,NCRecipeListBox::GetSelectedEntry,0x100c1ef0,100df8d0,stub,"does not compile against the C2 headers: verify_data: disps stock-only {} ours-only {1fe, fe}"
+NCRecipeListBox.cpp,NCRecipeListBox,NCRecipeListBox::AddEntry,0x100c3390,100e09f0,stub,"does not compile against the C2 headers: verify_data: disps stock-only {} ours-only {1fe, fe}"
+NCRecipeListBox.cpp,NCRecipeListBox,NCRecipeListBox::OnPaint,0x100c1a00,100df3c0,stub,not in eligible.csv (category D or not a game function)
+NCRecipeManufactureItemWnd.cpp,NCRecipeManufactureItemWnd,NCRecipeManufactureItemWnd::NCRecipeManufactureItemWnd,0x100c7190,100e4fd0,stub,"does not compile against the C2 headers: verify_data: disps stock-only {110, 114} ours-only {}"
+NCRecipeManufactureItemWnd.cpp,NCRecipeManufactureItemWnd,NCRecipeManufactureItemWnd::NCRecipeManufactureItemWnd,0x100c7230,100e5070,stub,not in eligible.csv (category D or not a game function)
+NCRecipeManufactureItemWnd.cpp,NCRecipeManufactureItemWnd,NCRecipeManufactureItemWnd::~NCRecipeManufactureItemWnd,0x100c71e0,100e5020,ported,
+NCRecipeManufactureItemWnd.cpp,NCRecipeManufactureItemWnd,NCRecipeManufactureItemWnd::OnPaint,0x100c4fc0,100e2d50,stub,not in eligible.csv (category D or not a game function)
+NCRecipeManufactureItemWnd.cpp,NCRecipeManufactureItemWnd,NCRecipeManufactureItemWnd::OnDrawToolTip,0x100c78f0,100e4980,stub,not in eligible.csv (category D or not a game function)
+NCRecipeManufactureItemWnd.cpp,NCRecipeManufactureItemWnd,NCRecipeManufactureItemWnd::OnMouseMove,0x1009c3f0,100b1e70,stub,not in eligible.csv (category D or not a game function)
+NCRecipeManufactureItemWnd.cpp,NCRecipeManufactureItemWnd,NCRecipeManufactureItemWnd::AddIngredient,0x100c7cf0,100e5ed0,stub,does not compile against the C2 headers: verify_data: strs stock-only {new} ours-only {}
+NCRecipeManufactureItemWnd.cpp,NItemEntryOps,NItemEntryOps::Assign,0x100c79f0,100e50a0,stub,not in eligible.csv (category D or not a game function)
+NCRecipeShopItemWnd.cpp,NCRecipeShopItemWnd,NCRecipeShopItemWnd::NCRecipeShopItemWnd,0x100c3850,100e16e0,stub,not in eligible.csv (category D or not a game function)
+NCRecipeShopItemWnd.cpp,NCRecipeShopItemWnd,NCRecipeShopItemWnd::NCRecipeShopItemWnd,0x100c38f0,100e1780,stub,not in eligible.csv (category D or not a game function)
+NCRecipeShopItemWnd.cpp,NCRecipeShopItemWnd,NCRecipeShopItemWnd::~NCRecipeShopItemWnd,0x100c38a0,,skipped,no C2 counterpart
+NCRecipeShopItemWnd.cpp,NCRecipeShopItemWnd,NCRecipeShopItemWnd::AddItem,0x100c3010,100e0680,stub,not in eligible.csv (category D or not a game function)
+NCRecipeShopItemWnd.cpp,NCRecipeShopItemWnd,NCRecipeShopItemWnd::AddCopy,0x100c3130,100e07a0,stub,does not compile against the C2 headers: verify_data: strs stock-only {new} ours-only {}
+NCRecipeShopItemWnd.cpp,NCRecipeShopItemWnd,NCRecipeShopItemWnd::MoveItem,0x100c3210,100e0880,stub,does not compile against the C2 headers: verify: vcalls  stock {+0x124} ours {+0x128}
+NCRecipeShopItemWnd.cpp,NCRecipeShopItemWnd,NCRecipeShopItemWnd::OnLButtonUp,0x100c3930,100e1330,stub,not in eligible.csv (category D or not a game function)
+NCRecipeShopItemWnd.cpp,NCRecipeShopItemWnd,NCRecipeShopItemWnd::OnLButtonDblClick,0x100c3ae0,100e14c0,stub,not in eligible.csv (category D or not a game function)
+NCRecipeShopItemWnd.cpp,NCRecipeShopItemWnd,NCRecipeShopItemWnd::OnDialogResult,0x100c3c20,100e1610,stub,does not compile against the C2 headers: verify: vcalls  stock {+0x124} ours {+0x128}
+NCRecipeTree.cpp,NCRecipeTree,NCRecipeTree::NCRecipeTree,0x100c5960,,skipped,class gone in the new client
+NCRecipeTree.cpp,NCRecipeTree,NCRecipeTree::~NCRecipeTree,0x100c59b0,,skipped,class gone in the new client
+NCRecipeTree.cpp,NCRecipeTree,NCRecipeTree::OnCreate,0x100c4830,,skipped,class gone in the new client
+NCRecipeTree.cpp,NCRecipeTree,NCRecipeTree::OnPaint,0x100c5a00,,skipped,class gone in the new client
+NCRecipeTree.cpp,NCRecipeTree,NCRecipeTree::DrawItem,0x100c5a90,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::NCRecipeTreeCtrl,0x100c5d70,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::~NCRecipeTreeCtrl,0x100c5dc0,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::OnCreate,0x100c5e10,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::OnDestroy,0x100c5ed0,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::OnPaint,0x100c5f10,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::OnMouseWheel,0x100c62c0,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::ScrollUp,0x100c60b0,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::ScrollDown,0x100c6170,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::OnScrollBar,0x100c6240,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::Clear,0x100c5fa0,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::ShowVisible,0x100c6010,,skipped,class gone in the new client
+NCRecipeTreeCtrl.cpp,NCRecipeTreeCtrl,NCRecipeTreeCtrl::AddRecipe,0x100c6af0,,skipped,class gone in the new client
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::NCRestartMenuWnd,0x10097120,100ab780,stub,not in eligible.csv (category D or not a game function)
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::~NCRestartMenuWnd,0x100971b0,,skipped,no C2 counterpart
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::WindowProc,0x10096980,100a97e0,ported,
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::OnCreate,0x10097200,100aaaf0,stub,eligible.csv: insn 6 string/constant differs at 1011c730
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::OnDestroy,0x10097630,100aa1b0,stub,"does not compile against the C2 headers: verify_data: disps stock-only {d0, d4, d8, dc} ours-only {}"
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::ShowWindow,0x10097780,100aa300,ported,
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::OnPaint,0x100975a0,100aa110,stub,not in eligible.csv (category D or not a game function)
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::OnVillage,0x10096b20,100a9980,ported,
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::OnHideaway,0x10096ba0,100a9a00,ported,
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::OnCastle,0x10096c20,100a9a80,ported,
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::OnSiegeHQ,0x10096ca0,100a9b00,ported,
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::OnFixed,0x10096d20,100a9b80,ported,
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::HideUnavailable,0x10096a60,100a98c0,stub,"does not compile against the C2 headers: verify_data: disps stock-only {d0, d4, d8, dc, e0, e4, e8, ec, f0} ours-only {}"
+NCRestartMenuWnd.cpp,NCRestartMenuWnd,NCRestartMenuWnd::SetRestartPoints,0x10096ae0,100a9940,ported,
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::NCSkillItemWnd,0x10091d40,100a2250,stub,not in eligible.csv (category D or not a game function)
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::NCSkillItemWnd,0x10091de0,100a22f0,stub,not in eligible.csv (category D or not a game function)
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::~NCSkillItemWnd,0x10078360,,skipped,no C2 counterpart
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::WindowProc,0x10090b10,100a1050,stub,"does not compile against the C2 headers: verify: vcalls  stock {+0x114, +0x118, +0x11c} ours {+0x114, +0x118}"
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::OnDestroy,0x10091b50,100a1fb0,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {48}; disps stock-only {} ours-only {160}; strs stock-only {} ours-only {NCSkillItemWnd::OnDestroy}
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::Clear,0x10091e90,100a21a0,stub,"does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {1a28, 48}"
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::AddSkill,0x10091c20,100a2080,stub,constructs NCCoolTimeIcon (constructor not ported)
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::OnPaint,0x10090bb0,100a1180,stub,not in eligible.csv (category D or not a game function)
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::OnDrawToolTip,0x10092180,100e4980,stub,not in eligible.csv (category D or not a game function)
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::OnLButtonDown,0x10090b30,100a1070,stub,"does not compile against the C2 headers: verify: vcalls  stock {+0x74, +0x9c, +0xb4, +0x124} ours {+0x74, +0x9c, +0xb4, +0x128}"
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::OnMouseMove,0x10090ee0,100a14f0,stub,not in eligible.csv (category D or not a game function)
+NCSkillItemWnd.cpp,NCSkillItemWnd,NCSkillItemWnd::OnLButtonUp,0x100910e0,100a16c0,stub,not in eligible.csv (category D or not a game function)
+NCSkillItemWnd.cpp,NCGMSkillItemWnd,NCGMSkillItemWnd::NCGMSkillItemWnd,0x100788f0,100848f0,stub,not in eligible.csv (category D or not a game function)
+NCSkillItemWnd.cpp,NCGMSkillItemWnd,NCGMSkillItemWnd::NCGMSkillItemWnd,0x10078990,,stub,no C2 counterpart
+NCSkillItemWnd.cpp,NCGMSkillItemWnd,NCGMSkillItemWnd::~NCGMSkillItemWnd,0x10078940,,skipped,no C2 counterpart
+NCSkillItemWnd.cpp,NCGMSkillItemWnd,NCGMSkillItemWnd::WindowProc,0x10073040,1007e260,stub,"does not compile against the C2 headers: verify: vcalls  stock {+0x114, +0x118, +0x11c} ours {+0x114, +0x118}"
+NCSkillItemWnd.cpp,NCGMSkillItemWnd,NCGMSkillItemWnd::OnLButtonUp,0x10072f90,1007e280,ported,
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::NCSliderBar,0x10025e20,10029990,stub,not in eligible.csv (category D or not a game function)
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::NCSliderBar,0x10025f10,,stub,no C2 counterpart
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::~NCSliderBar,0x10025ec0,,skipped,no C2 counterpart
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::OnPaint,0x10025fd0,10029810,stub,not in eligible.csv (category D or not a game function)
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::OnMouseMove,0x10025d30,100296e0,stub,not in eligible.csv (category D or not a game function)
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::OnLButtonDown,0x10025cc0,10029670,stub,not in eligible.csv (category D or not a game function)
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::OnLButtonUp,0x10025d10,100296c0,stub,not in eligible.csv (category D or not a game function)
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::SetRange,0x10025bf0,10029550,stub,not in eligible.csv (category D or not a game function)
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::SetValue,0x10025c50,10029600,stub,eligible.csv: insn 0 this+1b4 -> 1e8 (layout says 1e4)
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::Reset,0x10025e00,100297e0,stub,not in eligible.csv (category D or not a game function)
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::SetScrollRange,0x10026110,10029970,stub,"does not compile against the C2 headers: verify_data: disps stock-only {1d4, 1e0, 1e4, 1ec, 44, 54, 9c, b0, b4} ours-only {}"
+NCSliderBar.cpp,NCSliderBar,NCSliderBar::SetScrollPos,0x10026120,10029980,stub,"does not compile against the C2 headers: verify_data: disps stock-only {1d8, 1e0, 1e4, 1e8, 1ec} ours-only {}"
+NCTestHtmlViewer.cpp,NCTestHtmlViewer,NCTestHtmlViewer::NCTestHtmlViewer,0x100311d0,10039b10,stub,not in eligible.csv (category D or not a game function)
+NCTestHtmlViewer.cpp,NCTestHtmlViewer,NCTestHtmlViewer::~NCTestHtmlViewer,0x10031220,,skipped,no C2 counterpart
+NCTestHtmlViewer.cpp,NCTestHtmlViewer,NCTestHtmlViewer::WindowProc,0x1002fdb0,10035ad0,ported,
+NCTestHtmlViewer.cpp,NCTestHtmlViewer,NCTestHtmlViewer::OnCreate,0x100337b0,10039bb0,stub,not in eligible.csv (category D or not a game function)
+NCTestHtmlViewer.cpp,NCTestHtmlViewer,NCTestHtmlViewer::OnLoad,0x10036a30,1003c720,ported,
+NCThumbButton.cpp,NCThumbButton,NCThumbButton::NCThumbButton,0x10002900,10002d20,stub,a base class constructor is not ported (NCButton)
+NCThumbButton.cpp,NCThumbButton,NCThumbButton::NCThumbButton,0x100029a0,10002dc0,stub,a base class constructor is not ported (NCButton)
+NCThumbButton.cpp,NCThumbButton,NCThumbButton::~NCThumbButton,0x10002950,10002d70,skipped,does not compile against the C2 headers: check_breakers: reaches a function whose body is NW_UNPORTED()
+NCThumbButton.cpp,NCThumbButton,NCThumbButton::OnMouseMove,0x10001410,100014c0,ported,
+NCThumbButton.cpp,NCThumbButton,NCThumbButton::OnLButtonDown,0x100013f0,100014a0,ported,
+NCThumbButton.cpp,NCThumbButton,NCThumbButton::OnLButtonUp,0x10001430,100014e0,ported,
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::NCTrainListBox,0x100ddef0,101091f0,stub,a base class constructor is not ported (NControl)
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::NCTrainListBox,0x100ddfb0,101092b0,stub,not in eligible.csv (category D or not a game function)
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::~NCTrainListBox,0x100ddf50,10109250,ported,
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::OnCreate,0x100dc160,10107360,stub,not in eligible.csv (category D or not a game function)
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::OnDestroy,0x100ddc20,100e0980,stub,not in eligible.csv (category D or not a game function)
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::OnPaint,0x100dc540,10107850,stub,not in eligible.csv (category D or not a game function)
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::OnLButtonDown,0x10079050,100862c0,ported,
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::HitTest,0x10084690,10093db0,note,"slot says 101073b0, fmap says 10093db0"
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::HitTest,0x10084690,101073b0,stub,not in eligible.csv (category D or not a game function)
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::AddEntry,0x100ddc90,10108d60,stub,does not compile against the C2 headers: verify_data: strs stock-only {new} ours-only {}
+NCTrainListBox.cpp,NCTrainListBox,NCTrainListBox::GetSelectedEntry,0x100dca20,10107df0,stub,"does not compile against the C2 headers: verify_data: disps stock-only {1400, 1480, 1484, 1488, 1490, 1494, 1498, 200, 400} ours-only {}"
+NCTree.cpp,NCTree,NCTree::NCTree,0x1002a660,1002f770,stub,not in eligible.csv (category D or not a game function)
+NCTree.cpp,NCTree,NCTree::~NCTree,0x1002a6e0,,skipped,no C2 counterpart
+NCTree.cpp,NCTree,NCTree::Clear,0x1002a570,,stub,no C2 counterpart
+NCTree.cpp,NCTree,NCTree::OnDestroy,0x1002a580,1002e250,stub,not in eligible.csv (category D or not a game function)
+NCTree.cpp,NCTree,NCTree::DeleteItem,0x1002a730,,stub,no C2 counterpart
+NCTree.cpp,NCTree,NCTree::DrawItem,0x1002a830,,stub,no C2 counterpart
+NCTree.cpp,NCTree,NCTree::OnPaint,0x1002a7a0,1002e630,stub,not in eligible.csv (category D or not a game function)
+NCTree.cpp,NCTree,NCTree::AddItem,0x1002b300,,stub,no C2 counterpart
+NCTutorialViewerWnd.cpp,NCTutorialViewerWnd,NCTutorialViewerWnd::NCTutorialViewerWnd,0x100de720,1010a9f0,stub,not in eligible.csv (category D or not a game function)
+NCTutorialViewerWnd.cpp,NCTutorialViewerWnd,NCTutorialViewerWnd::~NCTutorialViewerWnd,0x100de770,,skipped,no C2 counterpart
+NCTutorialViewerWnd.cpp,NCTutorialViewerWnd,NCTutorialViewerWnd::OnCreate,0x100de7c0,1010a4d0,stub,not in eligible.csv (category D or not a game function)
+NCTutorialViewerWnd.cpp,NCTutorialViewerWnd,NCTutorialViewerWnd::OnDestroy,0x100de930,10109c90,ported,
+NCTutorialViewerWnd.cpp,NCTutorialViewerWnd,NCTutorialViewerWnd::OnPaint,0x100de9e0,10109d40,stub,not in eligible.csv (category D or not a game function)
+NCTutorialViewerWnd.cpp,NCTutorialViewerWnd,NCTutorialViewerWnd::ShowPage,0x100de3d0,10109890,ported,
+NCTutorialViewerWnd.cpp,NCTutorialQuestionWnd,NCTutorialQuestionWnd::NCTutorialQuestionWnd,0x100deac0,1010aa90,stub,not in eligible.csv (category D or not a game function)
+NCTutorialViewerWnd.cpp,NCTutorialQuestionWnd,NCTutorialQuestionWnd::~NCTutorialQuestionWnd,0x100deb20,,skipped,no C2 counterpart
+NCTutorialViewerWnd.cpp,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnTimer,0x100de4c0,10109a10,ported,
+NCTutorialViewerWnd.cpp,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnCreate,0x100de3f0,10109940,stub,eligible.csv: insn 3 string/constant differs at 101289cc
+NCTutorialViewerWnd.cpp,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnPaint,0x100deb70,10109f50,stub,not in eligible.csv (category D or not a game function)
+NCTutorialViewerWnd.cpp,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnLButtonDown,0x100de440,10109990,ported,
+NCTutorialViewerWnd.cpp,NCTutorialQuestionWnd,NCTutorialQuestionWnd::OnLButtonUp,0x100de470,101099c0,ported,
+NCTVItem.cpp,TTVItemArray,TTVItemArray::~TTVItemArray,0x1002b0e0,,skipped,no C2 counterpart
+NCTVItem.cpp,NCTVItem,NCTVItem::NCTVItem,0x1002b170,,skipped,class gone in the new client
+NCTVItem.cpp,NCTVItem,NCTVItem::~NCTVItem,0x1002b2a0,,skipped,class gone in the new client
+NCTVItem.cpp,NCTVItem,NCTVItem::AddChild,0x1002b0b0,,skipped,class gone in the new client
+NCTVItem.cpp,NCTVItem,NCTVItem::OnCreate,0x1002a4b0,,skipped,class gone in the new client
+NCTVItem.cpp,NCTVItem,NCTVItem::OnLButtonDown,0x1002a4e0,,skipped,class gone in the new client
+NCTVItem.cpp,NCTVItem,NCTVItem::OnPaint,0x1002a600,,skipped,class gone in the new client
+NCVIPShopItemListBox.cpp,NCVIPShopItemListBox,NCVIPShopItemListBox::NCVIPShopItemListBox,0x10087610,10097240,stub,a base class constructor is not ported (NControl)
+NCVIPShopItemListBox.cpp,NCVIPShopItemListBox,NCVIPShopItemListBox::NCVIPShopItemListBox,0x100876d0,10097300,stub,a base class constructor is not ported (NControl)
+NCVIPShopItemListBox.cpp,NCVIPShopItemListBox,NCVIPShopItemListBox::~NCVIPShopItemListBox,0x10087670,100972a0,ported,
+NCVIPShopItemListBox.cpp,NCVIPShopItemListBox,NCVIPShopItemListBox::OnDestroy,0x10086cc0,10096310,stub,does not compile against the C2 headers: verify_data: disps stock-only {} ours-only {228}
+NCVIPShopItemListBox.cpp,NCVIPShopItemListBox,NCVIPShopItemListBox::OnPaint,0x100861a0,100957b0,stub,not in eligible.csv (category D or not a game function)
+NCVIPShopItemListBox.cpp,NCVIPShopItemListBox,NCVIPShopItemListBox::AddEntry,0x10086d90,10096460,stub,not in eligible.csv (category D or not a game function)
+NCXMasSealWnd.cpp,NCXMasSealWnd,NCXMasSealWnd::NCXMasSealWnd,0x100df910,1010b270,stub,not in eligible.csv (category D or not a game function)
+NCXMasSealWnd.cpp,NCXMasSealWnd,NCXMasSealWnd::~NCXMasSealWnd,0x100df960,,skipped,no C2 counterpart
+NCXMasSealWnd.cpp,NCXMasSealWnd,NCXMasSealWnd::OnCreate,0x100df9b0,1010b170,stub,not in eligible.csv (category D or not a game function)
+NCXMasSealWnd.cpp,NCXMasSealWnd,NCXMasSealWnd::OnDestroy,0x100df890,1010b020,stub,does not compile against the C2 headers: verify: vcalls  stock {+0xc} ours {}
+NCXMasSealWnd.cpp,NCXMasSealWnd,NCXMasSealWnd::OnPaint,0x100dfa70,1010b0a0,stub,not in eligible.csv (category D or not a game function)
+NCXMasSealWnd.cpp,NCXMasSealWnd,NCXMasSealWnd::SetItem,0x100dfb40,1010b230,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {7c}; disps stock-only {7c} ours-only {}
+NDialogInfo.cpp,NDialogInfo,NDialogInfo::NDialogInfo,0x10006e60,100075e0,stub,not in eligible.csv (category D or not a game function)
+NDialogInfo.cpp,NDialogInfo,NDialogInfo::~NDialogInfo,0x100067d0,10006e20,skipped,not in eligible.csv (category D or not a game function)
+NDialogInfo.cpp,NDialogInfo,NDialogInfo::SetText,0x10006550,10006ba0,ported,
+NDialogInfo.cpp,NDialogInfo,NDialogInfo::SetSystemMessage,0x10006500,10006a80,stub,not in eligible.csv (category D or not a game function)
+NDialogInfo.cpp,NDialogInfo,NDialogInfo::SetButtons,0x100064b0,10006a30,stub,eligible.csv: insn 8 this+34 -> 38 (layout says ?)
+NDialogInfo.cpp,NDialogInfo,NDialogInfo::SetParamText,0x10006570,10006bc0,stub,does not compile against the C2 headers: verify_data: consts stock-only {50} ours-only {4c}
+NDialogInfo.cpp,NDialogInfo,NDialogInfo::SetParams,0x100065a0,10006bf0,stub,eligible.csv: insn 2 this+58 -> 5c (layout says ?)
+NDialogInfo.cpp,NDialogInfo,NDialogInfo::SetText60,0x100065c0,10006c10,stub,does not compile against the C2 headers: verify_data: consts stock-only {64} ours-only {60}
+NHtmlAnalyzer.cpp,NHtmlAnalyzer,NHtmlAnalyzer::NHtmlAnalyzer,0x1002ced0,10032bc0,ported,
+NHtmlAnalyzer.cpp,NHtmlAnalyzer,NHtmlAnalyzer::~NHtmlAnalyzer,0x1002cfa0,10032c90,ported,
+NHtmlAnalyzer.cpp,NHtmlAnalyzer,NHtmlAnalyzer::OnDestroy,0x1002ce30,10032b20,ported,
+NHtmlAnalyzer.cpp,NHtmlAnalyzer,NHtmlAnalyzer::OnPaint,0x1002ce40,10032b30,ported,
+NItemInfo.cpp,NItemInfo,NItemInfo::NItemInfo,0x10040800,10047400,stub,not in eligible.csv (category D or not a game function)
+NKeyCrypt.cpp,NKeyCrypt,NKeyCrypt::NKeyCrypt,0x1003eb20,10046700,ported,
+NKeyCrypt.cpp,NKeyCrypt,NKeyCrypt::~NKeyCrypt,0x1003ed40,10046920,stub,"does not compile against the C2 headers: verify: imports stock ['#2'] ours ['GetLastError', 'GetProcAddress', 'LoadLibraryA']"
+NKeyCrypt.cpp,NKeyCrypt,NKeyCrypt::Close,0x1003eb30,10046710,stub,"does not compile against the C2 headers: verify: imports stock ['#2'] ours ['GetLastError', 'GetProcAddress', 'LoadLibraryA']"
+NKeyCrypt.cpp,NKeyCrypt,NKeyCrypt::RegisterMessage,0x1003eb60,10046740,stub,"does not compile against the C2 headers: verify: imports stock ['#16'] ours ['GetLastError', 'GetProcAddress', 'LoadLibraryA']"
+NKeyCrypt.cpp,,NKeyCrypt::EnableProtectRegistry,0x1003eb90,10046770,ported,
+NKeyCrypt.cpp,,NKeyCrypt::IsAdministrator,0x1003ec20,10046800,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {500}
+NKeyCrypt.cpp,NKeyCrypt,NKeyCrypt::Open,0x1003ed50,10046930,stub,"does not compile against the C2 headers: verify: imports stock ['#1', '#25', '#36', '#37', '??1FString@@QAE@XZ', '??DFString@@QBEPBGXZ', '?Logf2@FOutputDevice@@QAAXW4EName@@PBGZZ', '?appSpr"
+NL2Font.cpp,FL2FontPage,FL2FontPage::FL2FontPage,0x10072460,1007d680,ported,
+NL2Font.cpp,FL2FontPage,FL2FontPage::~FL2FontPage,0x100728e0,1007db10,ported,
+NL2Font.cpp,NL2Font,NL2Font::GetTexture,0x10072490,1007d6c0,ported,
+NL2Font.cpp,FL2FontPage,FL2FontPage::Find,0x10072220,1007d440,ported,
+NL2Font.cpp,FL2FontPage,FL2FontPage::Load,0x10072540,1007d770,ported,
+NL2Font.cpp,FL2FontPage,FL2FontPage::Free,0x100725c0,1007d7f0,ported,
+NL2Font.cpp,FL2FontPageEx,FL2FontPageEx::FL2FontPageEx,0x100728f0,1007db20,ported,
+NL2Font.cpp,FL2FontPageEx,FL2FontPageEx::~FL2FontPageEx,0x10072910,1007db40,ported,
+NL2Font.cpp,FL2FontPageEx,FL2FontPageEx::LoadEx,0x100725f0,1007d820,ported,
+NL2Font.cpp,FL2FontPageEx,FL2FontPageEx::FindEx,0x10072250,1007d470,ported,
+NL2Font.cpp,FL2FontPageEx,FL2FontPageEx::GetMaskValue,0x10072280,1007d4a0,ported,
+NL2Font.cpp,UGlobalTempObjects,UGlobalTempObjects::AddGlobalObject,0x10072850,1007da80,stub,eligible.csv: insn 12 this+28 -> 28 (layout says ?)
+NL2Font.cpp,,ConstructFinalBlend,0x100727e0,1007da10,ported,
+NL2Font.cpp,NL2Font,NL2Font::NL2Font,0x100722d0,1007d4f0,ported,
+NL2Font.cpp,NL2Font,NL2Font::~NL2Font,0x100724e0,1007d710,ported,
+NL2Font.cpp,NL2Font,NL2Font::Load,0x10072960,1007db90,stub,"does not compile against the C2 headers: verify_data: consts stock-only {fffffffc} ours-only {}; strs stock-only {new} ours-only {}; globs stock-only {1020ade4, 1020ade8} ours-only {}"
+NL2Font.cpp,NL2Font,NL2Font::GetChar,0x10072310,1007d530,ported,
+NL2Font.cpp,NL2Font,NL2Font::GetCharMask,0x100723b0,1007d5d0,ported,
+NL2Font.cpp,NL2Font,NL2Font::GetCharMaskValue,0x10072410,1007d630,ported,
+NL2Font.cpp,NL2Font,NL2Font::HasTexture,0x100724a0,1007d6d0,ported,
+NL2Font.cpp,NL2Font,NL2Font::GetMaterial,0x100726a0,1007d8d0,ported,
+NL2Font.cpp,NL2Font,NL2Font::Clear,0x10072d70,1007dfa0,ported,
+NMacroRun.cpp,NMacroEntry,NMacroEntry::ExecuteLine,0x1008bc60,,stub,no C2 counterpart
+NMacroRun.cpp,NMacroEntry,NMacroEntry::Tick,0x1008ebe0,1009e8f0,stub,not in eligible.csv (category D or not a game function)
+NStdLib.cpp,NStdString,NStdString::NStdString,0x10010c50,10012230,ported,
+NStdLib.cpp,NStdString,NStdString::~NStdString,0x10010640,10011c70,ported,
+NStdLib.cpp,NStdString,NStdString::Copy,0x1000fd60,10011320,stub,"does not compile against the C2 headers: verify: ret     stock [8] ours [0, 8]"
+NStdLib.cpp,NStdString,NStdString::Grow,0x10010670,10011ca0,ported,
+NStdLib.cpp,NStdString,NStdString::Erase,0x10010800,10011e30,ported,
+NStdLib.cpp,NStdString,NStdString::Assign,0x10010a50,10012030,ported,
+NStdLib.cpp,NStdString,NStdString::Assign,0x10010b00,100120e0,ported,
+NStdLib.cpp,NStdLogicError,NStdLogicError::NStdLogicError,0x10010bb0,10012190,stub,"does not compile against the C2 headers: verify_data: disps stock-only {} ours-only {20, 24}"
+NStdLib.cpp,NStdLogicError,NStdLogicError::NStdLogicError,0x10010d10,100122f0,ported,
+NStdLib.cpp,NStdLogicError,NStdLogicError::~NStdLogicError,0x10010740,10011d70,stub,does not compile against the C2 headers: verify: imports stock ['HeapFree'] ours []
+NStdLib.cpp,NStdLogicError,NStdLogicError::What,0x100107c0,10011df0,ported,
+NStdLib.cpp,NStdLengthError,NStdLengthError::NStdLengthError,0x10010d80,10012360,ported,
+NStdLib.cpp,NStdLengthError,NStdLengthError::~NStdLengthError,0x10010c40,10012220,stub,does not compile against the C2 headers: verify: imports stock ['HeapFree'] ours []
+NStdLib.cpp,NPointDeque,NPointDeque::Tidy,0x1000fcf0,100112b0,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {ffffffff}
+NStdLib.cpp,NPointDeque,NPointDeque::GrowMap,0x10010da0,10012380,ported,
+NStdLib.cpp,NPointDeque,NPointDeque::PushBack,0x10010ee0,100124c0,ported,
+NStdLib.cpp,NPointDeque,NPointDeque::Xlen,0x10010c90,10012270,stub,"does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {101b23ac, 28}"
+NStdLib.cpp,,NSimPawnVector::UninitializedCopy,0x100affb0,100c85c0,ported,
+NStdLib.cpp,NSimPawnVector,NSimPawnVector::Xlen,0x100b1420,100c9ff0,stub,"does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {101b23ac, 28}"
+NStdLib.cpp,NSimPawnVector,NSimPawnVector::Reserve,0x100b14a0,100ca070,ported,
+NStdLib.cpp,,StockOperatorDelete,0x10011820,10014560,ported,
+NStl.cpp,NStlCharAllocator,NStlCharAllocator::Allocate,0x100316e0,10037150,ported,
+NStl.cpp,NStlWString,NStlWString::~NStlWString,0x100323a0,10037e90,ported,
+NStl.cpp,NStlWString,NStlWString::Find,0x10031600,10036ff0,stub,does not compile against the C2 headers: verify_data: consts stock-only {fffffffe} ours-only {}
+NStl.cpp,NStlWString,NStlWString::Copy,0x10032460,10037f50,ported,
+NStl.cpp,NStlWString,NStlWString::Grow,0x10033ee0,10038ba0,ported,
+NStl.cpp,NStlWString,NStlWString::Replace,0x10033fb0,10038c70,ported,
+NStl.cpp,NStlWString,NStlWString::Erase,0x10034940,1003a1d0,ported,
+NStl.cpp,NStlWString,NStlWString::Erase,0x10034a10,1003a2a0,ported,
+NStl.cpp,NStlWString,NStlWString::Replace,0x10034a80,1003a310,ported,
+NStl.cpp,NStlWString,NStlWString::Assign,0x10034c70,1003a500,ported,
+NStl.cpp,NStlWString,NStlWString::Assign,0x10034d30,1003a970,ported,
+NStl.cpp,NStlWString,NStlWString::Assign,0x10034f90,1003abd0,ported,
+NStl.cpp,NStlWString,NStlWString::Append,0x10036ea0,1003e200,ported,
+NStl.cpp,NStlWString,NStlWString::Append,0x10036fa0,1003e300,ported,
+NStl.cpp,NStlWString,NStlWString::Insert,0x100370c0,,stub,no C2 counterpart
+NStl.cpp,NStlWString,NStlWString::Insert,0x100372b0,1003cf30,stub,not in eligible.csv (category D or not a game function)
+NStl.cpp,NStlWString,NStlWString::Insert,0x100375e0,,stub,no C2 counterpart
+NStl.cpp,NStlWString,NStlWString::Insert,0x10037430,1003e480,ported,
+NStl.cpp,NStlWString,NStlWString::Substr,0x10037860,1003d0f0,stub,not in eligible.csv (category D or not a game function)
+NStl.cpp,NStlVectorBase,NStlVectorBase::Xlen,0x10038500,1003f510,stub,"does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {101b23ac, 28}"
+NStl.cpp,,NStlFill<_WORD>,0x10036cf0,1003e080,ported,
+NStl.cpp,,NStlFill<NHtmlTag*>,0x10036d10,1003e0a0,ported,
+NStl.cpp,,NStlFill<NStlWString>,0x100378a0,1003e8b0,ported,
+NStl.cpp,,NStlUninitCopy<_WORD>,0x10036d30,1003e0c0,ported,
+NStl.cpp,,NStlUninitCopy<NHtmlTag*>,0x10036d60,10011460,skipped,not in eligible.csv (category D or not a game function)
+NStl.cpp,,NStlUninitCopy<NStlWString>,0x10037910,1003e920,ported,
+NStl.cpp,,NStlUninitFillN<_WORD>,0x10036df0,1003e150,ported,
+NStl.cpp,,NStlUninitFillN<NStlWString>,0x100385c0,1003f5d0,ported,
+NStl.cpp,,NStlCopyBackward<_WORD>,0x10036d90,1003e0f0,ported,
+NStl.cpp,,NStlCopyBackward<NHtmlTag*>,0x10036dc0,1003e120,ported,
+NStl.cpp,,NStlCopyBackward<NStlWString>,0x10038580,1003f590,ported,
+NStl.cpp,,NStlCopyBackwardOpt<NStlWString>,0x100378d0,1003e8e0,ported,
+NStl.cpp,,NStlDestroyRange<NStlWString>,0x10037610,1003e660,ported,
+NStl.cpp,NStlWStringAllocator,NStlWStringAllocator::Destroy,0x100375b0,1003e600,ported,
+NStl.cpp,NStlWordVector,NStlWordVector::Ucopy,0x10037250,1003e420,ported,
+NStl.cpp,NStlWordVector,NStlWordVector::Ufill,0x10037550,1003e5a0,ported,
+NStl.cpp,NStlWordVector,NStlWordVector::InsertN,0x10038c60,1003fc70,ported,
+NStl.cpp,NStlWordVector,NStlWordVector::PushBack,0x10039920,10040930,ported,
+NStl.cpp,NHtmlTagList,NHtmlTagList::Ucopy,0x10037280,1003e450,ported,
+NStl.cpp,NHtmlTagList,NHtmlTagList::Ufill,0x10037580,1003e5d0,ported,
+NStl.cpp,NHtmlTagList,NHtmlTagList::InsertN,0x10038f10,1003ff20,ported,
+NStl.cpp,NStlWStringVector,NStlWStringVector::~NStlWStringVector,0x10039200,10040210,ported,
+NStl.cpp,NStlWStringVector,NStlWStringVector::Size,0x10036af0,1003de80,ported,
+NStl.cpp,NStlWStringVector,NStlWStringVector::Destroy,0x100384e0,1003f4f0,ported,
+NStl.cpp,NStlWStringVector,NStlWStringVector::Ucopy,0x100391d0,100401e0,ported,
+NStl.cpp,NStlWStringVector,NStlWStringVector::Ufill,0x10039250,10040260,ported,
+NStl.cpp,NStlWStringVector,NStlWStringVector::InsertN,0x10039280,10040290,ported,
+NStl.cpp,NStlWStringVector,NStlWStringVector::Insert,0x10039990,100409a0,ported,
+NStl.cpp,NStlWStringVector,NStlWStringVector::PushBack,0x10039a30,10040a40,ported,
+NString.cpp,NString,NString::NString,0x100264f0,10029f40,ported,
+NString.cpp,NString,NString::NString,0x100266d0,1002a120,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {200}
+NString.cpp,NString,NString::~NString,0x10026700,1002a150,ported,
+NString.cpp,NString,NString::GetAt,0x10026510,10029f60,ported,
+NString.cpp,NString,NString::AllocBuffer,0x10026530,10029f80,ported,
+NString.cpp,NString,NString::Insert,0x10026560,10029fb0,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {200}
+NString.cpp,NString,NString::Append,0x10026690,1002a0e0,stub,does not compile against the C2 headers: verify: imports stock [] ours ['?appMemmove@@YAPAXPAXPBXH@Z']
+NString.cpp,NString,NString::Empty,0x100266b0,1002a100,ported,
+NTemplates.cpp,TPtrArray,TPtrArray::Remove,0x1001d1b0,100370d0,skipped,not in eligible.csv (category D or not a game function)
+NTemplates.cpp,TPtrArray,TPtrArray::TPtrArray,0x100959d0,,skipped,no C2 counterpart
+NTemplates.cpp,,NewPtrArrayElement,0x10094790,10131560,stub,not in eligible.csv (category D or not a game function)
+NTemplates.cpp,TListRowArray,TListRowArray::~TListRowArray,0x1001d690,10020af0,ported,
+NTemplates.cpp,TItemEntryArray,TItemEntryArray::~TItemEntryArray,0x1001a740,1001d7a0,ported,
+NTemplates.cpp,TStringPtrArray,TStringPtrArray::~TStringPtrArray,0x10005670,10005a90,ported,
+NTemplates.cpp,TCoolTimeArray,TCoolTimeArray::~TCoolTimeArray,0x100781b0,100835b0,ported,
+NTemplates.cpp,TVIPNeededItemArray,TVIPNeededItemArray::~TVIPNeededItemArray,0x10087500,10096cf0,ported,
+NTemplates.cpp,TSiegeClanArray,TSiegeClanArray::~TSiegeClanArray,0x100d2350,100f9750,ported,
+NTemplates.cpp,TActorArray,TActorArray::AddItem,0x10089e50,1011b200,skipped,not in eligible.csv (category D or not a game function)
+NTemplates.cpp,TRadioButtonArray,TRadioButtonArray::TRadioButtonArray,0x10026bf0,1002a430,skipped,"does not compile against the C2 headers: verify: imports stock ['?Realloc@FArray@@IAEXH@Z'] ours ['?Add@FArray@@QAEHHH@Z', '?Realloc@FArray@@IAEXH@Z']"
+NTemplates.cpp,TRadioButtonArray,TRadioButtonArray::~TRadioButtonArray,0x100271e0,1002aa20,ported,
+NTemplates.cpp,TWndEntryArray,TWndEntryArray::~TWndEntryArray,0x1002eff0,10002460,skipped,not in eligible.csv (category D or not a game function)
+NTemplates.cpp,TWndEntryArrayLast,TWndEntryArrayLast::LastChecked,0x1002d420,100330f0,stub,does not compile against the C2 headers: verify_data: consts stock-only {} ours-only {fffffffc}
+NTemplates.cpp,TWndEntryArrayLast,TWndEntryArrayLast::RemoveItem,0x1002e460,100318e0,skipped,not in eligible.csv (category D or not a game function)
+NTemplates.cpp,TControlArray,TControlArray::~TControlArray,0x100323d0,10037ec0,ported,
+NTemplates.cpp,TActionItemArray,TActionItemArray::~TActionItemArray,0x100433a0,1004a440,ported,
+NTemplates.cpp,TStringPtrArray,TStringPtrArray::~TStringPtrArray,0x10048c80,100502f0,ported,
+NTemplates.cpp,TPtrArray,TPtrArray::~TPtrArray,0x100c0200,100ddb00,ported,
+NTemplates.cpp,TPtrArray,TPtrArray::~TPtrArray,0x100d84b0,,skipped,no C2 counterpart
+NTemplates.cpp,TListItemArray,TListItemArray::Remove,0x1001ba40,1012ca10,skipped,not in eligible.csv (category D or not a game function)
+NTemplates.cpp,TListItemArray,TListItemArray::~TListItemArray,0x1001c050,1001f130,ported,
+NTemplates.cpp,TMinimapTargetArray,TMinimapTargetArray::Remove,0x10099e20,,skipped,no C2 counterpart
+NTemplates.cpp,TMinimapTargetArray,TMinimapTargetArray::~TMinimapTargetArray,0x1009a560,100af8a0,skipped,not in eligible.csv (category D or not a game function)
+NTemplates.cpp,TImeTextArray,TImeTextArray::Empty,0x10004140,100040f0,ported,
+NTemplates.cpp,TImeTextArray,TImeTextArray::AddItem,0x10004160,10004110,ported,
+NTemplates.cpp,TImeTextArray,TImeTextArray::~TImeTextArray,0x10004370,10004290,ported,
+NTemplates.cpp,TChatBalloonArray,TChatBalloonArray::Remove,0x10050ac0,100556e0,ported,
+NTemplates.cpp,TChatBalloonArray,TChatBalloonArray::~TChatBalloonArray,0x100517d0,10056630,ported,
+NTemplates.cpp,TNameArray,TNameArray::Empty,0x100abb00,,skipped,no C2 counterpart
+NTemplates.cpp,TIntArray,TIntArray::~TIntArray,0x100326d0,10038090,ported,
+NTemplates.cpp,TIntArray,TIntArray::Pop,0x10033ea0,10038b60,ported,
+NTemplates.cpp,TIntArray,TIntArray::~TIntArray,0x1001fb70,100231d0,ported,
+NTemplates.cpp,TThaiCharArray,TThaiCharArray::~TThaiCharArray,0x1000d540,1000e480,ported,
+NTemplates.cpp,TPtrArray,TPtrArray::~TPtrArray,0x1008f7b0,1009f8f0,ported,
+NTemplates.cpp,TPtrArray,TPtrArray::~TPtrArray,0x100c37c0,100e12a0,ported,
+NTemplates.cpp,TPtrArray,TPtrArray::~TPtrArray,0x1007af00,10088220,ported,
+NTemplates.cpp,TTrainEntryArray,TTrainEntryArray::~TTrainEntryArray,0x100dde60,10109160,ported,
+NTemplates.cpp,TChatLimiterItemArray,TChatLimiterItemArray::~TChatLimiterItemArray,0x10048ba0,10050210,ported,
+NTemplates.cpp,FString,FString::Len,0x1001efd0,10022780,ported,
+NTemplates.cpp,TTimerArray,TTimerArray::Remove,0x10061d40,1006ba10,ported,
+NTemplates.cpp,TTimerArray,TTimerArray::~TTimerArray,0x1006b5d0,10075590,ported,
+NTemplates.cpp,TSysMsgParamArray,TSysMsgParamArray::~TSysMsgParamArray,0x1006b540,10075500,ported,
+NTemplates.cpp,TViewItemMapIterator,TViewItemMapIterator::~TViewItemMapIterator,0x1006b660,10136330,skipped,not in eligible.csv (category D or not a game function)
+NTemplates.cpp,TViewItemMap,TViewItemMap::FindRef,0x10061dc0,1012b460,skipped,not in eligible.csv (category D or not a game function)
+NTownMapWnd.cpp,NTownMapWnd,NTownMapWnd::NTownMapWnd,0x100998a0,100afed0,stub,not in eligible.csv (category D or not a game function)
+NTownMapWnd.cpp,NTownMapWnd,NTownMapWnd::~NTownMapWnd,0x10099940,,skipped,no C2 counterpart
+NTownMapWnd.cpp,NTownMapWnd,NTownMapWnd::OnDestroy,0x10098e80,100ac1e0,stub,does not compile against the C2 headers: verify: vcalls  stock {+0xc} ours {}
+NTownMapWnd.cpp,NTownMapWnd,NTownMapWnd::SetMap,0x10098f00,100ac260,ported,
+NTownMapWnd.cpp,NTownMapWnd,NTownMapWnd::OnLButtonDown,0x10098fe0,100ac340,stub,not in eligible.csv (category D or not a game function)
+NTownMapWnd.cpp,NTownMapWnd,NTownMapWnd::OnLButtonUp,0x10099060,100ac3d0,stub,not in eligible.csv (category D or not a game function)
+NTownMapWnd.cpp,NTownMapWnd,NTownMapWnd::OnMouseMove,0x10099090,100ac400,stub,not in eligible.csv (category D or not a game function)
+NTownMapWnd.cpp,NTownMapWnd,NTownMapWnd::OnCreate,0x10099990,100af630,stub,not in eligible.csv (category D or not a game function)
+NTownMapWnd.cpp,NTownMapWnd,NTownMapWnd::OnPaint,0x10099a60,100ad500,stub,not in eligible.csv (category D or not a game function)

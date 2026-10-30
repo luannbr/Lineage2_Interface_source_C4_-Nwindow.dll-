@@ -1,0 +1,4 @@
+# Field placements the vote solver of tools/port/layout.py gets wrong or cannot make, read from the code of this
+# client. class,field,c2,retype,note. field = the BASE header's field name; c2 = the offset in THIS client's object
+# (hex), or `gone` when the field no longer exists; retype = the C++ type this client's code uses for it.
+class,field,c2,retype,note

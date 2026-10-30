@@ -1,0 +1,7 @@
+# class `*` = every class that overrides the virtual (a different signature would be a NEW virtual and shift the
+# slots of the class).
+# Method declarations this client's code needs that differ from the base header's (argument types that changed with
+# the layout). class,method,declaration: the whole declaration line (no indent, no comment); tools/port/gen.py puts
+# it in the generated header (keeping the slot/address comment) and uses it for the stubs of that method.
+class,method,declaration
+NCObject,FindTexture,"UTexture* FindTexture(const TCHAR* Name, UBOOL bFallback = 1);","C4: ret 4 -> 8: the second argument says whether a missing texture falls back to NWindow.BlackTexture (the C3 behaviour: every stock caller passes 1)"

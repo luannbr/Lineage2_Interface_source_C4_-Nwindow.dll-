@@ -1,0 +1,357 @@
+# UL2ConsoleWnd's pure slots in the C3 Engine.dll (tools/ue2_remap_console_slots.py over the C2 table:
+# every row moved through the NConsoleWnd slot map of db/vslots.json; the C2 revisions by hand come along).
+# declaration: the name and signature of the slot's NConsoleWnd implementation; empty = PureSlotNNN in the
+# generated list. source: how the C2 slot was found (layout, handler, guard, gap, align, content, map, forward,
+# names.csv) or `new`: a C3-only slot (note: what the C3 NWindow image has there). The `c1_slot` column is the
+# BASE client's slot (C2) of the row; empty: no counterpart.
+# dropped C2 slot 174: void ReceivePartyMatchList(): no slot in the new vtable
+# dropped C2 slot 175: void AddPartyMatchMember(L2ParamStack& Params): no slot in the new vtable
+# dropped C2 slot 176: void ReceivePartyMatchDetail(L2ParamStack& Params): no slot in the new vtable
+# dropped C2 slot 260: void ShowMapItem(INT ItemID): no slot in the new vtable
+# dropped C2 slot 274: UBOOL IsCtrlDown(): no slot in the new vtable
+slot,declaration,source,note,c1_slot
+27,"UBOOL IsOverWindow(INT X, INT Y)",map,vslots.json 26 -> 27 and the C2 function at 0x10051da0 is the fmap match of the C1 one,27
+28,"void ShowWarningDialog(INT P1, INT P2)",content,"name ours; ret 8: when P2 is set the WarningDialogBox (+0x3554) gets +0x1B8 = 1, then its sub_10006e00(P1) and ShowWindow+modal (sub_10006dc0)",28
+29,"void GameGuardQuery(INT P1, INT P2, INT P3, INT P4)",guard,guard NConsoleWnd::GameGuardQuery; C2 only (ret 0x10: four values),29
+30,void AuthLoginSuccess(),handler,,30
+31,"void SCCheckStart(INT P1, INT P2)",handler,"UGameEngine::OnSCCheckStart(int,int) (FL2NetNotify slot 128) calls it; LoginWnd's window at +0x98, tail call sub_10057c80",31
+32,void AuthLoginFail(INT Reason),handler,,32
+33,void StartNotice(L2ParamStack& Params),gap,,33
+34,void CharacterCreateFail(INT Reason),handler,,34
+35,void ReceiveCharacterInfo(),guard,,35
+36,void AddCharacterInfo(User Info),guard,ret 0x1F8 = sizeof(User) in C2 (C1: 0x208): same signature,36
+37,void AcceptGameStart(INT Result),handler,,37
+38,void AcceptCharacterDelete(INT Result),guard,,38
+39,void AcceptNewCharacter(INT Result),guard,,39
+40,void AcceptCharacterCreate(INT Result),guard,,40
+41,void AcceptLogOut(),gap,,41
+42,void ServerClose(INT Reason),gap,,42
+43,"void ReviveRequest(INT Param1, INT Param2)",handler,,43
+44,void ReceiveServerList(INT LastServerID),guard,,44
+45,void AddServerList(L2ParamStack& Params),handler,,45
+46,void EndServerList(),handler,,46
+47,void MyTargetSelected(INT LevelDiff),gap,,47
+48,void ReceiveItemList(INT bShow),gap,,48
+49,void ReceiveUpdateItemList(),guard,,49
+50,void ReceiveTradeStart(INT ObjectID),guard,,50
+51,void ReceiveAddTradeInventoryItem(NItemRequest Item),handler,,51
+52,void ReceiveAddTradeOwnItem(NItemRequest Item),handler,,52
+53,void ReceiveAddTradeOtherItem(NItemRequest Item),handler,,53
+54,"void ReceiveTradeUpdate(INT Change, ItemInfo& Item)",gap,,54
+55,void ReceiveTradeDoneMsg(INT Result),guard,,55
+56,void AddRecommandedData(RecommandedDataStr Data),guard,,56
+57,void EndRecommandedData(),guard,,57
+58,void AddInventoryItem(ItemInfo& Item),align,,58
+59,"void UpdateInventoryItem(INT Change, ItemInfo& Item)",align,,59
+60,void CheckGeo(),content,C2 only; takes no argument (the stock pops nothing: it tail-calls the inventory window's 0x10080440); UGameEngine::OnCheckGeo's call at +0xF0 is on the level,60
+61,,new,"NConsoleWnd function 1005c680 NConsoleWnd::vfn061, ret 0xc (name from vfn)",
+62,,new,"NConsoleWnd function 1006ea20 NConsoleWnd::vfn062, ret 4 (name from vfn)",
+63,"void StartBuyList(INT Adena, INT ListID)",handler,,61
+64,void AddBuyList(ItemInfo& Item),handler,,62
+65,"void StartSellList(INT Adena, INT ListID)",handler,,63
+66,void AddSellList(ItemInfo& Item),handler,,64
+67,"void StartManorBuyList(INT Adena, INT ListID)",handler,"UGameEngine::OnStartManorBuyList(INT, INT) calls it; C2 only (a copy of StartBuyList on another window)",65
+68,void AddManorBuyList(ItemInfo& Item),handler,UGameEngine::OnAddManorBuyList(ItemInfo&) calls it; C2 only,66
+69,"void StartManorSellList(INT Adena, INT ListID)",handler,"UGameEngine::OnStartManorSellList(INT, INT) calls it; C2 only",67
+70,void AddManorSellList(ItemInfo& Item),handler,UGameEngine::OnAddManorSellList(ItemInfo&) calls it; C2 only,68
+71,void StartDepositList(INT Adena),handler,,69
+72,void AddDepositList(ItemInfo& Item),handler,,70
+73,void StartWithdrawList(INT Adena),handler,,71
+74,void AddWithdrawList(ItemInfo& Item),handler,,72
+75,void ReceiveWareHouseDone(L2ParamStack& Params),gap,,73
+76,void UpdatePlayerInfo(L2ParamStack& Params),gap,,74
+77,void NpcHtmlMessage(L2ParamStack& Params),handler,,75
+78,void TutorialShowHtml(TCHAR* Html),handler,,76
+79,void TutorialShowQuestionMark(INT ID),handler,,77
+80,void TutorialEnableClientEvent(INT Events),handler,,78
+81,void TutorialCloseHtml(),handler,,79
+82,void SendTutorialEvent(INT Event),gap,,80
+83,"void ShowRadar(INT Param1, INT Param2, INT X, INT Y, INT Z)",handler,"UGameEngine::OnShowRadar(INT, INT, INT, INT, INT) calls it: the C1 ShowRadar(X, Y, Z) with two more values (ret 0xc in C1, 0x14 in C2)",81
+84,"void DeleteRadar(INT X, INT Y, INT Z)",handler,,82
+85,void ReceivePledgeExtendedInfo(PledgeInfo& Info),gap,,83
+86,void ReceivePledgeInfo(PledgeInfo& Info),guard,,84
+87,void ReceivePledgeInfoUpdate(PledgeInfo& Info),guard,,85
+88,void ReceivePledgeMemberList(),gap,,86
+89,void AddPledgeMember(L2ParamStack& Params),gap,,87
+90,void UpdatePledgeMember(L2ParamStack& Params),guard,,88
+91,void DeletePledgeMember(TCHAR* Name),guard,,89
+92,void DeleteAllPledgeMember(),guard,,90
+93,void ReceiveCreatePledge(L2ParamStack& Params),align,,91
+94,void ReceiveAskJoinPledge(L2ParamStack& Params),align,,92
+95,void ReceiveOustPledgeMember(L2ParamStack& Params),align,,93
+96,void ReceiveDismissPledge(L2ParamStack& Params),align,,94
+97,void ReceiveJoinPledge(L2ParamStack& Params),align,,95
+98,void ReceiveWithdrawalPledge(L2ParamStack& Params),align,,96
+99,void ReceiveOustPledgeMessage(L2ParamStack& Params),map,,97
+100,void ReceiveDismissPledgeMessage(L2ParamStack& Params),align,,98
+101,void ReceiveStartPledgeWar(L2ParamStack& Params),align,,99
+102,void ReceiveReplyStartPledgeWar(L2ParamStack& Params),align,,100
+103,void ReceiveStopPledgeWar(L2ParamStack& Params),align,,101
+104,void ReceiveReplyStopPledgeWar(L2ParamStack& Params),align,,102
+105,void ReceiveSurrenderPledgeWar(L2ParamStack& Params),align,,103
+106,void ReceiveSurrenderPersonally(L2ParamStack& Params),align,,104
+107,void ReceiveAskJoinParty(L2ParamStack& Params),align,,105
+108,void ReceiveJoinParty(L2ParamStack& Params),align,,106
+109,void ReceiveWithdrawalParty(L2ParamStack& Params),align,,107
+110,void ReceiveOustPartyMember(L2ParamStack& Params),align,,108
+111,void ReceiveOustPartyMessage(L2ParamStack& Params),map,,109
+112,void ReceiveDismissParty(L2ParamStack& Params),align,,110
+113,void ReceiveDismissPartyMessage(L2ParamStack& Params),map,,111
+114,,new,"NConsoleWnd function 1005db00 NConsoleWnd::vfn114, ret 4 (name from vfn)",
+115,void ReceiveAskJoinAlly(L2ParamStack& Params),align,,112
+116,void ReceiveDismissAlly(L2ParamStack& Params),align,,113
+117,void ReceiveJoinAlly(L2ParamStack& Params),align,,114
+118,void ReceiveOustAlly(L2ParamStack& Params),align,,115
+119,void ReceiveWithdrawAlly(L2ParamStack& Params),align,,116
+120,void ReceiveFriendAddRequestResult(L2ParamStack& Params),align,,117
+121,void ReceiveFriendAddRequest(L2ParamStack& Params),align,,118
+122,void ReceiveFriendAdd(L2ParamStack& Params),map,"empty, folded with the other empty slots",119
+123,void ReceiveFriendRemove(L2ParamStack& Params),map,"empty, folded",120
+124,void ReceiveFriendList(L2ParamStack& Params),map,"empty, folded",121
+125,void ReceiveFriendStatus(L2ParamStack& Params),map,"empty, folded",122
+126,void ReceiveRecipeBookItemList(INT P1),handler,UGameEngine::OnReceiveRecipeBookItemList(int),123
+127,void AddRecipeBookItem(INT RecipeID),handler,UGameEngine::AddRecipeBookItem(int),124
+128,"void ReceiveRecipeItemMakeInfo(INT P1, INT P2, INT P3, INT P4)",handler,"UGameEngine::ReceiveRecipeItemMakeInfo(int,int,int,int)",125
+129,"void ReceiveRecipeShopManageList(INT P1, INT P2)",handler,"UGameEngine::ReceiveRecipeShopManageList(int,int)",126
+130,"void AddRecipeShopManageItem(INT RecipeID, INT P2)",handler,"UGameEngine::AddRecipeShopManageItem(int,int)",127
+131,"void AddRecipeShopRegisterdItem(INT RecipeID, INT P2, INT P3)",handler,"UGameEngine::AddRecipeShopRegisterdItem(int,int,int)",128
+132,"void ReceiveRecipeShopSellList(INT P1, INT P2, INT P3, INT P4)",handler,"UGameEngine::ReceiveRecipeShopSellList(int,int,int,int)",129
+133,"void AddRecipeShopSellItem(INT RecipeID, INT P2, INT P3)",handler,"UGameEngine::AddRecipeShopSellItem(int,int,int)",130
+134,"void ReceiveRecipeShopItemInfo(INT P1, INT P2, INT P3, INT P4, INT P5)",handler,"UGameEngine::ReceiveRecipeShopItemInfo(int,int,int,int,int)",131
+135,"void ReceiveMacroListInfo(char P1, char P2, MacroInfo Macro, char P4, INT P5)",handler,"UGameEngine::ReceiveMacroListInfo(char,char,MacroInfo,char,int); ret 0x40C (MacroInfo is 0x3FC bytes)",132
+136,"void ReceiveHennaEquipList(INT P1, INT P2)",handler,"UGameEngine::ReceiveHennaEquipList(int,int)",133
+137,void AddHennaEquipInfo(HennaInfo Info),handler,UGameEngine::AddHennaEquipInfo(HennaInfo); ret 0x44 (HennaInfo is 0x44 bytes),134
+138,"void ReceiveHennaItemInfo(HennaInfo Info, INT P2)",handler,"UGameEngine::ReceiveHennaItemInfo(HennaInfo,int)",135
+139,"void ReceiveHennaInfo(HennaInfo Info, INT P2)",handler,"UGameEngine::ReceiveHennaInfo(HennaInfo,int)",136
+140,"void AddHennaInfo(INT P1, INT P2)",handler,"UGameEngine::AddHennaInfo(int,int): the inventory window's tail call",137
+141,"void ReceiveHennaUnequipList(INT P1, INT P2)",handler,"UGameEngine::ReceiveHennaUnequipList(int,int)",138
+142,void AddHennaUnequipInfo(HennaInfo Info),handler,UGameEngine::AddHennaUnequipInfo(HennaInfo),139
+143,"void ReceiveHennaUnequipItemInfo(HennaInfo Info, INT P2)",handler,"UGameEngine::ReceiveHennaUnequipItemInfo(HennaInfo,int)",140
+144,void RequestHennaItemList(),forward,tail call of UL2NetHandler::RequestHennaItemList (slot 215); C2 only,141
+145,void RequestHennaUnequipList(),forward,tail call of UL2NetHandler::RequestHennaUnequipList (slot 216); C2 only,142
+146,"void GMAddHennaInfo(INT P1, INT P2)",handler,"UGameEngine::GMAddHennaInfo(int,int)",143
+147,"void GMReceiveHennaInfo(HennaInfo Info, INT P2)",handler,"UGameEngine::GMReceiveHennaInfo(HennaInfo,int)",144
+148,void ReceiveBlockList(L2ParamStack& Params),map,"empty, folded",145
+149,void ToggleInventory(),content,C1 slot 261 (gone from there): same body (the inventory shows or the item list is requested),146
+150,void ShowCharacterStatus(),content,C1 slot 262: Desktop->ToggleCharacter(0),147
+151,void UseShortCutSlot(INT Index),content,"C1 slot 263: ShortCutWnd->PageSlot(Index), then UseShortCut",148
+152,void ChangeShortCutPage(INT bNext),content,C1 slot 264: ShortCutWnd->PrevPage / NextPage,149
+153,"User* FindNextPawnInArea(FLOAT Radius, INT CreatureID, INT bNext, INT P4, INT P5, INT P6, INT P7)",content,"C1 slot 265: same shape (FMemMark, ULevel::GetPawnListExtent, FindUserByID, ret 0x1C)",150
+154,"void SetViewRect(INT Left, INT Top, INT Right, INT Bottom)",content,C1 slot 266: the desktop's rectangle (ret 0x10),151
+155,void PressCtrl(),content,C1 slot 267: bCtrlDown = 1 (+0x3584 in C2),152
+156,void ReleaseCtrl(),content,C1 slot 268: bCtrlDown = 0,153
+157,void ReceiveShortCutList(),map,,154
+158,void AddShortCutItem(L2ParamStack& Params),content,"C1 slot 116: NItemInfo on the stack, L2ParamStack::Top, the inventory / pet inventory / skill / action cases",155
+159,void UpdateShortCutItem(INT ObjectID),align,calls NCShortCutWnd::UpdateItem,156
+160,void UpdatePetShortCutItem(INT ObjectID),align,calls NCShortCutWnd::UpdatePetItem,157
+161,void ReceiveShortCutDelete(INT Slot),align,calls NCShortCutWnd::DeleteShortCut,158
+162,"void UpdateMacroShortCut(INT P1, INT P2)",content,"name ours; C2 only; ret 8: ShortCutWnd's window at +0x104, tail call sub_100cc8d0 (new in C2, after ReceiveShortCutDelete)",159
+163,void ReceiveMagicSkillList(L2ParamStack& Params),map,,160
+164,void ReceiveAbnormalStatus(),map,,161
+165,void AddAbnormalStatus(L2ParamStack& Params),align,,162
+166,,new,"NConsoleWnd function 1005d350 NConsoleWnd::vfn166, ret 0x10 (name from vfn)",
+167,,new,"NConsoleWnd function 10064d20 NConsoleWnd::vfn167, ret 4 (name from vfn)",
+168,,new,"NConsoleWnd function 1005d370 NConsoleWnd::vfn168, ret 0x10 (name from vfn)",
+169,,new,"NConsoleWnd function 10064bd0 NConsoleWnd::vfn169, ret 4 (name from vfn)",
+170,void ReceiveQuestList(),align,,163
+171,,new,"NConsoleWnd function 1005cb10 NConsoleWnd::EndQuestList, ret 0 (name from guard)",
+172,"void AddQuestID(INT QuestID, INT Step)",align,,164
+173,void AddQuestItem(ItemInfo& Item),align,,165
+174,UBOOL Say2(L2ParamStack& Params),align,,166
+175,"void VARARGS DebugLogf(INT Category, const TCHAR* Fmt, ...)",align,,167
+176,void ReceiveVersionCheck(L2ParamStack& Params),align,,168
+177,void UpdateEquipItem(L2ParamStack& Params),align,,169
+178,void PartyAddMember(L2ParamStack& Params),align,,170
+179,void PartyUpdateMember(L2ParamStack& Params),align,,171
+180,void PartyDeleteMember(L2ParamStack& Params),align,,172
+181,void PartyDeleteAll(L2ParamStack& Params),align,,173
+182,void ShowMagicWnd(),map,"empty, folded",177
+183,void ShowSkillWnd(),align,,178
+184,void ReceiveSkillList(L2ParamStack& Params),align,,179
+185,void ReceiveMagicList(L2ParamStack& Params),map,"empty, folded",180
+186,void ReceiveTradeDemand(L2ParamStack& Params),align,,181
+187,void RestartResetWindows(),align,,182
+188,void RestartToLobby(),align,,183
+189,void AddSystemMessageParam(L2ParamStack& Params),align,,184
+190,"void EndSystemMessageParam(L2ParamStack& Params, INT P2, INT P3)",handler,"UGameEngine::OnEndSystemMessageParam calls it with (Params, 0, 0): ret 0xC in C2 (C1: 4)",185
+191,void ShowBoard(L2ParamStack& Params),align,,186
+192,,new,"NConsoleWnd function 1005eeb0 NConsoleWnd::SendBypassBuildCmd, ret 0xc (name from guard)",
+193,void BuilderCommand(L2ParamStack& Params),map,,187
+194,void SelectItemToEnchant(),map,,188
+195,void ReceiveEnchantResult(INT Result),align,,189
+196,void ReceiveAction(INT Action),align,,190
+197,void ShowTrainListWnd(),align,,191
+198,void ShowTrainInfoWnd(L2ParamStack& Params),align,,192
+199,void AddAcquireSkillInfo(L2ParamStack& Params),align,,193
+200,void AddAcquireSkillExtendedInfo(L2ParamStack& Params),align,,194
+201,void ShowRestartMenu(L2ParamStack& Params),align,,195
+202,,new,"NConsoleWnd function 1005b950 NConsoleWnd::vfn202, ret 0 (name from vfn)",
+203,,new,"NConsoleWnd function 1005b960 NConsoleWnd::vfn203, ret 0 (name from vfn)",
+204,void HideTrainWnd(),map,moved by name (the monotone slot map lost it),197
+205,void TeleportToLocation(),map,,196
+206,,new,"NConsoleWnd function 1005b980 NConsoleWnd::vfn206, ret 0xc (name from vfn)",
+207,,new,"NConsoleWnd function 1005b990 NConsoleWnd::vfn207, ret 0xc (name from vfn)",
+208,void SetVIPShopID(INT ShopID),map,,198
+209,"void AddVIPItemList(INT ProductID, INT ItemID, INT BodyPart, INT Type, INT Count)",align,,199
+210,"void AddVIPNeedItemList(INT ProductID, INT ItemID, INT Count)",align,,200
+211,void VIPItemListEnd(),align,,201
+212,void RequestBuyVIPItem(L2ParamStack& Params),map,,202
+213,void EnablePartyChat(bool bEnable),map,,203
+214,void EnablePledgeChat(bool bEnable),map,,204
+215,void EnableAllyChat(bool bEnable),map,,205
+216,void ShowPetStatusWnd(INT Type),align,,206
+217,void ShowPetPartyWnd(INT Type),align,,207
+218,void HideSummonWnd(),align,,208
+219,void HidePetWnd(),handler,,209
+220,void ShowPetNameBtn(INT bShow),gap,,210
+221,"void ReceivePetStatusInfo(INT Type, L2ParamStack& Params)",gap,,211
+222,void ReceivePetItemList(),gap,,212
+223,void AddPetInventoryItem(ItemInfo& Item),guard,,213
+224,"void UpdatePetInventoryItem(INT Change, ItemInfo& Item)",align,,214
+225,"void SkillCoolTime(INT Param1, INT Param2, INT Param3, INT Param4)",align,,215
+226,void vfn176(L2ParamStack& Params),map,C1 vfn176 (no caller in NWindow): name not known,216
+227,"void MacroSkillUse(INT P1, INT P2)",handler,"name ours; UGameEngine::OnReceiveMagicSkillUse / OnReceiveMagicSkillCanceled call it (1, 0): the macro runner's (NCMacroInfoWnd +0xF8, sub_1008c450) skill events",217
+228,void MacroTargetSelected(),handler,name ours; UGameEngine::OnMyTargetSelected calls it after slot 47: NCMacroInfoWnd sub_1008c3c0,218
+229,void MacroItemPickedUp(),handler,name ours; UGameEngine::OnGetItem calls it: NCMacroInfoWnd sub_1008c330,219
+230,void RequestStartAllianceWar(L2ParamStack& Params),map,,220
+231,void RequestReplyStartAllianceWar(L2ParamStack& Params),map,,221
+232,void RequestStopAllianceWar(L2ParamStack& Params),map,,222
+233,void RequestReplyStopAllianceWar(L2ParamStack& Params),map,,223
+234,void RequestSurrenderAllianceWar(L2ParamStack& Params),map,,224
+235,"void StartAllianceWar(TCHAR* AllianceName, TCHAR* Name)",handler,,225
+236,"void StopAllianceWar(TCHAR* AllianceName, TCHAR* Name)",handler,,226
+237,void vfn184(L2ParamStack& Params),gap,,227
+238,void RequestSiegeAttackerList(L2ParamStack& Params),gap,,228
+239,void RequestSiegeDefenderList(L2ParamStack& Params),gap,,229
+240,void RequestJoinSiege(L2ParamStack& Params),gap,,230
+241,void RequestConfirmSiegeWaitingList(L2ParamStack& Params),gap,,231
+242,void RequestSetSiegeTime(L2ParamStack& Params),gap,,232
+243,void ReceiveSiegeInfo(L2ParamStack& Params),gap,,233
+244,void ReceiveSiegeAttackerList(L2ParamStack& Params),gap,,234
+245,void ReceiveSiegeDefenderList(L2ParamStack& Params),gap,,235
+246,void AddSelectableTime(INT Time),gap,,236
+247,void EndSiegeAttackerList(),gap,,237
+248,void EndSiegeDefenderList(),gap,,238
+249,void ClearAttackerList(),gap,,239
+250,void ClearDefenderList(),gap,,240
+251,void RequestPackageSend(L2ParamStack& Params),gap,,241
+252,void RequestPackageSendableItemList(L2ParamStack& Params),gap,,242
+253,void AddPackageToList(L2ParamStack& Params),gap,,243
+254,"void AddSendableItemList(INT Index, INT TargetID, INT Adena, ItemInfo& Item)",gap,,244
+255,void GMViewCharacterInfo(User& Info),gap,,245
+256,void GMViewReceivePledgeInfo(PledgeInfo& Info),guard,,246
+257,void GMViewReceivePledgeMemberList(),align,,247
+258,void GMViewAddPledgeMember(L2ParamStack& Params),align,,248
+259,void GMViewShowSkillWnd(),map,,249
+260,void GMViewSkillList(L2ParamStack& Params),align,,250
+261,void GMViewShowMagicWnd(),map,"empty, folded",251
+262,void GMViewMagicList(L2ParamStack& Params),align,,252
+263,void GMViewReceiveQuestList(),align,,253
+264,"void GMViewAddQuestID(INT QuestID, INT Step)",align,,254
+265,void GMViewAddQuestItem(ItemInfo& Item),align,,255
+266,void GMViewReceiveItemList(INT bShow),align,,256
+267,void GMViewAddInventoryItem(ItemInfo& Item),align,,257
+268,void GMViewStartWithdrawList(INT Adena),align,,258
+269,void GMViewAddWithdrawList(ItemInfo& Item),align,,259
+270,,new,"NConsoleWnd function 1005e590 NConsoleWnd::vfn270, ret 0x14 (name from vfn)",
+271,,new,"NConsoleWnd function 100662f0 NConsoleWnd::vfn271, ret 0 (name from vfn)",
+272,,new,"NConsoleWnd function 1005e7c0 NConsoleWnd::vfn272, ret 0xc (name from vfn)",
+273,void ShowCalc(INT Code),handler,UGameEngine::OnShowCalc(int): code 0x1129 shows the calculator's window pair,261
+274,void StartPrivateStoreManageList(),align,,262
+275,void StartPrivateStoreList(),align,,263
+276,"void PrivateStoreManageList(ItemInfo& InventoryItem, ItemInfo& StoreItem, INT OwnerID, INT Adena)",align,,264
+277,"void PrivateStoreList(ItemInfo& Item, INT OwnerID, INT Adena)",align,,265
+278,"void PrivateStoreMsg(TCHAR* Text, INT Param)",map,empty,266
+279,void StartPrivateStoreBuyManageList(),align,,267
+280,void StartPrivateStoreBuyList(),align,,268
+281,"void PrivateStoreBuyManageList(ItemInfo& InventoryItem, ItemInfo& StoreItem, INT OwnerID, INT Adena)",align,,269
+282,"void PrivateStoreBuyList(ItemInfo& Item, INT OwnerID, INT Adena)",align,,270
+283,void BlockedAccountWithMsg(TCHAR* Msg),handler,,271
+284,void BlockedAccount(INT Reason),handler,,272
+285,"void SetSummonRemainTime(INT Remaining, INT Total)",gap,,273
+286,,new,"NConsoleWnd function 10060f10 NConsoleWnd::vfn286, ret 4 (name from vfn)",
+287,,new,"NConsoleWnd function 10060ed0 NConsoleWnd::vfn287, ret 4 (name from vfn)",
+288,,new,"NConsoleWnd function 10061020 NConsoleWnd::vfn288, ret 0 (name from vfn)",
+289,,new,"NConsoleWnd function 1006b170 NConsoleWnd::vfn289, ret 4 (name from vfn)",
+290,,new,"NConsoleWnd function 1006b330 NConsoleWnd::vfn290, ret 4 (name from vfn)",
+291,,new,"NConsoleWnd function 10061140 NConsoleWnd::vfn291, ret 0x14 (name from vfn)",
+292,,new,"NConsoleWnd function 1006b400 NConsoleWnd::vfn292, ret 0x10 (name from vfn)",
+293,,new,"NConsoleWnd function 10061160 NConsoleWnd::vfn293, ret 0x14 (name from vfn)",
+294,,new,"NConsoleWnd function 1006b4b0 NConsoleWnd::vfn294, ret 0x14 (name from vfn)",
+295,,new,"NConsoleWnd function 1006b5c0 NConsoleWnd::vfn295, ret 0xc (name from vfn)",
+296,,new,"NConsoleWnd function 1006b660 NConsoleWnd::vfn296, ret 0xc (name from vfn)",
+297,,new,"NConsoleWnd function 10066410 NConsoleWnd::vfn297, ret 0 (name from vfn)",
+298,"void VARARGS MessageBoxf(const TCHAR* Caption, const TCHAR* Fmt, ...)",gap,,275
+303,UBOOL Init(UEngine* InEngine),layout,,280
+304,INT ConsolePostRender(UCanvas* Canvas),layout,,281
+305,"INT DispatchWndMsg(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)",layout,,282
+306,,new,"NConsoleWnd function 10062b90 NConsoleWnd::vfn306, ret 0x10 (name from vfn)",
+307,UBOOL NpcSay(L2ParamStack& Params),layout,,283
+308,"UBOOL MasterConsoleEventProcess(INT Key, INT Action, FLOAT Delta)",layout,,284
+309,UBOOL DebugCommand(const TCHAR* Cmd),layout,,285
+321,UBOOL InitForPawnViewer(UEngine* InEngine),layout,,297
+322,void PawnViewerFunction(INT Function),layout,,298
+325,,new,"NConsoleWnd function 10077820 NConsoleWnd::InitReplayMode, ret 4 (name from guard)",
+326,INT* GetInventoryItemIDs(INT& Count),align,,301
+327,void Free(void* Ptr),names.csv,"GMalloc->Free(Ptr), folded with operator delete (db/names.csv)",302
+328,INT GetPartyMemberCount(),content,name ours (a guess); Desktop->PartyWnd->+0xA8; callers in Engine.dll compare it with 3,303
+330,"void SetServerPing(INT ServerID, DWORD Ping)",content,"C1 slot 260: LoginWnd's server list window SetPing (NCServerSelectWnd::SetPing), ret 8",305
+331,void Snoop(L2ParamStack& Params),handler,UGameEngine::OnSnoop(L2ParamStack&),306
+332,void SetPadHoldL(BYTE bHold),layout,the C1 virtual 269 SetPadShift1(BYTE); ShortCutWnd->SetPadHoldL(bHold) (Engine pushes 0/1),307
+333,void SetPadHoldR(BYTE bHold),layout,the C1 virtual 270 SetPadShift2(BYTE); ShortCutWnd->SetPadHoldR(bHold),308
+334,void vfn271(INT Param),map,"empty, folded; C1 vfn271",309
+335,void ShowTownMap(L2ParamStack& Params),handler,UGameEngine::OnShowTownMapPacket(L2ParamStack&),310
+336,void ObserverStart(),handler,UGameEngine::OnObserverStartPacket: Desktop +0x198 ShowWindow (no argument reaches it),311
+337,void ObserverEnd(),handler,UGameEngine::OnObserverEndPacket / OnRestartResponse: Desktop +0x198 HideWindow,312
+338,"void PledgePower(INT P1, INT P2, BYTE* P3)",handler,"UGameEngine::OnPledgePower(int,int,unsigned char*): Desktop +0xA0, tail call sub_100721f0",313
+339,void ResizeWindows(),content,"name ours; UWindowsViewport::ResizeViewport (WinDrv) calls it after storing GSEKScreenX/Y: every window gets its place for the new screen size (2,210 instructions)",314
+340,void RequestLogout(),content,a non-virtual in C1; the C2 vtable points at 0x100521a0,315
+341,void ShowQuitDialog(),content,name ours; WinDrv's window close handler calls it in the game state (6): the dialog 0x1C with systemmsg 0x7D,316
+342,void ShowMessageWnd(const TCHAR* Text),content,a non-virtual in C1; the C2 vtable points at 0x100561e0,317
+343,void vfn318(INT P1),content,C2 only; the shared empty function 0x10001AD0 (ret 4); Engine.dll calls it with 0,318
+344,,new,"NConsoleWnd function 1006b0c0 NConsoleWnd::vfn344, ret 4 (name from vfn)",
+345,,new,"NConsoleWnd function 10060c90 NConsoleWnd::vfn345, ret 8 (name from vfn)",
+346,,new,"NConsoleWnd function 10060bc0 NConsoleWnd::vfn346, ret 0 (name from vfn)",
+347,,new,"NConsoleWnd function 10060be0 NConsoleWnd::vfn347, ret 0 (name from vfn)",
+348,void ShowXMasSeal(INT P1),handler,UGameEngine::OnShowXMasSeal(int),319
+349,,new,"NConsoleWnd function 1006b6a0 NConsoleWnd::vfn349, ret 0 (name from vfn)",
+350,,new,"NConsoleWnd function 1005bc90 NConsoleWnd::vfn350, ret 0xc (name from vfn)",
+351,,new,"NConsoleWnd function 10077c30 NConsoleWnd::vfn351, ret 0 (name from vfn)",
+352,,new,"NConsoleWnd function 10077c60 NConsoleWnd::vfn352, ret 0 (name from vfn)",
+353,,new,"NConsoleWnd function 10077c80 NConsoleWnd::vfn353, ret 0 (name from vfn)",
+354,,new,"NConsoleWnd function 10077cb0 NConsoleWnd::vfn354, ret 4 (name from vfn)",
+355,,new,"NConsoleWnd function 10077ce0 NConsoleWnd::vfn355, ret 4 (name from vfn)",
+356,,new,"NConsoleWnd function 10077db0 NConsoleWnd::vfn356, ret 4 (name from vfn)",
+357,,new,"NConsoleWnd function 10077e00 NConsoleWnd::vfn357, ret 0xc (name from vfn)",
+358,,new,"NConsoleWnd function 100611b0 NConsoleWnd::vfn358, ret 0x14 (name from vfn)",
+359,,new,"NConsoleWnd function 10075030 NConsoleWnd::OnEventMatchObserver, ret 0x30 (name from guard)",
+360,,new,"NConsoleWnd function 100611e0 NConsoleWnd::OnEventMatchMessage, ret 0x10 (name from guard)",
+361,,new,"NConsoleWnd function 100612f0 NConsoleWnd::OnEventMatchScore, ret 0xc (name from guard)",
+362,,new,"NConsoleWnd function 10061390 NConsoelWnd::OnEventMatchTeamInfoStart, ret 0xc (name from guard)",
+363,,new,"NConsoleWnd function 10061470 NConsoleWnd::OnEventMatchTeamInfo, ret 0x3c (name from guard)",
+364,,new,"NConsoleWnd function 100615e0 NConsoelWnd::OnEventMatchTeamInfoEnd, ret 0 (name from guard)",
+365,,new,"NConsoleWnd function 100616b0 NConsoleWnd::OnEventMatchCreate, ret 4 (name from guard)",
+366,,new,"NConsoleWnd function 10061760 NConsoleWnd::OnEventMatchUserInfo, ret 0x30 (name from guard)",
+367,,new,"NConsoleWnd function 10061840 NConsoleWnd::OnEventMatchUserInfo, ret 0xc (name from guard)",
+368,,new,"NConsoleWnd function 100618e0 NConsoleWnd::OnEventMatchUserInfo, ret 0x10 (name from guard)",
+369,,new,"NConsoleWnd function 10061980 NConsoleWnd::OnEventMatchUserInfo, ret 0 (name from guard)",
+370,,new,"NConsoleWnd function 10061a10 NConsoleWnd::OnEventMatchTeamUnlocked, ret 8 (name from guard)",
+371,,new,"NConsoleWnd function 10061aa0 NConsoleWnd::OnEventMatchGMTest, ret 0 (name from guard)",
+372,,new,"NConsoleWnd function 10061b30 NConsoleWnd::OnReceiveMagicSkillUse, ret 0xc (name from guard)",
+373,,new,"NConsoleWnd function 10061bd0 NConsoleWnd::OnCharInfo, ret 4 (name from guard)",
+374,,new,"NConsoleWnd function 10061da0 NConsoleWnd::vfn374, ret 4 (name from vfn)",
+375,,new,"NConsoleWnd function 10061dc0 NConsoleWnd::vfn375, ret 4 (name from vfn)",
+376,,new,"NConsoleWnd function 10061e00 NConsoleWnd::vfn376, ret 4 (name from vfn)",
+377,,new,"NConsoleWnd function 10061e20 NConsoleWnd::vfn377, ret 4 (name from vfn)",
+378,,new,"NConsoleWnd function 10061e40 NConsoleWnd::vfn378, ret 4 (name from vfn)",
+379,,new,"NConsoleWnd function 10061e80 NConsoleWnd::vfn379, ret 4 (name from vfn)",
+380,,new,"NConsoleWnd function 10062110 NConsoleWnd::vfn380, ret 4 (name from vfn)",
+381,,new,"NConsoleWnd function 10075140 NConsoleWnd::vfn381, ret 4 (name from vfn)",
+382,,new,"NConsoleWnd function 10062300 NConsoleWnd::vfn382, ret 4 (name from vfn)",
+383,,new,"NConsoleWnd function 10062340 NConsoleWnd::vfn383, ret 4 (name from vfn)",
+384,,new,"NConsoleWnd function 10061c70 NConsoleWnd::ExecuteCommand, ret 4 (name from guard)",
+385,,new,"NConsoleWnd function 1005ba00 NConsoleWnd::vfn385, ret 0x50 (name from vfn)",
+386,,new,"NConsoleWnd function 1005ba20 NConsoleWnd::vfn386, ret 0x50 (name from vfn)",
+387,,new,"NConsoleWnd function 1006b700 NConsoleWnd::vfn387, ret 0 (name from vfn)",
+388,,new,"NConsoleWnd function 1006b840 NConsoleWnd::vfn388, ret 8 (name from vfn)",
+389,,new,"NConsoleWnd function 10077c20 NConsoleWnd::vfn389, ret 0 (name from vfn)",

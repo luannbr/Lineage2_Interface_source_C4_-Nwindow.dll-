@@ -1,0 +1,15 @@
+# Slot moves the monotone alignment of tools/port/vslots.py cannot find (the slot changed place within the
+# vtable) or the function map could not pair. class,c1_slot,c2_slot: C1_slot is the BASE client's (C2) slot of the
+# class, c2_slot this client's (C3). Read from the code of the two images, see the note.
+class,c1_slot,c2_slot,note
+NCWnd,40,39,"IsShowWindow: C2 1002b780 -> C3 1002fc70 (fmap pair), the slot moved ahead of SetTabOrder"
+NCWnd,41,40,"PtInRect: C2 1002b8b0 -> C3 1002fd80, same shape; the rectangle's width and height are FLOAT in C3 (fild/fadd/ftol)"
+NCWnd,42,43,"SetSize: C2 1002c560 -> C3 10031e40, same intent; the size is FLOAT in C3 (fld/fcomp), with an SEH frame"
+NCWnd,35,36,"OnTimer: C3 NCWnd::DefWindowProc 10004c70 sends WM_TIMER (0x113) through +0x90 = slot 36 (1 argument, stock 10001b10); slot 35 is a new virtual (xor eax,eax; ret)"
+NCWnd,55,56,"OnPaint: C3 NCWnd::WindowProc 1002fa20 sends WM_PAINT (0xf) through +0xe0 = slot 56"
+NCWnd,56,57,"OnDrawToolTip: the same WindowProc sends 0x505 through +0xe4 = slot 57"
+NCWnd,57,58,"OnChar: the same WindowProc sends WM_CHAR (0x102) through +0xe8 = slot 58"
+NCWnd,66,67,"OnMouseWheel: the same WindowProc sends WM_MOUSEWHEEL (0x20a) through +0x10c = slot 67"
+NCCmdTarget,35,36,"OnTimer: C3 DefWindowProc (NCCmdTarget::WindowProc) sends WM_TIMER through +0x90 = slot 36; slot 35 is a new virtual"
+NCCmdTarget,36,37,"OnCreate: +0x94 = slot 37"
+NCCmdTarget,37,38,"OnDestroy: +0x98 = slot 38"

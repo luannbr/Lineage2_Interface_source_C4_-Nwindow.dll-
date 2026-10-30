@@ -1,0 +1,128 @@
+file,line,name,va,declared_bytes,stock_ret,status,params
+AddFriendDialog.cpp,57,AddFriendDialog::OnCancel,10084ee0,0,[0],ok,
+AddGroupDialog.cpp,56,AddGroupDialog::OnCancel,10084ee0,0,[0],ok,
+AlarmWnd.cpp,51,AlarmWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+ChatWnd.cpp,841,NChatConsole::SendL2FriendSay,1006ca80,8,[],no ret found,"TCHAR* Name, TCHAR* Text"
+ChatWnd.cpp,844,NChatConsole::SendMsnChatLog,1006ca90,12,[],no ret found,"TCHAR* Account, TCHAR* Text, INT Flag"
+ChatWnd.cpp,888,NChatCommandGetter::GetWord0C,10151150,0,[0],ok,
+FriendList.cpp,65,NMsnStrMap::Remove,10151e60,4,[4],ok,const TCHAR* Key
+L2ChatWnd.cpp,80,L2ChatWnd::SetTitle,10034b90,4,[4],ok,const TCHAR* Title
+L2FriendTree.cpp,32,L2FriendTree::OnCreate,10008340,0,[0],ok,
+LoadingWnd.cpp,30,LoadingWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+MessageDialog.cpp,36,MessageDialog::OnOK,10084ee0,0,[0],ok,
+MessengerWnd.cpp,216,MessengerWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+MoveGroupDialog.cpp,59,MoveGroupDialog::OnCancel,10084ee0,0,[0],ok,
+MsnTree.cpp,36,MsnTree::WindowProc,10154660,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+MsnTree.cpp,50,MsnTree::OnCreate,10008340,0,[0],ok,
+MsnTreeCtrl.cpp,43,MsnTreeCtrl::WindowProc,10166b60,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCChatWnd.cpp,446,NCChatWnd::HideWindow,100471a0,0,[],no ret found,
+NCDeliverWnd.cpp,107,NCDeliverItemWnd::WindowProc,10102860,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCDeliverWnd.cpp,289,NCDeliverWnd::WindowProc,101028f0,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCMacroArrayWnd.cpp,60,NCMacroArrayWnd::WindowProc,100edaf0,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCManorShopItemWnd.cpp,94,NCManorShopItemWnd::WindowProc,10102860,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCManorShopItemWnd.cpp,117,NCManorShopItemWnd::SetTarget,10084bd0,4,[4],ok,NCManorShopItemWnd* InTarget
+NCManorShopItemWnd.cpp,134,NCManorShopItemWnd::SetSide,101028e0,4,[4],ok,INT InSide
+NCMapCoverWnd.cpp,89,NCMapCoverWnd::KillFocus,100b9010,0,[],no ret found,
+NCMinimapWnd.cpp,1226,NCMinimapWnd::KillFocus,100347a0,0,[0],ok,
+NCNpcViewrWnd.cpp,258,NCNpcView_InvenItemWnd::OnMouseMove,100bed40,8,[8],ok,"WPARAM wParam, LPARAM lParam"
+NCNpcViewrWnd.cpp,333,NCNpcView_CharacterSelect_List::WindowProc,100bf280,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NConsoleWndC2.cpp,223,NConsoleWnd::GameGuardQuery,1006d870,20,[20],ok,"INT P1, INT P2, INT P3, INT P4, INT P5"
+NConsoleWndC2.cpp,507,NConsoleWnd::ReceiveRecipeShopItemInfo,10070b50,24,[24],ok,"INT P1, INT P2, INT P3, INT P4, INT P5, INT P6"
+NConsoleWndData.cpp,638,NConsoleWnd::GetEnchantedAttack,100742f0,12,[12],ok,"INT Grade, INT Enchant, INT Base"
+NConsoleWndItems.cpp,914,NConsoleWnd::StartPrivateStoreManageList,10069900,4,[4],ok,L2ParamStack& Params
+NConsoleWndLogin.cpp,401,NConsoleWnd::ReceiveCharacterInfo,1006f8b0,4,[4],ok,INT bNoVoice
+NConsoleWndLogin.cpp,628,NConsoleWnd::ReviveRequest,10004020,8,[8],ok,"INT Param1, INT Param2"
+NConsoleWndNet.cpp,357,NConsoleWnd::RequestAttackStand,10071c00,16,[24],MISMATCH,"INT ObjectID, FVector Origin"
+NConsoleWndNet.cpp,1269,NConsoleWnd::vfn176,1006b6b0,0,[],no ret found,
+NConsoleWndNet.cpp,1277,NConsoleWnd::RequestRestart,10065530,4,[],no ret found,L2ParamStack& Params
+NCPawnCreateWnd.cpp,1345,NCPawnCreateWnd::OnPaint,100023d0,4,[4],ok,NCGDevice* Device
+NCPetInventoryWnd.cpp,347,NCPetInvenItemWnd::RemoveItem,1011ae10,4,[4],ok,INT ObjectID
+NCPetInventoryWnd.cpp,446,NCPetInventoryWnd::OnPaint,100dc540,4,[4],ok,NCGDevice* Device
+NCPetitionWnd.cpp,176,NCPetitionWnd::ShowWindow,100b71f0,0,[0],ok,
+NCPetitionWnd.cpp,200,NCPetitionWnd::OnPaint,100e03c0,4,[4],ok,NCGDevice* Device
+NCPetitionWnd.cpp,328,NCGMPetitionWnd::ShowWindow,100b71f0,0,[0],ok,
+NCPetitionWnd.cpp,344,NCGMPetitionWnd::HideWindow,100471a0,0,[],no ret found,
+NCPetitionWnd.cpp,408,NCGMPetitionWnd::AddMessage,100dfe90,16,[16],ok,"TCHAR* Text, DWORD Color, INT Type, INT Param"
+NCPetitionWnd.cpp,410,NCGMPetitionWnd::Clear,100dfed0,0,[],no ret found,
+NCPrivateBuyWnd.cpp,1104,NCPrivateBuyWnd::CheckTotal,100e7a40,12,[12],ok,"INT ItemID, INT Count, INT Price"
+NCRecipeBookItemWnd.cpp,37,NCRecipeBookItemWnd::WindowProc,10093ce0,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCRecipeBookWnd.cpp,35,NCRecipeBookWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCRecipeBuyListWnd.cpp,100,NCRecipeBuyListWnd::SetAdena,10084be0,4,[4],ok,INT InAdena
+NCRecipeBuyListWnd.cpp,111,NCRecipeBuyListWnd::OnDestroy,1011dc90,0,[0],ok,
+NCRecipeListBox.cpp,108,NCRecipeListBox::WindowProc,10020890,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCRecipeListBox.cpp,118,NCRecipeListBox::ShowWindow,10020880,0,[],no ret found,
+NCRecipeListBox.cpp,136,NCRecipeListBox::OnDestroy,1011ddc0,0,[0],ok,
+NCRecipeListBox.cpp,147,NCRecipeListBox::OnLButtonDown,1011b870,8,[8],ok,"WPARAM wParam, LPARAM lParam"
+NCRecipeListBox.cpp,157,NCRecipeListBox::HitTest,10091680,8,[8],ok,"INT X, INT Y"
+NCRecipeListBox.cpp,167,NCRecipeListBox::Clear,100f1b60,0,[0],ok,
+NCRecipeListBox.cpp,177,NCRecipeListBox::UpdateEntryScrollBar,10091760,0,[0],ok,
+NCRecipeManufactureItemWnd.cpp,37,NCRecipeManufactureItemWnd::WindowProc,100ad790,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCRecipeManufactureItemWnd.cpp,47,NCRecipeManufactureItemWnd::OnCreate,100edb50,0,[0],ok,
+NCRecipeManufactureItemWnd.cpp,58,NCRecipeManufactureItemWnd::OnDestroy,100efac0,0,[0],ok,
+NCRecipeShopItemWnd.cpp,67,NCRecipeShopItemWnd::WindowProc,10102860,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCRecipeShopItemWnd.cpp,78,NCRecipeShopItemWnd::OnDestroy,100efac0,0,[0],ok,
+NCRecipeShopItemWnd.cpp,89,NCRecipeShopItemWnd::SetTarget,10084bd0,4,[4],ok,NCRecipeShopItemWnd* InTarget
+NCRecipeShopItemWnd.cpp,99,NCRecipeShopItemWnd::SetMode,100efad0,4,[4],ok,INT InMode
+NCRecipeShopWnd.cpp,71,NCRecipeShopFrameCtrl::WindowProc,100b14c0,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCRecipeShopWnd.cpp,309,NCRecipeShopWnd::SetTitle,10034b90,4,[4],ok,const TCHAR* Title
+NCReplayFunctionWnd.cpp,107,NCReplayFunctionWnd::OnExitBtnClick,1009e590,0,[0],ok,
+NCReplayListCtrl.cpp,37,NCReplayListCtrl::SortByColumn,100f76f0,4,[4],ok,INT Column
+NCReplayListWnd.cpp,115,NCReplayListWnd::OnCheckClick,100f7850,0,[0],ok,
+NCReplayLogoWnd.cpp,21,NCReplayLogoWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCReplayMenuWnd.cpp,20,NCReplayMenuWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCReplayPlayWnd.cpp,19,NCReplayPlayWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCReplayWnd.cpp,35,NCReplayWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCReplayWnd.cpp,45,NCReplayWnd::OnPaint,100f76f0,4,[4],ok,NCGDevice* Device
+NCShopWnd.cpp,447,NCShopWnd::WindowProc,101028f0,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCSiegeInfoMainWnd.cpp,190,NCSiegeInfoListCtrl::NewVirtual76,10109f80,0,[8],MISMATCH,
+NCSiegeInfoMainWnd.cpp,239,NCSiegeInfoListCtrl::WindowProc,100b1460,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCSkillItemWnd.cpp,207,NCSkillItemWnd::OnDrawToolTip,100aeb30,4,[4],ok,NCGDevice* Device
+NCSkillWnd.cpp,30,NCSkillWnd::WindowProc,10021e60,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCSkillWnd.cpp,89,NCSkillWnd::OnPaint,100ae1c0,4,[4],ok,NCGDevice* Device
+NCSkillWnd.cpp,139,NCGMSkillWnd::WindowProc,10021e60,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCSkillWnd.cpp,189,NCGMSkillWnd::ShowWindow,100ad870,0,[],no ret found,
+NCSkillWnd.cpp,200,NCGMSkillWnd::OnPaint,100ae1c0,4,[4],ok,NCGDevice* Device
+NCSSQMainEventGaraTreeCtrl.cpp,53,NCSSQMainEventGaraTreeCtrl::OnDestroy,100eb1f0,0,[0],ok,
+NCSSQMainEventGaraTreeCtrl.cpp,54,NCSSQMainEventGaraTreeCtrl::OnMouseWheel,100f5330,8,[8],ok,"WPARAM wParam, LPARAM lParam"
+NCSSQMainEventGaraTreeCtrl.cpp,55,NCSSQMainEventGaraTreeCtrl::ScrollUp,100fd9f0,0,[0],ok,
+NCSSQMainEventGaraTreeCtrl.cpp,56,NCSSQMainEventGaraTreeCtrl::ScrollDown,100eb470,0,[0],ok,
+NCSSQMainEventGaraTreeCtrl.cpp,57,NCSSQMainEventGaraTreeCtrl::OnScrollBar,100eb540,4,[4],ok,INT Value
+NCSSQMainEventGaraTreeCtrl.cpp,58,NCSSQMainEventGaraTreeCtrl::ArrangeItem,100ff3f0,4,[4],ok,NCGaraTVItem* Item
+NCSSQSealStatusGaraTreeCtrl.cpp,54,NCSSQSealStatusGaraTreeCtrl::OnDestroy,100eb1f0,0,[0],ok,
+NCSSQSealStatusGaraTreeCtrl.cpp,55,NCSSQSealStatusGaraTreeCtrl::OnMouseWheel,100f5330,8,[8],ok,"WPARAM wParam, LPARAM lParam"
+NCSSQSealStatusGaraTreeCtrl.cpp,56,NCSSQSealStatusGaraTreeCtrl::ScrollUp,100fd9f0,0,[0],ok,
+NCSSQSealStatusGaraTreeCtrl.cpp,57,NCSSQSealStatusGaraTreeCtrl::ScrollDown,100eb470,0,[0],ok,
+NCSSQSealStatusGaraTreeCtrl.cpp,58,NCSSQSealStatusGaraTreeCtrl::OnScrollBar,100eb540,4,[4],ok,INT Value
+NCSSQSealStatusGaraTreeCtrl.cpp,59,NCSSQSealStatusGaraTreeCtrl::ArrangeItem,100ff3f0,4,[4],ok,NCGaraTVItem* Item
+NCSSQSealStatusGaraTreeCtrl.cpp,72,NCSSQSealStatusGaraTreeCtrl::ResetScroll,100fd950,0,[0],ok,
+NCStoreWnd.cpp,107,NCStoreItemWnd::WindowProc,10102860,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCTaiwanIME.cpp,263,NCTaiwanIME::OnImeSetContext,100e6a50,8,[8],ok,"WPARAM wParam, LPARAM lParam"
+NCThumbButton.cpp,35,NCThumbButton::OnLButtonDown,10001830,8,[8],ok,"WPARAM wParam, LPARAM lParam"
+NCThumbButton.cpp,46,NCThumbButton::OnLButtonUp,10001860,8,[8],ok,"WPARAM wParam, LPARAM lParam"
+NCTradeWnd.cpp,141,NCTradeItemWnd::WindowProc,10102860,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCTrainListBox.cpp,39,NCTrainListBox::WindowProc,10020890,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCTrainWnd.cpp,762,NCTrainWnd::AddRequiredItem,1011c550,4,[],no ret found,NItemInfo* Item
+NCViewportWnd.cpp,23,NCViewportWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+NCViewportWnd.cpp,33,NCViewportWnd::OnCreate,100ef780,0,[0],ok,
+NCViewportWnd.cpp,54,NCViewportWnd::OnPaint,100f76f0,4,[4],ok,NCGDevice* Device
+NCVIPShopWnd.cpp,1019,NCVIPShopWnd::ShowList,100a2ab0,0,[0],ok,
+NCVIPShopWnd.cpp,1029,NCVIPShopWnd::AddNeededItem,100a2b40,8,[8],ok,"INT ProductID, const NVIPNeededItem* Src"
+NCVIPShopWnd.cpp,1039,NCVIPShopWnd::Open,100a4020,4,[4],ok,INT InListID
+NSSQHelpers.cpp,19,SSQSealName,1006c630,4,[4],ok,"void* Console, void* Unused, INT Seal"
+NSSQHelpers.cpp,39,SSQCabalName,1006c680,4,[4],ok,"void* Console, void* Unused, INT Cabal"
+NSSQHelpers.cpp,57,SSQEventName,1006c6c0,4,[4],ok,"void* Console, void* Unused, INT Event"
+NSSQHelpers.cpp,81,SSQSealStateName,1006c770,4,[4],ok,"void* Console, void* Unused, INT State"
+NStdLib.cpp,21,StockThrow,10171169,8,[8],ok,"void* Object, void* ThrowInfo"
+NStdLib.cpp,23,NStdStringXlen,10170bc9,0,[],no ret found,
+NStdLib.cpp,24,NStdStringXran,10170b71,0,[],no ret found,
+NStdLib.cpp,295,NPointDeque::Tidy,10037eb0,0,[0],ok,
+NStl.cpp,30,NStlWString::Xran,10170b71,0,[],no ret found,
+NStl.cpp,31,NStlWString::Xlen,10170bc9,0,[],no ret found,
+NStl.cpp,400,NStlVectorBase::Xlen,100453d0,0,[],no ret found,
+NTemplates.cpp,264,NComboItemFns::AddItemData,10006910,8,[8],ok,"const TCHAR* Text, INT Data"
+OfflineConfirmDialog.cpp,126,OfflineConfirmDialog::OnCancel,10084ee0,0,[0],ok,
+RemoveFriendDialog.cpp,76,RemoveFriendDialog::OnCancel,10084ee0,0,[0],ok,
+RemoveGroupDialog.cpp,71,RemoveGroupDialog::OnCancel,10084ee0,0,[0],ok,
+RenameGroupDialog.cpp,59,RenameGroupDialog::OnCancel,10084ee0,0,[0],ok,
+StatusWnd.cpp,46,StatusWnd::WindowProc,10148f10,12,[12],ok,"UINT Msg, WPARAM wParam, LPARAM lParam"
+VersionWnd.cpp,60,VersionWnd::OnDestroy,101566e0,0,[0],ok,

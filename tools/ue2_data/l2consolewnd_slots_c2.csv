@@ -1,0 +1,287 @@
+# UL2ConsoleWnd's pure slots in the C2 Engine (first made by tools/ue2_console_slots.py; REVISED BY HAND in the foundB pass:
+# do not re-run the script over this file, it would lose the rows marked content / map / forward / names.csv).
+# declaration: the name and signature of the slot's NConsoleWnd implementation; only the placed rows carry a name,
+# the rest (declaration empty) are generated as PureSlotNNN; the note lists what is known about the slot.
+# source: how the C2 slot was found. layout, handler, guard, gap, align: tools/ue2_console_slots.py's tiers;
+#   handler also covers a UGameEngine::OnXxx(args) of C2 whose body calls the slot (the C2 signature is the handler's);
+#   map: db/vslots.json (monotone alignment of the C1 and C2 vtables + the function map) AND the function the fmap pairs
+#   with the C1 one sits in that slot, checked on the code (ret, imports, strings, size);
+#   content: the C2 function at the slot read against the C1 body (python tools/disasm.py <va>);
+#   forward: a tail call of a named UL2NetHandler slot; names.csv: db/names.csv.
+# The `c1_slot` column is the C1 slot of the row (empty: no C1 counterpart).
+slot,declaration,source,note,c1_slot
+27,"UBOOL IsOverWindow(INT X, INT Y)",map,vslots.json 26 -> 27 and the C2 function at 0x10051da0 is the fmap match of the C1 one,26
+28,"void ShowWarningDialog(INT P1, INT P2)",content,"name ours; ret 8: when P2 is set the WarningDialogBox (+0x3554) gets +0x1B8 = 1, then its sub_10006e00(P1) and ShowWindow+modal (sub_10006dc0)",
+29,"void GameGuardQuery(INT P1, INT P2, INT P3, INT P4)",guard,guard NConsoleWnd::GameGuardQuery; C2 only (ret 0x10: four values),
+30,void AuthLoginSuccess(),handler,,27
+31,"void SCCheckStart(INT P1, INT P2)",handler,"UGameEngine::OnSCCheckStart(int,int) (FL2NetNotify slot 128) calls it; LoginWnd's window at +0x98, tail call sub_10057c80",
+32,void AuthLoginFail(INT Reason),handler,,28
+33,void StartNotice(L2ParamStack& Params),gap,,29
+34,void CharacterCreateFail(INT Reason),handler,,30
+35,void ReceiveCharacterInfo(),guard,,31
+36,void AddCharacterInfo(User Info),guard,ret 0x1F8 = sizeof(User) in C2 (C1: 0x208): same signature,32
+37,void AcceptGameStart(INT Result),handler,,33
+38,void AcceptCharacterDelete(INT Result),guard,,34
+39,void AcceptNewCharacter(INT Result),guard,,35
+40,void AcceptCharacterCreate(INT Result),guard,,36
+41,void AcceptLogOut(),gap,,37
+42,void ServerClose(INT Reason),gap,,38
+43,"void ReviveRequest(INT Param1, INT Param2)",handler,,39
+44,void ReceiveServerList(INT LastServerID),guard,,40
+45,void AddServerList(L2ParamStack& Params),handler,,41
+46,void EndServerList(),handler,,42
+47,void MyTargetSelected(INT LevelDiff),gap,,43
+48,void ReceiveItemList(INT bShow),gap,,44
+49,void ReceiveUpdateItemList(),guard,,45
+50,void ReceiveTradeStart(INT ObjectID),guard,,46
+51,void ReceiveAddTradeInventoryItem(NItemRequest Item),handler,,47
+52,void ReceiveAddTradeOwnItem(NItemRequest Item),handler,,48
+53,void ReceiveAddTradeOtherItem(NItemRequest Item),handler,,49
+54,"void ReceiveTradeUpdate(INT Change, ItemInfo& Item)",gap,,50
+55,void ReceiveTradeDoneMsg(INT Result),guard,,51
+56,void AddRecommandedData(RecommandedDataStr Data),guard,,52
+57,void EndRecommandedData(),guard,,53
+58,void AddInventoryItem(ItemInfo& Item),align,,54
+59,"void UpdateInventoryItem(INT Change, ItemInfo& Item)",align,,55
+60,void CheckGeo(),content,"C2 only; takes no argument (the stock pops nothing: it tail-calls the inventory window's 0x10080440); UGameEngine::OnCheckGeo's call at +0xF0 is on the level",
+61,"void StartBuyList(INT Adena, INT ListID)",handler,,56
+62,void AddBuyList(ItemInfo& Item),handler,,57
+63,"void StartSellList(INT Adena, INT ListID)",handler,,58
+64,void AddSellList(ItemInfo& Item),handler,,59
+65,"void StartManorBuyList(INT Adena, INT ListID)",handler,"UGameEngine::OnStartManorBuyList(INT, INT) calls it; C2 only (a copy of StartBuyList on another window)",
+66,void AddManorBuyList(ItemInfo& Item),handler,UGameEngine::OnAddManorBuyList(ItemInfo&) calls it; C2 only,
+67,"void StartManorSellList(INT Adena, INT ListID)",handler,"UGameEngine::OnStartManorSellList(INT, INT) calls it; C2 only",
+68,void AddManorSellList(ItemInfo& Item),handler,UGameEngine::OnAddManorSellList(ItemInfo&) calls it; C2 only,
+69,void StartDepositList(INT Adena),handler,,60
+70,void AddDepositList(ItemInfo& Item),handler,,61
+71,void StartWithdrawList(INT Adena),handler,,62
+72,void AddWithdrawList(ItemInfo& Item),handler,,63
+73,void ReceiveWareHouseDone(L2ParamStack& Params),gap,,64
+74,void UpdatePlayerInfo(L2ParamStack& Params),gap,,65
+75,void NpcHtmlMessage(L2ParamStack& Params),handler,,66
+76,void TutorialShowHtml(TCHAR* Html),handler,,67
+77,void TutorialShowQuestionMark(INT ID),handler,,68
+78,void TutorialEnableClientEvent(INT Events),handler,,69
+79,void TutorialCloseHtml(),handler,,70
+80,void SendTutorialEvent(INT Event),gap,,71
+81,"void ShowRadar(INT Param1, INT Param2, INT X, INT Y, INT Z)",handler,"UGameEngine::OnShowRadar(INT, INT, INT, INT, INT) calls it: the C1 ShowRadar(X, Y, Z) with two more values (ret 0xc in C1, 0x14 in C2)",72
+82,"void DeleteRadar(INT X, INT Y, INT Z)",handler,,73
+83,void ReceivePledgeExtendedInfo(PledgeInfo& Info),gap,,74
+84,void ReceivePledgeInfo(PledgeInfo& Info),guard,,75
+85,void ReceivePledgeInfoUpdate(PledgeInfo& Info),guard,,76
+86,void ReceivePledgeMemberList(),gap,,77
+87,void AddPledgeMember(L2ParamStack& Params),gap,,78
+88,void UpdatePledgeMember(L2ParamStack& Params),guard,,79
+89,void DeletePledgeMember(TCHAR* Name),guard,,80
+90,void DeleteAllPledgeMember(),guard,,81
+91,void ReceiveCreatePledge(L2ParamStack& Params),align,,82
+92,void ReceiveAskJoinPledge(L2ParamStack& Params),align,,83
+93,void ReceiveOustPledgeMember(L2ParamStack& Params),align,,84
+94,void ReceiveDismissPledge(L2ParamStack& Params),align,,85
+95,void ReceiveJoinPledge(L2ParamStack& Params),align,,86
+96,void ReceiveWithdrawalPledge(L2ParamStack& Params),align,,87
+97,void ReceiveOustPledgeMessage(L2ParamStack& Params),map,,88
+98,void ReceiveDismissPledgeMessage(L2ParamStack& Params),align,,89
+99,void ReceiveStartPledgeWar(L2ParamStack& Params),align,,90
+100,void ReceiveReplyStartPledgeWar(L2ParamStack& Params),align,,91
+101,void ReceiveStopPledgeWar(L2ParamStack& Params),align,,92
+102,void ReceiveReplyStopPledgeWar(L2ParamStack& Params),align,,93
+103,void ReceiveSurrenderPledgeWar(L2ParamStack& Params),align,,94
+104,void ReceiveSurrenderPersonally(L2ParamStack& Params),align,,95
+105,void ReceiveAskJoinParty(L2ParamStack& Params),align,,96
+106,void ReceiveJoinParty(L2ParamStack& Params),align,,97
+107,void ReceiveWithdrawalParty(L2ParamStack& Params),align,,98
+108,void ReceiveOustPartyMember(L2ParamStack& Params),align,,99
+109,void ReceiveOustPartyMessage(L2ParamStack& Params),map,,100
+110,void ReceiveDismissParty(L2ParamStack& Params),align,,101
+111,void ReceiveDismissPartyMessage(L2ParamStack& Params),map,,102
+112,void ReceiveAskJoinAlly(L2ParamStack& Params),align,,103
+113,void ReceiveDismissAlly(L2ParamStack& Params),align,,104
+114,void ReceiveJoinAlly(L2ParamStack& Params),align,,105
+115,void ReceiveOustAlly(L2ParamStack& Params),align,,106
+116,void ReceiveWithdrawAlly(L2ParamStack& Params),align,,107
+117,void ReceiveFriendAddRequestResult(L2ParamStack& Params),align,,108
+118,void ReceiveFriendAddRequest(L2ParamStack& Params),align,,109
+119,void ReceiveFriendAdd(L2ParamStack& Params),map,"empty, folded with the other empty slots",110
+120,void ReceiveFriendRemove(L2ParamStack& Params),map,"empty, folded",111
+121,void ReceiveFriendList(L2ParamStack& Params),map,"empty, folded",112
+122,void ReceiveFriendStatus(L2ParamStack& Params),map,"empty, folded",113
+123,void ReceiveRecipeBookItemList(INT P1),handler,UGameEngine::OnReceiveRecipeBookItemList(int),
+124,void AddRecipeBookItem(INT RecipeID),handler,UGameEngine::AddRecipeBookItem(int),
+125,"void ReceiveRecipeItemMakeInfo(INT P1, INT P2, INT P3, INT P4)",handler,"UGameEngine::ReceiveRecipeItemMakeInfo(int,int,int,int)",
+126,"void ReceiveRecipeShopManageList(INT P1, INT P2)",handler,"UGameEngine::ReceiveRecipeShopManageList(int,int)",
+127,"void AddRecipeShopManageItem(INT RecipeID, INT P2)",handler,"UGameEngine::AddRecipeShopManageItem(int,int)",
+128,"void AddRecipeShopRegisterdItem(INT RecipeID, INT P2, INT P3)",handler,"UGameEngine::AddRecipeShopRegisterdItem(int,int,int)",
+129,"void ReceiveRecipeShopSellList(INT P1, INT P2, INT P3, INT P4)",handler,"UGameEngine::ReceiveRecipeShopSellList(int,int,int,int)",
+130,"void AddRecipeShopSellItem(INT RecipeID, INT P2, INT P3)",handler,"UGameEngine::AddRecipeShopSellItem(int,int,int)",
+131,"void ReceiveRecipeShopItemInfo(INT P1, INT P2, INT P3, INT P4, INT P5)",handler,"UGameEngine::ReceiveRecipeShopItemInfo(int,int,int,int,int)",
+132,"void ReceiveMacroListInfo(char P1, char P2, MacroInfo Macro, char P4, INT P5)",handler,"UGameEngine::ReceiveMacroListInfo(char,char,MacroInfo,char,int); ret 0x40C (MacroInfo is 0x3FC bytes)",
+133,"void ReceiveHennaEquipList(INT P1, INT P2)",handler,"UGameEngine::ReceiveHennaEquipList(int,int)",
+134,void AddHennaEquipInfo(HennaInfo Info),handler,UGameEngine::AddHennaEquipInfo(HennaInfo); ret 0x44 (HennaInfo is 0x44 bytes),
+135,"void ReceiveHennaItemInfo(HennaInfo Info, INT P2)",handler,"UGameEngine::ReceiveHennaItemInfo(HennaInfo,int)",
+136,"void ReceiveHennaInfo(HennaInfo Info, INT P2)",handler,"UGameEngine::ReceiveHennaInfo(HennaInfo,int)",
+137,"void AddHennaInfo(INT P1, INT P2)",handler,"UGameEngine::AddHennaInfo(int,int): the inventory window's tail call",
+138,"void ReceiveHennaUnequipList(INT P1, INT P2)",handler,"UGameEngine::ReceiveHennaUnequipList(int,int)",
+139,void AddHennaUnequipInfo(HennaInfo Info),handler,UGameEngine::AddHennaUnequipInfo(HennaInfo),
+140,"void ReceiveHennaUnequipItemInfo(HennaInfo Info, INT P2)",handler,"UGameEngine::ReceiveHennaUnequipItemInfo(HennaInfo,int)",
+141,void RequestHennaItemList(),forward,tail call of UL2NetHandler::RequestHennaItemList (slot 215); C2 only,
+142,void RequestHennaUnequipList(),forward,tail call of UL2NetHandler::RequestHennaUnequipList (slot 216); C2 only,
+143,"void GMAddHennaInfo(INT P1, INT P2)",handler,"UGameEngine::GMAddHennaInfo(int,int)",
+144,"void GMReceiveHennaInfo(HennaInfo Info, INT P2)",handler,"UGameEngine::GMReceiveHennaInfo(HennaInfo,int)",
+145,void ReceiveBlockList(L2ParamStack& Params),map,"empty, folded",114
+146,void ToggleInventory(),content,C1 slot 261 (gone from there): same body (the inventory shows or the item list is requested),261
+147,void ShowCharacterStatus(),content,C1 slot 262: Desktop->ToggleCharacter(0),262
+148,void UseShortCutSlot(INT Index),content,"C1 slot 263: ShortCutWnd->PageSlot(Index), then UseShortCut",263
+149,void ChangeShortCutPage(INT bNext),content,C1 slot 264: ShortCutWnd->PrevPage / NextPage,264
+150,"User* FindNextPawnInArea(FLOAT Radius, INT CreatureID, INT bNext, INT P4, INT P5, INT P6, INT P7)",content,"C1 slot 265: same shape (FMemMark, ULevel::GetPawnListExtent, FindUserByID, ret 0x1C)",265
+151,"void SetViewRect(INT Left, INT Top, INT Right, INT Bottom)",content,C1 slot 266: the desktop's rectangle (ret 0x10),266
+152,void PressCtrl(),content,C1 slot 267: bCtrlDown = 1 (+0x3584 in C2),267
+153,void ReleaseCtrl(),content,C1 slot 268: bCtrlDown = 0,268
+154,void ReceiveShortCutList(),map,,115
+155,void AddShortCutItem(L2ParamStack& Params),content,"C1 slot 116: NItemInfo on the stack, L2ParamStack::Top, the inventory / pet inventory / skill / action cases",116
+156,void UpdateShortCutItem(INT ObjectID),align,calls NCShortCutWnd::UpdateItem,117
+157,void UpdatePetShortCutItem(INT ObjectID),align,calls NCShortCutWnd::UpdatePetItem,118
+158,void ReceiveShortCutDelete(INT Slot),align,calls NCShortCutWnd::DeleteShortCut,119
+159,"void UpdateMacroShortCut(INT P1, INT P2)",content,"name ours; C2 only; ret 8: ShortCutWnd's window at +0x104, tail call sub_100cc8d0 (new in C2, after ReceiveShortCutDelete)",
+160,void ReceiveMagicSkillList(L2ParamStack& Params),map,,120
+161,void ReceiveAbnormalStatus(),map,,121
+162,void AddAbnormalStatus(L2ParamStack& Params),align,,122
+163,void ReceiveQuestList(),align,,123
+164,"void AddQuestID(INT QuestID, INT Step)",align,,124
+165,void AddQuestItem(ItemInfo& Item),align,,125
+166,UBOOL Say2(L2ParamStack& Params),align,,126
+167,"void VARARGS DebugLogf(INT Category, const TCHAR* Fmt, ...)",align,,127
+168,void ReceiveVersionCheck(L2ParamStack& Params),align,,128
+169,void UpdateEquipItem(L2ParamStack& Params),align,,129
+170,void PartyAddMember(L2ParamStack& Params),align,,130
+171,void PartyUpdateMember(L2ParamStack& Params),align,,131
+172,void PartyDeleteMember(L2ParamStack& Params),align,,132
+173,void PartyDeleteAll(L2ParamStack& Params),align,,133
+174,void ReceivePartyMatchList(),map,,134
+175,void AddPartyMatchMember(L2ParamStack& Params),map,,135
+176,void ReceivePartyMatchDetail(L2ParamStack& Params),map,,136
+177,void ShowMagicWnd(),map,"empty, folded",137
+178,void ShowSkillWnd(),align,,138
+179,void ReceiveSkillList(L2ParamStack& Params),align,,139
+180,void ReceiveMagicList(L2ParamStack& Params),map,"empty, folded",140
+181,void ReceiveTradeDemand(L2ParamStack& Params),align,,141
+182,void RestartResetWindows(),align,,142
+183,void RestartToLobby(),align,,143
+184,void AddSystemMessageParam(L2ParamStack& Params),align,,144
+185,"void EndSystemMessageParam(L2ParamStack& Params, INT P2, INT P3)",handler,"UGameEngine::OnEndSystemMessageParam calls it with (Params, 0, 0): ret 0xC in C2 (C1: 4)",145
+186,void ShowBoard(L2ParamStack& Params),align,,146
+187,void BuilderCommand(L2ParamStack& Params),map,,147
+188,void SelectItemToEnchant(),map,,148
+189,void ReceiveEnchantResult(INT Result),align,,149
+190,void ReceiveAction(INT Action),align,,150
+191,void ShowTrainListWnd(),align,,151
+192,void ShowTrainInfoWnd(L2ParamStack& Params),align,,152
+193,void AddAcquireSkillInfo(L2ParamStack& Params),align,,153
+194,void AddAcquireSkillExtendedInfo(L2ParamStack& Params),align,,154
+195,void ShowRestartMenu(L2ParamStack& Params),align,,155
+196,void TeleportToLocation(),map,,156
+197,void HideTrainWnd(),map,,157
+198,void SetVIPShopID(INT ShopID),map,,158
+199,"void AddVIPItemList(INT ProductID, INT ItemID, INT BodyPart, INT Type, INT Count)",align,,159
+200,"void AddVIPNeedItemList(INT ProductID, INT ItemID, INT Count)",align,,160
+201,void VIPItemListEnd(),align,,161
+202,void RequestBuyVIPItem(L2ParamStack& Params),map,,162
+203,void EnablePartyChat(bool bEnable),map,,163
+204,void EnablePledgeChat(bool bEnable),map,,164
+205,void EnableAllyChat(bool bEnable),map,,165
+206,void ShowPetStatusWnd(INT Type),align,,166
+207,void ShowPetPartyWnd(INT Type),align,,167
+208,void HideSummonWnd(),align,,168
+209,void HidePetWnd(),handler,,169
+210,void ShowPetNameBtn(INT bShow),gap,,170
+211,"void ReceivePetStatusInfo(INT Type, L2ParamStack& Params)",gap,,171
+212,void ReceivePetItemList(),gap,,172
+213,void AddPetInventoryItem(ItemInfo& Item),guard,,173
+214,"void UpdatePetInventoryItem(INT Change, ItemInfo& Item)",align,,174
+215,"void SkillCoolTime(INT Param1, INT Param2, INT Param3, INT Param4)",align,,175
+216,void vfn176(L2ParamStack& Params),map,C1 vfn176 (no caller in NWindow): name not known,176
+217,"void MacroSkillUse(INT P1, INT P2)",handler,"name ours; UGameEngine::OnReceiveMagicSkillUse / OnReceiveMagicSkillCanceled call it (1, 0): the macro runner's (NCMacroInfoWnd +0xF8, sub_1008c450) skill events",
+218,void MacroTargetSelected(),handler,name ours; UGameEngine::OnMyTargetSelected calls it after slot 47: NCMacroInfoWnd sub_1008c3c0,
+219,void MacroItemPickedUp(),handler,name ours; UGameEngine::OnGetItem calls it: NCMacroInfoWnd sub_1008c330,
+220,void RequestStartAllianceWar(L2ParamStack& Params),map,,177
+221,void RequestReplyStartAllianceWar(L2ParamStack& Params),map,,178
+222,void RequestStopAllianceWar(L2ParamStack& Params),map,,179
+223,void RequestReplyStopAllianceWar(L2ParamStack& Params),map,,180
+224,void RequestSurrenderAllianceWar(L2ParamStack& Params),map,,181
+225,"void StartAllianceWar(TCHAR* AllianceName, TCHAR* Name)",handler,,182
+226,"void StopAllianceWar(TCHAR* AllianceName, TCHAR* Name)",handler,,183
+227,void vfn184(L2ParamStack& Params),gap,,184
+228,void RequestSiegeAttackerList(L2ParamStack& Params),gap,,185
+229,void RequestSiegeDefenderList(L2ParamStack& Params),gap,,186
+230,void RequestJoinSiege(L2ParamStack& Params),gap,,187
+231,void RequestConfirmSiegeWaitingList(L2ParamStack& Params),gap,,188
+232,void RequestSetSiegeTime(L2ParamStack& Params),gap,,189
+233,void ReceiveSiegeInfo(L2ParamStack& Params),gap,,190
+234,void ReceiveSiegeAttackerList(L2ParamStack& Params),gap,,191
+235,void ReceiveSiegeDefenderList(L2ParamStack& Params),gap,,192
+236,void AddSelectableTime(INT Time),gap,,193
+237,void EndSiegeAttackerList(),gap,,194
+238,void EndSiegeDefenderList(),gap,,195
+239,void ClearAttackerList(),gap,,196
+240,void ClearDefenderList(),gap,,197
+241,void RequestPackageSend(L2ParamStack& Params),gap,,198
+242,void RequestPackageSendableItemList(L2ParamStack& Params),gap,,199
+243,void AddPackageToList(L2ParamStack& Params),gap,,200
+244,"void AddSendableItemList(INT Index, INT TargetID, INT Adena, ItemInfo& Item)",gap,,201
+245,void GMViewCharacterInfo(User& Info),gap,,202
+246,void GMViewReceivePledgeInfo(PledgeInfo& Info),guard,,203
+247,void GMViewReceivePledgeMemberList(),align,,204
+248,void GMViewAddPledgeMember(L2ParamStack& Params),align,,205
+249,void GMViewShowSkillWnd(),map,,206
+250,void GMViewSkillList(L2ParamStack& Params),align,,207
+251,void GMViewShowMagicWnd(),map,"empty, folded",208
+252,void GMViewMagicList(L2ParamStack& Params),align,,209
+253,void GMViewReceiveQuestList(),align,,210
+254,"void GMViewAddQuestID(INT QuestID, INT Step)",align,,211
+255,void GMViewAddQuestItem(ItemInfo& Item),align,,212
+256,void GMViewReceiveItemList(INT bShow),align,,213
+257,void GMViewAddInventoryItem(ItemInfo& Item),align,,214
+258,void GMViewStartWithdrawList(INT Adena),align,,215
+259,void GMViewAddWithdrawList(ItemInfo& Item),align,,216
+260,void ShowMapItem(INT ItemID),align,,217
+261,void ShowCalc(INT Code),handler,UGameEngine::OnShowCalc(int): code 0x1129 shows the calculator's window pair,
+262,void StartPrivateStoreManageList(),align,,218
+263,void StartPrivateStoreList(),align,,219
+264,"void PrivateStoreManageList(ItemInfo& InventoryItem, ItemInfo& StoreItem, INT OwnerID, INT Adena)",align,,220
+265,"void PrivateStoreList(ItemInfo& Item, INT OwnerID, INT Adena)",align,,221
+266,"void PrivateStoreMsg(TCHAR* Text, INT Param)",map,empty,222
+267,void StartPrivateStoreBuyManageList(),align,,223
+268,void StartPrivateStoreBuyList(),align,,224
+269,"void PrivateStoreBuyManageList(ItemInfo& InventoryItem, ItemInfo& StoreItem, INT OwnerID, INT Adena)",align,,225
+270,"void PrivateStoreBuyList(ItemInfo& Item, INT OwnerID, INT Adena)",align,,226
+271,void BlockedAccountWithMsg(TCHAR* Msg),handler,,227
+272,void BlockedAccount(INT Reason),handler,,228
+273,"void SetSummonRemainTime(INT Remaining, INT Total)",gap,,229
+274,UBOOL IsCtrlDown(),gap,,230
+275,"void VARARGS MessageBoxf(const TCHAR* Caption, const TCHAR* Fmt, ...)",gap,,231
+280,UBOOL Init(UEngine* InEngine),layout,,236
+281,INT ConsolePostRender(UCanvas* Canvas),layout,,237
+282,"INT DispatchWndMsg(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)",layout,,238
+283,UBOOL NpcSay(L2ParamStack& Params),layout,,239
+284,"UBOOL MasterConsoleEventProcess(INT Key, INT Action, FLOAT Delta)",layout,,240
+285,UBOOL DebugCommand(const TCHAR* Cmd),layout,,241
+297,UBOOL InitForPawnViewer(UEngine* InEngine),layout,,253
+298,void PawnViewerFunction(INT Function),layout,,254
+301,INT* GetInventoryItemIDs(INT& Count),align,,257
+302,void Free(void* Ptr),names.csv,"GMalloc->Free(Ptr), folded with operator delete (db/names.csv)",258
+303,INT GetPartyMemberCount(),content,name ours (a guess); Desktop->PartyWnd->+0xA8; callers in Engine.dll compare it with 3,
+305,"void SetServerPing(INT ServerID, DWORD Ping)",content,"C1 slot 260: LoginWnd's server list window SetPing (NCServerSelectWnd::SetPing), ret 8",260
+306,void Snoop(L2ParamStack& Params),handler,UGameEngine::OnSnoop(L2ParamStack&),
+307,void SetPadHoldL(BYTE bHold),layout,the C1 virtual 269 SetPadShift1(BYTE); ShortCutWnd->SetPadHoldL(bHold) (Engine pushes 0/1),269
+308,void SetPadHoldR(BYTE bHold),layout,the C1 virtual 270 SetPadShift2(BYTE); ShortCutWnd->SetPadHoldR(bHold),270
+309,void vfn271(INT Param),map,"empty, folded; C1 vfn271",271
+310,void ShowTownMap(L2ParamStack& Params),handler,UGameEngine::OnShowTownMapPacket(L2ParamStack&),
+311,void ObserverStart(),handler,UGameEngine::OnObserverStartPacket: Desktop +0x198 ShowWindow (no argument reaches it),
+312,void ObserverEnd(),handler,UGameEngine::OnObserverEndPacket / OnRestartResponse: Desktop +0x198 HideWindow,
+313,"void PledgePower(INT P1, INT P2, BYTE* P3)",handler,"UGameEngine::OnPledgePower(int,int,unsigned char*): Desktop +0xA0, tail call sub_100721f0",
+314,void ResizeWindows(),content,"name ours; UWindowsViewport::ResizeViewport (WinDrv) calls it after storing GSEKScreenX/Y: every window gets its place for the new screen size (2,210 instructions)",
+315,void RequestLogout(),content,a non-virtual in C1; the C2 vtable points at 0x100521a0,
+316,void ShowQuitDialog(),content,name ours; WinDrv's window close handler calls it in the game state (6): the dialog 0x1C with systemmsg 0x7D,
+317,void ShowMessageWnd(const TCHAR* Text),content,a non-virtual in C1; the C2 vtable points at 0x100561e0,
+318,void vfn318(INT P1),content,C2 only; the shared empty function 0x10001AD0 (ret 4); Engine.dll calls it with 0,
+319,void ShowXMasSeal(INT P1),handler,UGameEngine::OnShowXMasSeal(int),

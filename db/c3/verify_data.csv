@@ -1,0 +1,2226 @@
+c2_va,name,status,detail
+10001070,NCButton::OnLButtonUp,ok,
+10001180,NCButton::OnDestroy,note,strs stock-only {} ours-only {NCButton::OnDestroy}
+100012d0,NCButton::SetText,ok,
+10001440,NCExButton::OnLButtonDown,ok,
+10001480,NCExButton::OnLButtonUp,ok,
+100014a0,NCThumbButton::OnLButtonDown,ok,
+100014c0,NCThumbButton::OnMouseMove,ok,
+100014e0,NCThumbButton::OnLButtonUp,ok,
+10001570,NCPushButton::OnLButtonUp,ok,
+100015b0,NCPushButton::OnMouseMove,ok,
+10001620,NCPushButton::OnTimer,ok,
+100019d0,NwOperatorNew,ok,
+100019f0,NewToolTipLine,ok,
+10001a10,NCObject::~NCObject,ok,
+10001af0,NCWnd::vfn032,ok,
+10002310,NToolTipLineArray::NToolTipLineArray(const NToolTipLineArray& A),ok,
+100023c0,NToolTipLineArray::~NToolTipLineArray,ok,
+100024f0,NToolTipInfo::NToolTipInfo,note,"disps stock-only {40, 44} ours-only {}"
+100025a0,NToolTipInfo::~NToolTipInfo,ok,
+10002610,NToolTipInfo::NToolTipInfo(const NToolTipInfo& Src),note,"consts stock-only {6c} ours-only {}; disps stock-only {} ours-only {60, 64, 68, 70, 74, 78}"
+10002700,NCWnd::~NCWnd,ok,
+10002770,NCWnd::IsEnabled,ok,
+10002780,NCWnd::IsFocused,ok,
+10002790,NCWnd::GetStyle,ok,
+100030a0,NCCandidateBox::WindowProc,ok,
+10003120,NCCandidateBox::OnCreate,ok,
+100031e0,NCCandidateBox::SelectPrev,note,consts stock-only {} ours-only {ffffffff}
+10003230,NCCandidateBox::SelectNext,ok,
+10003260,NCCandidateBox::OnKeyDown,ok,
+10003330,NCCandidateBox::OnLButtonUp,ok,
+10003360,NCScrollWnd::OnPaint,ok,
+10003370,NCCandidateBox::PtInRect,ok,
+100033c0,NCCandidateBox::SetSize,note,consts stock-only {428c0000} ours-only {f:00008c42}
+10003410,NCCandidateBox::SetMode,note,consts stock-only {} ours-only {fffffffe}
+10003450,NCCompositeBox::OnCreate,ok,
+10003480,NCCompositeBox::CaretLeft,ok,
+100034e0,NCCompositeBox::SetShowCaret,ok,
+10003570,NCCandidateBox::OnPaint,note,strs stock-only {} ours-only {NCCandidateBox::OnPaint}
+10003ad0,NCCandidateBox::OnLButtonDown,note,consts stock-only {f:0000804f} ours-only {}
+100040f0,TImeTextArray::Empty,ok,
+10004110,TImeTextArray::AddItem,ok,
+10004140,NCCandidateBox::AddItem,ok,
+100041c0,NCCandidateBox::Clear,ok,
+100041f0,NCCandidateBox::OnDestroy,ok,
+10004290,TImeTextArray::~TImeTextArray,ok,
+10004330,"NCCandidateBox::NCCandidateBox(INT A, INT B)",note,"disps stock-only {f8, fc} ours-only {}"
+100043d0,NCCandidateBox::~NCCandidateBox,ok,
+10004600,NCCheckBox::OnCreate,ok,
+10004730,NCCheckBox::OnLButtonDown,ok,
+10004c70,NCWnd::DefWindowProc,ok,
+10004ce0,NCComboBox::WindowProc,ok,
+10004df0,NCComboBox::OnLButtonDown,ok,
+10004ea0,NCComboBox::SetSelected,ok,
+10005530,NCWnd::AttachEntry,ok,
+10005a90,TStringPtrArray::~TStringPtrArray,ok,
+10005c40,NControl::NotifyParent,ok,
+10005c80,NControl::ReleaseFocus,ok,
+10005cb0,NControl::HideParent,ok,
+10005ce0,NControl::SendTo,ok,
+10005d20,NControl::SendToParent,ok,
+10005d60,NControl::OnCreate,ok,
+10005e30,NControl::GetCaption,ok,
+10005e60,NCCountSpin::WindowProc,ok,
+10005ee0,NCCountSpin::OnUp,ok,
+10005f40,NCCountSpin::OnDown,ok,
+10005fa0,NCProgressCtrl::OnCreate,ok,
+10005fb0,NCProgressCtrl::SetRemaining,ok,
+10005fd0,NCProgressCtrl::SetMax,ok,
+10005fe0,NCProgressCtrl::Reset,ok,
+10006000,NCProgressCtrl::Stop,ok,
+10006010,NCProgressCtrl::Start,ok,
+10006170,NCCountSpin::OnDestroy,note,strs stock-only {} ours-only {NCCountSpin::OnDestroy}
+100068c0,NCProgressCtrl::~NCProgressCtrl,ok,
+10006ba0,NDialogInfo::SetText,ok,
+10006c40,NCGaraDialogBox::WindowProc,ok,
+10006d20,NCGaraDialogBox::SetFocus,ok,
+10006d40,NCGaraDialogBox::OnKeyDown,ok,
+10006d90,NCGaraDialogBox::Reset,ok,
+10006de0,NCGaraDialogBox::HideWindow,ok,
+10006df0,NCGaraDialogBox::OnEditNotify,ok,
+10006ed0,NCGaraDialogBox::OnCancel,ok,
+10007310,NCGaraDialogBox::SetButtonTexts,ok,
+10007380,NCGaraDialogBox::SetEditText,ok,
+100073b0,NCGaraDialogBox::GetOwner,ok,
+100073c0,NCGaraDialogBox::OnProgressEnd,ok,
+100073d0,NCDialogBox::OnDestroy,note,"disps stock-only {30, 54, 5c, 6c} ours-only {}; strs stock-only {} ours-only {NCDialogBox::OnDestroy}"
+10007450,NCDialogBox::HideModal,ok,
+10007500,NCDialogBox::HideWindow,note,consts stock-only {} ours-only {100}
+100075a0,NItemRequest::NItemRequest,ok,
+100076f0,NCGaraDialogBox::OnPaint,note,strs stock-only {} ours-only {NCGaraDialogBox::OnPaint}
+100078b0,NCGaraDialogBox::OnDestroy,note,strs stock-only {} ours-only {NCGaraDialogBox::OnDestroy}
+10007a20,NCGaraDialogBox::UpdateLayout,note,"consts stock-only {42d80000, 43800000, 43b60000} ours-only {f:00008043, f:0000ae42, f:0000b643}"
+10007be0,NCGaraDialogBox::SetInfo,note,"disps stock-only {} ours-only {264, 268, 80, 84}"
+100095d0,NCGaraDialogBox::OnKeypad,ok,
+100096d0,NCWarningDialogBox::OnPaint,note,strs stock-only {} ours-only {NCWarningDialogBox::OnPaint}
+10009830,NCWarningDialogBox::OnDestroy,note,strs stock-only {} ours-only {NCWarningDialogBox::OnDestroy}
+100098e0,NCWarningDialogBox::OnOK,ok,
+10009920,NCGaraDialogBox::OnCreate,note,"consts stock-only {20, 39} ours-only {aaaaaaab}; disps stock-only {} ours-only {2d, 47}"
+10009d90,NCGaraDialogBox::ShowWindow,ok,
+10009dd0,NCWarningDialogBox::OnCreate,note,consts stock-only {6611c} ours-only {}
+10009f80,NCGaraDialogBox::NCGaraDialogBox,note,"disps stock-only {c8, cc, d0, d4} ours-only {}"
+1000a130,NCDialogBox::NCDialogBox,note,"disps stock-only {c8, cc, d0, d4} ours-only {28, 2c, 34, 38, 3c, 40, 44, 48, 4c, 54, 58, 64, 68, 70, 74, 7c, 80, 84, b4, b8, bc}"
+1000a170,NCWarningDialogBox::NCWarningDialogBox,ok,
+1000a2a0,NCEditBox::SetMaxLength,ok,
+1000a2c0,NCEditBox::PaintComposingKR,ok,
+1000a380,NCEditBox::PaintComposingTW,note,"consts stock-only {64} ours-only {aaaaaaab, ffffff9c, ffffffd6, fffffffe}"
+1000a800,NCEditBox::PaintCompositionJP,note,"consts stock-only {} ours-only {ffffd5fc, ffffd5fd}"
+1000aa30,NCEditBox::PaintCompositionKR,note,"consts stock-only {} ours-only {ffffd5fc, ffffd5fd, fffffff2}; disps stock-only {278} ours-only {3208}"
+1000abe0,NCEditBox::PaintCompositionTW,note,"consts stock-only {274, 3208} ours-only {ffffd5fc, ffffd5fd, fffffff2}; disps stock-only {278} ours-only {274, 3208}"
+1000ae50,NCEditBox::SetText,ok,
+1000ae60,NCEditBox::CommitText,note,disps stock-only {} ours-only {254}
+1000af30,NCEditBox::GetTextWidth,note,disps stock-only {cc} ours-only {}; globs stock-only {1026e450} ours-only {}
+1000afa0,NCEditBox::ClearText,ok,
+1000afe0,NCEditBox::ReformatNumber,note,consts stock-only {} ours-only {238}; disps stock-only {} ours-only {23c}
+1000b140,NCEditBox::IsThaiInputValid,ok,
+1000b410,NCEditBox::OnTimer,ok,
+1000b440,NCEditBox::SetType,ok,
+1000b450,NCEditBox::SetFocus,ok,
+1000b470,NCEditBox::OnResult,note,"consts stock-only {} ours-only {244, fffffffd, fffffffe}; disps stock-only {244} ours-only {278}"
+1000b710,NCEditBox::OnComposition,note,consts stock-only {} ours-only {200}; disps stock-only {} ours-only {278}
+1000bab0,NCEditBox::OnAttribute,note,"consts stock-only {30, 39} ours-only {244}; disps stock-only {244} ours-only {}"
+1000bc10,NCEditBox::OnReading,note,"disps stock-only {248} ours-only {22c, 238, 244, 274}"
+1000bd70,NCEditBox::OnGetCaret,ok,
+1000bda0,NCEditBox::OnEndComposition,ok,
+1000bdd0,NCEditBox::OnCursorPos,ok,
+1000bdf0,NCEditBox::GetCompCaretX,ok,
+1000bed0,ThaiCharacter::CharCount,ok,
+1000bf10,ThaiCharacter::GetWidth,ok,
+1000bfe0,NCEditBox::OnDestroy,note,strs stock-only {} ours-only {NCEditBox::OnDestroy}
+1000c0a0,NCEditBox::PaintComposingJP,note,"consts stock-only {274} ours-only {aaaaaaab, fffffffe}; disps stock-only {} ours-only {204, 274, 28c}"
+1000c370,NCEditBox::PaintComposingCN,note,"consts stock-only {41} ours-only {298, fffffff6, fffffffe}; disps stock-only {298} ours-only {44}"
+1000ca60,NCEditBox::PaintCompositionCN,note,"consts stock-only {280} ours-only {298, 69, ffffff9c}; disps stock-only {298, 69} ours-only {280, 284, 40, 44}"
+1000ce80,NCEditBox::InsertText,note,disps stock-only {} ours-only {23c}
+1000d0d0,NCEditBox::DeleteChar,ok,
+1000d3b0,NCEditBox::OnChar,note,consts stock-only {81} ours-only {}
+1000d720,NCEditBox::OnCreate,note,"consts stock-only {89, fffffeee, ffffffde} ours-only {112, 22, 298, ffffff77, ffffffef}; disps stock-only {298} ours-only {}"
+1000d930,NCEditBox::OnPaint,note,"consts stock-only {2a, 41} ours-only {222324, fffffff9}"
+1000e380,NCEditBox::KillFocus,note,disps stock-only {} ours-only {26c}
+1000e480,TThaiCharArray::~TThaiCharArray,ok,
+1000e510,NCEditBox::OnKeyDown,note,"consts stock-only {} ours-only {238, ffffffec, fffffff9}"
+1000f3f0,"NCEditBox::NCEditBox(INT A, const TCHAR* B, UBOOL C, INT D, INT E)",note,"disps stock-only {260, 264, 26c, 270, c8, cc, d0, d4} ours-only {}"
+1000f5a0,NCEditBox::IsEnglishInput,ok,
+1000f5e0,NCEditBox::~NCEditBox,ok,
+1000f6d0,NCFrameCtrl::WindowProc,ok,
+1000f750,NCFrameCtrl::OnMinimize,ok,
+1000f770,NCFrameCtrl::SetFrameSize,ok,
+1000f840,NCFrameCtrl::OnLButtonDown,ok,
+1000f8a0,NCFrameCtrl::OnLButtonUp,ok,
+1000f8d0,NCFrameCtrl::SetTitleText,ok,
+1000f900,NCResizeFrame::WindowProc,ok,
+1000f920,NCResizeFrame::OnLButtonDown,note,"disps stock-only {} ours-only {40, 44}"
+1000f9c0,NCResizeFrame::OnLButtonUp,ok,
+1000f9f0,NCResizeFrame::KillFocus,ok,
+1000fa10,NCFrameCtrl::OnClose,note,"disps stock-only {24, 28, 54} ours-only {}; globs stock-only {1026e44c, 1027aaf8, 10283b50, 1028fef0, 10290e78} ours-only {}"
+1000faa0,NCFrameCtrl::OnDestroy,note,strs stock-only {} ours-only {NCFrameCtrl::OnDestroy}
+1000fb70,NCFrameCtrl::OnPaint,note,strs stock-only {} ours-only {NCFrameCtrl::OnPaint}
+1000fed0,NCFrameCtrl::OnMouseMove,ok,
+1000ff70,NCResizeFrame::OnMouseMove,note,"disps stock-only {} ours-only {40, 44}"
+100100b0,NCFrameCtrl::OnCreate,note,"consts stock-only {20, 29c, 40} ours-only {2000, 4000}; globs stock-only {} ours-only {10261450}"
+10010250,NCFrameCtrl::~NCFrameCtrl,ok,
+100102f0,NCFrameCtrl::NCFrameCtrl,note,"disps stock-only {c8, cc, d0, d4} ours-only {}"
+10010450,"NCFrameCtrl::NCFrameCtrl(INT A, INT B, INT C)",note,"disps stock-only {c8, cc, d0, d4} ours-only {}"
+100105c0,NCResizeFrame::NCResizeFrame(INT A),ok,
+10010640,NCResizeFrame::~NCResizeFrame,ok,
+100106b0,NCGDevice::GetCharSize,ok,
+10010740,NCGDevice::SetCanvas,ok,
+10010750,NCGDevice::ClearCanvas,ok,
+10010760,NCGDevice::DrawColoredLine,ok,
+10010840,NCGDevice::DrawText,ok,
+10010920,NCGDevice::DrawRect,ok,
+10010c30,NCGDevice::DrawBrightenTexture,ok,
+10010d60,NCGDevice::DrawMinimapLoc,ok,
+100110e0,NCGDevice::SetClip,ok,
+100110f0,NCGDevice::ReleaseClip,ok,
+10011160,NCGDevice::LoadFont,ok,
+10011180,NCGDevice::DestroyFont,ok,
+100111a0,NCGDevice::MakeThaiCharArray,ok,
+10011490,NwUfillDword,ok,
+10011c70,NStdString::~NStdString,ok,
+10011ca0,NStdString::Grow,ok,
+10011df0,NStdLogicError::What,ok,
+10011e30,NStdString::Erase,ok,
+10012030,NStdString::Assign,ok,
+100120e0,NStdString::Assign,ok,
+10012230,NStdString::NStdString(const ANSICHAR* A),ok,
+100122f0,NStdLogicError::NStdLogicError(const NStdLogicError& A),ok,
+10012360,NStdLengthError::NStdLengthError(const NStdLengthError& A),ok,
+10012380,NPointDeque::GrowMap,ok,
+100124c0,NPointDeque::PushBack,ok,
+10012550,NCGDevice::PushOrigin,ok,
+100127a0,NCButton::WindowProc,ok,
+10013cb0,NCEditBox::WindowProc,ok,
+10013df0,NCIMEManager::GetThaiCharType,note,"consts stock-only {e48, e4b, e50, e59} ours-only {}"
+10013ef0,NCIMEManager::Activate,ok,
+10013f50,NCIMEManager::Deactivate,ok,
+10013fb0,NCIMEManager::OnComposition,ok,
+10013fd0,NCIMEManager::OnResult,ok,
+10013ff0,NCIMEManager::OnAttribute,ok,
+10014010,NCIMEManager::OnReading,ok,
+10014030,NCIMEManager::OnGetCaret,ok,
+10014050,NCIMEManager::OnEndComposition,ok,
+10014070,NCIMEManager::OnCursorPos,ok,
+10014090,NCIME::WindowProc,ok,
+100141f0,NCIME::OnCreate,ok,
+10014240,NCIME::OnImeStartComposition,ok,
+10014260,NCIME::OnImeEndComposition,ok,
+10014270,NCIME::OnInputLangChange,ok,
+10014290,NCIME::OnImeSetContext,ok,
+100142c0,NCIME::GetResultStr,ok,
+100142d0,NCIME::GetCompStr,ok,
+100142e0,NCIME::GetReadingStr,ok,
+100142f0,NCIME::Activate,ok,
+10014330,NCIME::Deactivate,ok,
+10014350,NCIME::IsNotComposing,ok,
+10014360,NCIME::IsUnicodeOS,ok,
+100143c0,NCIME::UpdateCodePage,note,"consts stock-only {} ours-only {2b, 2d, 30, 39}"
+10014400,NCKoreanIME::WindowProc,ok,
+10014480,NCKoreanIME::OnCreate,ok,
+10014500,NCKoreanIME::OnImeNotify,ok,
+10014560,StockOperatorDelete,ok,
+10014580,NCKoreanIME::Activate,ok,
+10014620,NCKoreanIME::Deactivate,ok,
+100146d0,NCJapaneseIME::IsJapaneseLayout,ok,
+100146f0,NCJapaneseIME::ShowWindow,ok,
+10014710,NCJapaneseIME::FreeCandList,ok,
+10014740,NCJapaneseIME::OnImeEndComposition,ok,
+10014790,NCTaiwanIME::WindowProc,ok,
+10014870,NCTaiwanIME::LoadReadingString,ok,
+100148d0,NCIME::LoadImmFunctions,ok,
+10014920,NCTaiwanIME::GetImeId,ok,
+10014a90,NCTaiwanIME::ReadReadingString,note,"consts stock-only {40004, 50002} ours-only {2204}; disps stock-only {38} ours-only {124, 2204}; globs stock-only {1026a088} ours-only {}"
+10014cb0,NCTaiwanIME::IsTaiwanIME,ok,
+10014d50,NCTaiwanIME::OnImeSetContext,note,strs stock-only {} ours-only {NCTaiwanIME::OnImeSetContext}
+10014e20,NCTaiwanIME::Deactivate,ok,
+10014f40,NCJapaneseIME::WindowProc,ok,
+10015040,NCChineseIME::LoadReadingString,ok,
+100150a0,NCChineseIME::IsChineseIME,ok,
+10015150,NCChineseIME::ShowWindow,ok,
+10015180,NCChineseIME::GetImeId,ok,
+100152b0,NCChineseIME::OnImeEndComposition,ok,
+10015370,NCThaiIME::WindowProc,ok,
+10015410,NCThaiIME::OnCreate,ok,
+10015420,NCThaiIME::OnDestroy,ok,
+10015440,NCThaiIME::OnImeNotify,ok,
+100154b0,NCThaiIME::Deactivate,ok,
+10015590,NewTaiwanIME,ok,
+100155c0,NewChineseIME,ok,
+100155f0,NCChineseIME::IsNT,note,consts stock-only {fffffff8} ours-only {}
+10015690,NCIMEManager::OnDestroy,note,strs stock-only {} ours-only {NCIMEManager::OnDestroy}
+10015820,NCIMEManager::GetCompStr,ok,
+10015860,NCIMEManager::GetResultStr,ok,
+100158a0,NCIMEManager::GetReadingStr,ok,
+100158e0,NCIMEManager::IsNotComposing,ok,
+10015920,NCJapaneseIME::OnCaret,ok,
+100159b0,NCJapaneseIME::FillCandidateBox,note,consts stock-only {} ours-only {38e38e39}
+10015b20,NCTaiwanIME::OnCaret,ok,
+10015c60,NCChineseIME::ReadReadingString,note,"consts stock-only {} ours-only {2204}; disps stock-only {44} ours-only {124, 2204, 54}; globs stock-only {1026a088} ours-only {}"
+10015ea0,NCChineseIME::FillCandidateBox,ok,
+10016030,NCChineseIME::OnCaret,ok,
+10016120,NCKoreanIME::OnImeComposition,note,"consts stock-only {23, 2854} ours-only {38c4, 801, fffffff8}; disps stock-only {} ours-only {102}; strs stock-only {} ours-only {NCKoreanIME::OnImeComposition, NCKoreanIME::OnImeComposition::GCS_COMPATTR::NotUnicode, NCKoreanIME::OnImeComposition::GCS_COMPATTR::Unicode, NCKoreanIME::OnImeComposition::GCS_COMPCLAUSE::NotUnicode, NCKoreanIME::OnImeComposition::GCS_COMPCLAUSE::Unicode, NCKoreanIME::O"
+10017010,NCJapaneseIME::OnCreate,ok,
+100170d0,NCJapaneseIME::OnDestroy,ok,
+100171c0,NCJapaneseIME::ReadCandList,ok,
+10017290,NCJapaneseIME::OnImeComposition,note,"consts stock-only {23, 2854} ours-only {38cc, 801, fffffff8}; disps stock-only {} ours-only {102}; strs stock-only {} ours-only {NCJapaneseIME::OnImeComposition, NCJapaneseIME::OnImeComposition::GCS_COMPATTR::NotUnicode, NCJapaneseIME::OnImeComposition::GCS_COMPATTR::Unicode, NCJapaneseIME::OnImeComposition::GCS_COMPCLAUSE::NotUnicode, NCJapaneseIME::OnImeComposition::GCS_COMPCLAUSE::Unicode, NCJa"
+10018230,NCJapaneseIME::Deactivate,ok,
+10018330,NCTaiwanIME::OnCreate,ok,
+10018400,NCTaiwanIME::OnDestroy,ok,
+100184f0,NCTaiwanIME::OnImeComposition,note,"consts stock-only {23, 2854} ours-only {38ac, 801}; strs stock-only {} ours-only {NCTaiwanIME::OnImeComposition, NCTaiwanIME::OnImeComposition::GCS_COMPATTR::NotUnicode, NCTaiwanIME::OnImeComposition::GCS_COMPATTR::Unicode, NCTaiwanIME::OnImeComposition::GCS_COMPCLAUSE::NotUnicode, NCTaiwanIME::OnImeComposition::GCS_COMPCLAUSE::Unicode, NCTaiwanIME::OnImeComposition::GCS_COMPREADATTR::NotUnicode, "
+100193f0,NCTaiwanIME::ReadCandList,ok,
+100194e0,NCChineseIME::OnCreate,ok,
+10019650,NCChineseIME::OnDestroy,note,strs stock-only {} ours-only {NCChineseIME::OnDestroy}
+10019770,NCChineseIME::ReadCandList,ok,
+10019880,NCChineseIME::OnImeComposition,note,"consts stock-only {24, 26, 2860} ours-only {38dc, 801, fffffff8}; disps stock-only {} ours-only {102}; strs stock-only {} ours-only {NCChineseIME::OnImeComposition, NCChineseIME::OnImeComposition::GCS_COMPATTR::NotUnicode, NCChineseIME::OnImeComposition::GCS_COMPATTR::Unicode, NCChineseIME::OnImeComposition::GCS_COMPCLAUSE::NotUnicode, NCChineseIME::OnImeComposition::GCS_COMPCLAUSE::Unicode, NCChi"
+1001a8f0,NCChineseIME::Deactivate,ok,
+1001aa00,NCIMEManager::GetTextLength,note,globs stock-only {} ours-only {1026e450}
+1001aaa0,NCJapaneseIME::OnImeNotify,note,consts stock-only {} ours-only {fffffffd}
+1001ab80,NCTaiwanIME::OnImeNotify,note,"consts stock-only {40004, 50002, 60000} ours-only {50001, fffe, fffffffd}; strs stock-only {} ours-only {NCTaiwanIME::OnImeNotify, NCTaiwanIME::OnImeNotify::IMN_OPENCANDIDATE}"
+1001ae20,NCChineseIME::OnImeNotify,note,"consts stock-only {40002, 50003} ours-only {10001, 804, cc, fffffffd, ffffffff}; disps stock-only {} ours-only {cc}"
+1001b440,NCIME::~NCIME,ok,
+1001b4c0,NCIMEManager::NCIMEManager(INT A),note,"disps stock-only {c8, cc, d0, d4} ours-only {}"
+1001b550,NCIMEManager::~NCIMEManager,ok,
+1001b5a0,NCIME::NCIME(INT A),note,"disps stock-only {c8, cc, d0, d4} ours-only {}"
+1001b610,NCKoreanIME::NCKoreanIME(INT A),note,"disps stock-only {4230, 4234} ours-only {}"
+1001b680,NCKoreanIME::~NCKoreanIME,ok,
+1001b6e0,NCJapaneseIME::NCJapaneseIME(INT A),note,"disps stock-only {4230, 4234} ours-only {}"
+1001b750,NCJapaneseIME::~NCJapaneseIME,ok,
+1001b7b0,NCTaiwanIME::NCTaiwanIME(INT A),note,"disps stock-only {4230, 4234} ours-only {}"
+1001b820,NCTaiwanIME::~NCTaiwanIME,ok,
+1001b880,NCChineseIME::NCChineseIME(INT A),note,"disps stock-only {4230, 4234} ours-only {}"
+1001b930,NCChineseIME::~NCChineseIME,ok,
+1001b9b0,NCThaiIME::NCThaiIME(INT A),ok,
+1001ba00,NCThaiIME::~NCThaiIME,ok,
+1001bac0,NCIMEManager::OnCreate,note,"consts stock-only {622c, 6240, 6258} ours-only {}; globs stock-only {} ours-only {1026a5b8, 1026ba50, 1026bf78}"
+1001bd70,NCIcon::WindowProc,ok,
+1001be20,NCIcon::SetIcon,ok,
+1001be80,NCIcon::OnMouseMove,note,"disps stock-only {} ours-only {3c, 40, 44}"
+1001bf30,NCIcon::OnLButtonDown,ok,
+1001bf70,NCIcon::OnLButtonUp,ok,
+1001bfe0,NCIcon::OnPaint,note,strs stock-only {} ours-only {NCIcon::OnPaint}
+1001c120,NCIcon::OnDrawToolTip,ok,
+1001c460,NCIcon::NCIcon,note,"disps stock-only {c8, cc, d0, d4} ours-only {}"
+1001c540,NCIcon::~NCIcon,ok,
+1001c5c0,NItemEntry::GetName,ok,
+1001c5d0,NItemEntry::MakeDisplayName,note,"consts stock-only {} ours-only {20c}; disps stock-only {170e, 20c} ours-only {}"
+1001c670,NItemEntry::GetAdditionalName,ok,
+1001c690,NItemEntry::GetDescription,ok,
+1001c6b0,NItemEntry::GetUnknownC20,ok,
+1001c6c0,NItemEntry::GetUnknownC34,ok,
+1001c6d0,NItemEntry::SetUnknownC34,ok,
+1001c6e0,NItemEntry::Select,ok,
+1001c6f0,NItemEntry::IsSelected,ok,
+1001c700,NItemEntry::Unselect,ok,
+1001c710,NItemEntry::IsStackable,ok,
+1001c730,NItemEntry::GetUnknown19AC,ok,
+1001c740,NItemEntry::Reset,ok,
+1001c860,NCItemWnd::OnDestroy,note,strs stock-only {} ours-only {NCItemWnd::OnDestroy}
+1001c8e0,NCItemWnd::HitTest,ok,
+1001c980,NCItemWnd::GetSelected,ok,
+1001c9a0,NCItemWnd::GetItemCount,ok,
+1001c9b0,NCItemWnd::OnMouseWheel,ok,
+1001ca80,NwAppSeconds,ok,
+1001cad0,NCItemWnd::HideWindow,ok,
+1001cb70,NCItemWnd::InitScrollBar,ok,
+1001cbb0,NCItemWnd::UpdateScrollRange,ok,
+1001cc30,NCItemWnd::OnScrollBar,ok,
+1001cc50,NCItemWnd::ScrollUp,note,consts stock-only {} ours-only {ffffffff}
+1001cc90,NCItemWnd::ScrollDown,ok,
+1001cce0,NCItemWnd::DrawItemToolTip,ok,
+1001ce20,NCCoolTimeIcon::IsIdle,ok,
+1001cee0,NCItemWnd::OnCreate,ok,
+1001cf30,NCItemWnd::OnPaint,note,strs stock-only {} ours-only {NCItemWnd::OnPaint}
+1001d0f0,NCItemWnd::OnLButtonDown,ok,
+1001d200,NCItemWnd::OnMouseMove,ok,
+1001d270,NCItemWnd::UnselectAll,ok,
+1001d7a0,TItemEntryArray::~TItemEntryArray,ok,
+1001d830,NToolTipLineArray::operator=,ok,
+1001d8b0,NItemEntry::NItemEntry,ok,
+1001da00,NItemEntry::NItemEntry(NItemInfo* A),note,consts stock-only {} ours-only {200}; disps stock-only {200} ours-only {}
+1001dd10,NToolTipInfo::operator=,ok,
+1001ddc0,NCItemWnd::Clear,note,consts stock-only {} ours-only {1a34}
+1001de40,NItemEntry::Copy,note,consts stock-only {19b8} ours-only {}
+1001e190,NCItemWnd::NCItemWnd,note,"disps stock-only {110, 114} ours-only {}"
+1001e250,NCItemWnd::~NCItemWnd,ok,
+1001e2b0,"NCItemWnd::NCItemWnd(INT A, INT B, INT C, INT D, INT E, INT F)",note,"disps stock-only {110, 114} ours-only {}"
+1001e350,NCItemWnd::OnDrawToolTip,ok,
+1001e4b0,NCListBox::WindowProc,ok,
+1001e670,NCListBox::OnLButtonDown,ok,
+1001e6b0,NCListBox::OnMouseWheel,ok,
+1001e7a0,NCListBox::ScrollDown,ok,
+1001e7f0,NCListBox::SetTopIndex,ok,
+1001eaa0,NCListBox::SetRepeatDelay,ok,
+1001f130,TListItemArray::~TListItemArray,ok,
+1001f2a0,NCListBox::~NCListBox,ok,
+1001f3c0,NListCell::SetText,ok,
+1001f510,NListColumnInfo::SetTitle,ok,
+1001f680,NListRow::SetText,ok,
+1001f740,NCHeaderCtrl::OnLButtonUp,ok,
+1001f990,NCListCtrl::WindowProc,ok,
+1001fdc0,NCListCtrl::SetTopRow,ok,
+1001fde0,NCListCtrl::GetRows,ok,
+1001fdf0,NCListCtrl::GetRowCount,ok,
+1001fe00,NCListCtrl::SetSelected,ok,
+1001fe20,NCListCtrl::SetTextOffset,ok,
+10020530,NCListCtrl::GetSelectedRow,ok,
+10020550,NCListCtrl::SetRepeatDelay,ok,
+100207a0,NCListCtrl::AddRow,ok,
+10020af0,TListRowArray::~TListRowArray,ok,
+10021010,NCListCtrl::~NCListCtrl,ok,
+10021570,NCMultiEdit::WindowProc,ok,
+100216c0,NCMultiEdit::ScrollToCaret,ok,
+10021760,NCMultiEdit::KillFocus,ok,
+10021780,NCMultiEdit::OnTimer,ok,
+100217a0,NCMultiEdit::PaintCompositionJP,note,"consts stock-only {ffdcdcdc, ffff0000} ours-only {}; disps stock-only {1d8, 2a03, 2a04, 3204, 3208, 420c, 70} ours-only {}"
+10021c70,NCMultiEdit::PaintCompositionTW,note,"consts stock-only {30, f:0000c842, ff, ff000000, ff0000ff, ffdcdcdc, ffff0000, fffffffe} ours-only {}; disps stock-only {1d4, 1dc, 218, 260, 264, 268, 26c, 270, 278, 2a04, 3204, 3208, 38, 3c, 40, 420c, 44, 70} ours-only {}; strs stock-only {NWindow.GrayTexture, NWindow.WhiteTexture} ours-only {}; globs stock-only {1026e44c} ours-only {}"
+10022390,NCMultiEdit::PaintCompositionKR,ok,
+100224c0,NCMultiEdit::LineLength,ok,
+10022550,NCMultiEdit::OnGetCaret,ok,
+10022580,NCMultiEdit::OnReading,ok,
+100225d0,NCMultiEdit::OnAttribute,ok,
+100225f0,NCMultiEdit::OnMouseWheel,ok,
+100226a0,NCMultiEdit::OnScrollUp,note,consts stock-only {} ours-only {ffffffff}
+100226e0,NCMultiEdit::OnScrollDown,ok,
+10022730,NCMultiEdit::OnScrollBar,ok,
+10022750,NCMultiEdit::UpdateScrollBar,ok,
+10022780,FString::Len,ok,
+10022790,NLineNode::NLineNode,ok,
+100227e0,NLineNode::~NLineNode,ok,
+10022830,NCMultiEdit::PaintCompositionCN,note,"consts stock-only {32, 64, ff, ff000000, ffdcdcdc} ours-only {}; disps stock-only {1d4, 1e0, 208, 218, 228, 260, 264, 26c, 2a04, 423c, 4240, 69, 70, b0, b4} ours-only {}; strs stock-only {NWindow.WhiteTexture} ours-only {}; globs stock-only {1026e44c} ours-only {}"
+10022f10,NCMultiEdit::SetRepeatDelay,ok,
+10022f40,NCMultiEdit::InitScrollBar,ok,
+10022f80,NLineList::NLineList,note,strs stock-only {new} ours-only {}
+10023000,NLineList::TotalLength,ok,
+10023070,NLineList::GetLine,ok,
+100231d0,TIntArray::~TIntArray,ok,
+10023260,NCMultiEdit::CountRows,ok,
+100234a0,NCMultiEdit::UpdateRowCount,ok,
+100234d0,NCMultiEdit::RecalcRows,note,"consts stock-only {fffffff8} ours-only {fffffffd, fffffffe}"
+10023a20,NCMultiEdit::InsertString,ok,
+10023d60,NCMultiEdit::OnCreate,ok,
+10024110,NCMultiEdit::IsThaiInputValid,ok,
+10024440,NCMultiEdit::SetCaretX,ok,
+10024590,NCMultiEdit::GetRowStart,note,"consts stock-only {1e0, fffffff8} ours-only {}"
+10024930,NCMultiEdit::GetRowEnd,ok,
+10024d10,NCMultiEdit::GetRowLine,note,consts stock-only {fffffff8} ours-only {}; disps stock-only {1e0} ours-only {}
+10025020,NCMultiEdit::OnResult,ok,
+10025070,NCMultiEdit::OnComposition,note,disps stock-only {} ours-only {208}
+100251b0,NCMultiEdit::GetText,note,"disps stock-only {} ours-only {1e0, 210}; strs stock-only {new} ours-only {}"
+100252b0,NLineList::Insert,note,strs stock-only {new} ours-only {}
+10025450,NLineList::RemoveAt,ok,
+10025510,NLineList::Clear,ok,
+10025540,NCMultiEdit::InsertChar,ok,
+10025960,NCMultiEdit::SetText,ok,
+100259b0,NCMultiEdit::OnDestroy,ok,
+10025b30,NCMultiEdit::Clear,ok,
+10025bc0,NCMultiEdit::OnPaint,note,"consts stock-only {} ours-only {20, 21, 22, 23, 24, 25, 26, fffffffd, ffffffff}; disps stock-only {} ours-only {208}; strs stock-only {} ours-only {NCMultiEdit::OnPaint}"
+10027000,NCMultiEdit::OnChar,note,"consts stock-only {20, 7e} ours-only {7f}"
+10027080,NCMultiEdit::MoveCaretDown,ok,
+10027440,NLineList::~NLineList,ok,
+100274b0,NCMultiEdit::~NCMultiEdit,ok,
+10027550,NCMultiEdit::NCMultiEdit,note,"disps stock-only {1fc, 200, 246, c8, cc, d0, d4} ours-only {}"
+100276b0,NCMultiEdit::OnKeyDown,note,"consts stock-only {} ours-only {fffffffe, ffffffff}"
+10028810,NCObject::NCObject,ok,
+10028830,NCObject::Destroy,ok,
+100288d0,NCObject::ImeGetProperty,ok,
+100288f0,NCObject::ImeGetContext,ok,
+10028900,NCObject::ImeReleaseContext,ok,
+10028950,NCObject::KillTimer,ok,
+10028970,NCObject::FindTexture,ok,
+100289e0,NCObject::SpawnActor,ok,
+10028a70,NCObject::GetDeltaTime,ok,
+10028a80,NCObject::SetCursor,ok,
+10028a90,NCObject::LockCursor,ok,
+10028aa0,NCObject::UnlockCursor,ok,
+10028ab0,NCScrollWnd::WindowProc,ok,
+10028b50,NCScrollWnd::SetSize,note,consts stock-only {ffffffe2} ours-only {}
+10028bd0,NCScrollWnd::ShowBars,ok,
+10028c40,NCScrollWnd::SetContentHeight,ok,
+10028ca0,NCScrollWnd::SetContentHeightEx,ok,
+10028d40,NCScrollWnd::SetRepeatDelay,ok,
+10028d70,NCScrollWnd::OnDestroy,note,strs stock-only {} ours-only {NCScrollWnd::OnDestroy}
+10028e70,NCScrollWnd::OnKeyDown,note,consts stock-only {} ours-only {ffffffdf}
+10028fb0,NCScrollWnd::ScrollUp,ok,
+10029040,NCScrollWnd::ScrollDown,ok,
+100290e0,NCScrollWnd::OnScrollBar,note,disps stock-only {c8} ours-only {}
+10029150,NCScrollWnd::OnMouseWheel,ok,
+10029250,NCScrollWnd::OnCreate,ok,
+100294f0,NCScrollWnd::NCScrollWnd,ok,
+10029b50,NCSliderCtrl::WindowProc,ok,
+10029bb0,NCSliderCtrl::OnThumbMove,ok,
+10029c10,NCSliderCtrl::OnDestroy,note,strs stock-only {} ours-only {NCSliderCtrl::OnDestroy}
+10029cb0,NCSliderCtrl::OnPaint,ok,
+10029f40,NString::NString,ok,
+10029f60,NString::GetAt,ok,
+10029f80,NString::AllocBuffer,ok,
+10029fa0,NConsoleWnd::Free,ok,
+1002a100,NString::Empty,ok,
+1002a150,NString::~NString,ok,
+1002a160,NCTabControl::WindowProc,ok,
+1002a1c0,NCTabControl::OnCreate,ok,
+1002a1e0,NCTabControl::ShowCurrentPage,ok,
+1002a350,NCTabControl::SetTab,ok,
+1002a4c0,NCTabControl::AddTab,note,consts stock-only {} ours-only {65a8c}
+1002a700,NCTabControl::AddTab,ok,
+1002a910,NCTabControl::OnDestroy,note,strs stock-only {} ours-only {NCTabControl::OnDestroy}
+1002aa20,TRadioButtonArray::~TRadioButtonArray,ok,
+1002ab80,NCTabControl::~NCTabControl,ok,
+1002ac00,NToolTipInfo::FormatNumber,note,globs stock-only {} ours-only {1026fe2e}
+1002acb0,NToolTipInfo::NumberColor,ok,
+1002ad40,NToolTipInfo::ShowsCount,ok,
+1002ad60,NToolTipInfo::Layout,note,"consts stock-only {200, 25, 43100000, 432e0000, 65ed0, 82, 90, c9, fffffff8} ours-only {1000, 25c9, 8200, 91, f:00001043, f:00002e43}; disps stock-only {} ours-only {4c}"
+1002b800,NToolTipSkin::DrawFullText,note,"consts stock-only {21, c9, fffffff8} ours-only {21c9}"
+1002c0f0,NToolTipSkin::DrawTitleText,note,consts stock-only {fffffff8} ours-only {1000}
+1002c4a0,NToolTipLineArray::AddItem,ok,
+1002c4d0,NToolTipInfo::SetText,ok,
+1002c4f0,NToolTipInfo::Clear,ok,
+1002d7a0,NToolTipInfo::FillMacro,ok,
+1002d840,NToolTipInfo::FillMatchRow,note,"consts stock-only {48, 66ce0, 66cec, 66dd0, 67178} ours-only {}; disps stock-only {} ours-only {48}"
+1002dba0,NToolTipSkin::NToolTipSkin,note,disps stock-only {} ours-only {20}
+1002dbc0,NToolTipSkin::~NToolTipSkin,ok,
+1002dc40,NToolTipSkin::DrawFull,note,"consts stock-only {41, f:00000000, f:00002041, ff, fffffff0} ours-only {}; disps stock-only {20, 24, 3968} ours-only {}; globs stock-only {1026e44c} ours-only {}"
+1002df40,NToolTipSkin::Draw,note,"consts stock-only {f:00002041, ff, fffffff0} ours-only {}; disps stock-only {20, 24, 3968} ours-only {}; globs stock-only {1026e44c} ours-only {}"
+1002e980,NCTreeCtrl::OnDestroy,note,strs stock-only {} ours-only {NCTreeCtrl::OnDestroy}
+1002ea30,NCTreeCtrl::OnPaint,note,strs stock-only {} ours-only {NCTreeCtrl::OnPaint}
+1002eb10,NCTreeCtrl::ScrollUp,ok,
+1002ebd0,NCTreeCtrl::ScrollDown,ok,
+1002eca0,NCTreeCtrl::OnScrollBar,note,disps stock-only {c8} ours-only {}
+1002ed20,NCTreeCtrl::OnMouseWheel,ok,
+1002ee50,NCTreeCtrl::Clear,ok,
+1002f8a0,NCTreeCtrl::NCTreeCtrl,ok,
+1002f940,NCTreeCtrl::OnCreate,ok,
+1002fa20,NCWnd::WindowProc,ok,
+1002fbe0,NCWnd::SetTabOrder,ok,
+1002fc00,NCWnd::EnableWindow,ok,
+1002fc30,NCWnd::ShowWindow,note,consts stock-only {20} ours-only {2000}
+1002fc70,NCWnd::IsShowWindow,ok,
+1002fc80,NCWnd::BringChildToTop,ok,
+1002fcf0,NCWnd::FocusFirstInput,ok,
+1002fd50,NCWnd::KillFocus,ok,
+1002fd70,NCWnd::SetStyle,ok,
+1002fd80,NCWnd::PtInRect,ok,
+1002fdd0,NCWnd::IsInWindow,note,"disps stock-only {} ours-only {3c, 40, 44}"
+1002fe20,NCWnd::FindWindowAt,ok,
+1002fe30,NCWnd::Minimize,note,globs stock-only {1026e44c} ours-only {}
+1002fe80,NCWnd::OnMove,ok,
+1002feb0,NCWnd::OnKeyDown,ok,
+1002ff30,NCWnd::OnKeyUp,ok,
+1002ff60,NCWnd::SetTitle,ok,
+1002ff90,NCWnd::AddPosFlag,ok,
+1002ffa0,NCWnd::ClearPosFlag,ok,
+1002ffc0,NCWnd::SetModal,ok,
+1002ffe0,NCWnd::ClearModal,ok,
+10030000,NCWnd::SetItemSelect,ok,
+10030020,NCWnd::ClearItemSelect,ok,
+10030040,NCWnd::FormatNumber,ok,
+10030170,NCWnd::GetOppStickDirection,note,strs stock-only {} ours-only {NCWnd::GetOppStickDirection}
+10030230,NCWnd::IsAnchored,ok,
+10030240,NCWnd::IsDragable,ok,
+10030250,NCWnd::FocusNextWindow,ok,
+10030310,NCWnd::HasSliderBarChild,ok,
+10030350,NCWnd::FocusSliderBarParent,ok,
+100303c0,NCWnd::AddChildNode,note,strs stock-only {new} ours-only {}
+10030420,NCWnd::RemoveChildNode,ok,
+10030490,NCWnd::MoveChildWindow,note,strs stock-only {} ours-only {NCWnd::MoveChildWindow}
+100306d0,NCWnd::ClipToParent,note,consts stock-only {f:00000000} ours-only {}
+10030900,NCWnd::GetLocalRect,ok,
+10030950,NCWnd::GetLocalPos,ok,
+10030990,NCWnd::AddChildWindow,ok,
+100309d0,NCWnd::RemoveChildWindow,ok,
+10030a10,NCWnd::SetAnchor,note,strs stock-only {} ours-only {NCWnd::SetAnchor}
+10030ab0,NCWnd::GetDragableParentWnd,note,strs stock-only {} ours-only {NCWnd::GetDragableParentWnd}
+10030c00,NCWnd::HideWindow,ok,
+10030c60,NCWnd::SetFocus,ok,
+10030d10,NCWnd::InitStuckState,note,disps stock-only {21} ours-only {}; strs stock-only {} ours-only {NCWnd::InitStuckState}
+10030db0,NCWnd::SetPosition,note,strs stock-only {} ours-only {NCWnd::SetPosition}
+10030ef0,NCWnd::SetScreenPos,ok,
+10030f40,NCWnd::CenterInParent,ok,
+10030fc0,NCWnd::OnCreate,note,"consts stock-only {} ours-only {2000, 80}; strs stock-only {new} ours-only {}"
+100311d0,NCWnd::Restore,ok,
+10031310,NCWnd::OnDestroy,note,strs stock-only {} ours-only {NCWnd::OnDestroy}
+100313f0,NCWnd::OnMouseMove,note,strs stock-only {} ours-only {NCWnd::OnMouseMove}
+100314f0,NCWnd::OnLButtonDown,note,strs stock-only {} ours-only {NCWnd::OnLButtonDown}
+100315c0,NCWnd::OnLButtonUp,note,strs stock-only {} ours-only {NCWnd::OnLButtonDown}
+10031680,NCWnd::GetStuckWndList,note,disps stock-only {21} ours-only {84}; strs stock-only {} ours-only {NCWnd::GetStuckWndList}
+10031770,NCWnd::IsStuck,note,"disps stock-only {21, 88} ours-only {}; strs stock-only {} ours-only {NCWnd::IsStuck}"
+10031920,NCWnd::GetPositioningRect,note,consts stock-only {41} ours-only {}; strs stock-only {} ours-only {NCWnd::GetPositioningRect}
+10031ac0,NCWnd::RearrangePosition,note,strs stock-only {} ours-only {NCWnd::RearrangePosition}
+10031ca0,NCWnd::UnstickWnd,note,disps stock-only {21} ours-only {}; strs stock-only {} ours-only {NCWnd::UnstickWnd}
+10031d80,NCWnd::NCWnd,ok,
+10031e40,NCWnd::SetWindowSize,note,consts stock-only {f:00000000} ours-only {80}; disps stock-only {24} ours-only {}; strs stock-only {} ours-only {NCWnd::SetWindowSize}
+10032090,NCWnd::StickWnd,note,disps stock-only {21} ours-only {}; strs stock-only {} ours-only {NCWnd::StickWnd}
+100321d0,NCWnd::Snap,note,consts stock-only {fffffff6} ours-only {1000}
+10032aa0,NCWnd::MoveWindow,ok,
+10032b10,NCQuestInfoWnd::OnCreate,ok,
+10032b20,NHtmlAnalyzer::OnDestroy,note,strs stock-only {} ours-only {NCScrollWnd::OnDestroy}
+10032b30,NHtmlAnalyzer::OnPaint,note,strs stock-only {} ours-only {NHtmlAnalyzer::OnPaint}
+10032bc0,NHtmlAnalyzer::NHtmlAnalyzer,ok,
+10032c90,NHtmlAnalyzer::~NHtmlAnalyzer,ok,
+10032d60,NCVirtualWndMain::SetGDevice,note,strs stock-only {} ours-only {NCVirtualWndMain::SetGDevice}
+10032de0,NCVirtualWndMain::ReleaseGDevice,note,strs stock-only {} ours-only {NCVirtualWndMain::ReleaseGDevice}
+10032e60,NCVirtualWndMain::SendToFocused,note,consts stock-only {10c} ours-only {10d}
+10032ff0,NCVirtualWndMain::LoadCursors,ok,
+10033070,NCVirtualWndMain::DestroyCursors,ok,
+100330c0,NCVirtualWndMain::DeleteGDevice,ok,
+100330e0,NCVirtualWndMain::NumFocusWindows,ok,
+100331b0,NCVirtualWndMain::CoordCompensate,note,strs stock-only {} ours-only {NCVirtualWndMain::CoordCompensate}
+10033280,NCVirtualWndMain::HitTestClick,note,consts stock-only {} ours-only {200}
+100333f0,NCVirtualWndMain::RouteClick,note,consts stock-only {20} ours-only {2000}
+10033540,NCVirtualWndMain::HitTest,ok,
+10033be0,NCVirtualWndMain::ClearFocus,note,strs stock-only {} ours-only {NCVirtualWndMain::ClearFocus}
+10033c80,NCVirtualWndMain::FindChildWindowAt,ok,
+10033d10,NCVirtualWndMain::FindNWindow,note,strs stock-only {} ours-only {NCVirtualWndMain::FindNWindow}
+10033e00,NCVirtualWndMain::CreateColorCursor,note,"consts stock-only {fff8, fffc} ours-only {f8, fc}; disps stock-only {} ours-only {8c}"
+10034190,NCVirtualWndMain::SetCursorType,ok,
+10034210,NCVirtualWndMain::GetMousePos,ok,
+10034260,NCVirtualWndMain::IsOverWindow,ok,
+100342e0,NCVirtualWndMain::AddTopLevel,ok,
+10034450,NCVirtualWndMain::UnRegisterNWindow,note,"disps stock-only {} ours-only {2c, 30, 34, 64}; strs stock-only {} ours-only {NCVirtualWndMain::UnRegisterNWindow}"
+100345d0,NCVirtualWndMain::PaintToolTips,ok,
+10034d20,NCVirtualWndMain::PushFocusWindow,ok,
+10034d50,NCVirtualWndMain::PopFocusWindow,note,consts stock-only {198} ours-only {203}
+10034f90,NHtmlTagTable::NHtmlTagTable,ok,
+10034fa0,NHtmlTagTable::~NHtmlTagTable,ok,
+10034fb0,NHtmlTagTable::FindTag,ok,
+10035010,NHtmlTagTable::FindAttr,ok,
+100350c0,NHtmlTag::GetAttr,ok,
+10035120,NHtmlTag::HasAttr,ok,
+10035150,NHtmlObject::~NHtmlObject,ok,
+10035160,NHtmlObject::AlignX,ok,
+100351a0,NHtmlItem::ParseEditType,ok,
+10035230,NHtmlBlock::GetPercentWidth,ok,
+10035260,NCHtmlViewer::WindowProc,ok,
+10035360,NCHtmlViewer::OnCreate,ok,
+100353b0,NCHtmlViewer::SetBackTexture,ok,
+100353f0,NCHtmlViewer::SetOwner,ok,
+10035400,NCHtmlViewer::FindPageTexture,ok,
+10035420,NCHtmlViewer::OnActionLink,ok,
+100354a0,NCHtmlViewer::OnButton,ok,
+10035510,NCHtmlViewer::OnEdit,ok,
+100355d0,NCHtmlViewer::OnMultiEdit,ok,
+10035690,NCHtmlViewer::OnComboBox,ok,
+100356e0,NCHtmlViewer::OnLButtonDown,ok,
+10035710,NCHtmlViewer::OnKeyDown,ok,
+10035850,NCTutorialHtmlViewer::WindowProc,ok,
+10035870,NCTutorialHtmlViewer::OnCreate,ok,
+10035880,NCBBSHtmlViewer::WindowProc,ok,
+100358e0,NCBBSHtmlViewer::OnCreate,ok,
+10035910,NextBoardField,ok,
+10035960,NCBBSHtmlViewer::OnActionLink,ok,
+10035a10,NCBBSHtmlViewer::OnButton,ok,
+10035ac0,NCNPCHtmlViewer::OnClose,ok,
+10035ad0,NCTestHtmlViewer::WindowProc,ok,
+10035b30,NCBoardWnd::WindowProc,ok,
+10035bb0,NCBoardWnd::OnTab,ok,
+10035c90,NCBoardWnd::OnButton1,ok,
+10035ce0,NCBoardWnd::SetCommands,ok,
+10035db0,NCBoardWnd::Minimize,ok,
+10035e10,NHtmlObject::GetAbsPos,ok,
+10035e60,HtmlParseColor,note,strs stock-only {new} ours-only {}
+10035ef0,NHtmlItem::Layout,ok,
+10035f90,NHtmlBlock::Layout,note,consts stock-only {} ours-only {fffffffa}
+100361b0,NHtmlBlock::Arrange,ok,
+10036200,NHtmlBlock::Draw,ok,
+10036320,NHtmlTable::Arrange,note,"disps stock-only {} ours-only {24, 34}"
+100363f0,NHtmlTable::Draw,ok,
+10036540,NCHtmlViewer::ScrollControls,ok,
+100365f0,NCHtmlViewer::ScrollUp,ok,
+10036610,NCHtmlViewer::ScrollDown,ok,
+10036630,NCHtmlViewer::OnScrollBar,ok,
+10036660,NCHtmlViewer::OnMouseWheel,ok,
+10036690,NCHtmlViewer::GetControlValue,ok,
+10036840,NCHtmlViewer::ShowWindow,ok,
+100368f0,NHtmlBlock::GetContentHeight,ok,
+10036910,NCBBSHtmlViewer::OnPaint,note,strs stock-only {} ours-only {NCBBSHtmlViewer::OnPaint}
+10036a50,NCBBSHtmlViewer::ShowWindow,ok,
+10036a60,NCBBSHtmlViewer::GetControlValue,note,"consts stock-only {149, bb8} ours-only {1778, bb7, fffffc92}"
+10036c10,NCNPCHtmlViewer::OnDestroy,note,strs stock-only {} ours-only {NCNPCHtmlViewer::OnDestroy}
+10036cc0,NCNPCHtmlViewer::OnPaint,note,strs stock-only {} ours-only {NCNPCHtmlViewer::OnPaint}
+10036dc0,NCBoardWnd::OnDestroy,note,strs stock-only {} ours-only {NCBoardWnd::OnDestroy}
+10037150,NStlCharAllocator::Allocate,ok,
+10037170,NHtmlItem::SetText,note,consts stock-only {48} ours-only {}
+10037280,NHtmlBlock::Release,note,consts stock-only {} ours-only {4c}
+100372e0,NHtmlTable::Layout,note,consts stock-only {} ours-only {8a8}
+100376f0,NCHtmlViewer::OnPaint,note,strs stock-only {} ours-only {NCHtmlViewer::OnPaint}
+10037880,NCHtmlViewer::AddFileLink,ok,
+100379c0,NCHtmlViewer::AddActionLink,ok,
+10037b00,NCHtmlViewer::AddButton,note,globs stock-only {101f8d78} ours-only {}
+10037c70,NCHtmlViewer::AddMultiEdit,note,consts stock-only {124} ours-only {}; disps stock-only {} ours-only {124}
+10037d70,NCHtmlViewer::AddEdit,note,consts stock-only {124} ours-only {}; disps stock-only {} ours-only {124}
+10037e90,NStlWString::~NStlWString,ok,
+10037ec0,TControlArray::~TControlArray,ok,
+10037f50,NStlWString::Copy,ok,
+10038090,TIntArray::~TIntArray,ok,
+10038160,"NHtmlBlock::NHtmlBlock(NHtmlObject* A, NCHtmlViewer* B, INT C)",note,"disps stock-only {60, 64} ours-only {}"
+100381b0,NHtmlBlock::~NHtmlBlock,note,consts stock-only {} ours-only {4c}
+10038250,NHtmlBlock::ParseCellAttrs,note,"consts stock-only {} ours-only {38, 50}; disps stock-only {38, 50} ours-only {2c}"
+10038420,"NHtmlTable::NHtmlTable(NHtmlObject* A, NCHtmlViewer* B, INT C)",note,"disps stock-only {87c, 880, 888, 88c, 894, 898, 8a0, 8a4, 8ac, 8b0} ours-only {50, 54, 58, 5c, 68, 6c, 70}"
+100384e0,NHtmlTable::NewCell,ok,
+10038580,NHtmlTable::Parse,note,"consts stock-only {} ours-only {29, 2a, 8b8}; disps stock-only {8b8} ours-only {888, 88c, 8a4}"
+100388f0,NHtmlTable::Release,note,consts stock-only {} ours-only {4c}
+10038a20,NCHtmlViewer::Clear,note,"consts stock-only {} ours-only {870}; globs stock-only {10272528, 10272728, 10275790} ours-only {}"
+10038b60,TIntArray::Pop,ok,
+10038ba0,NStlWString::Grow,ok,
+10038c70,NStlWString::Replace,ok,
+100391e0,NHtmlBlock::NewTable,ok,
+10039260,NCHtmlViewer::NCHtmlViewer,note,"disps stock-only {128, 12c} ours-only {}"
+10039390,NCHtmlViewer::NCHtmlViewer(INT A),note,"disps stock-only {128, 12c} ours-only {}"
+100394c0,NCHtmlViewer::OnDestroy,note,strs stock-only {} ours-only {NCHtmlViewer::OnDestroy}
+100395d0,NCHtmlViewer::AddComboBox,note,consts stock-only {124} ours-only {}; disps stock-only {} ours-only {124}
+100396f0,NCTutorialHtmlViewer::NCTutorialHtmlViewer,note,"disps stock-only {128, 12c} ours-only {}"
+10039790,NCTutorialHtmlViewer::OnDestroy,note,"disps stock-only {100, 124, 128, 130, 54} ours-only {}; strs stock-only {} ours-only {NCTutorialHtmlViewer::OnDestroy}"
+100398d0,NCBBSHtmlViewer::OnDestroy,note,"disps stock-only {100, 124, 128, 130, 54} ours-only {}; strs stock-only {} ours-only {NCBBSHtmlViewer::OnDestroy}"
+10039950,NCNPCHtmlViewer::NCNPCHtmlViewer,ok,
+10039970,NCNPCHtmlViewer::OnCreate,ok,
+10039d30,NCBoardWnd::NCBoardWnd,ok,
+10039dd0,NCBoardWnd::OnCreate,ok,
+1003a1d0,NStlWString::Erase,ok,
+1003a2a0,NStlWString::Erase,ok,
+1003a310,NStlWString::Replace,ok,
+1003a500,NStlWString::Assign,ok,
+1003a620,NHtmlItem::Arrange,note,disps stock-only {} ours-only {34}
+1003a970,NStlWString::Assign,ok,
+1003aa20,NHtmlItem::Release,note,"disps stock-only {} ours-only {58, 68, 74, 84, 90, a0, ac, bc, c8, d8}"
+1003abd0,NStlWString::Assign,ok,
+1003abf0,"NHtmlItem::NHtmlItem(NHtmlObject* A, NCHtmlViewer* B, INT C, INT D)",note,"disps stock-only {} ours-only {58, 68, 6c, ac, bc, c0}"
+1003ad10,NHtmlItem::Parse,ok,
+1003b1c0,NHtmlItem::DrawColoredText,ok,
+1003b5c0,NHtmlItem::Draw,ok,
+1003b770,NHtmlBlock::NewItem,ok,
+1003b800,NHtmlBlock::Parse,note,"disps stock-only {} ours-only {28, 3c}"
+1003bb00,NCHtmlViewer::BuildDocument,note,"consts stock-only {} ours-only {2b, 2c}; disps stock-only {} ours-only {104}"
+1003bc30,NCHtmlViewer::LoadHtmlFile,ok,
+1003bd20,NCHtmlViewer::LoadHtml,ok,
+1003be30,NCHtmlViewer::OnFileLink,ok,
+1003be70,NCBBSHtmlViewer::ShowPage,ok,
+1003c700,NCNPCHtmlViewer::LoadFile,ok,
+1003c720,NCTestHtmlViewer::OnLoad,ok,
+1003c780,NCBoardWnd::LoadPage,ok,
+1003dde0,L2WordWrapperWnd::WindowProc,ok,
+1003de40,NHtmlParser::IsAlnum,note,consts stock-only {} ours-only {100}
+1003de80,NStlWStringVector::Size,ok,
+1003deb0,NHtmlParserBase::~NHtmlParserBase,ok,
+1003def0,NHtmlParser::SkipSpaces,ok,
+1003df20,NHtmlParser::SkipWord,ok,
+1003dfc0,NHtmlParser::FreeFile,ok,
+1003dff0,NHtmlParser::LoadFile,ok,
+1003e080,NStlFill<_WORD>,ok,
+1003e0a0,NStlFill<NHtmlTag*>,ok,
+1003e0c0,NStlUninitCopy<_WORD>,ok,
+1003e0f0,NStlCopyBackward<_WORD>,ok,
+1003e120,NStlCopyBackward<NHtmlTag*>,ok,
+1003e150,NStlUninitFillN<_WORD>,ok,
+1003e180,NHtmlParser::NHtmlParser,ok,
+1003e200,NStlWString::Append,ok,
+1003e300,NStlWString::Append,ok,
+1003e420,NStlWordVector::Ucopy,ok,
+1003e450,NHtmlTagList::Ucopy,ok,
+1003e480,NStlWString::Insert,ok,
+1003e5a0,NStlWordVector::Ufill,ok,
+1003e5d0,NHtmlTagList::Ufill,ok,
+1003e600,NStlWStringAllocator::Destroy,ok,
+1003e660,NStlDestroyRange<NStlWString>,ok,
+1003e6b0,NHtmlParser::~NHtmlParser,note,"consts stock-only {64} ours-only {}; disps stock-only {2c, 48} ours-only {24, 30, 40, 4c, 5c, 68, 78}"
+1003e8b0,NStlFill<NStlWString>,ok,
+1003e8e0,NStlCopyBackwardOpt<NStlWString>,ok,
+1003e920,NStlUninitCopy<NStlWString>,ok,
+1003e9f0,NHtmlParser::ReadTagName,note,"consts stock-only {} ours-only {100, 103, 20}; disps stock-only {} ours-only {28}"
+1003ec30,NHtmlParser::ReadSource,ok,
+1003ed00,NHtmlParser::ReplaceEntities,note,consts stock-only {} ours-only {4030}; disps stock-only {} ours-only {20}
+1003f4f0,NStlWStringVector::Destroy,ok,
+1003f590,NStlCopyBackward<NStlWString>,ok,
+1003f5d0,NStlUninitFillN<NStlWString>,ok,
+1003f670,NHtmlParser::ReadText,note,consts stock-only {} ours-only {fffffff9}; disps stock-only {5c} ours-only {44}
+1003fc70,NStlWordVector::InsertN,ok,
+1003ff20,NHtmlTagList::InsertN,ok,
+100401e0,NStlWStringVector::Ucopy,ok,
+10040210,NStlWStringVector::~NStlWStringVector,ok,
+10040260,NStlWStringVector::Ufill,ok,
+10040290,NStlWStringVector::InsertN,ok,
+10040720,NHtmlTag::NHtmlTag,ok,
+10040780,NHtmlParser::ReadExtend,ok,
+10040930,NStlWordVector::PushBack,ok,
+100409a0,NStlWStringVector::Insert,ok,
+10040a10,NHtmlParser::NewTag,note,"disps stock-only {} ours-only {20, 28, 2c, 30, 38, 3c, 40, 48, 58, 5c}"
+10040a40,NStlWStringVector::PushBack,ok,
+10040ad0,NHtmlParser::DeleteTag,note,"disps stock-only {} ours-only {20, 28, 2c, 30, 34, 48, 58, 5c}"
+10040c30,NHtmlParser::FreeTags,note,"disps stock-only {} ours-only {20, 28, 2c, 30, 34, 48, 58, 5c}"
+10040ca0,NHtmlParser::ReadAttrs,note,consts stock-only {44} ours-only {92492493}; disps stock-only {} ours-only {44}
+100410a0,NHtmlParser::Parse,ok,
+100412a0,NCHtmlComboBox::WindowProc,ok,
+100412c0,NCEditBox::ShowWindow,note,consts stock-only {20} ours-only {2000}
+100412d0,NCChatWnd::HideWindow,note,"consts stock-only {} ours-only {80000}; disps stock-only {} ours-only {3968, 74, 80, 9c}; globs stock-only {} ours-only {1026e44c}"
+100412e0,NextListToken,ok,
+10041440,NCActionLinker::WindowProc,ok,
+100414a0,NCActionLinker::OnConfirm,ok,
+100414c0,NCDynamicLinker::WindowProc,ok,
+10041520,NCDynamicLinker::OnLink,ok,
+10041540,NCHtmlButton::OnLButtonUp,ok,
+10041580,NCHtmlMultiEdit::WindowProc,ok,
+100415a0,NCHtmlMultiEdit::GetValue,note,"disps stock-only {} ours-only {1e0, 210}; strs stock-only {new} ours-only {}"
+100415b0,NCHtmlMultiEdit::OnMouseWheel,ok,
+10041660,NCHtmlMultiEdit::OnScrollUp,note,consts stock-only {} ours-only {ffffffff}
+100416a0,NCHtmlMultiEdit::OnScrollDown,ok,
+100416f0,NCHtmlMultiEdit::UpdateScrollBar,ok,
+10041720,NCHtmlEdit::OnKeyDown,ok,
+10041760,NCExButton::WindowProc,ok,
+10041780,NCHtmlComboBox::GetValue,ok,
+10042a60,NCHtmlEdit::OnLButtonDown,ok,
+10042ab0,NCHtmlMultiEdit::OnDestroy,ok,
+10042c00,NCHtmlMultiEdit::OnPaint,note,"consts stock-only {} ours-only {20, 21, 22, 23, 24, 25, 26, fffffffd, ffffffff}; disps stock-only {24, 28, 54} ours-only {208}; strs stock-only {} ours-only {NCHtmlMultiEdit::OnPaint}; globs stock-only {10263d80} ours-only {}"
+10044110,NCHtmlEdit::OnPaint,note,consts stock-only {41} ours-only {222324}; disps stock-only {} ours-only {2a}
+10045640,"NCHtmlButton::NCHtmlButton(const TCHAR* A, const TCHAR* B, const TCHAR* C, UBOOL D)",ok,
+10045740,"NCHtmlPushButton::NCHtmlPushButton(const TCHAR* A, const TCHAR* B)",ok,
+100457a0,NCHtmlMultiEdit::NCHtmlMultiEdit,ok,
+10045800,NCHtmlMultiEdit::~NCHtmlMultiEdit,ok,
+10045850,"NCHtmlEdit::NCHtmlEdit(INT A, INT B)",ok,
+10045910,NCHtmlEdit::~NCHtmlEdit,ok,
+10045960,"NCJHtmlEdit::NCJHtmlEdit(INT A, INT B, INT C)",ok,
+100459c0,NCJHtmlEdit::~NCJHtmlEdit,ok,
+10045db0,NCHtmlMultiEdit::OnCreate,ok,
+10046350,NCActionLinker::OnLButtonDown,ok,
+10046420,NCommandParser::NCommandParser,ok,
+10046480,NCommandParser::GetCommand,ok,
+10046700,NKeyCrypt::NKeyCrypt,ok,
+10046770,NKeyCrypt::EnableProtectRegistry,ok,
+10046c20,NCRadarWnd::OnCreate,note,"consts stock-only {} ours-only {2000, 80}; strs stock-only {new} ours-only {}"
+100472e0,NCPledgeWnd::ClearMembers,ok,
+10047350,NCPledgeWnd::OnInvite,ok,
+10047610,NCEmpowerWnd::SetMember,ok,
+10047960,NCActionItemWnd::UseAction,ok,
+10047990,NCActionItemWnd::ClearSelection,ok,
+10047ac0,NCActionItemListWnd::OnDestroy,note,strs stock-only {} ours-only {NCActionItemListWnd::OnDestroy}
+10048790,NCPledgeWnd::OnGiveTitle,ok,
+10048c30,NCPledgeWnd::OnExpel,ok,
+10049240,NCActionItemWnd::OnLButtonDown,ok,
+1004a3e0,NCPledgeWnd::DeleteMember,ok,
+1004a440,TActionItemArray::~TActionItemArray,ok,
+1004a5a0,NCActionItemWnd::AddItem,note,consts stock-only {c8} ours-only {}; disps stock-only {} ours-only {c8}
+1004ade0,NCActionItemListWnd::ClearGrids,ok,
+1004b040,NCActionWnd::ReloadActions,ok,
+1004b0e0,NCActionItemWnd::OnDestroy,note,strs stock-only {} ours-only {NCActionItemWnd::OnDestroy}
+1004b1d0,NCAutoLogWnd::OnCreate,ok,
+1004b2c0,NCAutoLogWnd::OnDestroy,note,"disps stock-only {30, 54, 5c, 6c} ours-only {}; strs stock-only {} ours-only {NCAutoLogWnd::OnDestroy}"
+1004b340,NCAutoLogWnd::OnPaint,note,consts stock-only {} ours-only {200af4}
+1004b490,NCAutoLogWnd::NCAutoLogWnd,ok,
+1004b4f0,NCAutoLogWnd::~NCAutoLogWnd,ok,
+1004b550,NCChatListBox::IsChannelShown,ok,
+1004b660,NCChatWnd::UpdateTextCapture,ok,
+1004b690,NCChatWnd::StartTextCapture,note,"consts stock-only {1024} ours-only {1028}; disps stock-only {168, 16c, 170, 174, 178} ours-only {}"
+1004b810,NCChatWnd::StopTextCapture,note,"disps stock-only {168, 16c, 170, 174, 178} ours-only {}"
+1004b8e0,NCChatWnd::WriteCapture,ok,
+1004b940,NCChatWnd::CaptureMessage,note,"disps stock-only {168, 16c, 170, 174, 178} ours-only {}"
+1004c280,NCChatWnd::SetLastTellName,note,"consts stock-only {} ours-only {114}; disps stock-only {114, 116} ours-only {}"
+1004c2e0,NCChatWnd::ExpandLine,ok,
+1004c450,NCChatWnd::SetFocus,ok,
+1004c470,NCChatWnd::ShowWindow,ok,
+1004c4c0,NCChatWnd::OnToggleChat,ok,
+1004c4e0,NCChatWnd::ResizeBy,ok,
+1004c540,NCChatFilterWnd::WindowProc,ok,
+1004c5f0,NCChatFilterWnd::OnCancel,ok,
+1004c610,NChatLimiter::Tick,ok,
+1004c980,NCChatWnd::WindowProc,ok,
+1004ca60,NCChatWnd::BeginTell,note,consts stock-only {} ours-only {30}
+1004cb00,NCChatWnd::BrowseTellNames,note,consts stock-only {} ours-only {ffffffff}
+1004d460,NCWnd::OffsetWindow,note,strs stock-only {} ours-only {NCWnd::MoveChildWindow}
+1004d470,NCChatWnd::OnTimer,ok,
+1004d490,NCChatFilterWnd::OnDestroy,note,strs stock-only {} ours-only {NCChatFilterWnd::OnDestroy}
+1004d5a0,NCChatFilterWnd::OnPaint,note,strs stock-only {} ours-only {NCChatFilterWnd::OnPaint}
+1004d690,NCChatFilterWnd::SetFilter,note,"disps stock-only {1a8, 1f0, 1f4, 54, c8, cc, d0, d4, d8, dc, e0, e4, e8, ec, f0} ours-only {}"
+1004d8f0,NCChatFilterWnd::OnSystemClicked,ok,
+1004d940,NCChatFilterWnd::OnChatClicked,ok,
+1004da70,NCChatFilterWnd::OnOK,ok,
+1004dd70,NCChatFilterWnd::LoadFilters,note,"consts stock-only {248} ours-only {220}; disps stock-only {220, 224, 228, 22c, 230, 234, 238, 23c, 240, 244} ours-only {20, 24, 28, 54}"
+1004e760,NChatLimiter::Clear,ok,
+1004e7c0,NChatLimiter::AddLine,note,strs stock-only {new} ours-only {}
+1004ebf0,NCChatWnd::OnDestroy,note,"disps stock-only {16c, 170, 174, 178} ours-only {}; strs stock-only {} ours-only {NCChatWnd::OnDestroy}"
+1004ee80,NCChatWnd::AddTellName,note,strs stock-only {new} ours-only {}
+1004f070,NCChatWnd::OnTabSelected,note,"consts stock-only {220} ours-only {}; disps stock-only {16c, 170, 174, 178} ours-only {220}; globs stock-only {10200e20, 10200e24, 10200e28, 10200e2c, 10200e48, 10200e4c, 10200e50, 10200e54} ours-only {}"
+1004f840,NCChatWnd::OnOptionButton,note,"consts stock-only {220} ours-only {}; disps stock-only {168, 16c, 170, 174, 178} ours-only {220}"
+1004f910,NCChatWnd::ClearAll,ok,
+1004f9d0,NCChatFilterWnd::OnCreate,ok,
+10050210,TChatLimiterItemArray::~TChatLimiterItemArray,ok,
+100502a0,NChatLimiter::SetLimits,ok,
+100502f0,TStringPtrArray::~TStringPtrArray,ok,
+10050300,NChatLimiter::~NChatLimiter,ok,
+10050310,NChatLimiter::NChatLimiter,ok,
+10052120,NCChatWnd::OnEditCommand,ok,
+10052220,NCChatWnd::EnablePledgeTab,note,disps stock-only {} ours-only {1d8}
+10052290,NCChatWnd::EnableAllyTab,note,disps stock-only {} ours-only {1d8}
+10052580,NCChatFilterWnd::NCChatFilterWnd,ok,
+100530e0,NCConsole::OnPaint,note,strs stock-only {} ours-only {NCConsole::OnPaint}
+10053180,NCConsole::OnMoveTo,ok,
+100531b0,NCConsole::ToggleInterface,ok,
+100532f0,NCConsole::CloseWindows,ok,
+10053590,NCConsole::Reset,ok,
+10053630,NCConsole::ToggleSystemMenu,ok,
+10053690,NCConsole::ToggleInventory,ok,
+10053740,NCConsole::ToggleChat,ok,
+100537d0,NCConsole::ToggleHelp,ok,
+10053830,NCConsole::ToggleMinimap,ok,
+100538b0,NCConsole::ToggleBoard,ok,
+100539b0,NCConsole::ToggleMacroList,ok,
+10053a10,NCConsole::ToggleMacroEdit,ok,
+10053ad0,NCConsole::ToggleGMWnd,ok,
+10053b10,NCConsole::ToggleGMInventory,ok,
+10053b70,NCConsole::ToggleGMMagicSkill,ok,
+10053bd0,NCConsole::ToggleGMDetailStatus,ok,
+10053c30,NCConsole::ToggleGMQuest,ok,
+10053c90,NCConsole::ToggleGMStore,ok,
+10053cf0,NCConsole::ToggleGMAction,ok,
+10053d50,NCConsole::ToggleXMasSeal,ok,
+10053d90,NCConsole::AddSystemMessage,ok,
+10053df0,NCConsole::AddSystemText,ok,
+10053eb0,NCMainWnd::WindowProc,ok,
+10053f90,CastToLineagePlayerController,ok,
+10053fc0,NChatBalloon::~NChatBalloon,ok,
+10053fd0,NCConsole::WindowProc,ok,
+10054050,NCConsole::ShowWindow,ok,
+10054df0,NCConsole::ToggleCharacter,ok,
+100556e0,TChatBalloonArray::Remove,ok,
+10055780,NCConsole::OnDestroy,ok,
+100564c0,NCConsole::OnTimer,note,consts stock-only {} ours-only {203}
+10056630,TChatBalloonArray::~TChatBalloonArray,ok,
+10056c70,NCConsole::OnCreate,note,"consts stock-only {4c59c, 65aa4, 660b0, 660ec, 66104, 66158, 66cb0, 66f5c, 66f68, 66f74, 66f80, 66f8c, 67094, 670ac, 671b4, 671c0, 674a8, 674b4, 67658, 6767c, 67688, 67958, 67994, 679a0, 679ac, 679dc, 679e8, 67be0, 67d24, 68240, 683e4, 68960, 68e4c, 68e58, f:0000803f} ours-only {}"
+1005a4b0,NConsoleWnd::GetIMEType,note,consts stock-only {} ours-only {fffffffc}
+1005a6a0,NConsoleWnd::IsOverWindow,ok,
+1005a6c0,NConsoleWnd::NpcSay,note,consts stock-only {669ec} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::NpcSay}
+1005a890,NConsoleWnd::SendChatMsgToServer,note,strs stock-only {} ours-only {NConsoleWnd::SendChatMsgToServer}
+1005a980,NConsoleWnd::RequestAuthLogin,note,strs stock-only {} ours-only {NConsoleWnd::RequestAuthLogin}
+1005aa10,NConsoleWnd::RequestAuthCardKeyLogin,note,strs stock-only {} ours-only {NConsoleWnd::RequestAuthCardKeyLogin}
+1005aaa0,NConsoleWnd::RequestLogout,ok,
+1005aab0,NConsoleWnd::RequestGameStart,note,strs stock-only {} ours-only {NConsoleWnd::RequestGameStart}
+1005abb0,NConsoleWnd::RequestCharacterDelete,note,strs stock-only {} ours-only {NConsoleWnd::RequestCharacterDelete}
+1005ac60,NConsoleWnd::RequestCharacterRestore,note,strs stock-only {} ours-only {NConsoleWnd::RequestCharacterRestore}
+1005ad10,NConsoleWnd::RequestNewCharacter,note,strs stock-only {} ours-only {NConsoleWnd::RequestNewCharacter}
+1005ad90,NConsoleWnd::RequestCharacterCreate,note,"disps stock-only {144, 48, 58} ours-only {}"
+1005ae50,NConsoleWnd::RequestRestart,ok,
+1005ae60,NConsoleWnd::RequestRestartPoint,ok,
+1005ae70,NConsoleWnd::ShowWarningWnd,note,consts stock-only {77d38} ours-only {}
+1005af40,NConsoleWnd::RequestServerList,note,strs stock-only {} ours-only {NConsoleWnd::RequestServerList}
+1005afc0,NConsoleWnd::RequestServerLogin,note,strs stock-only {} ours-only {NConsoleWnd::RequestServerLogin}
+1005b040,NConsoleWnd::ReceiveServerList,note,strs stock-only {} ours-only {NConsoleWnd::ReceiveServerList}
+1005b140,NConsoleWnd::AddServerList,note,strs stock-only {} ours-only {NConsoleWnd::AddServerList}
+1005b1d0,NConsoleWnd::EndServerList,note,strs stock-only {} ours-only {NConsoleWnd::EndServerList}
+1005b260,NConsoleWnd::CharacterCreateFail,note,"consts stock-only {404ac, 4050c, 4053c, 40e3c} ours-only {}"
+1005b360,NConsoleWnd::AddCharacterInfo,note,"consts stock-only {80b} ours-only {}; disps stock-only {2c, 395c} ours-only {}"
+1005b420,NConsoleWnd::GetPartyMemberCount,note,disps stock-only {e0} ours-only {}
+1005b450,NConsoleWnd::GetPartyMemberName,ok,
+1005b4a0,NConsoleWnd::AcceptCharacterDelete,note,"consts stock-only {42f9c, 45b7c, 45bac} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::AcceptCharacterDelete}"
+1005b560,NConsoleWnd::ReceiveServerClose,note,consts stock-only {3f63c} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::ReceiveServerClose}
+1005b5f0,NConsoleWnd::ReceiveVersionCheck,note,"consts stock-only {406bc, 406ec} ours-only {}"
+1005b6a0,NConsoleWnd::RestartResetWindows,ok,
+1005b700,NConsoleWnd::RestartToLobby,ok,
+1005b8a0,NConsoleWnd::AnswerReviveRequest,ok,
+1005b970,NConsoleWnd::TeleportToLocation,ok,
+1005ba30,NConsoleWnd::AddRecommandedData,note,disps stock-only {3960} ours-only {}
+1005bac0,NConsoleWnd::EndRecommandedData,note,disps stock-only {3960} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::EndRecommandedData}
+1005bb40,NConsoleWnd::RequestItemList,note,strs stock-only {} ours-only {NConsoleWnd::RequestItemList}
+1005bbc0,NConsoleWnd::RequestUseItem,ok,
+1005bc80,NConsoleWnd::RequestUnEquipItem,ok,
+1005bcb0,NConsoleWnd::ReceiveItemList,note,strs stock-only {} ours-only {NConsoleWnd::ReceiveItemList}
+1005bd60,NConsoleWnd::ReceiveUpdateItemList,note,strs stock-only {} ours-only {NConsoleWnd::ReceiveUpdateItemList}
+1005bde0,NConsoleWnd::CheckGeo,ok,
+1005be00,NConsoleWnd::SelectItemToEnchant,ok,
+1005be30,NConsoleWnd::RequestEnchantItem,note,strs stock-only {} ours-only {NConsoleWnd::RequestEnchantItem}
+1005beb0,NConsoleWnd::ReceiveEnchantResult,ok,
+1005bf00,NConsoleWnd::UpdateEquipItem,ok,
+1005bf20,NConsoleWnd::RequestDestroyItem,note,"disps stock-only {2b8, 48, 58} ours-only {}"
+1005bfb0,NConsoleWnd::RequestCrystallizeItem,ok,
+1005bfc0,NConsoleWnd::RequestTrade,note,strs stock-only {} ours-only {NConsoleWnd::RequestTrade}
+1005c040,NConsoleWnd::RequestAddTradeItem,note,"disps stock-only {164, 48, 58} ours-only {}"
+1005c0d0,NConsoleWnd::RequestTradeDone,note,strs stock-only {} ours-only {NConsoleWnd::RequestTradeDone}
+1005c150,NConsoleWnd::AnswerTradeRequest,ok,
+1005c160,NConsoleWnd::ReceiveTradeDoneMsg,note,strs stock-only {} ours-only {NConsoleWnd::ReceiveTradeDoneMsg}
+1005c200,NConsoleWnd::RequestBuySeed,note,strs stock-only {} ours-only {NConsoleWnd::RequestBuySeed}
+1005c280,NConsoleWnd::RequestProcureCrop,note,strs stock-only {} ours-only {NConsoleWnd::RequestProcureCrop}
+1005c300,NConsoleWnd::StartManorBuyList,ok,
+1005c390,NConsoleWnd::StartManorSellList,ok,
+1005c450,NConsoleWnd::RequestBuyItem,note,strs stock-only {} ours-only {NConsoleWnd::RequestBuyItem}
+1005c4d0,NConsoleWnd::RequestSellItem,note,strs stock-only {} ours-only {NConsoleWnd::RequestSellItem}
+1005c550,NConsoleWnd::StartBuyList,ok,
+1005c740,NConsoleWnd::StartSellList,ok,
+1005c810,NConsoleWnd::RequestWarehouseDeposit,ok,
+1005c820,NConsoleWnd::RequestWarehouseWithdraw,ok,
+1005c830,NConsoleWnd::StartDepositList,ok,
+1005c8e0,NConsoleWnd::StartWithdrawList,ok,
+1005c960,NConsoleWnd::RequestQuestList,note,strs stock-only {} ours-only {NConsoleWnd::RequestQuestList}
+1005ca00,NConsoleWnd::RequestDestroyQuest,note,strs stock-only {} ours-only {NConsoleWnd::RequestDestroyQuest}
+1005ca80,NConsoleWnd::ReceiveQuestList,note,strs stock-only {} ours-only {NConsoleWnd::ReceiveQuestList}
+1005cba0,NConsoleWnd::AddQuestID,note,"consts stock-only {} ours-only {3e8, 70}; disps stock-only {} ours-only {3968, 3d18, 3d1c, c8, d8}; strs stock-only {} ours-only {NConsoleWnd::AddQuestID}"
+1005cd20,NConsoleWnd::GetQuestText,note,"consts stock-only {} ours-only {3e8, 70}; disps stock-only {} ours-only {3d18, 3d1c, 3d20, 3d3c}; strs stock-only {} ours-only {NConsoleWnd::AddQuestID}"
+1005cf80,NConsoleWnd::ShowTrainListWnd,ok,
+1005cfd0,NConsoleWnd::RequestAcquireSkillInfo,ok,
+1005cfe0,NConsoleWnd::RequestAcquireSkill,ok,
+1005cff0,NConsoleWnd::HideTrainWnd,ok,
+1005d010,NConsoleWnd::RequestMakeMacro,ok,
+1005d020,NConsoleWnd::RequestDeleteMacro,ok,
+1005d030,NConsoleWnd::RequestMagicSkillUse,ok,
+1005d040,NConsoleWnd::RequestSkillList,ok,
+1005d060,NConsoleWnd::ReceiveMagicSkillList,ok,
+1005d070,NConsoleWnd::ShowSkillWnd,ok,
+1005d090,NConsoleWnd::RequestRecipeBookOpen,ok,
+1005d0a0,NConsoleWnd::RequestRecipeItemDelete,ok,
+1005d0b0,NConsoleWnd::RequestRecipeItemMakeInfo,ok,
+1005d0c0,NConsoleWnd::RequestRecipeItemMakeSelf,ok,
+1005d0d0,NConsoleWnd::RequestRecipeShopManageList,ok,
+1005d0e0,NConsoleWnd::RequestRecipeShopMessageSet,ok,
+1005d0f0,NConsoleWnd::RequestRecipeShopListSet,ok,
+1005d100,NConsoleWnd::RequestRecipeShopManageQuit,ok,
+1005d110,NConsoleWnd::RequestRecipeShopManageCancel,ok,
+1005d120,NConsoleWnd::RequestRecipeShopSellList,ok,
+1005d130,NConsoleWnd::RequestRecipeShopMakeInfo,ok,
+1005d140,NConsoleWnd::RequestRecipeShopMakeDo,ok,
+1005d150,NConsoleWnd::AddHennaInfo,ok,
+1005d170,NConsoleWnd::GMAddHennaInfo,ok,
+1005d190,NConsoleWnd::RequestHennaItemInfo,ok,
+1005d1a0,NConsoleWnd::RequestHennaEquip,ok,
+1005d1b0,NConsoleWnd::RequestHennaUnequipInfo,ok,
+1005d1c0,NConsoleWnd::RequestHennaUnequip,ok,
+1005d1d0,NConsoleWnd::RequestHennaItemList,ok,
+1005d1e0,NConsoleWnd::RequestHennaUnequipList,ok,
+1005d1f0,NConsoleWnd::ToggleInventory,ok,
+1005d230,NConsoleWnd::ShowCharacterStatus,ok,
+1005d240,NConsoleWnd::ChangeShortCutPage,ok,
+1005d280,NConsoleWnd::RequestShortCutDel,ok,
+1005d290,NConsoleWnd::ReceiveShortCutList,ok,
+1005d2b0,NConsoleWnd::UpdateMacroShortCut,ok,
+1005d2d0,NConsoleWnd::UpdateShortCutItem,ok,
+1005d2f0,NConsoleWnd::UpdatePetShortCutItem,ok,
+1005d310,NConsoleWnd::ReceiveShortCutDelete,ok,
+1005d330,NConsoleWnd::ReceiveAbnormalStatus,ok,
+1005d390,NConsoleWnd::RequestTargetCancel,ok,
+1005d3a0,NConsoleWnd::RequestActionUse,ok,
+1005d3b0,NConsoleWnd::RequestAttackForce,ok,
+1005d3f0,NConsoleWnd::RequestSocialAction,ok,
+1005d400,NConsoleWnd::RequestChangeWaitType,ok,
+1005d410,NConsoleWnd::RequestChangeMoveType,ok,
+1005d420,NConsoleWnd::MacroSkillUse,ok,
+1005d440,NConsoleWnd::MacroItemPickedUp,ok,
+1005d460,NConsoleWnd::MacroTargetSelected,ok,
+1005d4b0,NConsoleWnd::RequestPledgeMemberList,ok,
+1005d4c0,NConsoleWnd::RequestNet103,ok,
+1005d4d0,NConsoleWnd::RequestAnswerJoinPledge,ok,
+1005d4e0,NConsoleWnd::RequestOustPledgeMember,ok,
+1005d4f0,NConsoleWnd::RequestNet106,ok,
+1005d500,NConsoleWnd::RequestStartPledgeWar,ok,
+1005d510,NConsoleWnd::RequestReplyStartPledgeWar,ok,
+1005d520,NConsoleWnd::RequestStopPledgeWar,ok,
+1005d530,NConsoleWnd::RequestReplyStopPledgeWar,ok,
+1005d540,NConsoleWnd::RequestSurrenderPledgeWar,ok,
+1005d550,NConsoleWnd::RequestSurrenderPersonally,ok,
+1005d560,NConsoleWnd::RequestGiveNickName,ok,
+1005d570,NConsoleWnd::RequestJoinPledge,ok,
+1005d580,NConsoleWnd::ReceivePledgeMemberList,note,strs stock-only {} ours-only {NConsoleWnd::ReceivePledgeMemberList}
+1005d610,NConsoleWnd::DeletePledgeMember,note,strs stock-only {} ours-only {NConsoleWnd::DeletePledgeMember}
+1005d6a0,NConsoleWnd::DeleteAllPledgeMember,note,strs stock-only {} ours-only {NConsoleWnd::DeleteAllPledgeMember}
+1005d750,NConsoleWnd::RequestAllyInvite,ok,
+1005d760,NConsoleWnd::RequestAnswerJoinAlly,ok,
+1005d770,NConsoleWnd::RequestOustAlly,ok,
+1005d780,NConsoleWnd::RequestAllyInfo,ok,
+1005d790,NConsoleWnd::RequestWithdrawAlly,ok,
+1005d7a0,NConsoleWnd::RequestDismissAlly,ok,
+1005d7b0,NConsoleWnd::ReceiveWithdrawAlly,note,consts stock-only {207} ours-only {}
+1005d7f0,NConsoleWnd::ReceiveOustAlly,note,consts stock-only {209} ours-only {}
+1005d830,NConsoleWnd::ReceiveDismissAlly,note,consts stock-only {20b} ours-only {}
+1005d870,NConsoleWnd::RequestStartAllianceWar,ok,
+1005d880,NConsoleWnd::RequestReplyStartAllianceWar,ok,
+1005d890,NConsoleWnd::RequestStopAllianceWar,ok,
+1005d8a0,NConsoleWnd::RequestReplyStopAllianceWar,ok,
+1005d8b0,NConsoleWnd::RequestSurrenderAllianceWar,ok,
+1005d8c0,NConsoleWnd::RequestPackageSend,ok,
+1005d8d0,NConsoleWnd::RequestPackageSendableItemList,ok,
+1005d8e0,NConsoleWnd::AddPackageToList,ok,
+1005d950,NConsoleWnd::RequestFriendInvite,ok,
+1005d960,NConsoleWnd::RequestFriendDel,ok,
+1005d970,NConsoleWnd::RequestAnswerFriendInvite,ok,
+1005d980,NConsoleWnd::RequestFriendList,ok,
+1005d990,NConsoleWnd::RequestBlock,ok,
+1005d9a0,NConsoleWnd::vfn184,ok,
+1005d9b0,NConsoleWnd::RequestSiegeAttackerList,ok,
+1005d9c0,NConsoleWnd::RequestSiegeDefenderList,ok,
+1005d9d0,NConsoleWnd::RequestJoinSiege,ok,
+1005d9e0,NConsoleWnd::RequestConfirmSiegeWaitingList,ok,
+1005d9f0,NConsoleWnd::RequestSetSiegeTime,ok,
+1005da00,NConsoleWnd::ClearAttackerList,ok,
+1005da20,NConsoleWnd::ClearDefenderList,ok,
+1005da40,NConsoleWnd::RequestPartyInvite,ok,
+1005da50,NConsoleWnd::RequestAnswerJoinParty,ok,
+1005da60,NConsoleWnd::RequestPartyLeave,ok,
+1005da70,NConsoleWnd::RequestPartyDismiss,ok,
+1005da80,NConsoleWnd::ReceiveWithdrawalParty,note,consts stock-only {c8} ours-only {ffffff8c}
+1005dac0,NConsoleWnd::ReceiveDismissParty,note,consts stock-only {cb} ours-only {ffffff8d}
+1005dc00,NConsoleWnd::PartyAddMember,note,disps stock-only {d4} ours-only {}
+1005dcc0,NConsoleWnd::PartyUpdateMember,ok,
+1005dd40,NConsoleWnd::PartyDeleteMember,ok,
+1005dd80,NConsoleWnd::PartyDeleteAll,note,disps stock-only {d4} ours-only {}
+1005ddb0,NConsoleWnd::RequestLinkHtml,ok,
+1005ddc0,NConsoleWnd::RequestBypassToServer,ok,
+1005ddd0,NConsoleWnd::RequestBBSWrite,ok,
+1005dde0,NConsoleWnd::RequestShowBoard,ok,
+1005ddf0,NConsoleWnd::TutorialShowHtml,ok,
+1005de40,NConsoleWnd::ShowBoard,ok,
+1005df10,NConsoleWnd::RequestTutorialLinkHtml,ok,
+1005df20,NConsoleWnd::RequestTutorialPassCmdToServer,ok,
+1005df30,NConsoleWnd::RequestTutorialQuestionMark,ok,
+1005df40,NConsoleWnd::SendTutorialEvent,ok,
+1005df70,NConsoleWnd::TutorialEnableClientEvent,ok,
+1005df80,NConsoleWnd::TutorialCloseHtml,ok,
+1005dfa0,NConsoleWnd::PetPickUp,ok,
+1005dfe0,NConsoleWnd::RequestPetUseItem,ok,
+1005dff0,NConsoleWnd::RequestGiveItemToPet,ok,
+1005e000,NConsoleWnd::RequestGetItemFromPet,ok,
+1005e010,NConsoleWnd::RequestChangePetName,ok,
+1005e020,NConsoleWnd::ShowPetPartyWnd,ok,
+1005e0d0,NConsoleWnd::ShowPetNameBtn,ok,
+1005e0f0,NConsoleWnd::ReceivePetStatusInfo,ok,
+1005e110,NConsoleWnd::ReceivePetItemList,ok,
+1005e130,NConsoleWnd::RequestPetition,ok,
+1005e140,NConsoleWnd::RequestPetitionCancel,ok,
+1005e150,NConsoleWnd::RequestGMList,ok,
+1005e160,NConsoleWnd::RequestGMInventory,ok,
+1005e180,NConsoleWnd::RequestGMSkills,ok,
+1005e1a0,NConsoleWnd::RequestGMStatus,ok,
+1005e1c0,NConsoleWnd::RequestGMQuests,ok,
+1005e1e0,NConsoleWnd::RequestGMWarehouse,ok,
+1005e200,NConsoleWnd::RequestGMPledge,ok,
+1005e220,NConsoleWnd::GMViewCharacterInfo,ok,
+1005e250,NConsoleWnd::GMViewReceivePledgeMemberList,note,strs stock-only {} ours-only {NConsoleWnd::ReceivePledgeMemberList}
+1005e2e0,NConsoleWnd::GMViewShowSkillWnd,ok,
+1005e300,NConsoleWnd::GMViewReceiveQuestList,note,strs stock-only {} ours-only {NConsoleWnd::ReceiveQuestList}
+1005e380,NConsoleWnd::GMViewAddQuestID,note,"consts stock-only {} ours-only {3e8, 70}; disps stock-only {} ours-only {1a0, 3968, 3d18, 3d1c}; strs stock-only {} ours-only {NConsoleWnd::AddQuestID}"
+1005e440,NConsoleWnd::GMViewAddQuestItem,ok,
+1005e470,NConsoleWnd::GMViewReceiveItemList,note,strs stock-only {} ours-only {NConsoleWnd::ReceiveItemList}
+1005e520,NConsoleWnd::GMViewStartWithdrawList,ok,
+1005e5a0,NConsoleWnd::ShowRadar,ok,
+1005e770,NConsoleWnd::DeleteRadar,ok,
+1005e820,NConsoleWnd::ShowCalc,ok,
+1005e880,NConsoleWnd::RequestVendor,ok,
+1005e890,NConsoleWnd::RequestSetPrivateStoreListSell,ok,
+1005e8a0,NConsoleWnd::RequestPrivateStoreManageCancel,ok,
+1005e8b0,NConsoleWnd::RequestPrivateStoreQuitSell,ok,
+1005e8c0,NConsoleWnd::SetPrivateStoreMsg,ok,
+1005e8d0,NConsoleWnd::RequestPrivateStoreBuy,ok,
+1005e8e0,NConsoleWnd::StartPrivateStoreManageList,ok,
+1005e910,NConsoleWnd::RequestBuy,ok,
+1005e920,NConsoleWnd::RequestSetPrivateStoreListBuy,ok,
+1005e930,NConsoleWnd::RequestPrivateStoreBuyManageCancel,ok,
+1005e940,NConsoleWnd::RequestPrivateStoreQuitBuy,ok,
+1005e950,NConsoleWnd::SetPrivateStoreBuyMsg,ok,
+1005e960,NConsoleWnd::RequestPrivateStoreSell,ok,
+1005e970,NConsoleWnd::StartPrivateStoreBuyManageList,ok,
+1005e9a0,NConsoleWnd::SetVIPShopID,ok,
+1005e9c0,NConsoleWnd::VIPItemListEnd,ok,
+1005ea00,NConsoleWnd::RequestBuyVIPItem,ok,
+1005ea10,NConsoleWnd::EnablePartyChat,note,"disps stock-only {3968, d4} ours-only {}"
+1005ea30,NConsoleWnd::EnablePledgeChat,ok,
+1005ea50,NConsoleWnd::EnableAllyChat,ok,
+1005ea70,NConsoleWnd::RequestGMSnoopEnd,ok,
+1005ea80,NConsoleWnd::Snoop,ok,
+1005ebd0,NConsoleWnd::MessageBoxf,note,"consts stock-only {42, 7fffffff} ours-only {}"
+1005ec20,NConsoleWnd::DebugLogf,ok,
+1005ec80,NConsoleWnd::GetNumberMessage,ok,
+1005ee20,NConsoleWnd::UpdatePlayerInfo,ok,
+1005ee80,NConsoleWnd::BypassUserCmd,ok,
+1005ee90,NConsoleWnd::RequestDwarvenManufacture,ok,
+1005eea0,NConsoleWnd::BuilderCommand,ok,
+1005ef80,NConsoleWnd::ReturnToLogin,ok,
+1005f020,NConsoleWnd::ReturnToCharacterSelect,ok,
+1005f070,NConsoleWnd::ShowChatText,ok,
+1005f090,NConsoleWnd::SetCursor,ok,
+1005f0b0,NConsoleWnd::GetMousePos,ok,
+1005f0c0,NConsoleWnd::LockCursor,ok,
+1005f0d0,NConsoleWnd::UnlockCursor,ok,
+1005f0e0,NConsoleWnd::PressCtrl,ok,
+1005f0f0,NConsoleWnd::ReleaseCtrl,ok,
+1005f100,NConsoleWnd::ShowMessageWnd,ok,
+1005f120,NConsoleWnd::ToggleOptionWnd,ok,
+1005f130,NConsoleWnd::FormatSystemMessage,note,"consts stock-only {a1, b8, cc} ours-only {24c, 2ba3, fffffff1}; disps stock-only {} ours-only {5400}"
+1005f2b0,NConsoleWnd::HasInvalidChars,note,disps stock-only {130} ours-only {}
+1005f310,NConsoleWnd::HasNoAmpersand,ok,
+1005f350,NConsoleWnd::RemoveInvalidChars,note,consts stock-only {130} ours-only {}
+1005f3e0,NConsoleWnd::ReloadGameTexts,ok,
+1005f470,NConsoleWnd::GetServerID,ok,
+1005f480,NConsoleWnd::GetPetInfo,ok,
+1005f4a0,NConsoleWnd::FindUserByName,ok,
+1005f4b0,NConsoleWnd::FindUserByID,ok,
+1005f4c0,NConsoleWnd::FindStaticObjectInfo,ok,
+1005f4d0,NConsoleWnd::GetTargetedActor,note,"disps stock-only {24, 28} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::GetTargetedActor}"
+1005f5c0,NConsoleWnd::GetPickupUnderMouse,ok,
+1005f600,NConsoleWnd::GetPledgeInfo,ok,
+1005f610,NConsoleWnd::GetPledgeCrestTexture,ok,
+1005f620,NConsoleWnd::GetAllyCrestTexture,ok,
+1005f630,NConsoleWnd::GetSkillIconName,ok,
+1005f660,NConsoleWnd::GetSkillName,ok,
+1005f690,NConsoleWnd::GetSkillDesc,ok,
+1005f6f0,NConsoleWnd::IsToggleSkill,ok,
+1005f720,NConsoleWnd::GetSkillTypeText,note,"consts stock-only {66920, 6692c, 66938} ours-only {}"
+1005f790,NConsoleWnd::GetSkillMpCost,ok,
+1005f7c0,NConsoleWnd::GetSkillRange,ok,
+1005f7f0,NConsoleWnd::AddMacro,ok,
+1005f850,NConsoleWnd::GetWeaponTypeName,note,"consts stock-only {65c90, 65c9c, 65ca8, 65cb4, 65cc0, 65ccc, 65cd8, 6722c} ours-only {}"
+1005f940,NConsoleWnd::GetItemSlotText,note,"consts stock-only {20, 66548, 66554, 66560, 6656c, 66578, 66584, 66590, 6659c, 665a8, 665b4, 665c0, 665cc, 665d8, 665e4, 665f0, 665fc, 66608, 66614, 673f4, 68a8c} ours-only {30}"
+1005fc30,NConsoleWnd::GetAttackSpeedText,note,"consts stock-only {668e4, 668f0, 668fc, 66908, 66914} ours-only {}"
+1005fcb0,NConsoleWnd::GetCastleName,note,consts stock-only {2c} ours-only {77d5c}
+1005fd00,NConsoleWnd::GetCastleLocation,note,"consts stock-only {2b94, 2c} ours-only {77d5c}"
+1005fd50,NConsoleWnd::GetCastleDescription,note,consts stock-only {2c} ours-only {77d5c}; disps stock-only {} ours-only {20}
+1005fda0,NConsoleWnd::ConvertNewLines,ok,
+1005fec0,NConsoleWnd::GetClassNameString,ok,
+1005fee0,NConsoleWnd::GetGradeText,ok,
+1005ff00,NRecipeConsoleOps::FormatItemName,ok,
+10060030,NConsoleWnd::PawnViewerFunction,note,strs stock-only {} ours-only {NConsoleWnd::PawnViewerFunction}
+10060120,NConsoleWnd::GetWeaponEnchantSteps,ok,
+10060130,NConsoleWnd::GetArmorEnchantSteps,note,consts stock-only {} ours-only {fffffffa}
+10060140,NConsoleWnd::vfn176,ok,
+10060360,NConsoleWnd::DebugCommand,ok,
+10060600,NConsoleWnd::SetServerPing,ok,
+10060620,NConsoleWnd::StartGameGuard,note,"consts stock-only {2b, 485ac, 485dc, 4860c, 4863c, 4866c, 4869c, 486cc, 4c02c, 9b, d2} ours-only {17c, 3f63c, 8f70, 8fa0, 8fd0, 9000, 9030, 9060, 9090, c9f0, fa}; strs stock-only {} ours-only {%s (ErrorCode=%d)}"
+10060870,NConsoleWnd::ShowWarningDialog,note,strs stock-only {} ours-only {NConsoleWnd::ShowWarningDialog}
+10060900,NConsoleWnd::HasItemAdditionalName,ok,
+10060940,NConsoleWnd::SetPadHoldL,ok,
+10060960,NConsoleWnd::SetPadHoldR,ok,
+10060980,NConsoleWnd::ShowTownMap,ok,
+100609f0,NConsoleWnd::ObserverStart,ok,
+10060a20,NConsoleWnd::ObserverEnd,ok,
+10060a40,NConsoleWnd::RequestObserverEndPacket,ok,
+10060a50,NConsoleWnd::RequestPledgePower,ok,
+10060a70,NConsoleWnd::PledgePower,ok,
+10060a90,NConsoleWnd::GetItemAdditionalName,ok,
+10060ac0,NConsoleWnd::PlaySoundName,note,disps stock-only {2c} ours-only {}
+10060b00,NConsoleWnd::PlayVoiceName,note,disps stock-only {2c} ours-only {}
+10060c00,NConsoleWnd::ShowXMasSeal,ok,
+10062770,CastToPawn,ok,
+10062830,NCAuthWnd::SetCardKey,ok,
+10062880,NSysMsgParam::Set,ok,
+100628d0,NSysMsgParam::SetNumber,note,strs stock-only {new} ours-only {}
+10062940,NConsoleWnd::GetMyLocation,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8}"
+10062bf0,NConsoleWnd::NKillTimer,ok,
+10062c40,NConsoleWnd::BlockedAccountWithMsg,note,consts stock-only {44a0c} ours-only {}
+10062db0,NConsoleWnd::BlockedAccount,note,"consts stock-only {10000, 20, 20000, 40, 446ac, 446dc, 4470c, 4473c, 4476c, 4479c, 447cc, 447fc, 4482c, 4485c, 4488c, 448bc, 448ec, 4491c, 4494c} ours-only {30000}"
+10062fd0,NConsoleWnd::AuthLoginFail,note,"consts stock-only {4407c, 440dc, 4410c, 44a3c, 44a9c, 44b5c, 44b8c, 44bbc, 44bec, 44c7c, 44d0c, 46aac, 483fc, 4df1c, 4df4c, 4f17c, 4fe0c} ours-only {}"
+10063350,NConsoleWnd::SCCheckStart,ok,
+10063370,NConsoleWnd::StartNotice,note,"consts stock-only {77d44, 77d50} ours-only {}"
+100636f0,NConsoleWnd::AcceptGameStart,note,strs stock-only {} ours-only {NConsoleWnd::AcceptGameStart}
+100638a0,NConsoleWnd::AcceptNewCharacter,note,consts stock-only {40e3c} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::AcceptNewCharacter}
+100639a0,NConsoleWnd::AcceptCharacterCreate,note,consts stock-only {40e3c} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::AcceptCharacterCreate}
+10063a60,NConsoleWnd::ShowRestartMenu,ok,
+10063ba0,NConsoleWnd::RequestDropItem,note,"disps stock-only {174, 48, 58} ours-only {}"
+10063c50,NConsoleWnd::AddAcquireSkillInfo,note,consts stock-only {149c} ours-only {14a0}
+10063e20,NConsoleWnd::ReceiveSkillList,note,consts stock-only {17ac} ours-only {17b0}
+10063f60,NConsoleWnd::ReceiveRecipeBookItemList,ok,
+10064020,NConsoleWnd::ReceiveRecipeItemMakeInfo,ok,
+10064140,NConsoleWnd::ReceiveRecipeShopManageList,ok,
+100641a0,NConsoleWnd::ReceiveRecipeShopSellList,ok,
+100643e0,NConsoleWnd::ReceiveHennaEquipList,ok,
+100644c0,NConsoleWnd::AddHennaEquipInfo,note,consts stock-only {141c} ours-only {1424}
+100645e0,NConsoleWnd::ReceiveHennaItemInfo,ok,
+100646f0,NConsoleWnd::ReceiveHennaInfo,ok,
+10064730,NConsoleWnd::ReceiveHennaUnequipList,ok,
+10064810,NConsoleWnd::AddHennaUnequipInfo,note,consts stock-only {141c} ours-only {1424}
+10064930,NConsoleWnd::GMReceiveHennaInfo,ok,
+10064970,NConsoleWnd::ReceiveHennaUnequipItemInfo,ok,
+10064a80,NConsoleWnd::AddAbnormalStatus,ok,
+10064e70,NConsoleWnd::TargetMyself,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+10064f00,NConsoleWnd::RequestTarget,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+10064f80,NConsoleWnd::RequestPickUp,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+10065010,NConsoleWnd::RequestTargetNext,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+100650b0,NConsoleWnd::AssistMember,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+100651f0,NConsoleWnd::RequestAction,ok,
+10065250,NConsoleWnd::RequestAttack,ok,
+10065320,NConsoleWnd::MyTargetSelected,ok,
+100653e0,NConsoleWnd::ReceivePledgeInfo,note,strs stock-only {} ours-only {NConsoleWnd::ReceivePledgeInfo}
+10065530,NConsoleWnd::ReceivePledgeInfoUpdate,note,strs stock-only {} ours-only {NConsoleWnd::ReceivePledgeInfoUpdate}
+10065640,NConsoleWnd::AddPledgeMember,note,strs stock-only {} ours-only {NConsoleWnd::AddPledgeMember}
+10065730,NConsoleWnd::UpdatePledgeMember,note,strs stock-only {} ours-only {NConsoleWnd::UpdatePledgeMember}
+10065820,NConsoleWnd::ReceiveSiegeInfo,ok,
+10065940,NConsoleWnd::ReceiveSiegeAttackerList,note,disps stock-only {} ours-only {3968}
+10065a30,NConsoleWnd::ReceiveSiegeDefenderList,note,disps stock-only {} ours-only {3968}
+10065b30,NConsoleWnd::AddSelectableTime,ok,
+10065b50,NConsoleWnd::EndSiegeAttackerList,ok,
+10065b70,NConsoleWnd::EndSiegeDefenderList,ok,
+10065b90,NConsoleWnd::RunHtmlCommand,note,"consts stock-only {1ff, fffffff8} ours-only {800}"
+10065dd0,NConsoleWnd::TutorialShowQuestionMark,ok,
+10065e20,NConsoleWnd::SetSummonRemainTime,ok,
+10065e50,NConsoleWnd::GMViewReceivePledgeInfo,note,strs stock-only {} ours-only {NConsoleWnd::GMViewReceivePledgeInfo}
+10065f90,NConsoleWnd::GMViewAddPledgeMember,note,strs stock-only {} ours-only {NConsoleWnd::AddPledgeMember}
+10066080,NConsoleWnd::GMViewSkillList,note,consts stock-only {17ac} ours-only {17b0}
+100661c0,NConsoleWnd::GMViewMagicList,note,consts stock-only {17ac} ours-only {17b0}
+10066470,NConsoleWnd::ExecCommand,ok,
+100664a0,NConsoleWnd::ShowDialog,note,consts stock-only {2000} ours-only {200c}
+100665c0,NConsoleWnd::HasBadWord,note,"consts stock-only {41, 5a, 67d3c} ours-only {}"
+10066940,NConsoleWnd::SaveWindowPositions,note,"disps stock-only {} ours-only {24, 28}"
+10067a70,NConsoleWnd::LoadWindowPositions,ok,
+1006a260,NConsoleWnd::GetMyUser,ok,
+1006a290,NConsoleWnd::GetMyPawn,ok,
+1006a2b0,NConsoleWnd::GetSelectedActor,note,strs stock-only {} ours-only {NConsoleWnd::GetSelectedActor}
+1006a360,NConsoleWnd::GetSelectedStaticActor,ok,
+1006a3a0,NConsoleWnd::HasSelectedTarget,ok,
+1006a3e0,NConsoleWnd::GetActionIconName,note,disps stock-only {} ours-only {28}
+1006a430,NConsoleWnd::GetActionName,ok,
+1006a480,NConsoleWnd::GetMacro,ok,
+1006a4b0,NConsoleWnd::IsAnyMacroRunning,ok,
+1006a510,NConsoleWnd::GetMacroName,note,disps stock-only {a48} ours-only {}
+1006a570,NConsoleWnd::GetMacroIconType,ok,
+1006a710,NConsoleWnd::GetEnchantedDefense,note,consts stock-only {} ours-only {fffffffa}
+1006a740,NConsoleWnd::GetHennaSlotCount,ok,
+1006a7c0,NConsoleWnd::GetEquipSlot,ok,
+1006a940,NConsoleWnd::GetInventoryItemIDs,note,strs stock-only {new} ours-only {}
+1006aa00,NConsoleWnd::MoveToLocation,ok,
+1006aa90,NConsoleWnd::HasAbnormal,ok,
+1006aae0,NConsoleWnd::SkillCoolTime,note,"consts stock-only {41, f:00000000, fffffff8} ours-only {1a34}"
+1006adb0,NConsoleWnd::FindNextPawnInArea,note,consts stock-only {} ours-only {ffffffd0}; disps stock-only {} ours-only {e4}
+1006af50,NConsoleWnd::SetViewRect,ok,
+1006afa0,NConsoleWnd::ShowQuitDialog,ok,
+1006b040,NConsoleWnd::StartMacro,ok,
+1006b0a0,NConsoleWnd::PlayInterfaceSound,note,disps stock-only {2c} ours-only {}
+1006ba10,TTimerArray::Remove,ok,
+1006ba90,NConsoleWnd::Finalize,note,disps stock-only {} ours-only {3994}; strs stock-only {} ours-only {NConsoleWnd::Finalize}
+1006be40,NConsoleWnd::NSetTimer,note,strs stock-only {} ours-only {NConsoleWnd::NSetTimer}
+1006c9f0,NConsoleWnd::AcceptLogOut,note,"disps stock-only {} ours-only {24, 28}"
+1006ca00,NConsoleWnd::ServerClose,ok,
+1006cb80,NConsoleWnd::ReviveRequest,ok,
+1006cc50,NConsoleWnd::AddInventoryItem,note,consts stock-only {17b8} ours-only {17bc}; disps stock-only {1808} ours-only {}
+1006cf80,NConsoleWnd::UpdateInventoryItem,note,consts stock-only {17b4} ours-only {17bc}; disps stock-only {1808} ours-only {}
+1006d2d0,NConsoleWnd::ReceiveTradeDemand,ok,
+1006d3e0,NConsoleWnd::ReceiveTradeStart,note,strs stock-only {} ours-only {NConsoleWnd::ReceiveTradeStart}
+1006d530,NConsoleWnd::ReceiveAddTradeInventoryItem,note,consts stock-only {17b0} ours-only {17e8}; disps stock-only {1808} ours-only {}
+1006d830,NConsoleWnd::ReceiveAddTradeOwnItem,note,consts stock-only {17b0} ours-only {17e8}; disps stock-only {1808} ours-only {}
+1006db30,NConsoleWnd::ReceiveAddTradeOtherItem,note,consts stock-only {17b0} ours-only {17e8}; disps stock-only {1808} ours-only {}
+1006de30,NConsoleWnd::ReceiveTradeUpdate,note,consts stock-only {17b4} ours-only {17bc}
+1006e130,NConsoleWnd::AddManorBuyList,note,consts stock-only {17b4} ours-only {17c0}
+1006e420,NConsoleWnd::AddManorSellList,note,consts stock-only {17b4} ours-only {17c0}
+1006e710,NConsoleWnd::AddBuyList,note,consts stock-only {17b4} ours-only {17c0}
+1006ecf0,NConsoleWnd::AddSellList,note,consts stock-only {17b4} ours-only {17c0}
+1006efe0,NConsoleWnd::AddDepositList,note,consts stock-only {17b4} ours-only {17c0}
+1006f2d0,NConsoleWnd::AddWithdrawList,note,consts stock-only {17b4} ours-only {17c0}
+1006f5c0,NConsoleWnd::AddAcquireSkillExtendedInfo,note,consts stock-only {17c0} ours-only {17c8}; disps stock-only {1808} ours-only {}
+1006f860,NConsoleWnd::AddRecipeBookItem,note,"consts stock-only {17ac} ours-only {17b4}; disps stock-only {} ours-only {28, 3968}"
+1006f990,NConsoleWnd::AddRecipeShopManageItem,note,"consts stock-only {17ac} ours-only {17b4}; disps stock-only {} ours-only {28, 3968}"
+1006fad0,NConsoleWnd::AddRecipeShopRegisterdItem,note,"consts stock-only {17ac} ours-only {17b4}; disps stock-only {} ours-only {28, 3968}"
+1006fc20,NConsoleWnd::AddRecipeShopSellItem,note,"disps stock-only {} ours-only {28, 3968}"
+1006fd60,NConsoleWnd::ReceiveMacroListInfo,note,"consts stock-only {10c, 390, 3fc, 42, 4c, 5fa0, ab0} ours-only {}; disps stock-only {11c, 120, 12c, 13a, 17c, 192, 288} ours-only {}; strs stock-only {new} ours-only {}"
+1006ffc0,NConsoleWnd::UseShortCutEquip,ok,
+10070070,NConsoleWnd::RequestShortCutReg,ok,
+100700a0,NConsoleWnd::AddShortCutItem,note,consts stock-only {17b0} ours-only {17b4}
+10070420,NConsoleWnd::RequestAssist,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+10070500,NConsoleWnd::ReceiveAction,ok,
+10070570,NConsoleWnd::ReceiveAskJoinPledge,ok,
+10070680,NConsoleWnd::ReceiveStartPledgeWar,ok,
+100707a0,NConsoleWnd::ReceiveStopPledgeWar,ok,
+100708c0,NConsoleWnd::ReceiveAskJoinAlly,ok,
+100709e0,NConsoleWnd::StartAllianceWar,ok,
+10070b00,NConsoleWnd::StopAllianceWar,ok,
+10070c20,NConsoleWnd::AddSendableItemList,note,consts stock-only {17b4} ours-only {17b8}
+10070f70,NConsoleWnd::ReceiveFriendAddRequest,ok,
+10071030,NConsoleWnd::ReceiveAskJoinParty,note,"consts stock-only {4617c, 461ac, 4ab8c, 4abbc, 4abec} ours-only {}"
+100711e0,NConsoleWnd::ShowPetStatusWnd,ok,
+10071250,NConsoleWnd::HideSummonWnd,ok,
+100712e0,NConsoleWnd::HidePetWnd,ok,
+10071370,NConsoleWnd::AddPetInventoryItem,note,consts stock-only {17b8} ours-only {17bc}; disps stock-only {1808} ours-only {}
+10071680,NConsoleWnd::UpdatePetInventoryItem,note,consts stock-only {17b4} ours-only {17bc}
+100719a0,NConsoleWnd::GMViewAddInventoryItem,note,consts stock-only {17b8} ours-only {17bc}; disps stock-only {1808} ours-only {}
+10071cd0,NConsoleWnd::GMViewAddWithdrawList,note,consts stock-only {17b4} ours-only {17bc}
+10071fa0,NConsoleWnd::PrivateStoreManageList,note,consts stock-only {2f5c} ours-only {2f68}; disps stock-only {1808} ours-only {}
+10072620,NConsoleWnd::PrivateStoreList,note,consts stock-only {17b0} ours-only {17bc}
+100729a0,NConsoleWnd::PrivateStoreBuyManageList,note,consts stock-only {2f5c} ours-only {2f68}; disps stock-only {1808} ours-only {}
+10072fc0,NConsoleWnd::PrivateStoreBuyList,note,consts stock-only {17b0} ours-only {17bc}
+10073350,NConsoleWnd::AddVIPItemList,ok,
+10073550,NConsoleWnd::AddVIPNeedItemList,ok,
+10073630,NConsoleWnd::Say2,note,consts stock-only {669ec} ours-only {}
+10073770,NConsoleWnd::ShowSystemMessage,note,consts stock-only {bb8} ours-only {bb7}
+100738a0,NConsoleWnd::UpdateTargetWindow,note,strs stock-only {} ours-only {NConsoleWnd::IsSelectedTarget}; globs stock-only {1026e44c} ours-only {}
+100739c0,NConsoleWnd::GetItemName,note,disps stock-only {1808} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::GetItemName}
+10073a70,NConsoleWnd::IsMagicArmor,note,disps stock-only {1808} ours-only {}
+10074870,NConsoleWnd::Destroy,note,disps stock-only {} ours-only {3994}; strs stock-only {} ours-only {NConsoleWnd::Finalize}
+10074ab0,NConsoleWnd::UseAction,note,"consts stock-only {1b0, 418ec, 4194c, 4fcbc} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8}"
+10075500,TSysMsgParamArray::~TSysMsgParamArray,ok,
+10075590,TTimerArray::~TTimerArray,ok,
+10075a10,NConsoleWnd::Tick,note,"consts stock-only {41, f:00000000, f:00002041} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::Tick}; globs stock-only {} ours-only {1027ba78}"
+10075c80,NConsoleWnd::ConsolePostRender,note,strs stock-only {} ours-only {NConsoleWnd::ConsolePostRender}
+10075d50,NConsoleWnd::MasterConsoleEventProcess,note,strs stock-only {} ours-only {NConsoleWnd::MasterConsoleEventProcess}
+10075ff0,NConsoleWnd::ReceiveWareHouseDone,ok,
+10076020,NConsoleWnd::UseShortCut,ok,
+10076890,NConsoleWnd::ReceiveJoinPledge,ok,
+100768c0,NConsoleWnd::ReceiveCreatePledge,note,consts stock-only {bd} ours-only {}
+10076900,NConsoleWnd::ReceiveOustPledgeMember,note,consts stock-only {135} ours-only {}
+10076940,NConsoleWnd::ReceiveDismissPledge,note,consts stock-only {c1} ours-only {}
+10076980,NConsoleWnd::ReceiveWithdrawalPledge,note,consts stock-only {c5} ours-only {fffffc65}
+100769c0,NConsoleWnd::ReceiveOustPledgeMessage,ok,
+100769e0,NConsoleWnd::ReceiveDismissPledgeMessage,note,"consts stock-only {c1, ffff0000} ours-only {4e6487}"
+10076a20,NConsoleWnd::ReceiveReplyStartPledgeWar,ok,
+10076a60,NConsoleWnd::ReceiveReplyStopPledgeWar,ok,
+10076aa0,NConsoleWnd::ReceiveSurrenderPledgeWar,ok,
+10076ad0,NConsoleWnd::ReceiveSurrenderPersonally,ok,
+10076b00,NConsoleWnd::ReceiveJoinAlly,ok,
+10076b40,NConsoleWnd::ReceiveFriendAddRequestResult,note,consts stock-only {20d} ours-only {}
+10076b80,NConsoleWnd::ReceiveJoinParty,ok,
+10076bb0,NConsoleWnd::ReceiveOustPartyMember,ok,
+10076be0,NConsoleWnd::ReceiveOustPartyMessage,ok,
+10076c00,NConsoleWnd::ReceiveDismissPartyMessage,ok,
+10076c20,NConsoleWnd::NpcHtmlMessage,note,consts stock-only {66f5c} ours-only {}
+10076cf0,NConsoleWnd::AddSystemMessageParam,ok,
+10076de0,NConsoleWnd::EndSystemMessageParam,note,"consts stock-only {1ff, bb8, cc, fffffff8} ours-only {24c, 2ba3, 3f650, 3f65c, 7fe, 800, bb7, fffffff1}; disps stock-only {} ours-only {5400}"
+10077260,NConsoleWnd::IsValidName,ok,
+10077330,NConsoleWnd::MakeSystemMessage,note,"consts stock-only {1ff, 3980, fffffff8} ours-only {24c, 2ba3, 800, fffffff1}; disps stock-only {} ours-only {24, 28, 2c, 5400}"
+10077770,NConsoleWnd::InitForPawnViewer,note,strs stock-only {} ours-only {NConsoleWnd::InitForPawnViewer}
+10078ab0,NConsoleWnd::Init,note,strs stock-only {} ours-only {NConsoleWnd::Init}
+10078b60,NConsoleWnd::DispatchWndMsg,note,"consts stock-only {100, 101, 201, 21, 22, 25, 26, 27, 28, 2c, 2d, 3e99999a, c8, c9, ca, cb, cc, cd, ce, cf, d0, d1, d2, d3, d4, d5, d6, d7} ours-only {}; disps stock-only {110, 1650, 1654, 22c, 2c, 320, 392c, 394c, 3950, 395c, 39b0, 48, 4f4, 5d8, 80, 84, 9c, b4, c8, cc, d0, ef0} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::DispatchWndMsg}; globs stock-only {1027107c} ours-only {}"
+10078bf0,NConsoleWnd::ShowTrainInfoWnd,ok,
+10078e70,NConsoleWnd::UseShortCutSlot,ok,
+10078ea0,NConsoleWnd::FormatDateTime,ok,
+100791c0,NCCreditWnd::FreeFont,ok,
+10079240,NCCreditWnd::OnDestroy,ok,
+10079400,NCreditTable::Find,ok,
+10079640,NCCreditWnd::OnLButtonDown,ok,
+10079b40,NCDebugWnd::OnPaint,note,"consts stock-only {f:00000040, f:00008041, ff, ff646464, ffdcdcdc} ours-only {}; disps stock-only {1d4, 1e0, 1e4, 1f8, 200, 204, 208, 210, 214, 218, 2c, 30, 38, 3c, 40, 44, 48, 4c, 5c} ours-only {}"
+10079b60,NCDebugWnd::SetBackTexture,ok,
+10079b90,NCDebugWnd::AddLog,note,"consts stock-only {1f74} ours-only {1f78}; disps stock-only {} ours-only {40, 44}"
+10079c10,NCDebugWnd::LoadCategories,note,consts stock-only {} ours-only {40}; disps stock-only {} ours-only {44}; globs stock-only {10207788} ours-only {10207748}
+10079db0,NCDebugWnd::OnDestroy,note,strs stock-only {} ours-only {NCDebugWnd::OnDestroy}
+10079eb0,NCDebugWnd::NCDebugWnd,ok,
+10079f00,NCDebugWnd::~NCDebugWnd,ok,
+10079f50,"NCDebugWnd::NCDebugWnd(INT A, INT B)",note,"disps stock-only {1d4, 1d8, 1e4, 1e8, 1ec, 1f0, 1f4, 1f8, 1fc, 200, 204, 208, 20c, 210, 214, 218, 21c, c8, cc, d0, d4} ours-only {}"
+10079f90,NCDeliverWnd::SetTargetID,ok,
+10079fa0,NCDeliverWnd::Clear,ok,
+10079fe0,NCDeliverWnd::ShowWindow,ok,
+10079ff0,NCDeliverWnd::HideWindow,ok,
+1007a000,NCDeliverWnd::OnCancel,ok,
+1007a020,NCDeliverWnd::UpdateFee,ok,
+1007a080,NCSelectDeliverWnd::WindowProc,ok,
+1007a120,NCSelectDeliverWnd::AddTarget,note,consts stock-only {} ours-only {e0}; disps stock-only {e0} ours-only {}
+1007a190,NCSelectDeliverWnd::Clear,ok,
+1007a1c0,NCSelectDeliverWnd::ShowWindow,ok,
+1007a1d0,NCSelectDeliverWnd::HideWindow,ok,
+1007a1e0,NCSelectDeliverWnd::OnOK,ok,
+1007a280,NCSelectDeliverWnd::OnSelect,ok,
+1007b7a0,NCDeliverWnd::NCDeliverWnd,ok,
+1007b830,NCDeliverWnd::~NCDeliverWnd,ok,
+1007bd50,NCSelectDeliverWnd::NCSelectDeliverWnd,ok,
+1007bdb0,NCSelectDeliverWnd::~NCSelectDeliverWnd,ok,
+1007be30,NCEmpowerWnd::WindowProc,ok,
+1007bee0,NCOptionWnd::OnCancel,ok,
+1007bef0,NCEmpowerWnd::OnDestroy,note,strs stock-only {} ours-only {NCEmpowerWnd::OnDestroy}
+1007c0c0,NCEmpowerWnd::ClearChecks,ok,
+1007c120,NCEmpowerWnd::ShowPower,ok,
+1007c3b0,NCEmpowerWnd::OnHeadA,ok,
+1007c450,NCEmpowerWnd::OnHeadB,ok,
+1007c4e0,NCEmpowerWnd::OnHeadC,ok,
+1007c710,NCEmpowerWnd::HideWindow,ok,
+1007d440,FL2FontPage::Find,ok,
+1007d470,FL2FontPageEx::FindEx,ok,
+1007d4a0,FL2FontPageEx::GetMaskValue,ok,
+1007d4f0,NL2Font::NL2Font,ok,
+1007d530,NL2Font::GetChar,ok,
+1007d5d0,NL2Font::GetCharMask,ok,
+1007d630,NL2Font::GetCharMaskValue,ok,
+1007d680,FL2FontPage::FL2FontPage,ok,
+1007d6c0,NL2Font::GetTexture,ok,
+1007d6d0,NL2Font::HasTexture,ok,
+1007d710,NL2Font::~NL2Font,ok,
+1007d770,FL2FontPage::Load,ok,
+1007d7f0,FL2FontPage::Free,ok,
+1007d820,FL2FontPageEx::LoadEx,ok,
+1007d8d0,NL2Font::GetMaterial,ok,
+1007da10,ConstructFinalBlend,ok,
+1007db10,FL2FontPage::~FL2FontPage,ok,
+1007db20,FL2FontPageEx::FL2FontPageEx,ok,
+1007db40,FL2FontPageEx::~FL2FontPageEx,ok,
+1007dfa0,NL2Font::Clear,ok,
+1007e070,NCGMEquipItemWnd::WindowProc,ok,
+1007e090,NCGMEquipItemWnd::OnLButtonUp,ok,
+1007e220,NCGMInventoryWnd::ShowWindow,ok,
+1007e240,NCGMInventoryWnd::AddHenna,ok,
+1007e250,NCGMInventoryWnd::ClearHennas,ok,
+1007e280,NCGMSkillItemWnd::OnLButtonUp,ok,
+1007e2a0,NCSkillWnd::AddSkill,note,"disps stock-only {1d4, 1d8} ours-only {}"
+1007e2e0,NCGMMagicSkillWnd::ClearSkills,ok,
+1007e330,NCGMStoreWnd::WindowProc,ok,
+1007e350,NCGMStoreWnd::OnCreate,ok,
+1007e9c0,NCGMWnd::OnClose,ok,
+1007eb20,NCGMWnd::OnNewButton1,ok,
+1007f650,NCGMInventoryWnd::OnDestroy,ok,
+1007f780,NCGMSkillWnd::OnDestroy,note,strs stock-only {} ours-only {NCGMSkillWnd::OnDestroy}
+1007f880,NCGMMagicSkillWnd::OnDestroy,note,strs stock-only {} ours-only {NCGMMagicSkillWnd::OnDestroy}
+1007f9d0,NCGMMagicSkillWnd::HideWindow,ok,
+10081e60,NCGMActionWnd::OnDestroy,ok,
+100835b0,TCoolTimeArray::~TCoolTimeArray,ok,
+100862b0,NCDebugWnd::OnCreate,note,"consts stock-only {f0f01406, f0f01407, f0f01408, f:00007041, f:0000f041} ours-only {}; disps stock-only {1d8, 1dc, 1ec, 1f0, 1f4, 38, 3c, 54, 64, c8} ours-only {}; strs stock-only {L2UI_CH3.ScrollBar.ScrollBarDownBtn, L2UI_CH3.ScrollBar.ScrollBarDownOnBtn, L2UI_CH3.ScrollBar.ScrollBarUpBtn, L2UI_CH3.ScrollBar.ScrollBarUpOnBtn, L2UI_CH3.ScrollBar.SliderBarBottom, L2UI_CH3.ScrollBar.SliderBarCenter,"
+100862c0,NCTrainListBox::OnLButtonDown,ok,
+10086340,NCHennaListWnd::WindowProc,ok,
+100863a0,NCHennaListWnd::Clear,ok,
+10086420,NCHennaInfoWnd::WindowProc,ok,
+100864a0,NCHennaInfoWnd::ClearParams,ok,
+100866b0,NCHennaInfoWnd::OnOK,ok,
+10086710,NCHennaInfoWnd::OnCancel,ok,
+10086ba0,NCHennaListWnd::OnDestroy,note,strs stock-only {} ours-only {NCHennaListWnd::OnDestroy}
+10087cb0,NCHennaInfoWnd::OnDestroy,note,strs stock-only {} ours-only {NCHennaInfoWnd::OnDestroy}
+10087d80,NCHennaListBox::OnDestroy,note,strs stock-only {} ours-only {NCHennaListBox::OnDestroy}
+10087fe0,NCHennaListWnd::AddEntry,ok,
+10088220,TPtrArray::~TPtrArray,ok,
+10088310,NCHennaListBox::~NCHennaListBox,ok,
+100885f0,NCHennaInfoWnd::NCHennaInfoWnd,ok,
+10088770,NCEquipItemWnd::WindowProc,ok,
+10088850,NCEquipItemWnd::SetEnchantMode,ok,
+10088860,NCEquipItemWnd::GetEquipSlot,ok,
+10088880,NCInventoryWnd::WindowProc,ok,
+10088a20,NCInventoryWnd::OnManufacture,ok,
+100890b0,NCEquipItemWnd::UnselectAll,ok,
+10089200,NCEquipItemWnd::HitTestHenna,note,"consts stock-only {1a34} ours-only {}; disps stock-only {} ours-only {1a34, 1a38, 1a3c, 1a40}"
+10089290,NCEquipItemWnd::UpdateItem,ok,
+10089390,NCEquipItemWnd::HasItem,ok,
+100893e0,NCEquipItemWnd::FindItem,ok,
+10089950,NCInvenItemWnd::UpdateItem,ok,
+10089a50,NCInvenItemWnd::GetAdena,ok,
+1008a3b0,NCInventoryWnd::SetEnchantMode,ok,
+1008a420,NCInventoryWnd::ReloadTexts,note,"disps stock-only {} ours-only {104, 108}"
+1008a5b0,NCInventoryWnd::FindItem,ok,
+1008a620,NCEquipItemWnd::OnLButtonDown,note,strs stock-only {} ours-only {NCEquipItemWnd::OnLButtonDown}
+1008b900,NCEquipItemWnd::OnLButtonDblClick,note,"disps stock-only {} ours-only {98, 9c, a4, a8}"
+1008bb60,NCEquipItemWnd::AddItem,ok,
+1008c830,NCInvenItemWnd::AddItem,ok,
+1008ca60,NCInventoryWnd::AddItem,note,disps stock-only {104} ours-only {}
+1008ccd0,NCInventoryWnd::MoveLastToFront,note,consts stock-only {10c} ours-only {}
+1008cd30,NCInventoryWnd::HideWindow,ok,
+1008cd60,NCEquipItemWnd::OnDestroy,note,strs stock-only {} ours-only {NCEquipItemWnd::OnDestroy}
+1008ce30,NCEquipItemWnd::RemoveItem,note,consts stock-only {d0} ours-only {1a34}; disps stock-only {} ours-only {1914}
+1008cea0,NCEquipItemWnd::Clear,note,consts stock-only {} ours-only {1a34}
+1008d070,NCInvenItemWnd::RemoveItem,note,consts stock-only {10c} ours-only {1a34}; disps stock-only {} ours-only {1914}
+1008d2b0,NCInventoryWnd::ClearItems,ok,
+1008d3c0,NCInventoryWnd::UpdateItem,ok,
+1008d530,NCInventoryWnd::AddHenna,ok,
+1008d720,NCInventoryWnd::ApplyItemOrder,ok,
+1008e350,NCEquipItemWnd::ClearHennas,note,consts stock-only {} ours-only {1a44}
+1008e3b0,NCInventoryWnd::ClearHennas,ok,
+1008e620,NCLoadingWnd::NCLoadingWnd,ok,
+1008e670,NCLoadingWnd::~NCLoadingWnd,ok,
+1008f350,NCPawnSelectWnd::WindowProc,ok,
+1008f3d0,NCPawnSelectWnd::SpawnCharacter,ok,
+1008f410,NCPawnSelectWnd::SelectCharacter,ok,
+1008f460,NCPawnSelectWnd::GetSelected,ok,
+1008f470,NCPawnSelectWnd::GetCharacterName,note,consts stock-only {} ours-only {e0}; disps stock-only {e0} ours-only {}
+1008f4c0,NCPawnSelectWnd::ClearCharacters,ok,
+1008f540,NCPawnSelectWnd::OnRestoreAnswer,ok,
+1008f600,NCLobbyWnd::WindowProc,ok,
+1008f680,NCLobbyWnd::ClearCharacters,ok,
+1008f6a0,NCLobbyWnd::OnStart,note,"consts stock-only {41cac, ffff} ours-only {}"
+1008f770,NCLobbyWnd::OnStartClick,note,consts stock-only {3fc00000} ours-only {f:0000c03f}
+1008f7b0,NCLobbyWnd::OnPreviousClick,note,consts stock-only {3fc00000} ours-only {f:0000c03f}
+1008f7f0,NCLobbyWnd::OnCreateCharacter,note,consts stock-only {404ac} ours-only {}
+1008f840,NCLobbyWnd::OnDialogResult,ok,
+1008f900,NCLobbyWnd::ShowWindow,ok,
+1008f9c0,NCPawnSelectWnd::OnPaint,note,"consts stock-only {65ce4, 65eac, 65f48} ours-only {}; strs stock-only {} ours-only {NCPawnSelectWnd::OnPaint}"
+10090190,NCPawnSelectWnd::OnDestroy,ok,
+10090240,NCPawnSelectWnd::AddCharacter,note,consts stock-only {ffff} ours-only {e0}; disps stock-only {} ours-only {4ec}
+10090370,NCPawnSelectWnd::OnSelect,note,"consts stock-only {417fc, ffff} ours-only {}"
+10090650,NCLobbyWnd::AddCharacter,ok,
+100906a0,NCLobbyWnd::OnPaint,note,"consts stock-only {4d46c, ffff, ffff0000} ours-only {27ac, ffffff00}; disps stock-only {27ac} ours-only {1b4, 1b8}; strs stock-only {} ours-only {NCLobbyWnd::OnPaint}"
+10090910,NCLobbyWnd::OnDestroy,ok,
+100909e0,NCLobbyWnd::OnDelete,note,consts stock-only {404dc} ours-only {}
+10090b20,NCPawnSelectWnd::OnCreate,note,"consts stock-only {230} ours-only {}; disps stock-only {} ours-only {460, 690, 8c0, af0, d20, f50}"
+10090c40,NCPawnSelectWnd::NCPawnSelectWnd,ok,
+10090d60,NCLobbyWnd::NCLobbyWnd,ok,
+10090e40,NCLobbyWnd::OnCreate,note,consts stock-only {661e8} ours-only {}
+10091f80,NCKeyCryptWarningDialogBox::WindowProc,ok,
+10091fe0,NCKeyCryptWarningDialogBox::OnOK,ok,
+10091ff0,NCAuthWnd::WindowProc,ok,
+10092090,NCAuthWnd::ClearPassword,ok,
+100920a0,NCAuthWnd::OnOK,note,"consts stock-only {4065c, 4068c, 4071c, 4ddfc} ours-only {}"
+10092230,NCAuthWnd::ShowWindow,ok,
+10092270,NCAuthWnd::OnTimer,ok,
+10092290,NCLoginWnd::ShowWindow,ok,
+10092330,NCLoginWnd::HideWindow,ok,
+10092360,NCLoginWnd::ResetWindows,ok,
+10092400,NCKeyCryptWarningDialogBox::OnDestroy,note,strs stock-only {} ours-only {NCKeyCryptWarningDialogBox::OnDestroy}
+100925f0,NCAuthWnd::OnPaint,note,"consts stock-only {66194, 661a0} ours-only {}; strs stock-only {} ours-only {NCAuthWnd::OnPaint}"
+10092820,NCAuthWnd::OnDestroy,ok,
+10092950,NCLoginWnd::OnDestroy,ok,
+10092b00,NCLoginWnd::OnPaint,note,strs stock-only {} ours-only {NCLoginWnd::OnPaint}
+10092d50,NCAuthWnd::OnCreate,ok,
+10093180,NCAuthWnd::NCAuthWnd,ok,
+10093250,NCLoginWnd::NCLoginWnd,ok,
+100932f0,NCLoginWnd::OnCreate,note,"consts stock-only {66188, 673c4, 67694} ours-only {}"
+10093e90,NCVIPShopItemListWnd::WindowProc,ok,
+10093f30,NCItemWnd::WindowProc,ok,
+10093f80,NCVIPShopItemInfoWnd::OnDestroy,note,"disps stock-only {54, e4, e8, f4} ours-only {}; strs stock-only {} ours-only {NCVIPShopItemInfoWnd::OnDestroy}"
+10095720,NCVIPShopItemInfoWnd::Clear,ok,
+10095730,NCVIPShopWnd::WindowProc,ok,
+10095a80,NCVIPShopItemListWnd::OnDestroy,note,strs stock-only {} ours-only {NCVIPShopItemListWnd::OnDestroy}
+10095f10,NCVIPShopWnd::OnDestroy,note,strs stock-only {} ours-only {NCVIPShopWnd::OnDestroy}
+100965a0,NCVIPShopItemListWnd::AddEntry,ok,
+100965b0,NCVIPShopNeededItemWnd::OnDestroy,note,strs stock-only {} ours-only {NCVIPShopNeededItemWnd::OnDestroy}
+10096740,NCVIPShopNeededItemWnd::Clear,note,disps stock-only {} ours-only {108}
+10096a20,NCVIPShopWnd::ShowList,note,consts stock-only {fffffff8} ours-only {}
+10096af0,NCVIPShopWnd::Reset,ok,
+10096cd0,NCVIPShopWnd::Open,ok,
+10096cf0,TVIPNeededItemArray::~TVIPNeededItemArray,ok,
+100970d0,NCVIPShopWnd::HideWindow,ok,
+100972a0,NCVIPShopItemListBox::~NCVIPShopItemListBox,ok,
+100973f0,NCVIPShopItemListWnd::OnCreate,ok,
+10097560,NCVIPShopNeededItemWnd::~NCVIPShopNeededItemWnd,ok,
+10097700,NCVIPShopWnd::~NCVIPShopWnd,ok,
+10098670,NCMSViewrWnd::HideWindow,note,strs stock-only {} ours-only {NCMSViewrWnd::HideWindow}
+10098700,NCMSViewrWnd::ShowWindow,note,strs stock-only {} ours-only {NCMSViewrWnd::ShowWindow}
+10098840,NCMSView_CharacterSelectWnd::WindowProc,ok,
+10098ac0,NCMSViewrWnd::OnDestroy,note,strs stock-only {} ours-only {NCMSViewrWnd::OnDestroy}
+10098ed0,NCMSView_CharacterSelectWnd::OnDestroy,note,strs stock-only {} ours-only {NCMSView_CharacterSelectWnd::OnDestroy}
+1009adf0,NMacroLine::NMacroLine,ok,
+1009ae20,NMacroLine::~NMacroLine,ok,
+1009ae40,NMacroEntry::GetName,note,consts stock-only {} ours-only {a48}; disps stock-only {a48} ours-only {}
+1009aeb0,NMacroEntry::Set,note,"consts stock-only {4c, 70, fc} ours-only {fe}; disps stock-only {7c, a38, a3c, a40, a48, a62, aa4, d4, dc, e4} ours-only {}"
+1009aff0,NMacroEntry::Reset,ok,
+1009b030,NMacroEntry::Select,ok,
+1009b050,NCMacroListWnd::WindowProc,ok,
+1009b300,NCMacroEditWnd::OnHelp,ok,
+1009b3e0,NCMacroEditList::InitSlider,ok,
+1009b420,NCMacroEditList::UpdateSlider,ok,
+1009b480,NCMacroEditWnd::WindowProc,ok,
+1009b590,NCMacroEditWnd::OnNextIcon,ok,
+1009b6f0,NCMacroInfoWnd::WindowProc,ok,
+1009c4e0,NCMacroListWnd::SetIcon,ok,
+1009d6f0,NCMacroArrayWnd::UnselectAll,ok,
+1009d730,NCMacroEditList::HitLine,ok,
+1009d790,NCMacroEditList::GetFocusLine,ok,
+1009de70,NCMacroEditWnd::ClearMarks,ok,
+1009df20,NCMacroEditWnd::ClearMark,ok,
+1009ee40,NCMacroListWnd::AddMacro,ok,
+1009f180,NCMacroEditList::OnDestroy,note,strs stock-only {} ours-only {NCMacroEditList::OnDestroy}
+1009f8f0,TPtrArray::~TPtrArray,ok,
+1009f980,NMacroEntry::NMacroEntry,ok,
+1009fa60,NMacroEntry::~NMacroEntry,note,disps stock-only {7c} ours-only {}
+100a1130,NCSkillWnd::ShowWindow,ok,
+100a1170,NCMagicSkillWnd::ClearSkills,ok,
+100a1aa0,NCSkillWnd::OnDestroy,note,strs stock-only {} ours-only {NCSkillWnd::OnDestroy}
+100a1bd0,NCMagicSkillWnd::OnDestroy,note,strs stock-only {} ours-only {NCMagicSkillWnd::OnDestroy}
+100a1d20,NCMagicSkillWnd::ShowWindow,ok,
+100a1da0,NCMagicSkillWnd::HideWindow,ok,
+100a1db0,NCMagicSkillWnd::ReloadSkillTexts,note,disps stock-only {70c} ours-only {70a}
+100a2940,NCManorShopWnd::SetListID,ok,
+100a2950,NCManorShopWnd::SetAdena,ok,
+100a2960,NCManorShopWnd::Clear,ok,
+100a29a0,NCManorShopWnd::HideWindow,ok,
+100a29b0,NCManorShopWnd::OnCancel,ok,
+100a3180,NCManorShopWnd::OnDestroy,ok,
+100a3980,NCManorShopWnd::SetMode,ok,
+100a39c0,NCManorShopWnd::AddShopItem,ok,
+100a39d0,NCManorShopWnd::AddPlayerItem,ok,
+100a4580,NCManorShopItemWnd::NCManorShopItemWnd,ok,
+100a45d0,NCManorShopItemWnd::~NCManorShopItemWnd,ok,
+100a7b80,NCMatchListCtrl::~NCMatchListCtrl,ok,
+100a97e0,NCRestartMenuWnd::WindowProc,ok,
+100a9940,NCRestartMenuWnd::SetRestartPoints,ok,
+100a9980,NCRestartMenuWnd::OnVillage,ok,
+100a9a00,NCRestartMenuWnd::OnHideaway,ok,
+100a9a80,NCRestartMenuWnd::OnCastle,ok,
+100a9b00,NCRestartMenuWnd::OnSiegeHQ,ok,
+100a9b80,NCRestartMenuWnd::OnFixed,ok,
+100a9c00,NCSystemMenuWnd::WindowProc,ok,
+100a9d40,NCSystemMenuWnd::OnHelp,ok,
+100a9d60,NCSystemMenuWnd::OnOptions,ok,
+100a9d80,NCSystemMenuWnd::OnHelpWindow,ok,
+100a9da0,NCSystemMenuWnd::OnBoard,ok,
+100a9dc0,NCSystemMenuWnd::OnDialogResult,ok,
+100a9f10,NCSystemMenuWnd::OnHelpPage,ok,
+100a9f90,NCMenuWnd::WindowProc,ok,
+100aa040,NCMenuWnd::OnSystem,ok,
+100aa060,NCMenuWnd::OnCharacter,ok,
+100aa080,NCMenuWnd::OnInventory,ok,
+100aa0a0,NCMenuWnd::OnCommunity,ok,
+100aa300,NCRestartMenuWnd::ShowWindow,ok,
+100aa310,NCSystemMenuWnd::OnPaint,note,"consts stock-only {66158, 66164, 66170, 6617c, 66cb0, 67094, 67be0} ours-only {}"
+100aa540,NCSystemMenuWnd::OnDestroy,note,"disps stock-only {d0, d4, d8, dc} ours-only {}; strs stock-only {} ours-only {NCSystemMenuWnd::OnDestroy}"
+100aa720,NCSystemMenuWnd::OnRestart,ok,
+100aa7c0,NCSystemMenuWnd::OnExit,ok,
+100aa860,NCSystemMenuWnd::ShowWindow,ok,
+100aa8c0,NCMenuWnd::OnPaint,ok,
+100aa9c0,NCMenuWnd::OnDestroy,note,strs stock-only {} ours-only {NCMenuWnd::OnDestroy}
+100aae90,NCSystemMenuWnd::OnCreate,ok,
+100ab3c0,NCMenuWnd::OnCreate,ok,
+100ab860,NCSystemMenuWnd::NCSystemMenuWnd,ok,
+100ab920,NCMenuWnd::NCMenuWnd,ok,
+100aba10,NCMessageWnd::OnCreate,ok,
+100aba40,NCMessageWnd::OnDestroy,note,"disps stock-only {30, 54, 5c, 6c} ours-only {}; strs stock-only {} ours-only {NCMessageWnd::OnDestroy}"
+100abac0,NCMessageWnd::ClearText,ok,
+100abad0,NCMessageWnd::SetText,ok,
+100abaf0,NCMessageWnd::OnPaint,ok,
+100abc80,NCMessageWnd::NCMessageWnd,ok,
+100abd10,NCMessageWnd::~NCMessageWnd,ok,
+100ac260,NTownMapWnd::SetMap,ok,
+100ac530,NCObserverWnd::WindowProc,ok,
+100affc0,NCObserverWnd::NCObserverWnd,ok,
+100b0010,NCObserverWnd::~NCObserverWnd,ok,
+100b0ac0,NCWarningWnd::WindowProc,ok,
+100b0b20,NCWarningWnd::SetText,ok,
+100b0b40,NCWarningWnd::ClearText,ok,
+100b0b50,NCWarningWnd::OnOK,ok,
+100b0b70,NCWarningWnd::OnKeyDown,ok,
+100b0bb0,NCWarningWnd::ShowWindow,ok,
+100b0be0,NCWarningWnd::HideWindow,ok,
+100b0c00,NCEulaWnd::WindowProc,ok,
+100b0c80,NCEulaWnd::SetText,ok,
+100b0ca0,NCEulaWnd::ClearText,ok,
+100b0d60,NCAnnounceWnd::WindowProc,ok,
+100b0f90,NCWarningWnd::OnDestroy,note,strs stock-only {} ours-only {NCWarningWnd::OnDestroy}
+100b1060,NCWarningWnd::OnPaint,note,strs stock-only {} ours-only {NCNoticeWnd::OnPaint}
+100b1160,NCEulaWnd::OnDestroy,note,strs stock-only {} ours-only {NCEulaWnd::OnDestroy}
+100b1490,NCAnnounceWnd::OnDestroy,note,strs stock-only {} ours-only {NCAnnounceWnd::OnDestroy}
+100b1890,NCWarningWnd::NCWarningWnd,ok,
+100b1930,NCWarningWnd::OnCreate,ok,
+100b1ea0,NCNpcView_InvenItemWnd::OnLButtonDblClick,note,strs stock-only {} ours-only {NCNpcView_InvenItemWnd::OnLButtonDblClick}
+100b2190,NCNpcViewrWnd::HideWindow,note,strs stock-only {} ours-only {NCNpcViewrWnd::HideWindow}
+100b2220,NCNpcViewrWnd::ShowWindow,note,strs stock-only {} ours-only {NCNpcViewrWnd::ShowWindow}
+100b2360,NCAuthWnd::OnPasswordNotify,ok,
+100b2380,NCNpcView_CharacterSelect_List::WindowProc,ok,
+100b2520,NCNpcView_CharacterSelect_List::SetTopIndex,ok,
+100b2540,NCNpcView_CharacterSelect_List::OnMouseWheel,ok,
+100b2560,NCNpcView_CharacterSelect_List::SetScrollRange,ok,
+100b2840,NCNpcViewrWnd::OnDestroy,note,strs stock-only {} ours-only {NCNpcViewrWnd::OnDestroy}
+100b3c70,NCNpcView_CharacterSelectWnd::OnToggleNames,ok,
+100b5060,NCNpcView_CharacterSelectWnd::OnReset,ok,
+100b52c0,NCNpcView_CharacterSelect_List::~NCNpcView_CharacterSelect_List,ok,
+100b6830,NCVideoOptionWnd::WindowProc,ok,
+100b68d0,NCVideoOptionWnd::InitModes,ok,
+100b6a70,NCAudioOptionWnd::ClearItems,ok,
+100b6aa0,NCAudioOptionWnd::SelectVolumes,note,"consts stock-only {f:00000000, f:0000803f} ours-only {}"
+100b6fe0,NCAudioOptionWnd::InitVolumes,ok,
+100b71a0,NCGameOptionWnd::WindowProc,ok,
+100b7220,NCGameOptionWnd::OnReset,ok,
+100b7240,NCGameOptionWnd::ShowWindow,ok,
+100b72a0,NCOptionWnd::WindowProc,ok,
+100b7340,NCVideoOptionWnd::OnPaint,note,"consts stock-only {66458, 66464, 66470, 66494, 664a0, 66b00, 66b0c, 673dc, 67664, 67700, 6833c} ours-only {}; strs stock-only {} ours-only {NCVideoOptionWnd::OnPaint}"
+100b78e0,NCVideoOptionWnd::OnDestroy,note,strs stock-only {} ours-only {NCVideoOptionWnd::OnDestroy}
+100b7cd0,NCVideoOptionWnd::ClearItems,ok,
+100b7da0,NCVideoOptionWnd::OnResolutionChanged,note,disps stock-only {} ours-only {78}
+100b7ef0,NCVideoOptionWnd::LoadSettings,note,consts stock-only {f:0000803f} ours-only {}
+100b8550,NCVideoOptionWnd::Apply,note,"consts stock-only {3f000000, 3f800000, 3fc00000, 40000000, 40200000, 40400000, 40600000, 40800000, 40900000, 40a00000, 40b00000, 40c00000, 40d00000, 40e00000, 40f00000, 41000000, f:0000803f, fffffff8} ours-only {f:0000003f, f:00000040, f:00002040, f:00004040, f:00006040, f:00008040, f:00009040, f:0000b040, f:0000c03f, f:0000d040, f:0000f040}"
+100b9490,NCVideoOptionWnd::OnLowerDetailClicked,ok,
+100b9670,NCAudioOptionWnd::OnPaint,note,"consts stock-only {664ac, 664b8, 68858, 68864} ours-only {}; strs stock-only {} ours-only {NCOptionWnd::OnPaint}"
+100b98a0,NCAudioOptionWnd::OnDestroy,note,strs stock-only {} ours-only {NCAudioOptionWnd::OnDestroy}
+100b9a50,NCAudioOptionWnd::Apply,note,"consts stock-only {3e4ccccd, 3ecccccd, 3f19999a, 3f4ccccd, 3f800000, 41, f:00000000} ours-only {f:9a99193f, f:cdcc4c3e, f:cdcc4c3f, f:cdcccc3e}"
+100b9f20,NCGameOptionWnd::OnPaint,note,"consts stock-only {669f8, 66ef0, 670f4, 67154, 68870} ours-only {}; strs stock-only {} ours-only {NCOptionWnd::OnPaint}"
+100ba200,NCGameOptionWnd::OnDestroy,note,strs stock-only {} ours-only {NCGameOptionWnd::OnDestroy}
+100ba530,NCGameOptionWnd::ClearItems,ok,
+100ba610,NCGameOptionWnd::LoadSettings,note,disps stock-only {39c0} ours-only {}
+100baab0,NCGameOptionWnd::Apply,note,disps stock-only {39c0} ours-only {}
+100bb020,NCGameOptionWnd::OnOtherPCClicked,ok,
+100bb1b0,NCOptionWnd::OnDestroy,ok,
+100bb440,NCVideoOptionWnd::InitItems,ok,
+100bb800,NCAudioOptionWnd::OnCreate,ok,
+100bba80,NCGameOptionWnd::InitItems,note,"consts stock-only {67160, 6716c, 67ff4, 68000, 6800c, 6887c, 68888, 68894, 688a0} ours-only {}"
+100bbd00,NCOptionWnd::ShowWindow,ok,
+100bbd60,NCVideoOptionWnd::OnCreate,ok,
+100bc810,NCGameOptionWnd::OnCreate,ok,
+100bd3c0,NCVideoOptionWnd::NCVideoOptionWnd,ok,
+100bd470,NCAudioOptionWnd::NCAudioOptionWnd,ok,
+100bd520,NCGameOptionWnd::NCGameOptionWnd,ok,
+100be2e0,NCSelectCtrl::WindowProc,ok,
+100be360,NCSelectCtrl::SelectPrev,ok,
+100be3b0,NCSelectCtrl::SelectNext,ok,
+100be490,NCPawnInfoWnd::ClearText,ok,
+100be4d0,NCPawnSetupWnd::WindowProc,ok,
+100be5d0,NCPawnSetupWnd::ShowWindow,ok,
+100be5f0,NCPawnSetupWnd::GetCharacterType,ok,
+100be730,NCPawnSetupWnd::SetMakingRace,ok,
+100be840,NCPawnCreateWnd::HideWindow,ok,
+100be930,NCPawnCreateWnd::ShowWindow,ok,
+100bef90,NCPawnSetupWnd::OnDestroy,ok,
+100bf1a0,NCPawnSetupWnd::Reset,ok,
+100c0400,NCPawnCreateWnd::Reset,ok,
+100c06f0,NCSelectCtrl::ClearItems,ok,
+100c0920,NCSelectCtrl::OnDestroy,ok,
+100c0aa0,NCPawnSetupWnd::InitSelectors,ok,
+100c0c80,NCPawnSetupWnd::OnRace,ok,
+100c14c0,NCSelectCtrl::~NCSelectCtrl,ok,
+100c2200,NCPawnView_InvenItemWnd::OnLButtonDblClick,note,strs stock-only {} ours-only {NCPawnView_InvenItemWnd::OnLButtonDblClick}
+100c2290,NCPawnViewrWnd::WindowProc,ok,
+100c24b0,NCPawnViewrWnd::HidePages,ok,
+100c24f0,NCPawnViewrWnd::AddAllCharacter,note,"consts stock-only {662c0, 662cc} ours-only {}; strs stock-only {} ours-only {NCPawnViewrWnd::AddAllCharacter}"
+100c2d40,NCPawnViewrWnd::GetItemCategory,ok,
+100c2dd0,NCPawnViewrWnd::FillItemInfo,note,"consts stock-only {} ours-only {400, 500, 600, 700}; disps stock-only {500, 600, 700} ours-only {}"
+100c3000,NCPawnViewrWnd::OnSaveEquipment,note,"disps stock-only {764, ac, b0, b4, b8, bc, c0, c4, c8, cc} ours-only {810, 814, 818, 81c, 820, 824, 828, 82c, 830}"
+100c31d0,NCPawnViewrWnd::OnLoadEquipment,note,consts stock-only {} ours-only {764}; disps stock-only {764} ours-only {}
+100c3390,NCPawnViewrWnd::Clear,note,strs stock-only {} ours-only {NCPawnViewrWnd::Clear}
+100c3450,NCPawnViewrWnd::HideWindow,note,strs stock-only {} ours-only {NCPawnViewrWnd::HideWindow}
+100c34e0,NCPawnViewrWnd::AddItem,note,strs stock-only {new} ours-only {NCPawnViewrWnd::AddItem}
+100c35c0,NCPawnViewrWnd::OnSearchEdit,ok,
+100c35e0,NCPawnViewrWnd::OnRangeEdit,ok,
+100c3600,NCPawnView_CharacterSelectWnd::WindowProc,ok,
+100c36a0,NCPawnView_InvenTextWnd::WindowProc,ok,
+100c3700,NCPawnViewr_MixAnimWnd::WindowProc,ok,
+100c37b0,NCPawnViewr_MixAnimWnd::OnTake1,ok,
+100c3810,NCPawnViewr_MixAnimWnd::OnTake2,ok,
+100c3870,NCPawnViewr_MixAnimWnd::OnTake3,ok,
+100c38d0,NCPawnView_CharacterSelect_List::OnCreate,note,"consts stock-only {f0f01406, f0f01407, f0f01408, f:00007041, f:0000f041} ours-only {}; disps stock-only {1d8, 1dc, 1ec, 1f0, 1f4, 38, 3c, 54, 64, c8} ours-only {}; strs stock-only {L2UI_CH3.ScrollBar.ScrollBarDownBtn, L2UI_CH3.ScrollBar.ScrollBarDownOnBtn, L2UI_CH3.ScrollBar.ScrollBarUpBtn, L2UI_CH3.ScrollBar.ScrollBarUpOnBtn, L2UI_CH3.ScrollBar.SliderBarBottom, L2UI_CH3.ScrollBar.SliderBarCenter,"
+100c3950,NCPawnView_CharacterSelect_List::OnPaint,note,"consts stock-only {f:00000040, f:00008041, ff, ff646464, ffdcdcdc} ours-only {}; disps stock-only {1d4, 1e0, 1e4, 1f8, 200, 204, 208, 210, 214, 218, 2c, 30, 38, 3c, 40, 44, 48, 4c, 5c} ours-only {}; strs stock-only {} ours-only {NCPawnView_CharacterSelect_List::OnPaint}"
+100c39d0,NCPawnView_CharacterSelect_List::OnDestroy,note,"disps stock-only {1ec, 1f0, 1f4, 54} ours-only {}; strs stock-only {} ours-only {NCPawnView_CharacterSelect_List::OnDestroy}"
+100c3a60,NCNpcView_CharacterSelect_List::ScrollDown,ok,
+100c3a70,NCPawnViewr_HairChangeWnd::WindowProc,ok,
+100c3b70,NCPawnViewr_HairChangeWnd::FindMeshA,ok,
+100c3ba0,NCPawnViewr_HairChangeWnd::FindMeshB,ok,
+100c3bd0,NCPawnViewr_Simulator::WindowProc,ok,
+100c3d20,NCPawnView_InvenItemWnd::OnMouseMove,note,strs stock-only {} ours-only {NCPawnView_InvenItemWnd::OnMouseMove}
+100c3e10,NCPawnView_InvenItemWnd::OnLButtonUp,note,"consts stock-only {210} ours-only {}; disps stock-only {} ours-only {154, 158, 210, 214, 218}; strs stock-only {} ours-only {NCPawnView_InvenItemWnd::OnRButtonDown}"
+100c3fc0,NCPawnViewrWnd::OnCategoryTab,ok,
+100c4050,NCPawnViewrWnd::OnSpawnCharacter,note,"consts stock-only {1b0, 1bc, 3f800000, f:00000000, f:0000003f, f:9a991940} ours-only {41, 764, 8c, f:9a990940, fffffff8}; disps stock-only {764} ours-only {1b0, 1b4, 1b8, 1bc, 1c4}"
+100c4440,NCPawnViewrWnd::OnToggleFlag,ok,
+100c4470,NCPawnViewrWnd::OnAttackTarget,ok,
+100c44c0,NCPawnViewrWnd::OnFaceCheck,ok,
+100c4500,NCPawnViewrWnd::OnGoToMap,note,"consts stock-only {63, c47a0000} ours-only {64, f:00007ac4, fffffff8}"
+100c46a0,NCPawnViewrWnd::OnPaint,note,consts stock-only {4c8} ours-only {}; disps stock-only {71c} ours-only {4c8}; strs stock-only {} ours-only {NCPawnViewrWnd::OnPaint}
+100c4910,NCPawnViewrWnd::OnGUICheck,ok,
+100c4980,NCPawnViewrWnd::OnDestroy,note,strs stock-only {} ours-only {NCPawnViewrWnd::OnDestroy}
+100c4bf0,NCPawnViewrWnd::ShowWindow,note,strs stock-only {} ours-only {NCPawnViewrWnd::ShowWindow}
+100c4d00,NCPawnView_CharacterSelectWnd::OnPaint,note,strs stock-only {} ours-only {NCCharacterSelectWnd::OnPaint}
+100c4e30,NCTrainWnd::OnDestroy,ok,
+100c4ea0,NCPawnViewr_MixAnimWnd::SetStepAnim,note,"consts stock-only {3e4ccccd, f:00000000} ours-only {}"
+100c4fe0,NCPawnViewr_MixAnimWnd::OnPaint,note,strs stock-only {} ours-only {NCPawnViewr_MixAnimWnd::OnPaint}
+100c5100,NCPawnViewr_MixAnimWnd::OnDestroy,ok,
+100c5250,NCPawnView_CharacterSelect_List::PlayAnim,note,consts stock-only {3f800000} ours-only {}; strs stock-only {} ours-only {NCPawnView_CharacterSelect_List::PlayAnim}
+100c53a0,NCPawnViewr_HairChangeWnd::FillFaceList,note,"disps stock-only {} ours-only {144, d8, f0}"
+100c5510,NCPawnViewr_HairChangeWnd::FillMeshLists,note,"consts stock-only {11c, 16c, 36c, f4} ours-only {}; disps stock-only {} ours-only {16c, 36c}"
+100c5810,NCPawnViewr_HairChangeWnd::OnOK,ok,
+100c5a00,NCPawnViewr_HairChangeWnd::OnReset,ok,
+100c5ab0,NCPawnViewr_HairChangeWnd::OnStyleCombo,ok,
+100c5af0,NCPawnViewr_HairChangeWnd::OnColorCombo,ok,
+100c5b60,NCPawnViewr_HairChangeWnd::OnMeshA,note,consts stock-only {16c} ours-only {}; disps stock-only {} ours-only {16c}
+100c5c90,NCPawnViewr_HairChangeWnd::OnMeshB,note,consts stock-only {36c} ours-only {}; disps stock-only {} ours-only {36c}
+100c5dc0,NCPawnViewr_HairChangeWnd::OnFace,note,consts stock-only {} ours-only {764}; disps stock-only {764} ours-only {}
+100c5ea0,NCPawnViewr_HairChangeWnd::OnPaint,note,"consts stock-only {} ours-only {16c, 36c}; disps stock-only {16c, 36c} ours-only {}; strs stock-only {} ours-only {NCPawnViewr_HairChangeWnd::OnPaint}"
+100c62a0,NCPawnViewr_HairChangeWnd::OnDestroy,ok,
+100c6390,NCPawnViewr_Simulator::OnPaint,note,strs stock-only {} ours-only {NCPawnViewr_Simulator::OnPaint}
+100c66d0,NCPawnViewr_Simulator::SpawnPawn,note,"consts stock-only {1b0, 3f800000} ours-only {41}; disps stock-only {} ours-only {1b0, 1b4, 1b8}"
+100c6a20,NCPawnViewr_Simulator::OnDestroy,ok,
+100c6d10,NCPawnView_InvenItemWnd::OnRButtonDown,note,"consts stock-only {} ours-only {2c8, 764}; disps stock-only {1808, 2c8} ours-only {}; strs stock-only {} ours-only {NCPawnView_InvenItemWnd::OnRButtonDown}"
+100c6fd0,NCPawnViewrWnd::OnUseWeapon,note,"consts stock-only {} ours-only {764}; disps stock-only {1808, 764} ours-only {}"
+100c70c0,NCPawnView_CharacterSelectWnd::UpdateAnimList,note,consts stock-only {} ours-only {203}
+100c7430,NCPawnView_InvenTextWnd::OnInvenItemList,note,"consts stock-only {} ours-only {1918, 2c8, 764}; disps stock-only {1808, 1918, 2c8} ours-only {}; strs stock-only {} ours-only {NCPawnView_InvenTextWnd::OnInvenItemList}"
+100c7650,NCPawnView_InvenTextWnd::OnCreate,note,strs stock-only {} ours-only {NCPawnView_InvenTextWnd::OnCreate}
+100c7790,NCPawnViewr_MixAnimWnd::OnCreate,note,consts stock-only {} ours-only {ff}
+100c7be0,NCPawnViewr_MixAnimWnd::OnStart,note,"consts stock-only {3f800000, 41, f:00000000} ours-only {}; disps stock-only {} ours-only {2fc, 300, 4f4, 4f8, 500, 504}"
+100c7dc0,NCPawnView_CharacterSelect_List::OnLButtonDblClick,note,consts stock-only {3f800000} ours-only {}; strs stock-only {} ours-only {NCPawnView_CharacterSelect_List::PlayAnim}
+100c7dd0,NCPawnView_CharacterSelect_List::OnRButtonDown,note,consts stock-only {3f800000} ours-only {}; strs stock-only {} ours-only {NCPawnView_CharacterSelect_List::PlayAnim}
+100c7de0,NCPawnViewr_HairChangeWnd::OnCreate,ok,
+100c82c0,NCPawnViewr_HairChangeWnd::SyncFromCharacter,ok,
+100c85c0,NSimPawnVector::UninitializedCopy,ok,
+100c85f0,NCPawnViewrWnd::AddAllItem,note,consts stock-only {17c4} ours-only {17c0}; strs stock-only {} ours-only {NCPawnViewrWnd::AddAllItem}
+100c8710,NCPawnViewrWnd::OnSearch,note,consts stock-only {17c0} ours-only {17bc}
+100c8900,NCPawnViewrWnd::OnViewList,ok,
+100c8990,NCPawnView_CharacterSelectWnd::OnNameComboBox,note,"consts stock-only {1b0, 3f800000} ours-only {764, fffffff8}; disps stock-only {764} ours-only {1b0, 1b4}; strs stock-only {} ours-only {NCPawnView_CharacterSelectWnd::OnNameComboBox}"
+100c8cf0,NCPawnView_CharacterSelectWnd::OnByActionCheck,note,consts stock-only {} ours-only {203}
+100c8d00,NCPawnViewr_Simulator::OnCreate,ok,
+100c9150,NCPawnViewr_Simulator::TryAction,note,"consts stock-only {3f800000} ours-only {41, 55555556}; disps stock-only {} ours-only {574, 578}"
+100c93f0,NCPawnViewr_Simulator::TryCancel,note,consts stock-only {41} ours-only {}
+100c9440,NCPawnViewr_Simulator::TryReplace,note,consts stock-only {41} ours-only {}
+100c9500,NCPawnView_InvenTextWnd::NCPawnView_InvenTextWnd,ok,
+100c9670,NCPawnViewrWnd::NCPawnViewrWnd,ok,
+100c9790,NCPawnView_CharacterSelectWnd::NCPawnView_CharacterSelectWnd,ok,
+100c9860,NCPawnViewr_MixAnimWnd::NCPawnViewr_MixAnimWnd,ok,
+100c99f0,NCPawnViewr_HairChangeWnd::NCPawnViewr_HairChangeWnd,note,"consts stock-only {16c, 36c} ours-only {}; disps stock-only {} ours-only {16c, 36c}"
+100c9ca0,NCPawnView_CharacterSelectWnd::OnCreate,note,strs stock-only {} ours-only {NCPawnView_CharacterSelectWnd::OnCreate}
+100ca070,NSimPawnVector::Reserve,ok,
+100ca180,NCPawnViewr_Simulator::OnStart,note,"consts stock-only {fffffff8} ours-only {f:0000804b, f:0000804f}"
+100ca430,NCPawnViewr_Simulator::NCPawnViewr_Simulator,ok,
+100ca4d0,NCPawnViewr_Simulator::~NCPawnViewr_Simulator,ok,
+100ca570,NCPawnViewrWnd::OnCreate,note,strs stock-only {} ours-only {NCPawnViewrWnd::OnCreate}
+100cb9e0,NCPetDetailStatusWnd::OnCreate,ok,
+100cba10,NCPetDetailStatusWnd::OnDestroy,note,"disps stock-only {30, 54, 5c, 6c} ours-only {}; strs stock-only {} ours-only {NCPetDetailStatusWnd::OnDestroy}"
+100cba90,NCInvenItemWnd::WindowProc,ok,
+100cbb40,NCPetWnd::WindowProc,ok,
+100cbc00,NCPetWnd::SetCanName,ok,
+100cbc20,NCPetWnd::ClearInventory,note,disps stock-only {} ours-only {120}
+100cbc30,NCSummonedDetailStatusWnd::OnCreate,ok,
+100cbc60,NCSummonedDetailStatusWnd::OnDestroy,note,"disps stock-only {30, 54, 5c, 6c} ours-only {}; strs stock-only {} ours-only {NCSummonedDetailStatusWnd::OnDestroy}"
+100cbd40,NCSummonedWnd::ClearActions,ok,
+100cbd60,NCPetDetailStatusWnd::OnPaint,note,"consts stock-only {65ef4, 65f00, 65f0c, 65f18, 65f24, 65f30, 65fc0, 65fcc, 65fd8, 66ecc} ours-only {}; disps stock-only {144, 148, 14c, 150, 154, 158, 15c, 160, 164, 168} ours-only {78, 7c, 80, 84, 88, 8c, 90, 94, 98, 9c}; strs stock-only {} ours-only {NCPetDetailStatusWnd::OnPaint}"
+100cc540,NCPetActionWnd::OnDestroy,ok,
+100ccb40,NCPetInvenItemWnd::UpdateItem,ok,
+100ccc40,NCPetInvenItemWnd::HasItem,ok,
+100ccc90,NCPetInvenItemWnd::FindItem,ok,
+100ccce0,NCPetInventoryWnd::OnDestroy,note,strs stock-only {} ours-only {NCPetInventoryWnd::OnDestroy}
+100ccd90,NCPetInventoryWnd::GetItem,ok,
+100ccdd0,NCPetWnd::OnDestroy,note,strs stock-only {} ours-only {NCPetWnd::OnDestroy}
+100cd860,NCPetWnd::OnName,ok,
+100cd900,NCSummonedDetailStatusWnd::OnPaint,note,"consts stock-only {65ef4, 65f00, 65f0c, 65f18, 65f24, 65f30, 65fc0, 65fcc, 65fd8, 66ecc} ours-only {}; disps stock-only {144, 148, 14c, 150, 154, 158, 15c, 160, 164, 168} ours-only {78, 7c, 80, 84, 88, 8c, 90, 94, 98, 9c}; strs stock-only {} ours-only {NCSummonedDetailStatusWnd::OnPaint}"
+100ce0e0,NCSummonedActionWnd::OnDestroy,note,strs stock-only {} ours-only {NCSummonedActionWnd::OnDestroy}
+100ce400,NCSummonedWnd::OnDestroy,note,strs stock-only {} ours-only {NCSummonedWnd::OnDestroy}
+100ce500,NCSummonedWnd::OnPaint,note,"consts stock-only {65eac, e4} ours-only {}; disps stock-only {} ours-only {e4}; strs stock-only {} ours-only {NCSummonedWnd::OnPaint}"
+100ce9b0,NCSummonedWnd::ShowWindow,ok,
+100cea30,NCSummonedWnd::HideWindow,ok,
+100ceef0,NCPetInvenItemWnd::AddItem,note,consts stock-only {10c} ours-only {}; disps stock-only {} ours-only {10c}
+100cefe0,NCPetInventoryWnd::AddItem,ok,
+100cf000,NCPetWnd::AddInventoryItem,ok,
+100cf150,NCPetInvenItemWnd::Clear,note,consts stock-only {} ours-only {1a34}
+100cf1b0,NCPetInventoryWnd::UpdateItem,ok,
+100cf230,NCPetWnd::UpdateInventoryItem,ok,
+100cf250,NCPetDetailStatusWnd::NCPetDetailStatusWnd,ok,
+100cf310,NCPetActionWnd::NCPetActionWnd,ok,
+100cf620,NCPetWnd::NCPetWnd,ok,
+100cfbd0,NCSummonedDetailStatusWnd::NCSummonedDetailStatusWnd,ok,
+100cfc90,NCSummonedActionWnd::NCSummonedActionWnd,ok,
+100cfd30,NCSummonedWnd::NCSummonedWnd,ok,
+100d0180,NCPetitionWnd::WindowProc,ok,
+100d0240,NCPetitionWnd::OnNewButton,ok,
+100d0260,NCGMPetitionWnd::WindowProc,ok,
+100d0300,NCGMPetitionWnd::OnEdit,note,consts stock-only {4ac4c} ours-only {}
+100d0470,NCPetitionWnd::AddMessage,ok,
+100d04b0,NCPetitionWnd::Clear,ok,
+100d04d0,NCGMPetitionWnd::OnStart,ok,
+100d0550,NCGMPetitionWnd::OnEnd,ok,
+100d05d0,NCGMSnoopWnd::WindowProc,ok,
+100d0630,NCGMSnoopWnd::Reset,ok,
+100d0680,NCGMSnoopManager::ShowWindow,ok,
+100d0750,NCPetitionBeginWnd::ResetForm,ok,
+100d0af0,NCPetitionWnd::OnDestroy,note,strs stock-only {} ours-only {NCPetitionWnd::OnDestroy}
+100d0c20,NCGMPetitionWnd::OnPaint,ok,
+100d0cc0,NCPetitionWnd::OnEdit,note,consts stock-only {4ac4c} ours-only {}
+100d0d50,NCPetitionWnd::HideWindow,ok,
+100d0d70,NCPetitionWnd::OnCancel,ok,
+100d0da0,NCGMPetitionWnd::OnDestroy,note,strs stock-only {} ours-only {NCGMPetitionWnd::OnDestroy}
+100d0ed0,NCGMSnoopWnd::OnDestroy,note,strs stock-only {} ours-only {NCGMSnoopWnd::OnDestroy}
+100d1190,NCGMSnoopManager::OnDestroy,note,strs stock-only {} ours-only {NCGMSnoopManager::OnDestroy}
+100d1250,NCGMSnoopManager::AddLine,ok,
+100d16b0,NCPetitionBeginWnd::OnCancel,ok,
+100d2c50,NCPetitionListBox::~NCPetitionListBox,ok,
+100d2cd0,NCPetitionWnd::OnCreate,note,consts stock-only {670b8} ours-only {}
+100d3080,NCGMPetitionWnd::OnCreate,note,"consts stock-only {670c4, 670d0} ours-only {}"
+100d3c30,NCPrivateBuyItemWnd::WindowProc,ok,
+100d3d10,NCPrivateBuyItemWnd::SetSide,ok,
+100d3d20,NCPrivateBuyWnd::WindowProc,ok,
+100d3e40,NCPrivateShopWnd::Reset,ok,
+100d3e80,NCPrivateBuyWnd::OnClose,ok,
+100d3ec0,NCPrivateBuyWnd::OnAbort,ok,
+100d3ef0,NCPrivateBuyItemWnd::OnPaint,ok,
+100d41f0,NCPrivateBuyItemWnd::OnPriceOK,ok,
+100d42f0,NCPrivateBuyItemWnd::OnPrice,ok,
+100d44e0,NCPrivateBuyFrameCtrl::OnClose,ok,
+100d4530,NCPrivateBuyWnd::OnPaint,note,"consts stock-only {660d4, 660f8, 66104, 66134, 66140, 67214, 67220} ours-only {}"
+100d4a30,NCPrivateBuyWnd::OnDestroy,ok,
+100d4c30,NCPrivateBuyWnd::OnStart,ok,
+100d4ff0,NCPrivateBuyWnd::OnMessage,note,consts stock-only {} ours-only {1628}; disps stock-only {1628} ours-only {}
+100d50d0,NCPrivateBuyWnd::OnSellConfirmed,ok,
+100d5290,NCPrivateBuyItemWnd::AddItem,ok,
+100d53c0,NCPrivateBuyItemWnd::AddEntry,ok,
+100d54c0,NCPrivateBuyItemWnd::MoveItem,note,consts stock-only {} ours-only {19b8}
+100d5a30,NCPrivateBuyWnd::SetMode,ok,
+100d5a70,NCPrivateBuyWnd::AddStoreItem,ok,
+100d5aa0,NCPrivateBuyWnd::AddPlayerItem,ok,
+100d5ab0,NCPrivateBuyWnd::OnUp,ok,
+100d5d80,NCPrivateBuyWnd::OnDown,ok,
+100d5fb0,NCPrivateBuyItemWnd::OnLButtonUp,ok,
+100d6330,NCPrivateBuyItemWnd::OnLButtonDblClick,ok,
+100d6650,NCPrivateBuyItemWnd::OnAmount,ok,
+100d6770,NCPrivateBuyItemWnd::NCPrivateBuyItemWnd,ok,
+100d6810,NCPrivateBuyItemWnd::~NCPrivateBuyItemWnd,ok,
+100d6860,"NCPrivateBuyItemWnd::NCPrivateBuyItemWnd(INT A, INT B, INT C, INT D, INT E, INT F)",ok,
+100d68f0,NCPrivateBuyWnd::NCPrivateBuyWnd,ok,
+100d6990,NCPrivateBuyWnd::~NCPrivateBuyWnd,ok,
+100d69e0,NCPrivateBuyWnd::OnCreate,ok,
+100d6fb0,NCPrivateShopItemWnd::WindowProc,ok,
+100d70a0,NCPrivateShopWnd::WindowProc,ok,
+100d71c0,NCPrivateShopWnd::SetAdena,ok,
+100d71d0,NCPrivateBuyWnd::ShowWindow,ok,
+100d7250,NCPrivateBuyWnd::HideWindow,ok,
+100d7260,NCPrivateShopWnd::OnClose,ok,
+100d72a0,NCPrivateShopWnd::OnAbort,ok,
+100d72d0,NCPrivateShopFrameCtrl::OnClose,ok,
+100d7320,NCPrivateShopWnd::OnPaint,note,"consts stock-only {660d4, 660f8, 66104, 66110, 66134, 66140} ours-only {}"
+100d7820,NCPrivateShopWnd::OnDestroy,ok,
+100d79c0,NCPrivateShopWnd::UpdateLayout,ok,
+100d7b40,NCPrivateShopWnd::OnStart,ok,
+100d7ea0,NCPrivateBuyWnd::CheckTotal,ok,
+100d7f70,NCPrivateBuyWnd::UpdateTotal,ok,
+100d8080,NCPrivateShopWnd::OnMessage,note,consts stock-only {} ours-only {161c}; disps stock-only {161c} ours-only {}
+100d8160,NCPrivateShopWnd::OnBuyConfirmed,ok,
+100d82e0,NCPrivateShopItemWnd::AddItem,ok,
+100d8400,NCPrivateShopItemWnd::AddEntry,ok,
+100d84f0,NCPrivateShopItemWnd::MoveItem,note,consts stock-only {} ours-only {19b8}
+100d8970,NCPrivateShopWnd::SetMode,ok,
+100d89b0,NCPrivateShopWnd::AddStoreItem,ok,
+100d89e0,NCPrivateShopWnd::AddPlayerItem,ok,
+100d89f0,NCPrivateShopWnd::OnUp,ok,
+100d8cb0,NCPrivateShopWnd::OnDown,ok,
+100d8ed0,NCPrivateShopItemWnd::OnLButtonUp,ok,
+100d9230,NCPrivateShopItemWnd::OnLButtonDblClick,ok,
+100d9520,NCPrivateShopItemWnd::OnPriceOK,ok,
+100d9660,NCPrivateShopItemWnd::OnPrice,ok,
+100d9880,NCPrivateShopItemWnd::OnAmount,ok,
+100d99d0,NCPrivateShopItemWnd::NCPrivateShopItemWnd,ok,
+100d9a20,NCPrivateShopItemWnd::~NCPrivateShopItemWnd,ok,
+100d9a70,"NCPrivateShopItemWnd::NCPrivateShopItemWnd(INT A, INT B, INT C, INT D, INT E, INT F)",ok,
+100d9ac0,NCPrivateShopWnd::NCPrivateShopWnd,ok,
+100d9b70,NCPrivateShopWnd::~NCPrivateShopWnd,ok,
+100d9bc0,NCPrivateShopWnd::OnCreate,ok,
+100dc990,NCQuestItemWnd::WindowProc,ok,
+100dc9f0,NCQuestItemWnd::OnCreate,ok,
+100dca00,NCQuestWnd::WindowProc,ok,
+100dcb00,NCQuestWnd::OnTab,ok,
+100dcba0,NCQuestWnd::IsInDropZone,ok,
+100dcc00,NCQuestInfoWnd::OnPaint,note,strs stock-only {} ours-only {NCQuestInfoWnd::OnPaint}
+100dcd90,NCQuestInfoWnd::ScrollUp,ok,
+100dce20,NCQuestInfoWnd::ScrollDown,ok,
+100dcf20,NCQuestInfoWnd::ShowQuest,ok,
+100dcfb0,NCQuestInfoWnd::NextStep,ok,
+100dd050,NCQuestInfoWnd::PrevStep,ok,
+100dd0e0,NCQuestItemWnd::OnPaint,note,strs stock-only {} ours-only {NCQuestItemWnd::OnPaint}
+100dd2a0,NCQuestItemWnd::OnLButtonUp,ok,
+100dd4e0,NCQuestItemWnd::OnDialogResult,note,consts stock-only {ffff} ours-only {}
+100dd5a0,NCQuestWnd::OnDestroy,note,strs stock-only {} ours-only {NCQuestWnd::OnDestroy}
+100dd750,NCQuestWnd::OnPaint,note,"consts stock-only {669bc} ours-only {}; disps stock-only {cc, d0} ours-only {}; strs stock-only {} ours-only {NCQuestWnd::OnPaint}"
+100dd960,NCQuestWnd::OnDialogResult,ok,
+100dd990,NCQuestWnd::OnCancel,note,strs stock-only {} ours-only {NCQuestWnd::OnCancel}
+100dda90,NCQuestWnd::OnSelectQuest,ok,
+100ddab0,NCQuestWnd::OnNewButton1,ok,
+100ddad0,NCQuestWnd::OnNewButton2,ok,
+100ddaf0,NQuestEntry::~NQuestEntry,ok,
+100ddb00,TPtrArray::~TPtrArray,ok,
+100ddc30,NCQuestInfoWnd::~NCQuestInfoWnd,ok,
+100ddcb0,NCQuestInfoWnd::ClearQuests,ok,
+100dde00,NCQuestWnd::NCQuestWnd,note,consts stock-only {41d80000} ours-only {f:0000d841}
+100ddef0,NCQuestWnd::OnCreate,ok,
+100de470,NCQuestWnd::Clear,ok,
+100de4a0,NCQuestWnd::ShowWindow,ok,
+100de560,NCQuestInfoWnd::OnDestroy,ok,
+100de5e0,NCRadarWnd::OnPaint,note,strs stock-only {} ours-only {NCRadarWnd::OnPaint}
+100de6e0,NCRadarWnd::OnDestroy,note,strs stock-only {} ours-only {NCRadarWnd::OnDestroy}
+100de780,NCMinimapWnd::AddTarget,ok,
+100de820,NCRadarWnd::ClearTargets,ok,
+100de840,NCRadarWnd::NCRadarWnd,note,"disps stock-only {cc, d0} ours-only {}"
+100de8a0,NCRadarWnd::~NCRadarWnd,ok,
+100de940,NCRecipeShopWnd::WindowProc,ok,
+100dea30,NCRecipeShopWnd::ClearLists,ok,
+100dea50,NCRecipeShopWnd::HideWindow,ok,
+100dec90,NCRecipeBuyListWnd::SetShopOwner,ok,
+100deca0,NCRecipeBuyListWnd::SetAdena,ok,
+100decb0,NCRecipeBuyManufactureWnd::WindowProc,ok,
+100deda0,NCRecipeBuyManufactureWnd::Reset,ok,
+100def70,NCRecipeShopWnd::OnDestroy,ok,
+100df0f0,NCRecipeShopWnd::OnStart,ok,
+100dfbf0,NCRecipeBuyListWnd::OnSelectRecipe,ok,
+100dfc90,NCRecipeBuyManufactureWnd::OnDestroy,ok,
+100e0920,NCRecipeShopWnd::AddProductionItem,ok,
+100e0930,NCRecipeShopWnd::AddRecipeItem,ok,
+100e0940,NCRecipeShopWnd::OnRemoveProduct,ok,
+100e0b70,NCRecipeBuyListWnd::AddRecipe,ok,
+100e12a0,TPtrArray::~TPtrArray,ok,
+100e1ea0,NCRecipeListBox::~NCRecipeListBox,ok,
+100e24c0,NCRecipeBookWnd::Clear,ok,
+100e2540,NCRecipeManufactureWnd::WindowProc,ok,
+100e2610,NCRecipeManufactureWnd::Reset,ok,
+100e2680,NCRecipeManufactureWnd::OnMake,ok,
+100e2b40,NCRecipeBookWnd::OnDestroy,ok,
+100e2f20,NCRecipeManufactureWnd::OnDestroy,ok,
+100e4530,NCRecipeBookWnd::AddRecipe,ok,
+100e4b70,NCRecipeBookItemWnd::~NCRecipeBookItemWnd,ok,
+100e5020,NCRecipeManufactureItemWnd::~NCRecipeManufactureItemWnd,ok,
+100ed440,NCServerSelectListCtrl::WindowProc,ok,
+100ed4a0,NCServerSelectWnd::WindowProc,ok,
+100ed560,NCServerSelectWnd::FormatServerLabel,note,"consts stock-only {63668, 63684} ours-only {628bc, 63e9c}"
+100ed6f0,NCServerSelectWnd::OnServerListEnd,ok,
+100ed760,NCServerSelectWnd::ClearServers,ok,
+100ed790,NCServerSelectWnd::OnListNotify,ok,
+100ed7a0,NCServerSelectWnd::OnKeyDown,ok,
+100ed7d0,NCServerSelectWnd::OnTimer,ok,
+100ed7f0,NCServerSelectWnd::IsLeapYear,note,consts stock-only {} ours-only {51eb851f}
+100ed830,NCServerSelectWnd::DaysInYears,note,consts stock-only {16e} ours-only {}
+100ed870,NCServerSelectWnd::DaysInMonths,note,consts stock-only {} ours-only {51eb851f}
+100ed8e0,NCServerSelectWnd::HoursInDays,ok,
+100ed910,NCServerSelectWnd::GetTimeStamp,note,consts stock-only {} ours-only {16d}
+100ed970,NCServerSelectWnd::IsPingCacheOld,ok,
+100ed9c0,NCServerSelectWnd::HasNoPing,ok,
+100eda20,NCServerSelectWnd::SavePing,ok,
+100eda70,NCServerSelectWnd::SavePingTime,ok,
+100edae0,NCServerSelectWnd::OnDestroy,note,strs stock-only {} ours-only {NCServerSelectWnd::OnDestroy}
+100edc10,NCServerSelectWnd::OnPaint,note,strs stock-only {} ours-only {NCServerSelectWnd::OnPaint}
+100edd10,NCServerSelectWnd::AddServer,note,"consts stock-only {40000000, 6090, 66fec, 66ff8, 67004, 67010, 6701c, 67028, 67034, 67064, 673d0} ours-only {80, f:00000040}; disps stock-only {} ours-only {6090, cc, dc, e0, e4, f0}; strs stock-only {new} ours-only {NCServerSelectWnd::AddServer}"
+100ee2c0,NCServerSelectWnd::SetPing,note,consts stock-only {} ours-only {ffffffff}
+100ee3a0,NCServerSelectWnd::OnOK,note,"consts stock-only {67028, 67034} ours-only {}; strs stock-only {} ours-only {NCServerSelectWnd::OnOK}"
+100ee510,NCServerSelectWnd::OnCancel,ok,
+100ee570,NCServerSelectWnd::SortByQuality,note,"disps stock-only {1fc, 302c} ours-only {4850}"
+100eeb20,NCServerSelectListCtrl::SortByColumn,note,disps stock-only {} ours-only {4850}
+100eef00,NCServerSelectListCtrl::~NCServerSelectListCtrl,ok,
+100eef80,NCServerSelectWnd::NCServerSelectWnd,ok,
+100f0070,NCStoreWnd::WindowProc,ok,
+100f01a0,NCShopWnd::HideWindow,ok,
+100f01b0,NCShopWnd::OnCancel,ok,
+100f30a0,NCShortCutWnd::WindowProc,ok,
+100f3ac0,NCShortCutWnd::PageSlot,ok,
+100f3af0,NCShortCutWnd::OnRotateClicked,ok,
+100f3d00,NCShortCutWnd::SetPadHoldL,ok,
+100f3d20,NCShortCutWnd::SetPadHoldR,ok,
+100f3ec0,NCShortCutWnd::ShowWindow,ok,
+100f4000,NShortCutKey::OnKeyUp,ok,
+100f5a30,NCShortCutWnd::DeleteShortCut,ok,
+100f5a90,NCShortCutWnd::SetPage,ok,
+100f6190,NCShortCutWnd::NextPage,note,disps stock-only {1a74} ours-only {1ab4}
+100f6200,NCShortCutWnd::PrevPage,note,disps stock-only {1a74} ours-only {1ab4}
+100f6270,NCShortCutWnd::OnNextClicked,ok,
+100f6290,NCShortCutWnd::OnPrevClicked,ok,
+100f62b0,NCShortCutWnd::ClearShortCuts,ok,
+100f7410,NCSiegePartInfoWnd::WindowProc,ok,
+100f74c0,NCSiegeDateInfoWnd::WindowProc,ok,
+100f7540,NCSiegeInfoMainWnd::WindowProc,ok,
+100f75a0,NSiegeCastleInfo::operator=,ok,
+100f7630,NSiegeClanInfo::NSiegeClanInfo(const NSiegeClanInfo& A),ok,
+100f76c0,NCSiegeInfoListCtrl::GetSelectedPledgeID,ok,
+100f76f0,NCSiegeInfoListCtrl::GetSelectedStatus,note,"consts stock-only {67520, 6752c} ours-only {fffffffd}"
+100f7be0,NCSiegePartInfoWnd::OnPaint,note,"consts stock-only {6758c, 675a4} ours-only {}"
+100f7fe0,NCSiegePartInfoWnd::OnApply,note,"consts stock-only {29b, 3e, 40} ours-only {}"
+100f80c0,NCSiegePartInfoWnd::OnCancelApply,note,disps stock-only {3f} ours-only {}
+100f81a0,NCSiegePartInfoWnd::OnApprove,ok,
+100f82c0,NCSiegePartInfoWnd::OnRefuse,ok,
+100f83f0,NCSiegePartInfoWnd::UpdateButtons,ok,
+100f8530,NCSiegeDateInfoWnd::OnDestroy,note,strs stock-only {} ours-only {NCSiegeDateInfoWnd::OnDestroy}
+100f85e0,NCSiegeDateInfoWnd::OnPaint,note,"consts stock-only {675d4, 675e0, 675ec} ours-only {}; strs stock-only {} ours-only {NCSiegeDateInfoWnd::OnPaint}"
+100f87d0,NCSiegeDateInfoWnd::Reset,note,consts stock-only {675f8} ours-only {}
+100f8840,NCSiegeDateInfoWnd::OnSelectTime,ok,
+100f8910,NCSiegeDateInfoWnd::OnConfirmTime,ok,
+100f89b0,NCSiegeDateInfoWnd::SetTimes,ok,
+100f8a10,NCSiegeInfoMainWnd::OnDestroy,note,strs stock-only {} ours-only {NCSiegeInfoMainWnd::OnDestroy}
+100f8b40,NCSiegeInfoMainWnd::OnPaint,note,"consts stock-only {64, 6761c, 67628, 67634, 67640, 67670} ours-only {}; strs stock-only {} ours-only {NCSiegeInfoMainWnd::OnPaint}"
+100f8eb0,NCSiegeInfoMainWnd::OnTab,ok,
+100f9070,NCSiegePartInfoWnd::OnDestroy,note,disps stock-only {} ours-only {f8}
+100f9210,NCSiegePartInfoWnd::Reset,note,disps stock-only {} ours-only {f8}
+100f9290,NCSiegePartInfoWnd::ClearList,ok,
+100f9510,NCSiegeDateInfoWnd::OnCreate,ok,
+100f95c0,NCSiegeDateInfoWnd::AddTime,note,consts stock-only {cc} ours-only {}; disps stock-only {} ours-only {cc}
+100f9620,NCSiegeInfoMainWnd::Reset,ok,
+100f9680,NCSiegeInfoMainWnd::SetCastleInfo,ok,
+100f96f0,NCSiegeInfoMainWnd::AddAttacker,ok,
+100f9700,NCSiegeInfoMainWnd::AddDefender,ok,
+100f9710,NCSiegeInfoMainWnd::HideWindow,ok,
+100f9720,NCSiegeInfoMainWnd::ShowWindow,note,globs stock-only {1026e44c} ours-only {}
+100f9750,TSiegeClanArray::~TSiegeClanArray,ok,
+100f9830,NCSiegeInfoListCtrl::~NCSiegeInfoListCtrl,ok,
+100f98b0,NCSiegePartInfoWnd::NCSiegePartInfoWnd,note,"disps stock-only {f4, f8} ours-only {}"
+100f9960,NCSiegePartInfoWnd::~NCSiegePartInfoWnd,ok,
+100f99c0,NCSiegePartInfoWnd::OnCreate,ok,
+100f9d50,NCSiegeDateInfoWnd::NCSiegeDateInfoWnd,note,"disps stock-only {d0, d4} ours-only {}"
+100f9e50,NCSiegeInfoMainWnd::NCSiegeInfoMainWnd,ok,
+100f9f70,NCSiegeInfoMainWnd::OnCreate,ok,
+100fa720,NCStatusWnd::OnCreate,ok,
+100fa750,NCStatusWnd::OnDestroy,note,"disps stock-only {30, 54, 5c, 6c} ours-only {}; strs stock-only {} ours-only {NCStatusWnd::OnDestroy}"
+100fa7d0,NCStatusWnd::IsName,ok,
+100fa800,NCStatusWnd::Clear,ok,
+100fa830,NCTargetStatusWnd::WindowProc,ok,
+100fa8b0,NCTargetStatusWnd::OnLButtonDown,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {120, 1b0, 1b4, 1b8}"
+100fa940,NCTargetStatusWnd::SetLevelDiff,ok,
+100fa950,NCTargetStatusWnd::OnToggle,note,"consts stock-only {42380000, 42980000} ours-only {f:00003842, f:00009842}"
+100fa9f0,NCTargetStatusWnd::OnClose,ok,
+100faa60,NCPlayerStatusWnd::WindowProc,ok,
+100faac0,NCPlayerStatusWnd::Resize,ok,
+100faad0,NCPlayerStatusWnd::OnLButtonDown,ok,
+100faaf0,NCPetStatusWnd::WindowProc,ok,
+100fab50,NCPetStatusWnd::SetInfo,ok,
+100fabd0,NCPetStatusWnd::OnLButtonDown,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8}"
+100fac30,NCPetStatusWnd::ShowWindow,ok,
+100fac70,NCPetStatusWnd::OnToggle,ok,
+100fac90,NCSummonedStatusWnd::WindowProc,ok,
+100facf0,NCSummonedStatusWnd::OnToggle,ok,
+100fad10,NCSummonedStatusWnd::SetRemaining,ok,
+100fad20,NCSummonedStatusWnd::ShowWindow,ok,
+100fae70,NCPartyStatusWnd::OnLButtonDown,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, 334}"
+100faf00,NCPartyStatusWnd::OnRButtonUp,note,"consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, 3c, 40, 44}"
+100faf90,NCStatusWnd::IsEmpty,ok,
+100fafa0,NCPartyStatusWnd::UpdateStyle,note,"consts stock-only {67160, 6716c, 67ff4, 68000, 6800c} ours-only {}"
+100fb1d0,NCPartyWnd::WindowProc,ok,
+100fb230,NCPartyWnd::OnToggle,ok,
+100fc4a0,NCStatusWnd::OnPaint,note,strs stock-only {} ours-only {NCStatusWnd::OnPaint}
+100fc560,NCTargetStatusWnd::OnDestroy,note,strs stock-only {} ours-only {NCTargetStatusWnd::OnDestroy}
+100fc630,NCPlayerStatusWnd::OnDestroy,note,strs stock-only {} ours-only {NCPlayerStatusWnd::OnDestroy}
+100fc6e0,NCPlayerStatusWnd::OnResize,note,consts stock-only {41400000} ours-only {f:00004041}
+100fc840,NCPetStatusWnd::OnPaint,note,strs stock-only {} ours-only {NCPetStatusWnd::OnPaint}
+100fccc0,NCSummonedStatusWnd::OnPaint,note,strs stock-only {} ours-only {NCSummonedStatusWnd::OnPaint}
+100fd0c0,NCPartyStatusWnd::OnDestroy,ok,
+100fd140,NCPartyStatusWnd::SetInfo,ok,
+100fd1c0,NCPartyStatusWnd::UpdateInfo,ok,
+100fd230,NCPartyWnd::OnDestroy,note,strs stock-only {} ours-only {NCPartyWnd::OnDestroy}
+100fd310,NCPartyWnd::OnPaint,ok,
+100fd420,NCPartyWnd::UpdateMember,ok,
+100fd4b0,NCPartyWnd::UpdateLayout,note,"consts stock-only {432c0000} ours-only {e0, f:00002c43}"
+100fd600,NCPartyWnd::ShowWindow,ok,
+100ff660,NCTargetStatusWnd::OnCreate,ok,
+10100a60,NCPetStatusWnd::OnCreate,ok,
+10100ca0,NCPartyStatusWnd::ClearBuffs,ok,
+10100ce0,NCPartyStatusWnd::AddBuff,note,consts stock-only {344} ours-only {}; disps stock-only {} ours-only {344}
+10100d40,NCSummonedStatusWnd::OnCreate,ok,
+10101020,NCSummonedStatusWnd::ClearBuffs,ok,
+10101060,NCSummonedStatusWnd::AddBuff,note,consts stock-only {340} ours-only {}; disps stock-only {} ours-only {340}
+101010c0,NCPartyStatusWnd::OnCreate,note,"consts stock-only {} ours-only {ff0001f2, ff0001fb}"
+101014c0,NCPartyStatusWnd::OnPaint,note,strs stock-only {} ours-only {NCPartyStatusWnd::OnPaint}
+101019d0,NCPartyStatusWnd::Clear,ok,
+101019e0,NCPartyWnd::AddMember,ok,
+10101a80,NCPartyWnd::DeleteMember,note,"consts stock-only {} ours-only {ffffffff}; disps stock-only {} ours-only {d4, d8, e0, e4}"
+10101bb0,NCPartyWnd::DeleteAll,ok,
+10102280,NCPetStatusWnd::OnDestroy,note,strs stock-only {} ours-only {NCSummonedStatusWnd::OnDestroy}
+10102330,NCSummonedStatusWnd::OnDestroy,note,strs stock-only {} ours-only {NCSummonedStatusWnd::OnDestroy}
+10102410,NCSummonedStatusWnd::StartTimer,ok,
+10102c70,NCStatusWnd::NCStatusWnd(INT InBarWidth),ok,
+10102db0,NCPlayerStatusWnd::NCPlayerStatusWnd(INT InBarWidth),ok,
+10102e60,NCPlayerStatusWnd::OnCreate,ok,
+10103170,NCPetStatusWnd::NCPetStatusWnd(INT InBarWidth),ok,
+101032c0,NCSummonedStatusWnd::NCSummonedStatusWnd(INT InBarWidth),ok,
+10103410,NCPartyStatusWnd::NCPartyStatusWnd(INT InBarWidth),ok,
+10103550,NCPartyWnd::NCPartyWnd,ok,
+101035f0,NCPartyWnd::OnCreate,ok,
+10103830,NCDetailStatusWnd::NCDetailStatusWnd,ok,
+10103bf0,NCStoreWnd::SetMode,ok,
+10103c20,NCStoreWnd::Clear,ok,
+10103c50,NCStoreWnd::HideWindow,ok,
+10103c80,NCStoreWnd::UpdateFee,ok,
+10104250,NCStoreWnd::ShowWindow,ok,
+101044b0,NCStoreWnd::ReloadTexts,note,"disps stock-only {} ours-only {c8, cc}"
+10104900,NCStoreWnd::AddInventoryItem,ok,
+10104910,NCStoreWnd::AddStoredItem,ok,
+10105270,NCStoreItemWnd::~NCStoreItemWnd,ok,
+10105890,NCTradeWnd::WindowProc,ok,
+10105930,NCTradeWnd::Reset,ok,
+10105980,NCTradeWnd::ShowWindow,ok,
+101059b0,NCTradeWnd::SetMyName,ok,
+10105a10,NCTradeWnd::SetPartnerName,ok,
+10105a40,NCTradeWnd::OnOK,ok,
+10105a60,NCTradeWnd::OnCancel,ok,
+10106750,NCTradeWnd::ReloadTexts,note,"disps stock-only {} ours-only {c8, cc, d0}"
+10106a50,NCTradeWnd::AddInventoryItem,ok,
+10106a60,NCTradeWnd::AddMyItem,ok,
+10106a70,NCTradeWnd::AddPartnerItem,ok,
+10106a80,NCTradeItemWnd::Clear,note,consts stock-only {} ours-only {1a34}
+10106af0,NCTradeWnd::UpdateInventoryItem,ok,
+10107490,NCTrainListWnd::WindowProc,ok,
+10107500,NCTrainInfoWnd::WindowProc,ok,
+10107570,NCTrainInfoWnd::SetInfo,note,"disps stock-only {2cc, cc} ours-only {2ca, ca}"
+10107690,NCTrainInfoWnd::Reset,ok,
+10107700,NCTrainInfoWnd::OnLearn,ok,
+10107790,NCTrainInfoWnd::OnList,ok,
+101077e0,NCTrainWnd::ShowList,ok,
+10107800,NCTrainWnd::ShowInfo,ok,
+10107820,NCTrainWnd::SetSkillInfo,ok,
+10107830,NCTrainWnd::Reset,ok,
+101080d0,NCTrainListWnd::OnListCommand,note,consts stock-only {14ac} ours-only {14b0}
+101081d0,NCTrainInfoWnd::OnDestroy,ok,
+10108ba0,NCTrainInfoWnd::AddRequiredItem,ok,
+10108d50,NCTrainWnd::AddRequiredItem,ok,
+10108f10,NCTrainListWnd::AddEntry,ok,
+10109150,NCTrainWnd::AddEntry,ok,
+10109160,TTrainEntryArray::~TTrainEntryArray,ok,
+10109250,NCTrainListBox::~NCTrainListBox,ok,
+101093a0,NCTrainListWnd::OnCreate,ok,
+10109830,NCNPCHtmlViewer::WindowProc,ok,
+10109890,NCTutorialViewerWnd::ShowPage,ok,
+10109990,NCTutorialQuestionWnd::OnLButtonDown,ok,
+101099c0,NCTutorialQuestionWnd::OnLButtonUp,ok,
+10109a10,NCTutorialQuestionWnd::OnTimer,ok,
+10109a40,NCHtmlEdit::WindowProc,ok,
+10109aa0,NCCalcEditCtrl::SetOperator,ok,
+10109b10,NCCalcEditCtrl::ShowNumber,ok,
+10109be0,NCCalcEditCtrl::ShowZero,ok,
+10109c00,NCCalcWnd::WindowProc,ok,
+10109c80,NCCalcWnd::SetFocus,ok,
+10109c90,NCTutorialViewerWnd::OnDestroy,note,strs stock-only {} ours-only {NCTutorialViewerWnd::OnDestroy}
+1010a1e0,NCCalcWnd::OnKey,ok,
+1010a4c0,NCCalcWnd::Reset,ok,
+1010a9c0,NCCalcWnd::OnClose,ok,
+1010a9e0,NCCalcWnd::ShowWindow,ok,
+101189a0,NCShopWnd::GetMode,ok,
+10119f60,NControl::WindowProc,ok,
+101241c0,NCChatListBox::WindowProc,ok,
+1012b140,NCWnd::GetPosFlags,ok,
+10141b50,NCDialogBox::OnCreate,ok,

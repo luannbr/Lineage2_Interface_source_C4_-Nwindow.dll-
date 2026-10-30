@@ -1,0 +1,579 @@
+c2_va,reason
+10001730,C2660: 'NCWnd::PtInRect': funÃ§Ã£o nÃ£o recebe 6 argumentos
+100054a0,C2065: 'Items': identificador nÃ£o declarado
+10005740,C2065: 'Items': identificador nÃ£o declarado
+10005840,C2065: 'Items': identificador nÃ£o declarado
+100058b0,C2065: 'Items': identificador nÃ£o declarado
+10005970,C2065: 'Items': identificador nÃ£o declarado
+10010d90,C2039: ' DrawRadar': nÃ£o Ã© um membro de 'UCanvas'
+1001be80,C2660: 'NCWnd::PtInRect': funÃ§Ã£o nÃ£o recebe 6 argumentos
+10044cd0,C2065: 'Items': identificador nÃ£o declarado
+1005d140,C2660: 'UL2NetHandler::RequestRecipeShopMakeDo': funÃ§Ã£o nÃ£o recebe 2 argumentos
+10089200,C2660: 'NCWnd::PtInRect': funÃ§Ã£o nÃ£o recebe 6 argumentos
+10099340,C2039: ' Items': nÃ£o Ã© um membro de 'NCComboBox'
+100b0cb0,C2039: ' AuthWnd': nÃ£o Ã© um membro de 'NCLoginWnd'
+100b3200,C2039: ' Items': nÃ£o Ã© um membro de 'NCComboBox'
+100be7e0,C2065: 'Recommended': identificador nÃ£o declarado
+100c0420,C2065: 'Recommended': identificador nÃ£o declarado
+100faf00,C2660: 'NCWnd::PtInRect': funÃ§Ã£o nÃ£o recebe 6 argumentos
+helper:AnnounceAnswer,C2039: ' NoticeWnd': nÃ£o Ã© um membro de 'NCLoginWnd'
+helper:DrawFrame,C2039: ' LocalW': nÃ£o Ã© um membro de 'NCWnd'
+helper:EntryHave,C2027: uso de tipo indefinido 'NCTVItem'
+helper:EntryNeed,C2027: uso de tipo indefinido 'NCTVItem'
+helper:EulaAnswer,C2039: ' NoticeWnd': nÃ£o Ã© um membro de 'NCLoginWnd'
+helper:NewTabButton,C2039: ' Value': nÃ£o Ã© um membro de 'NCRadioButton'
+helper:OptionWnd,C2039: ' OptionWnd': nÃ£o Ã© um membro de 'NConsoleWnd'
+helper:PaintSlot,C2039: ' IconClickTex': nÃ£o Ã© um membro de 'NCShortCutWnd'
+helper:PlaceAtAndShow,C2039: ' LocalW': nÃ£o Ã© um membro de 'NCWnd'
+helper:RecipeTreeWnd,C2039: ' NewWnd138': nÃ£o Ã© um membro de 'NCConsole'
+helper:SendCrest,C2660: 'UCanvas::MakeBMPToDXT1': funÃ§Ã£o nÃ£o recebe 4 argumentos
+helper:ShowAuthWnd,C2039: ' NoticeWnd': nÃ£o Ã© um membro de 'NCLoginWnd'
+helper:ShowIfVisible,C2039: ' LocalY': nÃ£o Ã© um membro de 'NControl'
+helper:fn:NCChatWnd::MoveWindow,C2065: 'LocalX': identificador nÃ£o declarado
+helper:fn:NCGDevice::DrawToolTipBox,C2039: ' LocalW': nÃ£o Ã© um membro de 'NCWnd'
+helper:fn:NCHtmlMultiEdit::OnLButtonDown,C2065: 'LocalY': identificador nÃ£o declarado
+helper:fn:NCPrivateBuyWnd::UpdateLayout,C2065: 'LocalX': identificador nÃ£o declarado
+helper:fn:NCRecipeManufactureWnd::OnShowTree,C3861: 'MakingOnShowTree': identificador nÃ£o encontrado
+helper:struct:NWndRect,C2039: ' LocalX': nÃ£o Ã© um membro de 'NCWnd'
+100353b0,C2065: 'HtmlTransparent': identificador nÃ£o declarado
+1005d420,C3861: 'DeskMacroList': identificador nÃ£o encontrado
+1005d440,C3861: 'DeskMacroList': identificador nÃ£o encontrado
+1005ebd0,C2062: tipo 'void' inesperado
+1005ec20,C2275: 'NConsoleWnd': esperava uma expressÃ£o em vez de um tipo
+100644c0,C3861: 'DeskHennaList': identificador nÃ£o encontrado
+10064810,C3861: 'DeskHennaList': identificador nÃ£o encontrado
+1006a940,C2146: erro de sintaxe: ';' ausente antes do identificador 'INT'
+1006f990,C3861: 'DeskRecipeShop': identificador nÃ£o encontrado
+1006fad0,C3861: 'DeskRecipeShop': identificador nÃ£o encontrado
+1006fc20,C3861: 'DeskRecipeBuyList': identificador nÃ£o encontrado
+helper:fn:NCSummonedDetailStatusWnd::OnPaint,C3861: 'PaintInfoPage': identificador nÃ£o encontrado
+10001650,verify: imports stock ['?Empty@FString@@QAEXXZ'] ours []
+10002310,"verify: imports stock ['?Realloc@FArray@@IAEXH@Z'] ours ['?Add@FArray@@QAEHHH@Z', '?Realloc@FArray@@IAEXH@Z']"
+10003410,verify: vcalls  stock {+0x110} ours {+0xac}
+100034f0,verify: vcalls  stock {+0xc} ours {}
+100046b0,verify: vcalls  stock {+0xc} ours {}
+10005d90,verify: vcalls  stock {+0xc} ours {}
+100073d0,verify: vcalls  stock {+0xc} ours {}
+1000af30,"verify: imports stock ['??1FString@@QAE@XZ', '??DFString@@QBEPBGXZ'] ours ['??0FString@@QAE@ABV0@@Z', '??1FString@@QAE@XZ']"
+10010da0,verify: imports stock ['?DrawRadarEtc@UCanvas@@QAEXXZ'] ours ['?DrawRadarTarget@UCanvas@@QAEXHH@Z']
+10011d70,verify: imports stock ['HeapFree'] ours []
+10012220,verify: imports stock ['HeapFree'] ours []
+10013cb0,"verify: vcalls  stock {+0x11c, +0x120, +0x124, +0x128, +0x12c, +0x130, +0x134, +0x138} ours {+0x11c, +0x120, +0x124, +0x128, +0x12c, +0x130, +0x134}"
+10014a90,"verify: vcalls  stock {} ours {+0x26a080, +0x26a088, +0x26a08c, +0x26a090, +0x26a094}"
+10015c60,"verify: vcalls  stock {} ours {+0x26a084, +0x26a088, +0x26a08c, +0x26a090, +0x26a094}"
+1001aa00,"verify: imports stock ['??1FString@@QAE@XZ', '??DFString@@QBEPBGXZ'] ours ['??0FString@@QAE@ABV0@@Z', '??1FArray@@QAE@XZ', '??1FString@@QAE@XZ', '??"
+1001c860,verify: vcalls  stock {+0x120} ours {+0x124}
+1001d830,"verify: imports stock ['?Realloc@FArray@@IAEXH@Z'] ours ['?Add@FArray@@QAEHHH@Z', '?Realloc@FArray@@IAEXH@Z']"
+1001f790,verify: vcalls  stock {+0xc} ours {}
+100224c0,"verify: imports stock ['??1FString@@QAE@XZ'] ours ['??0FString@@QAE@ABV0@@Z', '??1FString@@QAE@XZ']"
+10028940,verify: imports stock ['?Add@FArray@@QAEHHH@Z'] ours []
+10028ab0,"verify: vcalls  stock {+0x114, +0x118, +0x11c} ours {+0x114, +0x118}"
+1002a0e0,verify: imports stock [] ours ['?appMemmove@@YAPAXPAXPBXH@Z']
+1002a430,"verify: imports stock ['?Realloc@FArray@@IAEXH@Z'] ours ['?Add@FArray@@QAEHHH@Z', '?Realloc@FArray@@IAEXH@Z']"
+10033130,"verify: imports stock ['?ConditionalDestroy@UObject@@QAEHXZ'] ours ['??1UObject@@UAE@XZ', '?ConditionalDestroy@UObject@@QAEHXZ']"
+10034450,verify: ret     stock [] ours [4]; vcalls  stock {} ours {+0x64}
+10034d50,"verify: imports stock ['?appFailAssert@@YAXPBD0H@Z'] ours ['?Remove@FArray@@QAEXHHH@Z', '?appFailAssert@@YAXPBD0H@Z']"
+10034ef0,"verify: imports stock ['?ConditionalDestroy@UObject@@QAEHXZ'] ours ['??1UObject@@UAE@XZ', '?ConditionalDestroy@UObject@@QAEHXZ']"
+10035260,"verify: vcalls  stock {+0x124, +0x128, +0x12c, +0x130, +0x134, +0x138} ours {+0x128, +0x12c, +0x130, +0x134, +0x138, +0x13c}"
+10035420,"verify: vcalls  stock {+0x64, +0xb4, +0x648} ours {+0x64, +0xb4, +0x778}"
+100354a0,"verify: vcalls  stock {+0x64, +0xb4, +0x648} ours {+0x64, +0xb4, +0x778}"
+10035510,"verify: vcalls  stock {+0x64, +0xb4, +0x11c, +0x648} ours {+0x64, +0xb4, +0x120, +0x778}"
+100355d0,"verify: vcalls  stock {+0x64, +0xb4, +0x11c, +0x648} ours {+0x64, +0xb4, +0x120, +0x778}"
+10035690,verify: vcalls  stock {+0x11c} ours {+0x120}
+10035850,"verify: vcalls  stock {+0x124, +0x128, +0x12c, +0x130, +0x134, +0x138} ours {+0x128, +0x12c, +0x130, +0x134, +0x138, +0x13c}"
+10035880,verify: vcalls  stock {+0x13c} ours {+0x140}
+10035960,"verify: vcalls  stock {+0x64, +0xb4, +0x648} ours {+0x64, +0xb4, +0x778}"
+10035a10,"verify: vcalls  stock {+0x64, +0xb4, +0x648} ours {+0x64, +0xb4, +0x778}"
+10039790,"verify: vcalls  stock {+0xc, +0x14} ours {}; imports stock ['?Realloc@FArray@@IAEXH@Z'] ours []"
+100398d0,"verify: vcalls  stock {+0xc, +0x14} ours {}; imports stock ['?Realloc@FArray@@IAEXH@Z'] ours []"
+100412d0,"verify: vcalls  stock {+0x70, +0xb4} ours {+0x70, +0x74, +0x80, +0x9c, +0xb4}"
+10046710,"verify: imports stock ['#2'] ours ['GetLastError', 'GetProcAddress', 'LoadLibraryA']"
+10046740,"verify: imports stock ['#16'] ours ['GetLastError', 'GetProcAddress', 'LoadLibraryA']"
+10046920,"verify: imports stock ['#2'] ours ['GetLastError', 'GetProcAddress', 'LoadLibraryA']"
+10048300,verify: imports stock [] ours ['?Realloc@FArray@@IAEXH@Z']
+100489b0,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+10048a50,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+10048af0,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+10048b90,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+10048d20,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+1004b2c0,verify: vcalls  stock {+0xc} ours {}
+100564c0,"verify: imports stock [] ours ['?Remove@FArray@@QAEXHHH@Z', '?appFailAssert@@YAXPBD0H@Z']"
+10056ab0,"verify: imports stock ['?ConditionalDestroy@UObject@@QAEHXZ'] ours ['??1FArray@@QAE@XZ', '?ConditionalDestroy@UObject@@QAEHXZ']"
+1005bd60,verify: vcalls  stock {+0x120} ours {}
+1005bde0,verify: imports stock ['??1FString@@QAE@XZ'] ours []
+1005cd20,verify: ret     stock [] ours [8]; imports stock [] ours ['??DFString@@QBEPBGXZ']
+1005d020,verify: vcalls  stock {+0x25c} ours {+0x258}
+1005d030,verify: vcalls  stock {+0x258} ours {+0x268}
+1005d040,verify: vcalls  stock {+0x268} ours {+0x28c}
+1005d4b0,verify: vcalls  stock {+0x1c0} ours {+0x1bc}
+1005d4c0,verify: vcalls  stock {+0x1c4} ours {+0x1c0}
+1005d4d0,verify: vcalls  stock {+0x1c8} ours {+0x1c4}
+1005d4e0,verify: vcalls  stock {+0x1cc} ours {+0x1c8}
+1005d4f0,verify: vcalls  stock {+0x1d8} ours {+0x1cc}
+1005d500,verify: vcalls  stock {+0x1dc} ours {+0x1d8}
+1005d510,verify: vcalls  stock {+0x1e0} ours {+0x1dc}
+1005d520,verify: vcalls  stock {+0x1e4} ours {+0x1e0}
+1005d530,verify: vcalls  stock {+0x1e8} ours {+0x1e4}
+1005d540,verify: vcalls  stock {+0x1f0} ours {+0x1e8}
+1005d550,verify: vcalls  stock {+0x1f4} ours {+0x1f0}
+1005d560,verify: vcalls  stock {+0x1d0} ours {+0x1f4}
+1005d570,verify: vcalls  stock {+0x1d4} ours {+0x1d0}
+1005dd80,"verify: vcalls  stock {} ours {+0xb4, +0x110}"
+1005e110,verify: vcalls  stock {+0x120} ours {}
+1005e250,verify: imports stock ['?Realloc@FArray@@IAEXH@Z'] ours []
+1005e2e0,verify: vcalls  stock {+0x120} ours {+0x124}
+1005f470,verify: vcalls  stock {+0x9c} ours {+0x84}
+10060140,verify: vcalls  stock {+0x2dc} ours {+0x2c8}
+1006a2b0,verify: vcalls  stock {+0x90} ours {}
+1006afa0,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+1006be40,verify: imports stock ['?Add@FArray@@QAEHHH@Z'] ours []
+1006d2d0,"verify: vcalls  stock {+0x634} ours {+0x764}; imports stock ['??0L2ParamStack@@QAE@H@Z', '??1L2ParamStack@@QAE@XZ', '?GetName@User@@QAEPAGXZ', '?Pus"
+1006ffc0,"verify: vcalls  stock {} ours {+0x170, +0x4a4}; imports stock [] ours ['??0L2ParamStack@@QAE@H@Z', '??1L2ParamStack@@QAE@XZ', '?PushBack@L2ParamStac"
+10070570,"verify: imports stock ['??0L2ParamStack@@QAE@H@Z', '??1L2ParamStack@@QAE@XZ', '?GetName@User@@QAEPAGXZ', '?PushBack@L2ParamStack@@QAEHPAX@Z', '?Top@"
+100708c0,"verify: imports stock ['??0L2ParamStack@@QAE@H@Z', '??1L2ParamStack@@QAE@XZ', '?PushBack@L2ParamStack@@QAEHPAX@Z', '?Top@L2ParamStack@@QAEPAXXZ'] ou"
+10070f70,"verify: imports stock ['?Top@L2ParamStack@@QAEPAXXZ'] ours ['??1FString@@QAE@XZ', '?Top@L2ParamStack@@QAEPAXXZ']"
+10078b60,"verify: vcalls  stock {+0x80, +0x84, +0x9c, +0xb4, +0x110, +0x320, +0x4f4} ours {}"
+10079010,verify: vcalls  stock {} ours {+0xbc}
+10079b60,"verify: imports stock [] ours ['?StaticFindObject@UObject@@SAPAV1@PAVUClass@@PAV1@PBGH@Z', '?StaticLoadObject@UObject@@SAPAV1@PAVUClass@@PAV1@PBG2KP"
+10079fa0,verify: vcalls  stock {+0x120} ours {+0x124}
+1007c360,"verify: vcalls  stock {+0xb4, +0x650} ours {+0xb4, +0x780}"
+1007e1b0,verify: vcalls  stock {+0x12c} ours {+0x130}
+1007e1d0,verify: vcalls  stock {+0x120} ours {+0x124}
+1007e260,"verify: vcalls  stock {+0x114, +0x118, +0x11c} ours {+0x114, +0x118}"
+1007e2a0,verify: imports stock [] ours ['?Add@FArray@@QAEHHH@Z']
+1007e2e0,verify: vcalls  stock {+0x120} ours {+0x124}
+10083ba0,"verify: imports stock ['??DFString@@QBEPBGXZ', '?appSprintf@@YAHPAGPBGZZ', '?appStrcmp@@YAHPBG0@Z'] ours ['??1FString@@QAE@XZ', '??DFString@@QBEPBGX"
+10083d10,"verify: imports stock ['??DL2FName@@QBEPBGXZ', '?appSprintf@@YAHPAGPBGZZ', '?appStrcmp@@YAHPBG0@Z'] ours ['??1FString@@QAE@XZ', '??DL2FName@@QBEPBGX"
+1008a420,"verify: imports stock ['?GetItemDescription@FL2GameData@@QAEPAGH@Z', '?GetItemName@FL2GameData@@QAEPAGH@Z'] ours ['?GetItemDescription@FL2GameData@@"
+1008d2b0,verify: vcalls  stock {+0x120} ours {+0x124}
+1008d720,verify: imports stock ['??1FString@@QAE@XZ'] ours []
+10091ff0,"verify: vcalls  stock {+0x110, +0x114, +0x118} ours {+0x110}; imports stock [] ours ['?appRequestExit@@YAXH@Z']"
+10092330,"verify: vcalls  stock {} ours {+0x70, +0x74, +0x80, +0x9c, +0xb4}"
+10093f30,"verify: vcalls  stock {+0x114, +0x118, +0x11c} ours {+0x114, +0x118}"
+10093f80,verify: vcalls  stock {+0xc} ours {}
+10097bc0,verify: vcalls  stock {+0x12c} ours {+0x130}
+10097d80,"verify: vcalls  stock {+0x110, +0x114, +0x118, +0x11c} ours {+0x110, +0x114}"
+100987a0,verify: imports stock ['?Add@FArray@@QAEHHH@Z'] ours []
+1009b360,verify: vcalls  stock {+0x120} ours {}
+1009ced0,verify: vcalls  stock {+0x124} ours {+0x128}
+100a1050,"verify: vcalls  stock {+0x114, +0x118, +0x11c} ours {+0x114, +0x118}"
+100a2960,verify: vcalls  stock {+0x120} ours {+0x124}
+100a9f90,"verify: vcalls  stock {+0x110, +0x114, +0x118, +0x11c} ours {+0x110, +0x114, +0x118}"
+100aa720,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+100aa7c0,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+100aba40,verify: vcalls  stock {+0xc} ours {}
+100ac1e0,verify: vcalls  stock {+0xc} ours {}
+100ac590,verify: vcalls  stock {+0x64c} ours {+0x77c}
+100b09d0,"verify: vcalls  stock {} ours {+0x64}; imports stock [] ours ['?GetTransientPackage@UObject@@SAPAVUPackage@@XZ', '?StaticAllocateObject@UObject@@SAP"
+100b0a00,verify: vcalls  stock {+0xc} ours {}
+100b0b50,verify: vcalls  stock {+0x618} ours {+0x748}
+100b0b70,verify: vcalls  stock {+0x618} ours {+0x748}
+100b1f30,"verify: vcalls  stock {+0x110, +0x114} ours {+0x110}"
+100b22c0,verify: imports stock ['?Add@FArray@@QAEHHH@Z'] ours []
+100b23a0,"verify: vcalls  stock {+0x64} ours {}; imports stock ['?GetTransientPackage@UObject@@SAPAVUPackage@@XZ', '?StaticAllocateObject@UObject@@SAPAV1@PAVU"
+100b24a0,verify: vcalls  stock {+0xc} ours {}
+100b47d0,"verify: vcalls  stock {+0x110, +0x114, +0x118, +0x11c, +0x120, +0x124, +0x128} ours {+0x110, +0x114, +0x118, +0x11c, +0x120, +0x124}"
+100be410,verify: vcalls  stock {+0xc} ours {}
+100c3390,verify: vcalls  stock {+0x120} ours {+0x124}
+100c3700,"verify: vcalls  stock {+0x114, +0x118, +0x11c, +0x120} ours {+0x114, +0x118, +0x11c}"
+100c38d0,"verify: vcalls  stock {+0x64} ours {}; imports stock ['?GetTransientPackage@UObject@@SAPAVUPackage@@XZ', '?StaticAllocateObject@UObject@@SAPAV1@PAVU"
+100c39d0,verify: vcalls  stock {+0xc} ours {}
+100cba10,verify: vcalls  stock {+0xc} ours {}
+100cba90,verify: vcalls  stock {+0x12c} ours {+0x130}
+100cbc20,verify: vcalls  stock {+0x120} ours {}
+100cbc60,verify: vcalls  stock {+0xc} ours {}
+100cd860,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+100d0650,"verify: vcalls  stock {+0xb4} ours {+0xb4, +0x400}"
+100d06b0,"verify: vcalls  stock {+0x110, +0x114, +0x118} ours {+0x110, +0x114}"
+100d12b0,"verify: imports stock ['??DFString@@QBEPBGXZ', '?appSprintf@@YAHPAGPBGZZ'] ours ['??1FString@@QAE@XZ', '??DFString@@QBEPBGXZ', '?appSprintf@@YAHPAGP"
+100d3c30,"verify: vcalls  stock {+0x12c, +0x130, +0x134, +0x138, +0x13c} ours {+0x130, +0x134, +0x138, +0x13c, +0x140}"
+100d3e40,verify: vcalls  stock {+0x120} ours {+0x124}
+100d6fb0,"verify: vcalls  stock {+0x12c, +0x130, +0x134, +0x138, +0x13c} ours {+0x130, +0x134}"
+100d70a0,"verify: vcalls  stock {+0x110, +0x114, +0x118, +0x11c, +0x120, +0x124, +0x128} ours {+0x110, +0x114, +0x118, +0x11c, +0x120, +0x124}"
+100dc990,verify: vcalls  stock {+0x12c} ours {+0x130}
+100dd4e0,"verify: vcalls  stock {+0x124, +0x62c} ours {+0x128, +0x75c}"
+100dd960,verify: vcalls  stock {+0x63c} ours {+0x76c}
+100ddcb0,verify: ret     stock [] ours [0]
+100de470,"verify: vcalls  stock {+0x11c, +0x120} ours {+0x11c, +0x124}"
+100de4a0,"verify: vcalls  stock {+0xb0, +0xb4, +0x114, +0x638} ours {+0xb0, +0xb4, +0x114, +0x11c, +0x124, +0x768}"
+100dea30,verify: vcalls  stock {+0x120} ours {+0x124}
+100decb0,"verify: vcalls  stock {+0x110, +0x114, +0x118, +0x11c} ours {+0x110, +0x114, +0x118}"
+100deda0,verify: vcalls  stock {+0x120} ours {+0x124}
+100e0880,verify: vcalls  stock {+0x124} ours {+0x128}
+100e1610,verify: vcalls  stock {+0x124} ours {+0x128}
+100e2610,verify: vcalls  stock {+0x120} ours {+0x124}
+100f7fe0,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+100f80c0,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+100f8840,verify: imports stock [] ours ['??1FString@@QAE@XZ']
+100fa750,verify: vcalls  stock {+0xc} ours {}
+100fa8b0,verify: vcalls  stock {+0x4a4} ours {}
+100fae70,verify: vcalls  stock {+0x4a4} ours {}
+100fb320,verify: vcalls  stock {+0xc} ours {}
+10103c20,verify: vcalls  stock {+0x120} ours {+0x124}
+101044b0,"verify: imports stock ['?GetItemDescription@FL2GameData@@QAEPAGH@Z', '?GetItemName@FL2GameData@@QAEPAGH@Z'] ours ['?GetItemDescription@FL2GameData@@"
+10105930,verify: vcalls  stock {+0x120} ours {+0x124}
+10106750,"verify: imports stock ['?GetItemDescription@FL2GameData@@QAEPAGH@Z', '?GetItemName@FL2GameData@@QAEPAGH@Z'] ours ['?GetItemDescription@FL2GameData@@"
+10107700,verify: vcalls  stock {+0x644} ours {+0x774}
+101080d0,verify: vcalls  stock {+0x640} ours {+0x770}
+10109470,verify: imports stock [] ours ['??0FString@@QAE@XZ']
+10109a40,"verify: vcalls  stock {+0x11c, +0x120, +0x124, +0x128, +0x12c, +0x130, +0x134, +0x138} ours {+0x11c, +0x120, +0x124, +0x128, +0x12c, +0x130, +0x134}"
+1010a060,verify: vcalls  stock {+0x118} ours {}
+1010b020,verify: vcalls  stock {+0xc} ours {}
+10027080,"verify: imports stock ['??0FString@@QAE@ABV0@@Z', '??1FString@@QAE@XZ', '??DFString@@QBEPBGXZ', '?Mid@FString@@QBE?AV1@HH@Z'] ours ['??0FString@@QAE"
+1001c5c0,regcheck: a stock caller (1001de40) keeps ecx across a call that reaches this hook
+10023070,regcheck: a stock caller (100234d0) keeps ecx across a call that reaches this hook
+1003de70,regcheck: a stock caller (100410a0) keeps eax across a call that reaches this hook
+100472f0,regcheck: a stock caller (10048300) keeps ecx across a call that reaches this hook
+1005f830,regcheck: a stock caller (1006bf00) keeps ecx across a call that reaches this hook
+10088850,regcheck: a stock caller (1008a3b0) keeps edx across a call that reaches this hook
+1008f460,regcheck: a stock caller (100909e0) keeps ecx across a call that reaches this hook
+100c2d40,regcheck: a stock caller (100c8710) keeps ecx across a call that reaches this hook
+100f3aa0,regcheck: a stock caller (100f5360) keeps ecx across a call that reaches this hook
+100fa800,regcheck: a stock caller (101019d0) keeps ecx across a call that reaches this hook
+100faf90,regcheck: a stock caller (100fd4b0) keeps ecx across a call that reaches this hook
+100013a0,verify_data: consts stock-only {} ours-only {65a8c}
+100019f0,verify_data: consts stock-only {418} ours-only {414}
+100023c0,verify_data: consts stock-only {418} ours-only {414}
+100031e0,verify_data: consts stock-only {} ours-only {ffffffff}
+10004330,"verify_data: disps stock-only {f8, fc} ours-only {}"
+10005bd0,verify_data: disps stock-only {1dc} ours-only {84}
+10005e10,verify_data: consts stock-only {d4} ours-only {}; disps stock-only {} ours-only {d4}
+10006bc0,verify_data: consts stock-only {50} ours-only {4c}
+10006c10,verify_data: consts stock-only {64} ours-only {60}
+10007500,verify_data: consts stock-only {} ours-only {100}
+100075a0,verify_data: consts stock-only {ffff} ours-only {}
+1000afe0,verify_data: consts stock-only {} ours-only {238}; disps stock-only {} ours-only {23c}
+1000e380,verify_data: disps stock-only {} ours-only {26c}
+10010dc0,verify_data: disps stock-only {} ours-only {a0}
+10010e40,"verify_data: disps stock-only {28, c4} ours-only {}"
+10011100,verify_data: disps stock-only {} ours-only {e8}
+100111c0,verify_data: consts stock-only {78} ours-only {6c}; strs stock-only {new} ours-only {}
+10011260,verify_data: consts stock-only {} ours-only {6c}
+100112b0,verify_data: consts stock-only {} ours-only {ffffffff}
+10011fd0,"verify_data: disps stock-only {34} ours-only {38, 3c}"
+10012190,"verify_data: disps stock-only {} ours-only {20, 24}"
+10012270,"verify_data: consts stock-only {} ours-only {101b23ac, 28}"
+10013df0,"verify_data: consts stock-only {e01, e2e, e34, e3a, e40, e45, e48, e4b, e50, e59} ours-only {e00, e3b}"
+100143c0,"verify_data: consts stock-only {} ours-only {2b, 2d, 30, 39}"
+10014e20,verify_data: disps stock-only {} ours-only {4238}
+100155f0,verify_data: consts stock-only {fffffff8} ours-only {}
+1001a8f0,verify_data: disps stock-only {} ours-only {4238}
+1001cc50,verify_data: consts stock-only {} ours-only {ffffffff}
+1001d480,verify_data: consts stock-only {f:00000000} ours-only {41}
+1001ddc0,verify_data: consts stock-only {} ours-only {1a28}
+1001e760,verify_data: consts stock-only {} ours-only {ffffffff}
+1001ead0,"verify_data: disps stock-only {} ours-only {1ec, 1f0, 2a0}"
+1001f440,verify_data: consts stock-only {1008} ours-only {}
+1001f4b0,verify_data: consts stock-only {} ours-only {65a8c}
+1001f6e0,verify_data: consts stock-only {} ours-only {fffffffe}; globs stock-only {1026e44c} ours-only {}
+100205c0,"verify_data: consts stock-only {1824} ours-only {1820, 1f8}"
+10022f40,"verify_data: disps stock-only {} ours-only {254, 258, 2a0}"
+10022f80,verify_data: strs stock-only {new} ours-only {}
+10025070,verify_data: disps stock-only {} ours-only {208}
+100252b0,verify_data: strs stock-only {new} ours-only {}
+10028840,verify_data: globs stock-only {1026e44c} ours-only {}
+10028e70,verify_data: consts stock-only {} ours-only {ffffffdf}
+10029970,"verify_data: disps stock-only {1d4, 1e0, 1e4, 1ec, 44, 54, 9c, b0, b4} ours-only {}"
+10029980,"verify_data: disps stock-only {1d8, 1e0, 1e4, 1e8, 1ec} ours-only {}"
+10029fb0,verify_data: consts stock-only {} ours-only {200}
+1002a120,verify_data: consts stock-only {} ours-only {200}
+1002a260,verify_data: globs stock-only {1026e44c} ours-only {}
+1002c4a0,"verify_data: consts stock-only {106, 418} ours-only {105, 414}"
+1002dba0,verify_data: disps stock-only {} ours-only {20}
+1002eb10,verify_data: disps stock-only {1f0} ours-only {1e8}
+1002ebd0,verify_data: disps stock-only {1f0} ours-only {1e8}
+1002eca0,"verify_data: disps stock-only {1f0, c8} ours-only {1e8}"
+1002ed20,verify_data: disps stock-only {1f0} ours-only {1e8}
+10032d30,verify_data: consts stock-only {} ours-only {6c}; globs stock-only {101f62d8} ours-only {}
+100330f0,verify_data: consts stock-only {} ours-only {fffffffc}
+100333f0,verify_data: consts stock-only {20} ours-only {2000}
+10033820,"verify_data: consts stock-only {102, 202, 83, f4} ours-only {101, 10d, 281, fc}"
+10034310,verify_data: consts stock-only {} ours-only {1000}; disps stock-only {} ours-only {3c}; strs stock-only {new} ours-only {NCVirtualWndMain::RegisterNWindow}
+10034db0,"verify_data: disps stock-only {34, 38, 40, 44, 4c, 50, 58, 5c} ours-only {}"
+10035870,"verify_data: disps stock-only {13c, 140, 40, 44, dc} ours-only {}"
+10036690,verify_data: consts stock-only {320} ours-only {200}
+10036a50,"verify_data: disps stock-only {124, 128, 44, b0, b4, cc} ours-only {}"
+10036ff0,verify_data: consts stock-only {fffffffe} ours-only {}
+10037280,verify_data: consts stock-only {} ours-only {4c}
+1003aa20,"verify_data: disps stock-only {} ours-only {58, 68, 74, 84, 90, a0, ac, bc, c8, d8}"
+1003be80,"verify_data: consts stock-only {} ours-only {c164}; disps stock-only {} ours-only {154, 158, 164, 4164, 8164, c164}; globs stock-only {101f987c} ours-only {101f9874}"
+1003c490,"verify_data: consts stock-only {c000} ours-only {c004, fffffffe}; disps stock-only {} ours-only {154}"
+1003de40,verify_data: consts stock-only {} ours-only {100}
+1003e6b0,"verify_data: consts stock-only {64} ours-only {}; disps stock-only {2c, 48} ours-only {24, 30, 40, 4c, 5c, 68, 78}"
+1003f510,"verify_data: consts stock-only {} ours-only {101b23ac, 28}"
+10040ad0,"verify_data: disps stock-only {} ours-only {20, 28, 2c, 30, 34, 48, 58, 5c}"
+10040c30,"verify_data: disps stock-only {} ours-only {20, 28, 2c, 30, 34, 48, 58, 5c}"
+10041330,verify_data: consts stock-only {} ours-only {3b}
+100464e0,"verify_data: consts stock-only {2b, fffffff8} ours-only {fffffffd}"
+10046800,verify_data: consts stock-only {} ours-only {500}
+10048dc0,verify_data: consts stock-only {d0} ours-only {40}; disps stock-only {} ours-only {d0}
+10049240,verify_data: globs stock-only {1026e44c} ours-only {}
+1004b0e0,verify_data: disps stock-only {19b8} ours-only {}; strs stock-only {} ours-only {NCActionItemWnd::OnDestroy}
+1004b690,"verify_data: consts stock-only {1024, ffdcdcdc} ours-only {1028}; disps stock-only {168, 16c, 170, 174, 178} ours-only {}"
+1004b810,"verify_data: disps stock-only {168, 16c, 170, 174, 178} ours-only {}"
+1004b940,"verify_data: disps stock-only {168, 16c, 170, 174, 178} ours-only {}"
+1004c280,"verify_data: consts stock-only {} ours-only {114}; disps stock-only {114, 116} ours-only {}"
+1004ca60,verify_data: consts stock-only {} ours-only {30}
+1004cb00,verify_data: consts stock-only {} ours-only {ffffffff}
+1004d690,"verify_data: disps stock-only {1a8, 1f0, 1f4, 54, c8, cc, d0, d4, d8, dc, e0, e4, e8, ec, f0} ours-only {}"
+1004dd70,"verify_data: consts stock-only {248} ours-only {220}; disps stock-only {220, 224, 228, 22c, 230, 234, 238, 23c, 240, 244} ours-only {20, 24, 28, 54}"
+1004e7c0,verify_data: strs stock-only {new} ours-only {}
+1004ebf0,"verify_data: disps stock-only {16c, 170, 174, 178} ours-only {}; strs stock-only {} ours-only {NCChatWnd::OnDestroy}"
+1004ee80,verify_data: strs stock-only {new} ours-only {}
+1004f070,"verify_data: consts stock-only {220} ours-only {}; disps stock-only {16c, 170, 174, 178} ours-only {220}; globs stock-only {10200e20, 10200e24, 10200e28, 10200e2c, 10200e48, 10200e4c, 10200e50, 10200e54} ours-only {}"
+10050310,verify_data: consts stock-only {3dcccccd} ours-only {f:cdcccc3d}
+10053a10,verify_data: disps stock-only {134} ours-only {130}
+10053d90,verify_data: consts stock-only {} ours-only {3f63c}
+1005a4b0,verify_data: consts stock-only {} ours-only {fffffffc}
+1005a6c0,verify_data: consts stock-only {669ec} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::NpcSay}
+1005ad90,"verify_data: disps stock-only {144, 48, 58} ours-only {}"
+1005b260,"verify_data: consts stock-only {404ac, 4050c, 4053c, 40e3c} ours-only {}"
+1005b420,"verify_data: disps stock-only {d4, e0, f0} ours-only {a8, c0}"
+1005b450,verify_data: disps stock-only {d4} ours-only {d8}
+1005b4a0,"verify_data: consts stock-only {42f9c, 45b7c, 45bac} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::AcceptCharacterDelete}"
+1005b560,verify_data: consts stock-only {3f63c} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::ReceiveServerClose}
+1005ba30,verify_data: disps stock-only {3960} ours-only {}
+1005bac0,verify_data: disps stock-only {3960} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::EndRecommandedData}
+1005bf20,"verify_data: disps stock-only {2b8, 48, 58} ours-only {}"
+1005c040,"verify_data: disps stock-only {164, 48, 58} ours-only {}"
+1005d2b0,verify_data: disps stock-only {138} ours-only {104}
+1005d7b0,verify_data: consts stock-only {207} ours-only {}
+1005d7f0,verify_data: consts stock-only {209} ours-only {}
+1005d830,verify_data: consts stock-only {20b} ours-only {}
+1005da80,verify_data: consts stock-only {c8} ours-only {ffffff8c}
+1005dac0,verify_data: consts stock-only {cb} ours-only {ffffff8d}
+1005e470,verify_data: strs stock-only {} ours-only {NConsoleWnd::ReceiveItemList}
+1005ea10,"verify_data: disps stock-only {3968, d4} ours-only {}"
+1005f2b0,verify_data: disps stock-only {130} ours-only {}
+1005f350,verify_data: consts stock-only {130} ours-only {}
+1005f4d0,"verify_data: disps stock-only {24, 28} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::GetTargetedActor}"
+1005f630,verify_data: disps stock-only {44} ours-only {40}
+1005f690,verify_data: disps stock-only {} ours-only {34}
+1005f6f0,verify_data: disps stock-only {20} ours-only {}
+1005f720,"verify_data: consts stock-only {66920, 6692c, 66938} ours-only {}; disps stock-only {20, 38} ours-only {}"
+1005f790,verify_data: disps stock-only {24} ours-only {}
+1005f7c0,verify_data: disps stock-only {28} ours-only {}
+1005f850,"verify_data: consts stock-only {65c90, 65c9c, 65ca8, 65cb4, 65cc0, 65ccc, 65cd8, 6722c} ours-only {}"
+1005fc30,"verify_data: consts stock-only {668e4, 668f0, 668fc, 66908, 66914} ours-only {}"
+1005fcb0,verify_data: consts stock-only {2c} ours-only {77d5c}
+1005fd50,verify_data: consts stock-only {2c} ours-only {77d5c}; disps stock-only {} ours-only {20}
+1005ff80,verify_data: consts stock-only {} ours-only {fffffffe}
+10060130,verify_data: consts stock-only {} ours-only {fffffffa}
+10060a20,verify_data: disps stock-only {1e8} ours-only {198}
+10060a70,verify_data: disps stock-only {d0} ours-only {a0}
+10060c00,verify_data: disps stock-only {1ec} ours-only {19c}
+10063350,verify_data: disps stock-only {c8} ours-only {98}
+10063ba0,"verify_data: disps stock-only {174, 48, 58} ours-only {}"
+10063c50,verify_data: consts stock-only {149c} ours-only {14a0}
+100646f0,verify_data: disps stock-only {c8} ours-only {98}
+10064930,verify_data: disps stock-only {19c} ours-only {160}
+10064e70,"verify_data: consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+10064f00,"verify_data: consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+10064f80,"verify_data: consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+100650b0,"verify_data: consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+10065940,verify_data: disps stock-only {} ours-only {3968}
+10065a30,verify_data: disps stock-only {} ours-only {3968}
+100664a0,"verify_data: consts stock-only {2000} ours-only {200c}; disps stock-only {24, 30, 38, 44} ours-only {28, 34, 40}"
+1006a3e0,verify_data: disps stock-only {} ours-only {28}
+1006a4b0,verify_data: disps stock-only {a30} ours-only {9d4}
+1006a510,"verify_data: consts stock-only {a48} ours-only {9ec}; disps stock-only {a38, a48} ours-only {9dc}"
+1006a570,"verify_data: disps stock-only {a38, a3c} ours-only {9dc, 9e0}"
+1006a740,verify_data: disps stock-only {200} ours-only {54}
+1006aa90,"verify_data: disps stock-only {c8, cc} ours-only {98, 9c}"
+1006adb0,verify_data: consts stock-only {} ours-only {ffffffd0}; disps stock-only {} ours-only {e4}
+1006b040,"verify_data: disps stock-only {a30, a38} ours-only {9d4, 9dc}"
+1006c9f0,"verify_data: disps stock-only {100, 104, 108, 10c, 110, 118, 120, 128, 12c, 130, 134, 138, 13c, 140, 148, 14c, 150, 16c, 170, 174, 178, 17c, 18c, 190, 194, 198, 19c, 1a0, 1a4, 1a8, 1c0, 240, 38, 3968, 3c, 40, 44, 78, c8, d4, d8, dc, e8, f0, f4, f8, fc} ours-only {}; strs stock-only {Height, WindowsInfo.ini, posX, posY, rotate, width} ours-only {}"
+1006cc50,verify_data: disps stock-only {1808} ours-only {}
+1006cf80,verify_data: consts stock-only {17b4} ours-only {17b8}; disps stock-only {1808} ours-only {}
+1006d530,verify_data: consts stock-only {17b0} ours-only {17e4}; disps stock-only {1808} ours-only {}
+1006d830,verify_data: consts stock-only {17b0} ours-only {17e4}; disps stock-only {1808} ours-only {}
+1006db30,verify_data: consts stock-only {17b0} ours-only {17e4}; disps stock-only {1808} ours-only {}
+1006de30,verify_data: consts stock-only {17b4} ours-only {17b8}
+1006e130,verify_data: consts stock-only {17b4} ours-only {17bc}
+1006e420,verify_data: consts stock-only {17b4} ours-only {17bc}
+1006ecf0,verify_data: consts stock-only {17b4} ours-only {17bc}
+1006efe0,verify_data: consts stock-only {17b4} ours-only {17bc}
+1006f2d0,verify_data: consts stock-only {17b4} ours-only {17bc}
+1006f5c0,verify_data: consts stock-only {17c0} ours-only {17c4}; disps stock-only {1808} ours-only {}
+10070420,"verify_data: consts stock-only {1b0} ours-only {}; disps stock-only {} ours-only {1b0, 1b4, 1b8, e0}"
+10071370,"verify_data: disps stock-only {1808, 1a4} ours-only {170}"
+10071680,verify_data: consts stock-only {17b4} ours-only {17b8}; disps stock-only {1a4} ours-only {170}
+100719a0,verify_data: disps stock-only {1808} ours-only {}
+10071cd0,verify_data: consts stock-only {17b4} ours-only {17b8}
+100739c0,verify_data: disps stock-only {1808} ours-only {}; strs stock-only {} ours-only {NConsoleWnd::GetItemName}
+10073a70,verify_data: disps stock-only {1808} ours-only {}
+10073aa0,verify_data: consts stock-only {70c} ours-only {44}; disps stock-only {44} ours-only {70c}; strs stock-only {} ours-only {NConsoleWnd::MakeItemInfo}
+10074870,"verify_data: disps stock-only {392c, 394c, 3954, 3958, 395c, 3960, 3964, 3968, 396c, 3970, 3974, 3978, 397c, 3990, 39c0, 39d4, 39d8, 39dc, 54, 68} ours-only {}; globs stock-only {1026e448} ours-only {}"
+100768c0,verify_data: consts stock-only {bd} ours-only {}
+10076900,verify_data: consts stock-only {135} ours-only {}
+10076940,verify_data: consts stock-only {c1} ours-only {}
+10076980,verify_data: consts stock-only {c5} ours-only {fffffc65}
+100769e0,"verify_data: consts stock-only {c1, ffff0000} ours-only {4e6487}"
+10076b40,verify_data: consts stock-only {20d} ours-only {}
+100778e0,"verify_data: consts stock-only {} ours-only {1a28, 400}; disps stock-only {19b8} ours-only {490}"
+10079b40,"verify_data: consts stock-only {f:00000040, f:00008041, ff, ff646464, ffdcdcdc} ours-only {}; disps stock-only {1d4, 1e0, 1e4, 1f8, 200, 204, 208, 210, 214, 218, 2c, 30, 38, 3c, 40, 44, 48, 4c, 5c} ours-only {}"
+10079b90,"verify_data: consts stock-only {1f74} ours-only {1f78}; disps stock-only {} ours-only {40, 44}"
+10079c10,verify_data: consts stock-only {} ours-only {40}; disps stock-only {} ours-only {44}; globs stock-only {10207788} ours-only {10207748}
+1007a120,verify_data: consts stock-only {} ours-only {e0}; disps stock-only {e0} ours-only {}
+1007c280,"verify_data: consts stock-only {20, 40, 80} ours-only {}; disps stock-only {} ours-only {109, 10c, 110, 114, 118, 11c, 120, 124}"
+1007c570,"verify_data: disps stock-only {cc, d0, d4, d8, dc, e0, e4, e8, ec, f0, f4, f8} ours-only {10c, 110, 114, 118, 11c, 120, 124}"
+1007c650,"verify_data: disps stock-only {cc, d0, d4, d8, dc, e0, e4, e8, ec, f0, f4, f8} ours-only {}"
+1007d2e0,"verify_data: consts stock-only {} ours-only {20}; disps stock-only {} ours-only {10c, 110, 114, 118, 11c, 120, 124}"
+1007db90,"verify_data: consts stock-only {fffffffc} ours-only {}; strs stock-only {new} ours-only {}; globs stock-only {1020ade4, 1020ade8} ours-only {}"
+1007e3a0,"verify_data: consts stock-only {501, f0000003, f00c, f00d, f00e, f010, f011, f012, f013, f014, f015, f018, f019, f01a, f01b} ours-only {}; disps stock-only {110, 114, 118, 11c, 120, 124, 128, 12c, 130, 134, 138, 13c, 140, 144} ours-only {}"
+1007e3c0,"verify_data: disps stock-only {54, 708, 70c, 710, 714, 718, 71c, 720, 724, 728, 72c, 730, 734, 738, 73c} ours-only {}"
+1007e780,verify_data: consts stock-only {ffdcdcdc} ours-only {}
+1007e7e0,verify_data: consts stock-only {ffdcdcdc} ours-only {}
+1007e840,verify_data: consts stock-only {ffdcdcdc} ours-only {}
+1007e8a0,verify_data: consts stock-only {ffdcdcdc} ours-only {}
+1007e900,verify_data: consts stock-only {ffdcdcdc} ours-only {}
+1007e960,verify_data: consts stock-only {ffdcdcdc} ours-only {}
+10082740,"verify_data: disps stock-only {1798, d4} ours-only {1794}"
+100863c0,"verify_data: consts stock-only {67910, 6791c} ours-only {}"
+100864f0,"verify_data: consts stock-only {} ours-only {44}; disps stock-only {20, 24, 28, 30, 353c, 3540, 3544, 3548, 354c, 3550, 3554, 3558, 355c, 3560, 3564, 38, 3c} ours-only {}"
+10086760,"verify_data: consts stock-only {67910, 6791c} ours-only {}"
+10086ab0,"verify_data: disps stock-only {} ours-only {1fe, 3fe}"
+10086e00,verify_data: consts stock-only {141c} ours-only {1420}
+10087e50,"verify_data: disps stock-only {} ours-only {1fe, 3fe}; strs stock-only {new} ours-only {}"
+1008a620,verify_data: strs stock-only {} ours-only {NCEquipItemWnd::OnLButtonDown}; globs stock-only {1026e44c} ours-only {}
+1008b900,"verify_data: disps stock-only {} ours-only {98, 9c, a4, a8}"
+1008ca60,"verify_data: disps stock-only {104, 1798} ours-only {1794}"
+1008ccd0,verify_data: consts stock-only {10c} ours-only {}
+1008cd60,verify_data: disps stock-only {19b8} ours-only {}; strs stock-only {} ours-only {NCEquipItemWnd::OnDestroy}
+1008ce30,verify_data: consts stock-only {d0} ours-only {1a28}; disps stock-only {} ours-only {1914}
+1008cea0,verify_data: consts stock-only {} ours-only {1a28}
+1008d070,verify_data: consts stock-only {10c} ours-only {1a28}; disps stock-only {} ours-only {1914}
+1008d3c0,verify_data: disps stock-only {1798} ours-only {1794}
+1008e350,verify_data: consts stock-only {} ours-only {1a38}
+1008f470,verify_data: consts stock-only {} ours-only {e0}; disps stock-only {e0} ours-only {}
+1008f7f0,verify_data: consts stock-only {404ac} ours-only {}
+100920a0,"verify_data: consts stock-only {4065c, 4068c, 4071c, 4ddfc} ours-only {}"
+10096310,verify_data: disps stock-only {} ours-only {228}
+10096740,verify_data: disps stock-only {} ours-only {108}
+10096a20,"verify_data: consts stock-only {148, fffffff8} ours-only {146}"
+100976a0,"verify_data: disps stock-only {f4, f8} ours-only {}"
+1009b570,verify_data: consts stock-only {} ours-only {ffffffff}
+1009c050,"verify_data: consts stock-only {3f800000} ours-only {5bc}; disps stock-only {618, a30, a44, d4, ec, fc} ours-only {78, 90, 9d4, 9e8, a0}"
+1009c0e0,"verify_data: consts stock-only {3a83126f} ours-only {5bc, f:6f12833a}; disps stock-only {618, a30, a44, d4, ec, fc} ours-only {78, 90, 9d4, 9e8, a0}"
+1009c7e0,"verify_data: disps stock-only {130, 60c0} ours-only {61b8, fc}"
+1009d090,"verify_data: disps stock-only {12c, 130, 60c0, a38} ours-only {61b8, 9dc, f8, fc}"
+100a1d20,verify_data: disps stock-only {} ours-only {cc}
+100a1da0,verify_data: disps stock-only {} ours-only {cc}
+100a1db0,"verify_data: disps stock-only {19b8, 70c} ours-only {70a}"
+100a1fb0,verify_data: consts stock-only {} ours-only {48}; disps stock-only {} ours-only {160}; strs stock-only {} ours-only {NCSkillItemWnd::OnDestroy}
+100a21a0,"verify_data: consts stock-only {} ours-only {1a28, 48}"
+100a98c0,"verify_data: disps stock-only {d0, d4, d8, dc, e0, e4, e8, ec, f0} ours-only {}"
+100aa1b0,"verify_data: disps stock-only {d0, d4, d8, dc} ours-only {}"
+100b0a80,verify_data: consts stock-only {104} ours-only {}; disps stock-only {} ours-only {fe}
+100b2420,"verify_data: consts stock-only {f:00000040, f:00008041, ff, ff646464, ffdcdcdc} ours-only {}; disps stock-only {1d4, 1e0, 1e4, 1f8, 200, 204, 208, 210, 214, 218, 2c, 30, 38, 3c, 40, 44, 48, 4c, 5c} ours-only {}; strs stock-only {} ours-only {NCNpcView_CharacterSelect_List::OnPaint}"
+100b3b50,verify_data: consts stock-only {f:00000000} ours-only {}
+100b4b10,verify_data: consts stock-only {17c8} ours-only {17bc}; strs stock-only {} ours-only {NCNpcViewrWnd::AddAllItem}
+100be4a0,verify_data: consts stock-only {d0} ours-only {}; disps stock-only {} ours-only {d0}
+100be610,verify_data: consts stock-only {fffffff8} ours-only {4c}; disps stock-only {4c} ours-only {}
+100be690,"verify_data: consts stock-only {31} ours-only {ffffffe6, fffffff5}"
+100be950,"verify_data: consts stock-only {40000000} ours-only {f:00000040}; disps stock-only {} ours-only {ec, f0, f4}"
+100be990,"verify_data: consts stock-only {c0000000} ours-only {f:000000c0}; disps stock-only {} ours-only {ec, f0, f4}"
+100bf290,"verify_data: consts stock-only {4056c, 4059c, 405cc, fffffff8} ours-only {4c}; disps stock-only {4c} ours-only {}"
+100bf5a0,"verify_data: consts stock-only {4056c, 4059c, 405cc, 4074c, fffffff8} ours-only {4c}; disps stock-only {4c} ours-only {}"
+100bf8c0,"verify_data: consts stock-only {4056c, 4059c, 405cc, 4074c, 43adc, fffffff8} ours-only {4c}; disps stock-only {4c} ours-only {}"
+100bfc40,"verify_data: consts stock-only {320, 4053c, 4056c, 4059c, 405cc, 4074c} ours-only {200}"
+100c0a00,verify_data: consts stock-only {} ours-only {65a8c}; strs stock-only {new} ours-only {}
+100c0e60,"verify_data: consts stock-only {26, 2c, 31, 4056c} ours-only {}"
+100c10c0,"verify_data: consts stock-only {323, 4056c, 4059c, ba, bb} ours-only {}; disps stock-only {} ours-only {558}"
+100c37b0,verify_data: disps stock-only {708} ours-only {70c}
+100c3810,verify_data: disps stock-only {708} ours-only {70c}
+100c3870,verify_data: disps stock-only {708} ours-only {70c}
+100c3950,"verify_data: consts stock-only {f:00000040, f:00008041, ff, ff646464, ffdcdcdc} ours-only {}; disps stock-only {1d4, 1e0, 1e4, 1f8, 200, 204, 208, 210, 214, 218, 2c, 30, 38, 3c, 40, 44, 48, 4c, 5c} ours-only {}; strs stock-only {} ours-only {NCPawnView_CharacterSelect_List::OnPaint}"
+100c3a50,verify_data: consts stock-only {} ours-only {ffffffff}
+100c3b70,verify_data: consts stock-only {} ours-only {f4}
+100c3ba0,verify_data: consts stock-only {} ours-only {11c}
+100c3e10,"verify_data: consts stock-only {210} ours-only {}; disps stock-only {708, 764} ours-only {154, 158, 210, 214, 218, 70c, 760}; strs stock-only {} ours-only {NCPawnView_InvenItemWnd::OnRButtonDown}"
+100c5250,verify_data: consts stock-only {3f800000} ours-only {}; strs stock-only {} ours-only {NCPawnView_CharacterSelect_List::PlayAnim}
+100c5dc0,"verify_data: consts stock-only {} ours-only {760}; disps stock-only {708, 764, 8b4, 8f0} ours-only {70c, 8b0, 8ec}"
+100c7dc0,verify_data: consts stock-only {3f800000} ours-only {}; strs stock-only {} ours-only {NCPawnView_CharacterSelect_List::PlayAnim}
+100c7dd0,verify_data: consts stock-only {3f800000} ours-only {}; strs stock-only {} ours-only {NCPawnView_CharacterSelect_List::PlayAnim}
+100c82c0,"verify_data: disps stock-only {708, 8f0} ours-only {70c, 8e4}"
+100c8900,"verify_data: disps stock-only {6ec, 6f0, 6f4, 6f8, 6fc} ours-only {}"
+100c8cf0,"verify_data: consts stock-only {44, ffdcdcdc} ours-only {}; disps stock-only {118, 11c, 1f0, 23c, 2c, 30, 398, 48, 4c, 60, 64, 94, cc, d0, f8} ours-only {}; strs stock-only {1hs, run} ours-only {}; globs stock-only {1026e44c} ours-only {}"
+100c93f0,verify_data: consts stock-only {41} ours-only {}
+100c9ff0,"verify_data: consts stock-only {} ours-only {101b23ac, 28}"
+100cea30,"verify_data: disps stock-only {} ours-only {cc, dc}"
+100cf150,verify_data: consts stock-only {} ours-only {1a28}
+100cf1b0,"verify_data: consts stock-only {} ours-only {1a28}; disps stock-only {} ours-only {10c, 110, 1914}"
+100d0300,verify_data: consts stock-only {4ac4c} ours-only {}
+100d0470,verify_data: consts stock-only {ffdcdcdc} ours-only {}
+100d0cc0,verify_data: consts stock-only {4ac4c} ours-only {}
+100d1080,"verify_data: consts stock-only {} ours-only {d4, d8, dc, e0, e4, e8, ec}; disps stock-only {d4, d8, dc, e0, e4, e8, ec} ours-only {}"
+100dc0c0,verify_data: disps stock-only {84} ours-only {10c}
+100dcec0,verify_data: disps stock-only {c8} ours-only {}
+100de840,"verify_data: disps stock-only {cc, d0} ours-only {}"
+100df8d0,"verify_data: disps stock-only {} ours-only {1fe, fe}"
+100ed7f0,verify_data: consts stock-only {} ours-only {51eb851f}
+100ed830,"verify_data: consts stock-only {} ours-only {190, 51eb851f, 64, 80000003, fffffffc}"
+100ed870,verify_data: consts stock-only {} ours-only {51eb851f}
+100ee3a0,"verify_data: consts stock-only {5874, 67028, 67034} ours-only {5868}; disps stock-only {39c4} ours-only {39c8}; strs stock-only {} ours-only {NCServerSelectWnd::OnOK}"
+100ee570,"verify_data: consts stock-only {486c} ours-only {4860}; disps stock-only {1fc, 302c} ours-only {4848}"
+100eeb20,verify_data: consts stock-only {1824} ours-only {1820}; disps stock-only {} ours-only {4848}
+100f3b20,"verify_data: consts stock-only {1ab4} ours-only {1a7c}; disps stock-only {1910, 19b8, 1a94} ours-only {190c, 1a78}"
+100f5a30,verify_data: consts stock-only {1ab4} ours-only {1a7c}
+100f6190,verify_data: consts stock-only {1ab4} ours-only {1a7c}; disps stock-only {1a74} ours-only {1a7c}
+100f6200,verify_data: consts stock-only {1ab4} ours-only {1a7c}; disps stock-only {1a74} ours-only {1a7c}
+100f6b50,verify_data: consts stock-only {1ab4} ours-only {}; strs stock-only {} ours-only {NCShortCutWnd::OnDestroy}
+100f76f0,"verify_data: consts stock-only {1824, 67520, 6752c} ours-only {1820, fffffffd}"
+100f81a0,"verify_data: disps stock-only {} ours-only {1f8, 1fc, 230, 804}"
+100f82c0,"verify_data: disps stock-only {} ours-only {1f8, 1fc, 230, 804}"
+100f87d0,verify_data: consts stock-only {675f8} ours-only {}
+100f9070,verify_data: disps stock-only {} ours-only {f8}
+100f9210,verify_data: disps stock-only {} ours-only {f8}
+100f95c0,verify_data: consts stock-only {cc} ours-only {}; disps stock-only {} ours-only {cc}
+100fab50,verify_data: disps stock-only {134} ours-only {132}
+100fb1d0,verify_data: consts stock-only {ff0001f2} ours-only {f0}
+10101d80,verify_data: consts stock-only {19b8} ours-only {19b0}
+10103bf0,verify_data: disps stock-only {} ours-only {14c}
+10106a80,verify_data: consts stock-only {} ours-only {1a28}
+10109150,verify_data: disps stock-only {} ours-only {cc}
+10109a60,verify_data: disps stock-only {2a8} ours-only {}
+10109ab0,verify_data: consts stock-only {f:00000000} ours-only {}
+10109b60,verify_data: consts stock-only {f:00000000} ours-only {}
+1010a020,verify_data: disps stock-only {2a8} ours-only {}
+1010a6b0,verify_data: consts stock-only {fffffff8} ours-only {}; disps stock-only {2a8} ours-only {}
+1010abc0,verify_data: disps stock-only {250} ours-only {}
+1010b230,verify_data: consts stock-only {} ours-only {7c}; disps stock-only {7c} ours-only {}
+100a28e0,check_breakers: reaches a function whose body is NW_UNPORTED()
+10109500,"verify: imports stock ['?ConditionalDestroy@UObject@@QAEHXZ'] ours ['??1FString@@QAE@XZ', '?ConditionalDestroy@UObject@@QAEHXZ']"
+100f76c0,regcheck: a stock caller (100f81a0) keeps edx across a call that reaches this hook
+10002890,check_breakers: reaches a function whose body is NW_UNPORTED()
+10002ca0,check_breakers: reaches a function whose body is NW_UNPORTED()
+10002d70,check_breakers: reaches a function whose body is NW_UNPORTED()
+10002e50,check_breakers: reaches a function whose body is NW_UNPORTED()
+10002f70,check_breakers: reaches a function whose body is NW_UNPORTED()
+10021170,check_breakers: reaches a function whose body is NW_UNPORTED()
+100394c0,check_breakers: reaches a function whose body is NW_UNPORTED()
+100455f0,check_breakers: reaches a function whose body is NW_UNPORTED()
+100456f0,check_breakers: reaches a function whose body is NW_UNPORTED()
+1004ade0,check_breakers: reaches a function whose body is NW_UNPORTED()
+1004b040,check_breakers: reaches a function whose body is NW_UNPORTED()
+1009fdc0,check_breakers: reaches a function whose body is NW_UNPORTED()
+100cbd40,check_breakers: reaches a function whose body is NW_UNPORTED()
+10063e20,verify_data: consts stock-only {17ac} ours-only {17b0}
+10066080,verify_data: consts stock-only {17ac} ours-only {17b0}
+100661c0,verify_data: consts stock-only {17ac} ours-only {17b0}
+10011320,"verify: ret     stock [8] ours [0, 8]"
+10046930,"verify: imports stock ['#1', '#25', '#36', '#37', '??1FString@@QAE@XZ', '??DFString@@QBEPBGXZ', '?Logf2@FOutputDevice@@QAAXW4EName@@PBGZZ', '?appSpr"
+100e09f0,"verify_data: disps stock-only {} ours-only {1fe, fe}"
+10107df0,"verify_data: disps stock-only {1400, 1480, 1484, 1488, 1490, 1494, 1498, 200, 400} ours-only {}"
+10108d60,verify_data: strs stock-only {new} ours-only {}
+1001e350,"C2664: 'void NToolTipSkin::DrawFull(NCGDevice *,NToolTipInfo,INT,INT,NToolTipRect)': nÃ£o Ã© possÃ­vel conv"
+1001d0f0,"verify: vcalls  stock {+0x74, +0x9c, +0xb4, +0x124} ours {+0x74, +0x9c, +0xb4, +0x128}"
+100a1070,"verify: vcalls  stock {+0x74, +0x9c, +0xb4, +0x124} ours {+0x74, +0x9c, +0xb4, +0x128}"
+100a9d60,"verify: vcalls  stock {+0x74, +0x9c, +0xb0, +0xb4} ours {}"
+100d54c0,verify: vcalls  stock {+0x124} ours {+0x128}
+100d84f0,verify: vcalls  stock {+0x124} ours {+0x128}
+100e24c0,verify: vcalls  stock {+0x120} ours {+0x124}
+100798c0,verify_data: consts stock-only {9f6} ours-only {fffffe1c}; globs stock-only {} ours-only {10205c58}
+100e07a0,verify_data: strs stock-only {new} ours-only {}
+100e4440,verify_data: strs stock-only {new} ours-only {}
+100e4b20,"verify_data: disps stock-only {110, 114} ours-only {}"
+100e4fd0,"verify_data: disps stock-only {110, 114} ours-only {}"
+100e5ed0,verify_data: strs stock-only {new} ours-only {}
+100276b0,check_breakers: reaches a function whose body is NW_UNPORTED()

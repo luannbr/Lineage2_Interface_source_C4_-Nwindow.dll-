@@ -1,0 +1,18 @@
+# Addresses the analysis took for function entries but that are code inside another function
+# (loop heads after alignment nops, computed-jump targets). tools/build_db.py marks them
+# kind "fragment": out of the work list, never hooked. (C3 addresses; the C2 list is
+# db/c2/not_functions.csv, the C1 one db/c1/not_functions.csv.)
+va,part_of,reason
+100017e0,10001790,movsb sled of an MMX memcpy entered by jmp ecx (C2: 100017e0)
+1000bcd7,1000bc10,tail of NCEditBox::OnReading (wave 5 core5 report)
+100344c2,10034450,tail of NCVirtualWndMain::UnRegisterNWindow (wave 5 core5 report)
+10037fd7,10037f50,second half of NStlWString::Copy (wave 5 core5 report)
+100113af,10011320,second half of NStdString::Copy (wave 5 core5 report)
+1005cbd3,1005cba0,loop body of NConsoleWnd::AddQuestID (wave 5 core5 report)
+1005cc93,1005cc60,loop body of NConsoleWnd::GetQuestName (wave 5 core5 report)
+1005cd56,1005cd20,loop body of NConsoleWnd::GetQuestText (wave 5 core5 report)
+1005e3b3,1005e380,loop body of NConsoleWnd::GMViewAddQuestID (wave 5 core5 report)
+10118040,10118010,part of NCBroadcastObserverWnd::NotifyUserInfo (wave 5 ui5 report)
+10118050,10118010,part of NCBroadcastObserverWnd::NotifyUserInfo (wave 5 ui5 report)
+10119328,101192e0,part of NCBroadcastObserverWnd::NotifySpellInfoStart (wave 5 ui5 report)
+1011b090,1011b060,part of TaskBox::UpdateString (wave 5 ui5 report)

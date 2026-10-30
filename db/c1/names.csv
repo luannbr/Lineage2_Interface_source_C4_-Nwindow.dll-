@@ -1,0 +1,23 @@
+# Names given by hand to stock functions that are not reimplemented yet (reimplemented ones take
+# their name from the NW_HOOK_* macro). "(nome nosso)" = no string/export confirms it.
+va,name,note
+100be4fc,_purecall,"CRT: pure virtual slot target"
+10047440,NConsoleWnd::NKillTimer,"(nome nosso) (ID, Owner): marca o timer como morto; o Tick o remove"
+10045fb0,NConsoleWnd::SetCursor,"(nome nosso) (Type, Texture): WndMain->SetCursorType se o cursor nao estiver travado"
+10045fd0,NConsoleWnd::LockCursor,"(nome nosso) global 1012d7bc = 1 (arrasto de janela/item)"
+10045fe0,NConsoleWnd::UnlockCursor,"(nome nosso) global 1012d7bc = 0"
+100bd5bd,wcscpy,"CRT estatico (NWindow chama wcscpy direto, nao appStrcpy do Core)"
+100bdc2c,_ftol,"CRT estatico: (INT) de float/double"
+1000e320,appMemcpy,"UE2 inline (SSE) emitido fora de linha; memcpy"
+10046f40,NConsoleWnd::Free,"(nome nosso) slot 258: GMalloc->Free(Ptr); o linker dobrou com o operator delete global do NWindow (chamado assim pelo NString)"
+10019880,TArray<ptr>::Remove,"template UE2 (Remove(Index, Count) com os check() de UnTemplate.h 515-517); ICF de todas as TArray de ponteiros"
+1001a010,TArray<ptr>::~TArray,"template UE2 (Remove(0, ArrayNum) + ~FArray); ICF de todas as TArray de ponteiros"
+10075bc0,TArray<ptr>::TArray(const TArray&),"template UE2 (copia: Realloc + new(Array) por elemento); usado pelo NCMatchWnd::UpdatePlayerInfo"
+100745e0,operator new(size_t TArray<ptr>&),"template UE2 new(Array) (FArray::Add(1 4)); ICF de todas as TArray de ponteiros"
+100b36e0,TArray<FAbnormalStatus>::~TArray,"template UE2 (Remove(0, ArrayNum) + ~FArray) de NCAbnormalStatusWnd::Statuses"
+10078bb0,TArray<FMinimapTarget>::Remove,"template UE2 (Remove(Index, Count) com os check() de UnTemplate.h 515-517)"
+100792e0,TArray<FMinimapTarget>::~TArray,"template UE2 (Remove(0, ArrayNum) + ~FArray) de NCMinimapWnd e NCRadarWnd"
+10017620,TArray<NItemEntry*>::~TArray,"template UE2 (Remove(0, ArrayNum) + ~FArray) de NCItemWnd::Items"
+100a1660,TArray<NQuestEntry>::~TArray,"template UE2 (Remove(0, ArrayNum) + ~FArray) de NCQuestInfoWnd::Quests"
+100427d0,HasNoFinalConsonant,"(nome nosso) 1 se a sílaba hangul não tem consoante final"
+10028aa0,NHtmlObject::NHtmlObject,"(nome nosso)"

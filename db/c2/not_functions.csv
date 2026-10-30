@@ -1,0 +1,15 @@
+# Addresses the analysis took for function entries but that are code inside another function
+# (loop heads after alignment nops, computed-jump targets). tools/build_db.py marks them
+# kind "fragment": out of the work list, never hooked. (C2 addresses; the C1 list is
+# db/c1/not_functions.csv.)
+va,part_of,reason
+100017e0,10001790,movsb sled of an MMX memcpy entered by jmp ecx (C1: 1000e370)
+10055615,100555e0,the loop of the quest table search of NConsoleWnd::GMViewAddQuestID: the function runs on into it (jumped to by the loop's back edge)
+10054195,10054160,the loop of the quest table search of NConsoleWnd::AddQuestID: the function runs on into it
+10054266,10054230,the loop of the quest table search of NConsoleWnd::GetQuestText: the function runs on into it
+1000fdef,1000fd60,the body of NStdString::Copy after its first guard block: it uses the frame (ebp) of the function and has no prologue
+100324e7,10032460,the body of NStlWString::Copy after its first guard block: it uses the frame (ebp) of the function and has no prologue
+1002e682,1002e610,the loop of NCVirtualWndMain::UnRegisterNWindow (its range is split around it by the loop body placed after the first exit)
+1002ec97,1002e8a0,a case of the message switch of NCVirtualWndMain::DispatchWndMsg (jump table entry, jumps back into the function)
+1002ece6,1002e8a0,a case of the message switch of NCVirtualWndMain::DispatchWndMsg (jump table entry, jumps back into the function)
+1000af1e,1000ae40,the tail of NCEditBox::OnReading (the widths of the three pieces): the function runs on into it

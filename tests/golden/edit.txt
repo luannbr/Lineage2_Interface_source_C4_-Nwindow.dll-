@@ -1,0 +1,85 @@
+== NCEditBox
+width 5 set: view 0 left 6/6"hello" right 0/0"(null)" comp 0/0"(null)"
+append: view 1 left 12/48"hello world" right 0/0"(null)" comp 0/0"(null)"
+prepend: view 2 left 15/52">> hello world" right 0/0"(null)" comp 0/0"(null)"
+delete 0: view 1 left 14/52"> hello world" right 6/6"RIGHT" comp 4/4"cmp"
+delete 3: view 0 left 13/52"> hllo world" right 6/6"RIGHT" comp 4/4"cmp"
+delete 13: view 0 left 13/52"> hllo world" right 6/6"RIGHT" comp 3/4"cm"
+delete 14: view 0 left 13/52"> hllo world" right 5/6"RIGH" comp 3/4"cm"
+delete 15: view 0 left 13/52"> hllo world" right 4/6"RIG" comp 3/4"cm"
+delete 16: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+delete 17: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+delete 19: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+delete 20: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+delete 30: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+commit "> hllo worldRGTTT": view 0 left 18/52"> hllo worldRGTTT" right 0/0"(null)" comp 3/4"cm"
+clear: view 0 left 0/0"(null)" right 0/0"" comp 0/0"(null)" commit NULL
+allocs [r12 r96 r24 r8 r104 r0 r12 r8 r0 r0 r0 r0]
+width 100 set: view 0 left 6/6"hello" right 0/0"(null)" comp 0/0"(null)"
+append: view 0 left 12/48"hello world" right 0/0"(null)" comp 0/0"(null)"
+prepend: view 0 left 15/52">> hello world" right 0/0"(null)" comp 0/0"(null)"
+delete 0: view 0 left 14/52"> hello world" right 6/6"RIGHT" comp 4/4"cmp"
+delete 3: view 0 left 13/52"> hllo world" right 6/6"RIGHT" comp 4/4"cmp"
+delete 13: view 0 left 13/52"> hllo world" right 6/6"RIGHT" comp 3/4"cm"
+delete 14: view 0 left 13/52"> hllo world" right 5/6"RIGH" comp 3/4"cm"
+delete 15: view 0 left 13/52"> hllo world" right 4/6"RIG" comp 3/4"cm"
+delete 16: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+delete 17: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+delete 19: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+delete 20: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+delete 30: view 0 left 13/52"> hllo world" right 3/6"RG" comp 3/4"cm"
+commit "> hllo worldRGTTT": view 0 left 18/52"> hllo worldRGTTT" right 0/0"(null)" comp 3/4"cm"
+clear: view 0 left 0/0"(null)" right 0/0"" comp 0/0"(null)" commit NULL
+allocs [r12 r96 r24 r8 r104 r0 r12 r8 r0 r0 r0 r0]
+== NString
+ctor 0/0 "(null)" []
+getat 0 NULL
+append 3 0/0 "(null)" []
+insert@1 2 3/256 "abc" [m512]
+insert@9 0 5/256 "aXYbc" []
+append 300 300 5/256 "aXYbc" []
+insert@0 300 300 305/556 "aXYbczzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" [m1112 f]
+getat 0 'z'
+getat 2 'z'
+getat 604 'z'
+getat 605 '\x00'
+getat 606 NULL
+insert NULL 0 605/856 "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzaXYbczzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+allocbuffer 10 set 605/856 "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzaXYbczzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" [m1712 f m20]
+empty 0/856 "(null)" [f]
+ctor text 9/256 "from text" [m512]
+dtors [f]
+== NStringArray
+ctor num 1 max 128 [m2564]
+insert num 2 max 128 []
+insert num 3 max 128 []
+insert num 4 max 128 []
+empty -> 0 num 0 max 0 []
+dtor [f m2564 f]
+== NLineList
+ctor count 1 walked 1 cur 0(0) tail ok [0/0""] [m20 r0]
+insert -1 -> 1: count 2 walked 2 cur 1(1) tail ok [0/0"" 6/6"line0"] [m20 r0 r12]
+insert 0 -> 1: count 3 walked 3 cur 1(1) tail ok [0/0"" 6/6"line1" 6/6"line0"] [m20 r0 r12]
+insert 2 -> 1: count 4 walked 4 cur 1(1) tail ok [0/0"" 6/6"line2" 0/0"" 6/6"line0"] [m20 r0 r12]
+insert -1 -> 1: count 5 walked 5 cur 1(1) tail ok [0/0"" 6/6"line3" 0/0"" 6/6"line0" 0/0""] [m20 r0 r12]
+insert 0 -> 1: count 6 walked 6 cur 1(1) tail ok [0/0"" 6/6"line4" 6/6"line3" 0/0"" 6/6"line0" 0/0""] [m20 r0 r12]
+insert 2 -> 1: count 7 walked 7 cur 1(1) tail ok [0/0"" 6/6"line5" 0/0"" 6/6"line3" 0/0"" 6/6"line0" 0/0""] [m20 r0 r12]
+getline 0 -> 0/0"" cur 0
+getline 6 -> 0/0"" cur 6
+getline 3 -> 6/6"line3" cur 3
+getline 1 -> 6/6"line5" cur 1
+getline 5 -> 6/6"line0" cur 5
+getline 2 -> 0/0"" cur 2
+getline -1 -> 0/0"" cur 0
+getline 7 -> NULL cur 0
+getline 4 -> 0/0"" cur 4
+total 15
+gettext "line5line3line0" [m32]
+remove 2: count 6 walked 6 cur 1(1) tail ok [0/0"" 6/6"line5" 6/6"line3" 0/0"" 6/6"line0" 0/0""] [r0 r0 r0 f]
+remove 0: count 5 walked 5 cur 0(0) tail ok [6/6"line5" 6/6"line3" 0/0"" 6/6"line0" 0/0""] [r0 r0 r0 f]
+remove 9: count 5 walked 5 cur 0(0) tail ok [6/6"line5" 6/6"line3" 0/0"" 6/6"line0" 0/0""] []
+remove -1: count 5 walked 5 cur 0(0) tail ok [6/6"line5" 6/6"line3" 0/0"" 6/6"line0" 0/0""] []
+remove 3: count 4 walked 4 cur 2(2) tail ok [6/6"line5" 6/6"line3" 0/0"" 0/0""] [r0 r0 r0 f]
+clear: count 0 walked 0 cur 0(-1) tail bad [] total 0 [r0 r0 r0 f r0 r0 r0 f r0 r0 r0 f r0 r0 r0 f]
+gettext NULL [f]
+dtor []

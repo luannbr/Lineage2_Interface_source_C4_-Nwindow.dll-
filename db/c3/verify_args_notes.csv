@@ -1,0 +1,9 @@
+# va,callee,explanation   (tools/port/verify_args.py: a stock call whose constant arguments no call of ours matches; "*" = any callee)
+va,callee,explanation
+100c8990,vslot +0xbc,"ULevel::SpawnActor: the first call (the PlayerController, all defaults) is compiled by ours through a path the judge does not follow (the register that holds the vtable); the second call (0 1 1 owner 0) matches the stock one"
+100ca4d0,import ?ConditionalDestroy@UObject@@QAEHXZ,"SEH state pushes (-1 / the trylevel) in the stock destructor frame, not an argument of the call"
+10034d50,import ?appFailAssert@@YAXPBD0H@Z,"only the source line number inside the assert text differs (the stock UnTemplate.h line)"
+100b2970,vslot +0xbc,"ULevel::SpawnActor: the first call (the PlayerController, all defaults) is compiled by ours through a path the judge does not follow (the vtable slot is kept in a stack slot that the FName local reuses); the second call (0 1 1 owner 0) matches the stock one"
+10098fa0,vslot +0xbc,"ULevel::SpawnActor: the first call (the PlayerController, all defaults) is compiled by ours through a path the judge does not follow (the vtable slot is kept in a stack slot that the FName local reuses); the second call (0 1 1 owner 0) matches the stock one"
+1013dda0,import ??8FString@@QBEHPBG@Z,"the frame's exception state (0 in the stock's, -1 and 0 in ours) read as a stack argument of the comparison with the verb text; the call is the one with the text ""RMG"""
+10143ed0,import ??0FString@@QAE@XZ,"the frame's exception state (1 in the stock, -1 in ours) read as a stack argument of the default FString constructor of the result"

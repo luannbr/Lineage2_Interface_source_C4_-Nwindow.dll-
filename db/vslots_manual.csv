@@ -1,0 +1,17 @@
+# Slot moves the monotone alignment of tools/port/vslots.py cannot find (the slot changed place within the
+# vtable) or the function map could not pair. class,c1_slot,c2_slot: C1_slot is the BASE client's (C2) slot of the
+# class, c2_slot this client's (C3). Read from the code of the two images, see the note.
+class,c1_slot,c2_slot,note
+NCWnd,56,62,"OnPaint: C4 NCWnd::WindowProc 10034390 sends WM_PAINT (0xF) through +0xF8 = slot 62 (C3: slot 56); the derived classes override slot 62 with their OnPaint (NCButton 10002410, NCGaraDialogBox 100086a0...)"
+NCWnd,57,63,"OnDrawToolTip: the same WindowProc sends 0x505 through +0xFC = slot 63"
+NCWnd,58,64,"OnChar: the same WindowProc sends WM_CHAR (0x102) through +0x100 = slot 64 (the folded no-op 100023b0, ret 8)"
+NCWnd,67,73,"OnMouseWheel: the same WindowProc sends WM_MOUSEWHEEL (0x20A) through +0x124 = slot 73 (the folded no-op 100023b0, ret 8)"
+NCChatWnd,45,49,"HideWindow: the class overrides NCWnd's slot 45 (C3) = 49 here with the shared body 100471a0 (the monotone alignment took the next slot, 50, a NCWnd virtual that is new in C4)"
+NCAbstractMain,25,25,"all 12 slots of the abstract class are _purecall in the C4 image (no function to pair by): the first seven are the ones the C3 class declared, NCVirtualWndMain implements them in the same order"
+NCAbstractMain,26,26,"all 12 slots of the abstract class are _purecall in the C4 image (no function to pair by): the first seven are the ones the C3 class declared, NCVirtualWndMain implements them in the same order"
+NCAbstractMain,27,27,"all 12 slots of the abstract class are _purecall in the C4 image (no function to pair by): the first seven are the ones the C3 class declared, NCVirtualWndMain implements them in the same order"
+NCAbstractMain,28,28,"all 12 slots of the abstract class are _purecall in the C4 image (no function to pair by): the first seven are the ones the C3 class declared, NCVirtualWndMain implements them in the same order"
+NCAbstractMain,29,29,"all 12 slots of the abstract class are _purecall in the C4 image (no function to pair by): the first seven are the ones the C3 class declared, NCVirtualWndMain implements them in the same order"
+NCAbstractMain,30,30,"all 12 slots of the abstract class are _purecall in the C4 image (no function to pair by): the first seven are the ones the C3 class declared, NCVirtualWndMain implements them in the same order"
+NCAbstractMain,31,31,"all 12 slots of the abstract class are _purecall in the C4 image (no function to pair by): the first seven are the ones the C3 class declared, NCVirtualWndMain implements them in the same order"
+NCAbstractMain,32,34,"NumFocusWindows: the stock NCVirtualWndMain slot 34 (0x1003dce0) is `mov eax, [ecx+0x58]; ret`, the count of the FocusWindows array (the C3 body)"

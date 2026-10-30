@@ -1,0 +1,21 @@
+# Exact text of a generated file this client needs another way (tools/port/gen.py applies them after rendering).
+# file,old,new,note   ("\n" in old/new is a line break)
+file,old,new,note
+NCObject.h,"return *(FString*)((BYTE*)&GL2GameData + 0x4B4E8 + ID * sizeof(FString));","return GL2GameData.SysString[ID];","the base header hard-coded the C2 offset of the string table; FL2GameData has the C3 one"
+NCGDevice.h,"void DrawStretchedTex(INT X, INT Y, INT XL, INT YL, UTexture* Tex);","void DrawStretchedTex(INT X, INT Y, INT XL, INT YL, UTexture* Tex, INT Param6 = 1, DWORD Alpha = 0xFF);","C3 takes two more arguments after the texture (Param6, Alpha); the stock callers pass 1 and 0xFF as a rule: the judges see the exceptions"
+NCGDevice.h,"INT SrcX, INT SrcY, INT SrcXL, INT SrcYL,\n                          UTexture* Tex);","INT SrcX, INT SrcY, INT SrcXL, INT SrcYL,\n                          UTexture* Tex, DWORD Alpha = 0xFF);",C3 takes the alpha after the texture
+NCGDevice.h,"void DrawTexture(INT X, INT Y, INT XL, INT YL, INT U, INT V, INT UL, INT VL,\n                     UTexture* Tex);","void DrawTexture(INT X, INT Y, INT XL, INT YL, INT U, INT V, INT UL, INT VL,\n                     UTexture* Tex, DWORD Alpha = 0xFF, INT Param11 = 1);",C3 takes the alpha and one more argument after the texture
+NCGDevice.cpp,UTexture* Tex) NW_STOCK(0x10010990),"UTexture* Tex, INT Param6, DWORD Alpha) NW_STOCK(0x10010990)",see NCGDevice.h
+NCGDevice.cpp,UTexture* Tex) NW_STOCK(0x10010a50),"UTexture* Tex, DWORD Alpha) NW_STOCK(0x10010a50)",see NCGDevice.h
+NCGDevice.cpp,UTexture* Tex) NW_STOCK(0x10010b30),"UTexture* Tex, DWORD Alpha, INT Param11) NW_STOCK(0x10010b30)",see NCGDevice.h
+NCItemWnd.h,"INT HitTest(INT X, INT Y);","INT HitTest(INT X, INT Y, INT OffsetX = 0, INT OffsetY = 0);",C3 subtracts an offset (two more arguments) from the position before it divides into cells
+NCItemWnd.cpp,"NCItemWnd::HitTest(INT X, INT Y) NW_STOCK(0x1001c8e0)","NCItemWnd::HitTest(INT X, INT Y, INT OffsetX, INT OffsetY) NW_STOCK(0x1001c8e0)",see NCItemWnd.h
+NDialogInfo.h,"    FString Text;              // +0x1C the message (SetText, SetSystemMessage) (C1: TCHAR[1024])","    INT Unknown1C;             // +0x1C new in C3 (what follows is 4 bytes higher than in C2; the asserts say so)\n    FString Text;              // +0x20 the message (SetText, SetSystemMessage) (C1: TCHAR[1024])","C3 NDialogInfo (ctor 0x100075e0): a dword at +0x1C, the strings from +0x20"
+NDialogInfo.h,"    INT Unknown74;             // +0x74 new in C2","    INT Unknown74;             // +0x78 new in C2\n    FVector Location;          // +0x7C the ground point the drop dialog answers with (C2: NDropDialogInfo, +0x78)\n    FString Text88;            // +0x88 new in C3\n    FString Text94;            // +0x94 new in C3","C3 NDialogInfo: the three floats of the drop dialog are inside it, two more strings at the end"
+NDropDialogInfo.h,"    FVector Location;          // +0x78","    // Location: NDialogInfo has it in C3 (+0x7C)","the C2 vector at the end is part of NDialogInfo in C3"
+NMacroEntry.h,"    NToolTipInfo ToolTip;      // +0x000 (the tool tip of the slot; FillMacro fills it)","    NToolTipInfo ToolTip;      // +0x000 (the tool tip of the slot; FillMacro fills it)\n    NCCoolTimeIcon CoolTime;   // +0x7C new in C3 (ctor 0x1009f980 builds it right after the tool tip)","C3 NMacroEntry has an NCCoolTimeIcon after the tool tip"
+NMacroEntry.h,"#include ""nwindow/NCommandParser.h""","#include ""nwindow/NCommandParser.h""\n#include ""nwindow/NCCoolTimeIcon.h""","the new member's type"
+NL2Font.cpp,"(INT)fread((BYTE*)Chars + i * 0x10, 1, 0x10, File)","(INT)::nw::StockFread((BYTE*)Chars + i * 0x10, 1, 0x10, File)",the FILE* comes from the stock NL2Font::Load (stock C runtime): our fread would fault on its lock (NwHook.h StockFread)
+NL2Font.cpp,"(INT)fread((BYTE*)ExChars + i * 0x14, 1, 0x14, File)","(INT)::nw::StockFread((BYTE*)ExChars + i * 0x14, 1, 0x14, File)",same: the stream belongs to the stock C runtime
+NTemplates.cpp,typedef TArray<NCCoolTimeIcon*> TCoolTimeArray;,"struct NCoolTimeSlot { NCCoolTimeIcon* Icon; INT Unknown4; };   // C3: 8-byte elements (stock Remove(0, n, 8))
+typedef TArray<NCoolTimeSlot> TCoolTimeArray;",verify_args.py: the stock destructor of NCSkillItemWnd's cool time array removes with an element size of 8

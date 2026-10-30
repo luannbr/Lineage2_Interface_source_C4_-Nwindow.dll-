@@ -1,0 +1,22 @@
+# Structs the client grew (name, C3 size, bytes of padding appended, shift of the asserted offsets from `from` on).
+# tools/port/gen.py edits the generated header: NW_ASSERT_SIZE(name, old) becomes the new size, `BYTE _PadC3[pad]`
+# closes the struct (so every offset the ported functions use stays where the judges verified it), every
+# NW_ASSERT_OFFSET(name, f, V) with V >= from becomes V + shift, and a field of that type inside a window takes the new
+# size in the window's layout (SIZE_CHANGED).
+# Evidence: the C3 constructor's stores (tools/port/size_audit.py), the constants the matched functions change
+# (analysis/port/constants.csv: the same push / imul / mov / sub esp with the old size and the new one) and, for a
+# window, its class size from the class table (analysis/classes.json, equal to the header's assert).
+name,c3_size,pad,shift,from,note,insert
+NItemInfo,0x19B4,0x208,0,0,"C4: constants 0x17AC -> 0x19B4 (10 of them); ctor 0x1004cd30 stores up to +0x19B3; the bytes are appended (where C4 put them inside is for verify_data)"
+NItemEntry,0x1C40,0x208,0,0,"C4: 31 constants 0x1A34 -> 0x1C40 (NItemInfo +0x208; its NToolTipInfo, a member, grows by 4 by itself)"
+NActionItem,0x1C48,0,0x20C,1,"derives from NItemEntry (0x1A3C -> 0x1C48)"
+NAbnormalEntry,0x1C58,0,0x20C,1,"derives from NItemEntry (0x1A4C -> 0x1C58)"
+NHennaEntry,0x1C50,0,0x20C,1,"derives from NItemEntry (0x1A44 -> 0x1C50)"
+NShortCutItem,0x1CC0,0,0x20C,1,"derives from NItemEntry (0x1AB4 -> 0x1CC0: 41 constants)"
+NListRow,0x890,0,0,0,"C4: 0x88C -> 0x890 (6 constants): its NToolTipInfo (the last member) grew by 4"
+NListCell,0x1A64,0x240,0,0,"C4: 0x1824 -> 0x1A64 (19 constants)"
+NTrainSkillInfo,0x4D0,0x10,0,0,"C4: ctor 0x1006e920 stores up to +0x4CF"
+NToolTipInfo,0x80,0,4,0x18,"C4: 24 constants 0x7C -> 0x80; ctor 0x10002d90 stores a dword (-1) at +0x18 and everything after it moves by 4 (column insert = 1: a filler goes in at +0x18)",1
+NToolTipSkin,0xA4,0,0,0,"C4: grows with its NToolTipInfo member (0xA0 -> 0xA4)"
+NMacroEntry,0xAB4,0,4,1,"C4: 0xAB0 -> 0xAB4 and 0xA48 -> 0xA4C (constants): its first member, the NToolTipInfo, grew by 4 and everything after it moved"
+NToolTipSkin,0xA4,0,4,0x3C,"its NToolTipInfo member (at +0x24) grew by 4 at its +0x18: every field of the skin's tool tip past +0x3C moves (insert = 2: the compiler does it, only the eligibility check needs to know)",2

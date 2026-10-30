@@ -1,0 +1,228 @@
+va,size,owner_class,callers,why
+10001630,43,NCPartyStatusWnd,NCPartyStatusWnd::UpdateStyle,
+10001a50,33,NCTabControl,NCTabControl::AddTab;NCTabControl::SetTab;NCTabControl::vfn076,
+10001ef0,7,NCTabControl,NCTabControl::IsSplit;NCTabControl::OnTabMove,
+10001f00,13,NCTabControl,NCTabControl::DefaultPosition;NCTabControl::OnTabMove;NCTabControl::OnTabRelease,
+10001f10,13,NCTabControl,NCTabControl::AddTab,
+10002000,39,NCTabControl,NCTabControl::OnMove,
+10002210,108,NConsoleWnd,sub_10002280,
+10002280,18,NConsoleWnd,NConsoleWnd::OnExMailArrivedPacket;NConsoleWnd::TutorialShowQuestionMark;NConsoleWnd::vfn210,
+100029f0,90,NCTabButton,NCTabButton::OnLButtonDown;NCTabButton::OnLButtonUp;NCTabButton::OnMove,
+100039c0,117,NCTabControl,sub_10003b00,
+10003b00,74,NCTabControl,NCTabControl::AddTab,
+10003c00,69,NCConsole,NCConsole::OnCreate,
+10005b60,46,,NCComboBox::GetItemText;NCComboBox::OnPaint;NCMSView_CharacterSelectWnd::OnAniNameComboBox;NCNpcView_CharacterSelectWnd::OnAniNameCombo,several classes
+10005b90,4,,MsnWnd::OnBlockButton;NCEquipItemWnd::OnPaint;NComboItemFns::GetItemData;NItemEntry::Copy;NMsnNotifySync::HandleSYNStart;NMsnWndOps::GiveListsToTree,several classes
+10005ba0,10,,NCBroadcastGMWnd::OnCreate;NCCommandInfoWnd::OnCreate;NCHeroTowerWnd::OnCreate;NCManorCropInfoSettingWnd::OnCreate;NCManorCropInfoWnd::OnCreate;NCManorCropSellChangeWnd::OnCreate,several classes
+10005dc0,123,NCMatchWnd,sub_10006800;sub_10006850;sub_100068b0;sub_10006910,
+100064b0,29,,sub_100066d0,several classes
+100066d0,78,,NCComboBox::OnDestroy;NCHtmlComboBox::OnDestroy,several classes
+100067d0,42,,MoveGroupDialog::ShowWindow;NCAudioOptionWnd::ClearItems;NCGameOptionWnd::ClearItems;NCMSView_CharacterSelectWnd::OnNameComboBox;NCManorCropInfoWnd::ValidateManorComboBox;NCManorCropSellChangeWnd::OnShowProcureCropDetail,several classes
+10006800,79,,NCAudioOptionWnd::InitVolumes;NCGameOptionWnd::InitItems;NCManorCropInfoWnd::OnCreate;NCManorSeedInfoWnd::OnCreate;NCMatchWnd::OnCreate;NCPetitionBeginWnd::LoadCategories,several classes
+10006850,93,NCMatchWnd,NCMatchWnd::OnCreate,
+100068b0,85,,L2WordWrapperWnd::OnCreate;L2WordWrapperWnd::OnGenerate;NCGameOptionWnd::InitItems;NCHtmlComboBox::SetList;NCMSView_CharacterSelectWnd::OnNameComboBox;NCMSViewrWnd::AddAllCharacter,several classes
+10006910,99,,MoveGroupDialog::ShowWindow;NCManorCropInfoWnd::ValidateManorComboBox;NCManorCropSellChangeWnd::OnShowProcureCropDetail;NCManorSeedInfoWnd::OnShowSeedInfo;NCPawnViewrWnd::AddAllCharacter;RemoveGroupDialog::ShowWindow,several classes
+10009090,45,NCGaraDialogBox,sub_100090c0,
+100090c0,40,NCGaraDialogBox,NCGaraDialogBox::OnOK,
+1000d0a7,132,,,no caller (data)
+1000d500,82,NCEditBox,NCEditBox::OnLButtonDown;NCEditBox::vfn086,
+1000ebf0,243,NCEditBox,NCEditBox::OnChar;NCEditBox::OnKeyDown;NCEditBox::vfn085,
+10011740,7,NCOlympiadPlayerWnd,NCOlympiadPlayerWnd::OnPaint,
+10011810,25,,L2ChatWnd::vfn056;NCMainWnd::ShowTab;NCMainWnd::vfn074;NCMatchWnd::OnCreate;NCPartyRoomWnd::OnCreate;NCPetWnd::vfn056,several classes
+10013470,53,NCViewportWnd,NCViewportWnd::DrawViewport,
+100134b0,183,,L2FriendTree::DrawItem;MsnFitText;MsnTree::DrawItem;NCDynamicLinker::OnCreate;NCEditBox::OnKeyDown;NCEditBox::OnLButtonDown,several classes
+100136ff,123,,,no caller (data)
+10016530,25,,NCChineseIME::OnImeNotify;NCJapaneseIME::OnImeNotify;NCTaiwanIME::OnImeNotify,several classes
+1001ddb0,52,NCPartyRoomWnd,NCPartyRoomWnd::AddChatLine;NCPartyRoomWnd::SetRoomInfo;NCPartyRoomWnd::UpdateMember;sub_100b1cc0,
+1001f3f0,118,,FriendList::RemoveFriend;NCDeliverItemWnd::MoveItem;NCEquipItemWnd::RemoveItem;NCInvenItemWnd::OnLButtonDown;NCInvenItemWnd::RemoveItem;NCInventoryWnd::MoveLastToFront,several classes
+10021ac0,47,,NCChatCommandWnd::OnCreate;NCGMPetitionWnd::OnCreate;NCGMSnoopWnd::OnCreate;NCPartyRoomWnd::OnCreate;NCPetitionWnd::OnCreate;sub_1005a520,several classes
+10021b90,26,NCHeroTowerWnd,NCHeroTowerWnd::OnHeroList,
+10021bb0,138,NCHeroTowerWnd,NCHeroTowerWnd::OnHeroList,
+100220a0,444,NCListCtrl,NCListCtrl::AddColumn,
+100226d0,23,,NCManorCropInfoSettingWnd::OnCreate;NCManorCropInfoWnd::OnCreate;NCManorCropSellWnd::OnCreate;NCManorDefaultInfoWnd::OnCreate;NCManorSeedInfoSettingWnd::OnCreate;NCManorSeedInfoWnd::OnCreate,several classes
+100227a0,119,NListRow,NListRow::NListRow,
+10028030,1042,NCMultiEdit,NCMultiEdit::OnChar;NCMultiEdit::SetText,
+1002c760,83,,NCPartyStatusWnd::OnPaint;NCPetStatusWnd::OnPaint;NCPlayerStatusWnd::OnPaint;NCSummonedStatusWnd::OnPaint;NCTargetStatusWnd::OnPaint,several classes
+1002c7c0,874,NCNameCtrl,NCNameCtrl::OnPaint,
+1002cb30,420,NCNameCtrl,NCNameCtrl::OnPaint,
+1002d020,372,NCVIPShopWnd,sub_100a2360;sub_100a26c0,
+1002d6c0,81,NCTabControl,sub_1002d720,
+1002d720,126,NCTabControl,NCTabControl::OnTabRelease,
+1002e4d0,68,,,no caller (data)
+1002e860,145,NCChatWnd,NCChatWnd::OnCreate,
+1002ea50,28,,NCPawnViewr_MixAnimWnd::OnStart;NToolTipInfo::Fill,several classes
+10031b10,2356,,NCManorCropInfoSettingWnd::OnShowCropSetting;NCManorCropInfoWnd::OnShowCropInfo;NCManorCropSellWnd::OnShowSellCropList;NCManorDefaultInfoWnd::OnShowManorDefaultInfo;NCManorSeedInfoSettingWnd::OnShowSeedSetting;NCManorSeedInfoWnd::OnShowSeedInfo,several classes
+10032460,39,,MsnTree::OnPostPaint;NCButton::SetToolTipText;NCCommandChannelWnd::OnPaint;NCInvenWeightWnd::OnPostPaint;NCRecipeBookWnd::OnCreate;sub_1002c760,several classes
+10032490,41,,NCButton::SetToolTip;NCMacroListWnd::OnCreate,several classes
+10033d20,61,,NCTVItem::DeleteChildItem;NCVirtualWndMain::DeleteCapturedWindow;NCVirtualWndMain::PopFocusWindow;NCWnd::UnstickWnd,several classes
+10034c00,4,NCWnd,NCWnd::RearrangePosition,
+10036730,266,NConsoleWnd,NConsoleWnd::vfn362,
+10037eb0,100,,NCGDevice::~NCGDevice;NHtmlAnalyzer::~NHtmlAnalyzer;NPointDeque::TidyThunk,several classes
+10038d94,121,,,no caller (data)
+10039b70,59,NCVirtualWndMain,NCVirtualWndMain::AddCapturedWindow,
+10039e35,206,,,no caller (data)
+1003aef0,32,NHtmlItem,NHtmlItem::Arrange,
+1003db57,128,,,no caller (data)
+10043e60,35,,NHtmlParser::Parse;NHtmlTagList::InsertN;NHtmlTagList::Ufill;NPointDeque::GrowMap,several classes
+100453d0,122,,NHtmlTagList::InsertN;NStlWStringVector::InsertN;NStlWordVector::InsertN,several classes
+10050030,11,,NCAbnormalStatusWnd::ClearExtraStatus;NCAbnormalStatusWnd::ClearStatus;NCAbnormalStatusWnd::ClearStatus2;NCActionItemWnd::ClearItems;NCEquipItemWnd::Clear;NCEquipItemWnd::ClearHennas,several classes
+100511e0,58,NConsoleWnd,sub_10051420,
+10051220,65,,NCCommandInfoWnd::OnCreate;NConsoleWnd::vfn407,several classes
+100512b0,142,,NCCommandChannelWnd::vfn075;NCCommandInfoWnd::vfn074,several classes
+10051340,33,,sub_100513f0,several classes
+100513f0,34,,NCCommandChannelWnd::vfn074;NCConsole::Say,several classes
+10051420,18,NConsoleWnd,NConsoleWnd::vfn407,
+100517f0,155,NConsoleWnd,sub_10051c00,
+10051c00,18,NConsoleWnd,NConsoleWnd::vfn408,
+10051c20,40,,NCConsole::Reset;NConsoleWnd::OnExCloseMPCC,several classes
+10052f40,2481,,NCActionItemWnd::OnLButtonDown;NCChatWnd::ProcessChatLine;NCConsole::AddSystemMessage;NCConsole::AddSystemText;NCConsole::Say;NConsoleWnd::SendChatMsgToServer,several classes
+10053d60,28,NConsoleWnd,NConsoleWnd::EnableAllyChat,
+100562f0,90,NCChatListBox,NCChatListBox::OnPaint,
+10058180,144,,NCChatWnd::~NCChatWnd;TStringPtrArray::~TStringPtrArray,several classes
+1005a520,95,,NCChatListBox::NCChatListBox;NCChatWnd::OnCreate,several classes
+1005c490,24,NConsoleWnd,NConsoleWnd::OnOlympiadMode,
+1005cf40,227,,NCChatSystemMsgWnd::RearrangePos;NCChatWnd::OnResizeWnd;NConsoleWnd::OnExMailArrivedPacket;NConsoleWnd::TutorialShowQuestionMark;NConsoleWnd::vfn210;NConsoleWnd::vfn362,several classes
+10065500,45,,NCSystemMenuWnd::OnDialogResult;NConsoleWnd::TickGMChangeServer,several classes
+100673c3,87,,,no caller (data)
+10067450,94,NCQuestGaraTree,NCQuestGaraTree::DrawItem,
+100674b0,94,NCQuestGaraTree,NCQuestGaraTree::DrawItem,
+10067543,89,,,no caller (data)
+10067606,98,,,no caller (data)
+10067f40,14,,NCChatWnd::ProcessChatLine;NConsoleWnd::UseAction,several classes
+10067f50,14,NCGaraDialogBox,NCGaraDialogBox::OnCancel;NCGaraDialogBox::OnOK,
+10067f60,14,,NCChatWnd::ProcessChatLine;NCCommandInfoWnd::vfn075,several classes
+10068060,14,NCMagicSkillWnd,NCMagicSkillWnd::ShowWindow,
+100684b0,19,NCChatWnd,NCChatWnd::ProcessChatLine,
+100684d0,19,NCGaraDialogBox,NCGaraDialogBox::OnOK,
+100693c3,78,,,no caller (data)
+1006a900,14,,NCGDevice::DrawPledgeCrest;NCSiegeInfoListCtrl::OnPaint,several classes
+1006a910,14,,NCGDevice::DrawAllyCrest;NCSiegeInfoListCtrl::OnPaint,several classes
+1006bd00,35,NConsoleWnd,NConsoleWnd::ReceiveObserverModeOnPacket;NConsoleWnd::SwitchUIMode,
+1006bd30,41,NConsoleWnd,NConsoleWnd::ReceiveObserverModeOffPacket;NConsoleWnd::SwitchUIMode,
+1006bd60,68,NConsoleWnd,NConsoleWnd::Initialize,
+1006e560,671,NPGameLib,NPGameLib::OnGameMonMessage;NPGameLib::SetHwndToGameMon,
+1006e880,9,,NChatNameArray::Empty;NMsnFriendList::Clear;NMsnListInit::DeleteAll;sub_10075aa0;sub_1007f4d0;sub_1013fef0,several classes
+1006e8c0,92,,NCTrainListBox::AddEntry;NCTrainListWnd::OnListCommand;NConsoleWnd::AddAcquireSkillInfo,several classes
+1006ea10,49,NConsoleWnd,NConsoleWnd::StartNotice,
+100732c0,434,NConsoleWnd,NConsoleWnd::AcceptLogOut,
+10073480,628,NConsoleWnd,NConsoleWnd::Initialize;NConsoleWnd::InitializeReplayMode,
+10074320,226,NCPartyStatusWnd,NCPartyStatusWnd::UpdateStyle,
+10074c70,165,,NCPartyRoomWnd::UpdateMember;NCPartyStatusWnd::UpdateStyle;NCPledgeWnd::AddMember;NCPledgeWnd::UpdateMember;sub_100b1cc0,several classes
+10075aa0,151,NConsoleWnd,sub_1007f480,
+1007f480,80,NConsoleWnd,NConsoleWnd::~NConsoleWnd;sub_101850bf;sub_1018515f,
+1007f4d0,66,NConsoleWnd,NConsoleWnd::OnSendManorList,
+100809d0,531,NCGaraDialogBox,NCGaraDialogBox::OnOK,
+10084be0,13,NConsoleWnd,NConsoleWnd::AddSendableItemList;NConsoleWnd::ReceiveRecipeShopSellList,
+10084bf0,13,NConsoleWnd,NConsoleWnd::AddSendableItemList,
+10089160,32,,NCGMMagicSkillWnd::ClearSkills;NCMagicSkillWnd::ClearSkills;NConsoleWnd::GMViewShowSkillWnd;NConsoleWnd::ShowSkillWnd,several classes
+10089d40,135,,L2FriendWnd::L2FriendWnd;MSNSocket::Construct;MSNSocket::DestroyBase;Msn::NotifySwitchboardSessionEnd;MsnWnd::MsnWnd;MsnWnd::OnDestroy,several classes
+10099210,594,NConsoleWnd,NConsoleWnd::SelectItemToEnchant,
+1009a180,52,NCItemEnchantWnd,NCItemEnchantWnd::OnCreate,
+100a0010,56,NCVIPShopNeededItemWnd,NCVIPShopNeededItemWnd::OnMouseWheel;NCVIPShopNeededItemWnd::OnScrollBar;NCVIPShopNeededItemWnd::ScrollDown;NCVIPShopNeededItemWnd::ScrollUp,
+100a1e00,169,NCVIPShopItemInfoWnd,NCVIPShopItemInfoWnd::OnMouseWheel;NCVIPShopItemInfoWnd::OnScrollBar;NCVIPShopItemInfoWnd::ScrollDown;NCVIPShopItemInfoWnd::ScrollUp,
+100a1f50,101,,NCVIPShopItemInfoWnd::OnDestroy;NCVIPShopWnd::ShowItem;sub_100a2ab0;sub_100a3f40,several classes
+100a22b0,161,NConsoleWnd,sub_100a2ab0,
+100a2360,564,NCVIPShopWnd,NCVIPShopWnd::ShowItem,
+100a25a0,151,,NCVIPShopNeededItemWnd::OnDestroy;NCVIPShopWnd::ShowItem;sub_100a2ab0;sub_100a3f40,several classes
+100a26c0,1005,NCVIPShopWnd,NCVIPShopWnd::ShowItem,
+100a2ab0,130,NConsoleWnd,NConsoleWnd::VIPItemListEnd,
+100a2b40,353,NConsoleWnd,NConsoleWnd::AddVIPNeedItemList,
+100a2cb0,144,,NCVIPShopNeededItemWnd::~NCVIPShopNeededItemWnd;NCVIPShopWnd::~NCVIPShopWnd;sub_100a3200;sub_10186170;sub_10186228;sub_10186298,several classes
+100a2d40,118,NConsoleWnd,sub_100a3210,
+100a3200,11,NCVIPShopWnd,sub_100a3f40,
+100a3210,837,NConsoleWnd,NConsoleWnd::AddVIPItemList,
+100a3640,120,NCVIPShopWnd,NCVIPShopWnd::OnCreate,
+100a3f40,192,NCVIPShopWnd,NCVIPShopWnd::HideWindow;NCVIPShopWnd::OnDestroy;NCVIPShopWnd::vfn075;sub_100a4020,
+100a4020,22,NConsoleWnd,NConsoleWnd::SetVIPShopID,
+100a5a00,28,,ChatWnd::OnSend;NCInvenItemWnd::OnLButtonDown;NCMSView_InvenItemWnd::OnRButtonDown;NCPartyStatusWnd::OnPaint;NCPawnViewr_Simulator::TryAction;NCPetInvenItemWnd::OnLButtonDown,several classes
+100b1cc0,686,NConsoleWnd,NConsoleWnd::C3Virtual377,
+100b94f0,257,NCMinimapWnd,NCMinimapWnd::OnPaint,
+100ba050,135,,NCMapCoverWnd::OnPartyLocBtnClick;NCMinimapWnd::OnPaint;sub_100bb820,several classes
+100ba0e0,34,NCMinimapWnd,NCMinimapWnd::OnPaint,
+100bb820,50,,sub_10186d90;sub_10186df0,several classes
+100bb860,144,,NCMapCoverWnd::OnPartyLocBtnClick;NCMinimapWnd::OnPaint;sub_100bbe30;sub_10186d60;sub_10186d80;sub_10186da1,several classes
+100bbe30,103,NCMapCoverWnd,NCMapCoverWnd::OnPartyLocBtnClick;sub_10186d88;sub_10186de8,
+100bcd30,72,NConsoleWnd,sub_100bd3d0,
+100bd3d0,61,NConsoleWnd,NConsoleWnd::ShowRadar;sub_100bd7c0,
+100bd7c0,16,NCConsole,NCConsole::Reset,
+100cc950,37,NCPawnSetupWnd,NCPawnSetupWnd::OnSex,
+100ce990,38,NCPawnSetupWnd,NCPawnSetupWnd::InitSelectors;NCPawnSetupWnd::OnRace;NCPawnSetupWnd::OnSex,
+100d9480,47,,sub_1018351b;sub_1018354b;sub_10183578;sub_10187648,several classes
+100dfc60,63,,NCConsole::Say;NCPetitionBeginWnd::OnSend;sub_10052f40,several classes
+100e3370,13,NConsoleWnd,NConsoleWnd::PrivateStoreBuyList;NConsoleWnd::PrivateStoreBuyManageList,
+100e4290,380,NCPrivateBuyWnd,NCPrivateBuyWnd::SetMode,
+100e4810,261,,NCPrivateBuyItemWnd::MoveItem;NCPrivateBuyWnd::AddStoreItem,several classes
+100e6b90,62,,NCConsole::ToggleInterface;NCPrivateShopFrameCtrl::OnClose;NCPrivateShopWnd::HideWindow;NCPrivateShopWnd::OnAbort;NCPrivateShopWnd::OnBuyConfirmed;NCPrivateShopWnd::OnClose,several classes
+100e7600,197,NConsoleWnd,NConsoleWnd::StartPrivateStoreManageList;NConsoleWnd::vfn295,
+100e80a0,170,,NCPrivateShopItemWnd::OnLButtonDblClick;NCPrivateShopItemWnd::OnLButtonDown;NCPrivateShopWnd::OnDown;NCPrivateShopWnd::OnUp,several classes
+100ea170,7,,NCBroadcastObserverWnd::GetSelectedUserIndex;NCBroadcastObserverWnd::IsSelected;NCBroadcastObserverWnd::SetSelecteUser;NCMinimapWnd::OnPostPaint;NConsoleLeftFns::GetTrackedQuestID,several classes
+100ea2b0,617,,NCQuestListInfoWnd::OnCreate;NConsoleWnd::vfn209,several classes
+100ea530,11,NConsoleWnd,NConsoleWnd::vfn209,
+100ec100,56,,NCConsole::Reset;NCQuestGaraTreeWnd::OnMarkCheckBox;NCQuestGaraTreeWnd::OnPaint,several classes
+100efbf0,42,NConsoleWnd,NConsoleWnd::ReceiveRecipeShopManageList,
+100efdc0,14,NConsoleWnd,NConsoleWnd::ReceiveRecipeShopItemInfoX;NConsoleWnd::ReceiveRecipeShopSellList;sub_10051c20,
+100f37f0,53,NConsoleWnd,NConsoleWnd::ReceiveRecipeBookItemList,
+100f3940,13,NConsoleWnd,NConsoleWnd::ReceiveRecipeItemMakeInfo,
+100f7b80,152,NCBroadcastGMWnd,NCBroadcastGMWnd::OnShowBroadcastCommandWndBtnClick;sub_100f7c20;sub_100f7c70,
+100f7c20,80,,sub_101884b0;sub_10189c39,several classes
+100f7c70,349,NCReplayListWnd,NCReplayListWnd::OnCreate;NCReplayListWnd::ShowWindow;NCReplayListWnd::vfn076,
+100f7f00,46,NCReplayListWnd,NCReplayListWnd::OnCreate,
+101028e0,13,,NCManorShopWnd::OnCreate;NCPrivateBuyWnd::SetMode;NCPrivateShopWnd::OnCreate;NCShopWnd::OnCreate;NCStoreWnd::OnCreate,several classes
+101029e0,13,NConsoleWnd,NConsoleWnd::PrivateStoreBuyList;NConsoleWnd::PrivateStoreBuyManageList;NConsoleWnd::StartBuyList;NConsoleWnd::StartPreviewList;NConsoleWnd::StartSellList,
+10102a60,7,,NCBroadcastObserverPartyListWnd::IsShowClassOrName;NCConsole::ToggleInventory;NCWnd::Restore,several classes
+101103e0,254,NCPartyWnd,NCPartyWnd::AddMember;NCPartyWnd::DeleteMember,
+101104e0,186,NConsoleWnd,sub_101107c0,
+101107c0,92,NConsoleWnd,NConsoleWnd::PartyUpdateMember,
+101155e0,49,,NCPartyStatusWnd::Clear;NCPartyWnd::ClearMemberBuffs;NCPetStatusWnd::OnDestroy;NConsoleWnd::ReceiveBuffList;NConsoleWnd::ShowPetPartyWnd,several classes
+10117d40,90,NConsoleWnd,NConsoleWnd::StartDepositList;NConsoleWnd::StartWithdrawList,
+1011ae10,108,,NCPetInventoryWnd::UpdateItem;NCTradeWnd::UpdateInventoryItem,several classes
+1011b990,1885,NCTrainInfoWnd,NCTrainInfoWnd::OnPaint,
+1011c250,238,NConsoleWnd,sub_1011c550,
+1011c550,11,NConsoleWnd,NConsoleWnd::AddAcquireSkillExtendedInfo,
+1011dfd0,36,NCTrainWnd,NCTrainWnd::AddEntry,
+10120020,104,NConsoleWnd,NConsoleWnd::vfn419,
+10120090,112,NConsoleWnd,NConsoleWnd::vfn420,
+10120100,104,NConsoleWnd,sub_10120990,
+10120170,121,NConsoleWnd,sub_10120990,
+101201f0,31,NConsoleWnd,sub_10120380;sub_10120990,
+10120210,359,NConsoleWnd,NConsoleWnd::Tick,
+10120380,26,NConsoleWnd,NConsoleWnd::vfn422,
+10120990,346,NConsoleWnd,NConsoleWnd::vfn421,
+1012ddc0,13,,,no caller (data)
+1012ddd0,183,,,no caller (data)
+1012f078,163,,,no caller (data)
+1012f900,13,NCManorCropInfoSettingWnd,NCManorCropInfoSettingWnd::OnChangeBtnClick,
+1012fae0,23,NCManorCropInfoSettingWnd,NCManorCropInfoSettingWnd::OnChangeBtnClick,
+10130f30,134,,NCManorCropInfoSettingWnd::CalcDefaultPriceSum;NCManorCropInfoSettingWnd::OnClearBtnClick;NCManorCropInfoSettingWnd::OnClearConfirmMsg;NCManorCropInfoSettingWnd::OnTodayConfirmMsg;NCManorCropSellChangeWnd::OnMaxBtnClick;NCManorCropSellChangeWnd::OnOKBtnClick,several classes
+101370a0,34,,NCManorInfoUpWnd::OnTabClick;NCManorInfoWnd::OnShowSeedInfo,several classes
+101370d0,34,,NCManorInfoUpWnd::OnTabClick;NCManorInfoWnd::OnShowCropInfo,several classes
+10137100,90,NCManorInfoUpWnd,NCManorInfoUpWnd::GetManorInfoDownWnd,
+10137600,28,NCManorInfoUpWnd,NCManorInfoUpWnd::GetManorInfoDownWnd,
+10137700,34,NCManorInfoWnd,NCManorInfoWnd::OnShowManorDefaultInfo,
+10138030,23,NCManorSeedInfoSettingWnd,NCManorSeedInfoSettingWnd::OnChangeBtnClick,
+1013a600,13,NCManorInfoWnd,NCManorInfoWnd::OnShowSeedInfo,
+1013ac10,13,NCManorInfoUpWnd,NCManorInfoUpWnd::OnTabClick,
+1013d0f0,7,,NCOlympiadPlayerWnd::OnAttack;NConsoleWnd::OnAttack;NConsoleWnd::OnOlympiadSpelledInfo;NConsoleWnd::OnReceiveMagicSkillUse,several classes
+1013dc20,13,NConsoleWnd,NConsoleWnd::OnOlympiadMode,
+1013dc30,7,NConsoleWnd,NConsoleWnd::OnOlympiadUserInfo,
+1013fa30,79,,,no caller (data)
+1013fc50,166,,ChatWnd::ChatWnd;ChatWnd::OnDestroy;ChatWnd::ResetSession;ChatWnd::SetRoster;L2FriendWnd::L2FriendWnd;MsnWnd::MsnWnd,several classes
+1013fe50,146,,L2TaskWnd::L2TaskWnd;L2TaskWnd::OnDestroy;NMsnChatListWnd::DestroyItems;NMsnTaskMapOps::AddTask;NTaskIter::~NTaskIter;NTaskMap::RemoveKey,several classes
+1013fef0,151,,NChatNameArray::~NChatNameArray;NMsnWndStrMap::FreePairs;NMsnWndStrMap::RemoveWnd;TMsnStrPairArray::~TMsnStrPairArray;sub_10151e60,several classes
+10145c80,46,AddedConfirmDialog,AddedConfirmDialog::WindowProc,
+10148f30,27,,NCBroadcastGMWnd::OnShowBroadcastCommandWndBtnClick;NMsnTaskMapOps::AddTask;sub_10151770,several classes
+101495b0,118,,ChatBox::AddWithIcon;InviteBox::AddFriend;L2ChatBox::Add;L2TaskBox::AddString;NCChatListBox::AddString;NCMinimapWnd::RemoveTarget,several classes
+10150230,50,,NCGMWnd::OnNewButton4;NCGMWnd::OnNewButton5;NCGMWnd::OnNewButton6;NConsoleWnd::IsValidName;sub_10184fe0;sub_101855d0,several classes
+101514a0,69,,MSNSocket::OnSocketMessage;Msn::OnSocketConnect;Msn::OnSocketData;Msn::RemoveSession;NCEquipItemWnd::OnLButtonDown;NCInvenItemWnd::OnLButtonDown,several classes
+101514f0,106,,FriendList::AddFriend;FriendList::FindFriend;InviteWnd::FillFriends;L2FriendWnd::OpenChat;MsnWnd::OnSessionRemoved;NL2Book::Find,several classes
+10151560,118,,MsnWnd::OpenChat;NMsnWndOps::OnSessionLeave;NMsnWndOps::OnSessionNewTalk;NMsnWndStrMap::SetWnd,several classes
+10151770,181,,L2FriendWnd::OnChatClosed;MSNSocket::RegisterPending;Msn::AddSession;MsnWnd::OnChatClosed;MsnWnd::OnTimer;MsnWnd::ResetAfterSignOut,several classes
+10151e60,117,,FriendList::RemoveFriend;L2FriendWnd::OnChatClosed;MsnWnd::OnChatClosed;MsnWnd::OnSessionRemoved;NMsnFriendList::Remove;NMsnWndOps::OnSessionLeave,several classes
+10152c00,24,,NMsnBuddyArray::NMsnBuddyArray;NMsnPtrArrayCopy::NMsnPtrArrayCopy;NMsnWndStrMapOps::MultiFind;NTVItemArray::NTVItemArray;TMsnStrPtrArray::TMsnStrPtrArray;TRadioButtonArray::TRadioButtonArray,several classes
+101638d0,245,DispatchProcess,DispatchProcess::OnReplyImpl,
+1016b8a0,36,NPGameLibApi,NPGameLibApi::CheckNPGameMon,
+1016d250,338,,,no caller (data)
+1016d3b0,148,NPGameLib,NPGameLib::SpeedCheckThreadProc,
+1016d570,92,,,no caller (data)
+1016ebd0,67,NPGTempDll,NPGTempDll::Load,
+1016ec40,7,NPGameLib,NPGameLib::PreInitNPGameMon,

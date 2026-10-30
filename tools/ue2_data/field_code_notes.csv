@@ -1,0 +1,5 @@
+# tools/ue2_check_fields_by_code.py: fields whose old offset has code votes for ANOTHER offset, and why that is not a problem.
+class,field,why
+APawn,HairMaterials,"proved by the script (SubSkins[4], tools/ue2_data/field_map.csv: SubSkins 0x428 -> 0x43C); the two votes (AActor::CheckNoiseHearing, APawn::HurtByVolume) read another object's field at 0x438"
+UMeshAnimation,AnimSeqs,"the C3 header (0x44) was stale: UMeshAnimation::GetAnimSeq reads the data at [this+0x60] in C3 and [this+0x6C] in C4 (stride 0x44 -> 0x74); the header now has the C4 offset from that code"
+User,Level,"the votes are UEngine::NetHandler (0x58 -> 0x64) read through the global engine pointer inside the User methods; User::Level itself is not read by an exported method"

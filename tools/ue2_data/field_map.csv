@@ -1,0 +1,44 @@
+# header field -> script variable (tools/ue2_check_headers.py): made from the C1 layouts, the script variable that started at the
+# C1 offset the header used (a field not listed here is checked by its own name). sub: [i] element, .m member of a struct.
+# class: the class that declares the field in the C2 header (a few moved between AActor and APawn).
+class,field,script_var,sub,note
+UTexture,TextureFlags,bMasked,,C1 script variable of UTexture at 0x80
+UTexture,UnknownA4,MaxFrameRate,,C1 script variable of UTexture at 0xa4
+AActor,Unknown5C,RenderRevision,,C1 script variable of AActor at 0x5c
+AActor,Unknown98,NoCheatCollision,,C1 script variable of AActor at 0x98
+APawn,HairMeshes,SubMeshes,[4],C1 script variable of AActor at 0x13c
+APawn,HairMaterials,SubSkins,[4],C1 script variable of AActor at 0x408
+APawn,Unknown578,MagicInfo,.MagicType,C1 script variable of AActor at 0x544
+APawn,Unknown580,MagicInfo,.nSlice,C1 script variable of AActor at 0x544
+APawn,MagicTargets,MagicInfo,.AssociatedActor,C1 script variable of AActor at 0x544
+AActor,Unknown5C0,NAttackStatus,,C1 script variable of AActor at 0x5c0
+APawn,ActionType,NPrimeAction,,C1 script variable of APawn at 0x624
+APawn,Unknown628,NPrimeAction,.Damage,C1 script variable of APawn at 0x624
+APawn,Unknown62C,NPrimeAction,.bMiss,C1 script variable of APawn at 0x624
+APawn,ActionTarget,NPrimeAction,.ActionTarget,C1 script variable of APawn at 0x624
+APawn,Unknown634,NPrimeAction,.MaxAtkShotNum,C1 script variable of APawn at 0x624
+APawn,Unknown638,NPrimeAction,.CurAtkShotNum,C1 script variable of APawn at 0x624
+APawn,Unknown63C,NPrimeAction,.NAssociatedAttackParam,C1 script variable of APawn at 0x624
+APawn,AnimFlags,bPhysicInit,,C1 script variable of APawn at 0x65c
+APawn,Unknown678,bFaceRotation,,C1 script variable of APawn at 0x678
+APawn,MeshType,CharClassID,,C1 script variable of APawn at 0x67c
+APawn,NpcID,NpcClassID,,C1 script variable of APawn at 0x680
+APawn,LeftHandItem,AttackItemClassID,,C1 script variable of APawn at 0x684
+APawn,Unknown690,bGetOnVehicle,,C1 script variable of APawn at 0x690
+APawn,Unknown694,AttackSpeedRate,,C1 script variable of APawn at 0x694
+APawn,SpeedRate,NonAttackSpeedRate,,C1 script variable of APawn at 0x698
+APawn,Speed,GroundMaxSpeed,,C1 script variable of APawn at 0x6d0
+APawn,WeaponType,CurWeaponType,,C1 script variable of APawn at 0x701
+APawn,SocialAnimName,PcSocialAnimName,,C1 script variable of APawn at 0xdcc
+APawn,MixAnimSteps,MixedAnims,,C1 script variable of APawn at 0x1310
+APawn,Unknown13D4,bPhysicsAnimUpdate,,C1 script variable of APawn at 0x13d4
+APawn,ChatBalloon,ChatMsg,,C1 script variable of APawn at 0x142c
+APawn,SelectFlags,bPlayerCharacter,,C1 script variable of APawn at 0x1458
+APawn,SelectIndex,PlayerSlotNum,,C1 script variable of APawn at 0x145c
+AController,Target,SelectedActor,,C1 script variable of AController at 0x634
+AController,Unknown638,bDead,,C1 script variable of AController at 0x638
+AController,MoveMode,MoveType,,C1 script variable of AController at 0x650
+UCanvas,L2Fonts,m_L2Font,,C1 script variable of UCanvas at 0x12c
+UEngine,NetHandler,Network,,the script variable at +0x58 in C2 and C3 (the stock NWindow code reads the network handler there; C1 kept it at +0x5C, bWaitNetCommand)
+UGameEngine,MouseHitLocation,ClickLocation,,C1 script variable of UGameEngine at 0x1ec
+UGameEngine,MouseHitActor,ClickActor,,C1 script variable of UGameEngine at 0x208

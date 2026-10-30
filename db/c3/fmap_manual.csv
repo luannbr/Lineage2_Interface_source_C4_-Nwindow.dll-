@@ -1,0 +1,22 @@
+# Function pairs the matcher missed; the call sites of matched callers name them (tools/port/suggest_fmap.py)
+c1_va,c2_va,sim,callers,example
+10002440,10002a40,0.92,6,NCExButton::NCExButton
+10006500,10006a80,0.55,28,NCPledgeWnd::OnGiveTitle
+1000e8a0,1000f8d0,0.44,1,NCWnd::SetTitle
+10019e10,10010250,0.93,1,NCTestUIWnd::~NCTestUIWnd
+1001ae10,100138d0,0.93,1,NCPrivateShopItemWnd::~NCPrivateShopItemWnd
+10025bf0,10029550,0.46,7,NCItemWnd::InitScrollBar
+1002c910,10030db0,0.39,11,NCTabControl::AddTab
+1003fff0,1003db80,0.75,1,L2WordWrapperWnd::WindowProc
+1007faf0,10101d80,1.00,8,NCItemWnd::Clear
+10080e50,10090650,1.00,1,NConsoleWnd::AddCharacterInfo
+10082c10,10092360,0.55,2,NCEulaWnd::OnDisagree
+100b61b0,100cf250,0.92,1,NCPetInvenItemWnd::InternalConstructor
+100ba340,100d7f70,0.87,1,NCPrivateBuyWnd::AddStoreItem
+100caa50,100f10b0,0.97,1,NConsoleWnd::ReloadGameTexts
+100cc7f0,100f3060,0.58,2,NCShortCutWnd::UpdateMacro
+100d5c90,10102410,0.87,1,NConsoleWnd::SetSummonRemainTime
+100d8330,10101a80,0.82,1,NConsoleWnd::PartyDeleteMember
+100d8410,10101bb0,0.88,1,NConsoleWnd::PartyDeleteAll
+100d8650,10101d90,0.94,1,NConsoleWnd::AddAbnormalStatus
+100d8950,10102be0,0.94,1,NConsoleWnd::ReceiveAbnormalStatus

@@ -1,0 +1,3 @@
+# Names this client's code has by another name than the base's (whole words, applied to every generated header and
+# source): old,new. The names of functions with a guard() are the ones the stock code says.
+old,new

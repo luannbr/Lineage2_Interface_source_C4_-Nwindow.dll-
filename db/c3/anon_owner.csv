@@ -1,0 +1,565 @@
+va,size,owner_class,callers,why
+1000bcd7,132,,,no caller (data)
+100113af,123,,,no caller (data)
+1001bdd0,74,,MessengerWnd::MinimizeWindow;MessengerWnd::OnPaint;NCBroadcastGMWnd::MinimizeWindow;sub_101314c0,several classes
+1001cb60,13,,NCManorShopWnd::UpdateLayout;NCPrivateShopWnd::UpdateLayout;NCShopWnd::UpdateLayout;NCStoreWnd::UpdateLayout,several classes
+1002e5a0,85,RemoveGroupDialog,sub_1002e600;sub_101420b0;sub_10142700;sub_101436f0,
+1002e600,38,RemoveGroupDialog,sub_101420b0;sub_10142700;sub_101436f0,
+100344c2,209,,,no caller (data)
+10037fd7,128,,,no caller (data)
+1003c7a0,201,L2WordWrapperWnd,L2WordWrapperWnd::OnCreate,
+1003c9c0,11,L2WordWrapperWnd,L2WordWrapperWnd::OnGenerate,
+1003cbd0,175,L2WordWrapperWnd,L2WordWrapperWnd::OnGenerate,
+1003cda0,399,NStlWString,NStlWString::Insert;sub_1003d540,
+1003d540,1216,L2WordWrapperWnd,L2WordWrapperWnd::OnGenerate,
+1003da00,379,L2WordWrapperWnd,L2WordWrapperWnd::OnGenerate,
+1005cbd3,87,,,no caller (data)
+1005cc93,89,,,no caller (data)
+1005cd56,97,,,no caller (data)
+1005e3b3,78,,,no caller (data)
+1005f6c0,46,,NCAbnormalStatusWnd::OnPaint;NCBroadcastObserverBuffWnd::OnPaint;NCPartyStatusWnd::OnPaint,several classes
+10061180,14,L2ChatWnd,sub_101313b0,
+10061190,14,ChatWnd,ChatWnd::ReceiveInstantMessage;sub_1011ce80;sub_1011f920;sub_10120050,
+100623c0,671,NPGameLib,NPGameLib::OnGameMonMessage;NPGameLib::SetHwndToGameMon,
+100626e0,135,,L2FriendWnd::L2FriendWnd;Msn::NotifySwitchboardSessionEnd;MsnWnd::MsnWnd;MsnWnd::OnDestroy;MsnWnd::ShowWindow;NCMSViewrWnd::AddAllItem,several classes
+1007ab50,219,NCDeliverItemWnd,NCDeliverItemWnd::MoveItem,
+100db750,84,,sub_100dbee0,several classes
+100db7b0,927,,sub_100dbee0,several classes
+100dbee0,355,,sub_1005cbd3;sub_1005e3b3,several classes
+100fb7c0,186,NCStatusBarCtrl,NCStatusBarCtrl::SetValues,
+1010b470,45,,sub_1010b4a0,several classes
+1010b4a0,608,,,no caller (data)
+1010dd50,955,NConsoleWnd,NConsoleWnd::C3Virtual382,
+1010e110,675,NConsoleWnd,NConsoleWnd::C3Virtual383,
+1010fe70,152,NCBroadcastGMWnd,NCBroadcastGMWnd::OnShowBroadcastCommandWndBtnClick;sub_10111bf0,
+1010ff10,176,,sub_10110020,several classes
+1010ffc0,91,,sub_10110020;sub_10111dc0,several classes
+10110020,87,,NCBroadcastGMWnd::NCBroadcastGMWnd;NCBroadcastObserverWnd::NCBroadcastObserverWnd,several classes
+10111bf0,80,,sub_10164179,several classes
+10111c40,144,NCBroadcastGMWnd,sub_10111d60;sub_1016415b,
+10111cd0,144,NCBroadcastGMWnd,sub_10111d60;sub_10164150,
+10111d60,90,NCBroadcastGMWnd,NCBroadcastGMWnd::~NCBroadcastGMWnd;sub_10164287,
+10111dc0,88,,NCBroadcastGMWnd::NCBroadcastGMWnd;NCBroadcastGMWnd::~NCBroadcastGMWnd;NCBroadcastObserverWnd::NCBroadcastObserverWnd;NCBroadcastObserverWnd::~NCBroadcastObserverWnd;sub_10164295;sub_10164b88,several classes
+10113d50,84,NCBroadcastObserverMsgWnd,NCBroadcastObserverMsgWnd::NCBroadcastObserverMsgWnd,
+10114080,80,NCBroadcastObserverWnd,NCBroadcastObserverWnd::SwitchMsgMode,
+10114570,172,NCBroadcastObserverMsgWnd,NCBroadcastObserverMsgWnd::OnTimer,
+10114620,59,NCBroadcastObserverMsgWnd,NCBroadcastObserverMsgWnd::OnTimer,
+10114660,92,NCBroadcastObserverMsgWnd,NCBroadcastObserverMsgWnd::NCBroadcastObserverMsgWnd;NCBroadcastObserverMsgWnd::~NCBroadcastObserverMsgWnd;sub_101644f8;sub_10164510;sub_10164528;sub_10164558,
+10114d60,7,NCBroadcastObserverWnd,NCBroadcastObserverWnd::OnCreate;NCBroadcastObserverWnd::OnPaint,
+10118040,13,,,no caller (data)
+10118050,180,,,no caller (data)
+101187c0,34,NCBroadcastObserverTopWnd,NCBroadcastObserverTopWnd::GetScore,
+101188a0,68,,NCBroadcastObserverPartyListWnd::GetUser;NCBroadcastObserverPartyListWnd::RefreshShowStatus;NCBroadcastObserverPlayerWnd::GetUser,several classes
+10118a70,100,NCBroadcastObserverWnd,NCBroadcastObserverWnd::NotifyCharInfo;NCBroadcastObserverWnd::NotifyMagicSkillUse;NCBroadcastObserverWnd::SetUpTarget,
+10119328,163,,,no caller (data)
+10119a90,14,MsnWnd,sub_1011e330,
+10119b20,94,,sub_1011b220;sub_101279c0;sub_10127a50;sub_10129a00;sub_1012ca90;sub_10134760,several classes
+10119bb0,21,ChatWnd,ChatWnd::WindowProc,
+10119bd0,38,ChatWnd,ChatWnd::WindowProc,
+10119c20,8,,sub_1016509b,several classes
+10119f80,38,ChatWnd,sub_1011c5b0,
+10119fb0,8,ChatWnd,sub_1011c3e0,
+10119fc0,79,ChatWnd,sub_1011c510;sub_10129a80,
+1011a010,24,SwitchboardSession,sub_1011d240,
+1011a030,27,NCBroadcastGMWnd,NCBroadcastGMWnd::OnShowBroadcastCommandWndBtnClick;sub_10124b00;sub_10136230,
+1011a050,78,ChatWnd,ChatWnd::OnTimer;sub_10120050,
+1011a0a0,78,ChatWnd,sub_10120050,
+1011a0f0,78,ChatWnd,sub_10120050,
+1011a140,115,,AlarmWnd::AlarmWnd;ChatWnd::ChatWnd;MoveGroupDialog::MoveGroupDialog;MsnWnd::MsnWnd;RemoveFriendDialog::RemoveFriendDialog;SwitchboardSession::ProcessBYE,several classes
+1011a1c0,116,SwitchboardSession,sub_1011e530,
+1011a240,32,ChatWnd,ChatWnd::OnPaint;ChatWnd::ReceiveInstantMessage;sub_1011e530,
+1011a690,96,InviteWnd,InviteWnd::WindowProc;sub_1011b600,
+1011b090,79,,,no caller (data)
+1011b220,166,ChatWnd,sub_1011ec50;sub_10127a50;sub_1012a510;sub_1012a5c0;sub_101399c0,
+1011b2d0,182,SwitchboardSession,sub_1011d1e0,
+1011b390,135,ChatWnd,ChatWnd::ChatWnd;ChatWnd::OnDestroy;ChatWnd::OnPaint;ChatWnd::ReceiveInstantMessage;sub_1011c1d0;sub_1011d240,
+1011b420,45,SwitchboardSession,sub_1011d240,
+1011b450,425,ChatWnd,sub_1011ede0,
+1011b600,8,InviteWnd,InviteWnd::WindowProc,
+1011b610,601,ChatWnd,ChatWnd::SetRoster;sub_1011cd10,
+1011b870,654,ChatWnd,sub_1011bd80;sub_1011bec0;sub_10120050,
+1011bd80,317,SwitchboardSession,sub_10136f90,
+1011bec0,317,SwitchboardSession,sub_1013b480,
+1011c000,272,SwitchboardSession,sub_1011ea40,
+1011c110,33,SwitchboardSession,sub_10136f90;sub_1013b070,
+1011c140,144,ChatWnd,ChatWnd::~ChatWnd;sub_101651a9;sub_10165230;sub_101653c8;sub_10165438,
+1011c1d0,50,ChatWnd,ChatWnd::OnPaint;sub_10164eb9;sub_10164ede;sub_10165060;sub_10165088;sub_101652a8,
+1011c210,110,SwitchboardSession,sub_1011ea40;sub_10126240,
+1011c290,110,,sub_10125580,several classes
+1011c300,50,,sub_10164f80;sub_10164fa0;sub_101657a0;sub_101657c9,several classes
+1011c340,80,ChatWnd,sub_1011d420;sub_10164fc0;sub_101651cd;sub_10165254;sub_1016545c;sub_1016679b,
+1011c390,66,ChatWnd,sub_1011c5b0;sub_1012f090,
+1011c3e0,151,ChatWnd,sub_1011d310;sub_1011d3d0,
+1011c480,144,TaskWnd,sub_1011d490;sub_10164fe0;sub_10165388,
+1011c510,151,,sub_1011d380,several classes
+1011c5b0,81,ChatWnd,ChatWnd::SetRoster,
+1011c6b0,410,ChatWnd,ChatWnd::ReceiveInstantMessage;sub_1011f770;sub_1011f920;sub_10120050,
+1011cc40,194,,sub_10137120;sub_10137290,several classes
+1011cd10,355,,sub_10137120;sub_10137290,several classes
+1011ce80,340,SwitchboardSession,sub_10136f90;sub_1013b070,
+1011d0c0,89,SwitchboardSession,sub_1011ea40;sub_10138520;sub_1013b070;sub_1013bb60;sub_1013bc90,
+1011d120,180,MsnWnd,MsnWnd::OnTimer;sub_10138110;sub_101382a0,
+1011d1e0,83,SwitchboardSession,sub_1011ede0;sub_1013b480,
+1011d240,198,SwitchboardSession,sub_1011e530,
+1011d310,109,ChatWnd,ChatWnd::OnTimer;ChatWnd::ReceiveInstantMessage;sub_1011e530,
+1011d380,80,,sub_1011ebe0;sub_101650d0;sub_10165114;sub_101661b4,several classes
+1011d3d0,80,ChatWnd,sub_1011ed50;sub_10165140;sub_101651b7;sub_1016523e;sub_10165446,
+1011d420,103,ChatWnd,ChatWnd::~ChatWnd;sub_1011ede0;sub_1012d760;sub_1012f090;sub_1013b480;sub_10165160,
+1011d490,103,TaskWnd,TaskWnd::~TaskWnd;sub_101653a8,
+1011d5b0,50,InviteWnd,InviteWnd::OnCreate,
+1011da50,37,ChatWnd,ChatWnd::OnCreate,
+1011db20,37,ChatWnd,ChatWnd::OnCreate,
+1011dbf0,37,ChatWnd,ChatWnd::OnCreate,
+1011e330,504,MsnWnd,MsnWnd::OnTimer;sub_10138110;sub_101382a0;sub_101389f0,
+1011e530,356,SwitchboardSession,sub_10135e90,
+1011e760,64,SwitchboardSession,sub_1011ea40,
+1011e870,70,TaskWnd,TaskWnd::OnCreate,
+1011ea40,402,SwitchboardSession,sub_10136f90;sub_1013b070;sub_1013b480,
+1011ebe0,103,,sub_1012a510;sub_1016511c;sub_10166154;sub_101661bc,several classes
+1011ec50,152,,AlarmWnd::AlarmWnd;ChatWnd::OnTimer;sub_1011f770;sub_1011f920;sub_10120050;sub_1012f320,several classes
+1011ed50,103,ChatWnd,ChatWnd::~ChatWnd;sub_101651bf;sub_10165246;sub_101653d6;sub_1016544e,
+1011ede0,558,ChatWnd,sub_1011f590,
+1011f010,424,,sub_10138520,several classes
+1011f1c0,413,SwitchboardSession,sub_1013b070,
+1011f590,102,ChatWnd,ChatWnd::WindowProc,
+1011f770,424,SwitchboardSession,sub_1013b070;sub_1013bc90,
+1011f920,563,ChatWnd,ChatWnd::ReceiveInstantMessage;sub_10120050;sub_10136f90;sub_1013b070,
+10120050,1191,ChatWnd,ChatWnd::WindowProc,
+101205c0,31,OfflineConfirmDialog,OfflineConfirmDialog::WindowProc,
+101205e0,83,AddFriendDialog,AddFriendDialog::WindowProc,
+10120660,81,AddGroupDialog,AddGroupDialog::WindowProc,
+10120c70,147,RemoveFriendDialog,RemoveFriendDialog::WindowProc,
+101210c0,46,AddedConfirmDialog,AddedConfirmDialog::WindowProc,
+101210f0,48,AddedConfirmDialog,AddedConfirmDialog::WindowProc,
+101212c0,84,MoveGroupDialog,MoveGroupDialog::WindowProc,
+10121700,114,RenameGroupDialog,RenameGroupDialog::WindowProc,
+10121920,124,RemoveGroupDialog,RemoveGroupDialog::WindowProc,
+10121b20,134,,MoveGroupDialog::ShowWindow;RemoveGroupDialog::ShowWindow;RenameGroupDialog::ShowWindow;sub_101433d0,several classes
+101226f0,227,AddedConfirmDialog,AddedConfirmDialog::WindowProc,
+101227e0,156,AddedConfirmDialog,AddedConfirmDialog::WindowProc,
+10122880,242,,sub_101334e0,several classes
+10123570,144,,AddedConfirmDialog::~AddedConfirmDialog;MoveGroupDialog::ShowWindow;RemoveGroupDialog::ShowWindow;RenameGroupDialog::ShowWindow;sub_1012d510;sub_1012d760,several classes
+10124260,21,L2ChatWnd,L2ChatWnd::WindowProc,
+10124280,34,L2ChatWnd,L2ChatWnd::WindowProc,
+101242d0,42,L2ChatWnd,sub_10138b50;sub_10139370;sub_10139490,
+10124a10,78,SwitchboardSession,sub_1011c110;sub_10125580,
+10124a60,146,,L2TaskWnd::L2TaskWnd;L2TaskWnd::OnDestroy;TaskWnd::OnDestroy;TaskWnd::TaskWnd;sub_1011c290;sub_1011c300,several classes
+10124b00,116,SwitchboardSession,sub_1011c210,
+10124b80,804,L2ChatWnd,sub_101250c0,
+10124fc0,108,MsnWnd,sub_1011d120;sub_10125580;sub_101256a0,
+10125030,144,L2TaskWnd,sub_10125760;sub_101657e0;sub_10165948,
+101250c0,363,L2ChatWnd,sub_10125230;sub_10125320,
+10125230,229,NConsoleWnd,sub_10138f50;sub_10139230,
+10125320,383,L2ChatWnd,L2ChatWnd::WindowProc,
+10125580,79,,sub_101389f0;sub_10139490,several classes
+101255d0,191,,sub_10126240;sub_10138cb0;sub_10138f50;sub_10139230,several classes
+101256a0,180,,sub_10138b50;sub_10139370,several classes
+10125760,103,L2TaskWnd,L2TaskWnd::~L2TaskWnd;sub_10165968,
+10125870,37,L2ChatWnd,L2ChatWnd::OnCreate,
+10125940,37,L2ChatWnd,L2ChatWnd::OnCreate,
+10125b20,173,L2FriendWnd,sub_10138cb0;sub_10138f50,
+10125ef0,165,L2FriendWnd,sub_10126240,
+10126070,70,L2TaskWnd,L2TaskWnd::OnCreate,
+10126240,347,L2FriendWnd,sub_10138cb0;sub_10138f50,
+101265a0,10,NConsoleWnd,NConsoleWnd::OnMessengerFriendAdd;NConsoleWnd::OnMessengerFriendEvent;NConsoleWnd::OnMessengerFriendStatus;sub_1012cc30;sub_1012d1f0,
+101265b0,10,NConsoleWnd,NConsoleWnd::OnMessengerFriendAdd;NConsoleWnd::OnMessengerFriendEvent;NConsoleWnd::OnMessengerFriendStatus;sub_1012cc30;sub_1012d1f0,
+101265c0,10,NConsoleWnd,NConsoleWnd::OnMessengerFriendAdd;NConsoleWnd::OnMessengerFriendEvent;sub_1012cc30;sub_1012d1f0,
+10126650,40,,sub_1013c6f0,several classes
+10126680,49,,sub_10127080,several classes
+101266c0,57,,sub_10126700,several classes
+10126700,2228,,sub_10126fc0,several classes
+10126fc0,185,,sub_10127080;sub_1013c6f0,several classes
+10127080,112,,sub_1013c6f0,several classes
+101270f0,4,NConsoleWnd,sub_1012cc30;sub_1012d1f0;sub_1013c480;sub_1013da30;sub_1013e2c0,
+10127100,4,,sub_1013ea70,several classes
+10127110,102,ChatWnd,sub_10127980,
+10127180,76,ChatWnd,sub_10127980,
+101271d0,155,ChatWnd,sub_101278c0,
+10127270,93,ChatWnd,sub_10129ad0,
+101272d0,85,SwitchboardSession,sub_10127a50,
+10127330,24,ChatWnd,sub_10127a50;sub_10129ad0,
+10127350,81,DispatchProcess,sub_10127770;sub_1013df70;sub_1013e670;sub_10140090,
+101273b0,106,DispatchProcess,sub_10127770;sub_1012b4b0,
+10127420,254,ChatWnd,sub_1013bdc0;sub_1013bf30;sub_1013c040,
+10127520,60,SwitchboardSession,SwitchboardSession::ProcessBYE;SwitchboardSession::ProcessJOI;sub_1012dd00;sub_1012de70;sub_1012eb60;sub_1012ed80,
+10127560,141,SwitchboardSession,sub_1012f530;sub_1013c2f0;sub_1013c480;sub_1013c6f0;sub_1013d270;sub_1013d450,
+101275f0,49,,sub_1013bdc0;sub_1013bf30;sub_1013ea70,several classes
+10127630,148,,sub_10129eb0,several classes
+101276d0,148,,sub_10129eb0,several classes
+10127770,336,DispatchProcess,DispatchProcess::ProcessXFR;sub_1013df70;sub_1013e670;sub_1013f0b0,
+101278c0,179,ChatWnd,sub_10127980,
+10127980,62,ChatWnd,sub_1013c040,
+101279c0,143,,sub_101298b0;sub_10129950,several classes
+10127a50,118,SwitchboardSession,sub_10129a00,
+10127ad0,800,,sub_10129ce0,several classes
+10127df0,6050,,sub_10129ce0,several classes
+101295a0,455,,sub_10129eb0,several classes
+10129770,146,,sub_1012e0c0;sub_1012e1a0;sub_1012e320;sub_1012e3e0;sub_1012e4d0;sub_1012e5c0,several classes
+10129810,147,,sub_1013c040;sub_1013fa60;sub_1013fc20;sub_1013fd30;sub_1013fdd0,several classes
+101298b0,147,,sub_1013cfc0,several classes
+10129950,170,,sub_1013cfc0,several classes
+10129a00,121,SwitchboardSession,sub_1012a140,
+10129a80,66,ChatWnd,sub_10129ad0;sub_1012a510;sub_1012a5c0,
+10129ad0,81,ChatWnd,sub_1012a5c0;sub_101399c0,
+10129b50,214,SwitchboardSession,SwitchboardSession::Close;sub_10129d50;sub_1012e0c0;sub_1012e1a0;sub_1012e320;sub_1012e3e0,
+10129c30,161,SwitchboardSession,sub_10129d80;sub_1012a0e0;sub_10166050;sub_101660b0;sub_101669b9,
+10129ce0,103,,sub_1013ea70,several classes
+10129d50,39,SwitchboardSession,SwitchboardSession::ProcessNotifyMessage;sub_1012f270;sub_1012f530;sub_1013ea70;sub_10140290;sub_10140a20,
+10129d80,304,,DispatchProcess::ProcessXFR;SwitchboardSession::ProcessBYE;SwitchboardSession::ProcessJOI;SwitchboardSession::ProcessNotifyMessage;sub_1012dd00;sub_1012de70,several classes
+10129eb0,558,,sub_1013ea70,several classes
+1012a0e0,83,SwitchboardSession,SwitchboardSession::Close;sub_1012e0c0;sub_1012e1a0;sub_1012e320;sub_1012e3e0;sub_1012e4d0,
+1012a140,296,SwitchboardSession,sub_1012a270,
+1012a270,653,SwitchboardSession,sub_1012f530;sub_10140500,
+1012a510,166,,AlarmWnd::~AlarmWnd;ChatWnd::OnDestroy;ChatWnd::OnTimer;ChatWnd::ReceiveInstantMessage;sub_1011ce80;sub_1011e330,several classes
+1012a5c0,292,ChatWnd,ChatWnd::OnTimer;sub_1011ce80;sub_1011f770;sub_1011f920;sub_10120050;sub_1012ba10,
+1012a6f0,13,MsnWnd,sub_10130f10,
+1012a700,54,,MessengerWnd::MinimizeWindow;MessengerWnd::OnPaint;MsnWnd::OnPaint;sub_10120050;sub_101345d0,several classes
+1012a740,16,ChatWnd,sub_101389f0,
+1012a750,104,ChatWnd,sub_10120050;sub_10138520,
+1012a7c0,108,,sub_101205e0;sub_101226f0,several classes
+1012a830,108,MsnWnd,sub_10133940,
+1012a8a0,108,RemoveFriendDialog,sub_10120c70,
+1012a910,114,MoveGroupDialog,sub_101212c0,
+1012a990,104,AddGroupDialog,sub_10120660,
+1012aa00,15,RemoveGroupDialog,sub_10121920,
+1012aa10,109,RenameGroupDialog,sub_10121700,
+1012aa80,104,StatusWnd,StatusWnd::OnLButtonDown;sub_101382a0,
+1012aaf0,104,OptionWnd,sub_10132a40,
+1012ab60,97,,sub_1013cfc0,several classes
+1012abd0,110,,sub_10140a20,several classes
+1012ac40,110,,sub_10140a20,several classes
+1012acb0,110,,sub_1013c6f0,several classes
+1012ad20,95,,sub_1013c6f0;sub_1013e2c0,several classes
+1012adb0,104,,sub_1013c5c0;sub_1013f0b0;sub_1013f300,several classes
+1012b030,122,,sub_1013f300,several classes
+1012b0b0,115,,sub_1013d270,several classes
+1012b130,13,,sub_1013c6f0;sub_1013d270,several classes
+1012b150,4,ChatWnd,ChatWnd::OnTimer;sub_1011f770;sub_1011f920;sub_10120050;sub_10130f70;sub_10132940,
+1012b160,108,,SwitchboardSession::AddFriend;sub_10120050;sub_1012eb60;sub_10138aa0,several classes
+1012b280,201,DispatchProcess,DispatchProcess::ProcessXFR,
+1012b350,201,,sub_1013df70;sub_1013e670,several classes
+1012b420,58,,sub_1013d120,several classes
+1012b4b0,139,LoginWnd,sub_1012b600,
+1012b540,91,,data,several classes
+1012b5a0,91,,data,several classes
+1012b600,157,LoginWnd,sub_1012b6a0,
+1012b6a0,118,LoginWnd,sub_10130e50,
+1012b7b0,144,MsnWnd,sub_1012bf10;sub_1012bf80;sub_10166440;sub_10166497;sub_101664d0,
+1012b840,47,,sub_1013df70;sub_1013e670,several classes
+1012b870,194,SwitchboardSession,SwitchboardSession::ProcessJOI,
+1012b940,194,SwitchboardSession,SwitchboardSession::ProcessBYE,
+1012ba10,252,SwitchboardSession,sub_1012dd00,
+1012bb10,194,SwitchboardSession,sub_1012de70,
+1012bbe0,252,SwitchboardSession,sub_1012f320,
+1012bce0,158,,sub_1012eb60;sub_1012ed80,several classes
+1012beb0,92,,sub_1012dce0,several classes
+1012bf10,103,,sub_10166460;sub_101664d8,several classes
+1012bf80,340,MsnWnd,MsnWnd::OnDestroy,
+1012c0e0,145,,sub_1013c2c0;sub_10140a20,several classes
+1012c180,319,MsnWnd,MsnWnd::OnCreate,
+1012c2c0,186,,sub_1013d7f0,several classes
+1012c380,218,SwitchboardSession,SwitchboardSession::ProcessJOI;sub_1012dd00;sub_1012de70;sub_1012ed80;sub_1012f320;sub_1013c6f0,
+1012c460,205,,AlarmWnd::OnLButtonDown;ChatWnd::SetRoster;FriendList::AddFriend;Msn::NotifyAddFriend;MsnWnd::NotifyAddFriend;SwitchboardSession::AddFriend,several classes
+1012c530,121,,AddedConfirmDialog::HideWindow;AlarmWnd::~AlarmWnd;ChatWnd::OnDestroy;ChatWnd::OnPaint;ChatWnd::ReceiveInstantMessage;ChatWnd::~ChatWnd,several classes
+1012c5b0,86,SwitchboardSession,sub_1011a1c0;sub_1011ce80;sub_1011d240;sub_1011f010;sub_1011f1c0;sub_1012b030,
+1012c610,105,,AddedConfirmDialog::OnPaint;AlarmWnd::OnPaint;ChatWnd::GetWarningMsg;ChatWnd::OnPaint;FriendList::CompareFriend;MsnWnd::OnPaint,several classes
+1012c6b0,4,L2ChatWnd,sub_10125320;sub_1012c8b0;sub_1012cc30;sub_1012d1f0;sub_1013c6f0;sub_1013e2c0,
+1012c6c0,4,,MoveGroupDialog::ShowWindow;RemoveGroupDialog::ShowWindow;RenameGroupDialog::ShowWindow;sub_1012cc30;sub_1012d1f0;sub_10130f70,several classes
+1012c6d0,16,,sub_1013e2c0,several classes
+1012c6e0,16,,sub_1013e2c0,several classes
+1012c6f0,16,,sub_1013e2c0,several classes
+1012c700,16,,sub_1013e2c0,several classes
+1012c710,221,,sub_1013d450;sub_1013d6c0;sub_1013d7f0;sub_1013da30,several classes
+1012c7f0,9,ChatWnd,sub_1011c390;sub_1012d400;sub_1012d660;sub_10136400,
+1012c800,78,FriendList,FriendList::AddFriend;sub_1013c6f0;sub_10140a20,
+1012c850,92,,FriendList::AddFriend;SwitchboardSession::AddFriend;sub_1013c6f0;sub_1013d1b0;sub_10140a20,several classes
+1012c8b0,112,NConsoleWnd,sub_1012c9f0,
+1012c9f0,24,NConsoleWnd,sub_10131420;sub_10133e70;sub_10133ef0;sub_10133f70,
+1012ca90,166,,ChatWnd::ChatWnd;ChatWnd::OnDestroy;ChatWnd::SetRoster;L2FriendWnd::L2FriendWnd;MsnWnd::MsnWnd;MsnWnd::OnDestroy,several classes
+1012cb40,83,MsnTree,MsnTree::vfn071;sub_1012b160;sub_10133940;sub_10133a20;sub_1013c6f0;sub_1013d1b0,
+1012cba0,25,MSNSocket,MSNSocket::CloseSocket;sub_1012abd0;sub_1012ac40;sub_1012acb0;sub_1012b420,
+1012cbc0,16,,sub_1013de40,several classes
+1012cbd0,83,L2ChatWnd,sub_1012cc30;sub_10131450,
+1012cc30,158,NConsoleWnd,sub_10133f70,
+1012ccd0,110,,sub_1012beb0;sub_1012d130;sub_1013ea60,several classes
+1012cd40,144,NConsoleWnd,sub_101436f0;sub_101437e0;sub_10166840;sub_101683c0,
+1012cdd0,144,MsnWnd,sub_1012d4a0;sub_10166730;sub_101667d8,
+1012d030,248,,sub_1013c2f0;sub_1013dc20,several classes
+1012d130,80,,sub_1013dda0,several classes
+1012d180,106,MsnWnd,sub_1012d510;sub_1012d570,
+1012d1f0,257,NConsoleWnd,sub_10133e70,
+1012d300,80,,sub_10166848,several classes
+1012d350,171,,sub_1013c6f0;sub_1013d6c0;sub_1013d7f0,several classes
+1012d400,142,MsnWnd,sub_1012d570;sub_1012d760;sub_10140340,
+1012d4a0,103,MsnWnd,sub_1012d510;sub_10166758,
+1012d510,86,MsnWnd,sub_1012d970,
+1012d570,43,,sub_10138110,several classes
+1012d5a0,189,NConsoleWnd,sub_10133ef0,
+1012d660,138,NConsoleWnd,sub_10139370,
+1012d6f0,107,MsnWnd,sub_1012d830,
+1012d760,87,MsnWnd,sub_1012d970,
+1012d7c0,98,MsnWnd,sub_1012d830,
+1012d830,311,MsnWnd,sub_1012c180,
+1012d970,159,MsnWnd,sub_1012bf80,
+1012da10,98,L2FriendWnd,L2FriendWnd::L2FriendWnd,
+1012da80,120,,sub_1013c2f0;sub_1013dc20,several classes
+1012db00,114,,Msn::NotifyAddGroup;MsnWnd::NotifyAddGroup;sub_1012d030;sub_1013c2f0;sub_1013dc20;sub_101433d0,several classes
+1012db80,78,,Msn::NotifyAddGroup;MsnWnd::NotifyAddGroup;sub_1012d030;sub_1012d180;sub_1013c2f0;sub_1013dc20,several classes
+1012dbd0,159,,sub_1012d030;sub_1013de40,several classes
+1012dc70,3,MsnWnd,sub_1012c8b0;sub_1012cc30;sub_1012d030;sub_1012d1f0;sub_1012d5a0;sub_101428d0,
+1012dc80,78,,MoveGroupDialog::ShowWindow;RemoveGroupDialog::ShowWindow;RenameGroupDialog::ShowWindow,several classes
+1012dcd0,4,,MoveGroupDialog::ShowWindow;RemoveGroupDialog::ShowWindow;RenameGroupDialog::ShowWindow;sub_1012d030;sub_1012d130;sub_101428d0,several classes
+1012dce0,13,,data,several classes
+1012dcf0,15,,data,several classes
+1012dd00,356,SwitchboardSession,sub_1012f530,
+1012de70,317,SwitchboardSession,sub_1012f530,
+1012dfb0,4,SwitchboardSession,sub_1012b870;sub_1012b940;sub_1012ba10;sub_1012bb10;sub_1012bbe0;sub_1012bce0,
+1012dfc0,78,,sub_1013df70;sub_1013e670,several classes
+1012e010,4,SwitchboardSession,sub_1011ce80;sub_1011f1c0;sub_10138420,
+1012e020,98,SwitchboardSession,SwitchboardSession::Close;sub_1012e0c0;sub_1012e1a0;sub_1012e320;sub_1012e3e0;sub_1012e4d0,
+1012e090,33,,sub_1012e0c0;sub_1012e1a0;sub_1013ed30;sub_1013ee30;sub_1013efb0;sub_1013f0b0,several classes
+1012e0c0,222,,sub_1012e800,several classes
+1012e1a0,194,,sub_1012e800,several classes
+1012e320,191,,sub_1012f270,several classes
+1012e3e0,229,ChatWnd,ChatWnd::OnTimer,
+1012e4d0,229,ChatWnd,sub_1011ce80;sub_1011f770;sub_1011f920;sub_10120050,
+1012e5c0,229,SwitchboardSession,sub_1012f320,
+1012e6b0,181,InviteWnd,sub_1011a690,
+1012e770,134,SwitchboardSession,sub_1012f530;sub_10140500,
+1012e800,80,,data,several classes
+1012e850,144,SwitchboardSession,SwitchboardSession::ProcessBYE,
+1012eb60,200,,sub_1012f270,several classes
+1012ed80,371,,sub_1012f270,several classes
+1012ef00,90,SwitchboardSession,SwitchboardSession::ProcessBYE,
+1012ef60,258,,sub_1012b350,several classes
+1012f070,12,,data,several classes
+1012f090,169,,Msn::NotifySwitchboardSessionEnd;sub_1012beb0;sub_1012bf80,several classes
+1012f270,164,,data,several classes
+1012f320,517,SwitchboardSession,sub_1012f530,
+1012f530,1006,SwitchboardSession,SwitchboardSession::ProcessNotifyMessage,
+1012fa40,39,L2FriendTree,L2FriendTree::WindowProc,
+1012fa70,134,,MsnTree::GetFriendInsertIndex;MsnTree::GetGroupInsertIndex;MsnTreeCtrl::RemoveFriend,several classes
+10130a20,38,LoginWnd,LoginWnd::WindowProc,
+10130a80,18,MsnWnd,sub_10130e50;sub_1013aa20,
+10130ca0,115,,sub_10137120,several classes
+10130d20,117,,sub_10130ff0,several classes
+10130e30,14,VersionWnd,sub_10131be0,
+10130e40,14,LoginWnd,sub_10131a70,
+10130e50,188,LoginWnd,sub_10131990,
+10130f10,11,MsnWnd,sub_1013aa20,
+10130f20,68,MsnWnd,MsnWnd::WindowProc,
+10130f70,128,MSNSocket,MSNSocket::CloseSocket;sub_1012b420,
+10130ff0,124,,sub_1012ab60,several classes
+10131280,223,,sub_1012b030,several classes
+10131360,79,,sub_1012b0b0,several classes
+101313b0,112,L2ChatWnd,sub_10125320,
+10131420,44,NConsoleWnd,sub_10131530,
+10131450,104,L2ChatWnd,sub_10125320,
+101314c0,48,,sub_101387f0,several classes
+101314f0,55,MessengerWnd,MessengerWnd::ShowWindow,
+10131530,11,NConsoleWnd,NConsoleWnd::C3Virtual293,
+10131540,32,SwitchboardSession,sub_10134840,
+10131580,27,ChatWnd,sub_1011b2d0;sub_1011c5b0;sub_10134840;sub_1013e850,
+101315a0,81,SwitchboardSession,sub_10138520;sub_1013b070;sub_1013b480,
+10131600,79,MsnWnd,sub_101333f0,
+10131650,81,L2FriendWnd,sub_10138cb0;sub_10138f50,
+101316b0,29,StatusWnd,StatusWnd::OnLButtonDown,
+10131990,209,LoginWnd,LoginWnd::WindowProc;sub_10134d40,
+10131a70,29,LoginWnd,LoginWnd::WindowProc,
+10131be0,29,VersionWnd,VersionWnd::WindowProc,
+10132940,246,OptionWnd,OptionWnd::ShowWindow,
+10132a40,416,OptionWnd,OptionWnd::WindowProc,
+101332c0,152,MsnWnd,sub_10133860,
+10133360,142,MsnWnd,sub_101338b0,
+101333f0,238,MsnWnd,sub_10133a20,
+101334e0,136,,sub_10133b60,several classes
+10133570,142,StatusWnd,StatusWnd::OnLButtonDown,
+10133600,152,OptionWnd,sub_10135e30,
+101336a0,142,OptionWnd,sub_10135e50,
+10133730,142,OptionWnd,sub_10135e70,
+101337c0,153,,StatusWnd::OnLButtonDown;sub_1011f590;sub_10120c70;sub_10121920;sub_10133860;sub_101338b0,several classes
+10133860,72,MsnWnd,MsnWnd::WindowProc,
+101338b0,131,MsnWnd,MsnWnd::WindowProc,
+10133940,219,MsnWnd,MsnWnd::WindowProc,
+10133a20,208,MsnWnd,MsnWnd::WindowProc,
+10133af0,108,,sub_1012acb0,several classes
+10133b60,117,,sub_1012ad20,several classes
+10133be0,427,DispatchProcess,sub_1012adb0;sub_1012b280;sub_1012b600,
+10133e70,121,NConsoleWnd,sub_10134610,
+10133ef0,121,NConsoleWnd,sub_10134680,
+10133f70,121,NConsoleWnd,sub_101346f0,
+101345b0,26,,sub_101387f0,several classes
+101345d0,63,NCChatWnd,NCChatWnd::OnPaint,
+10134610,99,NConsoleWnd,NConsoleWnd::OnMessengerFriendAdd;NConsoleWnd::OnMessengerFriendEvent,
+10134680,99,NConsoleWnd,NConsoleWnd::OnMessengerFriendEvent,
+101346f0,99,NConsoleWnd,NConsoleWnd::OnMessengerFriendEvent;NConsoleWnd::OnMessengerFriendStatus,
+10134760,111,SwitchboardSession,sub_10136e30,
+101347d0,106,,FriendList::AddFriend;sub_1011ede0;sub_1012cb40;sub_1012cbd0;sub_1012d1f0;sub_1012e850,several classes
+10134840,118,SwitchboardSession,sub_101361b0;sub_10138520;sub_1013b070;sub_1013b480,
+10134d40,20,LoginWnd,LoginWnd::WindowProc,
+10134eb0,1057,StatusWnd,StatusWnd::OnCreate,
+10135e30,17,OptionWnd,OptionWnd::WindowProc,
+10135e50,17,OptionWnd,OptionWnd::WindowProc,
+10135e70,17,OptionWnd,OptionWnd::WindowProc,
+10135e90,124,SwitchboardSession,sub_1012bb10,
+10135f10,230,SwitchboardSession,sub_10138520;sub_1013b070,
+101360c0,230,L2FriendWnd,sub_10138cb0;sub_10138f50,
+101361b0,120,,FriendList::AddFriend;SwitchboardSession::AddFriend;sub_1012d1f0;sub_10136f90;sub_10138cb0;sub_10138f50,several classes
+10136230,181,MsnWnd,MsnWnd::OnTimer;sub_1012b840;sub_1012d030;sub_10138110;sub_101382a0;sub_101389f0,
+101362f0,50,ChatWnd,sub_10120050;sub_1013b480;sub_10164f19;sub_10164f39;sub_10164f60;sub_101652c0,
+10136370,144,SwitchboardSession,sub_10136e30;sub_101672a9,
+10136400,151,,sub_1011c340;sub_1012d300;sub_10137450;sub_101374e0;sub_10137560,several classes
+101364a0,144,,sub_101375b0;sub_10167380;sub_10167604;sub_1016772e,several classes
+10136ca0,383,NCConsole,sub_10139650,
+10136e30,255,SwitchboardSession,sub_10136f90;sub_10138420;sub_10138520;sub_1013b070,
+10136f30,93,SwitchboardSession,sub_10138520;sub_1013b070,
+10136f90,386,SwitchboardSession,sub_1012b870,
+10137120,356,,sub_1012abd0,several classes
+10137290,213,,sub_1012ac40,several classes
+101373f0,93,L2FriendWnd,sub_10138cb0;sub_10138f50,
+10137450,133,,sub_101389f0;sub_1013b480,several classes
+101374e0,117,SwitchboardSession,sub_1012d350;sub_1012d5a0;sub_1012ef00;sub_10138460;sub_101389f0;sub_10139490,
+10137560,80,,sub_10139760;sub_101674e0;sub_101675d8;sub_101675ee;sub_10167718,several classes
+101375b0,103,,L2FriendWnd::~L2FriendWnd;MsnWnd::~MsnWnd;sub_1016760c;sub_10167654;sub_10167736;sub_10167776,several classes
+10138110,391,,sub_101387f0,several classes
+101382a0,372,OfflineConfirmDialog,sub_101205c0,
+10138420,56,,sub_1012bce0,several classes
+10138460,182,Msn,Msn::NotifySwitchboardSessionEnd;sub_1012beb0,
+10138520,720,,sub_10138aa0;sub_10139700,several classes
+101387f0,510,,sub_1012c0e0,several classes
+101389f0,171,ChatWnd,sub_10119bd0;sub_1013aa20,
+10138aa0,170,MsnWnd,MsnWnd::WindowProc,
+10138b50,345,NCConsole,sub_10139650,
+10138cb0,661,L2FriendWnd,sub_10139510,
+10138f50,724,NConsoleWnd,sub_10139230,
+10139230,320,NConsoleWnd,sub_10139680,
+10139370,288,NConsoleWnd,sub_10139670,
+10139490,115,L2ChatWnd,sub_10124280,
+10139510,129,L2FriendWnd,L2FriendWnd::WindowProc,
+10139650,26,NCConsole,NCConsole::ShowWindow,
+10139670,11,NConsoleWnd,NConsoleWnd::C3Virtual291,
+10139680,11,NConsoleWnd,NConsoleWnd::OnMessengerChat,
+10139700,94,AlarmWnd,AlarmWnd::OnLButtonDown,
+10139760,103,,L2FriendWnd::~L2FriendWnd;MsnWnd::~MsnWnd;sub_101675e0;sub_101675f6;sub_10167638;sub_10167646,several classes
+101399c0,121,SwitchboardSession,sub_1013ac90,
+1013aa20,491,MsnWnd,MsnWnd::WindowProc;sub_1013bb30,
+1013ac90,158,SwitchboardSession,sub_1013b070,
+1013b070,1038,SwitchboardSession,sub_1013bb60;sub_1013bc90,
+1013b480,581,SwitchboardSession,sub_1012b940,
+1013bb30,11,NCConsoleExt,NCConsoleExt::LogoutMessenger,
+1013bb60,298,SwitchboardSession,sub_1012ba10,
+1013bc90,298,SwitchboardSession,sub_1012bbe0,
+1013bdc0,354,,SwitchboardSession::Close;sub_1012e0c0;sub_1012e1a0;sub_1012e320;sub_1012e6b0;sub_1013d3d0,several classes
+1013bf30,269,,sub_1013c6f0,several classes
+1013c040,466,ChatWnd,sub_1012e3e0;sub_1012e4d0;sub_1012e5c0,
+1013c260,8,,data,several classes
+1013c270,78,,sub_10140970,several classes
+1013c2c0,35,,data,several classes
+1013c2f0,337,,sub_10140a20,several classes
+1013c450,33,,sub_1012a700,several classes
+1013c480,137,,sub_10140df0,several classes
+1013c510,32,ChatWnd,sub_1013e850,
+1013c530,9,,sub_1013e9a0,several classes
+1013c540,33,,sub_1013f0b0,several classes
+1013c570,33,,sub_10140340,several classes
+1013c5a0,27,,data,several classes
+1013c5c0,96,,data,several classes
+1013c6f0,2249,,data,several classes
+1013cfc0,350,,data,several classes
+1013d120,143,,sub_10140df0,several classes
+1013d1b0,185,,sub_1013e2c0,several classes
+1013d270,344,,sub_10140df0,several classes
+1013d3d0,123,MsnWnd,sub_1012a6f0,
+1013d450,618,,sub_10140df0,several classes
+1013d6c0,299,,sub_10140df0,several classes
+1013d7f0,565,,sub_10140df0,several classes
+1013da30,481,,sub_10140df0,several classes
+1013dc20,372,,sub_10140df0,several classes
+1013dda0,157,,sub_10140df0,several classes
+1013de40,302,,sub_10140df0,several classes
+1013df70,585,,sub_10140a20,several classes
+1013e1c0,109,,sub_1013e670,several classes
+1013e230,135,DispatchProcess,sub_1013e850;sub_10140890,
+1013e2c0,934,,sub_10140a20,several classes
+1013e670,471,,sub_10140df0,several classes
+1013e850,185,ChatWnd,sub_1013fef0,
+1013e910,144,Msn,sub_10140020;sub_10167f70;sub_10167fae,
+1013e9a0,151,,sub_1013ffd0,several classes
+1013ea40,20,,sub_1012e0c0;sub_1012e1a0;sub_1012e320;sub_1013ec60;sub_1013ed30;sub_1013ee30,several classes
+1013ea60,16,,sub_1013ea70,several classes
+1013ea70,496,,data,several classes
+1013ec60,197,,data,several classes
+1013ed30,245,,sub_10140290,several classes
+1013ee30,382,,sub_10140290;sub_10140df0,several classes
+1013efb0,245,,sub_10140df0,several classes
+1013f0b0,577,,sub_10140df0,several classes
+1013f300,408,,sub_10140df0,several classes
+1013f4a0,204,StatusWnd,sub_1012aa80;sub_10140340,
+1013f570,293,OptionWnd,sub_1012aaf0,
+1013f6a0,451,,sub_1012a7c0,several classes
+1013f870,491,,sub_1012a830;sub_10140400,several classes
+1013fa60,447,MoveGroupDialog,sub_1012a910,
+1013fc20,268,AddGroupDialog,sub_1012a990,
+1013fd30,155,RemoveGroupDialog,sub_1012aa00,
+1013fdd0,285,RenameGroupDialog,sub_1012aa10,
+1013fef0,218,ChatWnd,sub_1012a750,
+1013ffd0,80,,sub_10140820;sub_101680d0;sub_10168118,several classes
+10140020,103,Msn,sub_10140160;sub_10167fb6;sub_10168002,
+10140090,182,DispatchProcess,sub_1012ef60;sub_10140200;sub_10140890,
+10140150,12,,data,several classes
+10140160,151,Msn,sub_1012f090;sub_10140280;sub_10140970;sub_10166be1;sub_10166c30;sub_101680f8,
+10140200,124,LoginWnd,sub_1012b600,
+10140280,11,Msn,Msn::NotifyDispatchProcessEnd,
+10140290,162,,data,several classes
+10140340,190,,sub_10140df0,several classes
+10140400,256,RemoveFriendDialog,sub_1012a8a0,
+10140500,800,,data;sub_10140a20,several classes
+10140820,103,,sub_10140970;sub_10168120;sub_10168160,several classes
+10140890,224,DispatchProcess,sub_1012b280,
+10140970,169,,sub_1012c0e0,several classes
+10140a20,966,,data,several classes
+10140df0,567,,data,several classes
+10141070,79,DispatchProcess,sub_10140090,
+101410c0,328,,sub_1013c5a0,several classes
+10141210,184,,sub_1013ea70,several classes
+101412d0,131,SwitchboardSession,sub_1012f530;sub_10140500,
+10141360,61,Msn,sub_10141840,
+101413a0,145,,sub_1013f0b0,several classes
+10141440,62,,sub_10141480;sub_101418a0,several classes
+10141480,960,,sub_1013f0b0,several classes
+10141840,89,Msn,sub_10140160;sub_10167f98;sub_10167fd0,
+101418a0,610,,sub_1013f0b0,several classes
+10141b10,52,L2FriendTreeCtrl,L2FriendTreeCtrl::WindowProc,
+101420b0,52,RemoveGroupDialog,sub_10121920;sub_10133af0;sub_10137120;sub_10137290;sub_10142a40;sub_10143320,
+101420f0,121,,sub_10137120,several classes
+10142170,51,MSNSocket,sub_101433d0,
+10142700,52,NConsoleWnd,sub_101431f0;sub_101436f0,
+10142740,51,NConsoleWnd,sub_101437e0,
+10142780,134,MSNSocket,sub_10143320;sub_101433d0;sub_101436f0;sub_101437e0,
+101428d0,355,MsnWnd,MsnWnd::NotifyAddGroup;sub_101433d0,
+10142a40,377,MsnWnd,MsnWnd::NotifyAddFriend;sub_10143320;sub_101433d0,
+10143080,353,NConsoleWnd,sub_101437e0,
+101431f0,303,NConsoleWnd,sub_101436f0;sub_101437e0,
+10143320,176,,sub_10133af0;sub_10137120;sub_10137290,several classes
+101433d0,325,MSNSocket,sub_10130f70,
+101436f0,227,NConsoleWnd,sub_10133e70;sub_10133ef0;sub_10133f70,
+101437e0,181,NConsoleWnd,sub_10131420,
+10143c00,38,Util,Util::MsnStrcmp,
+10143d70,125,,sub_1013ee30,several classes
+10143df0,93,,sub_1013ee30,several classes
+10143e50,125,,sub_1013ee30,several classes
+10143ed0,383,,sub_1012dbd0,several classes
+10144050,251,,ChatFrameCtrl::OnPaint;ChatWnd::OnPaint;FriendBox::OnPaint;InviteBox::OnPaint;L2FriendTree::vfn071;L2TaskBox::OnPaint,several classes
+10144150,201,AlarmWnd,AlarmWnd::OnPaint,
+10144220,32,,sub_1013bf30;sub_1013c6f0;sub_101410c0,several classes
+10144240,28,,sub_10144650,several classes
+10144260,52,SwitchboardSession,sub_10141210;sub_101412d0,
+101442a0,35,ChatWnd,sub_1013bdc0;sub_1013c040,
+101442d0,37,,sub_1013f570;sub_1013fc20;sub_1013fdd0;sub_10141480,several classes
+10144300,37,,sub_1012c610;sub_1012dc80;sub_1013c2f0;sub_1013dc20;sub_1013de40,several classes
+10144330,220,MessengerWnd,sub_10144770,
+10144650,286,,sub_1013c6f0,several classes
+10144770,422,MessengerWnd,sub_101314f0,
+10148890,338,NPGameLib,NPGameLib::PreInitNPGameMon,
+101489f0,148,NPGameLib,NPGameLib::SpeedCheckThreadProc,
+1014a210,67,NPGTempDll,NPGTempDll::Load,

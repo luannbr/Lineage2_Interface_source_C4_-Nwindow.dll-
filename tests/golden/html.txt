@@ -1,0 +1,902 @@
+== page 0 (106 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m48 m48 f m12 f m96 m6 f m16 f m96 m128 m128 f m24 f m96 m10 f m96 m10 f m36 f
+tags 7 room 9
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 13/23"Hello   world" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 24/63"Text <tag>  & \x22q\x22 'a'  x" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f
+dtor: 
+== page 1 (165 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m14 f m12 f m96 m80 m32 f m16 f m96 m14 f m24 f m96 m6 f m96 m176 m32 m32 f m32 m48 f f m64 f m64 m64 f f m36 f m96 m10 f m96 m10 f
+tags 9 room 9
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T18 o1 0/7"" c0/7""
+T1 o1 5/7"Title" c12/15"\x1eLEVEL\x1eTitle"
+T18 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 30/31"Some red text and green words." c24/31"\x1eFF0000\x1ered\x1e00FF00\x1egreen"
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f
+dtor: 
+== page 2 (148 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m4 f m14 f m48 m48 f m2 m48 m28 m48 f m12 f m96 m16 f m96 m4 f m24 f m96 m8 f m96 m4 f m10 f m32 f m2 m32 m28 m32 f m36 f m96 m96 m4 f m96 f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m8 f m32 f m4 f m32 m56 m32 m32 f f f m52 f m96 m96 m4 f m96 m10 f m96 m10 f m76 f
+tags 14 room 19
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 1=22/23"bypass -h npc_1_Chat 1" v1 has2 get65a1c100
+T1 o1 4/7"Link" c0/7""
+T14 o0 0/7"" c0/7""
+T2 o1 5/7"<br1>" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 3=8/15"page.htm" v1 has8 getdce0463c
+T1 o1 4/7"file" c0/7""
+T14 o0 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a2/2 1=8/15"bypass x" 4=13/15"Are you sure?" v2 has12 geta6772756
+T1 o1 1/7"Q" c0/7""
+T14 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 13/23"Are you sure?" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f f f f f f f f
+dtor: f
+== page 3 (227 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m14 f m12 f m2 m28 m14 f m32 m32 f m4 f m32 m56 m32 f f m12 f f m6 f m84 m32 f f m14 f m8 f m112 m32 f f m10 f m64 m64 f m12 f m64 m168 m32 m64 f f f m10 f m48 f m48 m12 f m96 m10 f m8 f f m2 m28 m12 f m4 f m56 f m14 f m6 f m84 f m16 f m96 m8 f m8 f m48 m48 f m2 m48 m28 m48 f m12 f f m4 f m56 m48 f f m14 f m6 f m84 m48 f f m24 f m96 m10 f m96 m10 f m36 f
+tags 7 room 9
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T49 o1 0/7"" c0/7"" a6/6 5=2/7"OK" 1=11/15"bypass test" 6=2/7"80" 4=2/7"20" 2=24/31"L2UI.DefaultButton_click" 3=18/23"L2UI.DefaultButton" v6 has7e get7fe4575c
+T51 o1 0/7"" c0/7"" a3/3 4=4/7"name" 5=3/7"120" 2=2/7"15" v3 has34 get084b8c0e
+T5 o1 0/7"" c0/7"" a3/3 2=16/23"L2UI.SquareWhite" 4=3/7"260" 1=1/7"1" v3 has16 get950d6157
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 1/7"1" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f
+dtor: 
+== page 4 (181 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m12 f m14 f m2 m28 m12 f m4 f m56 f m16 f m6 f m84 f m12 f m96 m6 f m16 f m96 m6 f m12 f m2 m28 m12 f m4 f m56 f m24 f m96 m96 m6 f m36 f m96 m6 f m18 m32 m32 f f m2 m28 m96 m96 m6 f f m52 f m96 m6 f m96 m12 f m96 m18 m32 m32 f f m12 f f m2 m28 m8 f m4 f m56 f m10 f m6 f m84 f m96 m10 f m76 f m96 m10 f
+tags 15 room 19
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T40 o1 0/7"" c0/7"" a3/3 4=1/7"0" 9=3/7"270" 3=6/7"000000" v3 has218 get3494c385
+T41 o1 0/7"" c0/7""
+T42 o1 0/7"" c0/7"" a2/2 1=6/7"center" 8=3/7"100" v2 has102 get2da45105
+T1 o1 4/7"Cell" c0/7""
+T42 o0 0/7"" c0/7""
+T42 o1 0/7"" c0/7"" a1/1 5=2/7"50" v1 has20 get7dbff61d
+T1 o1 1/7"X" c0/7""
+T42 o0 0/7"" c0/7""
+T41 o0 0/7"" c0/7""
+T40 o0 0/7"" c0/7""
+T52 o1 0/7"" c0/7"" a3/3 4=3/7"100" 3=3/7"sel" 1=5/7"A;B;C" v3 has1a get7ff26575
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 5/7"A;B;C" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f f f f f f f
+dtor: 
+== page 5 (90 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m6 f m8 f m12 f m2 m28 m8 f m32 m14 f m4 f m56 f m32 m12 f m96 m32 m32 f m16 f m96 m6 f f m24 f m96 m10 f m96 m10 f m36 f
+tags 7 room 9
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T42 o1 0/7"" c9/15"BAZ=\x22qux\x22" a2/2 1=4/7"left" 6=2/7"20" v2 has42 gete81780fe
+T1 o1 13/15"unknown attrs" c0/7""
+T42 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 2/7"20" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f
+dtor: 
+== page 6 (80 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m32 m32 f m8 f m96 m32 m32 f m12 f m96 m10 f m16 f m96 m12 f m24 f m96 m96 m12 f m32 m32 f m36 f m96 m32 m32 f m96 m96 m10 f m52 f m96 m10 f
+tags 11 room 13
+T43 o1 0/7"" c0/7""
+T3 o205 14/15"<!-- comment >" c0/7""
+T1 o1 8/15"here -->" c0/7""
+T44 o1 0/7"" c0/7""
+T2 o1 7/7"<blink>" c0/7""
+T1 o1 1/7"x" c0/7""
+T2 o0 8/15"</blink>" c0/7""
+T3 o205 12/15"<!- short ->" c0/7""
+T1 o1 3/7"<!>" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f
+dtor: 
+== page 7 (70 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m96 m96 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 24/47"leading and inner blanks" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== page 8 (84 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m128 m128 f m160 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 68/79"one hundred twenty-three and ; then &$0; and &$; end &$ nl &$2;&$3;x" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== page 9 (129 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m208 m32 m48 f m112 m112 f f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 53/55"<spaced <font>no color</font> text only </font> stray" c20/23"redspaced\x1eLEVEL\x1eonly"
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f f
+dtor: 
+== page 10 (75 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m6 f m12 f m96 m4 f m10 f m2 m28 m16 f m96 m24 f m96 m4 f m96 m12 f m12 f m2 m28 m36 f m96 m12 f m96 m10 f m96 m10 f m52 f
+tags 10 room 13
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 2=1/7"x" v1 has4 getdd51bab8
+T1 o1 5/7"UPPER" c0/7""
+T14 o0 0/7"" c0/7""
+T40 o1 0/7"" c0/7"" a1/1 9=2/7"10" v1 has200 get96f28471
+T40 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 2/7"10" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f
+dtor: 
+== page 11 (122 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m20 m32 m32 f f m8 f f m2 m28 m12 f m4 f m56 f m14 f m6 f m84 f m12 f m96 m18 m32 m32 f f m16 f m96 m24 f m96 m18 m32 f f m96 m14 f f m36 f m96 m14 f m96 m96 m14 f m52 f m96 m14 f m96 m10 f m96 m10 f
+tags 13 room 13
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T50 o1 0/7"" c0/7"" a3/3 2=1/7"m" 3=3/7"200" 1=2/7"50" v3 hase get2c4e8732
+T9 o1 0/7"" c0/7""
+T1 o1 1/7"t" c0/7""
+T9 o0 0/7"" c0/7""
+T7 o1 0/7"" c0/7""
+T8 o1 0/7"" c0/7""
+T1 o1 1/7"o" c0/7""
+T8 o0 0/7"" c0/7""
+T7 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 2/7"50" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f
+dtor: 
+== page 12 (55 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m14 f m4 f m4 f m14 f m80 m80 f m8 f m96 m12 f m96 m10 f m16 f
+tags 4 room 4
+T43 o1 0/7"" c0/7""
+T4 o1 36/39"<extend>inside <b>bold</b> </extend>" c0/7""
+T1 o1 5/7"after" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f
+dtor: 
+== page 13 (31 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 5/7"short" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f
+dtor: 
+== page 14 (50 characters)
+ctor: 
+parse: m16 m96 m112 m112 f m4
+tags 1 room 1
+T1 o1 43/55"no tags at all, just text with & entities <" c0/7""
+error 0
+name 0/7"" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f
+dtor: 
+== page 15 (0 characters)
+ctor: 
+parse: m16
+tags 0 room 0
+error 0
+name 0/7"" value 0/7"" extra 0/7"" u64 0/7""
+free: f
+dtor: 
+== page 16 (1 characters)
+ctor: 
+parse: m16 m96 m4
+tags 1 room 1
+T1 o1 1/7"<" c0/7""
+error 0
+name 0/7"" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f
+dtor: 
+== page 17 (5 characters)
+ctor: 
+parse: m16 m96 m10 f m4
+tags 1 room 1
+T43 o1 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f
+dtor: 
+== page 18 (45 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m80 m80 f m12 f
+tags 3 room 3
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 33/39"<font color=\x22FF0000\x22>unterminated" c0/7""
+error 0
+name 4/7"BODY" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f
+dtor: 
+== page 19 (107 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m176 m32 m48 f m32 m32 f f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 9/15"xaybbzccc" c18/23"\x1e12\x1ea\x1e34\x1ebb\x1e56\x1eccc"
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f f
+dtor: 
+== page 20 (74 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m12 f m96 m6 f m16 f m96 m96 m96 f m24 f m96 m10 f m96 m10 f m36 f
+tags 7 room 9
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 4/7"text" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 15/47"more   spaces  " c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f
+dtor: 
+== page 21 (134 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m4 f m14 f m64 m64 f m2 m64 m28 m64 f m12 f m96 m16 f m96 m4 f m24 f m96 m6 f m96 m4 f m14 f m64 f m2 m64 m28 m64 f m36 f m96 m96 m4 f m96 m10 f m52 f m96 m10 f
+tags 11 room 13
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 1=30/31"bypass -h npc_%objectId%_Quest" v1 has2 get5b089f8c
+T1 o1 5/7"Quest" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 1=31/31"bypass -h npc_%objectId%_Chat 0" v1 has2 getaf0f693a
+T1 o1 4/7"Back" c0/7""
+T14 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 31/31"bypass -h npc_%objectId%_Chat 0" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f
+dtor: f
+== page 22 (293 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m12 f m8 f m96 m12 f m96 m12 f m16 f m96 m10 f m24 f m96 m96 m10 f m36 f m96 m10 f m96 m96 m4 f m52 f m96 m96 m4 f m96 m6 f m96 m76 f m96 m6 f m96 m8 f m96 m96 m8 f m96 m6 f m96 m6 f m112 f m96 m96 m6 f m96 m6 f m96 m4 f m96 m96 m4 f m96 m4 f m96 m96 m4 f m168 f m96 m4 f m96 m96 m4 f m96 m6 f m96 m96 m6 f m96 m14 f m96 m96 m14 f m96 m8 f m96 m96 m8 f m96 m8 f m96 m252 f m96 m8 f m96 m10 f m96 m96 m10 f m96 m12 f m96 m96 m12 f m96 m16 f m96 m96 m16 f m96 m8 f m96 m96 m8 f m96 m10 f m96 m96 m10 f m96 m8 f m96 m96 m8 f m96 m14 f m96 m376 f m96 m14 f m96 m10 f m96 m10 f
+tags 67 room 94
+T43 o1 0/7"" c0/7""
+T46 o1 0/7"" c0/7""
+T1 o1 1/7"T" c0/7""
+T46 o0 0/7"" c0/7""
+T45 o1 0/7"" c0/7""
+T1 o1 1/7"h" c0/7""
+T45 o0 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 1/7"b" c0/7""
+T27 o1 0/7"" c0/7""
+T1 o1 1/7"p" c0/7""
+T27 o0 0/7"" c0/7""
+T28 o1 0/7"" c0/7""
+T1 o1 2/7"h1" c0/7""
+T28 o0 0/7"" c0/7""
+T35 o1 0/7"" c0/7""
+T1 o1 3/7"pre" c0/7""
+T35 o0 0/7"" c0/7""
+T37 o1 0/7"" c0/7""
+T39 o1 0/7"" c0/7""
+T1 o1 2/7"li" c0/7""
+T39 o0 0/7"" c0/7""
+T37 o0 0/7"" c0/7""
+T20 o1 0/7"" c0/7""
+T1 o1 1/7"b" c0/7""
+T20 o0 0/7"" c0/7""
+T21 o1 0/7"" c0/7""
+T1 o1 1/7"i" c0/7""
+T21 o0 0/7"" c0/7""
+T22 o1 0/7"" c0/7""
+T1 o1 1/7"u" c0/7""
+T22 o0 0/7"" c0/7""
+T23 o1 0/7"" c0/7""
+T1 o1 2/7"tt" c0/7""
+T23 o0 0/7"" c0/7""
+T24 o1 0/7"" c0/7""
+T1 o1 1/7"s" c0/7""
+T24 o0 0/7"" c0/7""
+T25 o1 0/7"" c0/7""
+T1 o1 1/7"s" c0/7""
+T25 o0 0/7"" c0/7""
+T26 o1 0/7"" c0/7""
+T1 o1 1/7"s" c0/7""
+T26 o0 0/7"" c0/7""
+T16 o1 0/7"" c0/7""
+T1 o1 1/7"l" c0/7""
+T16 o0 0/7"" c0/7""
+T17 o1 0/7"" c0/7""
+T1 o1 1/7"r" c0/7""
+T17 o0 0/7"" c0/7""
+T36 o1 0/7"" c0/7""
+T1 o1 1/7"a" c0/7""
+T36 o0 0/7"" c0/7""
+T13 o1 0/7"" c0/7""
+T1 o1 1/7"v" c0/7""
+T13 o0 0/7"" c0/7""
+T10 o1 0/7"" c0/7""
+T1 o1 1/7"s" c0/7""
+T10 o0 0/7"" c0/7""
+T11 o1 0/7"" c0/7""
+T1 o1 1/7"b" c0/7""
+T11 o0 0/7"" c0/7""
+T12 o1 0/7"" c0/7""
+T1 o1 1/7"v" c0/7""
+T12 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+dtor: 
+== page 23 (77 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m8 f m8 f m2 m28 m12 f m4 f m56 f m14 f m6 f m84 f m12 f m12 f m96 m8 f m8 f m2 m28 m16 f m96 m10 f m24 f m96 m10 f
+tags 6 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T5 o1 0/7"" c7/7"EXTRA=3" a3/3 2=1/7"a" 4=1/7"1" 1=1/7"2" v3 has16 gete618fdca
+T5 o1 0/7"" c0/7"" a1/1 2=1/7"b" v1 has4 getca85ceb2
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 1/7"b" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f
+dtor: 
+== page 24 (137 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m14 f m12 f m2 m28 m14 f m48 m48 f m4 f m48 m56 m48 f f m12 f f m6 f m84 m48 f f m14 f m8 f m112 m48 f f m10 f m12 f m168 m48 f f m10 f m12 f m96 m14 f m12 f m2 m28 m14 f m4 f m56 f m16 f m96 m10 f m24 f m96 m10 f
+tags 6 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T49 o1 0/7"" c0/7"" a6/6 5=6/7"Cancel" 1=16/23"bypass -h cancel" 6=2/7"60" 4=2/7"20" 2=1/7"b" 3=1/7"f" v6 has7e get78201c9e
+T49 o1 0/7"" c0/7"" a2/2 5=0/7"" 1=0/7"" v2 has22 get47bd8163
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f
+dtor: 
+== page 25 (48 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m48 m48 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 22/23"\x22quotes\x22 = equals > gt" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== page 26 (100 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m4 f m12 f m96 m16 f m96 m4 f m24 f m96 m4 f m14 f m2 m28 m96 m32 m32 f m36 f m96 m4 f m96 m4 f m96 m52 f m96 m4 f m96 m4 f m96 m32 m32 f m96 m4 f m76 f m96 m10 f m96 m10 f
+tags 16 room 19
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T14 o1 0/7"" c0/7""
+T1 o1 7/7"empty a" c0/7""
+T14 o0 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 1=0/7"" v1 has2 getdc9cdaca
+T1 o1 8/15"no value" c0/7""
+T14 o0 0/7"" c0/7""
+T14 o1 0/7"" c2/7"=x"
+T1 o1 7/7"no name" c0/7""
+T14 o0 0/7"" c0/7""
+T14 o1 0/7"" c4/7"=\x22q\x22"
+T1 o1 10/15"quote only" c0/7""
+T14 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 1/7"q" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f f f f
+dtor: 
+== page 27 (96 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m144 m144 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 34/71"Castle - at - is -; ;x ;y ;z <> &&" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== page 28 (304 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m48 m48 f m12 f m96 m6 f m16 f m96 m64 m64 f m24 f m96 m6 f m96 m4 f m14 f m64 m64 f m2 m64 m28 m64 f m36 f m96 m80 m80 f m96 m4 f m96 m6 f m52 f m96 m4 f m14 f m64 f m2 m64 m28 m64 f m96 m80 m80 f m96 m4 f m96 m6 f m76 f m96 m4 f m14 f m64 f m2 m64 m28 m64 f m96 m96 m4 f m96 m10 f m96 m10 f
+tags 19 room 19
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 17/23"Gatekeeper Roxxy:" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 27/31"Where would you like to go?" c0/7""
+T15 o1 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 1=31/31"bypass -h npc_%objectId%_goto 1" v1 has2 get66dda5d4
+T1 o1 34/39"The Village of Gludin - 7300 adena" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 1=31/31"bypass -h npc_%objectId%_goto 2" v1 has2 get58eca467
+T1 o1 35/39"Talking Island Village - 9400 adena" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 1=31/31"bypass -h npc_%objectId%_Chat 0" v1 has2 getaf0f693a
+T1 o1 5/7"Back." c0/7""
+T14 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 31/31"bypass -h npc_%objectId%_Chat 0" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+dtor: f
+== page 29 (460 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m10 f m12 f m96 m16 f m96 m6 f m24 f m96 m240 m32 m48 f m64 f m32 m80 f f m128 m128 f f m96 m6 f m36 f m96 m6 f m96 m12 f m12 f m2 m28 m96 m6 f m52 f m96 m6 f m12 f m2 m28 m96 m14 f m12 f m2 m28 m14 f m64 m64 f m4 f m64 m56 m64 f f m12 f f m6 f m84 m64 f f m14 f m8 f m112 m64 f f m10 f m32 m32 f m12 f m32 m168 m64 m32 f f f m10 f m32 f m32 m96 m6 f m96 m6 f m76 f m96 m14 f m12 f f m2 m28 m14 f m64 m64 f m4 f m64 m56 m64 f f m12 f f m6 f m84 m64 f f m14 f m8 f m112 m64 f f m10 f m32 m32 f m12 f m32 m168 m64 m32 f f f m10 f m32 f m32 m96 m6 f m96 m6 f m96 m12 f m96 m10 f m96 m10 f m112 f
+tags 20 room 28
+T43 o1 0/7"" c0/7""
+T45 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 7/7"Trader:" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 58/63"Please bring me 5 Wolf Pelts. I will give you 1,000 adena." c37/39"\x1eLEVEL\x1e5 Wolf Pelts\x1eLEVEL\x1e1,000 adena"
+T15 o1 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T40 o1 0/7"" c0/7"" a1/1 9=3/7"260" v1 has200 get04416194
+T41 o1 0/7"" c0/7""
+T42 o1 0/7"" c0/7"" a1/1 8=3/7"130" v1 has100 get23628010
+T49 o1 0/7"" c0/7"" a6/6 5=6/7"Accept" 1=27/31"bypass -h Quest Q001 accept" 6=2/7"80" 4=2/7"21" 2=10/15"sek.cbui94" 3=10/15"sek.cbui92" v6 has7e get16de492d
+T42 o0 0/7"" c0/7""
+T42 o1 0/7"" c0/7""
+T49 o1 0/7"" c0/7"" a6/6 5=7/7"Decline" 1=31/31"bypass -h npc_%objectId%_Chat 0" 6=2/7"80" 4=2/7"21" 2=10/15"sek.cbui94" 3=10/15"sek.cbui92" v6 has7e get1c6e3d78
+T42 o0 0/7"" c0/7""
+T41 o0 0/7"" c0/7""
+T40 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 10/15"sek.cbui92" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+dtor: f
+== page 30 (212 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m10 f m8 f m2 m28 m10 f m4 f m56 f m12 f m6 f m84 f m14 f m8 f m112 f m12 f m96 f m96 m10 f m8 f m2 m28 m10 f m32 m32 f m4 f m32 m56 m32 f f m16 f m96 f m96 m10 f m8 f f m2 m28 m10 f m4 f m56 f m24 f m96 f m96 m10 f m10 f m2 m28 m8 f m4 f m56 f m96 f m96 m18 m32 m32 f f m8 f f m2 m28 m10 f m32 m32 f m4 f m32 m56 m32 f f m8 f f m6 f m84 m32 f f m12 f m8 f m112 m32 f f m36 f m96 m10 f m96 m10 f
+tags 9 room 9
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T51 o1 0/7"" c0/7"" a4/4 4=6/7"amount" 3=6/7"number" 5=3/7"100" 2=2/7"15" v4 has3c get92836e13
+T51 o1 0/7"" c0/7"" a2/2 4=4/7"pass" 3=8/15"password" v2 has18 get1c035443
+T51 o1 0/7"" c0/7"" a2/2 4=1/7"d" 3=4/7"date" v2 has18 get8a3757af
+T51 o1 0/7"" c0/7"" a2/2 3=4/7"time" 4=1/7"t" v2 has18 get26d18a80
+T52 o1 0/7"" c0/7"" a4/4 3=1/7"c" 1=13/15"one;two;three" 2=3/7"two" 4=2/7"90" v4 has1e getd5cfbd7d
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 2/7"90" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f f f f f
+dtor: 
+== page 31 (195 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m4 f m14 f m176 m176 f m2 m176 m28 m176 f m12 f m96 m160 m160 f m16 f m96 m4 f m24 f m96 m10 f m96 m10 f m36 f
+tags 7 room 9
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T14 o1 0/7"" c0/7"" a1/1 1=80/87"bypass -h 0123456789012345678901234567890123456789012345678901234567890123456789" v1 has2 get252cbc2e
+T1 o1 72/79"0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz" c0/7""
+T14 o0 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 80/87"bypass -h 0123456789012345678901234567890123456789012345678901234567890123456789" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f
+dtor: f
+== page 32 (80 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m64 m32 m32 m32 f f f
+throws .?AVout_of_range@std@@ "invalid string position"
+error 0
+name 4/7"BODY" value 0/7"" extra 0/7"" u64 0/7""
+free: 
+dtor: 
+== page 33 (14 characters)
+ctor: 
+parse: m16 m96 m32 m32 m32 f f f
+throws .?AVout_of_range@std@@ "invalid string position"
+error 0
+name 0/7"" value 0/7"" extra 0/7"" u64 0/7""
+free: 
+dtor: 
+== page 34 (88 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m112 m32 m32 m48 f f m32 m32 f f f
+throws .?AVout_of_range@std@@ "invalid string position"
+error 0
+name 4/7"BODY" value 0/7"" extra 0/7"" u64 0/7""
+free: 
+dtor: 
+== long page (3706 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m96 m32 m32 f m48 m48 f f m12 f m96 m4 f m14 f m32 m32 f m2 m32 m28 m32 f m16 f m96 m24 f m96 m4 f m96 m6 f m36 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m52 f m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m76 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m112 f m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m168 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m252 f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m376 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m564 f m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m844 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 m112 m32 m32 f m48 m48 f f m96 m4 f m14 f m32 f m2 m32 m28 m32 f m96 m96 m4 f m96 m6 f m96 f m96 m10 f m96 m10 f
+tags 204 room 211
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 14/23"line 0 word0 &" c13/15"\x1e000000\x1eword0"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 0" v1 has2 getf12ed2c3
+T1 o1 6/7"link 0" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 14/23"line 1 word1 &" c13/15"\x1e0010E1\x1eword1"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 1" v1 has2 get2c7e3bc2
+T1 o1 6/7"link 1" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 14/23"line 2 word2 &" c13/15"\x1e0021C2\x1eword2"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 2" v1 has2 gete5d50651
+T1 o1 6/7"link 2" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 14/23"line 3 word3 &" c13/15"\x1e0032A3\x1eword3"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 3" v1 has2 get600cdcb0
+T1 o1 6/7"link 3" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 14/23"line 4 word4 &" c13/15"\x1e004384\x1eword4"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 4" v1 has2 getb97a9c47
+T1 o1 6/7"link 4" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 14/23"line 5 word5 &" c13/15"\x1e005465\x1eword5"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 5" v1 has2 get70ec7e46
+T1 o1 6/7"link 5" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 14/23"line 6 word6 &" c13/15"\x1e006546\x1eword6"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 6" v1 has2 get47af60d5
+T1 o1 6/7"link 6" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 14/23"line 7 word7 &" c13/15"\x1e007627\x1eword7"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 7" v1 has2 getc4e69c34
+T1 o1 6/7"link 7" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 14/23"line 8 word8 &" c13/15"\x1e008708\x1eword8"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 8" v1 has2 getce1ce3cb
+T1 o1 6/7"link 8" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 14/23"line 9 word9 &" c13/15"\x1e0097E9\x1eword9"
+T14 o1 0/7"" c0/7"" a1/1 1=13/15"bypass -h x 9" v1 has2 get5eec9cca
+T1 o1 6/7"link 9" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 10 word10 &" c14/15"\x1e00A8CA\x1eword10"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 10" v1 has2 get4c1b3790
+T1 o1 7/7"link 10" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 11 word11 &" c14/15"\x1e00B9AB\x1eword11"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 11" v1 has2 get74e673b1
+T1 o1 7/7"link 11" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 12 word12 &" c14/15"\x1e00CA8C\x1eword12"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 12" v1 has2 getc64361a2
+T1 o1 7/7"link 12" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 13 word13 &" c14/15"\x1e00DB6D\x1eword13"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 13" v1 has2 getb5292223
+T1 o1 7/7"link 13" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 14 word14 &" c14/15"\x1e00EC4E\x1eword14"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 14" v1 has2 get00106114
+T1 o1 7/7"link 14" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 15 word15 &" c14/15"\x1e00FD2F\x1eword15"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 15" v1 has2 get0fb05d35
+T1 o1 7/7"link 15" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 16 word16 &" c14/15"\x1e010E10\x1eword16"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 16" v1 has2 get513ff326
+T1 o1 7/7"link 16" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 17 word17 &" c14/15"\x1e011EF1\x1eword17"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 17" v1 has2 get0216a9a7
+T1 o1 7/7"link 17" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 18 word18 &" c14/15"\x1e012FD2\x1eword18"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 18" v1 has2 get3af4b598
+T1 o1 7/7"link 18" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 19 word19 &" c14/15"\x1e0140B3\x1eword19"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 19" v1 has2 getc054ef39
+T1 o1 7/7"link 19" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 20 word20 &" c14/15"\x1e015194\x1eword20"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 20" v1 has2 get52dcfbe9
+T1 o1 7/7"link 20" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 21 word21 &" c14/15"\x1e016275\x1eword21"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 21" v1 has2 getee53ac08
+T1 o1 7/7"link 21" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 22 word22 &" c14/15"\x1e017356\x1eword22"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 22" v1 has2 get417ec21b
+T1 o1 7/7"link 22" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 23 word23 &" c14/15"\x1e018437\x1eword23"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 23" v1 has2 getc944851a
+T1 o1 7/7"link 23" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 24 word24 &" c14/15"\x1e019518\x1eword24"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 24" v1 has2 get3ec2946d
+T1 o1 7/7"link 24" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 25 word25 &" c14/15"\x1e01A5F9\x1eword25"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 25" v1 has2 get70bc108c
+T1 o1 7/7"link 25" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 26 word26 &" c14/15"\x1e01B6DA\x1eword26"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 26" v1 has2 get5505a51f
+T1 o1 7/7"link 26" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 27 word27 &" c14/15"\x1e01C7BB\x1eword27"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 27" v1 has2 get8e89e61e
+T1 o1 7/7"link 27" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 28 word28 &" c14/15"\x1e01D89C\x1eword28"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 28" v1 has2 gete85862e1
+T1 o1 7/7"link 28" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 29 word29 &" c14/15"\x1e01E97D\x1eword29"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 29" v1 has2 get39cedf80
+T1 o1 7/7"link 29" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 30 word30 &" c14/15"\x1e01FA5E\x1eword30"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 30" v1 has2 getc986458a
+T1 o1 7/7"link 30" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 31 word31 &" c14/15"\x1e020B3F\x1eword31"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 31" v1 has2 get57d9ff8b
+T1 o1 7/7"link 31" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 32 word32 &" c14/15"\x1e021C20\x1eword32"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 32" v1 has2 get18af0178
+T1 o1 7/7"link 32" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 33 word33 &" c14/15"\x1e022D01\x1eword33"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 33" v1 has2 getf3e14099
+T1 o1 7/7"link 33" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 34 word34 &" c14/15"\x1e023DE2\x1eword34"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 34" v1 has2 getac7b420e
+T1 o1 7/7"link 34" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 35 word35 &" c14/15"\x1e024EC3\x1eword35"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 35" v1 has2 get1219880f
+T1 o1 7/7"link 35" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 36 word36 &" c14/15"\x1e025FA4\x1eword36"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 36" v1 has2 get385076fc
+T1 o1 7/7"link 36" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 37 word37 &" c14/15"\x1e027085\x1eword37"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 37" v1 has2 getb332499d
+T1 o1 7/7"link 37" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 38 word38 &" c14/15"\x1e028166\x1eword38"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 38" v1 has2 getfd49b482
+T1 o1 7/7"link 38" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T1 o1 16/23"line 39 word39 &" c14/15"\x1e029247\x1eword39"
+T14 o1 0/7"" c0/7"" a1/1 1=14/15"bypass -h x 39" v1 has2 getb3ef8b83
+T1 o1 7/7"link 39" c0/7""
+T14 o0 0/7"" c0/7""
+T15 o1 0/7"" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 14/15"bypass -h x 39" extra 0/7"" u64 0/7""
+free: f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f
+dtor: f
+== long macro &$ (300 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m1232 m1232 f m608 f m608 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 17/615"a Two words b ; c" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== long macro &$ (511 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m2080 m2080 f m1024 f m1024 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 17/1039"a Two words b ; c" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== long macro &% (300 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m1232 m1232 f m608 f m608 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 9/615"a - b ; c" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== long macro &% (511 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m2080 m2080 f m1024 f m1024 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 9/1039"a - b ; c" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== long macro &^ (300 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m1232 m1232 f m608 f m608 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 9/615"a - b ; c" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== long macro &^ (511 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m2080 m2080 f m1024 f m1024 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 9/1039"a - b ; c" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== long macro &* (300 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m1232 m1232 f m608 f m608 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 9/615"a - b ; c" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 
+== long macro &* (511 characters)
+ctor: 
+parse: m16 m96 m10 f m4 m96 m10 f m8 f m96 m2080 m2080 f m1024 f m1024 f m12 f m96 m10 f m16 f m96 m10 f m24 f
+tags 5 room 6
+T43 o1 0/7"" c0/7""
+T44 o1 0/7"" c0/7""
+T1 o1 9/1039"a - b ; c" c0/7""
+T44 o0 0/7"" c0/7""
+T43 o0 0/7"" c0/7""
+error 0
+name 4/7"HTML" value 0/7"" extra 0/7"" u64 0/7""
+free: f f f f f f f f
+dtor: 

@@ -1,0 +1,23 @@
+C1 NWindow: 5366 functions, 828777 bytes of 874960 in .text
+other     : 7117 functions, 1009593 bytes of 1069088 in .text
+
+Functions of the other build, by what our C1 source has for them:
+  0 crt / static init / thunks                1183 funcs    85394 bytes   8.5%
+  0 eh funclets                               1849 funcs    30283 bytes   3.0%
+  1 identical to a C1 function                1126 funcs    61454 bytes   6.1%
+  2 same shape (offsets/registers differ)     1455 funcs   203059 bytes  20.1%
+  3 >=90% similar                              420 funcs   205113 bytes  20.3%
+  4 75-90% similar                             400 funcs   186926 bytes  18.5%
+  5 50-75% similar                             281 funcs    98881 bytes   9.8%
+  6 <50% / no counterpart (new)                403 funcs   138483 bytes  13.7%
+
+C1 game functions (729500 bytes), by what the other build has for them:
+  identical           52090 bytes   7.1%
+  same shape         196605 bytes  27.0%
+  >=90% similar      185181 bytes  25.4%
+  75-90% similar     139101 bytes  19.1%
+  <75% / gone        156523 bytes  21.5%
+
+Classes: C1 178, other 225, in common 178, new 47, gone 0
+  sizeof changed: 174 of 178   vtable slot count changed: 177   parent changed: 0
+  new: N2WordWrapperWnd, NCAnnounceWnd, NCCalcEditCtrl, NCCalcWnd, NCCreditWnd, NCDynamicLinker, NCEmpowerWnd, NCEulaWnd, NCGMSnoopManager, NCGMSnoopWnd, NCGaraDialogBox, NCHennaInfoWnd, NCHennaListBox, NCHennaListWnd, NCKeyCryptWarningDialogBox, NCMSNWnd, NCMacroArrayWnd, NCMacroEditList, NCMacroEditWnd, NCMacroInfoWnd, NCMacroListWnd, NCManorShopItemWnd, NCManorShopWnd, NCObserverWnd, NCPetitionBeginWnd, NCRecipeBookItemWnd, NCRecipeBookWnd, NCRecipeBuyListWnd, NCRecipeBuyManufactureWnd, NCRecipeListBox, NCRecipeManufactureItemWnd, NCRecipeManufactureWnd, NCRecipeShopItemWnd, NCRecipeShopWnd, NCRecipeTree, NCRecipeTreeCtrl, NCRecipeTreeWnd, NCSliderCtrl, NCTVItem, NCThaiIME, NCThumbButton, NCTree, NCTreeCtrl, NCWarningDialogBox, NCXMasSealWnd, NSNSocket, NTownMapWnd

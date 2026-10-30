@@ -1,0 +1,7 @@
+*.sh text eol=lf
+*.gen.cpp -diff
+tests/golden/** text eol=lf
+db/verify_notes.csv merge=union
+db/verify_data_notes.csv merge=union
+db/names.csv merge=union
+db/demote.csv merge=union

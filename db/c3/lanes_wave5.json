@@ -1,0 +1,214 @@
+{
+ "bgm": {
+  "classes": [],
+  "files": [],
+  "functions": 0,
+  "bytes": 0,
+  "anonymous": []
+ },
+ "bobs": {
+  "classes": [],
+  "files": [],
+  "functions": 3,
+  "bytes": 356,
+  "anonymous": [
+   "10118040",
+   "10118050",
+   "10119328"
+  ]
+ },
+ "dlg": {
+  "classes": [],
+  "files": [],
+  "functions": 0,
+  "bytes": 0,
+  "anonymous": []
+ },
+ "chat": {
+  "classes": [
+   "ChatWnd",
+   "L2ChatWnd"
+  ],
+  "files": [
+   "include/nwindow/ChatWnd.h",
+   "include/nwindow/L2ChatWnd.h",
+   "src/nwindow/ChatWnd.cpp",
+   "src/nwindow/L2ChatWnd.cpp"
+  ],
+  "functions": 21,
+  "bytes": 4395,
+  "anonymous": [
+   "10061180",
+   "10061190",
+   "10119c20",
+   "1011b090",
+   "10126680",
+   "101266c0",
+   "10126700",
+   "10127100",
+   "101279c0",
+   "1012a740",
+   "1012a750",
+   "1012b150",
+   "1012c6b0",
+   "1012e3e0",
+   "1012e4d0",
+   "1012e6b0",
+   "1013c510",
+   "1013e850",
+   "1013fef0"
+  ]
+ },
+ "msn1": {
+  "classes": [
+   "DispatchProcess",
+   "MSNSocket",
+   "SwitchboardSession"
+  ],
+  "files": [
+   "include/nwindow/DispatchProcess.h",
+   "include/nwindow/MSNSocket.h",
+   "include/nwindow/SwitchboardSession.h",
+   "src/nwindow/DispatchProcess.cpp",
+   "src/nwindow/MSNSocket.cpp",
+   "src/nwindow/MsnLogin.cpp",
+   "src/nwindow/MsnSend.cpp",
+   "src/nwindow/SwitchboardSession.cpp"
+  ],
+  "functions": 50,
+  "bytes": 10757,
+  "anonymous": [
+   "10119b20",
+   "1011a010",
+   "1011a1c0",
+   "1011b2d0",
+   "1011b420",
+   "1011bd80",
+   "1011bec0",
+   "1011c000",
+   "1011c110",
+   "1011c210",
+   "1011ce80",
+   "1011d0c0",
+   "1011d1e0",
+   "1011d240",
+   "1011e530",
+   "1011e760",
+   "1011ea40",
+   "1011f1c0",
+   "1011f770",
+   "10124a10",
+   "10124b00",
+   "1012bf10",
+   "10130f70",
+   "10131540",
+   "101315a0",
+   "10134760",
+   "10134840",
+   "10135e90",
+   "10135f10",
+   "10136370",
+   "10136e30",
+   "10136f30",
+   "10136f90",
+   "101399c0",
+   "1013ac90",
+   "1013b070",
+   "1013b480",
+   "1013bb60",
+   "1013bc90",
+   "1013ffd0",
+   "10140150",
+   "10140340",
+   "10140820",
+   "10141440",
+   "10142170",
+   "10142780",
+   "101433d0"
+  ]
+ },
+ "msn2": {
+  "classes": [
+   "MsnWnd"
+  ],
+  "files": [
+   "include/nwindow/MsnWnd.h",
+   "src/nwindow/MsnWnd.cpp"
+  ],
+  "functions": 12,
+  "bytes": 2473,
+  "anonymous": [
+   "10119a90",
+   "10124fc0",
+   "10125ef0",
+   "10126240",
+   "1012dc70",
+   "10131600",
+   "10131650",
+   "10143ed0"
+  ]
+ },
+ "core": {
+  "classes": [
+   "(free)",
+   "MsnCommand",
+   "NCCmdTarget",
+   "NCPawnView_InvenTextWnd",
+   "NCPrivateBuyFrameCtrl",
+   "NCSliderBar",
+   "NConsoleWnd",
+   "NHtmlParser",
+   "NItemEntry",
+   "NMsnPassport",
+   "NotificationProcess"
+  ],
+  "files": [
+   "include/nwindow/MsnCommand.h",
+   "include/nwindow/NCSliderBar.h",
+   "include/nwindow/NConsoleWnd.h",
+   "include/nwindow/NotificationProcess.h",
+   "src/nwindow/MsnCommand.cpp",
+   "src/nwindow/NCItemWnd.cpp",
+   "src/nwindow/NCObject.cpp",
+   "src/nwindow/NCPawnViewrWnd.cpp",
+   "src/nwindow/NCPrivateBuyWnd.cpp",
+   "src/nwindow/NCSliderBar.cpp",
+   "src/nwindow/NChatMsg.cpp",
+   "src/nwindow/NConsoleWnd.cpp",
+   "src/nwindow/NConsoleWndActions.cpp",
+   "src/nwindow/NConsoleWndC2.cpp",
+   "src/nwindow/NConsoleWndData.cpp",
+   "src/nwindow/NConsoleWndEvents.cpp",
+   "src/nwindow/NConsoleWndInput.cpp",
+   "src/nwindow/NConsoleWndItems.cpp",
+   "src/nwindow/NConsoleWndLogin.cpp",
+   "src/nwindow/NConsoleWndMisc.cpp",
+   "src/nwindow/NConsoleWndNet.cpp",
+   "src/nwindow/NConsoleWndResize.cpp",
+   "src/nwindow/NConsoleWndText.cpp",
+   "src/nwindow/NConsoleWndWindows.cpp",
+   "src/nwindow/NHtmlParser.cpp",
+   "src/nwindow/NotificationProcess.cpp"
+  ],
+  "functions": 36,
+  "bytes": 7816,
+  "anonymous": [
+   "1000bcd7",
+   "100113af",
+   "100344c2",
+   "10037fd7",
+   "1005cbd3",
+   "1005cc93",
+   "1005cd56",
+   "1005e3b3",
+   "100db750",
+   "100db7b0",
+   "100dbee0",
+   "10136ca0",
+   "10138b50",
+   "10138f50",
+   "10139650",
+   "1013bb30"
+  ]
+ }
+}

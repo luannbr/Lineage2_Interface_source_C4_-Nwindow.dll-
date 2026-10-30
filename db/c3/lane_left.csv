@@ -1,0 +1,111 @@
+va,kind,name,size,class,why
+10001410,anon,sub_10001410,44,,NCPartyStatusWnd
+10001790,named,appMemcpy,79,,
+10001b00,named,NCPawnView_InvenTextWnd::ShowWindow,1,NCPawnView_InvenTextWnd,
+10001b10,named,NCCmdTarget::OnTimer,5,NCCmdTarget,
+10003310,named,NCCandidateBox::vfn069,11,NCCandidateBox,
+10003320,named,NCCandidateBox::vfn070,11,NCCandidateBox,
+10004540,anon,sub_10004540,142,,NCChineseIME
+10004f20,anon,sub_10004f20,44,,NCFrameCtrl
+100076c0,anon,sub_100076c0,43,,NCGaraDialogBox
+1000bd60,named,NCMacroListWnd::OnLButtonDown,8,NCMacroListWnd,
+1000f820,anon,sub_1000f820,23,,NCShortCutWnd
+10011320,named,new,93,,
+10015580,named,NCThaiIME::Activate,5,NCThaiIME,
+1001cb60,anon,sub_1001cb60,13,,shared: NCManorShopWnd::UpdateLayout;NCPrivateShopWnd::Updat
+10029a80,anon,sub_10029a80,185,,shared: NCListBox::OnCreate;NCListCtrl::InitScrollBar;NCMult
+1002a430,named,TRadioButtonArray::TRadioButtonArray,134,TRadioButtonArray,
+1002aab0,anon,sub_1002aab0,35,,NCChatWnd
+1002d7f0,anon,sub_1002d7f0,75,,NCTargetStatusWnd
+1002f4f0,anon,sub_1002f4f0,94,,NConsoleWnd
+100300d0,named,NAmountColor,137,,
+10030b70,anon,sub_10030b70,37,,NCWnd
+100318e0,anon,sub_100318e0,61,,shared: NCTVItem::DeleteChildItem;NCVirtualWndMain::PopFocus
+100370d0,anon,sub_100370d0,118,,shared: NCEquipItemWnd::RemoveItem;NCInvenItemWnd::OnLButton
+10041790,named,NCComboBox::OnPaint,1175,NCComboBox,
+10046190,named,ExpandSystemMsgCode,446,,
+10047400,named,NItemInfo::NItemInfo,305,NItemInfo,
+10048860,named,NCPledgeWnd::vfn080,189,NCPledgeWnd,
+10048920,named,NCPledgeWnd::vfn081,141,NCPledgeWnd,
+100565a0,anon,sub_100565a0,144,,shared: NCMainWnd::ShowWindow;NConsoleWnd::DeleteAllPledgeMe
+1005a470,named,HasNoFinalConsonant,54,,
+1005d490,anon,sub_1005d490,19,,NCGaraDialogBox
+1005ff80,named,NFormatThousands,164,,
+10060400,anon,sub_10060400,498,,shared: NCPartyRoomWnd::GetClassIcon;NCPartyStatusWnd::Updat
+10061060,anon,sub_10061060,110,,NConsoleWnd
+100610d0,anon,sub_100610d0,103,,shared: sub_1015f6b0
+10061ea0,anon,sub_10061ea0,14,,shared: NCChatWnd::ProcessChatLine;NConsoleWnd::UseAction
+10061ec0,anon,sub_10061ec0,14,,NCPartyRoomMakingWnd
+10061ed0,anon,sub_10061ed0,14,,shared: NCMatchListCtrl::OnLButtonDblClick;NCMatchWnd::OnJoi
+10061ee0,anon,sub_10061ee0,14,,NCPartyRoomWnd
+10061ef0,anon,sub_10061ef0,14,,NCPartyRoomWnd
+10061f00,anon,sub_10061f00,14,,NCPartyRoomWnd
+10061f10,anon,sub_10061f10,299,,shared: NCMatchWnd::SetList;NCPartyRoomWnd::OnPaint;NCPartyR
+10062070,anon,sub_10062070,126,,NCPartyRoomWnd
+1006a5d0,anon,sub_1006a5d0,128,,NToolTipInfo
+1006a670,anon,sub_1006a670,128,,NToolTipInfo
+1006b6c0,anon,sub_1006b6c0,49,,shared: NCActionItemListWnd::LoadActions;NCInvenItemWnd::OnL
+100725f0,anon,sub_100725f0,46,,NCGaraDialogBox
+10073b90,anon,sub_10073b90,45,,NCTargetStatusWnd
+10075620,anon,sub_10075620,5,,NConsoleWnd
+10075630,anon,sub_10075630,13,,shared: GCoolTimeEndTextures`dynamic initializer';GCoolTimeT
+10084fa0,named,NCGMQuestWnd::NCGMQuestWnd,38,NCGMQuestWnd,
+10085000,named,NCGMQuestWnd::~NCGMQuestWnd,96,NCGMQuestWnd,
+10086c50,named,NCRecipeListWnd::OnPaint,369,NCRecipeListWnd,
+10088870,anon,sub_10088870,13,,shared: NCDeliverWnd::OnCreate;NCInventoryWnd::SetEnchantMod
+1008e960,anon,sub_1008e960,90,,shared: NCLobbyFunctionWnd::OnDelCharacterBtnClick;NCLobbyFu
+10093db0,named,NCTrainListBox::HitTest,217,NCTrainListBox,
+1009ae80,anon,sub_1009ae80,19,,NToolTipInfo
+1009aea0,named,NMacroEntry::Deselect,11,NMacroEntry,
+100a28d0,anon,sub_100a28d0,13,,shared: NCManorShopWnd::OnCreate;NCPrivateBuyWnd::SetMode;NC
+100abe30,anon,sub_100abe30,27,,NCMinimapWnd
+100ac600,anon,sub_100ac600,47,,NCMinimapWnd
+100b09d0,named,NCNoticeInfoWnd::OnCreate,33,NCNoticeInfoWnd,
+100b0a00,named,NCNoticeInfoWnd::OnDestroy,67,NCNoticeInfoWnd,
+100b0a80,named,NCNoticeInfoWnd::SetText,33,NCNoticeInfoWnd,
+100b0ab0,named,NCNoticeInfoWnd::ClearText,10,NCNoticeInfoWnd,
+100b0dc0,named,NCNoticeInfoWnd::OnPaint,399,NCNoticeInfoWnd,
+100b17e0,named,NCNoticeInfoWnd::NCNoticeInfoWnd,37,NCNoticeInfoWnd,
+100b1840,named,NCNoticeInfoWnd::~NCNoticeInfoWnd,80,NCNoticeInfoWnd,
+100b2590,anon,sub_100b2590,54,,NCNpcView_CharacterSelectWnd
+100d0940,named,NCChatListBox::OnPaint,364,NCChatListBox,
+100d66d0,named,NCPrivateBuyFrameCtrl::NCPrivateBuyFrameCtrl,18,NCPrivateBuyFrameCtrl,
+100db5d0,anon,sub_100db5d0,56,,shared: NCConsole::Reset;NCGMQuestWnd::OnDestroy;NCQuestGara
+100de910,anon,sub_100de910,13,,shared: NCManorShopWnd::SetMode;NCPrivateBuyWnd::OnCreate;NC
+100e26a0,named,NCRecipeGaraTree::OnCreate,105,NCRecipeGaraTree,
+100e2710,named,NCRecipeGaraTree::OnDestroy,11,NCRecipeGaraTree,
+100e38e0,named,NCRecipeGaraTree::OnPaint,191,NCRecipeGaraTree,
+100e39d0,named,NCRecipeGaraTree::vfn072,760,NCRecipeGaraTree,
+100e3cd0,named,NCRecipeGaraTreeCtrl::OnPaint,187,NCRecipeGaraTreeCtrl,
+100e3dc0,named,NCRecipeGaraTreeCtrl::vfn072,143,NCRecipeGaraTreeCtrl,
+100e3e50,named,NCRecipeGaraTreeCtrl::OnScrollBar,125,NCRecipeGaraTreeCtrl,
+100e4550,named,NCRecipeGaraTreeCtrl::AddRecipe,765,NCRecipeGaraTreeCtrl,
+100e5960,named,NCRecipeGaraTree::NCRecipeGaraTree,18,NCRecipeGaraTree,
+100e59b0,named,NCRecipeGaraTree::~NCRecipeGaraTree,80,NCRecipeGaraTree,
+100e5a00,named,NCRecipeGaraTreeCtrl::NCRecipeGaraTreeCtrl,28,NCRecipeGaraTreeCtrl,
+100e5a50,named,NCRecipeGaraTreeCtrl::~NCRecipeGaraTreeCtrl,80,NCRecipeGaraTreeCtrl,
+100e5aa0,named,NCRecipeGaraTreeCtrl::OnCreate,192,NCRecipeGaraTreeCtrl,
+100e6dc0,named,NCLoginWnd::OnPaint,386,NCLoginWnd,
+100e7030,named,NCLoginWnd::OnPaint,516,NCLoginWnd,
+100e9630,named,NCMainWnd::OnDestroy,243,NCMainWnd,
+100fa370,anon,sub_100fa370,45,,NCPlayerStatusWnd
+100fad60,anon,sub_100fad60,226,,NCPartyStatusWnd
+100fb7c0,anon,sub_100fb7c0,186,,NCPlayerStatusWnd
+100ff4b0,anon,sub_100ff4b0,92,,NCPlayerStatusWnd
+101025e0,anon,sub_101025e0,297,,NCPlayerStatusWnd
+10102c50,anon,sub_10102c50,23,,NCConsole
+1010b020,named,NCXMasSealWnd::OnDestroy,67,NCXMasSealWnd,
+1010b0a0,named,NCXMasSealWnd::OnPaint,206,NCXMasSealWnd,
+1010b170,named,NCXMasSealWnd::OnCreate,185,NCXMasSealWnd,
+1010b230,named,NCXMasSealWnd::SetItem,60,NCXMasSealWnd,
+1010b270,named,NCXMasSealWnd::NCXMasSealWnd,32,NCXMasSealWnd,
+1010b2c0,named,NCXMasSealWnd::~NCXMasSealWnd,80,NCXMasSealWnd,
+1010dd50,anon,sub_1010dd50,955,,NConsoleWnd
+1010e110,anon,sub_1010e110,675,,NConsoleWnd
+1011b200,anon,sub_1011b200,28,,shared: NCInvenItemWnd::OnLButtonUp;NCMSView_InvenItemWnd::O
+1012b460,anon,sub_1012b460,69,,shared: NCEquipItemWnd::OnLButtonUp;NCInvenItemWnd::OnLButto
+1012f080,named,NCCmdTarget::SetStyle,3,NCCmdTarget,
+101345d0,anon,sub_101345d0,63,,NCChatWnd
+10136ca0,anon,sub_10136ca0,383,,NCConsole
+10138b50,anon,sub_10138b50,345,,NCConsole
+10139650,anon,sub_10139650,26,,NCConsole

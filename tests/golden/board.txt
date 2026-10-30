@@ -1,0 +1,121 @@
+== fields
+"": rest 0 field unset
+"\x08": rest 1 field unset
+"\x08\x08": rest 2 field unset
+"a": rest 1 field "a"
+"a\x08b": rest 2 field "a"
+"\x08\x08a\x08\x08b\x08": rest 4 field "a"
+"key\x08value with spaces\x08": rest 4 field "key"
+"1\x08<html>x</html>": rest 2 field "1"
+== pieces
+piece 0 "<html><body>direct page</body></html>"
+  LoadHtml "<html><body>direct page</body></html>"
+  kind 0 locked 0 post 0 form 0 parts 0
+  edit box 0/0"(null)" []
+piece 1 "1\x08<html>x<!--TITLE--> by <!--CHAR_NAME--> #<!--BID--> <!--CO"
+  kind 0 locked 1 post 1 form 0 parts 0
+  post1 "<html>x<!--TITLE--> by <!--CHAR_NAME--> #<!--BID--> <!--COMMENT--> | <!--THREAD-"
+  edit box 0/0"(null)" []
+piece 2 "2\x08R1\x08T2\x08B3\x08S4\x08P5\x08C6\x08NAME\x08A8\x08AN9\x08W10\x08TITLE\x08CONTENT\x08D13\x08M14\x08RC"
+  kind 0 locked 1 post 2 form 0 parts 0
+  post1 "<html>x<!--TITLE--> by <!--CHAR_NAME--> #<!--BID--> <!--COMMENT--> | <!--THREAD-"
+  post2 "R1\x08T2\x08B3\x08S4\x08P5\x08C6\x08NAME\x08A8\x08AN9\x08W10\x08TITLE\x08CONTENT\x08D13\x08M14\x08RC15\x08ST16\x08IP17"
+  edit box 0/0"(null)" []
+piece 3 "3\x08<comments>"
+  kind 0 locked 1 post 3 form 0 parts 0
+  post1 "<html>x<!--TITLE--> by <!--CHAR_NAME--> #<!--BID--> <!--COMMENT--> | <!--THREAD-"
+  post2 "R1\x08T2\x08B3\x08S4\x08P5\x08C6\x08NAME\x08A8\x08AN9\x08W10\x08TITLE\x08CONTENT\x08D13\x08M14\x08RC15\x08ST16\x08IP17"
+  post3 "<comments>"
+  edit box 0/0"(null)" []
+piece 4 "4\x08<thread>"
+  LoadHtml "<html>xTITLE by NAME #B3 <comments> | <thread> R1 IP17 ST16</html>"
+  kind 2 locked 0 post 0 form 0 parts 0
+  edit box 0/0"(null)" [m272 f]
+piece 5 "1\x08<!--ROOT_BID--> at start <!--BID--><!--BID--> <!--CHAR_ID-"
+  kind 2 locked 1 post 1 form 0 parts 0
+  post1 "<!--ROOT_BID--> at start <!--BID--><!--BID--> <!--CHAR_ID-->"
+  edit box 0/0"(null)" []
+piece 6 "2\x08only\x08two"
+  kind 2 locked 1 post 2 form 0 parts 0
+  post1 "<!--ROOT_BID--> at start <!--BID--><!--BID--> <!--CHAR_ID-->"
+  post2 "only\x08two"
+  edit box 0/0"(null)" []
+piece 7 "3\x08"
+  kind 2 locked 1 post 3 form 0 parts 0
+  post1 "<!--ROOT_BID--> at start <!--BID--><!--BID--> <!--CHAR_ID-->"
+  post2 "only\x08two"
+  edit box 0/0"(null)" []
+piece 8 "4\x08t"
+  LoadHtml "<!--ROOT_BID--> at start two<!--BID--> two"
+  kind 2 locked 0 post 0 form 0 parts 0
+  edit box 0/0"(null)" [m128 f]
+piece 9 "1001\x08<html><edit var=title><multiedit var=content><!--BID-->"
+  kind 2 locked 1 post 0 form 1 parts 0
+  form1 "<html><edit var=title><multiedit var=content><!--BID--> <!--TITLE--> <!--CONTENT"
+  edit box 0/0"(null)" []
+piece 10 "1002\x081\x082\x0833\x084\x085\x086\x08NN\x088\x089\x0810\x08The title\x08 \x0813"
+  LoadHtml "<html><edit var=title><multiedit var=content>33 <!--TITLE--> <!--CONTENT--> NN</html>"
+  kind 3 locked 0 post 0 form 0 parts 0
+  edit box 10/45"The title" [m224 r90 f]
+piece 11 "101\x08part one "
+  kind 3 locked 1 post 0 form 0 parts 1
+  part1 "part one "
+  edit box 10/45"The title" []
+piece 12 "102\x08"
+  kind 3 locked 1 post 0 form 0 parts 2
+  part1 "part one "
+  edit box 10/45"The title" []
+piece 13 "103\x08part three"
+  LoadHtml "part one part three"
+  kind 1 locked 0 post 0 form 0 parts 0
+  edit box 10/45"The title" []
+piece 14 "5\x08unknown key"
+  kind 1 locked 1 post 0 form 0 parts 0
+  edit box 10/45"The title" []
+piece 15 "101\x08P1"
+  kind 1 locked 1 post 0 form 0 parts 1
+  part1 "P1"
+  edit box 10/45"The title" []
+piece 16 "102\x08P2"
+  kind 1 locked 1 post 0 form 0 parts 2
+  part1 "P1"
+  part2 "P2"
+  edit box 10/45"The title" []
+piece 17 "103\x08P3"
+  LoadHtml "P1P2P3"
+  kind 1 locked 0 post 0 form 0 parts 0
+  edit box 10/45"The title" []
+piece 18 "1001\x08<!--TITLE-->:<!--CONTENT-->"
+  kind 1 locked 1 post 0 form 1 parts 0
+  form1 "<!--TITLE-->:<!--CONTENT-->"
+  edit box 10/45"The title" []
+piece 19 "1002\x08x\x08\x08"
+  LoadHtml "<!--TITLE-->:<!--CONTENT-->"
+  kind 3 locked 0 post 0 form 0 parts 0
+  edit box 11/45"The titlex" [m64 f]
+piece 20 ""
+  kind 3 locked 1 post 0 form 0 parts 0
+  edit box 11/45"The titlex" []
+piece 21 "\x08"
+  kind 3 locked 1 post 0 form 0 parts 0
+  edit box 11/45"The titlex" []
+piece 22 "\x08\x08\x08"
+  kind 3 locked 1 post 0 form 0 parts 0
+  edit box 11/45"The titlex" []
+== board window
+  button 0 enabled 1
+  button 1 enabled 0
+  button 2 enabled 1
+  button 3 enabled 1
+  button 4 enabled 0
+  button 5 enabled 1
+locked 0
+  command 0 "bypass _bbshome"
+  command 1 ""
+  command 2 "bypass _bbsclan"
+  command 3 "x"
+  command 4 ""
+  command 5 "bypass _bbsmemo"
+  LoadHtml "<html>via the window</html>"
+  kind 0 locked 0 post 0 form 0 parts 0
+allocs []

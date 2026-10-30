@@ -1,0 +1,6 @@
+# Methods whose signature (argument types) changed in this client although the name and the slot stayed: a body
+# copied from the base client that calls one of them passes the old argument types. tools/port/gen.py makes such a
+# unit a stub (the stock function runs); a function ported by hand fixes the call and removes the name here.
+# A method with its new declaration in db/decl_manual.csv needs no entry: the copied calls are checked against it.
+method,reason
+SetFilter,"NCChatFilterWnd::SetFilter pops 0x34 bytes in C4 (0x2C in C3): two more arguments; a body that calls it stays a stub"
